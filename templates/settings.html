@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>PeerUp · Settings</title>
+  <style>
+    body {
+      margin: 0; font-family: Georgia, "Times New Roman", serif;
+      background: #f6f5f1; color: #1f1f1f;
+    }
+    header {
+      padding: 14px 20px; border-bottom: 1px solid #e2ddd0;
+      background: #fff; display: flex; align-items: center; gap: 14px;
+    }
+    header h1 { margin: 0; font-size: 18px; font-weight: 600; }
+    .meta { color: #6b6b6b; font-size: 13px; }
+    .container {
+      max-width: 720px; margin: 30px auto; padding: 24px;
+      background: #fff; border: 1px solid #e2ddd0; border-radius: 8px;
+    }
+    h2 { margin-top: 0; font-size: 16px; }
+    .section + .section { margin-top: 36px; padding-top: 24px; border-top: 1px solid #e2ddd0; }
+    label { display: block; margin: 12px 0 4px; font-size: 13px; color: #6b6b6b; }
+    input[type=text], input[type=password], select {
+      width: 100%; padding: 9px 11px;
+      border: 1px solid #e2ddd0; border-radius: 4px;
+      font-family: ui-monospace, monospace; font-size: 13px;
+    }
+    button {
+      background: #c2643b; color: white; border: none;
+      padding: 9px 16px; border-radius: 4px; font-size: 13px;
+      cursor: pointer; margin-top: 14px; font-family: inherit;
+    }
+    button.danger { background: #a83838; margin-left: 8px; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    .status {
+      margin-top: 14px; padding: 10px; border-radius: 4px;
+      font-size: 13px; font-family: ui-monospace, monospace;
+    }
+    .status.ok { background: #e6f4e6; color: #2a7a3a; border: 1px solid #b8d8b8; }
+    .status.err { background: #fbeaea; color: #a83838; border: 1px solid #d8b8b8; }
+    .info {
+      background: #fdf6ed; border: 1px solid #e8d3a8;
+      padding: 12px; border-radius: 4px; font-size: 13px; line-height: 1.5;
+      margin-top: 12px;
+    }
+    .info code, code {
+      background: rgba(0,0,0,0.06); padding: 1px 5px; border-radius: 3px;
+      font-size: 12px; font-family: ui-monospace, monospace;
+    }
+    .badge {
+      display: inline-block; padding: 2px 8px; border-radius: 10px;
+      font-size: 11px; font-family: ui-monospace, monospace;
+    }
+    .badge.on { background: #e6f4e6; color: #2a7a3a; }
+    .badge.off { background: #fbeaea; color: #a83838; }
+    .row { display: flex; align-items: center; gap: 10px; margin: 6px 0; font-size: 13px; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>PeerUp · Settings</h1>
+  <span class="meta">configure backends</span>
+  <a href="/" style="margin-left:auto; color:#c2643b; text-decoration:none; font-size:13px;">← chat</a>
+  <a href="/evals" style="color:#c2643b; text-decoration:none; font-size:13px; margin-left:14px;">evals</a>
+</header>
+
+<div class="container">
+
+  <div class="section">
+    <h2>Stored memory</h2>
+    <p class="meta" style="margin: 0;">
+      Wipes all per-user cross-session memory files and all in-session rolling summaries.
+      Use this between test runs to start clean. Backend credentials are NOT touched.
+    </p>
+    <button id="clear-memory-btn" class="danger" style="margin-left: 0;">Clear all memory</button>
+    <div id="clear-memory-result" class="status" style="display:none;"></div>
+  </div>
+
+  <div class="section">
+    <h2>Backend availability</h2>
+    <div class="row"><span style="width:160px;">Claude CLI (subscription):</span><span id="cli-status" class="badge">checking…</span></div>
+    <div class="row"><span style="width:160px;">Anthropic API key:</span><span id="api-status" class="badge">checking…</span><span id="api-mask" class="meta" style="font-family:ui-monospace,monospace;"></span></div>
+    <div class="row"><span style="width:160px;">AWS Bedrock:</span><span id="bedrock-status" class="badge">checking…</span><span id="bedrock-mask" class="meta" style="font-family:ui-monospace,monospace;"></span></div>
+  </div>
+
+  <div class="section">
+    <h2>Anthropic API key</h2>
+    <p class="meta" style="margin: 0;">Real Anthropic key (starts with <code>sk-ant-…</code>). Saved to <code>.env</code>; verified with a 4-token test call.</p>
+    <label>API key</label>
+    <input id="api-key" type="password" placeholder="sk-ant-api03-…" autocomplete="off" />
+    <button id="save-api-btn">Save & verify</button>
+    <button id="clear-api-btn" class="danger">Clear</button>
+    <div id="api-result" class="status" style="display:none;"></div>
+  </div>
+
+  <div class="section">
+    <h2>External design URL</h2>
+    <p class="meta" style="margin: 0;">
+      URL the <b>🎨 Design</b> button on the chat page opens. Leave blank to hide the button.
+      Currently defaults to your Claude Design preview.
+    </p>
+    <label>Design URL</label>
+    <input id="design-url" type="text" placeholder="https://claude.ai/design/p/…" />
+    <div style="display:flex; gap:8px;">
+      <button id="save-design-url-btn">Save URL</button>
+      <button id="clear-design-url-btn" class="danger">Clear</button>
+    </div>
+    <div id="design-url-result" class="status" style="display:none;"></div>
+  </div>
+
+  <div class="section">
+    <h2>Miss Maya video avatar</h2>
+    <p class="meta" style="margin: 0;">
+      Looping video shown in the chat header — plays only when Maya is actively speaking
+      (synced to TTS audio events), pauses to first frame otherwise.
+      Accepts <code>http(s)://…</code> for remote, <code>/static/…</code> for files
+      served by this app, or any <code>/</code>-prefixed local path. Default:
+      <code>/static/peerup/maya.mp4</code>. To use a custom file, drop it under
+      <code>static/</code> in the project (e.g. <code>static/my-maya.mp4</code>) and
+      paste the path below.
+    </p>
+    <label>Video URL or path</label>
+    <input id="maya-video-url" type="text" placeholder="/static/peerup/maya.mp4" />
+    <div style="display:flex; gap:8px;">
+      <button id="save-maya-video-btn">Save path</button>
+      <button id="clear-maya-video-btn" class="danger">Reset to default</button>
+    </div>
+    <div id="maya-video-result" class="status" style="display:none;"></div>
+  </div>
+
+  <div class="section">
+    <h2>AWS Bedrock</h2>
+    <p class="meta" style="margin: 0;">
+      Two ways to authenticate. Use <strong>either</strong> the bearer token <strong>or</strong> the IAM credentials path — not both.
+    </p>
+
+    <div class="info">
+      <strong>About the <code>bedrock-api-key-…</code> token you have:</strong> that's an AWS Bedrock API key. It's actually a presigned URL packaged as a bearer token; the Anthropic SDK passes it via the <code>AWS_BEARER_TOKEN_BEDROCK</code> env var. <strong>Heads up:</strong> these tokens expire (yours has <code>X-Amz-Expires=43200</code> = 12 hours). After expiry you'll need to refresh it, or switch to the IAM credentials path below for stable auth.
+    </div>
+
+    <label>Bedrock API key (bearer token)</label>
+    <input id="bedrock-bearer" type="password" placeholder="bedrock-api-key-…" autocomplete="off" />
+
+    <label style="margin-top:18px;">— or — IAM credentials</label>
+    <div class="grid2">
+      <div>
+        <label>AWS_ACCESS_KEY_ID</label>
+        <input id="aws-access" type="password" placeholder="AKIA…" autocomplete="off" />
+      </div>
+      <div>
+        <label>AWS_SECRET_ACCESS_KEY</label>
+        <input id="aws-secret" type="password" autocomplete="off" />
+      </div>
+    </div>
+    <label>AWS_SESSION_TOKEN <span class="meta">(only for temporary credentials)</span></label>
+    <input id="aws-session" type="password" autocomplete="off" />
+
+    <div class="grid2" style="margin-top:6px;">
+      <div>
+        <label>AWS region</label>
+        <input id="aws-region" type="text" placeholder="ap-south-1" />
+      </div>
+      <div>
+        <label>Verify with model</label>
+        <select id="bedrock-test-model"></select>
+      </div>
+    </div>
+
+    <button id="save-bedrock-btn">Save & verify</button>
+    <button id="clear-bedrock-btn" class="danger">Clear all Bedrock vars</button>
+    <div id="bedrock-result" class="status" style="display:none;"></div>
+  </div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+
+async function loadStatus() {
+  const r = await fetch("/api/settings");
+  const d = await r.json();
+
+  $("cli-status").textContent = d.cli_available ? "available" : "not found";
+  $("cli-status").className = "badge " + (d.cli_available ? "on" : "off");
+
+  $("api-status").textContent = d.api_key_configured ? "configured" : "not set";
+  $("api-status").className = "badge " + (d.api_key_configured ? "on" : "off");
+  $("api-mask").textContent = d.api_key_masked || "";
+
+  let bedrockLabel = "not set";
+  if (d.bedrock_configured) {
+    bedrockLabel = d.bedrock_token_masked
+      ? `bearer token (${d.aws_region})`
+      : `IAM creds (${d.aws_region})`;
+  }
+  $("bedrock-status").textContent = bedrockLabel;
+  $("bedrock-status").className = "badge " + (d.bedrock_configured ? "on" : "off");
+  $("bedrock-mask").textContent = d.bedrock_token_masked || "";
+
+  $("aws-region").value = d.aws_region || "ap-south-1";
+  $("design-url").value = d.design_url || "";
+  $("maya-video-url").value = d.maya_video_url || "";
+
+  const sel = $("bedrock-test-model");
+  sel.innerHTML = "";
+  d.available_models.bedrock.forEach(m => {
+    const opt = document.createElement("option");
+    opt.value = m; opt.textContent = m;
+    if (m === d.bedrock_default_model) opt.selected = true;
+    sel.appendChild(opt);
+  });
+}
+
+async function callSettings(payload, resultEl, btn, label) {
+  btn.disabled = true;
+  const orig = btn.textContent;
+  btn.textContent = "Saving & verifying…";
+  resultEl.style.display = "none";
+  try {
+    const r = await fetch("/api/settings", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    const d = await r.json();
+    resultEl.style.display = "block";
+    if (d.ok) {
+      resultEl.className = "status ok";
+      resultEl.textContent = `✓ ${label} — ` + (d.saved || d.cleared || "ok");
+      loadStatus();
+    } else {
+      resultEl.className = "status err";
+      resultEl.textContent = "✗ " + (d.error || "Unknown error");
+    }
+  } finally {
+    btn.disabled = false;
+    btn.textContent = orig;
+  }
+}
+
+$("save-api-btn").onclick = () => {
+  const key = $("api-key").value.trim();
+  if (!key) return;
+  callSettings({ action: "save_api_key", api_key: key }, $("api-result"), $("save-api-btn"), "API key saved & verified")
+    .then(() => { $("api-key").value = ""; });
+};
+$("clear-api-btn").onclick = () => {
+  if (!confirm("Remove the saved Anthropic API key?")) return;
+  callSettings({ action: "clear_api_key" }, $("api-result"), $("clear-api-btn"), "API key cleared");
+};
+
+$("save-design-url-btn").onclick = () => {
+  const url = $("design-url").value.trim();
+  callSettings({ action: "save_design_url", url }, $("design-url-result"), $("save-design-url-btn"), "Design URL saved");
+};
+$("clear-design-url-btn").onclick = () => {
+  if (!confirm("Clear the design URL? The 🎨 Design button on the chat page will hide.")) return;
+  callSettings({ action: "save_design_url", url: "" }, $("design-url-result"), $("clear-design-url-btn"), "Design URL cleared")
+    .then(() => { $("design-url").value = ""; });
+};
+
+$("save-maya-video-btn").onclick = () => {
+  const url = $("maya-video-url").value.trim();
+  callSettings({ action: "save_maya_video_url", url }, $("maya-video-result"), $("save-maya-video-btn"), "Maya video path saved");
+};
+$("clear-maya-video-btn").onclick = () => {
+  callSettings({ action: "save_maya_video_url", url: "" }, $("maya-video-result"), $("clear-maya-video-btn"), "Maya video reset to default")
+    .then(() => loadStatus());
+};
+
+$("save-bedrock-btn").onclick = () => {
+  const payload = {
+    action: "save_bedrock",
+    bearer_token: $("bedrock-bearer").value.trim(),
+    aws_access_key_id: $("aws-access").value.trim(),
+    aws_secret_access_key: $("aws-secret").value.trim(),
+    aws_session_token: $("aws-session").value.trim(),
+    aws_region: $("aws-region").value.trim(),
+    test_model: $("bedrock-test-model").value,
+  };
+  callSettings(payload, $("bedrock-result"), $("save-bedrock-btn"), "Bedrock credentials saved & verified")
+    .then(() => {
+      ["bedrock-bearer", "aws-access", "aws-secret", "aws-session"].forEach(id => $(id).value = "");
+    });
+};
+$("clear-bedrock-btn").onclick = () => {
+  if (!confirm("Remove all Bedrock credentials from .env?")) return;
+  callSettings({ action: "clear_bedrock" }, $("bedrock-result"), $("clear-bedrock-btn"), "Bedrock vars cleared");
+};
+
+$("clear-memory-btn").onclick = async () => {
+  if (!confirm("Wipe all stored memory? This deletes every cross-session memory file and every in-session summary. Cannot be undone.")) return;
+  $("clear-memory-btn").disabled = true;
+  const orig = $("clear-memory-btn").textContent;
+  $("clear-memory-btn").textContent = "Clearing…";
+  try {
+    const r = await fetch("/api/clear_memory", { method: "POST" });
+    const d = await r.json();
+    const el = $("clear-memory-result");
+    el.style.display = "block";
+    el.className = "status ok";
+    el.textContent = `✓ Cleared ${d.cross_session_files_deleted} cross-session memory file(s) and ${d.in_session_files_deleted} in-session summary file(s).`;
+  } catch (e) {
+    const el = $("clear-memory-result");
+    el.style.display = "block";
+    el.className = "status err";
+    el.textContent = "✗ " + e.message;
+  } finally {
+    $("clear-memory-btn").disabled = false;
+    $("clear-memory-btn").textContent = orig;
+  }
+};
+
+loadStatus();
+</script>
+</body>
+</html>

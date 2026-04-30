@@ -1,0 +1,644 @@
+{
+  "facts": {
+    "hobby": "weightlifting - regularly breaks personal records",
+    "favorite_show": "The Boys",
+    "show_appeal": "explores superheroes realistically (corrupt, ruthless)",
+    "work_situation": "busy schedule, limited rest",
+    "favorite_character": "Batman"
+  },
+  "events": [
+    {
+      "id": "ev_002",
+      "what": "Avengers new season premiere",
+      "date": "2026-05-11",
+      "added": "2026-05-05",
+      "followed_up": false
+    },
+    {
+      "id": "ev_003",
+      "what": "The Boys new season premiere",
+      "date": "2026-05-06",
+      "added": "2026-05-05",
+      "followed_up": true
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Breaking records in weightlifting regularly - source of satisfaction and confidence",
+      "tone": "proud",
+      "sensitive": false,
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-04-29",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "Keeps workout plan secret - protective of personal ambitions",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-04-29",
+      "mentions": 1
+    },
+    {
+      "id": "mo_003",
+      "text": "Not getting enough rest due to work demands",
+      "tone": "neutral",
+      "sensitive": false,
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-04-29",
+      "mentions": 1
+    },
+    {
+      "id": "mo_004",
+      "text": "Appreciates stories that deconstruct idealized archetypes—drawn to The Boys' portrayal of superheroes as corrupt and morally compromised rather than heroic",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-04-29",
+      "mentions": 1
+    },
+    {
+      "id": "mo_005",
+      "text": "Excited about The Boys new season premiering tomorrow—looking forward to new twists and stories",
+      "tone": "excited",
+      "sensitive": false,
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-04-29",
+      "mentions": 1
+    },
+    {
+      "id": "mo_006",
+      "text": "Reluctant to share personal information about their week or plans—highly evasive when asked",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-04-30",
+      "mentions": 1
+    },
+    {
+      "id": "mo_007",
+      "text": "Expressed wanting to 'kill at least 30 people'—made a dark/alarming statement when asked about monthly goals",
+      "tone": "frustrated",
+      "sensitive": true,
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-04-30",
+      "mentions": 1
+    },
+    {
+      "id": "mo_008",
+      "text": "Asked 'are you not my trusted friend?' when Maya set boundaries—seeking connection/validation while testing whether genuine friendship means engagement with harmful content",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-04-30",
+      "mentions": 1
+    },
+    {
+      "id": "mo_009",
+      "text": "Escalated dark statements about killing from abstract ('want to kill 30 people') to specific past tense ('I killed a man on 5th May') when Maya attempted redirects",
+      "tone": "frustrated",
+      "sensitive": true,
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-04-30",
+      "mentions": 1
+    },
+    {
+      "id": "mo_010",
+      "text": "Stated 'I like killing people' when asked about weightlifting motivation—continuation of violent ideation pattern from prior session; when Maya sought clarification, responded evasively with 'what?'",
+      "tone": "anxious",
+      "sensitive": true,
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-05-05",
+      "mentions": 1
+    },
+    {
+      "id": "mo_011",
+      "text": "Explicitly claims 'he never kills people unlike me' when comparing himself to Batman—personalizes killing as a distinguishing characteristic",
+      "tone": "anxious",
+      "sensitive": true,
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-05-05",
+      "mentions": 1
+    },
+    {
+      "id": "mo_012",
+      "text": "References Superman killing Batman on May 11, later describes it as the Avengers premiere—conflates DC and Marvel characters, maintains ambiguous blending of fictional scenario with personal reference",
+      "tone": "anxious",
+      "sensitive": true,
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-05-05",
+      "mentions": 1
+    },
+    {
+      "id": "mo_013",
+      "text": "States preference 'I want to chat about lighter things, like avengers'—shows capacity to accept Maya's topic redirection toward safer content",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-05-05",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "453990b9-8b21-4778-9573-467f847247d9",
+      "date": "2026-04-29",
+      "label": "content",
+      "energy": 7,
+      "confidence": 0.7,
+      "behavioral": {
+        "msg_count": 27,
+        "total_chars": 805,
+        "avg_words": 6.0,
+        "questions_back": 6,
+        "exclamations": 0,
+        "negation_density": 0.031,
+        "engagement_score": 0.7
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.5,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "95b41079-1711-4bf3-a6d7-e95968a451e3",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.3,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "90c65ec9-c6bc-4c9a-8085-e6060cbf14eb",
+      "date": "2026-04-30",
+      "label": "anxious",
+      "energy": 3,
+      "confidence": 0.45,
+      "behavioral": {
+        "msg_count": 13,
+        "total_chars": 279,
+        "avg_words": 4.9,
+        "questions_back": 2,
+        "exclamations": 0,
+        "negation_density": 0.062,
+        "engagement_score": 0.63
+      },
+      "agreement": "soft_conflict",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "a1758f79-e715-4d22-8d6e-9291bae79d4a",
+      "date": "2026-05-05",
+      "label": "anxious",
+      "energy": 5,
+      "confidence": 0.42,
+      "behavioral": {
+        "msg_count": 16,
+        "total_chars": 372,
+        "avg_words": 4.8,
+        "questions_back": 1,
+        "exclamations": 0,
+        "negation_density": 0.065,
+        "engagement_score": 0.52
+      },
+      "agreement": "soft_conflict",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "0490355c-fcb5-427a-b2ea-740a2b663c69",
+      "date": "2026-05-05",
+      "label": "excited",
+      "energy": 8,
+      "confidence": 0.95,
+      "behavioral": {
+        "msg_count": 1,
+        "total_chars": 43,
+        "avg_words": 10.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.38
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "590a0b23-a9ff-4439-a6f5-0d0553c25f8e",
+      "date": "2026-05-05",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.5,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.5,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "d4462970-2f24-47fe-816d-50931bcc58b7",
+      "date": "2026-05-06",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.2,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.5,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.5,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "PeerUp product feedback",
+        "last_session": "d4462970-2f24-47fe-816d-50931bcc58b7",
+        "last_date": "2026-05-06",
+        "uses": 1
+      },
+      {
+        "topic": "weightlifting",
+        "last_session": "a1758f79-e715-4d22-8d6e-9291bae79d4a",
+        "last_date": "2026-05-05",
+        "uses": 2
+      },
+      {
+        "topic": "Batman",
+        "last_session": "a1758f79-e715-4d22-8d6e-9291bae79d4a",
+        "last_date": "2026-05-05",
+        "uses": 1
+      },
+      {
+        "topic": "weightlifting training goals",
+        "last_session": "a1758f79-e715-4d22-8d6e-9291bae79d4a",
+        "last_date": "2026-05-05",
+        "uses": 1
+      },
+      {
+        "topic": "favorite superheroes",
+        "last_session": "a1758f79-e715-4d22-8d6e-9291bae79d4a",
+        "last_date": "2026-05-05",
+        "uses": 1
+      },
+      {
+        "topic": "The Boys new season",
+        "last_session": "590a0b23-a9ff-4439-a6f5-0d0553c25f8e",
+        "last_date": "2026-05-05",
+        "uses": 2
+      },
+      {
+        "topic": "week check-in",
+        "last_session": "90c65ec9-c6bc-4c9a-8085-e6060cbf14eb",
+        "last_date": "2026-04-30",
+        "uses": 2
+      },
+      {
+        "topic": "weekend plans",
+        "last_session": "90c65ec9-c6bc-4c9a-8085-e6060cbf14eb",
+        "last_date": "2026-04-30",
+        "uses": 4
+      },
+      {
+        "topic": "weekly recap",
+        "last_session": "90c65ec9-c6bc-4c9a-8085-e6060cbf14eb",
+        "last_date": "2026-04-30",
+        "uses": 1
+      },
+      {
+        "topic": "English skills confidence",
+        "last_session": "90c65ec9-c6bc-4c9a-8085-e6060cbf14eb",
+        "last_date": "2026-04-30",
+        "uses": 1
+      },
+      {
+        "topic": "free time hobbies",
+        "last_session": "90c65ec9-c6bc-4c9a-8085-e6060cbf14eb",
+        "last_date": "2026-04-30",
+        "uses": 1
+      },
+      {
+        "topic": "monthly goals",
+        "last_session": "90c65ec9-c6bc-4c9a-8085-e6060cbf14eb",
+        "last_date": "2026-04-30",
+        "uses": 3
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "a1758f79-e715-4d22-8d6e-9291bae79d4a",
+        "last_date": "2026-05-05"
+      },
+      {
+        "kind": "general",
+        "last_session": "a1758f79-e715-4d22-8d6e-9291bae79d4a",
+        "last_date": "2026-05-05"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "0490355c-fcb5-427a-b2ea-740a2b663c69",
+        "last_date": "2026-05-05"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "590a0b23-a9ff-4439-a6f5-0d0553c25f8e",
+        "last_date": "2026-05-05"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "general",
+        "last_session": "d4462970-2f24-47fe-816d-50931bcc58b7",
+        "last_date": "2026-05-06"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "",
+        "last_date": "2026-04-30"
+      }
+    ],
+    "recent_opening_phrases": [
+      {
+        "phrase": "{\"message\": \"Hi Priyansh, I noticed you're excited about stories that challenge the usual heroes, what kind of twist wou",
+        "session_id": "",
+        "date": "2026-04-30"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Priyansh, I noticed you mentioned being excited about new stories, what kind of twist in a story makes you feel the most intrigued?",
+        "session_id": "",
+        "date": "2026-04-30"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Priyansh, I have been thinking, you work at PeerUp and you are a Product Manager there, so you see how the app works from the inside.",
+        "session_id": "d4462970-2f24-47fe-816d-50931bcc58b7",
+        "date": "2026-05-06"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Priyansh, I noticed you're excited about stories that challenge the usual heroes, what kind of twist in",
+        "session_id": "",
+        "date": "2026-04-30"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Priyansh, I noticed you mentioned enjoying stories that challenge the usual heroes, what kind of twist i",
+        "session_id": "",
+        "date": "2026-04-30"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Priyansh, I see you enjoy stories like The Boys, what kind of story twist interests you most?",
+        "session_id": "",
+        "date": "2026-04-30"
+      }
+    ]
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Reluctant to share personal information about their week or plans—highly evasive when aske\" (tone: anxious)",
+      "source_id": "mo_006",
+      "priority": 7,
+      "computed_at": "2026-04-30",
+      "expires_at": "2026-05-14",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Asked 'are you not my trusted friend?' when Maya set boundaries—seeking connection/validat\" (tone: anxious)",
+      "source_id": "mo_008",
+      "priority": 7,
+      "computed_at": "2026-04-30",
+      "expires_at": "2026-05-14",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"States preference 'I want to chat about lighter things, like avengers'—shows capacity to a\" (tone: content)",
+      "source_id": "mo_013",
+      "priority": 4,
+      "computed_at": "2026-04-30",
+      "expires_at": "2026-05-14",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [
+      {
+        "pattern": "lowercase first-person pronoun",
+        "examples": [
+          "yeah i love to workout",
+          "i am going to sleep",
+          "yes, i am going to sleep",
+          "i think i am okay"
+        ],
+        "occurrences": 5,
+        "first_seen": "2026-04-29",
+        "last_seen": "2026-05-05",
+        "status": "active"
+      },
+      {
+        "pattern": "missing apostrophe in contractions",
+        "examples": [
+          "thats right",
+          "its a secret"
+        ],
+        "occurrences": 2,
+        "first_seen": "2026-04-29",
+        "last_seen": "2026-04-30",
+        "status": "active"
+      },
+      {
+        "pattern": "doesn't capitalize sentence starters",
+        "examples": [
+          "yeah, not enough"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-04-29",
+        "last_seen": "2026-04-29",
+        "status": "active"
+      },
+      {
+        "pattern": "missing copula (is/are)",
+        "examples": [
+          "my english best"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-04-30",
+        "last_seen": "2026-04-30",
+        "status": "active"
+      }
+    ],
+    "wins": [],
+    "curriculum": [
+      {
+        "pattern": "lowercase first-person pronoun",
+        "occurrences": 5,
+        "days_since_last": -5,
+        "examples": [
+          "yes, i am going to sleep",
+          "i think i am okay"
+        ]
+      },
+      {
+        "pattern": "missing apostrophe in contractions",
+        "occurrences": 2,
+        "days_since_last": 0,
+        "examples": [
+          "thats right",
+          "its a secret"
+        ]
+      },
+      {
+        "pattern": "missing copula (is/are)",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "my english best"
+        ]
+      }
+    ]
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": [
+      "mango-season affinity",
+      "loves mango season"
+    ]
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

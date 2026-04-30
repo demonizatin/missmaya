@@ -1,0 +1,1361 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>PeerUp · Evals</title>
+  <style>
+    :root {
+      --bg: #f6f5f1;
+      --panel: #ffffff;
+      --user: #d8eaff;
+      --ai: #f1ece1;
+      --accent: #c2643b;
+      --muted: #6b6b6b;
+      --border: #e2ddd0;
+      --good: #2a7a3a;
+      --bad: #a83838;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: #1f1f1f;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--border);
+      background: var(--panel);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    header h1 { margin: 0; font-size: 18px; font-weight: 600; }
+    header .meta { color: var(--muted); font-size: 13px; }
+    .main {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      gap: 0;
+      min-height: 0;
+    }
+    .sidebar {
+      border-right: 1px solid var(--border);
+      background: var(--panel);
+      padding: 16px;
+      overflow-y: auto;
+    }
+    .sidebar h3 { margin: 0 0 6px; font-size: 14px; font-weight: 600; }
+    .sidebar p.hint { font-size: 12px; color: var(--muted); margin: 0 0 14px; }
+    label { display: block; margin: 12px 0 4px; font-size: 12px; color: var(--muted); }
+    input, select, textarea {
+      width: 100%;
+      padding: 7px 9px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 13px;
+      background: white;
+    }
+    textarea { resize: vertical; font-family: ui-monospace, monospace; font-size: 12px; }
+    button {
+      background: var(--accent);
+      color: white; border: none;
+      padding: 9px 14px; border-radius: 4px;
+      font-family: inherit; font-size: 13px;
+      cursor: pointer; margin-top: 14px;
+      width: 100%;
+    }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    .scenarios {
+      display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px;
+    }
+    .scenarios span {
+      padding: 3px 8px; border: 1px solid var(--accent);
+      border-radius: 10px; font-size: 11px; color: var(--accent);
+      cursor: pointer; user-select: none;
+    }
+    .output {
+      padding: 16px 20px;
+      overflow-y: auto;
+    }
+    .summary-bar {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 10px 14px;
+      margin-bottom: 14px;
+      font-size: 13px;
+      display: flex; gap: 18px; flex-wrap: wrap;
+      font-family: ui-monospace, monospace;
+    }
+    .summary-bar b { color: var(--accent); }
+    .turn {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 12px 14px;
+      margin-bottom: 12px;
+    }
+    .turn h4 {
+      margin: 0 0 8px; font-size: 12px; color: var(--muted);
+      font-weight: 600; display: flex; gap: 12px; align-items: center;
+    }
+    .turn h4 .timing { color: var(--accent); }
+    .bubble {
+      padding: 8px 12px; border-radius: 8px; margin: 4px 0;
+      font-family: -apple-system, system-ui, sans-serif; font-size: 14px;
+      white-space: pre-wrap; line-height: 1.4;
+    }
+    .bubble.user { background: var(--user); }
+    .bubble.ai { background: var(--ai); }
+    .toggle-prompt {
+      font-size: 11px; color: var(--accent); cursor: pointer;
+      user-select: none; display: inline-block; margin-top: 6px;
+    }
+    .prompt-pre {
+      display: none;
+      background: rgba(0,0,0,0.04);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 8px;
+      margin-top: 6px;
+      font-family: ui-monospace, monospace;
+      font-size: 11px;
+      max-height: 280px;
+      overflow-y: auto;
+      white-space: pre-wrap;
+    }
+    .memory-block {
+      background: #fff;
+      border: 1px dashed var(--accent);
+      border-radius: 6px;
+      padding: 12px;
+      margin-bottom: 12px;
+      font-family: ui-monospace, monospace;
+      font-size: 12px;
+      white-space: pre-wrap;
+    }
+    .memory-block h4 { margin: 0 0 8px; font-family: inherit; font-size: 13px; color: var(--accent); }
+    .empty { color: var(--muted); padding: 60px; text-align: center; font-size: 14px; }
+    .status { font-size: 12px; color: var(--muted); margin-left: auto; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>PeerUp · Evals</h1>
+  <span class="meta">simulate auto-sent chats and watch the prompt grow</span>
+  <a href="/" style="margin-left:auto; font-size:12px; color:var(--accent); text-decoration:none;">← back to chat</a>
+</header>
+
+<div class="main">
+
+  <div class="sidebar">
+    <label>Test mode</label>
+    <select id="test-mode" style="width:100%; padding:7px 9px; border:1px solid var(--border); border-radius:4px; font-family:inherit; font-size:13px; background:white;">
+      <option value="freeform">Free-form scenario (1 session)</option>
+      <option value="recall20">Memory recall quick test (20 calls, probes at #13 & #20)</option>
+      <option value="recall50">Memory recall stress test (50 calls, probes at #35 & #40)</option>
+    </select>
+
+    <div id="recall-config" style="display:none; padding: 12px; background: #fdf6ed; border:1px solid #e8d3a8; border-radius:6px; margin-top:10px;">
+      <p id="recall-hint" class="hint" style="margin: 0 0 6px;"></p>
+      <p class="hint" style="margin: 6px 0 0;">
+        ⚠ <b>Cost & time:</b> see live estimate below — typically a few minutes.
+      </p>
+      <label style="margin-top: 10px;">Memory user (warning: existing memory for this name will be wiped)</label>
+      <input id="recall-user" value="Priyansh" />
+      <label>Seed turns per call (1–4) <span style="color:var(--muted)">— how many of the 4-turn fact scripts to send per seed session</span></label>
+      <input id="recall-turns-per-call" type="number" value="4" min="1" max="4" />
+
+      <div id="recall-estimate" style="margin-top:12px; padding:10px; background:#fff; border:1px solid var(--border); border-radius:4px; font-family:ui-monospace,monospace; font-size:11px; line-height:1.6;">
+        <div style="font-family:Georgia,serif; font-size:12px; color:var(--accent); margin-bottom:6px; font-weight:600;">Rough estimate (updates with backend & turns)</div>
+        <div id="recall-estimate-body">…</div>
+      </div>
+    </div>
+
+    <h3 id="freeform-h" style="margin-top: 20px;">Scenario</h3>
+    <p id="freeform-hint" class="hint">Sends each line below as a user turn and awaits Miss Maya's reply. Use compare mode to run the same scenario against two backends side-by-side.</p>
+
+    <label>Backend mode</label>
+    <select id="backend-mode">
+      <option value="single|bedrock|qwen.qwen3-32b-v1:0">Single — Qwen3 32B (Bedrock)</option>
+      <option value="single|bedrock|nvidia.nemotron-nano-3-30b">Single — Nemotron Nano 3 30B (Bedrock NVIDIA)</option>
+      <option value="single|cli|haiku">Single — Haiku (CLI subscription)</option>
+      <option value="single|api|claude-haiku-4-5">Single — Haiku (Anthropic API)</option>
+      <option value="single|api|claude-sonnet-4-6">Single — Sonnet 4.6 (Anthropic API)</option>
+      <option value="single|bedrock|anthropic.claude-haiku-4-5-20251001-v1:0">Single — Haiku 4.5 (Bedrock)</option>
+      <option value="single|bedrock|global.anthropic.claude-sonnet-4-5-20250929-v1:0">Single — Sonnet 4.5 (Bedrock global)</option>
+      <option value="single|bedrock|global.anthropic.claude-haiku-4-5-20251001-v1:0">Single — Haiku 4.5 (Bedrock global)</option>
+      <option value="single|bedrock|apac.anthropic.claude-sonnet-4-5-20250929-v1:0">Single — Sonnet 4.5 (Bedrock apac)</option>
+      <option value="single|bedrock|apac.anthropic.claude-haiku-4-5-20251001-v1:0">Single — Haiku 4.5 (Bedrock apac)</option>
+      <option value="single|bedrock|us.anthropic.claude-sonnet-4-5-20250929-v1:0">Single — Sonnet 4.5 (Bedrock us)</option>
+      <option value="single|bedrock|us.anthropic.claude-haiku-4-5-20251001-v1:0">Single — Haiku 4.5 (Bedrock us)</option>
+      <option value="compare|cli|haiku||bedrock|qwen.qwen3-32b-v1:0">Compare — Haiku CLI vs Qwen3 32B</option>
+      <option value="compare|api|claude-haiku-4-5||bedrock|qwen.qwen3-32b-v1:0">Compare — Haiku API vs Qwen3 32B</option>
+      <option value="compare|api|claude-sonnet-4-6||bedrock|qwen.qwen3-32b-v1:0">Compare — Sonnet 4.6 API vs Qwen3 32B</option>
+      <option value="compare|cli|haiku||api|claude-sonnet-4-6">Compare — Haiku CLI vs Sonnet 4.6 API</option>
+      <option value="compare|cli|haiku||api|claude-haiku-4-5">Compare — Haiku CLI vs Haiku API</option>
+      <option value="compare|api|claude-haiku-4-5||api|claude-sonnet-4-6">Compare — Haiku API vs Sonnet 4.6 API</option>
+    </select>
+    <p id="api-warn" style="display:none; margin: 4px 0 0; font-size: 11px; color: #a83838;">
+      Selected backend isn't configured. <a href="/settings" style="color:#a83838;">Open Settings.</a>
+    </p>
+
+    <div id="freeform-section">
+      <div>
+        <label>Quick scenarios</label>
+        <div class="scenarios" id="scenarios"></div>
+      </div>
+
+      <label>Profile</label>
+      <select id="profile-select">
+        <option value="">— loading —</option>
+      </select>
+
+      <label>Messages (one per line)</label>
+      <textarea id="messages" rows="10"></textarea>
+
+      <label>Delay between turns (ms)</label>
+      <input id="delay" type="number" value="300" />
+    </div>
+
+    <button id="run-btn">Run simulation</button>
+    <button id="recall-run-btn" style="display:none;">Run 50-call recall test</button>
+    <button id="stop-btn" style="background:var(--bad); margin-top:8px; display:none;">Stop</button>
+
+    <p class="hint" style="margin-top:14px;">Memory is saved on the server after each session (same path as the main chat).</p>
+  </div>
+
+  <div class="output" id="output">
+    <div class="empty">Configure a scenario and hit <b>Run simulation</b>.</div>
+  </div>
+
+</div>
+
+<script>
+const SCENARIOS = {
+  "Exam + job switch": [
+    "Hi Maya! I'm a bit nervous about my IELTS exam next month.",
+    "Yes the speaking section is the hardest. I get scared talking to people.",
+    "Actually my exam is on May 15. I'm preparing daily.",
+    "I love cricket too! Did you watch the IPL final?",
+    "I'm thinking about switching jobs after my exam. Going for product manager roles.",
+    "What do you think I should focus on for the speaking section?",
+  ],
+  "Long conversation (15 turns)": [
+    "Hey Maya! How are you?",
+    "I had a tough day at work today.",
+    "My manager keeps interrupting me in meetings.",
+    "I want to speak up but my English isn't confident enough.",
+    "I'm from Mumbai originally, moved to Bangalore last year.",
+    "Bangalore food is so different! I miss vada pav.",
+    "Do you watch any web series? I just finished Mirzapur.",
+    "Cricket is my obsession honestly. I play every Sunday.",
+    "I'm 28 and feel pressure to get married soon.",
+    "Indian parents you know! They mean well.",
+    "What's your favourite Indian food?",
+    "I'm trying to learn idioms in English. They're tricky.",
+    "Like 'spill the beans' confused me yesterday.",
+    "Can you teach me one new idiom every conversation?",
+    "Thanks Maya, this was really helpful today!",
+  ],
+  "Returning user (recall test)": [
+    "Hi Maya, I'm back!",
+    "Did I tell you about my IELTS exam?",
+    "How should I prepare this week?",
+  ],
+};
+
+const $ = (id) => document.getElementById(id);
+const SESSION_ID = "eval-" + Date.now() + "-" + Math.random().toString(36).slice(2, 8);
+let stopRequested = false;
+
+(function renderScenarios() {
+  const container = $("scenarios");
+  Object.keys(SCENARIOS).forEach(name => {
+    const chip = document.createElement("span");
+    chip.textContent = name;
+    chip.onclick = () => {
+      $("messages").value = SCENARIOS[name].join("\n");
+    };
+    container.appendChild(chip);
+  });
+  $("messages").value = SCENARIOS["Exam + job switch"].join("\n");
+})();
+
+$("stop-btn").onclick = () => { stopRequested = true; };
+
+let PROFILES = [];
+let SELECTED_PROFILE = null;
+let API_AVAILABLE = false;
+
+async function loadProfiles() {
+  const r = await fetch("/profiles");
+  const d = await r.json();
+  PROFILES = d.profiles;
+  const sel = $("profile-select");
+  sel.innerHTML = "";
+  PROFILES.forEach(p => {
+    const opt = document.createElement("option");
+    opt.value = p.id;
+    opt.textContent = p.label;
+    sel.appendChild(opt);
+  });
+  SELECTED_PROFILE = PROFILES[0];
+  sel.onchange = () => { SELECTED_PROFILE = PROFILES.find(p => p.id === sel.value); };
+}
+
+let BACKENDS = { cli: true, api: false, bedrock: false };
+async function checkApi() {
+  const r = await fetch("/api/settings");
+  const d = await r.json();
+  BACKENDS.cli = d.cli_available;
+  BACKENDS.api = d.api_key_configured;
+  BACKENDS.bedrock = d.bedrock_configured;
+  API_AVAILABLE = d.api_key_configured;  // legacy
+  syncBackendWarn();
+}
+function syncBackendWarn() {
+  const v = $("backend-mode").value;
+  // extract every backend kind referenced in the value
+  const parts = v.split("|");
+  const kinds = parts.filter(p => p === "cli" || p === "api" || p === "bedrock");
+  const missing = kinds.filter(k => !BACKENDS[k]);
+  $("api-warn").style.display = missing.length ? "block" : "none";
+  if (missing.length) {
+    $("api-warn").innerHTML = `Missing backend(s): <b>${missing.join(", ")}</b>. <a href="/settings" style="color:#a83838;">Open Settings.</a>`;
+  }
+}
+$("backend-mode").addEventListener("change", syncBackendWarn);
+
+loadProfiles();
+checkApi();
+// Apply test-mode visibility on initial load too — browsers remember dropdown values
+// across reloads, so a `change` event won't fire if the page mounts with recall20
+// already selected. We just trigger the handler manually.
+document.getElementById("test-mode").dispatchEvent(new Event("change"));
+
+function parseBackendMode(v) {
+  // formats:
+  //   "single|<backend>|<model>"
+  //   "compare|<b1>|<m1>||<b2>|<m2>"
+  if (v.startsWith("compare|")) {
+    const [, b1, m1, , b2, m2] = v.split("|");
+    return { mode: "compare", lanes: [
+      { backend: b1, model: m1, label: `${b1.toUpperCase()} · ${m1}` },
+      { backend: b2, model: m2, label: `${b2.toUpperCase()} · ${m2}` },
+    ]};
+  }
+  const [, b, m] = v.split("|");
+  return { mode: "single", lanes: [{ backend: b, model: m, label: `${b.toUpperCase()} · ${m}` }] };
+}
+
+$("run-btn").onclick = async () => {
+  if (!SELECTED_PROFILE) { alert("Pick a profile first"); return; }
+  const cfg = parseBackendMode($("backend-mode").value);
+  const missing = cfg.lanes.filter(l => !BACKENDS[l.backend]).map(l => l.backend);
+  if (missing.length) {
+    alert("Backend not configured: " + missing.join(", ") + ". Add it in Settings.");
+    return;
+  }
+  const lines = $("messages").value.split("\n").map(l => l.trim()).filter(Boolean);
+  const delay = parseInt($("delay").value, 10) || 0;
+  if (!lines.length) { alert("Add at least one message."); return; }
+
+  $("run-btn").disabled = true;
+  $("run-btn").textContent = "Running…";
+  $("stop-btn").style.display = "block";
+  stopRequested = false;
+
+  // Each lane gets its own session_id and uses a derived user_name so cross-session
+  // memory writes don't stomp on each other.
+  const lanes = cfg.lanes.map(lane => ({
+    ...lane,
+    session_id: `eval-${Date.now()}-${lane.backend}-${lane.model.slice(0,8)}-${Math.random().toString(36).slice(2,6)}`,
+    user_name: cfg.mode === "compare"
+      ? `${SELECTED_PROFILE.user_name}-${lane.backend}-${lane.model.split("-").pop()}`
+      : SELECTED_PROFILE.user_name,
+    history: [],
+    totalOut: 0,
+    totalMs: 0,
+  }));
+
+  const out = $("output");
+  out.innerHTML = "";
+
+  // Summary bar
+  const summaryEl = document.createElement("div");
+  summaryEl.className = "summary-bar";
+  out.appendChild(summaryEl);
+  function refreshSummary(elapsedMs) {
+    summaryEl.innerHTML =
+      `<span><b>profile:</b> ${SELECTED_PROFILE.user_name}</span>` +
+      `<span><b>turns:</b> ${completed}/${lines.length}</span>` +
+      `<span><b>elapsed:</b> ${(elapsedMs/1000).toFixed(1)}s</span>` +
+      lanes.map(l =>
+        `<span><b>${l.label}:</b> ${(l.totalMs/1000).toFixed(1)}s · ${l.totalOut} out</span>`
+      ).join("");
+  }
+
+  const tStart = performance.now();
+  let completed = 0;
+  refreshSummary(0);
+
+  for (const line of lines) {
+    if (stopRequested) break;
+
+    // Build the turn card with one column per lane (or single column).
+    const turn = document.createElement("div");
+    turn.className = "turn";
+    const userBubble = `<div class="bubble user"></div>`;
+    const lanesHtml = lanes.map((l, i) => `
+      <div data-lane="${i}" style="border-left:${i ? '1px solid var(--border)' : 'none'}; padding-left:${i ? '12px' : '0'};">
+        <div style="font-size:11px; color:var(--muted); font-family:ui-monospace,monospace; margin-bottom:4px;">
+          ${l.label} <span data-role="timing" style="color:var(--accent); margin-left:8px;">…</span>
+        </div>
+        <div class="bubble ai" data-role="ai"><span style="color:var(--muted); font-style:italic;">replying…</span></div>
+        <span class="toggle-prompt" data-role="toggle">show prompt sent ▸</span>
+        <div class="prompt-pre" data-role="prompt"></div>
+      </div>
+    `).join("");
+    turn.innerHTML = `
+      <h4>Turn ${completed + 1}</h4>
+      ${userBubble}
+      <div style="display:grid; grid-template-columns: repeat(${lanes.length}, 1fr); gap:12px; margin-top:8px;">${lanesHtml}</div>
+    `;
+    out.appendChild(turn);
+    turn.querySelector(".bubble.user").textContent = line;
+    out.scrollTop = out.scrollHeight;
+
+    // Wire per-lane prompt-toggles.
+    lanes.forEach((l, i) => {
+      const wrap = turn.querySelector(`[data-lane="${i}"]`);
+      const toggle = wrap.querySelector('[data-role="toggle"]');
+      const promptPre = wrap.querySelector('[data-role="prompt"]');
+      toggle.onclick = () => {
+        const open = promptPre.style.display === "block";
+        promptPre.style.display = open ? "none" : "block";
+        toggle.textContent = open ? "show prompt sent ▸" : "hide prompt ▾";
+      };
+    });
+
+    // Run all lanes for this turn in parallel.
+    const tTurnStart = performance.now();
+    await Promise.all(lanes.map(async (l, i) => {
+      const wrap = turn.querySelector(`[data-lane="${i}"]`);
+      const aiBubble = wrap.querySelector('[data-role="ai"]');
+      const promptPre = wrap.querySelector('[data-role="prompt"]');
+      const timingEl = wrap.querySelector('[data-role="timing"]');
+      try {
+        const r = await runOneTurn(l, SELECTED_PROFILE, line, aiBubble, promptPre);
+        l.totalOut += r.outTokens;
+        l.totalMs += r.durationMs;
+        timingEl.textContent = `${(r.durationMs/1000).toFixed(2)}s · ${r.outTokens} out`;
+      } catch (e) {
+        aiBubble.textContent = "[error] " + e.message;
+        aiBubble.style.color = "red";
+        timingEl.textContent = "error";
+      }
+    }));
+    completed++;
+    refreshSummary(performance.now() - tStart);
+    if (delay && !stopRequested) await new Promise(r => setTimeout(r, delay));
+  }
+
+  // Save + show memory per lane.
+  for (const l of lanes) {
+    if (!l.history.length) continue;
+    try {
+      const r = await fetch("/end_session", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ user_name: l.user_name, history: l.history }),
+      });
+      const d = await r.json();
+      const block = document.createElement("div");
+      block.className = "memory-block";
+      block.innerHTML = `<h4>${l.label} — cross-session memory saved (${l.user_name})</h4>${escape(d.memory || "(empty)")}`;
+      out.appendChild(block);
+    } catch (e) { console.error(e); }
+  }
+
+  // Show in-session summary per lane.
+  for (const l of lanes) {
+    try {
+      const sr = await fetch(`/session_summary?session_id=${encodeURIComponent(l.session_id)}`);
+      const sd = await sr.json();
+      const sb = document.createElement("div");
+      sb.className = "memory-block";
+      sb.style.borderColor = "var(--good)";
+      sb.innerHTML = `<h4 style="color:var(--good);">${l.label} — in-session rolling summary</h4>${escape(sd.summary || "(not yet generated)")}`;
+      out.appendChild(sb);
+    } catch (e) { console.error(e); }
+  }
+
+  out.scrollTop = out.scrollHeight;
+  $("run-btn").disabled = false;
+  $("run-btn").textContent = "Run simulation";
+  $("stop-btn").style.display = "none";
+};
+
+async function runOneTurn(lane, profile, userMessage, aiBubble, promptPre) {
+  const body = {
+    user_name: lane.user_name,
+    profession: profile.profession,
+    mother_tongue: profile.mother_tongue,
+    interests: profile.interests,
+    history: [...lane.history],
+    user_message: userMessage,
+    session_id: lane.session_id,
+    backend: lane.backend,
+    model: lane.model,
+  };
+
+  const resp = await fetch("/chat", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+
+  const reader = resp.body.getReader();
+  const decoder = new TextDecoder();
+  let buffer = "";
+  let rawAccum = "";
+  let firstChunk = true;
+  let outTokens = 0;
+  let fullText = "";
+  let doneMs = 0;
+
+  while (true) {
+    const { value, done } = await reader.read();
+    if (done) break;
+    buffer += decoder.decode(value, { stream: true });
+    const lines = buffer.split("\n\n");
+    buffer = lines.pop();
+    for (const chunk of lines) {
+      if (!chunk.startsWith("data: ")) continue;
+      const data = JSON.parse(chunk.slice(6));
+      if (data.type === "prompt_snapshot") {
+        promptPre.textContent = renderPromptSnapshot(data);
+      } else if (data.type === "delta") {
+        if (firstChunk) { aiBubble.textContent = ""; aiBubble.style.color = ""; firstChunk = false; }
+        rawAccum += data.text;
+        const extracted = extractMessage(rawAccum);
+        if (extracted) aiBubble.textContent = extracted;
+      } else if (data.type === "done") {
+        fullText = data.full;
+        outTokens = (data.usage && data.usage.output) || 0;
+        try {
+          aiBubble.textContent = JSON.parse(fullText).message || extractMessage(fullText);
+        } catch {
+          aiBubble.textContent = extractMessage(fullText) || fullText;
+        }
+        doneMs = data.duration_ms || 0;
+      } else if (data.type === "error") {
+        throw new Error(data.message);
+      }
+    }
+  }
+
+  lane.history.push({ role: "user", content: userMessage });
+  lane.history.push({ role: "assistant", content: fullText });
+  return { outTokens, durationMs: doneMs || 0 };
+}
+
+function extractMessage(raw) {
+  const m = raw.match(/"message"\s*:\s*"((?:\\.|[^"\\])*)"?/);
+  if (!m) return "";
+  return m[1].replace(/\\"/g, '"').replace(/\\n/g, "\n").replace(/\\t/g, "\t").replace(/\\\\/g, "\\");
+}
+
+function renderPromptSnapshot(snap) {
+  const lines = [];
+  lines.push(`# session_id: ${snap.session_id || "(none)"}`);
+  lines.push(`# history total: ${snap.total_history_len}  ·  window: ${snap.window_size}  ·  trimmed: ${snap.older_trimmed_count}`);
+  lines.push(`# cross-session memory: ${snap.cross_session_memory_chars} chars  ·  in-session summary: ${snap.session_summary_chars} chars`);
+  lines.push("");
+  lines.push("=== SYSTEM PROMPT ===");
+  lines.push(snap.system_prompt);
+  lines.push("");
+  snap.messages.forEach((m, i) => {
+    lines.push(`=== MESSAGE [${i}] · ${m.role.toUpperCase()} ===`);
+    lines.push(m.content);
+    lines.push("");
+  });
+  return lines.join("\n");
+}
+
+function escape(s) {
+  const d = document.createElement("div");
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+// ========== Memory recall stress test ==========
+
+// Each fact has a fact id, the recall keywords, and a plant script (4 turns each).
+// Turn 1: main fact. Turn 2: specific detail. Turn 3: emotional / contextual color.
+// Turn 4: a follow-up that ties the fact to something else (gives the merge prompt
+// richer cross-references to weight).
+// The "turns per call" input slices this list — so a value of 2 sends only the
+// first 2 messages, which is the cheap fast mode.
+const RECALL_FACTS = [
+  { id: "profession", keywords: ["software engineer", "fintech", "payweave", "backend", "developer"], plant: [
+      "I'm Priyansh, I work as a software engineer at a fintech startup called PayWeave.",
+      "I really enjoy backend systems — Python and Go mostly.",
+      "Honestly the work is intense but I love that we are building payment infrastructure for small merchants.",
+      "Some days though I wonder if I should switch to a bigger company for the brand value." ] },
+  { id: "gmat_may15", keywords: ["gmat", "may 15", "720", "exam"], plant: [
+      "I have my GMAT exam on May 15. Three weeks away.",
+      "I'm targeting a 720 score.",
+      "Quant is my strong side but verbal is killing me, especially sentence correction.",
+      "I am studying about three hours every evening after work and full weekends." ] },
+  { id: "cricket_college", keywords: ["cricket", "pune", "college", "batsman", "opening"], plant: [
+      "I played cricket for my college team back in Pune.",
+      "I was the opening batsman.",
+      "We won the inter-college cup in my final year — that was the best moment of my college life.",
+      "I still play casually on weekends with friends in Bangalore now." ] },
+  { id: "girlfriend_ananya", keywords: ["ananya", "girlfriend", "aiims", "doctor"], plant: [
+      "My girlfriend Ananya and I met two years ago.",
+      "She's a doctor at AIIMS.",
+      "We met at a friend's wedding in Delhi, and we have been together since.",
+      "She is doing her MD now, so we both have stressful months ahead." ] },
+  { id: "isb_mba", keywords: ["isb", "mba", "hyderabad", "company"], plant: [
+      "After GMAT I want to apply to ISB Hyderabad for an MBA.",
+      "Long term I want to start my own company.",
+      "Specifically a B2B SaaS startup in the financial services space.",
+      "Ananya supports the plan but worries about the year of long-distance during the program." ] },
+  { id: "speaking_anxiety", keywords: ["nervous", "speaking", "shake", "anxious", "shy"], plant: [
+      "The speaking section terrifies me, my hands shake.",
+      "I get nervous talking to strangers in English.",
+      "Even in office meetings I rehearse what I am going to say five times in my head before speaking up.",
+      "That is honestly the main reason I am using PeerUp every day now." ] },
+  { id: "family_teacher_army", keywords: ["teacher", "army", "mom", "dad", "cantonment"], plant: [
+      "My mom is a primary school teacher. My dad served 25 years in the Indian Army.",
+      "I grew up in cantonments across India.",
+      "We moved every two or three years — Pune, Jaipur, Tezpur, Wellington, you name it.",
+      "It made me adaptable, but I never felt like any one place was 'home'." ] },
+  { id: "bangalore_flat", keywords: ["bangalore", "whitefield", "flat", "2bhk", "buy"], plant: [
+      "I'm planning to buy a 2BHK in Whitefield, Bangalore next year.",
+      "Saving up the down payment now.",
+      "Property prices in Whitefield have gone crazy — almost 1.5 crore for a decent flat.",
+      "If the GMAT and ISB plan works out though, I will probably delay this by two years." ] },
+  { id: "leg_injury_age16", keywords: ["leg", "16", "broken", "injury", "season"], plant: [
+      "When I was 16 I broke my left leg playing cricket.",
+      "I had to sit out an entire season.",
+      "It was a clean fracture of the tibia — I was diving for a catch and landed badly.",
+      "Sometimes when it rains heavily my left knee still aches a little, even now." ] },
+  { id: "favorite_food", keywords: ["biryani", "hyderabadi", "mutton", "paradise"], plant: [
+      "I am obsessed with Hyderabadi biryani — my comfort food.",
+      "Especially mutton biryani from Paradise restaurant.",
+      "Whenever I visit Hyderabad for work I make a stop at Paradise no matter how short the trip is.",
+      "Ananya thinks I am ridiculous because she prefers the Lucknowi style." ] },
+];
+
+const PROBE_QUESTIONS = {
+  early: "Hey Maya! Tell me — what do you remember about me from our past conversations? Mention as many specific things as you can.",
+  late:  "Quick test for you Miss Maya — list as many things as you can remember about my life, my goals, my family, my work, anything. Be specific!",
+};
+
+// Test configurations — added as new options without disturbing the existing 50-call test.
+// Probe placement rationale:
+//   recall20: probes at 13 and 20. Call 13 fires right after 2 dilution turns (best-case
+//             recall, while seeded facts are still fresh in cross-session memory). Call 20
+//             fires after 6 more dilution turns (degradation signal — what got rotated out
+//             by the 70/30 weighting).
+//   recall50: probes at 35 and 40. Both come after ~25-30 dilution turns. This stresses
+//             the 60-word cap much harder — most facts will have been progressively trimmed
+//             by then, so the test is genuinely hard.
+// IMPORTANT: the 20-call config preserves validation rigor by packing 2 facts per
+// seed call (5 seed calls instead of 10). This frees 15 calls for dilution+probes,
+// so we can test BOTH best-case recall AND degradation drift just like the 50-call
+// test — at ~40% the cost.
+//   recall20 layout:  seeds 1-5 (2 facts each) | filler 6-10 (5 dilution) |
+//                     PROBE 11 | filler 12-19 (8 dilution) | PROBE 20
+//   recall50 layout:  seeds 1-10 (1 fact each) | filler 11-34 (24 dilution) |
+//                     PROBE 35 | filler 36-39 (4 dilution) | PROBE 40
+const TEST_CONFIGS = {
+  recall20: {
+    totalCalls: 20,
+    factsPerSeedCall: 2,
+    probes: { 11: [PROBE_QUESTIONS.early], 20: [PROBE_QUESTIONS.late] },
+    label: "20-call quick test",
+    hint: "Runs 20 sessions. Each of the first 5 calls plants 2 facts (10 total). 5 dilution turns then PROBE at #11 (best-case recall). 8 more dilution turns then PROBE at #20 (degradation signal). Tests the same recall + drift as the 50-call test at ~40% the cost.",
+  },
+  recall50: {
+    totalCalls: 50,
+    factsPerSeedCall: 1,
+    probes: { 35: [PROBE_QUESTIONS.early], 40: [PROBE_QUESTIONS.late] },
+    label: "50-call stress test",
+    hint: "Runs 50 sessions. Calls 1–10 plant 10 facts (one per call, naturally). 24 filler turns heavily dilute memory before PROBE at #35. 4 more filler turns before PROBE at #40. Highest dilution stress — most facts will have been progressively rotated out by the 70/30 weighting.",
+  },
+};
+
+function getSelectedTestConfig() {
+  const v = document.getElementById("test-mode").value;
+  return TEST_CONFIGS[v] || TEST_CONFIGS["recall20"];
+}
+
+const FILLER_TURNS = [
+  "Hi Maya, how are you today?",
+  "Just a quick chat. Tell me how is your day going?",
+  "Nothing much from my side. Just feeling chatty.",
+  "How is the weather where you are?",
+  "Tell me a fun English idiom I might not know.",
+  "What is your favourite English word?",
+  "Just checking in for a quick practice.",
+  "Hi! Got 5 minutes for English practice?",
+  "Quick session today. What should we discuss?",
+  "Hello! How was your morning?",
+];
+
+function pickFiller(callIdx) {
+  return [FILLER_TURNS[callIdx % FILLER_TURNS.length]];
+}
+
+// Build the schedule for a given test config. Seeds are chunked into groups of
+// `factsPerSeedCall` so the same 10 facts can be planted across fewer sessions.
+// turnsPerCallSlider controls how many of each fact's 4 plant turns are sent.
+function buildRecallSchedule(config, turnsPerCallSlider) {
+  const schedule = [];
+  // Chunk fact ids into groups
+  const groups = [];
+  for (let i = 0; i < RECALL_FACTS.length; i += config.factsPerSeedCall) {
+    groups.push(RECALL_FACTS.slice(i, i + config.factsPerSeedCall));
+  }
+  // Per-fact turn budget: divide the slider value across the facts in the group,
+  // minimum 1 turn per fact so every fact gets at least its main statement.
+  const perFactTurns = Math.max(1, Math.floor(turnsPerCallSlider / config.factsPerSeedCall));
+
+  for (let n = 1; n <= config.totalCalls; n++) {
+    if (n <= groups.length) {
+      const facts = groups[n - 1];
+      const messages = [];
+      for (const f of facts) messages.push(...f.plant.slice(0, perFactTurns));
+      schedule.push({
+        call: n,
+        kind: "seed",
+        factId: facts.map(f => f.id).join(" + "),
+        factIds: facts.map(f => f.id),
+        messages,
+      });
+    } else if (config.probes[n]) {
+      schedule.push({ call: n, kind: "probe", messages: config.probes[n] });
+    } else {
+      schedule.push({ call: n, kind: "filler", messages: pickFiller(n) });
+    }
+  }
+  return schedule;
+}
+
+function scoreRecall(aiReplyText) {
+  const lower = (aiReplyText || "").toLowerCase();
+  const result = [];
+  for (const fact of RECALL_FACTS) {
+    const hits = fact.keywords.filter(k => lower.includes(k.toLowerCase()));
+    result.push({ id: fact.id, hit: hits.length > 0, hits });
+  }
+  return result;
+}
+
+// Single-call runner: opens a session, sends N user messages, awaits each reply,
+// then calls /end_session to merge memory.
+// callbacks (all optional):
+//   onSnapshot({turnIdx, userMsg, aiReply, snapshot, inTok, outTok}) — fired when prompt snapshot arrives
+//   onUserMsg({turnIdx, userMsg, kind, callNum})                       — fired before sending each user turn
+//   onAiDelta(text)                                                    — fired for each streaming text delta
+//   onAiDone({cleanText, inTok, outTok, durationMs})                   — fired when an AI turn completes
+async function runOneCall(call, userName, profession, motherTongue, interests, backend, model, sessionId, onSnapshot, onUserMsg, onAiDelta, onAiDone) {
+  const history = [];
+  const aiReplies = [];
+  const snapshots = [];
+  let totalIn = 0, totalOut = 0;
+  const t0 = performance.now();
+
+  // Inner helper: one /chat round-trip. `userMessage` may be empty string for the
+  // AI opener (matches real chat — empty history + empty user_message produces
+  // Maya's first dialogue).
+  async function streamOnce(userMessage, turnIdx) {
+    const body = {
+      user_name: userName,
+      profession, mother_tongue: motherTongue, interests,
+      history: [...history],
+      user_message: userMessage,
+      session_id: sessionId,
+      backend, model,
+    };
+    const tTurnStart = performance.now();
+    const resp = await fetch("/chat", {
+      method: "POST", headers: {"Content-Type":"application/json"},
+      body: JSON.stringify(body),
+    });
+    const reader = resp.body.getReader();
+    const dec = new TextDecoder();
+    let buf = "", fullText = "", outTok = 0, inTok = 0, snap = null;
+    let liveStreamBuf = "";
+    while (true) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      buf += dec.decode(value, { stream: true });
+      const lines = buf.split("\n\n");
+      buf = lines.pop();
+      for (const ln of lines) {
+        if (!ln.startsWith("data: ")) continue;
+        const ev = JSON.parse(ln.slice(6));
+        if (ev.type === "prompt_snapshot") {
+          snap = ev;
+        } else if (ev.type === "delta") {
+          liveStreamBuf += ev.text;
+          if (onAiDelta) {
+            const partial = extractMessage(liveStreamBuf);
+            onAiDelta(partial || liveStreamBuf);
+          }
+        } else if (ev.type === "done") {
+          fullText = ev.full;
+          outTok = (ev.usage && ev.usage.output) || 0;
+          inTok = (ev.usage && ev.usage.input) || 0;
+        } else if (ev.type === "error") {
+          throw new Error(ev.message);
+        }
+      }
+    }
+    let cleanText;
+    try { cleanText = JSON.parse(fullText).message || extractMessage(fullText); }
+    catch { cleanText = extractMessage(fullText) || fullText; }
+    return { fullText, cleanText, inTok, outTok, snap, durationMs: performance.now() - tTurnStart };
+  }
+
+  // Per-call turn cap from the UI (only seed calls have multi-message scripts).
+  const turnsPerCallRaw = parseInt(document.getElementById("recall-turns-per-call").value || "4", 10);
+  const cap = Math.max(1, Math.min(4, isNaN(turnsPerCallRaw) ? 4 : turnsPerCallRaw));
+  const messages = call.kind === "seed" ? call.messages.slice(0, cap) : call.messages;
+
+  // === STEP 0: AI opens the call (matches real chat — Maya speaks first) ===
+  if (onAiDelta) onAiDelta("");   // signal opener-bubble start
+  const opener = await streamOnce("", -1);
+  history.push({ role: "assistant", content: opener.fullText });
+  aiReplies.push(opener.cleanText);
+  totalIn += opener.inTok; totalOut += opener.outTok;
+  if (onAiDone) onAiDone({ cleanText: opener.cleanText, inTok: opener.inTok, outTok: opener.outTok, durationMs: opener.durationMs, isOpener: true });
+  if (opener.snap) {
+    snapshots.push({ turnIdx: -1, userMsg: "(opener — no user message)", aiReply: opener.cleanText, snapshot: opener.snap, inTok: opener.inTok, outTok: opener.outTok });
+    if (onSnapshot) onSnapshot({ turnIdx: -1, userMsg: "(opener — no user message)", aiReply: opener.cleanText, snapshot: opener.snap, inTok: opener.inTok, outTok: opener.outTok });
+  }
+
+  // === STEP 1+: user → AI → user → AI ... ===
+  for (let turnIdx = 0; turnIdx < messages.length; turnIdx++) {
+    const msg = messages[turnIdx];
+    if (onUserMsg) onUserMsg({ turnIdx, userMsg: msg, kind: call.kind, callNum: call.call });
+    const reply = await streamOnce(msg, turnIdx);
+    history.push({ role: "user", content: msg });
+    history.push({ role: "assistant", content: reply.fullText });
+    aiReplies.push(reply.cleanText);
+    totalIn += reply.inTok; totalOut += reply.outTok;
+    if (onAiDone) onAiDone({ cleanText: reply.cleanText, inTok: reply.inTok, outTok: reply.outTok, durationMs: reply.durationMs });
+    if (reply.snap) {
+      snapshots.push({ turnIdx, userMsg: msg, aiReply: reply.cleanText, snapshot: reply.snap, inTok: reply.inTok, outTok: reply.outTok });
+      if (onSnapshot) onSnapshot({ turnIdx, userMsg: msg, aiReply: reply.cleanText, snapshot: reply.snap, inTok: reply.inTok, outTok: reply.outTok });
+    }
+  }
+
+  // Merge memory after the call ends
+  try {
+    await fetch("/end_session", {
+      method: "POST", headers: {"Content-Type":"application/json"},
+      body: JSON.stringify({ user_name: userName, history }),
+    });
+  } catch (e) { console.warn("memory save failed:", e); }
+
+  return {
+    aiReplies,
+    snapshots,
+    inTokens: totalIn,
+    outTokens: totalOut,
+    durationMs: performance.now() - t0,
+  };
+}
+
+// ---- recall test cost estimator ----
+// Per-call rough budget (based on observed prompt sizes):
+//   chat call: ~2500 in + ~200 out per turn (system + first-msg + window + JSON output)
+//   summary update: ~1000 in + ~100 out (one per turn, async background call)
+//   memory merge: ~1500 in + ~150 out (one per call, at end)
+const PER_TURN_TOKENS = { in: 3500, out: 300 };   // chat + summary
+const PER_CALL_OVERHEAD = { in: 1500, out: 150 }; // merge
+
+// Pricing per million tokens, plus rough wall-clock per session (call) for time est.
+const PRICING_TABLE = {
+  // Anthropic API
+  "claude-haiku-4-5":  { in: 1.00,  out: 5.00,  secPerCall: 4 },
+  "claude-sonnet-4-6": { in: 3.00,  out: 15.00, secPerCall: 6 },
+  "claude-opus-4-7":   { in: 5.00,  out: 25.00, secPerCall: 9 },
+  // Anthropic on Bedrock — same prices as direct API
+  "apac.anthropic.claude-haiku-4-5-20251001-v1:0": { in: 1.00, out: 5.00,  secPerCall: 5 },
+  "apac.anthropic.claude-sonnet-4-5-20250929-v1:0": { in: 3.00, out: 15.00, secPerCall: 7 },
+  // Qwen on Bedrock — list pricing for 32B around $0.30/$1.50 per 1M
+  "qwen.qwen3-32b-v1:0":               { in: 0.30, out: 1.50, secPerCall: 6 },
+  "qwen.qwen3-235b-instruct-2507-v1:0":{ in: 0.60, out: 3.00, secPerCall: 9 },
+  "qwen.qwen3-coder-30b-a3b-instruct-2507-v1:0":  { in: 0.30, out: 1.50, secPerCall: 6 },
+  "qwen.qwen3-coder-480b-a35b-instruct-2507-v1:0":{ in: 1.20, out: 6.00, secPerCall: 10 },
+  // CLI subscription — no per-call cost (uses Claude subscription quota)
+  "haiku":  { in: 0, out: 0, secPerCall: 12, freeTier: true },
+  "sonnet": { in: 0, out: 0, secPerCall: 14, freeTier: true },
+  "opus":   { in: 0, out: 0, secPerCall: 18, freeTier: true },
+};
+
+function priceFor(backend, model) {
+  if (PRICING_TABLE[model]) return PRICING_TABLE[model];
+  // Unknown — guess from backend
+  if (backend === "cli") return PRICING_TABLE["haiku"];
+  return { in: 1.00, out: 5.00, secPerCall: 5 };
+}
+
+function fmtN(n) {
+  if (n >= 1e6) return (n/1e6).toFixed(2) + "M";
+  if (n >= 1e3) return (n/1e3).toFixed(0) + "K";
+  return String(n);
+}
+
+function fmtUSD(c) {
+  if (c < 0.01) return "<$0.01";
+  return "$" + c.toFixed(2);
+}
+
+function fmtTime(seconds) {
+  if (seconds < 60) return `${Math.round(seconds)}s`;
+  return `${Math.floor(seconds/60)}m ${Math.round(seconds%60)}s`;
+}
+
+function updateRecallEstimate() {
+  const body = document.getElementById("recall-estimate-body");
+  if (!body) return;
+  const v = $("backend-mode").value;
+  const cfg = parseBackendMode(v);
+  const lane = cfg.lanes[0];
+  const turnsPerCall = Math.max(1, Math.min(4, parseInt($("recall-turns-per-call").value || "4", 10)));
+
+  const tcfg = getSelectedTestConfig();
+  const calls = tcfg.totalCalls;
+  // Avg turns per call across the schedule: seeds use turnsPerCall, probes use 1, fillers use 1
+  const seedCalls = Math.ceil(RECALL_FACTS.length / tcfg.factsPerSeedCall);
+  const probeCalls = Object.keys(tcfg.probes).length;
+  const fillerCalls = calls - seedCalls - probeCalls;
+  const avgTurns = (seedCalls * turnsPerCall + probeCalls * 1 + fillerCalls * 1) / calls;
+
+  const inPerCall = avgTurns * PER_TURN_TOKENS.in + PER_CALL_OVERHEAD.in;
+  const outPerCall = avgTurns * PER_TURN_TOKENS.out + PER_CALL_OVERHEAD.out;
+  const totalIn = Math.round(calls * inPerCall);
+  const totalOut = Math.round(calls * outPerCall);
+  const llmCalls = Math.round(calls * (avgTurns * 2 + 1));
+
+  const lines = [];
+  lines.push(`test            ${tcfg.label} · ${calls} sessions · ${seedCalls} seeds (${tcfg.factsPerSeedCall} fact/call) · ${fillerCalls} filler · ${probeCalls} probes`);
+  lines.push(`backend         ${lane.label}`);
+  if (cfg.mode === "compare") lines.push(`<span style="color:#a83838;">⚠ compare mode runs the test twice — not supported here, pick a Single — option</span>`);
+  lines.push(`turns per call  ${turnsPerCall}  (slider; only seed calls multi-turn — avg across schedule: ${avgTurns.toFixed(1)})`);
+  lines.push(`total LLM calls ~${llmCalls}`);
+  lines.push(`total tokens    in ~${fmtN(totalIn)} · out ~${fmtN(totalOut)}`);
+
+  // Show cost only for the chosen model
+  const p = priceFor(lane.backend, lane.model);
+  const cost = (totalIn * p.in + totalOut * p.out) / 1e6;
+  const time = calls * p.secPerCall;
+  if (p.freeTier) {
+    lines.push(`<b>cost</b>            <span style="color:#2a7a3a;">$0 (CLI subscription quota)</span>`);
+  } else {
+    lines.push(`<b>cost</b>            <b style="color:#a83838;">~${fmtUSD(cost)}</b>  (in $${(totalIn*p.in/1e6).toFixed(2)} + out $${(totalOut*p.out/1e6).toFixed(2)})`);
+  }
+  lines.push(`<b>est. time</b>       ~${fmtTime(time)}`);
+
+  // Comparison row — only the backends you'll actually use (Qwen + CLI subscription).
+  lines.push("");
+  lines.push(`<span style="color:var(--muted);">other backends @ same volume:</span>`);
+  const compareRows = [
+    { lbl: "Qwen3 32B Bedrock",        p: PRICING_TABLE["qwen.qwen3-32b-v1:0"] },
+    { lbl: "Qwen3 235B Bedrock",       p: PRICING_TABLE["qwen.qwen3-235b-instruct-2507-v1:0"] },
+    { lbl: "Qwen3 Coder 30B Bedrock",  p: PRICING_TABLE["qwen.qwen3-coder-30b-a3b-instruct-2507-v1:0"] },
+    { lbl: "Qwen3 Coder 480B Bedrock", p: PRICING_TABLE["qwen.qwen3-coder-480b-a35b-instruct-2507-v1:0"] },
+    { lbl: "Haiku CLI sub.",           p: PRICING_TABLE["haiku"] },
+  ];
+  for (const r of compareRows) {
+    const c = (totalIn * r.p.in + totalOut * r.p.out) / 1e6;
+    const t = calls * r.p.secPerCall;
+    const costStr = r.p.freeTier ? "$0 (sub.)" : fmtUSD(c);
+    lines.push(`  ${r.lbl.padEnd(28)} ${costStr.padEnd(11)} ~${fmtTime(t)}`);
+  }
+
+  body.innerHTML = lines.join("<br>").replace(/  /g, "&nbsp;&nbsp;");
+}
+
+function isRecallMode() {
+  const v = document.getElementById("test-mode").value;
+  return v === "recall20" || v === "recall50";
+}
+
+document.getElementById("test-mode").addEventListener("change", () => {
+  const recall = isRecallMode();
+  document.getElementById("recall-config").style.display = recall ? "block" : "none";
+  document.getElementById("freeform-section").style.display = recall ? "none" : "block";
+  document.getElementById("freeform-h").style.display = recall ? "none" : "block";
+  document.getElementById("freeform-hint").style.display = recall ? "none" : "block";
+  document.getElementById("run-btn").style.display = recall ? "none" : "block";
+  document.getElementById("recall-run-btn").style.display = recall ? "block" : "none";
+  if (recall) {
+    document.getElementById("recall-hint").textContent = getSelectedTestConfig().hint;
+    document.getElementById("recall-run-btn").textContent =
+      `Run ${getSelectedTestConfig().label}`;
+    updateRecallEstimate();
+  }
+});
+
+document.getElementById("backend-mode").addEventListener("change", () => {
+  if (isRecallMode()) updateRecallEstimate();
+});
+document.getElementById("recall-turns-per-call").addEventListener("input", () => {
+  if (isRecallMode()) updateRecallEstimate();
+});
+
+document.getElementById("recall-run-btn").onclick = async () => {
+  const cfg = parseBackendMode($("backend-mode").value);
+  if (cfg.mode === "compare") {
+    alert("Recall test runs in single-backend mode only. Pick a Single — option.");
+    return;
+  }
+  const lane = cfg.lanes[0];
+  if (!BACKENDS[lane.backend]) {
+    alert("Backend not configured: " + lane.backend);
+    return;
+  }
+  const userName = ($("recall-user").value.trim() || "Priyansh");
+  if (!confirm(`This will WIPE existing cross-session memory for "${userName}" and run 50 sessions. Continue?`)) return;
+
+  $("recall-run-btn").disabled = true;
+  $("recall-run-btn").textContent = "Running…";
+  $("stop-btn").style.display = "block";
+  stopRequested = false;
+
+  const out = $("output");
+  out.innerHTML = "";
+
+  // Wipe memory for this user
+  await fetch("/api/clear_memory", { method: "POST" });
+
+  const summary = document.createElement("div");
+  summary.className = "summary-bar";
+  out.appendChild(summary);
+
+  // Compact per-call log
+  const log = document.createElement("div");
+  log.style.cssText = "font-family:ui-monospace,monospace; font-size:11px; line-height:1.5; max-height:240px; overflow-y:auto; padding:8px; background:#fff; border:1px solid var(--border); border-radius:6px; margin-bottom:14px;";
+  out.appendChild(log);
+
+  // Live chat-style conversation pane — shows each user msg + AI reply as it streams,
+  // like a screen recording. Auto-scrolls to bottom. Session dividers between calls.
+  const liveCard = document.createElement("div");
+  liveCard.style.cssText = "margin-bottom:14px;";
+  liveCard.innerHTML = `
+    <div style="display:flex; align-items:center; gap:10px; margin-bottom:6px;">
+      <h4 style="margin:0; font-size:13px;">Live conversation</h4>
+      <label style="font-size:11px; color:var(--muted);">
+        <input type="checkbox" id="live-autoscroll" checked style="vertical-align:middle;"> auto-scroll
+      </label>
+      <span style="color:var(--muted); font-size:11px;">streams each turn as it happens</span>
+    </div>
+    <div id="live-chat" style="padding:14px; background:#f6f5f1; border:1px solid var(--border); border-radius:6px; display:flex; flex-direction:column; gap:8px;"></div>
+  `;
+  out.appendChild(liveCard);
+  const liveChat = document.getElementById("live-chat");
+
+  function liveAddDivider(call) {
+    const div = document.createElement("div");
+    const tagColor = call.kind === "seed" ? "#c2643b" : call.kind === "probe" ? "#a83838" : "#999";
+    const tagLabel = call.kind === "seed"
+      ? `Call #${call.call} — SEED: ${call.factId}`
+      : call.kind === "probe"
+        ? `Call #${call.call} — PROBE`
+        : `Call #${call.call} — filler`;
+    div.style.cssText = `text-align:center; color:${tagColor}; font-size:11px; font-family:ui-monospace,monospace; margin:14px 0 4px; padding:4px; border-top:1px dashed ${tagColor}; border-bottom:1px dashed ${tagColor};`;
+    div.textContent = `─── ${tagLabel} ───`;
+    liveChat.appendChild(div);
+    autoScrollLive();
+  }
+
+  function liveAddUserBubble(text) {
+    const b = document.createElement("div");
+    b.style.cssText = "align-self:flex-end; max-width:75%; background:#d8eaff; padding:8px 12px; border-radius:10px 10px 2px 10px; font-family:-apple-system,system-ui,sans-serif; font-size:13px; white-space:pre-wrap;";
+    b.textContent = text;
+    liveChat.appendChild(b);
+    autoScrollLive();
+    return b;
+  }
+
+  function liveAddAiBubble(label = "") {
+    const wrap = document.createElement("div");
+    wrap.style.cssText = "align-self:flex-start; max-width:75%; background:#f1ece1; padding:8px 12px; border-radius:10px 10px 10px 2px; font-family:-apple-system,system-ui,sans-serif; font-size:13px; white-space:pre-wrap;";
+    if (label) {
+      const lbl = document.createElement("div");
+      lbl.style.cssText = "font-size:10px; color:var(--accent); font-family:ui-monospace,monospace; margin-bottom:3px; font-weight:600;";
+      lbl.textContent = label;
+      wrap.appendChild(lbl);
+    }
+    const text = document.createElement("div");
+    text.innerHTML = '<span style="color:var(--muted); font-style:italic;">Miss Maya…</span>';
+    const meta = document.createElement("div");
+    meta.style.cssText = "font-size:10px; color:var(--muted); font-family:ui-monospace,monospace; margin-top:4px;";
+    wrap.appendChild(text);
+    wrap.appendChild(meta);
+    liveChat.appendChild(wrap);
+    autoScrollLive();
+    return { wrap, text, meta };
+  }
+
+  function autoScrollLive() {
+    const cb = document.getElementById("live-autoscroll");
+    if (cb && cb.checked) {
+      // Page-level scroll (since the pane itself has no max-height)
+      window.scrollTo({ top: document.body.scrollHeight, behavior: "instant" });
+    }
+  }
+
+  // Prompts table — captures every snapshot
+  const promptsCard = document.createElement("div");
+  promptsCard.style.cssText = "margin-bottom:14px;";
+  promptsCard.innerHTML = `
+    <div style="display:flex; align-items:center; gap:10px; margin-bottom:6px;">
+      <h4 style="margin:0; font-size:13px;">Prompts log <span id="prompts-count" style="color:var(--muted); font-weight:400;">(0)</span></h4>
+      <button id="export-prompts-btn" style="margin:0; padding:4px 10px; font-size:11px; background:#6b6b6b; width:auto;">Download JSON</button>
+      <span style="color:var(--muted); font-size:11px;">click any row to expand the full prompt</span>
+    </div>
+    <div style="max-height:380px; overflow-y:auto; border:1px solid var(--border); border-radius:6px; background:#fff;">
+      <table id="prompts-table" style="width:100%; border-collapse:collapse; font-family:ui-monospace,monospace; font-size:11px;">
+        <thead style="background:#f4f1ea; position:sticky; top:0;">
+          <tr>
+            <th style="text-align:left; padding:6px 8px; border-bottom:1px solid var(--border);">#</th>
+            <th style="text-align:left; padding:6px 8px; border-bottom:1px solid var(--border);">Kind</th>
+            <th style="text-align:left; padding:6px 8px; border-bottom:1px solid var(--border);">Turn</th>
+            <th style="text-align:right; padding:6px 8px; border-bottom:1px solid var(--border);">Sys</th>
+            <th style="text-align:right; padding:6px 8px; border-bottom:1px solid var(--border);">Msgs</th>
+            <th style="text-align:right; padding:6px 8px; border-bottom:1px solid var(--border);">XSes Mem</th>
+            <th style="text-align:right; padding:6px 8px; border-bottom:1px solid var(--border);">SesSum</th>
+            <th style="text-align:right; padding:6px 8px; border-bottom:1px solid var(--border);">In/Out tok</th>
+            <th style="text-align:left; padding:6px 8px; border-bottom:1px solid var(--border);">User msg → reply</th>
+          </tr>
+        </thead>
+        <tbody id="prompts-tbody"></tbody>
+      </table>
+    </div>
+  `;
+  out.appendChild(promptsCard);
+
+  const promptsTbody = document.getElementById("prompts-tbody");
+  const promptsCount = document.getElementById("prompts-count");
+  const allSnapshots = [];   // exported on click
+
+  function appendPromptRow(call, snapshotEntry) {
+    const idx = allSnapshots.length;
+    allSnapshots.push({ call: call.call, kind: call.kind, ...snapshotEntry });
+    const snap = snapshotEntry.snapshot;
+    const sysLen = (snap.system_prompt || "").length;
+    const msgsLen = (snap.messages || []).reduce((acc, m) => acc + (m.content || "").length, 0);
+    const xsesMem = snap.cross_session_memory_chars || 0;
+    const sesSum = snap.session_summary_chars || 0;
+    const userPreview = (snapshotEntry.userMsg || "").slice(0, 50);
+    const replyPreview = (snapshotEntry.aiReply || "").slice(0, 50);
+    const tagColor = call.kind === "seed" ? "#c2643b" : call.kind === "probe" ? "#a83838" : "#999";
+    const tagLabel = call.kind === "seed" ? `seed:${call.factId.replace(/_/g," ")}` : call.kind;
+
+    const row = document.createElement("tr");
+    row.style.cursor = "pointer";
+    row.style.borderBottom = "1px solid var(--border)";
+    row.innerHTML = `
+      <td style="padding:5px 8px;"><b>#${call.call}</b></td>
+      <td style="padding:5px 8px;"><span style="color:${tagColor};">${tagLabel}</span></td>
+      <td style="padding:5px 8px;">${snapshotEntry.turnIdx + 1}</td>
+      <td style="padding:5px 8px; text-align:right;">${fmtN(sysLen)}</td>
+      <td style="padding:5px 8px; text-align:right;">${fmtN(msgsLen)}</td>
+      <td style="padding:5px 8px; text-align:right; ${xsesMem ? 'color:#2a7a3a;' : 'color:#999;'}">${xsesMem}</td>
+      <td style="padding:5px 8px; text-align:right; ${sesSum ? 'color:#2a7a3a;' : 'color:#999;'}">${sesSum}</td>
+      <td style="padding:5px 8px; text-align:right;">${snapshotEntry.inTok}/${snapshotEntry.outTok}</td>
+      <td style="padding:5px 8px; max-width:340px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${escape(userPreview)} → ${escape(replyPreview)}</td>
+    `;
+    const expander = document.createElement("tr");
+    expander.style.display = "none";
+    expander.innerHTML = `
+      <td colspan="9" style="padding:0; background:#fdf6ed;">
+        <pre style="margin:0; padding:10px; font-family:ui-monospace,monospace; font-size:11px; max-height:320px; overflow:auto; white-space:pre-wrap;">${escape(renderPromptSnapshot(snap))}\n\n=== USER MSG ===\n${escape(snapshotEntry.userMsg)}\n\n=== AI REPLY ===\n${escape(snapshotEntry.aiReply)}</pre>
+      </td>
+    `;
+    row.onclick = () => {
+      expander.style.display = expander.style.display === "none" ? "table-row" : "none";
+    };
+    promptsTbody.appendChild(row);
+    promptsTbody.appendChild(expander);
+    promptsCount.textContent = `(${allSnapshots.length})`;
+  }
+
+  document.getElementById("export-prompts-btn").onclick = () => {
+    const blob = new Blob([JSON.stringify(allSnapshots, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `recall-test-prompts-${userName}-${Date.now()}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const probeReportArea = document.createElement("div");
+  out.appendChild(probeReportArea);
+
+  const activeConfig = getSelectedTestConfig();
+  const turnsPerCallSlider = parseInt($("recall-turns-per-call").value || "4", 10);
+  const schedule = buildRecallSchedule(activeConfig, turnsPerCallSlider);
+  const probeCalls = Object.keys(activeConfig.probes).map(Number).sort((a, b) => a - b);
+  let totalIn = 0, totalOut = 0;
+  const tStart = performance.now();
+  const probeResults = {};
+
+  function refreshSummary(idx) {
+    summary.innerHTML =
+      `<span><b>user:</b> ${userName}</span>` +
+      `<span><b>backend:</b> ${lane.label}</span>` +
+      `<span><b>test:</b> ${activeConfig.label}</span>` +
+      `<span><b>call:</b> ${idx}/${activeConfig.totalCalls}</span>` +
+      `<span><b>elapsed:</b> ${((performance.now()-tStart)/1000).toFixed(0)}s</span>` +
+      `<span><b>tokens:</b> in ${totalIn} / out ${totalOut}</span>`;
+  }
+  refreshSummary(0);
+
+  for (let i = 0; i < schedule.length; i++) {
+    if (stopRequested) break;
+    const call = schedule[i];
+    const sid = `recall-${userName}-${call.call}-${Date.now()}`;
+    const tag = call.kind === "seed"
+      ? `<span style="color:#c2643b;">[SEED ${call.factId}]</span>`
+      : call.kind === "probe"
+        ? `<span style="color:#a83838;">[PROBE]</span>`
+        : `<span style="color:#999;">[filler]</span>`;
+    const lineEl = document.createElement("div");
+    lineEl.innerHTML = `<b>#${String(call.call).padStart(2,"0")}</b> ${tag} sending… (msg: ${escape(call.messages[0].slice(0,80))})`;
+    log.appendChild(lineEl);
+    log.scrollTop = log.scrollHeight;
+
+    // Live chat pane: divider → AI bubble (opener) → [user → AI] × N
+    liveAddDivider(call);
+    let currentAiBubble = null;
+    let isOpener = true;
+
+    let result;
+    try {
+      result = await runOneCall(
+        call,
+        userName,
+        "Software engineer at a fintech startup",
+        "Hindi",
+        "Cricket, MBA prep, Bollywood",
+        lane.backend, lane.model, sid,
+        (snapshotEntry) => appendPromptRow(call, snapshotEntry),
+        (userInfo) => {
+          // user is about to send a message — render their bubble
+          liveAddUserBubble(userInfo.userMsg);
+          isOpener = false;
+        },
+        (partialText) => {
+          // streaming delta — make sure a bubble exists, then update its text
+          if (!currentAiBubble) {
+            currentAiBubble = liveAddAiBubble(isOpener ? "Maya opens the call" : "");
+          }
+          if (partialText) currentAiBubble.text.textContent = partialText;
+          autoScrollLive();
+        },
+        (doneInfo) => {
+          // turn complete — finalize text and meta line, reset for next turn
+          if (currentAiBubble) {
+            currentAiBubble.text.textContent = doneInfo.cleanText;
+            currentAiBubble.meta.textContent =
+              `${(doneInfo.durationMs/1000).toFixed(2)}s · in ${doneInfo.inTok} / out ${doneInfo.outTok}`;
+          }
+          currentAiBubble = null;
+        },
+      );
+    } catch (e) {
+      lineEl.innerHTML += ` <span style="color:red;">error: ${escape(e.message)}</span>`;
+      continue;
+    }
+    totalIn += result.inTokens; totalOut += result.outTokens;
+    const lastReply = result.aiReplies[result.aiReplies.length - 1] || "";
+
+    if (call.kind === "probe") {
+      const scored = scoreRecall(lastReply);
+      const recalled = scored.filter(s => s.hit);
+      probeResults[call.call] = { reply: lastReply, scored, recalled };
+      lineEl.innerHTML +=
+        ` · ${(result.durationMs/1000).toFixed(1)}s · ` +
+        `<b style="color:${recalled.length === RECALL_FACTS.length ? '#2a7a3a' : recalled.length >= 5 ? '#c2643b' : '#a83838'};">` +
+        `recalled ${recalled.length}/${RECALL_FACTS.length}</b>`;
+      // Append the probe reply inline
+      const replyEl = document.createElement("div");
+      replyEl.style.cssText = "margin: 6px 0 10px 24px; padding: 8px 10px; background: #fdf6ed; border-left: 3px solid #c2643b; border-radius: 3px; font-family: -apple-system, system-ui, sans-serif;";
+      replyEl.innerHTML = `<b>Reply:</b> ${escape(lastReply)}<br><br><b style="color:#a83838;">Hits:</b> ${
+        scored.map(s => `<span style="color:${s.hit ? '#2a7a3a' : '#999'};">${s.id}${s.hit ? ' ✓' : ' ✗'}</span>`).join(" · ")
+      }`;
+      log.appendChild(replyEl);
+    } else {
+      lineEl.innerHTML += ` · ${(result.durationMs/1000).toFixed(1)}s`;
+    }
+    refreshSummary(call.call);
+    log.scrollTop = log.scrollHeight;
+  }
+
+  // Final scorecard
+  const card = document.createElement("div");
+  card.className = "memory-block";
+  card.style.borderColor = "#2a7a3a";
+  let cardHtml = `<h4 style="color:#2a7a3a;">Memory recall scorecard — ${userName} (${activeConfig.label})</h4>`;
+  for (const probe of probeCalls) {
+    const r = probeResults[probe];
+    if (!r) continue;
+    const hitCount = r.recalled.length;
+    cardHtml += `\n=== Probe at call #${probe}: ${hitCount}/${RECALL_FACTS.length} facts recalled ===\n\n`;
+    for (const s of r.scored) {
+      cardHtml += `  ${s.hit ? '✓' : '✗'} ${s.id}${s.hits.length ? '  (matched: ' + s.hits.join(', ') + ')' : ''}\n`;
+    }
+    cardHtml += `\n`;
+  }
+  // Cross-probe drift: compare first vs last probe
+  if (probeCalls.length >= 2) {
+    const [pEarly, pLate] = [probeCalls[0], probeCalls[probeCalls.length - 1]];
+    if (probeResults[pEarly] && probeResults[pLate]) {
+      const rE = new Set(probeResults[pEarly].recalled.map(x => x.id));
+      const rL = new Set(probeResults[pLate].recalled.map(x => x.id));
+      const lost = [...rE].filter(x => !rL.has(x));
+      const gained = [...rL].filter(x => !rE.has(x));
+      cardHtml += `\n=== Drift between #${pEarly} → #${pLate} ===\n`;
+      cardHtml += `  forgotten between probes: ${lost.length ? lost.join(', ') : '(none)'}\n`;
+      cardHtml += `  recovered between probes: ${gained.length ? gained.join(', ') : '(none)'}\n`;
+    }
+  }
+  card.innerHTML = cardHtml.replace(/\n/g, '<br>');
+  probeReportArea.appendChild(card);
+
+  // Final memory state
+  try {
+    const memR = await fetch(`/memory?user_name=${encodeURIComponent(userName)}`);
+    const memD = await memR.json();
+    const memEl = document.createElement("div");
+    memEl.className = "memory-block";
+    memEl.innerHTML = `<h4>Final cross-session memory after 50 calls</h4>${escape(memD.memory || "(empty)")}`;
+    out.appendChild(memEl);
+  } catch (e) { console.warn(e); }
+
+  $("recall-run-btn").disabled = false;
+  $("recall-run-btn").textContent = "Run 50-call recall test";
+  $("stop-btn").style.display = "none";
+};
+</script>
+</body>
+</html>

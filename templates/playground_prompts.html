@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>PeerUp · Playground Prompts</title>
+  <style>
+    body {
+      margin: 0; font-family: Georgia, "Times New Roman", serif;
+      background: #f6f5f1; color: #1f1f1f;
+    }
+    header {
+      padding: 14px 20px; border-bottom: 1px solid #e2ddd0;
+      background: #fff; display: flex; align-items: center; gap: 14px;
+    }
+    header h1 { margin: 0; font-size: 18px; font-weight: 600; }
+    .meta { color: #6b6b6b; font-size: 13px; }
+    .container { max-width: 980px; margin: 24px auto; padding: 0 20px; }
+    .intro {
+      background: #fdf6ed; border: 1px solid #e8d3a8;
+      padding: 12px 16px; border-radius: 6px; font-size: 13px; line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    .prompt-card {
+      background: #fff; border: 1px solid #e2ddd0; border-radius: 8px;
+      margin-bottom: 16px; overflow: hidden;
+    }
+    .prompt-head {
+      padding: 14px 18px; cursor: pointer; display: flex; align-items: center; gap: 10px;
+      background: #fff; border-bottom: 1px solid #e2ddd0;
+    }
+    .prompt-head:hover { background: #fafaf6; }
+    .prompt-head h3 { margin: 0; font-size: 14px; font-weight: 600; flex: 1; }
+    .prompt-head .id { font-family: ui-monospace, monospace; font-size: 11px; color: #6b6b6b; }
+    .prompt-head .badge-overridden {
+      font-size: 10px; padding: 2px 8px; border-radius: 10px;
+      background: #fdf6ed; color: #c2643b; border: 1px solid #c2643b;
+    }
+    .prompt-head .chev { color: #6b6b6b; font-size: 12px; }
+    .prompt-body {
+      padding: 14px 18px; display: none;
+    }
+    .prompt-body p.desc { margin: 0 0 10px; color: #6b6b6b; font-size: 12px; line-height: 1.5; }
+    .prompt-body label { display: block; font-size: 11px; color: #6b6b6b; margin: 10px 0 4px; }
+    .prompt-body textarea, .prompt-body pre {
+      width: 100%; min-height: 200px; padding: 10px;
+      border: 1px solid #e2ddd0; border-radius: 4px;
+      font-family: ui-monospace, monospace; font-size: 12px; line-height: 1.45;
+      white-space: pre-wrap; box-sizing: border-box;
+    }
+    .prompt-body textarea[readonly] {
+      background: #f4f1ea; color: #555; cursor: default;
+    }
+    .prompt-body pre { background: #f4f1ea; margin: 0; }
+    .actions { display: flex; gap: 8px; margin-top: 10px; align-items: center; flex-wrap: wrap; }
+    button {
+      background: #c2643b; color: white; border: none;
+      padding: 8px 14px; border-radius: 4px; font-size: 12px;
+      cursor: pointer; font-family: inherit;
+    }
+    button.secondary { background: #6b6b6b; }
+    button.danger { background: #a83838; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    input[type=password] {
+      padding: 7px 10px; border: 1px solid #e2ddd0; border-radius: 4px;
+      font-family: ui-monospace, monospace; font-size: 12px; width: 130px;
+    }
+    .status {
+      font-size: 12px; padding: 6px 10px; border-radius: 4px; margin-left: auto;
+    }
+    .status.ok { background: #e6f4e6; color: #2a7a3a; }
+    .status.err { background: #fbeaea; color: #a83838; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>PeerUp · <span style="background:#6b3fa0;color:#fff;padding:3px 10px;border-radius:999px;font-size:14px;letter-spacing:0.04em;text-transform:uppercase;">🧪 Playground</span> Prompts</h1>
+  <span class="meta">view all prompts being used · edit requires password</span>
+  <a href="/" style="margin-left:auto; color:#c2643b; text-decoration:none; font-size:13px;">← chat</a>
+  <a href="/settings" style="color:#c2643b; text-decoration:none; font-size:13px; margin-left:14px;">settings</a>
+  <a href="/evals" style="color:#c2643b; text-decoration:none; font-size:13px; margin-left:14px;">evals</a>
+</header>
+
+<div class="container">
+  <div class="intro">
+    Every prompt the app sends to the LLM is listed below. Click a card to expand.
+    Anyone can <b>view</b>; editing requires the password. Edits persist to disk
+    (<code>memory_store/_prompts_overrides.json</code>) and are loaded on every LLM call —
+    no server restart needed.
+    <br><br>
+    Placeholders shown like <code>{user_name}</code> get filled in at request time;
+    leave them in your edits or the prompt won't render. The <b>Reset to default</b>
+    button restores the original baked-in version.
+  </div>
+
+  <details style="background:#fff; border:1px solid #e2ddd0; border-radius:8px; margin-bottom: 20px;">
+    <summary style="padding:14px 18px; cursor:pointer; font-weight:600; font-size:14px;">
+      📖 How memory works (two-bucket system) — click to read
+    </summary>
+    <div style="padding: 0 18px 18px; line-height: 1.55; font-size: 13px;">
+      <p>
+        Maya's memory of each user is split into <b>two buckets with different lifecycles</b>.
+        This split is the foundation of how personalization works in this app.
+      </p>
+
+      <h3 style="font-size: 13px; margin: 16px 0 6px; color: #c2643b;">Bucket 1 — Facts</h3>
+      <p style="margin: 0 0 8px;">
+        Timeless truths about the user. <b>Never expire.</b> Always loaded into the prompt.
+        Updated only when the user explicitly contradicts. Stored as a key→value object.
+      </p>
+      <p style="margin: 0;">
+        Examples: name, profession, mother tongue, family, hometown, broad interests, past life
+        experiences ("broke leg playing cricket at 16"), english_profile ("nervous about speaking").
+      </p>
+
+      <h3 style="font-size: 13px; margin: 16px 0 6px; color: #c2643b;">Bucket 2 — Events</h3>
+      <p style="margin: 0 0 8px;">
+        Things tied to a specific calendar date. <b>Auto-archived 14 days after the date passes.</b>
+        Always have a <code>date</code> field. Stored as an ordered list with <code>id</code>,
+        <code>what</code>, <code>date</code>, <code>added</code>, <code>followed_up</code>.
+      </p>
+      <p style="margin: 0;">
+        Examples: GMAT exam on May 15, sister's wedding May 22, got promoted last Friday,
+        doctor appointment tomorrow.
+      </p>
+
+      <h3 style="font-size: 13px; margin: 16px 0 6px; color: #c2643b;">How it's stored on disk</h3>
+      <p style="margin: 0 0 8px;">
+        One JSON file per user at <code>memory_store/{user}.json</code>. Sample contents:
+      </p>
+      <pre style="background:#f4f1ea; padding:10px 12px; border-radius:4px; font-family:ui-monospace,monospace; font-size:11px; line-height:1.45; overflow-x:auto; margin:0;">{
+  "facts": {
+    "name": "Sunil",
+    "profession": "Hardware sales at a small firm in Indore",
+    "mother_tongue": "Hindi",
+    "location": "Indore",
+    "family": "Lives with parents and younger sister",
+    "interests": ["cricket", "Bollywood films", "biryani"],
+    "background": [
+      "Played cricket for school team in Indore",
+      "Father worked at LIC for 30 years"
+    ],
+    "english_profile": "Intermediate. Freezes in client meetings. Drops articles."
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "Client call with US customer about hardware order",
+      "date": "2026-04-30",
+      "added": "2026-04-28",
+      "followed_up": false
+    },
+    {
+      "id": "ev_002",
+      "what": "Got first English-medium client account",
+      "date": "2026-04-21",
+      "added": "2026-04-21",
+      "followed_up": true
+    }
+  ]
+}</pre>
+
+      <h3 style="font-size: 13px; margin: 16px 0 6px; color: #c2643b;">How it's rendered into the prompt Maya sees</h3>
+      <p style="margin: 0 0 8px;">
+        The structured JSON above gets formatted into a natural-language block before being
+        injected into Maya's first-message instruction. Dates are translated to relative
+        language client-side so Maya can speak naturally:
+      </p>
+      <pre style="background:#fdf6ed; padding:10px 12px; border-radius:4px; font-family:ui-monospace,monospace; font-size:11px; line-height:1.45; overflow-x:auto; margin:0;">About you (always true — never expires):
+  • Name: Sunil
+  • Profession: Hardware sales at a small firm in Indore
+  • Mother Tongue: Hindi
+  • Location: Indore
+  • Family: Lives with parents and younger sister
+  • Interests: cricket, Bollywood films, biryani
+  • Background: Played cricket for school team in Indore, Father worked at LIC for 30 years
+  • English Profile: Intermediate. Freezes in client meetings. Drops articles.
+
+Coming up / recent events (date-bound, will auto-archive):
+  • 7 days ago (April 21): Got first English-medium client account (id: ev_002)  ← already followed up, do not re-raise
+  • in 2 days (April 30): Client call with US customer about hardware order (id: ev_001)</pre>
+
+      <h3 style="font-size: 13px; margin: 16px 0 6px; color: #c2643b;">How memory gets updated each session</h3>
+      <p style="margin: 0 0 8px;">
+        At the end of each chat (<code>/end_session</code>), one LLM call runs the
+        <b>memory_merge</b> prompt. It takes the current facts + events + the new transcript
+        and returns a structured JSON patch. The server applies the patch deterministically —
+        no risk of accidentally losing your name during a chatty session.
+      </p>
+      <p style="margin: 0 0 8px;"><b>Sample patch the merge LLM might emit</b> (after Sunil mentions his client call went well and he's now planning to attend a sales conference in Mumbai on June 10):</p>
+      <pre style="background:#f4f1ea; padding:10px 12px; border-radius:4px; font-family:ui-monospace,monospace; font-size:11px; line-height:1.45; overflow-x:auto; margin:0;">{
+  "facts_appends": {
+    "background": ["Closed first international hardware deal April 30"]
+  },
+  "events_add": [
+    {"what": "Sales conference in Mumbai", "date": "2026-06-10"}
+  ],
+  "events_followed_up": ["ev_001"]
+}</pre>
+      <p style="margin: 8px 0 0;">
+        The server applies this: appends to background, adds the new event with auto-generated
+        id, marks ev_001 as followed up, and auto-archives anything older than 14 days past
+        its date.
+      </p>
+
+      <h3 style="font-size: 13px; margin: 16px 0 6px; color: #c2643b;">Sample memory_merge prompt — for reference only</h3>
+      <p style="margin: 0 0 8px;">
+        Below is an <b>illustrative</b> version of the merge prompt with a worked example.
+        <b>This is NOT the prompt the app actually sends</b> — the live one is in the
+        <code>memory_merge</code> card below. This sample is here so you can see the shape of
+        what the LLM is asked to do. Use it as inspiration if you're customizing the live
+        prompt.
+      </p>
+      <pre style="background:#eef4ee; padding:10px 12px; border-radius:4px; font-family:ui-monospace,monospace; font-size:11px; line-height:1.45; overflow-x:auto; margin:0; border-left: 3px solid #2a7a3a;">You are updating a structured memory store with two buckets:
+  FACTS  = timeless truths about the user (no date)
+  EVENTS = things tied to a calendar date (auto-expire after 14 days past)
+
+TODAY'S DATE: 2026-04-28
+
+CURRENT FACTS:
+{
+  "name": "Sunil",
+  "profession": "Hardware sales at a small firm in Indore",
+  "english_profile": "Intermediate. Freezes in client meetings."
+}
+
+CURRENT EVENTS:
+[
+  {"id": "ev_001", "what": "Client call with US customer", "date": "2026-04-30",
+   "followed_up": false}
+]
+
+NEW TRANSCRIPT (most relevant excerpts):
+User: Hi Maya! The client call I told you about went really well today.
+User: They confirmed the order. Big win for me.
+User: Also I have to attend a sales conference in Mumbai on June 10.
+Maya: Oh wonderful! How exciting. Tell me about Mumbai.
+
+EXPECTED PATCH OUTPUT:
+{
+  "facts_appends": {
+    "background": ["Closed first international hardware deal April 30"]
+  },
+  "events_add": [
+    {"what": "Sales conference in Mumbai", "date": "2026-06-10"}
+  ],
+  "events_followed_up": ["ev_001"]
+}
+
+NOTE what we did NOT include:
+- Maya asked about Mumbai, but the user did not say anything substantive about it,
+  so nothing about Mumbai goes into facts.
+- The "April 30" outcome got promoted into facts.background (timeless achievement)
+  AND ev_001 was marked followed_up (so Maya stops asking about it).</pre>
+
+      <h3 style="font-size: 13px; margin: 16px 0 6px; color: #c2643b;">Lifecycle rules the live merge enforces</h3>
+      <ul style="margin: 0 0 8px 18px; padding: 0;">
+        <li><b>Fact fidelity:</b> only persist what the USER stated, never what Maya asked or invented.</li>
+        <li><b>Date resolution:</b> "tomorrow" / "next week" / "yesterday" are converted to absolute YYYY-MM-DD before persisting.</li>
+        <li><b>No fact churn:</b> only update a fact field when the user contradicts or specifies more precisely.</li>
+        <li><b>Auto-archive:</b> events whose date is more than 14 days past TODAY get dropped on the next save.</li>
+        <li><b>Promotion:</b> when an event resolves into a timeless achievement, the merge can append it to a facts list (e.g. <code>background</code>).</li>
+      </ul>
+    </div>
+  </details>
+
+  <div id="prompt-list">
+    <div class="meta">loading…</div>
+  </div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+
+function escape(s) {
+  const d = document.createElement("div");
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+async function loadPrompts() {
+  const list = document.getElementById("prompt-list");
+  list.innerHTML = '<div class="meta">loading…</div>';
+  const r = await fetch("/playground/api/prompts");
+  const d = await r.json();
+  list.innerHTML = "";
+  d.prompts.forEach(p => list.appendChild(renderCard(p)));
+}
+
+// Client-side password (matches server). Used only for UX gating; the server
+// re-validates on every save/reset so this isn't a security boundary.
+const EDIT_PASSWORD = "0711";
+
+function renderCard(p) {
+  const card = document.createElement("div");
+  card.className = "prompt-card";
+  card.innerHTML = `
+    <div class="prompt-head" data-toggle>
+      <h3>${escape(p.label)}</h3>
+      <span class="id">${p.id}</span>
+      ${p.is_overridden ? '<span class="badge-overridden">edited</span>' : ''}
+      <span class="chev">▸</span>
+    </div>
+    <div class="prompt-body">
+      <p class="desc">${escape(p.description)}</p>
+      <label>Current prompt (${p.current.length} chars) — <span data-mode-label>view only</span></label>
+      <textarea data-text readonly>${escape(p.current)}</textarea>
+      <div class="actions">
+        <button data-unlock>🔒 Unlock to edit</button>
+        <button data-save style="display:none;">Save edit</button>
+        <button class="danger" data-reset style="display:none;" ${p.is_overridden ? '' : 'disabled'}>Reset to default</button>
+        <button class="secondary" data-cancel style="display:none;">Cancel</button>
+        <button class="secondary" data-show-default>Show default</button>
+        <span data-status class="status" style="display:none;"></span>
+      </div>
+      <pre data-default style="display:none; margin-top:10px;">${escape(p.default)}</pre>
+    </div>
+  `;
+  // expand on header click
+  const head = card.querySelector("[data-toggle]");
+  const body = card.querySelector(".prompt-body");
+  const chev = card.querySelector(".chev");
+  head.onclick = () => {
+    const open = body.style.display === "block";
+    body.style.display = open ? "none" : "block";
+    chev.textContent = open ? "▸" : "▾";
+  };
+  // shortcuts
+  const ta = card.querySelector("[data-text]");
+  const status = card.querySelector("[data-status]");
+  const unlockBtn = card.querySelector("[data-unlock]");
+  const saveBtn = card.querySelector("[data-save]");
+  const resetBtn = card.querySelector("[data-reset]");
+  const cancelBtn = card.querySelector("[data-cancel]");
+  const modeLabel = card.querySelector("[data-mode-label]");
+  let unlockedPassword = null;
+
+  const showStatus = (msg, ok) => {
+    status.style.display = "inline-block";
+    status.className = "status " + (ok ? "ok" : "err");
+    status.textContent = msg;
+  };
+  function lock() {
+    ta.setAttribute("readonly", "");
+    unlockBtn.style.display = "inline-block";
+    unlockBtn.textContent = "🔒 Unlock to edit";
+    saveBtn.style.display = "none";
+    resetBtn.style.display = "none";
+    cancelBtn.style.display = "none";
+    modeLabel.textContent = "view only";
+    unlockedPassword = null;
+  }
+  function unlock(pwd) {
+    ta.removeAttribute("readonly");
+    ta.focus();
+    unlockBtn.style.display = "none";
+    saveBtn.style.display = "inline-block";
+    resetBtn.style.display = "inline-block";
+    cancelBtn.style.display = "inline-block";
+    modeLabel.textContent = "EDITING (unlocked)";
+    unlockedPassword = pwd;
+  }
+
+  unlockBtn.onclick = () => {
+    const pwd = prompt("Enter password to edit this prompt:");
+    if (pwd === null) return;  // cancelled
+    if (pwd !== EDIT_PASSWORD) {
+      showStatus("✗ wrong password", false);
+      return;
+    }
+    showStatus("✓ unlocked — server will re-verify on save", true);
+    setTimeout(() => { status.style.display = "none"; }, 1500);
+    unlock(pwd);
+  };
+
+  cancelBtn.onclick = () => {
+    ta.value = p.current;  // discard edits
+    lock();
+  };
+
+  saveBtn.onclick = async () => {
+    if (!unlockedPassword) { showStatus("locked", false); return; }
+    const r = await fetch(`/playground/api/prompts/${p.id}`, {
+      method: "POST", headers: {"Content-Type":"application/json"},
+      body: JSON.stringify({ text: ta.value, password: unlockedPassword }),
+    });
+    const dd = await r.json();
+    if (dd.ok) {
+      showStatus("✓ saved", true);
+      setTimeout(loadPrompts, 700);
+    } else {
+      showStatus("✗ " + (dd.error || "save failed"), false);
+    }
+  };
+
+  resetBtn.onclick = async () => {
+    if (!unlockedPassword) { showStatus("locked", false); return; }
+    if (!confirm(`Reset "${p.label}" to default? Your edit will be discarded.`)) return;
+    const r = await fetch(`/playground/api/prompts/${p.id}/reset`, {
+      method: "POST", headers: {"Content-Type":"application/json"},
+      body: JSON.stringify({ password: unlockedPassword }),
+    });
+    const dd = await r.json();
+    if (dd.ok) {
+      showStatus("✓ reset to default", true);
+      setTimeout(loadPrompts, 700);
+    } else {
+      showStatus("✗ " + (dd.error || "reset failed"), false);
+    }
+  };
+
+  card.querySelector("[data-show-default]").onclick = () => {
+    const pre = card.querySelector("[data-default]");
+    pre.style.display = pre.style.display === "none" ? "block" : "none";
+  };
+
+  return card;
+}
+
+loadPrompts();
+</script>
+</body>
+</html>

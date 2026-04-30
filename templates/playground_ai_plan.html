@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PeerUp · AI Plan</title>
+  <style>
+    :root {
+      --accent: #6b3fa0;
+      --accent-soft: #f3edff;
+      --border: #d8c8ec;
+      --bg: #faf7f2;
+      --panel: #fff;
+      --muted: #7a6a99;
+      --text: #2a2a2a;
+      --green: #2a7a3a;
+      --red: #a83838;
+      --orange: #c2643b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.6;
+    }
+    header {
+      background: var(--accent); color: #fff;
+      padding: 16px 28px; display: flex; align-items: center; gap: 14px;
+    }
+    header h1 { margin: 0; font-size: 18px; font-weight: 600; }
+    header a { color: rgba(255,255,255,0.85); font-size: 12px; text-decoration: none; margin-left: 14px; }
+    header a:hover { color: #fff; }
+    main { max-width: 1100px; margin: 0 auto; padding: 28px; }
+    section.bucket {
+      background: var(--panel); border: 1px solid var(--border);
+      border-radius: 8px; padding: 22px 28px; margin-bottom: 18px;
+      border-left: 6px solid var(--accent);
+    }
+    section.bucket h2 {
+      margin: 0 0 8px; font-size: 17px; color: var(--accent);
+      display: flex; align-items: center; gap: 10px;
+    }
+    section.bucket .pill {
+      display: inline-block; padding: 2px 9px; font-size: 10px;
+      background: var(--accent-soft); color: var(--accent); border-radius: 999px;
+      font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
+    }
+    section.bucket .one-liner { font-size: 13px; color: var(--muted); margin: 0 0 16px; }
+    section.bucket h3 {
+      margin: 14px 0 6px; font-size: 13px; font-weight: 700;
+      color: var(--text); text-transform: uppercase; letter-spacing: 0.04em;
+    }
+    section.bucket ul { margin: 0; padding-left: 20px; font-size: 13.5px; }
+    section.bucket li { margin: 4px 0; }
+    .ex-table {
+      width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 12.5px;
+    }
+    .ex-table th, .ex-table td {
+      border: 1px solid var(--border); padding: 8px 10px; vertical-align: top;
+    }
+    .ex-table th {
+      background: var(--accent-soft); color: var(--accent); text-align: left;
+      font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em;
+    }
+    .ex-table td.user { background: #fcfaf6; width: 38%; font-style: italic; color: #444; }
+    .ex-table td.bucket-cell { width: 30%; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 11px; color: var(--accent); }
+    .ex-table td.field { width: 32%; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 11px; color: var(--green); }
+    code { background: var(--accent-soft); padding: 1px 5px; border-radius: 3px; font-size: 12px; font-family: ui-monospace, Menlo, monospace; }
+
+    .intro {
+      background: #f3edff; border: 1px solid #c4afe6;
+      border-radius: 8px; padding: 18px 22px; margin-bottom: 22px;
+    }
+    .intro p { margin: 0 0 10px; font-size: 14px; }
+    .intro p:last-child { margin-bottom: 0; }
+
+    .flowchart {
+      background: var(--panel); border: 1px solid var(--border);
+      border-radius: 8px; padding: 18px 24px; margin-bottom: 22px;
+    }
+    .flowchart h2 { margin: 0 0 12px; font-size: 15px; color: var(--accent); }
+    .flow-step {
+      padding: 10px 14px; margin: 6px 0; border-radius: 6px;
+      background: #fcfaf6; border-left: 4px solid var(--accent);
+      font-size: 13px;
+    }
+    .flow-step b { color: var(--accent); }
+
+    .never {
+      background: #fff5f5; border: 1px solid #f0d2d2;
+      border-radius: 8px; padding: 18px 22px; margin-bottom: 18px;
+    }
+    .never h2 { margin: 0 0 10px; font-size: 15px; color: var(--red); }
+    .never ul { margin: 0; padding-left: 20px; font-size: 13.5px; color: #6a2a2a; }
+
+    .lifecycle {
+      display: inline-block; padding: 3px 10px; font-size: 11px;
+      border-radius: 999px; margin-left: 6px;
+      background: #fdf2dd; color: #8a5a1a;
+    }
+    .lifecycle.permanent { background: #e0f5e6; color: var(--green); }
+    .lifecycle.session-bound { background: var(--accent-soft); color: var(--accent); }
+
+    .legend-key {
+      font-family: ui-monospace, Menlo, monospace; font-size: 11px;
+      color: var(--accent); background: var(--accent-soft);
+      padding: 1px 6px; border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🧠 AI Plan — what gets saved &amp; how it's classified</h1>
+    <a href="/playground">← Back to playground</a>
+    <a href="/playground/docs">📘 Full docs</a>
+    <a href="/playground/prompts">Prompts</a>
+  </header>
+
+  <main>
+    <div class="intro">
+      <p><b>What this is.</b> Every time you finish a chat, the playground runs one merge LLM call that decides what — if anything — to save from the transcript. This page documents exactly what it puts where, with the rules and concrete examples. No magic.</p>
+      <p><b>Why it matters.</b> Memory that's classified wrong propagates: a moment misfiled as a fact never expires; an event misfiled as a fact gets brought up out of context; a casual comment misfiled as a moment makes Maya treat it as emotionally weighted. The classification is the foundation.</p>
+      <p><b>Read the buckets in this order:</b> facts → events → moments → mood → cooldown → lore → anticipation → skills.</p>
+    </div>
+
+    <div class="flowchart">
+      <h2>Quick decision flow — when the merge LLM looks at one user statement</h2>
+      <div class="flow-step">1. Did the user state it about themselves? If <b>no</b> (Maya invented it / it's about Maya / it's third-party gossip) → <b>discard</b>.</div>
+      <div class="flow-step">2. Is it a TIMELESS attribute (name, profession, hobby, family, aspiration)? → <b>facts</b></div>
+      <div class="flow-step">3. Does it have a SPECIFIC DATE attached (exam, wedding, deadline, appointment)? → <b>events</b> (auto-archived 14 days after date)</div>
+      <div class="flow-step">4. Is it EMOTIONALLY WEIGHTED with persistent significance (fear, pride, ongoing strain, hope)? → <b>moments</b></div>
+      <div class="flow-step">5. Did it land as a JOKE / shared reference / running bit between you and Maya? → <b>lore</b></div>
+      <div class="flow-step">6. Was it a recurring English mistake or a notable correct usage? → <b>skills.error_patterns</b> / <b>skills.wins</b></div>
+      <div class="flow-step">7. Is it none of the above? → <b>discard</b>. Default to silence over invention.</div>
+    </div>
+
+    <!-- ============ FACTS ============ -->
+    <section class="bucket">
+      <h2>📒 facts <span class="pill">timeless</span> <span class="lifecycle permanent">never expires</span></h2>
+      <p class="one-liner">Things that are true about you and stay true. No date attached.</p>
+
+      <h3>What goes here</h3>
+      <ul>
+        <li>Identity: name, nickname, profession, mother tongue, hometown, current city</li>
+        <li>Family: spouse, parents, siblings, kids — and named people in your life ("my boss Karthik", "sister Riya")</li>
+        <li>Background: where you grew up, schools, formative experiences ("broke leg playing cricket at 16")</li>
+        <li>Interests &amp; hobbies (recurring, not one-off): cricket, cooking, photography</li>
+        <li>Aspirations: "want to do an MBA someday", "want to live abroad"</li>
+        <li>English profile: "comfortable with daily talk, nervous about formal speaking"</li>
+      </ul>
+
+      <h3>How it's stored</h3>
+      <ul>
+        <li><b>Scalar fields</b> get overwritten only on explicit contradiction (profession changes, mother tongue corrected). Identity field <code>name</code> is canonical and CANNOT be overwritten — attempts get redirected to <code>nickname</code>.</li>
+        <li><b>List fields</b> (interests, background, family) get appended; deduped; never trimmed.</li>
+      </ul>
+
+      <h3>Examples</h3>
+      <table class="ex-table">
+        <tr><th>You say</th><th>Bucket</th><th>Saved as</th></tr>
+        <tr><td class="user">"I'm a software engineer at a fintech."</td><td class="bucket-cell">facts</td><td class="field">profession = "software engineer at a fintech"</td></tr>
+        <tr><td class="user">"My sister's name is Riya. She's studying design."</td><td class="bucket-cell">facts</td><td class="field">family += ["sister Riya, studying design"]</td></tr>
+        <tr><td class="user">"I want to do an MBA someday."</td><td class="bucket-cell">facts</td><td class="field">aspirations += ["MBA someday"]</td></tr>
+        <tr><td class="user">"Call me Khan." (profile name is Priyansh)</td><td class="bucket-cell">facts</td><td class="field">nickname = "Khan" <i>(name field stays Priyansh — protected)</i></td></tr>
+        <tr><td class="user">"I broke my leg playing cricket at 16."</td><td class="bucket-cell">facts</td><td class="field">background += ["broke leg playing cricket at 16"]</td></tr>
+        <tr><td class="user">"I'm having a bad day."</td><td class="bucket-cell">— (NOT facts)</td><td class="field"><i>not timeless → moments or skipped</i></td></tr>
+      </table>
+    </section>
+
+    <!-- ============ EVENTS ============ -->
+    <section class="bucket">
+      <h2>📅 events <span class="pill">date-bound</span> <span class="lifecycle">auto-archive 14 days after the date</span></h2>
+      <p class="one-liner">Specific things tied to a calendar date. Maya can ask about them as they approach or check in afterward.</p>
+
+      <h3>What goes here</h3>
+      <ul>
+        <li>Exams, interviews, deadlines, appointments, tests</li>
+        <li>Weddings, parties, family gatherings, trips, travel dates</li>
+        <li>Promotions, milestones, anniversaries (one-off — recurring annual events are an open V6 issue)</li>
+        <li>Anything with a YYYY-MM-DD answer to "when?"</li>
+      </ul>
+
+      <h3>How it's stored</h3>
+      <ul>
+        <li>Required fields: <code>what</code> (short description) + <code>date</code> (resolved to YYYY-MM-DD even if you said "tomorrow")</li>
+        <li>Tracking flags: <code>followed_up</code> (Maya already asked about it in past tense — don't re-raise), <code>added</code> (when it entered memory)</li>
+        <li><b>Auto-archive</b>: 14 days after the event date, the event is dropped. So "exam on May 4" disappears around May 18.</li>
+      </ul>
+
+      <h3>Examples</h3>
+      <table class="ex-table">
+        <tr><th>You say (today: 2026-04-29)</th><th>Bucket</th><th>Saved as</th></tr>
+        <tr><td class="user">"My GMAT is on May 4."</td><td class="bucket-cell">events</td><td class="field">{what: "GMAT exam", date: "2026-05-04"}</td></tr>
+        <tr><td class="user">"My sister's wedding is next month, on the 18th."</td><td class="bucket-cell">events</td><td class="field">{what: "sister's wedding", date: "2026-05-18"}</td></tr>
+        <tr><td class="user">"I'm meeting Karthik tomorrow."</td><td class="bucket-cell">events</td><td class="field">{what: "meeting with Karthik", date: "2026-04-30"}</td></tr>
+        <tr><td class="user">"I have yoga every Tuesday."</td><td class="bucket-cell">events <i>(today)</i></td><td class="field">{what: "yoga (Tuesdays)", date: "2026-05-05"} <br><i>recurrence not yet supported — V6 fix planned</i></td></tr>
+        <tr><td class="user">"I want to do an MBA someday."</td><td class="bucket-cell">— (NOT events)</td><td class="field"><i>no date → facts.aspirations</i></td></tr>
+      </table>
+    </section>
+
+    <!-- ============ MOMENTS ============ -->
+    <section class="bucket">
+      <h2>💭 moments <span class="pill">emotional thread</span> <span class="lifecycle permanent">long-term</span></h2>
+      <p class="one-liner">Emotionally weighted statements you've shared. No date. These shape Maya's tone — but she NEVER quotes them back.</p>
+
+      <h3>What goes here</h3>
+      <ul>
+        <li>Fears: "I'm scared of group calls", "I freeze when my boss looks at me"</li>
+        <li>Prides: "I'm proud I finished the marathon", "I learned to drive last year, that was a big deal"</li>
+        <li>Ongoing strains: "I always feel behind my brother", "my work-life balance is rough"</li>
+        <li>Hopes / longings: "I miss my parents", "I want to feel less anxious in meetings"</li>
+        <li>Moments of vulnerability: "I cried during the movie last weekend"</li>
+      </ul>
+
+      <h3>How it's stored</h3>
+      <ul>
+        <li>Each entry: <code>text</code>, <code>tone</code> (anxious / sad / proud / scared / hopeful / frustrated / content / lonely / grateful / excited / neutral), <code>sensitive</code> (boolean), <code>first_seen</code>, <code>last_seen</code>, <code>mentions</code> (counter, bumps on repeat)</li>
+        <li><b>Sensitive flag</b> = TRUE for acute disclosures or things you said not to bring up. Sensitive moments are stored but Maya is HARD-RULED to never raise them unprompted (Rule 29).</li>
+        <li>Dedup: same text seen again = mentions counter bumps; <code>last_seen</code> updates.</li>
+      </ul>
+
+      <h3>Examples</h3>
+      <table class="ex-table">
+        <tr><th>You say</th><th>Bucket</th><th>Saved as</th></tr>
+        <tr><td class="user">"I get nervous on group calls at work."</td><td class="bucket-cell">moments</td><td class="field">{text: "nervous on group calls", tone: "anxious", sensitive: false}</td></tr>
+        <tr><td class="user">"I'm really proud I ran my first 10K last month."</td><td class="bucket-cell">moments</td><td class="field">{text: "ran first 10K", tone: "proud"}</td></tr>
+        <tr><td class="user">"I feel like a failure compared to my brother."</td><td class="bucket-cell">moments</td><td class="field">{tone: "frustrated", sensitive: <b>true</b>}</td></tr>
+        <tr><td class="user">"I miss my mom."</td><td class="bucket-cell">moments</td><td class="field">{tone: "sad", sensitive: <b>true</b>}</td></tr>
+        <tr><td class="user">"This biryani was so spicy, my stomach is crying."</td><td class="bucket-cell">— (NOT a moment)</td><td class="field"><i>casual / momentary, no persistent significance → discard or potentially lore</i></td></tr>
+      </table>
+    </section>
+
+    <!-- ============ MOOD LOG ============ -->
+    <section class="bucket">
+      <h2>📊 mood_log <span class="pill">session-level</span> <span class="lifecycle">last 14 sessions kept</span></h2>
+      <p class="one-liner">One emotional reading per session. Drives "how should Maya open today" — never spoken back at the user.</p>
+
+      <h3>What goes here</h3>
+      <ul>
+        <li>One entry per session, written at end-of-chat by the merge LLM after seeing the whole transcript.</li>
+        <li>Label: <code>low</code> · <code>anxious</code> · <code>neutral</code> · <code>content</code> · <code>energetic</code> · <code>no_read</code> (LLM couldn't tell)</li>
+        <li>Energy: 1–10 integer (omitted if <code>no_read</code>)</li>
+        <li>Confidence: 0.0–1.0, the LLM's self-assessment</li>
+        <li>Behavioral: deterministic engagement_score from your message length, exclamations, negation density, etc. — used to cross-check the LLM's read</li>
+        <li>Agreement: <code>match</code> · <code>soft_conflict</code> · <code>hard_conflict</code> — final confidence is dampened on conflict</li>
+        <li>Linked event: optional reference to an event in the events bucket, if mood is clearly tied to it</li>
+      </ul>
+
+      <h3>How it's used (not displayed back to you)</h3>
+      <ul>
+        <li>Renders as a 5-step trajectory: <span class="legend-key">low(4) → anxious(4)? → neutral(5) → content(7) → content(7)</span></li>
+        <li>Trailing <code>?</code> = low confidence; the model de-weights that entry</li>
+        <li>Auto-detected hints: ⚠ sharp drop · 📉 trending down · 📈 trending up · ➖ persistent tier (this is your normal)</li>
+        <li>Baseline computed from last 14 entries (mode label + median energy) — Maya reads trajectory <i>against your baseline</i>, not against zero</li>
+        <li>Cadence: how often you've been chatting (daily / regular / sporadic / occasional)</li>
+      </ul>
+
+      <h3>Examples</h3>
+      <table class="ex-table">
+        <tr><th>Session vibe</th><th>Saved as</th><th>What Maya does next session</th></tr>
+        <tr><td class="user">Heavy session, you mentioned exam stress, short replies, no exclamations.</td><td class="field">{label: "low", energy: 4, confidence: 0.9, agreement: "match"}</td><td>Opens softer. Skips agenda.</td></tr>
+        <tr><td class="user">Chatty, jokes, long replies, asked Maya questions back.</td><td class="field">{label: "content", energy: 7, confidence: 0.85, agreement: "match"}</td><td>Matches energy. Lighter.</td></tr>
+        <tr><td class="user">2-message session, you replied "ok", "yeah", then left.</td><td class="field">{label: "no_read"}</td><td>Renders as <code>?</code>. Maya reads room from current convo, doesn't lean on memory.</td></tr>
+      </table>
+    </section>
+
+    <!-- ============ COOLDOWN ============ -->
+    <section class="bucket">
+      <h2>🚫 cooldown <span class="pill">repetition control</span> <span class="lifecycle session-bound">last ~12 topics, last 10 openers</span></h2>
+      <p class="one-liner">What Maya RAISED in recent sessions, so she doesn't repeat herself.</p>
+
+      <h3>recent_topics (last 12 distinct)</h3>
+      <ul>
+        <li>Every distinct topic Maya brought up unprompted, with <code>last_session</code>, <code>last_date</code>, <code>uses</code> counter</li>
+        <li>Renders as the 🚫 OFF-LIMITS denylist at the very TOP of the prompt</li>
+        <li>Rule 32 makes these FORBIDDEN as Maya's opener for that session</li>
+      </ul>
+
+      <h3>recent_openers (last 10)</h3>
+      <ul>
+        <li>One of: <code>event_followup</code> · <code>moment_followup</code> · <code>skill_celebration</code> · <code>lore_callback</code> · <code>energy_match</code> · <code>general</code></li>
+        <li>Maya sees the recent sequence (<i>"general → general → general"</i>) and is told to vary the kind</li>
+      </ul>
+
+      <h3>Examples</h3>
+      <table class="ex-table">
+        <tr><th>Maya raised this session</th><th>Bucket</th><th>Saved as</th></tr>
+        <tr><td class="user">Asked about GMAT prep, asked about sister's wedding, asked about cooking.</td><td class="bucket-cell">cooldown.recent_topics</td><td class="field">+["GMAT prep", "sister's wedding", "cooking"] (with last_date)</td></tr>
+        <tr><td class="user">Opened with "How's the GMAT going?" — that's an event_followup.</td><td class="bucket-cell">cooldown.recent_openers</td><td class="field">+[{kind: "event_followup", last_date: today}]</td></tr>
+      </table>
+    </section>
+
+    <!-- ============ LORE ============ -->
+    <section class="bucket">
+      <h2>🎭 lore <span class="pill">inside jokes</span> <span class="lifecycle permanent">up to 30 kept, decay by recency</span></h2>
+      <p class="one-liner">Running jokes and shared references between you and Maya. Used sparingly for warmth.</p>
+
+      <h3>What goes here</h3>
+      <ul>
+        <li>A phrase you repeat that becomes a tag ("going market", "the lehenga drama")</li>
+        <li>A teasing exchange that both sides enjoyed</li>
+        <li>A shared reaction or bit that returned</li>
+      </ul>
+
+      <h3>How it's stored</h3>
+      <ul>
+        <li>Each entry: <code>id</code>, <code>what</code> (short label), <code>context</code> (1-2 sentences for future-Maya to wield), <code>first_seen</code>, <code>last_used</code>, <code>uses</code> counter</li>
+        <li>Rule 33 caps usage at 1 lore callback per session, never the same item twice in a row</li>
+        <li>Lore dormant for ≥20 days enters the anticipation queue as a possible callback ("she didn't forget, she was waiting")</li>
+      </ul>
+
+      <h3>Examples</h3>
+      <table class="ex-table">
+        <tr><th>You say (or session moment)</th><th>Bucket</th><th>Saved as</th></tr>
+        <tr><td class="user">"My sister rejected SIX lehengas. SIX." (caps + emphasis = clear lore signal)</td><td class="bucket-cell">lore</td><td class="field">{what: "the lehenga drama, six rejections", context: "sister's wedding shopping ordeal"}</td></tr>
+        <tr><td class="user">You said "I am going market" once; Maya teased it gently and you laughed.</td><td class="bucket-cell">lore</td><td class="field">{what: "going market joke", context: "user's classic Indian-English slip that became a running bit"}</td></tr>
+        <tr><td class="user">"It was a normal lunch." (no warmth, no callback potential)</td><td class="bucket-cell">— (NOT lore)</td><td class="field"><i>not memorable → discard</i></td></tr>
+      </table>
+    </section>
+
+    <!-- ============ ANTICIPATION QUEUE ============ -->
+    <section class="bucket">
+      <h2>✅ anticipation_queue <span class="pill">recomputed every save</span> <span class="lifecycle">5 items max · 14-day TTL</span></h2>
+      <p class="one-liner">Pre-loaded specific opener candidates for your NEXT session. Built deterministically — no LLM call.</p>
+
+      <h3>How it's built</h3>
+      <p>Rebuilt every save by <code>pg_compute_anticipation_queue()</code>. Sources, in priority order:</p>
+      <ol>
+        <li><b>Events in [-3d, +7d] window</b> — closer = higher priority. Just-passed events get followup; upcoming get attention.</li>
+        <li><b>Recent non-sensitive moments (≤21 days)</b> — anxious/sad tones get a priority boost.</li>
+        <li><b>Dormant lore (≥20 days unused)</b> — older lore gets a small bonus. Surprise callbacks.</li>
+        <li><b>Recent skill wins (≤7 days)</b> — for celebration.</li>
+      </ol>
+      <p>Sorted by priority, deduped by source_id, capped at 5. Items expire 14 days after computation.</p>
+
+      <h3>Rule 31 — primary opener source</h3>
+      <ul>
+        <li>If any item has priority ≥ 5, Maya MUST open with one of them</li>
+        <li>Pick exactly ONE; weave it in naturally; never recite the queue itself</li>
+        <li>Falls back to fresh angle only if queue is empty or all items are below threshold</li>
+      </ul>
+
+      <h3>Examples (computed from memory, not user input)</h3>
+      <table class="ex-table">
+        <tr><th>State</th><th>Generated queue item</th></tr>
+        <tr><td class="user">Event "GMAT exam" on 2026-05-04. Today is 2026-04-29.</td><td class="field">{kind: "event_upcoming", content: "Ask about GMAT exam — in 5 days", priority: 6}</td></tr>
+        <tr><td class="user">Moment "I get nervous on group calls" added 5 days ago, tone: anxious.</td><td class="field">{kind: "moment_followup", priority: 7}</td></tr>
+        <tr><td class="user">Skill win "used past perfect correctly" last_seen 3 days ago.</td><td class="field">{kind: "skill_celebration", priority: 5}</td></tr>
+      </table>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="bucket">
+      <h2>🎯 skills <span class="pill">tutoring intelligence</span> <span class="lifecycle">errors: 20 active · wins: 30 max</span></h2>
+      <p class="one-liner">Recurring English mistakes you make, and notable correct usages. Drives Rule 28 corrections + Rule 34 celebrations.</p>
+
+      <h3>error_patterns</h3>
+      <ul>
+        <li>Each entry: <code>pattern</code> (the GENERIC rule, not the literal sentence), <code>examples</code> (last 5 literal user lines), <code>occurrences</code>, <code>first_seen</code>, <code>last_seen</code>, <code>status</code> (active / fixed)</li>
+        <li>Same pattern across sessions auto-merges with bumped occurrences</li>
+        <li>LLM can mark a pattern as <code>fixed</code> if you consistently produce the correct form</li>
+      </ul>
+
+      <h3>wins</h3>
+      <ul>
+        <li>Each entry: <code>what</code> (the skill — e.g. "used past perfect correctly"), <code>examples</code> (last 5 literal user lines), <code>count</code>, dates</li>
+        <li>Counter bumps on repeat correct use</li>
+        <li>Rule 34 has a HARD GATE: Maya can ONLY celebrate if she can quote a literal example — no fabrication</li>
+      </ul>
+
+      <h3>Examples</h3>
+      <table class="ex-table">
+        <tr><th>You say</th><th>Bucket</th><th>Saved as</th></tr>
+        <tr><td class="user">"I am going market for shopping." (drops "to")</td><td class="bucket-cell">skills.error_patterns</td><td class="field">{pattern: "drops 'to' before destination", examples: ["I am going market for shopping"], occurrences: +1}</td></tr>
+        <tr><td class="user">"I am having a doubt about this." (Indian-English "doubt" for "question")</td><td class="bucket-cell">skills.error_patterns</td><td class="field">{pattern: "uses 'doubt' for 'question'"}</td></tr>
+        <tr><td class="user">"I had finished the work by 5 yesterday." (correct past perfect)</td><td class="bucket-cell">skills.wins</td><td class="field">{what: "used past perfect correctly", examples: ["I had finished the work by 5 yesterday"]}</td></tr>
+        <tr><td class="user">A typo like "teh" instead of "the"</td><td class="bucket-cell">— (NOT skills)</td><td class="field"><i>typo, not a knowledge gap → discard</i></td></tr>
+      </table>
+    </section>
+
+    <!-- ============ NEVER SAVED ============ -->
+    <div class="never">
+      <h2>🚷 What we NEVER save</h2>
+      <ul>
+        <li><b>Anything Maya invented.</b> If you didn't say it, it doesn't get persisted. Rule of "fact fidelity": only the user's own statements about themselves count.</li>
+        <li><b>Third-party gossip about specific real people you didn't name.</b> Family member roles fine ("my mom is a teacher"); detailed claims about non-named third parties skipped.</li>
+        <li><b>Acute crisis content beyond a single sensitive flag.</b> If you describe a harm-to-self situation, Maya offers Indian crisis support resources (iCall, Vandrevala) once, doesn't probe, doesn't persist details. Rule 21.</li>
+        <li><b>Verbatim language details that aren't yours.</b> If you said "you sound stiff in your speech", that's about Maya's perception of you — moments captures the FEELING, not the literal phrase you used.</li>
+        <li><b>Fillers + small talk.</b> "ok", "yes", "thanks", "lol" — discarded.</li>
+        <li><b>Things you've explicitly asked to be forgotten.</b> Use "forget that I said X" — Maya removes it on next save (V4 work, currently relies on user clearing memory wholesale via the 🗑 button).</li>
+      </ul>
+    </div>
+
+    <p style="font-size:12px; color:var(--muted); text-align:center; margin-top:24px;">
+      This page is generated from <code>pg_apply_memory_patch()</code>, <code>PG_MEMORY_MERGE_PROMPT</code>, and <code>pg_compute_anticipation_queue()</code> in <code>app.py</code>. If those change, update this page.
+    </p>
+  </main>
+</body>
+</html>

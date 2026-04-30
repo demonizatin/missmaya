@@ -1,0 +1,177 @@
+{
+  "facts": {
+    "user_sentiment": [
+      "expressed excitement about their day",
+      "confirmed being great",
+      "mentioned birthday on 2026-05-05"
+    ]
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "User's birthday",
+      "date": "2026-05-05",
+      "added": "2026-04-30",
+      "followed_up": false
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "It was amazing",
+      "tone": "excited",
+      "sensitive": false,
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-04-30",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "I am great",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-04-30",
+      "mentions": 1
+    },
+    {
+      "id": "mo_003",
+      "text": "my bday is on 5th may",
+      "tone": "neutral",
+      "sensitive": false,
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-04-30",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "qwen_lab_1777560780847_711of6",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.5,
+      "behavioral": null,
+      "agreement": "n/a",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "Bollywood movies",
+        "last_session": "qwen_lab_1777561028559_0c6963",
+        "last_date": "2026-04-30",
+        "uses": 1
+      },
+      {
+        "topic": "Bollywood songs",
+        "last_session": "qwen_lab_1777561028559_0c6963",
+        "last_date": "2026-04-30",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "qwen_lab_1777560780847_711of6",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "general",
+        "last_session": "qwen_lab_1777560780847_711of6",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "general",
+        "last_session": "qwen_lab_1777561028559_0c6963",
+        "last_date": "2026-04-30"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "event_upcoming",
+      "content": "Ask about \"User's birthday\" — in 5 days",
+      "source_id": "ev_001",
+      "priority": 5,
+      "computed_at": "2026-04-30",
+      "expires_at": "2026-05-14",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"It was amazing\" (tone: excited)",
+      "source_id": "mo_001",
+      "priority": 4,
+      "computed_at": "2026-04-30",
+      "expires_at": "2026-05-14",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I am great\" (tone: content)",
+      "source_id": "mo_002",
+      "priority": 4,
+      "computed_at": "2026-04-30",
+      "expires_at": "2026-05-14",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"my bday is on 5th may\" (tone: neutral)",
+      "source_id": "mo_003",
+      "priority": 4,
+      "computed_at": "2026-04-30",
+      "expires_at": "2026-05-14",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "mention favorite Bollywood songs or movies",
+      "source_session": "qwen_lab_1777561028559_0c6963",
+      "source_date": "2026-04-30",
+      "status": "active",
+      "expires_at": "2026-05-30"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

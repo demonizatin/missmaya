@@ -1,0 +1,134 @@
+{
+  "facts": {},
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "User's birthday",
+      "date": "2026-05-01",
+      "added": "2026-04-30",
+      "followed_up": true
+    }
+  ],
+  "moments": [],
+  "mood_log": [
+    {
+      "session_id": "qwen_lab_1777562469972_wlasfu",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.5,
+      "behavioral": null,
+      "agreement": "n/a",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "favourite movie",
+        "last_session": "qwen_lab_1777562273968_deb2ko",
+        "last_date": "2026-04-30",
+        "uses": 1
+      },
+      {
+        "topic": "birthday",
+        "last_session": "qwen_lab_1777562469972_wlasfu",
+        "last_date": "2026-04-30",
+        "uses": 2
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "qwen_lab_1777562273968_deb2ko",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "qwen_lab_1777562469972_wlasfu",
+        "last_date": "2026-04-30"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [],
+  "skills": {
+    "error_patterns": [
+      {
+        "pattern": "failing to identify a movie vs. a song",
+        "examples": [
+          "ae mere watan ke logo"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-04-30",
+        "last_seen": "2026-04-30",
+        "status": "active"
+      }
+    ],
+    "wins": [],
+    "curriculum": [
+      {
+        "pattern": "failing to identify a movie vs. a song",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "ae mere watan ke logo"
+        ]
+      }
+    ]
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": [
+      "tea-over-coffee preference"
+    ]
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "user will tell Maya about their secret movie someday",
+      "source_session": "qwen_lab_1777562273968_deb2ko",
+      "source_date": "2026-04-30",
+      "status": "active",
+      "expires_at": "2026-05-30"
+    },
+    {
+      "id": "ol_002",
+      "kind": "event_pending",
+      "content": "celebrating user's birthday tomorrow",
+      "source_session": "qwen_lab_1777562273968_deb2ko",
+      "source_date": "2026-04-30",
+      "status": "active",
+      "expires_at": "2026-05-30"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": "off",
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {
+      "correction_style": "2026-04-30"
+    }
+  }
+}

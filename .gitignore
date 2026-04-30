@@ -1,0 +1,47 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Voice assets — large + regeneratable
+voices/
+
+# Background task logs / scratch
+/tmp/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts
+dist/
+build/
+*.zip
+
+# Settings overrides (might contain secrets)
+settings.json
+
+# Local agent / claude scratch
+.claude/
+
+# Memory subfolders that are session-state, not source
+memory_store/sessions/
+memory_store/_pending_merges/
+memory_store/_playground/_session_summaries/
+memory_store/_playground/_pending_merges/
+memory_store/_qwen_lab/_session_summaries/
+memory_store/_qwen_lab/_pending_merges/

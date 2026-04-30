@@ -1,0 +1,108 @@
+{
+  "facts": {},
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "GMAT exam",
+      "date": "2026-05-15",
+      "added": "2026-04-30",
+      "followed_up": false
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Feeling really anxious about exam prep and not sleeping well",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-04-30",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "smoke_test_001",
+      "date": "2026-04-30",
+      "label": "anxious",
+      "energy": 3,
+      "confidence": 0.37,
+      "behavioral": {
+        "msg_count": 1,
+        "total_chars": 293,
+        "avg_words": 54.0,
+        "questions_back": 2,
+        "exclamations": 1,
+        "negation_density": 0.0,
+        "engagement_score": 0.65
+      },
+      "agreement": "hard_conflict",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "winding down",
+        "last_session": "smoke_test_001",
+        "last_date": "2026-04-30",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "smoke_test_001",
+        "last_date": "2026-04-30"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Feeling really anxious about exam prep and not sleeping well\" (tone: anxious)",
+      "source_id": "mo_001",
+      "priority": 7,
+      "computed_at": "2026-04-30",
+      "expires_at": "2026-05-14",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

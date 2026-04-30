@@ -1,0 +1,143 @@
+{
+  "facts": {
+    "birthday": "May 5"
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "Birthday",
+      "date": "2026-05-05",
+      "added": "2026-04-30",
+      "followed_up": false
+    }
+  ],
+  "moments": [],
+  "mood_log": [
+    {
+      "session_id": "qwen_lab_1777560780847_711of6",
+      "date": "2026-04-30",
+      "label": "content",
+      "energy": 8,
+      "confidence": 0.65,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "qwen_lab_1777561028559_0c6963",
+      "date": "2026-04-30",
+      "label": "neutral",
+      "energy": 3,
+      "confidence": 0.35,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "Bollywood movies",
+        "last_session": "qwen_lab_1777561028559_0c6963",
+        "last_date": "2026-04-30",
+        "uses": 1
+      },
+      {
+        "topic": "personal interests",
+        "last_session": "qwen_lab_1777561028559_0c6963",
+        "last_date": "2026-04-30",
+        "uses": 1
+      },
+      {
+        "topic": "birthday celebration",
+        "last_session": "qwen_lab_1777561028559_0c6963",
+        "last_date": "2026-04-30",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "qwen_lab_1777560780847_711of6",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "general",
+        "last_session": "qwen_lab_1777560780847_711of6",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "general",
+        "last_session": "qwen_lab_1777561028559_0c6963",
+        "last_date": "2026-04-30"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "event_upcoming",
+      "content": "Ask about \"Birthday\" — in 5 days",
+      "source_id": "ev_001",
+      "priority": 5,
+      "computed_at": "2026-04-30",
+      "expires_at": "2026-05-14",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": [
+      "tea-over-coffee preference",
+      "loves Bollywood movies"
+    ]
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

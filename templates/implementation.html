@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PeerUp — Implementation 🔥</title>
+  <style>
+    :root {
+      --accent: #c2643b;
+      --bg: #faf7f2;
+      --panel: #ffffff;
+      --border: #e6dccd;
+      --muted: #8a7a66;
+      --text: #2a2a2a;
+      --green: #2a7a3a;
+      --purple: #6b3fa0;
+      --red: #a83838;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg); color: var(--text);
+    }
+    header {
+      padding: 14px 24px;
+      border-bottom: 1px solid var(--border);
+      background: var(--panel);
+      display: flex; align-items: center; gap: 16px;
+    }
+    header h1 { margin: 0; font-size: 18px; font-weight: 600; }
+    header .meta { color: var(--muted); font-size: 12px; }
+    main {
+      max-width: 1200px; margin: 0 auto;
+      padding: 24px; display: grid; gap: 24px;
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 980px) { main { grid-template-columns: 1fr; } }
+    section {
+      background: var(--panel); border: 1px solid var(--border);
+      border-radius: 8px; padding: 18px 20px;
+    }
+    section h2 {
+      margin: 0 0 12px; font-size: 15px; font-weight: 600;
+      border-bottom: 1px solid var(--border); padding-bottom: 8px;
+    }
+    .arch-flow {
+      font-size: 13px; line-height: 1.6;
+    }
+    .arch-flow .label {
+      display: inline-block; min-width: 110px; font-weight: 600;
+      color: var(--purple);
+    }
+    .arch-flow .row {
+      padding: 6px 0; border-bottom: 1px dashed var(--border);
+    }
+    .arch-flow .row:last-child { border-bottom: 0; }
+    .arch-flow code {
+      background: #f4ede0; padding: 1px 5px; border-radius: 3px;
+      font-size: 12px; font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    }
+    .prompt-card {
+      margin-bottom: 14px; border: 1px solid var(--border);
+      border-radius: 6px; overflow: hidden;
+    }
+    .prompt-card .head {
+      background: #f4ede0; padding: 8px 12px;
+      display: flex; align-items: center; justify-content: space-between;
+      cursor: pointer; user-select: none;
+    }
+    .prompt-card .head .pid {
+      font-family: ui-monospace, Menlo, monospace; font-size: 11px;
+      color: var(--accent); font-weight: 600;
+    }
+    .prompt-card .head .label {
+      font-size: 13px; font-weight: 600; flex: 1; margin-left: 10px;
+    }
+    .prompt-card .head .toggle {
+      font-size: 11px; color: var(--muted);
+    }
+    .prompt-card .desc {
+      padding: 8px 12px; font-size: 12px; color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .prompt-card pre {
+      margin: 0; padding: 12px; font-family: ui-monospace, Menlo, monospace;
+      font-size: 11px; line-height: 1.5; white-space: pre-wrap; word-break: break-word;
+      max-height: 320px; overflow-y: auto; background: #fcfaf6;
+    }
+    .copy-btn {
+      background: #6b6b6b; color: white; border: none; border-radius: 4px;
+      padding: 4px 10px; font-size: 11px; cursor: pointer; margin-left: 8px;
+    }
+    .copy-btn:hover { background: #555; }
+    .copy-btn.ok { background: var(--green); }
+
+    /* Dev chat */
+    .chat-wrap {
+      grid-column: 1 / -1;
+      background: var(--panel); border: 1px solid var(--border);
+      border-radius: 8px; padding: 18px 20px;
+      display: flex; flex-direction: column; min-height: 480px;
+    }
+    .chat-wrap h2 {
+      margin: 0 0 6px; font-size: 15px; font-weight: 600;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .chat-wrap .sub {
+      font-size: 12px; color: var(--muted); margin-bottom: 12px;
+    }
+    .chat-log {
+      flex: 1; overflow-y: auto; padding: 10px;
+      background: #fcfaf6; border: 1px solid var(--border); border-radius: 6px;
+      min-height: 280px; max-height: 520px;
+      font-size: 13px; line-height: 1.55;
+    }
+    .chat-log .msg { margin-bottom: 14px; }
+    .chat-log .msg .role {
+      font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em;
+      color: var(--muted); margin-bottom: 3px; font-weight: 600;
+    }
+    .chat-log .msg.user .role { color: var(--accent); }
+    .chat-log .msg.assistant .role { color: var(--purple); }
+    .chat-log .msg .body { white-space: pre-wrap; word-break: break-word; }
+    .chat-row {
+      display: flex; gap: 8px; margin-top: 10px;
+    }
+    .chat-row textarea {
+      flex: 1; padding: 10px; font-size: 13px; font-family: inherit;
+      border: 1px solid var(--border); border-radius: 6px; resize: vertical;
+      min-height: 60px;
+    }
+    .chat-row button {
+      padding: 0 22px; font-size: 13px; font-weight: 600;
+      background: var(--accent); color: white; border: none; border-radius: 6px;
+      cursor: pointer;
+    }
+    .chat-row button:disabled { background: #b6b6b6; cursor: wait; }
+    .chat-row button.clear { background: #6b6b6b; padding: 0 14px; }
+
+    .pill {
+      display: inline-block; padding: 2px 8px; font-size: 10px;
+      background: #f4ede0; color: var(--accent); border-radius: 10px;
+      font-family: ui-monospace, Menlo, monospace; font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🔥 Implementation</h1>
+    <span class="meta">developer reference for PeerUp</span>
+    <a href="/" style="margin-left:auto; font-size:12px; color:var(--accent); text-decoration:none;">← Back to chat</a>
+    <a href="/prompts" style="font-size:12px; color:var(--accent); text-decoration:none;">Prompts</a>
+    <a href="/evals" style="font-size:12px; color:var(--accent); text-decoration:none;">Evals</a>
+  </header>
+
+  <main>
+    <!-- LEFT: architecture / what gets sent where -->
+    <section>
+      <h2>What gets sent where</h2>
+      <div class="arch-flow">
+        <div class="row">
+          <span class="label">/chat</span>
+          system = <code>build_system_prompt()</code> (Maya's 28 rules + JSON spec).
+          User-1 = <code>build_first_message_user_prompt()</code> = profile + cross-session memory + in-session summary + today.
+          Then last <code id="window-size">30</code> messages, then the new user message. Streams SSE deltas.
+        </div>
+        <div class="row">
+          <span class="label">background</span>
+          After every AI reply, lazy <code>session_summary</code> LLM call — only fires when the conversation has more than <code id="window-size-2">30</code> messages, and summarizes only the trimmed-out portion (<code id="summary-words">60</code> words).
+        </div>
+        <div class="row">
+          <span class="label">/end_session</span>
+          Fires only if a client-side <code>MEMORY_SIGNALS</code> regex matched in the user message or AI reply. Calls <code>memory_merge</code> prompt → JSON-patch of facts/events → <code>apply_memory_patch()</code> with identity protection, regex fallback, and pending-merges queue.
+        </div>
+        <div class="row">
+          <span class="label">/tts</span>
+          Server-side Piper neural TTS (ONNX). Female voice, streamed as audio chunks. Plays only on <code>aiState === "speaking"</code>; the Maya video gates on the same state.
+        </div>
+        <div class="row">
+          <span class="label">storage</span>
+          <code>memory_store/&lt;user&gt;.json</code> facts+events buckets · <code>_session_summaries/</code> rolling summary · <code>_prompts_overrides.json</code> admin edits · <code>_pending_merges/</code> retry queue · <code>_logs/</code>.
+        </div>
+        <div class="row">
+          <span class="label">backends</span>
+          CLI (subscription, default) · Anthropic API (key) · AWS Bedrock (Claude or <code>qwen.qwen3-32b-v1:0</code>). Picked at request time — system prompt and message format are identical across backends.
+        </div>
+        <div class="row">
+          <span class="label">events</span>
+          Events stored with absolute date <code>YYYY-MM-DD</code>. Auto-archived <code id="archive-days">14</code> days after the date passes. Maya translates back to natural speech ("tomorrow", "next week") using today's date in the prompt.
+        </div>
+      </div>
+    </section>
+
+    <!-- RIGHT: prompts -->
+    <section>
+      <h2>Prompts in use</h2>
+      <div id="prompts-list"><div style="color:var(--muted); font-size:12px;">Loading…</div></div>
+    </section>
+
+    <!-- BOTTOM: dev chat -->
+    <div class="chat-wrap">
+      <h2>Ask Priyansh about this codebase <span class="pill">opus · effort low · last 6 msgs · ≤80 words · prompt bodies on-demand</span></h2>
+      <div class="sub">Streams from your local <code>claude</code> CLI. Token-optimized: brevity directive caps replies at ~80 words, only the last 6 messages of history are sent, and full prompt bodies are loaded ONLY if you name the id (e.g. <code>memory_merge</code>, <code>system_prompt</code>). The architecture + a one-line index of every prompt is always in context.</div>
+      <div class="chat-log" id="chat-log">
+        <div class="msg assistant">
+          <div class="role">Priyansh</div>
+          <div class="body">Ready. Ask things like — "where is event auto-archive triggered?", "why is summary lazy?", "what does <code>apply_memory_patch</code> do if the LLM call fails?", "how does Maya pick between implicit recast and soft explicit?"</div>
+        </div>
+      </div>
+      <div class="chat-row">
+        <textarea id="chat-input" placeholder="Ask a question about the implementation…"></textarea>
+        <button id="chat-send">Send</button>
+        <button id="chat-clear" class="clear">Clear</button>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const log = $("chat-log");
+    const input = $("chat-input");
+    const sendBtn = $("chat-send");
+    const clearBtn = $("chat-clear");
+
+    let history = [];
+    let streaming = false;
+
+    async function loadPrompts() {
+      const r = await fetch("/api/dev_context");
+      const j = await r.json();
+      const wrap = $("prompts-list");
+      wrap.innerHTML = "";
+      for (const p of j.prompts) {
+        const card = document.createElement("div");
+        card.className = "prompt-card";
+        card.innerHTML = `
+          <div class="head">
+            <span class="pid">[${p.id}]</span>
+            <span class="label">${p.label}</span>
+            <button class="copy-btn">Copy</button>
+            <span class="toggle">▸</span>
+          </div>
+          <div class="desc" style="display:none;">${p.description}</div>
+          <pre style="display:none;"></pre>
+        `;
+        const head = card.querySelector(".head");
+        const desc = card.querySelector(".desc");
+        const pre = card.querySelector("pre");
+        const toggle = card.querySelector(".toggle");
+        const copyBtn = card.querySelector(".copy-btn");
+        pre.textContent = p.current;
+        head.addEventListener("click", (e) => {
+          if (e.target === copyBtn) return;
+          const open = desc.style.display !== "none";
+          desc.style.display = open ? "none" : "block";
+          pre.style.display = open ? "none" : "block";
+          toggle.textContent = open ? "▸" : "▾";
+        });
+        copyBtn.addEventListener("click", async (e) => {
+          e.stopPropagation();
+          try {
+            await navigator.clipboard.writeText(p.current);
+            copyBtn.textContent = "Copied ✓";
+            copyBtn.classList.add("ok");
+            setTimeout(() => { copyBtn.textContent = "Copy"; copyBtn.classList.remove("ok"); }, 1400);
+          } catch (e) {}
+        });
+        wrap.appendChild(card);
+      }
+    }
+
+    function renderMsg(role, body) {
+      const div = document.createElement("div");
+      div.className = `msg ${role}`;
+      div.innerHTML = `<div class="role">${role === "user" ? "You" : "Priyansh"}</div><div class="body"></div>`;
+      div.querySelector(".body").textContent = body;
+      log.appendChild(div);
+      log.scrollTop = log.scrollHeight;
+      return div.querySelector(".body");
+    }
+
+    async function send() {
+      if (streaming) return;
+      const text = input.value.trim();
+      if (!text) return;
+      input.value = "";
+      streaming = true;
+      sendBtn.disabled = true;
+      sendBtn.textContent = "…";
+
+      renderMsg("user", text);
+      const bodyEl = renderMsg("assistant", "");
+
+      const payload = { user_message: text, history: history };
+      let acc = "";
+      try {
+        const r = await fetch("/dev_chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+        if (!r.ok || !r.body) {
+          bodyEl.textContent = `[error ${r.status}]`;
+          return;
+        }
+        const reader = r.body.getReader();
+        const decoder = new TextDecoder();
+        let buf = "";
+        while (true) {
+          const { value, done } = await reader.read();
+          if (done) break;
+          buf += decoder.decode(value, { stream: true });
+          const parts = buf.split("\n\n");
+          buf = parts.pop();
+          for (const p of parts) {
+            const line = p.trim();
+            if (!line.startsWith("data: ")) continue;
+            try {
+              const ev = JSON.parse(line.slice(6));
+              if (ev.type === "delta") {
+                acc += ev.text;
+                bodyEl.textContent = acc;
+                log.scrollTop = log.scrollHeight;
+              } else if (ev.type === "error") {
+                acc += `\n[error: ${ev.message}]`;
+                bodyEl.textContent = acc;
+              } else if (ev.type === "done") {
+                if (!acc && ev.full) { acc = ev.full; bodyEl.textContent = acc; }
+              }
+            } catch (e) {}
+          }
+        }
+        history.push({ role: "user", content: text });
+        history.push({ role: "assistant", content: acc });
+      } catch (e) {
+        bodyEl.textContent = `[network error] ${e.message}`;
+      } finally {
+        streaming = false;
+        sendBtn.disabled = false;
+        sendBtn.textContent = "Send";
+      }
+    }
+
+    sendBtn.addEventListener("click", send);
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) { e.preventDefault(); send(); }
+    });
+    clearBtn.addEventListener("click", () => {
+      history = [];
+      log.innerHTML = "";
+      renderMsg("assistant", "Conversation cleared. Ask away.");
+    });
+
+    loadPrompts();
+  </script>
+</body>
+</html>

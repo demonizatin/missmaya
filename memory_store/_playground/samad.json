@@ -1,0 +1,309 @@
+{
+  "facts": {
+    "nickname": "Samad",
+    "health_condition": "cheese allergy, lack of sleep"
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "Sports game",
+      "date": "2026-05-01",
+      "added": "2026-04-30",
+      "followed_up": true
+    },
+    {
+      "id": "ev_002",
+      "what": "Got injury",
+      "date": "2026-04-27",
+      "added": "2026-04-30",
+      "followed_up": true
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Injured 3 days ago, unable to walk; has crucial game tomorrow morning; frustrated and anxious about missing the match; won't continue English practice if they miss the game",
+      "tone": "anxious",
+      "sensitive": true,
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-04-30",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "Experiencing lack of sleep as a health issue",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-04-30",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "fc0bdf6f-9e46-4df6-9f0d-36939e8d636b",
+      "date": "2026-04-30",
+      "label": "anxious",
+      "energy": 3,
+      "confidence": 0.85,
+      "behavioral": {
+        "msg_count": 2,
+        "total_chars": 201,
+        "avg_words": 22.5,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.044,
+        "engagement_score": 0.33
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "56d23a70-823f-4b14-97eb-f6f5afbd06cb",
+      "date": "2026-04-30",
+      "label": "anxious",
+      "energy": 5,
+      "confidence": 0.65,
+      "behavioral": {
+        "msg_count": 2,
+        "total_chars": 57,
+        "avg_words": 5.5,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.29
+      },
+      "agreement": "match",
+      "linked_event_id": "ev_001"
+    },
+    {
+      "session_id": "d8e4d907-f6ae-4ac7-9f7a-01666c37d15c",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.5,
+      "behavioral": {
+        "msg_count": 1,
+        "total_chars": 75,
+        "avg_words": 16.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.38
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "0aac7c66-b519-4c70-ac76-90196a8a4730",
+      "date": "2026-04-30",
+      "label": "anxious",
+      "energy": 5,
+      "confidence": 0.5,
+      "behavioral": {
+        "msg_count": 1,
+        "total_chars": 49,
+        "avg_words": 11.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.38
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "sports game",
+        "last_session": "56d23a70-823f-4b14-97eb-f6f5afbd06cb",
+        "last_date": "2026-04-30",
+        "uses": 1
+      },
+      {
+        "topic": "game tomorrow",
+        "last_session": "56d23a70-823f-4b14-97eb-f6f5afbd06cb",
+        "last_date": "2026-04-30",
+        "uses": 1
+      },
+      {
+        "topic": "lactose intolerance",
+        "last_session": "56d23a70-823f-4b14-97eb-f6f5afbd06cb",
+        "last_date": "2026-04-30",
+        "uses": 1
+      },
+      {
+        "topic": "leg healing",
+        "last_session": "d8e4d907-f6ae-4ac7-9f7a-01666c37d15c",
+        "last_date": "2026-04-30",
+        "uses": 1
+      },
+      {
+        "topic": "sports",
+        "last_session": "0aac7c66-b519-4c70-ac76-90196a8a4730",
+        "last_date": "2026-04-30",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "fc0bdf6f-9e46-4df6-9f0d-36939e8d636b",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "general",
+        "last_session": "fc0bdf6f-9e46-4df6-9f0d-36939e8d636b",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "56d23a70-823f-4b14-97eb-f6f5afbd06cb",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "56d23a70-823f-4b14-97eb-f6f5afbd06cb",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "d8e4d907-f6ae-4ac7-9f7a-01666c37d15c",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "general",
+        "last_session": "0aac7c66-b519-4c70-ac76-90196a8a4730",
+        "last_date": "2026-04-30"
+      }
+    ],
+    "recent_opening_phrases": [
+      {
+        "phrase": "{\"message\": \"Hi Samad!",
+        "session_id": "fc0bdf6f-9e46-4df6-9f0d-36939e8d636b",
+        "date": "2026-04-30"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Samad, I heard you have a big sports game tomorrow, are you feeling like nervous or is there something else?",
+        "session_id": "56d23a70-823f-4b14-97eb-f6f5afbd06cb",
+        "date": "2026-04-30"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Samad, I heard you got an injury three days ago, how is your leg healing now?",
+        "session_id": "d8e4d907-f6ae-4ac7-9f7a-01666c37d15c",
+        "date": "2026-04-30"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Samad, I love mango season and I heard you enjoy sports a lot, what is your favorite game to watch?",
+        "session_id": "0aac7c66-b519-4c70-ac76-90196a8a4730",
+        "date": "2026-04-30"
+      }
+    ]
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Experiencing lack of sleep as a health issue\" (tone: anxious)",
+      "source_id": "mo_002",
+      "priority": 7,
+      "computed_at": "2026-04-30",
+      "expires_at": "2026-05-14",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [
+      {
+        "pattern": "using 'like' before an emotion or adjective",
+        "examples": [
+          "feeling like frustated"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-04-30",
+        "last_seen": "2026-04-30",
+        "status": "active"
+      },
+      {
+        "pattern": "omitting apostrophes in contractions",
+        "examples": [
+          "i dont know"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-04-30",
+        "last_seen": "2026-04-30",
+        "status": "active"
+      },
+      {
+        "pattern": "fails to capitalize the pronoun 'I'",
+        "examples": [
+          "i have a health issue"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-04-30",
+        "last_seen": "2026-04-30",
+        "status": "active"
+      }
+    ],
+    "wins": [],
+    "curriculum": [
+      {
+        "pattern": "using 'like' before an emotion or adjective",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "feeling like frustated"
+        ]
+      },
+      {
+        "pattern": "omitting apostrophes in contractions",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "i dont know"
+        ]
+      },
+      {
+        "pattern": "fails to capitalize the pronoun 'I'",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "i have a health issue"
+        ]
+      }
+    ]
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": [
+      "loves mango season"
+    ]
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "facts": {
+    "current_film_project": "Chuchandar (Dhurandar Part 2)",
+    "profession": "filmmaker"
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "Chuchandar film release",
+      "date": "2026-05-05",
+      "added": "2026-04-30",
+      "followed_up": true
+    }
+  ],
+  "moments": [],
+  "mood_log": [
+    {
+      "session_id": "0af26b76-97d4-4bb3-9725-a74f1bb9937d",
+      "date": "2026-04-30",
+      "label": "energetic",
+      "energy": 7,
+      "confidence": 0.65,
+      "behavioral": {
+        "msg_count": 4,
+        "total_chars": 246,
+        "avg_words": 12.8,
+        "questions_back": 2,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.65
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "a2fcb267-947d-4cfa-9003-e19ce52aaaa0",
+      "date": "2026-05-07",
+      "label": "content",
+      "energy": 6,
+      "confidence": 0.6,
+      "behavioral": {
+        "msg_count": 2,
+        "total_chars": 117,
+        "avg_words": 12.0,
+        "questions_back": 4,
+        "exclamations": 0,
+        "negation_density": 0.042,
+        "engagement_score": 0.54
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "Chuchandar",
+        "last_session": "a2fcb267-947d-4cfa-9003-e19ce52aaaa0",
+        "last_date": "2026-05-07",
+        "uses": 1
+      },
+      {
+        "topic": "Chuchandar film",
+        "last_session": "a2fcb267-947d-4cfa-9003-e19ce52aaaa0",
+        "last_date": "2026-05-07",
+        "uses": 1
+      },
+      {
+        "topic": "tea",
+        "last_session": "0af26b76-97d4-4bb3-9725-a74f1bb9937d",
+        "last_date": "2026-04-30",
+        "uses": 2
+      },
+      {
+        "topic": "tea preference",
+        "last_session": "0af26b76-97d4-4bb3-9725-a74f1bb9937d",
+        "last_date": "2026-04-30",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "0af26b76-97d4-4bb3-9725-a74f1bb9937d",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "general",
+        "last_session": "0af26b76-97d4-4bb3-9725-a74f1bb9937d",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "general",
+        "last_session": "0af26b76-97d4-4bb3-9725-a74f1bb9937d",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "a2fcb267-947d-4cfa-9003-e19ce52aaaa0",
+        "last_date": "2026-05-07"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "a2fcb267-947d-4cfa-9003-e19ce52aaaa0",
+        "last_date": "2026-05-07"
+      }
+    ],
+    "recent_opening_phrases": [
+      {
+        "phrase": "{\"message\": \"Hi Vaibhav!",
+        "session_id": "0af26b76-97d4-4bb3-9725-a74f1bb9937d",
+        "date": "2026-04-30"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Vaibhav, I just finished watching Chuchandar, what did you think of the film?",
+        "session_id": "a2fcb267-947d-4cfa-9003-e19ce52aaaa0",
+        "date": "2026-05-07"
+      }
+    ]
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: used correct question formation in natural context (e.g. \"Do you know my interests?\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-05-07",
+      "expires_at": "2026-05-21",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [
+      {
+        "pattern": "lowercase 'i' instead of capital 'I'",
+        "examples": [
+          "i am good"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-04-30",
+        "last_seen": "2026-04-30",
+        "status": "active"
+      },
+      {
+        "pattern": "its/it's confusion (using 'its' instead of 'it's')",
+        "examples": [
+          "Its a story"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-04-30",
+        "last_seen": "2026-04-30",
+        "status": "active"
+      }
+    ],
+    "wins": [
+      {
+        "what": "used correct question formation in natural context",
+        "examples": [
+          "Do you know my interests?"
+        ],
+        "count": 1,
+        "first_seen": "2026-04-30",
+        "last_seen": "2026-04-30"
+      }
+    ],
+    "curriculum": [
+      {
+        "pattern": "lowercase 'i' instead of capital 'I'",
+        "occurrences": 1,
+        "days_since_last": 7,
+        "examples": [
+          "i am good"
+        ]
+      },
+      {
+        "pattern": "its/it's confusion (using 'its' instead of 'it's')",
+        "occurrences": 1,
+        "days_since_last": 7,
+        "examples": [
+          "Its a story"
+        ]
+      }
+    ]
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "maya_promise",
+      "content": "will watch Chuchandar when it's finished",
+      "source_session": "0af26b76-97d4-4bb3-9725-a74f1bb9937d",
+      "source_date": "2026-04-30",
+      "status": "active",
+      "expires_at": "2026-05-30"
+    },
+    {
+      "id": "ol_002",
+      "kind": "event_pending",
+      "content": "user describes Chuchandar plot",
+      "source_session": "0af26b76-97d4-4bb3-9725-a74f1bb9937d",
+      "source_date": "2026-04-30",
+      "status": "active",
+      "expires_at": "2026-05-30"
+    },
+    {
+      "id": "ol_003",
+      "kind": "maya_promise",
+      "content": "ask Vaibhav how the Chuchandar film release went",
+      "source_session": "0af26b76-97d4-4bb3-9725-a74f1bb9937d",
+      "source_date": "2026-04-30",
+      "status": "active",
+      "expires_at": "2026-05-30"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

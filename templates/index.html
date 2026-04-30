@@ -1,0 +1,1554 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>PeerUp — Miss Maya prototype</title>
+  <style>
+    :root {
+      --bg: #f6f5f1;
+      --panel: #ffffff;
+      --user: #d8eaff;
+      --ai: #f1ece1;
+      --accent: #c2643b;
+      --muted: #6b6b6b;
+      --border: #e2ddd0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: #1f1f1f;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    header {
+      padding: 10px 20px;
+      border-bottom: 1px solid var(--border);
+      background: var(--panel);
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px 14px;
+    }
+    /* Stop flex from squeezing children — every header item keeps its natural width
+       and stays on one line. Things wrap to a new row instead of mid-word. */
+    header > * { flex-shrink: 0; white-space: nowrap; }
+    header h1 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1;
+    }
+    header .meta {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.2;
+    }
+    header a, header button, header select { line-height: 1.2; }
+    /* Implementation link — promoted to a filled pill so it visibly anchors the header. */
+    header a.impl-link {
+      background: var(--accent);
+      color: #fff !important;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-weight: 600;
+      box-shadow: 0 1px 4px rgba(194, 100, 59, 0.3);
+      transition: transform 120ms, box-shadow 120ms;
+    }
+    header a.impl-link:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 3px 8px rgba(194, 100, 59, 0.4);
+    }
+    .setup {
+      padding: 20px;
+      max-width: 540px;
+      margin: 40px auto;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    .setup label { display: block; margin: 12px 0 4px; font-size: 13px; }
+    .setup input {
+      width: 100%; padding: 8px 10px;
+      border: 1px solid var(--border); border-radius: 4px;
+      font-family: inherit; font-size: 14px;
+    }
+    button {
+      background: var(--accent);
+      color: white; border: none;
+      padding: 10px 16px; border-radius: 4px;
+      font-family: inherit; font-size: 14px;
+      cursor: pointer; margin-top: 14px;
+    }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    .chat {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .bubble {
+      max-width: 75%;
+      padding: 10px 14px;
+      border-radius: 12px;
+      line-height: 1.45;
+      white-space: pre-wrap;
+      font-family: -apple-system, system-ui, sans-serif;
+      font-size: 15px;
+    }
+    .bubble.user {
+      background: var(--user);
+      align-self: flex-end;
+      border-bottom-right-radius: 2px;
+    }
+    .bubble.ai {
+      background: var(--ai);
+      align-self: flex-start;
+      border-bottom-left-radius: 2px;
+    }
+    .bubble.ai .raw {
+      color: var(--muted);
+      font-size: 11px;
+      margin-top: 8px;
+      font-family: ui-monospace, monospace;
+      max-height: 320px;
+      overflow-y: auto;
+      background: rgba(0,0,0,0.04);
+      padding: 8px;
+      border-radius: 4px;
+      white-space: pre-wrap;
+      border: 1px solid var(--border);
+    }
+    .bubble.ai .show-prompt {
+      display: inline-block;
+      margin-top: 6px;
+      font-size: 11px;
+      color: var(--accent);
+      cursor: pointer;
+      user-select: none;
+    }
+    .composer {
+      border-top: 1px solid var(--border);
+      background: var(--panel);
+      padding: 12px 20px;
+      display: flex;
+      gap: 8px;
+    }
+    .composer textarea {
+      flex: 1;
+      padding: 8px 10px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 14px;
+      resize: none;
+      min-height: 40px;
+    }
+    .typing { color: var(--muted); font-style: italic; font-size: 13px; }
+    .toggle-raw {
+      font-size: 12px; color: var(--accent);
+      cursor: pointer; user-select: none;
+      margin-left: auto;
+    }
+  </style>
+</head>
+<body>
+
+<div id="setup" class="setup" style="max-width: 720px;">
+  <div style="display:flex; align-items:center; gap:14px; margin-bottom: 4px;">
+    <h2 style="margin: 0; flex: 1;">Welcome to PeerUp</h2>
+    <a href="/settings" style="font-size:12px; color:var(--accent); text-decoration:none;">Settings</a>
+    <a href="/evals" style="font-size:12px; color:var(--accent); text-decoration:none;">Evals</a>
+  </div>
+  <p style="color: var(--muted); font-size: 13px;">
+    Pick a test profile to start chatting with Miss Maya.
+  </p>
+
+  <label style="margin-top: 14px;">Backend</label>
+  <select id="backend-select" style="width:100%; padding:8px 10px; border:1px solid var(--border); border-radius:4px; font-family:inherit; font-size:14px; background:white;">
+    <option value="bedrock|qwen.qwen3-32b-v1:0">Qwen3 32B — Bedrock (your model)</option>
+    <option value="bedrock|nvidia.nemotron-nano-3-30b">Nemotron Nano 3 30B — Bedrock (NVIDIA)</option>
+    <option value="cli|haiku">Haiku 4.5 — CLI subscription (slower, no key needed)</option>
+    <option value="api|claude-sonnet-4-6">Sonnet 4.6 — Anthropic API (fast, smartest)</option>
+    <option value="api|claude-haiku-4-5">Haiku 4.5 — Anthropic API (fastest)</option>
+    <option value="bedrock|anthropic.claude-haiku-4-5-20251001-v1:0">Haiku 4.5 — Bedrock</option>
+    <option value="bedrock|global.anthropic.claude-sonnet-4-5-20250929-v1:0">Sonnet 4.5 — Bedrock (global)</option>
+    <option value="bedrock|global.anthropic.claude-haiku-4-5-20251001-v1:0">Haiku 4.5 — Bedrock (global)</option>
+    <option value="bedrock|apac.anthropic.claude-sonnet-4-5-20250929-v1:0">Sonnet 4.5 — Bedrock (apac)</option>
+    <option value="bedrock|apac.anthropic.claude-haiku-4-5-20251001-v1:0">Haiku 4.5 — Bedrock (apac)</option>
+    <option value="bedrock|us.anthropic.claude-sonnet-4-5-20250929-v1:0">Sonnet 4.5 — Bedrock (us)</option>
+    <option value="bedrock|us.anthropic.claude-haiku-4-5-20251001-v1:0">Haiku 4.5 — Bedrock (us)</option>
+    <option value="bedrock|qwen.qwen3-235b-instruct-2507-v1:0">Qwen3 235B Instruct — Bedrock</option>
+    <option value="bedrock|qwen.qwen3-coder-30b-a3b-instruct-2507-v1:0">Qwen3 Coder 30B — Bedrock</option>
+    <option value="bedrock|qwen.qwen3-coder-480b-a35b-instruct-2507-v1:0">Qwen3 Coder 480B — Bedrock</option>
+  </select>
+  <p id="backend-warning" style="display:none; margin: 6px 0 0; font-size: 12px; color: #a83838;">
+    Selected backend isn't configured. <a href="/settings" style="color:#a83838;">Open Settings</a> or pick a different one.
+  </p>
+
+  <label>Pick a profile</label>
+  <div id="profile-grid" style="display:grid; grid-template-columns: 1fr 1fr; gap:10px;">
+    <div style="grid-column: span 2; color:var(--muted); font-size:12px;">loading profiles…</div>
+  </div>
+  <p style="color: var(--muted); font-size: 12px; margin-top: 8px;">
+    Returning to a profile loads its saved cross-session memory automatically.
+  </p>
+
+  <button id="new-profile-btn" style="background: #6b6b6b; margin-top: 8px;">+ Create new profile</button>
+
+  <div id="new-profile-form" style="display:none; margin-top:10px; padding:12px; background:#fdf6ed; border:1px solid #e8d3a8; border-radius:6px;">
+    <label style="margin-top:0;">Name</label>
+    <input id="np-name" placeholder="e.g. Karan" />
+    <label>Profession</label>
+    <input id="np-profession" placeholder="e.g. Marketing manager at a SaaS startup" />
+    <label>Mother tongue</label>
+    <select id="np-mother-tongue" style="width:100%; padding:8px 10px; border:1px solid var(--border); border-radius:4px; font-family:inherit; font-size:14px; background:white;">
+      <option value="">— select —</option>
+      <option>Hindi</option><option>Tamil</option><option>Telugu</option><option>Bengali</option>
+      <option>Marathi</option><option>Gujarati</option><option>Kannada</option><option>Malayalam</option>
+      <option>Punjabi</option><option>Urdu</option><option>Odia</option><option>Assamese</option><option>Other</option>
+    </select>
+    <label>Interests <span style="color:var(--muted)">(comma-separated)</span></label>
+    <input id="np-interests" placeholder="e.g. Cricket, Hindi cinema, hiking" />
+    <div style="display:flex; gap:8px; margin-top:10px;">
+      <button id="np-save-btn" style="margin:0; flex:1;">Save profile</button>
+      <button id="np-cancel-btn" style="margin:0; background:#999; flex:1;">Cancel</button>
+    </div>
+    <p id="np-result" style="font-size:12px; margin:8px 0 0; display:none;"></p>
+  </div>
+
+  <button id="start-btn" disabled style="margin-top: 16px;">Start conversation</button>
+</div>
+
+<script>
+let SELECTED_PROFILE = null;
+let BACKENDS_AVAILABLE = { cli: true, api: false, bedrock: false };
+
+async function loadProfiles() {
+  const r = await fetch("/profiles");
+  const d = await r.json();
+  const grid = document.getElementById("profile-grid");
+  grid.innerHTML = "";
+  d.profiles.forEach(p => {
+    const card = document.createElement("div");
+    card.style.cssText = "border:1px solid var(--border); border-radius:6px; padding:10px 12px; cursor:pointer; background:#fff; transition:all 0.1s; position:relative;";
+    const customBadge = p.custom ? '<span style="position:absolute; top:6px; right:6px; font-size:10px; color:#c2643b;">custom</span>' : '';
+    const delBtn = p.custom ? `<span data-del="${p.id}" style="position:absolute; bottom:6px; right:8px; font-size:11px; color:#a83838; cursor:pointer;" title="Delete this profile">✕</span>` : '';
+    card.innerHTML = `
+      ${customBadge}
+      <div style="font-weight:600; font-size:13px;">${p.label.split('—')[0].trim()}</div>
+      <div style="color:var(--muted); font-size:11px; margin-top:2px;">${p.profession}</div>
+      <div style="color:var(--muted); font-size:11px;">Mother tongue: ${p.mother_tongue}</div>
+      <div style="color:var(--muted); font-size:11px;">${p.interests}</div>
+      ${delBtn}
+    `;
+    card.onclick = (ev) => {
+      // delete-button click: don't select, just delete
+      if (ev.target && ev.target.dataset && ev.target.dataset.del) {
+        ev.stopPropagation();
+        if (!confirm(`Delete profile "${p.label}"? Memory for this user is NOT deleted.`)) return;
+        fetch(`/profiles/${ev.target.dataset.del}`, { method: "DELETE" }).then(loadProfiles);
+        return;
+      }
+      SELECTED_PROFILE = p;
+      document.querySelectorAll("#profile-grid > div").forEach(c => {
+        c.style.background = "#fff"; c.style.borderColor = "var(--border)";
+      });
+      card.style.background = "#fdf6ed"; card.style.borderColor = "var(--accent)";
+      document.getElementById("start-btn").disabled = false;
+    };
+    grid.appendChild(card);
+  });
+}
+
+// Custom profile creation form
+document.getElementById("new-profile-btn").onclick = () => {
+  const f = document.getElementById("new-profile-form");
+  f.style.display = f.style.display === "none" ? "block" : "none";
+};
+document.getElementById("np-cancel-btn").onclick = () => {
+  document.getElementById("new-profile-form").style.display = "none";
+};
+document.getElementById("np-save-btn").onclick = async () => {
+  const name = document.getElementById("np-name").value.trim();
+  if (!name) { alert("Name is required"); return; }
+  const profession = document.getElementById("np-profession").value.trim();
+  const motherTongue = document.getElementById("np-mother-tongue").value.trim();
+  const interests = document.getElementById("np-interests").value.trim();
+  const label = `${name} — ${profession || "custom"}`;
+  const r = await fetch("/profiles", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ label, user_name: name, profession, mother_tongue: motherTongue, interests }),
+  });
+  const d = await r.json();
+  const result = document.getElementById("np-result");
+  result.style.display = "block";
+  if (d.ok) {
+    result.style.color = "#2a7a3a";
+    result.textContent = "✓ Saved. Reloading profiles…";
+    ["np-name", "np-profession", "np-interests"].forEach(id => document.getElementById(id).value = "");
+    document.getElementById("np-mother-tongue").value = "";
+    setTimeout(() => {
+      document.getElementById("new-profile-form").style.display = "none";
+      result.style.display = "none";
+      loadProfiles();
+    }, 700);
+  } else {
+    result.style.color = "#a83838";
+    result.textContent = "✗ " + (d.error || "save failed");
+  }
+};
+
+async function checkBackends() {
+  try {
+    const r = await fetch("/api/settings");
+    const d = await r.json();
+    BACKENDS_AVAILABLE.cli = d.cli_available;
+    BACKENDS_AVAILABLE.api = d.api_key_configured;
+    BACKENDS_AVAILABLE.bedrock = d.bedrock_configured;
+    // Populate the Design button if a URL is configured
+    if (d.design_url) {
+      const link = document.getElementById("design-link");
+      if (link) {
+        link.href = d.design_url;
+        link.style.display = "inline";
+      }
+    }
+  } catch (e) { /* leave defaults */ }
+  syncBackendUI();
+}
+
+function syncBackendUI() {
+  const sel = document.getElementById("backend-select");
+  const warning = document.getElementById("backend-warning");
+  const kind = sel.value.split("|")[0];   // cli | api | bedrock
+  const ok = BACKENDS_AVAILABLE[kind];
+  if (!ok) {
+    warning.style.display = "block";
+    document.getElementById("start-btn").disabled = true;
+  } else {
+    warning.style.display = "none";
+    if (SELECTED_PROFILE) document.getElementById("start-btn").disabled = false;
+  }
+}
+const _bsel = document.getElementById("backend-select");
+const _BACKEND_KEY = "peerupBackendChoice";
+const _savedBackend = localStorage.getItem(_BACKEND_KEY);
+if (_savedBackend) {
+  // restore prior choice if it's still a valid option
+  for (const opt of _bsel.options) { if (opt.value === _savedBackend) { _bsel.value = _savedBackend; break; } }
+}
+_bsel.addEventListener("change", () => {
+  localStorage.setItem(_BACKEND_KEY, _bsel.value);
+  syncBackendUI();
+});
+syncBackendUI();   // run once on load so warning matches restored value
+
+loadProfiles();
+checkBackends();
+</script>
+
+<div id="app" style="display:none; flex-direction:column; flex:1; min-height:0;">
+  <header>
+    <div id="maya-avatar-wrap" style="position:relative; width:42px; height:42px; border-radius:50%; overflow:hidden; flex-shrink:0; margin-right:10px; background:linear-gradient(180deg, #E8DFFB 0%, #C9B8F0 100%); border:2px solid var(--border);">
+      <video id="maya-video" muted loop playsinline preload="auto"
+        style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; transition:filter 240ms;">
+        <source id="maya-video-src" src="/static/peerup/maya.mp4" type="video/mp4">
+      </video>
+      <!-- Soft pulse overlay when speaking -->
+      <div id="maya-speaking-pulse" style="display:none; position:absolute; inset:-3px; border-radius:50%; box-shadow:0 0 0 0 rgba(194,100,59,0.6); animation:mayaSpeakPulse 1.6s ease-out infinite; pointer-events:none;"></div>
+    </div>
+    <style>@keyframes mayaSpeakPulse { 0%{box-shadow:0 0 0 0 rgba(194,100,59,0.55)} 70%{box-shadow:0 0 0 8px rgba(194,100,59,0)} 100%{box-shadow:0 0 0 0 rgba(194,100,59,0)} }</style>
+    <h1>Miss Maya</h1>
+    <select id="header-backend-select" title="Switch backend mid-chat" style="margin: 0 0 0 8px; padding: 5px 8px; font-size: 11px; border: 1px solid var(--border); border-radius: 4px; background: white; max-width: 260px;">
+      <option value="bedrock|qwen.qwen3-32b-v1:0">Qwen3 32B — Bedrock</option>
+      <option value="bedrock|nvidia.nemotron-nano-3-30b">Nemotron Nano 3 30B — Bedrock (NVIDIA)</option>
+      <option value="cli|haiku">Haiku 4.5 — CLI</option>
+      <option value="api|claude-sonnet-4-6">Sonnet 4.6 — API</option>
+      <option value="api|claude-haiku-4-5">Haiku 4.5 — API</option>
+      <option value="bedrock|anthropic.claude-haiku-4-5-20251001-v1:0">Haiku 4.5 — Bedrock</option>
+      <option value="bedrock|global.anthropic.claude-sonnet-4-5-20250929-v1:0">Sonnet 4.5 — Bedrock (global)</option>
+      <option value="bedrock|global.anthropic.claude-haiku-4-5-20251001-v1:0">Haiku 4.5 — Bedrock (global)</option>
+      <option value="bedrock|apac.anthropic.claude-sonnet-4-5-20250929-v1:0">Sonnet 4.5 — Bedrock (apac)</option>
+      <option value="bedrock|apac.anthropic.claude-haiku-4-5-20251001-v1:0">Haiku 4.5 — Bedrock (apac)</option>
+      <option value="bedrock|us.anthropic.claude-sonnet-4-5-20250929-v1:0">Sonnet 4.5 — Bedrock (us)</option>
+      <option value="bedrock|us.anthropic.claude-haiku-4-5-20251001-v1:0">Haiku 4.5 — Bedrock (us)</option>
+      <option value="bedrock|qwen.qwen3-235b-instruct-2507-v1:0">Qwen3 235B Instruct — Bedrock</option>
+      <option value="bedrock|qwen.qwen3-coder-30b-a3b-instruct-2507-v1:0">Qwen3 Coder 30B — Bedrock</option>
+      <option value="bedrock|qwen.qwen3-coder-480b-a35b-instruct-2507-v1:0">Qwen3 Coder 480B — Bedrock</option>
+    </select>
+    <span id="save-status" style="font-size:12px; color:var(--muted); margin-left:auto;">memory: not yet saved</span>
+    <button id="tts-btn" title="Toggle voice playback" style="margin:0 0 0 14px; padding:6px 10px; font-size:12px; background:#2a7a3a;">🔊 Voice on</button>
+    <select id="tts-engine" title="TTS engine" style="margin: 0 0 0 6px; padding: 5px 6px; font-size: 11px; border: 1px solid var(--border); border-radius: 4px; background: white;">
+      <option value="piper">Piper (free, local)</option>
+      <option value="webspeech">Web Speech (OS)</option>
+    </select>
+    <select id="tts-voice" style="margin: 0 0 0 6px; padding: 5px 6px; font-size: 11px; border: 1px solid var(--border); border-radius: 4px; background: white; max-width: 160px;"></select>
+    <a href="/prompts" style="font-size:12px; color:var(--accent); margin-left:14px; text-decoration:none;">Prompts</a>
+    <a href="/implementation" class="impl-link" style="font-size:12px; text-decoration:none;">🔥 Implementation</a>
+    <a href="/playground" style="font-size:12px; color:#6b3fa0; font-weight:600; text-decoration:none;">🧪 Playground</a>
+    <a id="design-link" href="#" style="font-size:12px; color:var(--accent); margin-left:14px; text-decoration:none; display:none;">🎨 Design</a>
+    <a href="/settings" style="font-size:12px; color:var(--accent); margin-left:14px; text-decoration:none;">Settings</a>
+    <a href="/evals" style="font-size:12px; color:var(--accent); margin-left:14px; text-decoration:none;">Evals</a>
+    <button id="end-btn" style="margin:0 0 0 14px; padding:6px 12px; font-size:12px; background:#6b6b6b;">Save now</button>
+    <button id="show-mem-btn" style="margin:0 0 0 6px; padding:6px 12px; font-size:12px; background:#2a7a3a;" title="See what's stored about you and how it's sent to Maya">📦 My memory</button>
+    <button id="clear-mem-btn" style="margin:0 0 0 6px; padding:6px 12px; font-size:12px; background:#a83838;" title="Wipe stored memory for this profile">Clear my memory</button>
+    <button id="end-chat-btn" style="margin:0 0 0 6px; padding:6px 12px; font-size:12px; background:#a83838;">End chat</button>
+  </header>
+
+  <!-- Memory inspector modal -->
+  <div id="mem-modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:1000; align-items:flex-start; justify-content:center; padding:30px; overflow-y:auto;">
+    <div style="background:#fff; border-radius:8px; max-width:1100px; width:100%; padding:0; box-shadow:0 10px 40px rgba(0,0,0,0.2);">
+      <div style="padding:14px 20px; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:14px;">
+        <h2 style="margin:0; font-size:17px;">📦 What Maya remembers about <span id="mem-username">you</span></h2>
+        <button id="mem-refresh-btn" style="margin:0; padding:5px 10px; font-size:11px; background:#6b6b6b;">↻ Refresh</button>
+        <button id="mem-close-btn" style="margin:0 0 0 auto; padding:5px 14px; font-size:13px; background:#a83838;">Close ✕</button>
+      </div>
+
+      <div style="padding: 16px 20px;">
+        <div style="background:#fdf6ed; border:1px solid #e8d3a8; padding:12px 16px; border-radius:6px; margin-bottom:16px; font-family:Georgia,serif; font-size:13px; line-height:1.55;">
+          Two views of the same data. Memory is split into <b>11 buckets, each with its own lifecycle</b>. Some last forever (your name, interests). Some expire on a date (events). Some compete for limited slots and the oldest gets bumped (recent moods, opener cooldown). The raw JSON below is what's saved on disk. The block on the right is what actually gets injected into Maya's prompt at the start of every reply — rendered freshly with relative dates ("in 3 days") so she speaks naturally.
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:14px;">
+          <div>
+            <h3 style="margin:0 0 6px; font-size:13px; color:var(--accent);">📁 Stored on disk</h3>
+            <p style="margin:0 0 8px; font-size:11px; color:var(--muted);">
+              <code>memory_store/&lt;you&gt;.json</code> — the source of truth. Updated by the merge LLM after every session.
+            </p>
+            <pre id="mem-structured" style="background:#f4f1ea; padding:12px; border-radius:4px; font-family:ui-monospace,monospace; font-size:11px; line-height:1.5; max-height:520px; overflow:auto; margin:0; white-space:pre-wrap;">loading…</pre>
+          </div>
+
+          <div>
+            <h3 style="margin:0 0 6px; font-size:13px; color:var(--accent);">📨 Sent to Maya</h3>
+            <p style="margin:0 0 8px; font-size:11px; color:var(--muted);">
+              The same data, rendered into a natural-language block and injected into the first-message instruction Maya sees on every turn. Dates shown as relative ("in 3 days") so she can speak naturally.
+            </p>
+            <pre id="mem-rendered" style="background:#fdf6ed; padding:12px; border-radius:4px; font-family:ui-monospace,monospace; font-size:11px; line-height:1.5; max-height:520px; overflow:auto; margin:0; white-space:pre-wrap;">loading…</pre>
+          </div>
+        </div>
+
+        <div style="margin-top: 18px; padding: 12px 16px; background:#eef4ee; border-left:3px solid #2a7a3a; border-radius:4px; font-family:Georgia,serif; font-size:13px; line-height:1.55;">
+          <h3 style="margin:0 0 8px; font-size:13px; color:#2a7a3a;">All 11 buckets — what they are and how they grow</h3>
+          <table style="width:100%; border-collapse:collapse; font-family:inherit; font-size:12.5px;">
+            <thead>
+              <tr style="background:rgba(42,122,58,0.08);">
+                <th style="text-align:left; padding:6px 8px; border-bottom:1px solid rgba(42,122,58,0.2);">Bucket</th>
+                <th style="text-align:left; padding:6px 8px; border-bottom:1px solid rgba(42,122,58,0.2);">What it holds</th>
+                <th style="text-align:left; padding:6px 8px; border-bottom:1px solid rgba(42,122,58,0.2);">Lifecycle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="padding:6px 8px;"><code>facts</code></td><td style="padding:6px 8px;">Timeless truths: name, profession, family, hometown, interests, past experiences.</td><td style="padding:6px 8px; color:var(--muted);">Forever, until contradicted. Name is overwrite-protected.</td></tr>
+              <tr><td style="padding:6px 8px;"><code>events</code></td><td style="padding:6px 8px;">Dated things: exams, weddings, matches, appointments.</td><td style="padding:6px 8px; color:var(--muted);">Auto-archive 14 days after the date.</td></tr>
+              <tr><td style="padding:6px 8px;"><code>moments</code></td><td style="padding:6px 8px;">Emotionally weighted things you said (no date) — fears, prides, ongoing strains. Sticky <code>sensitive</code> flag for acute disclosures.</td><td style="padding:6px 8px; color:var(--muted);">Persist long-term. Dedupe + bump <code>mentions</code>.</td></tr>
+              <tr><td style="padding:6px 8px;"><code>mood_log</code></td><td style="padding:6px 8px;">One mood reading per session — label + energy + confidence.</td><td style="padding:6px 8px; color:var(--muted);">Last 14 entries. Newest in, oldest out.</td></tr>
+              <tr><td style="padding:6px 8px;"><code>cooldown</code></td><td style="padding:6px 8px;">What Maya raised recently — topics, opener kinds, opener phrases — so she doesn't repeat herself.</td><td style="padding:6px 8px; color:var(--muted);">Fixed-size FIFOs (12 / 10 / 6).</td></tr>
+              <tr><td style="padding:6px 8px;"><code>lore</code></td><td style="padding:6px 8px;">Inside jokes / shared callbacks between Maya and you.</td><td style="padding:6px 8px; color:var(--muted);">Up to 30 entries. Dormant items can resurface.</td></tr>
+              <tr><td style="padding:6px 8px;"><code>anticipation_queue</code></td><td style="padding:6px 8px;">Pre-cooked openers Maya plans to use next time — pulled from upcoming events, recent moments, etc.</td><td style="padding:6px 8px; color:var(--muted);">Up to 5. TTL 14 days. Consumed on use.</td></tr>
+              <tr><td style="padding:6px 8px;"><code>skills</code></td><td style="padding:6px 8px;">Your English mistakes (as patterns) and wins, plus a derived "current focus" list.</td><td style="padding:6px 8px; color:var(--muted);">Up to 20 errors / 30 wins. Patterns flip to <code>fixed</code> when you stop slipping.</td></tr>
+              <tr><td style="padding:6px 8px;"><code>maya_persona</code></td><td style="padding:6px 8px;">Maya's character. <code>shared_with_user</code> tracks self-details she's already revealed to you, so she doesn't repeat them.</td><td style="padding:6px 8px; color:var(--muted);">Decoration only — never claims biography.</td></tr>
+              <tr><td style="padding:6px 8px;"><code>open_loops</code></td><td style="padding:6px 8px;">Threads either of you said you'd come back to ("tell me how the meeting went").</td><td style="padding:6px 8px; color:var(--muted);">Up to 12. Auto-expire 30 days unfollowed.</td></tr>
+              <tr><td style="padding:6px 8px;"><code>meta_preferences</code></td><td style="padding:6px 8px;">Knobs you explicitly set: correction style, reply length, humor level, off-limits topics.</td><td style="padding:6px 8px; color:var(--muted);">Hard override. User's word is law. Maya can't ask you for these.</td></tr>
+            </tbody>
+          </table>
+          <p style="margin:8px 0 0; font-size:12px; color:var(--muted);">
+            Each section in the rendered block on the right maps 1:1 to a bucket above. Empty buckets are omitted from the prompt entirely (no "About you" header for a brand-new user).
+          </p>
+        </div>
+
+        <!-- Lifecycle / expiry view -->
+        <div style="margin-top: 18px; padding: 14px 18px; background:#fff; border:1px solid var(--border); border-radius:6px;">
+          <h3 style="margin:0 0 10px; font-size:14px; color:var(--accent);">📅 Three growth patterns — which buckets behave how</h3>
+
+          <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:14px;">
+            <div>
+              <h4 style="margin:0 0 6px; font-size:12px; color:#2a7a3a;">Just keeps growing (with dedup)</h4>
+              <ul style="margin:0 0 6px; padding-left:18px; font-size:12px; line-height:1.55;">
+                <li><code>facts.*</code> list fields (interests, etc.) — append-only with dedup</li>
+                <li><code>moments</code> — dedupes by exact text, bumps <code>mentions</code> on repeat</li>
+              </ul>
+              <p style="font-size:11px; color:var(--muted); margin:6px 0 0;">New stuff added; nothing leaves until you explicitly contradict.</p>
+            </div>
+            <div>
+              <h4 style="margin:0 0 6px; font-size:12px; color:#c9442a;">Newest in, oldest out (FIFO)</h4>
+              <ul style="margin:0 0 6px; padding-left:18px; font-size:12px; line-height:1.55;">
+                <li><code>mood_log</code> — last 14 sessions</li>
+                <li><code>cooldown.recent_topics</code> — last 12</li>
+                <li><code>cooldown.recent_openers</code> — last 10</li>
+                <li><code>cooldown.recent_opening_phrases</code> — last 6</li>
+                <li><code>lore</code> — up to 30</li>
+                <li><code>skills.error_patterns</code> — up to 20</li>
+                <li><code>skills.wins</code> — up to 30</li>
+                <li><code>maya_persona.shared_with_user</code></li>
+              </ul>
+              <p style="font-size:11px; color:var(--muted); margin:6px 0 0;">Fixed-size buffers; oldest entry drops as new arrives.</p>
+            </div>
+            <div>
+              <h4 style="margin:0 0 6px; font-size:12px; color:#6b3fa0;">Items leave on their own</h4>
+              <ul style="margin:0 0 6px; padding-left:18px; font-size:12px; line-height:1.55;">
+                <li><code>events</code> — auto-archive 14 days after date</li>
+                <li><code>anticipation_queue</code> — TTL 14 days; consumed on use</li>
+                <li><code>open_loops</code> — TTL 30 days unfollowed</li>
+              </ul>
+              <p style="font-size:11px; color:var(--muted); margin:6px 0 0;">Items expire by date or get consumed — not pushed out by new ones.</p>
+            </div>
+          </div>
+
+          <div style="margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--border); display:grid; grid-template-columns: 1fr 1fr; gap:18px;">
+            <div>
+              <h4 style="margin:0 0 6px; font-size:12px;">Currently stored facts:</h4>
+              <div id="mem-facts-list" style="font-family:ui-monospace,monospace; font-size:11px; line-height:1.6; color:var(--muted);">loading…</div>
+            </div>
+            <div>
+              <h4 style="margin:0 0 6px; font-size:12px;">Currently stored events with expiry:</h4>
+              <div id="mem-events-list" style="font-family:ui-monospace,monospace; font-size:11px; line-height:1.6;">loading…</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Identity protection callout — used to be inside Facts; lifted out so the new table reads cleanly. -->
+        <div style="margin-top: 14px; padding: 10px 14px; background:#fff8f3; border-left:3px solid #c9442a; border-radius:4px; font-size:12px; line-height:1.55;">
+          <b>Identity protection</b> — the <code>name</code> field in <code>facts</code> is canonical. Server-side defense blocks any attempt to overwrite it. If you reveal a nickname mid-chat, it lands in a separate <code>nickname</code> field instead.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="chat" class="chat"></div>
+  <div class="composer">
+    <textarea id="input" placeholder="Type a reply…" rows="1"></textarea>
+    <button id="send-btn">Send</button>
+  </div>
+</div>
+
+<script>
+let history = [];
+let userName = "";
+let profession = "";
+let motherTongue = "";
+let interests = "";
+let backendKind = "cli";   // "cli" | "api"
+let modelName = "haiku";
+
+// In-chat backend switcher — change model without ending the conversation.
+document.addEventListener("DOMContentLoaded", () => {
+  const hsel = document.getElementById("header-backend-select");
+  if (!hsel) return;
+  hsel.addEventListener("change", () => {
+    const parts = hsel.value.split("|");
+    backendKind = parts[0];
+    modelName   = parts[1];
+    // Persist so the welcome screen reflects the latest choice next session.
+    try { localStorage.setItem("peerupBackendChoice", hsel.value); } catch (e) {}
+    const wsel = document.getElementById("backend-select");
+    if (wsel) {
+      for (const opt of wsel.options) { if (opt.value === hsel.value) { wsel.value = hsel.value; break; } }
+    }
+  });
+});
+
+// ---------- AI state machine ----------
+// Three states the avatar component (or any UI) can react to:
+//   "idle"       — between turns, ambient state (default)
+//   "listening"  — user has just submitted; AI is generating but no audio yet
+//   "speaking"   — TTS is actively playing audio
+//
+// The video avatar should ONLY animate during "speaking". For "idle" show a
+// static portrait or breathing loop; for "listening" show subtle attentive
+// frames (head tilt, eye contact) without lip movement.
+//
+// Subscribers register via window.onAiStateChange(cb). The callback receives
+// the new state. The current state is always available at window.aiState.
+window.aiState = "idle";
+window._aiStateSubscribers = [];
+
+window.onAiStateChange = function (cb) {
+  if (typeof cb === "function") window._aiStateSubscribers.push(cb);
+};
+
+function setAiState(next) {
+  if (window.aiState === next) return;
+  const prev = window.aiState;
+  window.aiState = next;
+  // Reflect on a body data-attribute so plain CSS can react too:
+  //   body[data-ai-state="speaking"] .avatar { animation: lip-sync …; }
+  document.body.setAttribute("data-ai-state", next);
+  // Notify all JS subscribers
+  for (const cb of window._aiStateSubscribers) {
+    try { cb(next, prev); } catch (e) { console.warn("aiState subscriber error:", e); }
+  }
+  console.log(`[aiState] ${prev} → ${next}`);
+}
+
+// Initialize the body attribute so CSS rules apply on page load too
+document.addEventListener("DOMContentLoaded", () => {
+  document.body.setAttribute("data-ai-state", window.aiState);
+});
+
+// ---------- Maya video avatar — gates on aiState === "speaking" ----------
+// Plays only while Maya is speaking. Static (paused first frame) when idle/listening.
+// Subscribes to onAiStateChange — also reacts to the body[data-ai-state] CSS attribute
+// for future visual treatments.
+function wireMayaVideo() {
+  const video = document.getElementById("maya-video");
+  const pulse = document.getElementById("maya-speaking-pulse");
+  if (!video) return;
+  // Required for autoplay-on-state policies in modern browsers
+  video.muted = true;
+  video.setAttribute("muted", "");
+  video.setAttribute("playsinline", "");
+  video.pause();
+  try { video.currentTime = 0; } catch (e) {}
+
+  window.onAiStateChange((next) => {
+    if (next === "speaking") {
+      const p = video.play();
+      if (p && p.catch) p.catch(() => {
+        // Autoplay blocked — retry on next user gesture
+        const retry = () => { video.play().catch(() => {}); window.removeEventListener("pointerdown", retry); };
+        window.addEventListener("pointerdown", retry, { passive: true, once: true });
+      });
+      pulse.style.display = "block";
+    } else {
+      video.pause();
+      try { video.currentTime = 0; } catch (e) {}
+      pulse.style.display = "none";
+    }
+  });
+}
+document.addEventListener("DOMContentLoaded", wireMayaVideo);
+
+// Allow swapping the video src from Settings
+async function loadMayaVideoFromSettings() {
+  try {
+    const r = await fetch("/api/settings");
+    const d = await r.json();
+    if (d.maya_video_url) {
+      const src = document.getElementById("maya-video-src");
+      const video = document.getElementById("maya-video");
+      if (src && video && src.src !== d.maya_video_url) {
+        src.src = d.maya_video_url;
+        video.load();   // re-prime the element with the new source
+      }
+    }
+  } catch (_) {}
+}
+document.addEventListener("DOMContentLoaded", loadMayaVideoFromSettings);
+
+// ---------- TTS layer ----------
+// Two engines, selected via the header dropdown:
+//   "piper"     — server-side local neural (free, default if available)
+//   "webspeech" — browser-native (free, robotic, fallback)
+const TTS_AVAILABLE = "speechSynthesis" in window;
+let ttsEnabled = true;
+let ttsEngine = "webspeech";
+let piperVoices = [];               // server piper voice names
+let piperVoiceName = null;          // currently selected piper voice
+let ttsVoice = null;                // Web Speech voice (fallback only)
+
+// Audio queue for Piper — maintains sentence order even if a later /tts
+// request returns first.
+const audioQueue = [];
+let audioPlaying = false;
+let audioQueueAbortToken = 0;       // bumped on cancel; in-flight items check it
+
+// Heuristic name lists. Web Speech API doesn't expose gender, so we infer.
+const FEMALE_NAMES = /\b(samantha|karen|veena|aditi|kajal|raveena|neerja|prabha|swara|victoria|kate|fiona|tessa|moira|susan|allison|ava|joanna|ivy|zira|hazel|monica|paulina|female|woman|girl|nora|aria|jenny|emma|sara|lily|olivia|amber)\b/i;
+const MALE_NAMES = /\b(daniel|alex|fred|ralph|oliver|thomas|jorge|diego|david|mark|aaron|albert|arthur|bruce|gordon|guy|tom|prabhat|hardik|rishi|male|man|brian|guy|ryan|james|liam|noah|matthew|christopher|josh|justin)\b/i;
+
+function genderScore(name) {
+  if (FEMALE_NAMES.test(name)) return 0;     // prefer
+  if (MALE_NAMES.test(name)) return 2;       // demote
+  return 1;                                   // unknown
+}
+
+function listEnglishVoices() {
+  return speechSynthesis.getVoices()
+    .filter(v => v.lang && v.lang.toLowerCase().startsWith("en"))
+    .sort((a, b) => {
+      const g = genderScore(a.name) - genderScore(b.name);
+      if (g !== 0) return g;
+      // within same gender bucket: en-IN first, then alphabetical
+      const lA = a.lang === "en-IN" ? 0 : 1;
+      const lB = b.lang === "en-IN" ? 0 : 1;
+      if (lA !== lB) return lA - lB;
+      return a.name.localeCompare(b.name);
+    });
+}
+
+function voiceLabel(v) {
+  const tag = genderScore(v.name) === 0 ? "♀" : genderScore(v.name) === 2 ? "♂" : "·";
+  return `${tag} ${v.name} (${v.lang})`;
+}
+
+function populateVoiceDropdown() {
+  if (!TTS_AVAILABLE) return;
+  const sel = document.getElementById("tts-voice");
+  if (!sel) return;
+  const voices = listEnglishVoices();
+  sel.innerHTML = "";
+  voices.forEach(v => {
+    const opt = document.createElement("option");
+    opt.value = v.name;
+    opt.textContent = voiceLabel(v);
+    sel.appendChild(opt);
+  });
+  // Auto-pick the best female voice on load (top of the sorted list).
+  if (!ttsVoice && voices.length) ttsVoice = voices[0];
+  if (ttsVoice) sel.value = ttsVoice.name;
+  sel.onchange = () => {
+    ttsVoice = voices.find(v => v.name === sel.value) || null;
+  };
+}
+
+if (TTS_AVAILABLE) {
+  populateVoiceDropdown();
+  speechSynthesis.onvoiceschanged = populateVoiceDropdown;
+}
+
+// Probe the server for which TTS engines are available, then populate the
+// engine + voice dropdowns accordingly.
+async function probeTts() {
+  let d;
+  try {
+    const r = await fetch("/api/tts_status");
+    d = await r.json();
+  } catch (e) { return; }
+
+  // Configure engine dropdown
+  const engSel = document.getElementById("tts-engine");
+  const piperOpt = engSel.querySelector('option[value="piper"]');
+  if (piperOpt) piperOpt.disabled = !d.piper_available;
+  if (piperOpt && !d.piper_available) piperOpt.textContent = "Piper (not loaded)";
+
+  // Pick best default engine if not previously set
+  const saved = localStorage.getItem("ttsEngine");
+  if (saved && saved === "piper" && d.piper_available) {
+    ttsEngine = saved;
+  } else {
+    ttsEngine = d.piper_available ? "piper" : "webspeech";
+  }
+  engSel.value = ttsEngine;
+
+  // Cache piper voices for later
+  if (d.piper_available) {
+    piperVoices = d.piper_voices || d.voices || [];
+    piperVoiceName = d.piper_default_voice || d.default_voice || piperVoices[0] || null;
+  }
+
+  refreshVoiceDropdown();
+
+  engSel.onchange = () => {
+    ttsEngine = engSel.value;
+    localStorage.setItem("ttsEngine", ttsEngine);
+    refreshVoiceDropdown();
+  };
+}
+
+function refreshVoiceDropdown() {
+  const sel = document.getElementById("tts-voice");
+  if (!sel) return;
+  sel.innerHTML = "";
+  if (ttsEngine === "piper") {
+    piperVoices.forEach(name => {
+      const opt = document.createElement("option");
+      opt.value = name; opt.textContent = `🎙 ${name}`;
+      sel.appendChild(opt);
+    });
+    if (piperVoiceName) sel.value = piperVoiceName;
+    sel.onchange = () => { piperVoiceName = sel.value; };
+    sel.disabled = false;
+  } else {
+    // WebSpeech — populate OS voices (sorted female first)
+    populateVoiceDropdown();
+  }
+}
+
+probeTts();
+
+// ---------- Public speak API (engine-aware) ----------
+
+function speakSentence(text, bubble) {
+  if (!ttsEnabled) return;
+  if (bubble) {
+    bubble.ttsCharsQueued = (bubble.ttsCharsQueued || 0) + text.length;
+    bubble.ttsSentencesQueued = (bubble.ttsSentencesQueued || 0) + 1;
+    bubble.ttsEngine = ttsEngine;
+    renderTtsStats(bubble);
+  }
+  if (ttsEngine === "piper") {
+    fetchAndQueueServerAudio(text, bubble);
+  } else {
+    speakViaWebSpeech(text, bubble);
+  }
+}
+
+// ---------- Piper path ----------
+
+async function fetchAndQueueServerAudio(text, bubble) {
+  const myToken = audioQueueAbortToken;
+  const item = { text, bubble, blobUrl: null, ready: false, aborted: false, token: myToken };
+  audioQueue.push(item);
+  try {
+    const t0 = performance.now();
+    const reqBody = { text, engine: "piper", voice: piperVoiceName };
+    const r = await fetch("/tts", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(reqBody),
+    });
+    if (myToken !== audioQueueAbortToken) { item.aborted = true; return; }
+    if (!r.ok) throw new Error(`tts ${r.status}`);
+    const blob = await r.blob();
+    item.blobUrl = URL.createObjectURL(blob);
+    item.synthMs = performance.now() - t0;
+    item.ready = true;
+    pumpAudioQueue();
+  } catch (e) {
+    console.warn("Piper TTS error, falling back to Web Speech:", e);
+    item.aborted = true;
+    speakViaWebSpeech(text, bubble);
+  }
+}
+
+function pumpAudioQueue() {
+  if (audioPlaying) return;
+  // Find the next ready+non-aborted item at the head of the queue.
+  while (audioQueue.length && (audioQueue[0].aborted || (audioQueue[0].blobUrl === null && !audioQueue[0].ready))) {
+    if (audioQueue[0].aborted) audioQueue.shift();
+    else break;  // head is not ready yet — wait
+  }
+  if (!audioQueue.length) return;
+  const head = audioQueue[0];
+  if (!head.ready) return;
+  audioQueue.shift();
+  audioPlaying = true;
+
+  const audio = new Audio(head.blobUrl);
+  audio.onplay = () => {
+    setAiState("speaking");   // ← Maya video gates on this and starts looping
+    if (head.bubble && !head.bubble.ttsStartedAt) {
+      head.bubble.ttsStartedAt = performance.now();
+      if (head.bubble.replyStartedAt) {
+        head.bubble.ttsFirstSentenceLatencyMs = performance.now() - head.bubble.replyStartedAt;
+      }
+    }
+  };
+  audio.onended = () => {
+    URL.revokeObjectURL(head.blobUrl);
+    if (head.bubble) {
+      head.bubble.ttsCharsSpoken = (head.bubble.ttsCharsSpoken || 0) + head.text.length;
+      head.bubble.ttsSentencesSpoken = (head.bubble.ttsSentencesSpoken || 0) + 1;
+      head.bubble.ttsEndedAt = performance.now();
+      renderTtsStats(head.bubble);
+    }
+    audioPlaying = false;
+    pumpAudioQueue();
+    // Idle ONLY when truly done: queue is empty AND no more reply chunks expected.
+    // While `isReplying` is true, more sentences may still be streaming in — keep
+    // the video looping through the gaps between sentences.
+    if (audioQueue.length === 0 && !isReplying) setAiState("idle");
+  };
+  audio.onerror = () => {
+    URL.revokeObjectURL(head.blobUrl);
+    audioPlaying = false;
+    pumpAudioQueue();
+    if (audioQueue.length === 0 && !isReplying) setAiState("idle");
+  };
+  audio.play().catch(err => {
+    console.warn("audio.play failed:", err);
+    audioPlaying = false;
+  });
+}
+
+// Periodic pump in case ready items pile up while playback was stalled.
+setInterval(pumpAudioQueue, 250);
+
+// ---------- Web Speech fallback ----------
+
+function speakViaWebSpeech(text, bubble) {
+  if (!TTS_AVAILABLE) return;
+  const u = new SpeechSynthesisUtterance(text);
+  if (ttsVoice) u.voice = ttsVoice;
+  u.rate = 0.95;
+  u.pitch = 1.0;
+  if (bubble) {
+    u.onstart = () => {
+      if (!bubble.ttsStartedAt) bubble.ttsStartedAt = performance.now();
+      if (!bubble.ttsFirstSentenceLatencyMs && bubble.replyStartedAt) {
+        bubble.ttsFirstSentenceLatencyMs = performance.now() - bubble.replyStartedAt;
+      }
+    };
+    u.onend = () => {
+      bubble.ttsCharsSpoken = (bubble.ttsCharsSpoken || 0) + text.length;
+      bubble.ttsSentencesSpoken = (bubble.ttsSentencesSpoken || 0) + 1;
+      bubble.ttsEndedAt = performance.now();
+      renderTtsStats(bubble);
+    };
+    u.onerror = () => renderTtsStats(bubble);
+  }
+  speechSynthesis.speak(u);
+}
+
+// ---------- Stats + lifecycle ----------
+
+function renderTtsStats(bubble) {
+  if (!bubble || !bubble.ttsStats) return;
+  let voice = "default";
+  if (bubble.ttsEngine === "piper") {
+    voice = `Piper · ${piperVoiceName}`;
+  } else if (ttsVoice) {
+    voice = `WebSpeech · ${ttsVoice.name} (${ttsVoice.lang})`;
+  }
+  const spoken = bubble.ttsCharsSpoken || 0;
+  const queued = bubble.ttsCharsQueued || 0;
+  const ssp = bubble.ttsSentencesSpoken || 0;
+  const sqd = bubble.ttsSentencesQueued || 0;
+  const playing = bubble.ttsStartedAt && !bubble.ttsEndedAt;
+  const dur = bubble.ttsStartedAt
+    ? ((bubble.ttsEndedAt || performance.now()) - bubble.ttsStartedAt) / 1000
+    : 0;
+  const ttfb = bubble.ttsFirstSentenceLatencyMs
+    ? `${(bubble.ttsFirstSentenceLatencyMs / 1000).toFixed(2)}s to first audio · `
+    : "";
+  bubble.ttsStats.textContent =
+    `🔊 ${ttfb}${ssp}/${sqd} sent · ${spoken}/${queued} chars · ${dur.toFixed(1)}s ${playing ? "(speaking…)" : ""} · ${voice}`;
+}
+
+function cancelSpeech() {
+  // Bump token so any in-flight Piper fetches abort silently
+  audioQueueAbortToken++;
+  audioQueue.forEach(item => { item.aborted = true; if (item.blobUrl) URL.revokeObjectURL(item.blobUrl); });
+  audioQueue.length = 0;
+  audioPlaying = false;
+  if (TTS_AVAILABLE) speechSynthesis.cancel();
+  // Immediately reset the avatar — Maya's no longer speaking
+  setAiState("idle");
+}
+
+function speakIncremental(fullText, alreadySpokenChars, bubble) {
+  if (!ttsEnabled) return alreadySpokenChars;
+  const unspoken = fullText.slice(alreadySpokenChars);
+  const re = /[^.!?]+[.!?]+(?:\s|$)/g;
+  let m, lastEnd = 0;
+  while ((m = re.exec(unspoken)) !== null) {
+    const sentence = m[0].trim();
+    if (sentence.length > 0) speakSentence(sentence, bubble);
+    lastEnd = m.index + m[0].length;
+  }
+  return alreadySpokenChars + lastEnd;
+}
+let lastSavedTurnCount = 0;
+let isReplying = false;  // user input is locked while AI is generating
+
+// Event-gated save policy: only fire /end_session when the latest turn pair
+// (user msg + AI reply) actually contains memorable content. Pure small-talk
+// (greetings, "ok", "yes", weather) doesn't trigger a save — no merge LLM call,
+// no churn. The bias is intentionally conservative (false positives over false
+// negatives — extra save with empty patch is cheaper than missing a real fact).
+const MEMORY_SIGNALS = [
+  // Time references — dates, days, relative time
+  /\btomorrow\b/i, /\byesterday\b/i, /\b(next|last)\s+(week|month|year|monday|tuesday|wednesday|thursday|friday|saturday|sunday)\b/i,
+  /\b(in|on|by|until|after)\s+\d/i,
+  /\b\d+(st|nd|rd|th)?\s+(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i,
+  /\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\s+\d+/i,
+  /\b(20\d{2})\b/,                       // year like 2026
+  // Event keywords
+  /\b(exam|wedding|trip|interview|meeting|appointment|birthday|bday|anniversary|conference|deadline|presentation|graduation|moving|move|surgery|operation|funeral)\b/i,
+  // Personal facts (user describing themselves)
+  /\bi\s+(am|'m|was|work|live|moved|switched|grew|studied|joined|finished|started|broke|got|have)\s+/i,
+  // Relationships / people
+  /\bmy\s+(name|brother|sister|mom|dad|mother|father|wife|husband|partner|girlfriend|boyfriend|son|daughter|kid|child|friend|manager|boss|colleague|family|home|city|hometown|job|work|company|school|college)\b/i,
+  /\b(call me|i go by|nickname)\b/i,
+  // Aspirations / plans
+  /\b(want to|plan to|going to|hoping to|trying to|aiming for|preparing for)\b/i,
+  // Achievements / outcomes
+  /\b(got promoted|got the job|won|lost|passed|failed|completed|finished|published|launched)\b/i,
+];
+function detectMemorableContent(text) {
+  if (!text || typeof text !== "string") return false;
+  return MEMORY_SIGNALS.some(re => re.test(text));
+}
+const SESSION_ID =
+  (crypto && crypto.randomUUID && crypto.randomUUID()) ||
+  ("sess-" + Date.now() + "-" + Math.random().toString(36).slice(2, 10));
+
+const $ = (id) => document.getElementById(id);
+
+function setInputLock(locked) {
+  isReplying = locked;
+  $("input").disabled = locked;
+  $("send-btn").disabled = locked;
+  $("input").placeholder = locked
+    ? "Miss Maya is replying… please wait"
+    : "Type a reply…";
+  // When the reply finishes, if the audio queue is also already drained, idle
+  // out immediately. (If audio is still playing, the audio.onended handler will
+  // catch the idle transition once the last chunk ends.)
+  if (!locked && audioQueue.length === 0 && !audioPlaying) {
+    setAiState("idle");
+  }
+}
+
+// TTS + Natural-voice toggle buttons — wired once the chat UI mounts
+(function wireTtsToggle() {
+  const btn = document.getElementById("tts-btn");
+  const sel = document.getElementById("tts-voice");
+  if (!btn) return;
+  if (!TTS_AVAILABLE) {
+    btn.textContent = "🔇 TTS unsupported";
+    btn.disabled = true;
+    btn.style.background = "#999";
+    if (sel) sel.style.display = "none";
+  } else {
+    const refreshBtn = () => {
+      btn.textContent = ttsEnabled ? "🔊 Voice on" : "🔇 Voice off";
+      btn.style.background = ttsEnabled ? "#2a7a3a" : "#6b6b6b";
+    };
+    btn.onclick = () => {
+      ttsEnabled = !ttsEnabled;
+      if (!ttsEnabled) cancelSpeech();
+      refreshBtn();
+    };
+    refreshBtn();
+  }
+
+})();
+
+$("start-btn").onclick = () => {
+  if (!SELECTED_PROFILE) return;
+  userName = SELECTED_PROFILE.user_name;
+  profession = SELECTED_PROFILE.profession;
+  motherTongue = SELECTED_PROFILE.mother_tongue;
+  interests = SELECTED_PROFILE.interests;
+  const sel = $("backend-select").value.split("|");
+  backendKind = sel[0];
+  modelName = sel[1];
+  // Sync the in-chat header dropdown to the welcome-screen choice.
+  const _hsel = $("header-backend-select");
+  for (const opt of _hsel.options) {
+    if (opt.value === $("backend-select").value) { _hsel.value = opt.value; break; }
+  }
+  $("setup").style.display = "none";
+  $("app").style.display = "flex";
+  sendTurn(null);
+};
+
+$("send-btn").onclick = () => {
+  if (isReplying) return;
+  const text = $("input").value.trim();
+  if (!text) return;
+  $("input").value = "";
+  addBubble("user", text);
+  sendTurn(text);
+};
+
+$("input").addEventListener("keydown", (e) => {
+  if (e.key === "Enter" && !e.shiftKey) {
+    e.preventDefault();
+    $("send-btn").click();
+  }
+});
+
+function setStatus(text, color) {
+  const el = $("save-status");
+  if (!el) return;
+  el.textContent = text;
+  el.style.color = color || "var(--muted)";
+}
+
+async function saveMemoryNow(reason) {
+  if (history.length === 0) return;
+  if (history.length === lastSavedTurnCount) return; // nothing new
+  setStatus(`saving memory (${reason})…`, "#c2643b");
+  try {
+    const resp = await fetch("/end_session", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ user_name: userName, history }),
+    });
+    const data = await resp.json();
+    if (data.saved) {
+      lastSavedTurnCount = history.length;
+      const ts = new Date().toLocaleTimeString();
+      setStatus(`memory saved · ${ts}`, "#2a7a3a");
+    } else {
+      setStatus("save skipped: " + (data.reason || "unknown"));
+    }
+  } catch (e) {
+    setStatus("save failed: " + e.message, "red");
+  }
+}
+
+// Called after every AI reply lands. Fires save IMMEDIATELY (no debounce) but
+// ONLY if the latest user msg + AI reply pair contains memorable content.
+function maybeAutoSave(latestUserMsg, latestAiReply) {
+  const combined = (latestUserMsg || "") + " " + (latestAiReply || "");
+  if (!detectMemorableContent(combined)) {
+    setStatus(`memory: skipped (no event detected at turn ${history.length / 2})`, "var(--muted)");
+    return;
+  }
+  saveMemoryNow("auto-event");
+}
+
+// Manual button — keep as a "save now" override
+$("end-btn").onclick = () => saveMemoryNow("manual");
+
+// Memory inspector: show what's stored, how it's sent, and expiry rules per item
+const EVENT_ARCHIVE_DAYS = 14;
+
+function fmtDateOffset(dateStr) {
+  // Returns {label, deltaDays} for a YYYY-MM-DD date, relative to today
+  const d = new Date(dateStr + "T00:00:00");
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const deltaDays = Math.round((d - today) / 86400000);
+  let phrase;
+  if (deltaDays === 0) phrase = "today";
+  else if (deltaDays === 1) phrase = "tomorrow";
+  else if (deltaDays === -1) phrase = "yesterday";
+  else if (deltaDays > 0) phrase = `in ${deltaDays} days`;
+  else phrase = `${-deltaDays} days ago`;
+  return { phrase, deltaDays };
+}
+
+function addDays(dateStr, n) {
+  const d = new Date(dateStr + "T00:00:00");
+  d.setDate(d.getDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+
+async function openMemoryModal() {
+  $("mem-username").textContent = userName || "you";
+  $("mem-modal").style.display = "flex";
+  $("mem-structured").textContent = "loading…";
+  $("mem-rendered").textContent = "loading…";
+  $("mem-facts-list").textContent = "loading…";
+  $("mem-events-list").textContent = "loading…";
+
+  let d;
+  try {
+    const r = await fetch(`/memory?user_name=${encodeURIComponent(userName)}`);
+    d = await r.json();
+  } catch (e) {
+    $("mem-structured").textContent = "error: " + e.message;
+    $("mem-rendered").textContent = "";
+    return;
+  }
+  const struct = d.memory_structured || {};
+  const facts = struct.facts || {};
+  const events = struct.events || [];
+
+  // Raw JSON view
+  $("mem-structured").textContent = JSON.stringify(struct, null, 2);
+  if (Object.keys(facts).length === 0 && events.length === 0) {
+    $("mem-structured").textContent = "(empty — nothing saved yet for this profile)";
+  }
+
+  // Rendered prompt view
+  $("mem-rendered").textContent = d.memory || "(nothing rendered — Maya gets no memory block this turn)";
+
+  // Facts list with per-field annotations
+  const factEntries = Object.entries(facts);
+  if (factEntries.length === 0) {
+    $("mem-facts-list").textContent = "(no facts stored yet)";
+  } else {
+    const PROTECTED = new Set(["name"]);
+    $("mem-facts-list").innerHTML = factEntries.map(([k, v]) => {
+      const protectedTag = PROTECTED.has(k)
+        ? ' <span style="color:#a83838; font-weight:600;">[protected · server blocks overwrite]</span>'
+        : "";
+      const expiryTag = ' <span style="color:#2a7a3a;">[never expires]</span>';
+      const valStr = Array.isArray(v) ? v.join(", ") : (typeof v === "object" ? JSON.stringify(v) : String(v));
+      const truncated = valStr.length > 60 ? valStr.slice(0, 60) + "…" : valStr;
+      return `<div style="margin-bottom:4px;"><b>${k}</b>: ${escape(truncated)}${expiryTag}${protectedTag}</div>`;
+    }).join("");
+  }
+
+  // Events list with computed expiry per item
+  if (events.length === 0) {
+    $("mem-events-list").textContent = "(no events stored yet)";
+  } else {
+    const sorted = [...events].sort((a, b) => (a.date || "").localeCompare(b.date || ""));
+    $("mem-events-list").innerHTML = sorted.map(ev => {
+      const { phrase, deltaDays } = fmtDateOffset(ev.date);
+      const expiryDate = addDays(ev.date, EVENT_ARCHIVE_DAYS);
+      const expiryOffset = fmtDateOffset(expiryDate);
+      const isRecurring = ev.recurrence != null;
+      const isFollowedUp = ev.followed_up;
+
+      let lifecycle;
+      if (isRecurring) {
+        lifecycle = `<span style="color:#2a7a3a;">recurring (${escape(ev.recurrence)}) — never auto-archives</span>`;
+      } else if (deltaDays > 0) {
+        lifecycle = `<span style="color:#c2643b;">upcoming · auto-archives ${expiryOffset.phrase} (on ${expiryDate})</span>`;
+      } else if (deltaDays >= -EVENT_ARCHIVE_DAYS) {
+        const daysLeft = expiryOffset.deltaDays;
+        const status = isFollowedUp ? "followed up · " : "pending follow-up · ";
+        lifecycle = `<span style="color:#a83838;">${status}auto-archives ${expiryOffset.phrase} (on ${expiryDate})</span>`;
+      } else {
+        lifecycle = `<span style="color:#999;">expired (should have been archived)</span>`;
+      }
+
+      const importance = ev.importance ? ` · importance: ${ev.importance}` : "";
+      const category = ev.category ? ` · ${ev.category}` : "";
+      return `<div style="margin-bottom:8px; padding:6px 8px; background:#f4f1ea; border-radius:4px;">
+        <div><b>${escape(ev.id || "?")}</b> — ${escape(ev.what || "")}${category}${importance}</div>
+        <div style="color:var(--muted);">date: ${ev.date} (${phrase})</div>
+        <div>${lifecycle}</div>
+      </div>`;
+    }).join("");
+  }
+}
+
+function escape(s) {
+  const d = document.createElement("div");
+  d.textContent = String(s);
+  return d.innerHTML;
+}
+$("show-mem-btn").onclick = openMemoryModal;
+$("mem-refresh-btn").onclick = openMemoryModal;
+$("mem-close-btn").onclick = () => { $("mem-modal").style.display = "none"; };
+$("mem-modal").onclick = (e) => {
+  if (e.target.id === "mem-modal") $("mem-modal").style.display = "none";
+};
+
+// Clear my memory: wipe stored cross-session + current in-session for THIS profile only
+$("clear-mem-btn").onclick = async () => {
+  if (isReplying) {
+    alert("Please wait for Miss Maya's reply to finish.");
+    return;
+  }
+  if (!confirm(`Wipe stored memory for "${userName}"? This deletes the cross-session memory file and the current session summary. The chat will reset.`)) return;
+  cancelSpeech();
+  $("clear-mem-btn").disabled = true;
+  $("clear-mem-btn").textContent = "Clearing…";
+  try {
+    await fetch("/api/clear_user_memory", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ user_name: userName, session_id: SESSION_ID }),
+    });
+  } catch (e) { /* ignore */ }
+  // Hard reset to start fresh — same effect as End chat
+  location.reload();
+};
+
+// End chat: save memory, then reset to onboarding
+$("end-chat-btn").onclick = async () => {
+  if (isReplying) {
+    alert("Please wait for Miss Maya's reply to finish.");
+    return;
+  }
+  cancelSpeech();
+  if (history.length && !confirm("End this chat? Memory will be saved and the session will reset.")) return;
+  if (history.length) {
+    $("end-chat-btn").disabled = true;
+    $("end-chat-btn").textContent = "Saving…";
+    await saveMemoryNow("end-chat");
+  }
+  // Hard reset — easiest way to mint a fresh SESSION_ID and clear UI
+  location.reload();
+};
+
+// Best-effort save on page close/refresh
+window.addEventListener("beforeunload", () => {
+  if (history.length === 0 || history.length === lastSavedTurnCount) return;
+  // sendBeacon is the only reliable way during unload
+  const payload = JSON.stringify({ user_name: userName, history });
+  navigator.sendBeacon(
+    "/end_session",
+    new Blob([payload], { type: "application/json" })
+  );
+});
+
+function addBubble(role, text) {
+  const div = document.createElement("div");
+  div.className = "bubble " + role;
+  div.textContent = text;
+  $("chat").appendChild(div);
+  $("chat").scrollTop = $("chat").scrollHeight;
+  return div;
+}
+
+function addAiBubble() {
+  const wrap = document.createElement("div");
+  wrap.className = "bubble ai";
+  const msg = document.createElement("div");
+  msg.className = "msg";
+  msg.textContent = "";
+  const meta = document.createElement("div");
+  meta.style.cssText = "font-size:11px; color:var(--muted); font-family:ui-monospace,monospace; margin-top:6px;";
+  meta.textContent = "";
+  const ttsStats = document.createElement("div");
+  ttsStats.style.cssText = "font-size:11px; color:var(--muted); font-family:ui-monospace,monospace; margin-top:2px;";
+  ttsStats.textContent = "";
+  const toggle = document.createElement("span");
+  toggle.className = "show-prompt";
+  toggle.textContent = "show prompt sent for this message ▸";
+  const raw = document.createElement("div");
+  raw.className = "raw";
+  raw.style.display = "none";
+  toggle.onclick = () => {
+    const open = raw.style.display !== "none";
+    raw.style.display = open ? "none" : "block";
+    toggle.textContent = open
+      ? "show prompt sent for this message ▸"
+      : "hide prompt ▾";
+  };
+  wrap.appendChild(msg);
+  wrap.appendChild(meta);
+  wrap.appendChild(ttsStats);
+  wrap.appendChild(toggle);
+  wrap.appendChild(raw);
+  $("chat").appendChild(wrap);
+  $("chat").scrollTop = $("chat").scrollHeight;
+  return { wrap, msg, meta, ttsStats, raw, toggle };
+}
+
+// Returns an HTML string with three-way color coding. Bubble.raw must be set
+// via innerHTML, not textContent.
+//
+//   PERMANENT (green) — never expires, sent every call:
+//     - system prompt (rules, persona)
+//     - profile context: name, profession, mother tongue, interests
+//     - cross-session FACTS (timeless identity)
+//
+//   AUTO-ARCHIVING (deep purple) — date-bound, dropped 14 days after the date:
+//     - cross-session EVENTS (exam dates, weddings, etc.)
+//
+//   TEMPORARY (dark red) — this session only:
+//     - in-session rolling summary (regenerated every turn)
+//     - today's date / time of day
+//     - all conversation messages
+function renderPromptSnapshot(snap) {
+  const PERM  = "#2a7a3a";   // green   — permanent
+  const EVENT = "#6b3aa8";   // deep purple — events that auto-archive
+  const TEMP  = "#a83838";   // dark red — temporary
+  const HDR   = "#777";
+
+  function esc(s) {
+    return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+  function span(text, color) {
+    return `<span style="color:${color};">${esc(text)}</span>`;
+  }
+  function sectionHeader(text) {
+    return `<div style="color:${HDR}; margin-top:12px; font-weight:600;">${esc(text)}</div>`;
+  }
+
+  const parts = [];
+
+  // Legend at top — three-way color key
+  parts.push(
+    `<div style="font-size:10px; color:${HDR}; margin-bottom:10px; padding-bottom:6px; border-bottom:1px dashed #ddd; line-height:1.7;">` +
+      `<span style="display:inline-block; width:10px; height:10px; background:${PERM}; margin-right:4px; vertical-align:middle;"></span>` +
+      `<span style="color:${PERM}; font-weight:600;">permanent</span> — system prompt, profile, cross-session facts` +
+      `&nbsp;·&nbsp;` +
+      `<span style="display:inline-block; width:10px; height:10px; background:${EVENT}; margin-right:4px; vertical-align:middle;"></span>` +
+      `<span style="color:${EVENT}; font-weight:600;">auto-archive</span> — events (dropped 14d after their date)` +
+      `&nbsp;·&nbsp;` +
+      `<span style="display:inline-block; width:10px; height:10px; background:${TEMP}; margin-right:4px; vertical-align:middle;"></span>` +
+      `<span style="color:${TEMP}; font-weight:600;">temporary</span> — in-session summary, dates, conversation` +
+    `</div>`
+  );
+
+  // Counts (muted)
+  parts.push(
+    `<div style="color:${HDR}; font-size:10px; line-height:1.6;">` +
+      `# session_id: ${esc(snap.session_id || "(none)")}<br>` +
+      `# history total: ${snap.total_history_len}  ·  window: ${snap.window_size}  ·  trimmed: ${snap.older_trimmed_count}<br>` +
+      `# cross-session memory: ${snap.cross_session_memory_chars} chars  ·  in-session summary: ${snap.session_summary_chars} chars` +
+    `</div>`
+  );
+
+  // System prompt → entirely permanent
+  parts.push(sectionHeader("=== SYSTEM PROMPT ==="));
+  parts.push(span(snap.system_prompt, PERM));
+
+  // Messages
+  snap.messages.forEach((m, i) => {
+    parts.push(sectionHeader(`=== MESSAGE [${i}] · ${m.role.toUpperCase()} ===`));
+    if (i === 0 && m.role === "user") {
+      // First-message instruction has THREE colored zones:
+      //   [permanent green] up to the events marker
+      //   [purple events]  from "Coming up / recent events" up to the temp marker
+      //   [temp dark red]  from "Summary of our conversation" / "Today's Date:" onward
+      const TEMP_MARKERS = ["Summary of our conversation so far", "Today's Date:"];
+      const EVENTS_MARKER = "Coming up / recent events";
+
+      let firstTempIdx = m.content.length;
+      for (const marker of TEMP_MARKERS) {
+        const idx = m.content.indexOf(marker);
+        if (idx !== -1 && idx < firstTempIdx) firstTempIdx = idx;
+      }
+      const permWhole = m.content.slice(0, firstTempIdx);
+      const tempPart  = m.content.slice(firstTempIdx);
+
+      // Within the permanent slice, split off events into purple
+      const eventsIdx = permWhole.indexOf(EVENTS_MARKER);
+      if (eventsIdx !== -1) {
+        const greenPart  = permWhole.slice(0, eventsIdx);
+        const purplePart = permWhole.slice(eventsIdx);
+        if (greenPart)  parts.push(span(greenPart, PERM));
+        if (purplePart) parts.push(span(purplePart, EVENT));
+      } else {
+        if (permWhole) parts.push(span(permWhole, PERM));
+      }
+      if (tempPart) parts.push(span(tempPart, TEMP));
+    } else {
+      // All conversation back-and-forth → temporary
+      parts.push(span(m.content, TEMP));
+    }
+  });
+
+  return parts.join("\n");
+}
+
+// Extract the displayable message text from whatever the model emitted.
+// Handles four shapes (in order of preference):
+//   1. Strict JSON: {"message": "..."}
+//   2. Code-fenced JSON: ```json\n{...}\n```
+//   3. Bare regex: "message": "..." somewhere in the text
+//   4. Plain text (Qwen fallback) — sometimes with stray opening/closing quotes
+// Always strips leading/trailing junk (quote chars, backticks, whitespace).
+function extractMessage(raw) {
+  if (!raw) return "";
+  let text = String(raw);
+
+  // Strip surrounding code fences if present
+  let stripped = text.replace(/^```(?:json)?\s*/i, "").replace(/\s*```\s*$/, "").trim();
+
+  // 1. Try JSON parse on the (de-fenced) text
+  try {
+    const parsed = JSON.parse(stripped);
+    if (parsed && typeof parsed === "object" && typeof parsed.message === "string") {
+      return parsed.message;
+    }
+  } catch (_) { /* fall through */ }
+
+  // 2. Try the bare regex — find "message": "..." anywhere
+  const m = stripped.match(/"message"\s*:\s*"((?:\\.|[^"\\])*)"?/);
+  if (m) {
+    return m[1]
+      .replace(/\\"/g, '"').replace(/\\n/g, "\n")
+      .replace(/\\t/g, "\t").replace(/\\\\/g, "\\");
+  }
+
+  // 3. No JSON wrapper at all — Qwen sometimes emits plain text with stray quote
+  //    characters. Strip leading/trailing quote/backtick/whitespace junk.
+  return stripped
+    .replace(/^[`"'\s]+/, "")     // strip leading junk
+    .replace(/[`"'\s]+$/, "")     // strip trailing junk
+    .trim();
+}
+
+async function sendTurn(userMessage) {
+  setInputLock(true);
+  setAiState("listening");      // ← user just submitted; AI generating but not speaking yet
+  cancelSpeech();  // stop any leftover speech from the previous turn
+  const bubble = addAiBubble();
+  bubble.spokenChars = 0;  // per-bubble TTS pointer
+  bubble.replyStartedAt = performance.now();   // for first-audio latency stat
+  bubble.msg.innerHTML = '<span class="typing">Miss Maya is thinking…</span>';
+  bubble.toggle.style.display = "none"; // hidden until snapshot lands
+
+  const body = {
+    user_name: userName,
+    profession: profession,
+    mother_tongue: motherTongue,
+    interests: interests,
+    history: history,
+    user_message: userMessage,
+    session_id: SESSION_ID,
+    backend: backendKind,
+    model: modelName,
+  };
+
+  let resp;
+  try {
+    resp = await fetch("/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    });
+  } catch (e) {
+    bubble.msg.textContent = "[network error] " + e.message;
+    bubble.msg.style.color = "red";
+    setInputLock(false);
+    return;
+  }
+
+  const reader = resp.body.getReader();
+  const decoder = new TextDecoder();
+  let buffer = "";
+  let rawAccum = "";
+  let firstChunk = true;
+
+  try {
+    while (true) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split("\n\n");
+      buffer = lines.pop();
+
+      for (const chunk of lines) {
+        if (!chunk.startsWith("data: ")) continue;
+        const data = JSON.parse(chunk.slice(6));
+
+        if (data.type === "prompt_snapshot") {
+          bubble.raw.innerHTML = renderPromptSnapshot(data);
+          bubble.toggle.style.display = "inline-block";
+        } else if (data.type === "delta") {
+          if (firstChunk) { bubble.msg.textContent = ""; firstChunk = false; }
+          rawAccum += data.text;
+          const extracted = extractMessage(rawAccum);
+          if (extracted) {
+            bubble.msg.textContent = extracted;
+            // Speak any newly-completed sentences as they stream in
+            bubble.spokenChars = speakIncremental(extracted, bubble.spokenChars, bubble);
+          }
+          $("chat").scrollTop = $("chat").scrollHeight;
+        } else if (data.type === "done") {
+          // Single source of truth — the new extractor handles all four shapes
+          // Qwen / Haiku / Sonnet have been producing (strict JSON, fenced JSON,
+          // bare-regex JSON, and plain text with stray quotes).
+          bubble.msg.textContent = extractMessage(data.full);
+          // Speak any final tail (last sentence often lacks a trailing terminator
+          // until the JSON closes — this catches it).
+          const finalText = bubble.msg.textContent || "";
+          if (finalText.length > bubble.spokenChars) {
+            const tail = finalText.slice(bubble.spokenChars).trim();
+            if (tail) speakSentence(tail, bubble);
+            bubble.spokenChars = finalText.length;
+          }
+          const u = data.usage || {};
+          const ms = data.duration_ms || 0;
+          bubble.meta.textContent =
+            `${data.backend || "?"} · ${data.model || "?"} · ${(ms/1000).toFixed(2)}s · ` +
+            `in ${u.input || 0} / out ${u.output || 0}` +
+            (u.cache_read ? ` (cache ${u.cache_read})` : "");
+          if (userMessage !== null) history.push({ role: "user", content: userMessage });
+          history.push({ role: "assistant", content: data.full });
+          // Event-gated save — fires only if the turn contains memorable content
+          maybeAutoSave(userMessage, bubble.msg.textContent);
+        } else if (data.type === "error") {
+          bubble.msg.textContent = "[error] " + data.message;
+          bubble.msg.style.color = "red";
+        }
+      }
+    }
+  } finally {
+    setInputLock(false);
+    $("input").focus();
+  }
+}
+</script>
+</body>
+</html>

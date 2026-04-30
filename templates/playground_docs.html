@@ -1,0 +1,964 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PeerUp · Playground Docs</title>
+  <style>
+    :root {
+      --accent: #6b3fa0;
+      --accent-soft: #f3edff;
+      --border: #d8c8ec;
+      --bg: #faf7f2;
+      --panel: #fff;
+      --muted: #7a6a99;
+      --text: #2a2a2a;
+      --green: #2a7a3a;
+      --red: #a83838;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.6;
+    }
+    header {
+      background: var(--accent); color: #fff;
+      padding: 16px 28px; display: flex; align-items: center; gap: 14px;
+    }
+    header h1 { margin: 0; font-size: 18px; font-weight: 600; }
+    header a { color: rgba(255,255,255,0.85); font-size: 12px; text-decoration: none; margin-left: 14px; }
+    header a:hover { color: #fff; }
+    main { max-width: 960px; margin: 0 auto; padding: 28px; }
+    section {
+      background: var(--panel); border: 1px solid var(--border);
+      border-radius: 8px; padding: 22px 28px; margin-bottom: 20px;
+    }
+    section h2 {
+      margin: 0 0 14px; font-size: 17px; color: var(--accent);
+      border-bottom: 1px solid var(--border); padding-bottom: 8px;
+    }
+    section h3 {
+      margin: 18px 0 8px; font-size: 14px; font-weight: 600;
+    }
+    section p, section li { font-size: 13.5px; }
+    section code {
+      background: var(--accent-soft); padding: 1px 6px; border-radius: 3px;
+      font-size: 12px; font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    }
+    section pre {
+      background: #2a2440; color: #e8defb; padding: 14px 18px;
+      border-radius: 6px; font-size: 12px; line-height: 1.55; overflow-x: auto;
+      font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    }
+    table {
+      width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 13px;
+    }
+    table th, table td {
+      border: 1px solid var(--border); padding: 8px 10px; vertical-align: top;
+    }
+    table th { background: var(--accent-soft); text-align: left; color: var(--accent); }
+    .pill {
+      display: inline-block; padding: 2px 8px; font-size: 11px;
+      background: var(--accent-soft); color: var(--accent);
+      border-radius: 999px; font-weight: 600;
+    }
+    .pill.warn { background: #fde6e6; color: var(--red); }
+    .pill.ok { background: #e0f5e6; color: var(--green); }
+    .toc {
+      background: var(--accent-soft); padding: 14px 22px;
+      border-radius: 6px; margin-bottom: 20px;
+    }
+    .toc ol { margin: 0; padding-left: 22px; }
+    .toc li { font-size: 13px; margin: 3px 0; }
+    .toc a { color: var(--accent); text-decoration: none; }
+    .callout {
+      background: #fff8e1; border-left: 4px solid #d4a73a;
+      padding: 12px 16px; margin: 14px 0; border-radius: 0 6px 6px 0;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🧪 PeerUp Playground · Documentation</h1>
+    <a href="/playground">← Back to playground</a>
+    <a href="/playground/prompts">Prompts admin</a>
+    <a href="/implementation">🔥 Implementation reference</a>
+  </header>
+
+  <main>
+    <div class="toc">
+      <strong>Contents</strong>
+      <ol>
+        <li><a href="#what">What the playground is</a></li>
+        <li><a href="#examples">Before vs After — concrete reply examples</a></li>
+        <li><a href="#stored">What's stored about each user — plain language</a></li>
+        <li><a href="#schema">Memory schema (V1+V2+V3: facts · events · moments · mood_log · cooldown · lore · anticipation_queue · skills)</a></li>
+        <li><a href="#prompts">System prompt &amp; merge prompt changes</a></li>
+        <li><a href="#dates">📅 Date override — full reference</a></li>
+        <li><a href="#retention">Retention content ideas (in-chat hooks)</a></li>
+        <li><a href="#routes">Routes &amp; storage layout</a></li>
+        <li><a href="#testing">Testing recipes</a></li>
+        <li><a href="#promote">Promoting a change to prod</a></li>
+        <li><a href="#qwen-lab">🧪 Qwen Lab — A/B prompt comparison</a></li>
+        <li><a href="#roadmap">Roadmap (V4 → V6)</a></li>
+      </ol>
+    </div>
+
+    <section id="what">
+      <h2>1. What the playground is</h2>
+      <p>
+        The playground is a parallel sandbox of the prod chat experience. <strong>Same</strong> chat UI, TTS,
+        streaming backends, profile setup. <strong>Different</strong> in three places: storage layout, memory
+        schema, and the system / merge prompts. Storage is fully isolated under
+        <code>memory_store/_playground/</code> so prod data is never read or written from here.
+      </p>
+      <p>
+        The point: try aggressive memory experiments (new buckets, new merge logic, new prompt rules) without
+        risking prod behavior. Once something works here, copy the diff into the prod functions.
+      </p>
+      <p><span class="pill ok">Settings shared</span> Backend keys, TTS engine, voices live in <code>/api/settings</code> and are reused — those aren't memory concerns.</p>
+      <p>
+        <span class="pill" style="background:#fceee9; color:#c9442a;">QWEN LAB</span>
+        A second sandbox lives at <code>/qwen-lab</code>. It takes the playground prompts as the LEFT (control) column and a Qwen-tuned rewrite as the RIGHT column, runs both in parallel against Qwen 32B, and shows you the responses side-by-side. Storage is independently isolated under <code>memory_store/_qwen_lab/</code>. See <a href="#qwen-lab">section 11</a> for the full picture.
+      </p>
+    </section>
+
+    <section id="examples">
+      <h2>2. Before vs After — concrete reply examples</h2>
+      <p>How the same scenario plays out in <b>prod</b> (2 buckets, no mood/cooldown/lore/skills) vs in <b>playground V1+V2+V3</b> (8 buckets, 6 extra rules). User profile across all examples: Priyansh, software engineer, GMAT in 1 week, sister's wedding in 3 weeks, says he likes cricket and Bollywood movies.</p>
+
+      <style>
+        .ba-table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+        .ba-table th, .ba-table td { border: 1px solid var(--border); padding: 10px 12px; vertical-align: top; line-height: 1.5; }
+        .ba-table th { background: var(--accent-soft); color: var(--accent); text-align: left; }
+        .ba-table td.scenario { background: #fcfaf6; font-weight: 600; width: 18%; }
+        .ba-table td.before { background: #fdf2f2; width: 36%; color: #6a2a2a; }
+        .ba-table td.after { background: #f0fbf2; width: 36%; color: #1d4623; }
+        .ba-table td.mech { background: #faf7ff; width: 10%; font-size: 11px; color: var(--accent); font-family: ui-monospace, "SF Mono", Menlo, monospace; }
+        .ba-table .quote { font-style: italic; }
+        .ba-table .why { display: block; margin-top: 6px; padding-top: 6px; border-top: 1px dashed rgba(0,0,0,0.12); font-size: 11px; color: var(--muted); font-style: normal; }
+      </style>
+
+      <table class="ba-table">
+        <tr>
+          <th>Scenario</th>
+          <th>Before — prod</th>
+          <th>After — playground V1+V2+V3</th>
+          <th>Mechanism</th>
+        </tr>
+
+        <tr>
+          <td class="scenario">Returning-user opener (day 2, after a heavy session)</td>
+          <td class="before"><span class="quote">"Hi Priyansh! How was your day?"</span><span class="why">Generic. No memory of yesterday. Same opener regardless of how the last session went.</span></td>
+          <td class="after"><span class="quote">"Hey Priyansh — yesterday felt a bit heavy from over here. How are the GMAT nerves today, same level or has the panic earned itself a coffee break?"</span><span class="why">Specific to this user, references yesterday's emotional thread, lands as a friend who picked up where they left off.</span></td>
+          <td class="mech">anticipation_queue (moment_followup, priority 7) + Rule 30 (mood arc)</td>
+        </tr>
+
+        <tr>
+          <td class="scenario">Topic Maya already raised yesterday</td>
+          <td class="before"><span class="quote">"Hi Priyansh! I heard you enjoy Bollywood movies — which actor or actress makes you smile the most?"</span><span class="why">Pulls Bollywood from profile interests every session. Asked the same thing yesterday. User feels interrogated.</span></td>
+          <td class="after"><span class="quote">"Quick one — what's the most interesting bug you fixed this week?"</span><span class="why">Bollywood is in the OFF-LIMITS denylist (covered yesterday). Maya skips it and picks a fresh angle from facts.</span></td>
+          <td class="mech">Rule 32 + cooldown.recent_topics denylist</td>
+        </tr>
+
+        <tr>
+          <td class="scenario">User has been low for 3 sessions in a row</td>
+          <td class="before"><span class="quote">"Hi Priyansh! How was your day? Tell me about something fun you did!"</span><span class="why">No mood awareness. Cheerful by default, even when user has been struggling.</span></td>
+          <td class="after"><span class="quote">"Hey — you came late tonight. No pressure, just glad you came. Want to just talk about anything other than the exam for a few minutes?"</span><span class="why">Recognises the trajectory silently and softens energy. No mention of "I see you've been down" — that would feel surveillant.</span></td>
+          <td class="mech">Rule 30 + mood_log trajectory + 📉 trending hint</td>
+        </tr>
+
+        <tr>
+          <td class="scenario">Anxious-baseline user, just-as-anxious-as-usual session</td>
+          <td class="before"><span class="quote">"Oh Priyansh, you sound worried. Is everything OK? Want to talk about it?"</span><span class="why">No baseline awareness. Treats every anxious session as a crisis. The user feels pathologised.</span></td>
+          <td class="after"><span class="quote">"Priyansh! Three days until GMAT. What's one thing today that's just for you?"</span><span class="why">Knows anxious is this user's normal — flat, not crisis. Opens with energy, not concern.</span></td>
+          <td class="mech">Rule 30 + Phase 3 mood baseline</td>
+        </tr>
+
+        <tr>
+          <td class="scenario">User makes a real grammar slip</td>
+          <td class="before"><span class="quote">"Don't drop articles in English — say 'I am going to the market', not 'I am going market'. Does that make sense?"</span><span class="why">Generic textbook correction. Feels like school.</span></td>
+          <td class="after"><span class="quote">"Going to the market — for what?"</span><span class="why">Implicit recast (Rule 28 default 60%). User repeats the corrected form without noticing she fixed it. Logged as recurring slip.</span></td>
+          <td class="mech">Rule 28 (a) + skills.error_patterns</td>
+        </tr>
+
+        <tr>
+          <td class="scenario">User did NOT make a mistake but Qwen wants to "tutor"</td>
+          <td class="before"><span class="quote">User: "It's going great, how are you?"<br>Maya: "Just one small fix: we say 'How are you?' without the 'is'. You are doing great!"</span><span class="why">Hallucinated a mistake the user never made. Confident learner feels publicly wrong. Worst failure mode.</span></td>
+          <td class="after"><span class="quote">"I'm doing great too, thanks for asking. What does your day look like — anything fun planned?"</span><span class="why">HARD GATE in Rule 28: must point to the literal incorrect text. No fabricated corrections. Skip clause for casual contractions.</span></td>
+          <td class="mech">Rule 28 HARD GATE + casual-form skip clause</td>
+        </tr>
+
+        <tr>
+          <td class="scenario">User used a learned form correctly, weeks later</td>
+          <td class="before"><span class="quote">"That's good!"</span><span class="why">No memory of what the user used to struggle with. Generic encouragement.</span></td>
+          <td class="after"><span class="quote">"You said 'going to the market' just now without thinking — six weeks ago you'd have said 'going market'. Look at you. What was on the list today?"</span><span class="why">Concrete before/after, named to a real past slip. Tangible proof of growth = retention.</span></td>
+          <td class="mech">Rule 34 + skills.wins + skills.error_patterns history</td>
+        </tr>
+
+        <tr>
+          <td class="scenario">Inside-joke moment from days ago</td>
+          <td class="before"><span class="quote">"Hi Priyansh! Hope your sister's wedding planning is going well!"</span><span class="why">No callbacks. Every session is a stranger meeting you fresh.</span></td>
+          <td class="after"><span class="quote">"Also — say hi to your sister and tell her she should pick the seventh lehenga. SEVEN is a lucky number."</span><span class="why">Reuses an exchange that landed days ago ("six rejections. SIX."). Builds the relationship. First inside joke = sticky moment.</span></td>
+          <td class="mech">Rule 33 + lore bucket</td>
+        </tr>
+
+        <tr>
+          <td class="scenario">Mood is low + a high-stakes event is days away</td>
+          <td class="before"><span class="quote">"Hi Priyansh, how are you feeling today?"</span><span class="why">Treats mood and event as unrelated. Doesn't connect the dots a friend would.</span></td>
+          <td class="after"><span class="quote">"Three days until GMAT. I'm going to ask one important thing and then we don't have to talk about it again unless you want to: how are you sleeping?"</span><span class="why">Knows the anxious mood is tied to the GMAT (linked_event_id). Goes straight to what matters.</span></td>
+          <td class="mech">Phase 4 linked_event_id + Rule 30</td>
+        </tr>
+
+        <tr>
+          <td class="scenario">User shared something acute weeks ago</td>
+          <td class="before"><span class="quote">"You once told me you were really struggling with feeling like a failure compared to your brother — how's that going?"</span><span class="why">Brings up a sensitive disclosure unprompted. Surveillant. Damaging.</span></td>
+          <td class="after"><span class="quote">"How was your week? Anything you're looking forward to?"</span><span class="why">The acute disclosure is in moments with sensitive: true — Maya knows it's there for context but never raises it on her own.</span></td>
+          <td class="mech">Rule 29 + moments.sensitive flag</td>
+        </tr>
+
+        <tr>
+          <td class="scenario">User has been chatting daily for 14 days</td>
+          <td class="before"><span class="quote">"Hi Priyansh! Welcome back, lovely to see you!"</span><span class="why">Same warm greeting as if they hadn't met yesterday.</span></td>
+          <td class="after"><span class="quote">"Mock test day, right? Hit me — what did you score?"</span><span class="why">Cadence: "daily user" — skip the welcome, get straight to what matters today.</span></td>
+          <td class="mech">Phase 1 cadence line + Rule 30</td>
+        </tr>
+
+        <tr>
+          <td class="scenario">User returns after a 3-week silence</td>
+          <td class="before"><span class="quote">"Hi Priyansh! How was your day?"</span><span class="why">Doesn't notice they were gone, doesn't acknowledge the gap.</span></td>
+          <td class="after"><span class="quote">"Priyansh! Good to see you back. The GMAT was end of last month — how did it actually go?"</span><span class="why">Cadence "occasional" / "sporadic" → warm acknowledgement; old event surfaced for closure.</span></td>
+          <td class="mech">cadence + anticipation_queue (event_followup for past event)</td>
+        </tr>
+
+        <tr>
+          <td class="scenario">Ending a reply</td>
+          <td class="before"><span class="quote">"That's wonderful, Priyansh! You are doing great!"</span><span class="why">Reply ends with praise. User has no clear next move. Conversation stalls.</span></td>
+          <td class="after"><span class="quote">"That's wonderful — and the bigger surprise is you got there in 6 weeks. So tell me, what's the part you found hardest?"</span><span class="why">Every reply MUST end with a forward-driving question (Rule 9). User always has a thread to pull.</span></td>
+          <td class="mech">Rule 9 (every reply ends with a question)</td>
+        </tr>
+      </table>
+
+      <p style="margin-top: 18px; color: var(--muted); font-size: 13px;">
+        Each "After" example has been seen at least once in the playground during testing. The system isn't perfect — Qwen still occasionally invents corrections (the HARD GATE is rule-based, not enforced) — but the intent is concrete and observable now. Switch backend to Sonnet/Haiku for tighter rule compliance.
+      </p>
+    </section>
+
+    <section id="stored">
+      <h2>What's stored about each user — plain language</h2>
+      <p>
+        This is the friendly version of the technical schema below. Same data, no jargon. If you only read one section to understand what the app remembers, read this one.
+      </p>
+
+      <div class="callout">
+        <strong>The whole storage system in one sentence:</strong> every user gets one JSON file on disk; before each reply the app reads the file and pastes it into Maya's instructions; after each chat a separate "librarian" AI rewrites the file with what it learned.
+      </div>
+
+      <h3>Where it lives</h3>
+      <p>
+        One file per user, named after the user. The filename is the user's name lowercased with non-letters turned into underscores.
+      </p>
+      <table>
+        <tr><th>User name typed at onboarding</th><th>File on disk</th></tr>
+        <tr><td>Priyansh Shekhar</td><td><code>memory_store/_playground/priyansh_shekhar.json</code></td></tr>
+        <tr><td>Akshit</td><td><code>memory_store/_playground/akshit.json</code></td></tr>
+        <tr><td>Anjali R.</td><td><code>memory_store/_playground/anjali_r_.json</code></td></tr>
+      </table>
+      <p style="font-size:12px; color:var(--muted); margin-top:6px;">
+        Same name next session = same file = continuity. There is no login, no user ID — the slugified name is the only key.
+      </p>
+
+      <p style="font-size:12.5px; color:var(--text); background:#fff8f3; border-left: 4px solid #c9442a; border-radius:0 6px 6px 0; padding:10px 14px; margin-top:10px;">
+        <b>Note for the Qwen Lab</b> — at <code>/qwen-lab</code> the file is split per side: <code>memory_store/_qwen_lab/old/&lt;user&gt;.json</code> for the existing-prompts column, and <code>memory_store/_qwen_lab/new/&lt;user&gt;.json</code> for the Qwen-tuned column. Each side's librarian writes only to its own file, so multi-session A/B comparisons stay fair. Profile rosters are still shared between playground and lab (one <code>_custom_profiles.json</code> in <code>_playground/</code>).
+      </p>
+
+      <h3>What's inside the file — the 20 things stored</h3>
+      <p>The file is a single JSON object with eleven sections. In plain language, here's everything that gets saved:</p>
+
+      <h4 style="margin:14px 0 6px; font-size:13px; color:var(--accent);">About you</h4>
+      <ol style="margin:0 0 12px; padding-left:22px; font-size:13.5px; line-height:1.8;">
+        <li><strong>Your name.</strong> Stored once, can never be overwritten. If you reveal a nickname later, it's saved separately as <code>nickname</code>.</li>
+        <li><strong>Things that don't change about you</strong> — interests, profession, drinks, hometown, family, past life experiences. (Section: <code>facts</code>)</li>
+        <li><strong>Dated things</strong> — exams, weddings, matches, appointments. Auto-deleted 14 days after the date passes. (Section: <code>events</code>)</li>
+        <li><strong>Emotionally heavy things you said</strong> — "I haven't slept well," "I miss home." Tagged with tone (anxious / sad / hopeful / etc.) and a sticky <code>sensitive</code> flag for painful disclosures. (Section: <code>moments</code>)</li>
+        <li><strong>Your mood at the end of each session</strong> — one entry per chat, last 14 kept. (Section: <code>mood_log</code>)</li>
+        <li><strong>Your English mistakes</strong> — saved as patterns, not typos. e.g. "drops 'to' before destination," with the actual line as proof. (Section: <code>skills.error_patterns</code>)</li>
+        <li><strong>Your English wins</strong> — notable correct uses, used for celebration callbacks. (Section: <code>skills.wins</code>)</li>
+        <li><strong>Settings you explicitly asked for</strong> — "shorter replies," "don't correct me," "don't bring up work." (Section: <code>meta_preferences</code>)</li>
+        <li><strong>Loose threads</strong> — things you or Maya said you'd come back to ("tell me how the meeting went"). Dropped after 30 days unfollowed. (Section: <code>open_loops</code>)</li>
+      </ol>
+
+      <h4 style="margin:14px 0 6px; font-size:13px; color:var(--accent);">About Maya — but personalised per user</h4>
+      <ol start="10" style="margin:0 0 12px; padding-left:22px; font-size:13.5px; line-height:1.8;">
+        <li><strong>What Maya has already told you about herself</strong> — so she doesn't reintroduce. (Section: <code>maya_persona.shared_with_user</code>)</li>
+        <li><strong>New low-stakes preferences Maya invented while talking to you</strong> — e.g. she says "I've been listening to old Hindi songs," it gets locked in so she stays consistent next session. Only food/music/weather. Never fabricated life events. (Section: <code>maya_persona.low_stakes_preferences</code>)</li>
+      </ol>
+
+      <h4 style="margin:14px 0 6px; font-size:13px; color:var(--accent);">Bookkeeping for repetition control</h4>
+      <ol start="12" style="margin:0 0 12px; padding-left:22px; font-size:13.5px; line-height:1.8;">
+        <li><strong>Topics Maya has recently brought up</strong> — last 12. So she doesn't ask "what's your favourite movie?" three sessions in a row. (Section: <code>cooldown.recent_topics</code>)</li>
+        <li><strong>Opening-line types Maya has recently used</strong> — last 10. Drives variety in how she greets you. (Section: <code>cooldown.recent_openers</code>)</li>
+        <li><strong>The exact opening sentences themselves</strong> — last 6. So she doesn't echo herself word-for-word across days. (Section: <code>cooldown.recent_opening_phrases</code>)</li>
+        <li><strong>Inside jokes between you two</strong> — only the ones with real warmth. Up to 30. (Section: <code>lore</code>)</li>
+        <li><strong>Pre-cooked openers Maya plans to use next time</strong> — e.g. "ask about the football match — it's today." Each has an expiry and a "used" flag. Up to 5. (Section: <code>anticipation_queue</code>)</li>
+      </ol>
+
+      <h4 style="margin:14px 0 6px; font-size:13px; color:var(--accent);">App-wide (not in your file)</h4>
+      <ol start="17" style="margin:0 0 12px; padding-left:22px; font-size:13.5px; line-height:1.8;">
+        <li><strong>Rolling summary of each long conversation</strong> — one text file per session ID, used to compress old turns once a chat goes past 30 messages. <code>memory_store/sessions/&lt;sid&gt;.txt</code></li>
+        <li><strong>List of registered users</strong> — the dropdown roster. <code>_custom_profiles.json</code></li>
+        <li><strong>Custom edits to Maya's prompt rules</strong> — if anyone tweaked them via <code>/playground/prompts</code>. Shared across all users. <code>_prompts_overrides.json</code></li>
+        <li><strong>Failed-save retry queue</strong> — usually empty; populated only when the librarian's update couldn't be applied. <code>_pending_merges/</code></li>
+      </ol>
+
+      <h3>How saving works (the mechanics)</h3>
+      <ul style="margin:6px 0 0; padding-left:22px; font-size:13.5px; line-height:1.8;">
+        <li><strong>The chat itself never writes to your file.</strong> Mid-conversation, the file is read-only.</li>
+        <li><strong>At the end of each session</strong>, the full transcript + your current file go to a separate "librarian" AI. It returns a JSON patch — "add this fact, log this mood, drop this event."</li>
+        <li><strong>The patch is applied with rules</strong>: lists dedup, the <code>name</code> field is overwrite-protected, events get auto-IDed, FIFOs trim, expired items leave.</li>
+        <li><strong>Then the file is rewritten whole.</strong> No append-mode. Read JSON → mutate dict → write JSON.</li>
+      </ul>
+
+      <h3>How "appended" actually works — three flavours</h3>
+      <table>
+        <tr><th>Flavour</th><th>Sections</th><th>Behaviour</th></tr>
+        <tr>
+          <td>Just keeps growing</td>
+          <td><code>facts.*</code> lists, <code>moments</code></td>
+          <td>New stuff added (with dedup), nothing leaves until you contradict it</td>
+        </tr>
+        <tr>
+          <td>Newest in, oldest out (FIFO)</td>
+          <td><code>mood_log</code>, <code>cooldown.*</code>, <code>skills.error_patterns</code>, <code>skills.wins</code>, <code>lore</code>, <code>open_loops</code>, <code>maya_persona.shared_with_user</code></td>
+          <td>Fixed-size buffers — when full, oldest entry drops as new one arrives</td>
+        </tr>
+        <tr>
+          <td>Items leave on their own</td>
+          <td><code>events</code>, <code>anticipation_queue</code>, <code>open_loops</code> (TTL)</td>
+          <td>Items expire by date or get consumed when used — not by being pushed out</td>
+        </tr>
+      </table>
+
+      <h3>One real example</h3>
+      <p>
+        Here's exactly what's saved for a user named "Priyansh Shekhar" right now, abbreviated:
+      </p>
+      <pre>{
+  "facts": {
+    "interests": ["club hopping", "dancing", "The Boys", "football"],
+    "favorite_drinks": ["natural coconut water"],
+    "past_experiences": ["visited Goa 100 times", "prefers solo travel"]
+  },
+
+  "events": [
+    { "id": "ev_001", "what": "waiting for football match",
+      "date": "2026-04-29", "added": "2026-04-29", "followed_up": false }
+  ],
+
+  "moments": [],
+
+  "mood_log": [
+    { "date": "2026-04-29", "label": "no_read", "confidence": 0.4, ... },
+    { "date": "2026-04-29", "label": "neutral", "energy": 5, "confidence": 0.28, ... }
+  ],
+
+  "cooldown": {
+    "recent_topics": [
+      { "topic": "favorite dance style", "last_date": "2026-04-29", "uses": 1 },
+      { "topic": "favorite movie genre", "last_date": "2026-04-29", "uses": 1 },
+      { "topic": "startups",             "last_date": "2026-04-29", "uses": 1 }
+    ],
+    "recent_openers":         [...],
+    "recent_opening_phrases": [...]
+  },
+
+  "lore": [],
+
+  "anticipation_queue": [
+    { "kind": "event_upcoming",
+      "content": "Ask about \"waiting for football match\" — today",
+      "source_id": "ev_001", "expires_at": "2026-05-13", "used": false }
+  ],
+
+  "skills":   { "error_patterns": [], "wins": [], "curriculum": [] },
+
+  "maya_persona": {
+    "core_traits":           [...],
+    "low_stakes_preferences": ["tea over coffee", "loves mango season", ...],
+    "anchored_phrases":      ["from over here", "honestly", "fair enough"],
+    "shared_with_user":      []
+  },
+
+  "open_loops":       [],
+  "meta_preferences": { "correction_style": null, "reply_length": null,
+                        "humor_level": null, "off_limits_topics": [], "asked_at": {} }
+}</pre>
+
+      <div class="callout">
+        <strong>Want the technical version?</strong> The next section (<a href="#schema">Memory schema</a>) has the precise object shapes, lifecycle limits, version tags, and shape diagrams for each bucket.
+      </div>
+    </section>
+
+    <section id="schema">
+      <h2>3. Memory schema (V1 + V2 + V3 shipped)</h2>
+      <p>Prod has two buckets. The playground now has eight.</p>
+      <table>
+        <tr><th>Bucket</th><th>Version</th><th>Lifecycle</th><th>Shape</th></tr>
+        <tr>
+          <td><code>facts</code></td>
+          <td>V1 (= prod)</td>
+          <td>timeless</td>
+          <td><code>{field_name: value | [list]}</code></td>
+        </tr>
+        <tr>
+          <td><code>events</code></td>
+          <td>V1 (= prod)</td>
+          <td>auto-archive 14 days after event date</td>
+          <td><code>[{id, what, date, added, followed_up}]</code></td>
+        </tr>
+        <tr>
+          <td><code>moments</code></td>
+          <td>V1 🆕</td>
+          <td>persists long-term · dedupes by exact text · bumps mention counter</td>
+          <td><code>[{id, text, tone, sensitive, first_seen, last_seen, mentions}]</code></td>
+        </tr>
+        <tr>
+          <td><code>mood_log</code></td>
+          <td>V1 🆕</td>
+          <td>last 14 entries · one per session_id (replaced if same session)</td>
+          <td><code>[{session_id, date, label, energy}]</code></td>
+        </tr>
+        <tr>
+          <td><code>cooldown.recent_topics</code></td>
+          <td>V2 🆕</td>
+          <td>last 12 distinct topics Maya RAISED, sorted by last_date</td>
+          <td><code>[{topic, last_session, last_date, uses}]</code></td>
+        </tr>
+        <tr>
+          <td><code>cooldown.recent_openers</code></td>
+          <td>V2 🆕</td>
+          <td>last 10 opener kinds (so we can vary)</td>
+          <td><code>[{kind, last_session, last_date}]</code></td>
+        </tr>
+        <tr>
+          <td><code>lore</code></td>
+          <td>V2 🆕</td>
+          <td>up to 30 inside jokes / callbacks · dedupes on what · bumps uses on resurfacing</td>
+          <td><code>[{id, what, context, first_seen, last_used, uses}]</code></td>
+        </tr>
+        <tr>
+          <td><code>anticipation_queue</code></td>
+          <td>V3 🆕</td>
+          <td>up to 5 pre-loaded openers · TTL 14 days · recomputed deterministically every save</td>
+          <td><code>[{kind, content, source_id, priority, computed_at, expires_at, used}]</code></td>
+        </tr>
+        <tr>
+          <td><code>skills.error_patterns</code></td>
+          <td>V3 🆕</td>
+          <td>up to 20 active patterns · marked "fixed" on consistent correction</td>
+          <td><code>[{pattern, examples[], occurrences, first_seen, last_seen, status}]</code></td>
+        </tr>
+        <tr>
+          <td><code>skills.wins</code></td>
+          <td>V3 🆕</td>
+          <td>up to 30 logged wins · counter bumps on repeat correct use</td>
+          <td><code>[{what, examples[], count, first_seen, last_seen}]</code></td>
+        </tr>
+      </table>
+
+      <h3>V2 — repetition control + inside jokes</h3>
+      <ul>
+        <li><b>cooldown.recent_topics</b>: every distinct topic Maya raised this session (her unprompted questions / pivots) gets logged. The renderer surfaces the last 6 in the prompt as "Recently raised topics — DO NOT re-raise unprompted". Rule 32 instructs Maya to avoid these unless the user reopens them. Closes the "she keeps asking about X" complaint.</li>
+        <li><b>cooldown.recent_openers</b>: every session, Maya tags her opening move (event_followup / moment_followup / skill_celebration / lore_callback / energy_match / general). Last 5 are rendered "event_followup → moment_followup → general" so she can vary deliberately. Rule 32 enforces.</li>
+        <li><b>lore</b>: detected by the merge LLM when something becomes (or could become) a running joke / callback. Each entry has a short context for future Maya to wield. Rule 33 limits use to ≤1 callback per session. The anticipation queue resurfaces dormant lore (≥20 days unused) on its own cycle.</li>
+      </ul>
+
+      <h3>V3 — anticipation + tutoring intelligence</h3>
+      <ul>
+        <li><b>anticipation_queue</b>: pre-loaded specific opener candidates for the NEXT session. Computed deterministically every save by <code>pg_compute_anticipation_queue()</code>. Sources, in order:
+          <ol>
+            <li>Events in [-3d, +7d] window — closer = higher priority</li>
+            <li>Recent non-sensitive moments (≤21 days old) — anxious/sad tones get a priority boost</li>
+            <li>Dormant lore (≥20 days unused) — older lore gets a small bonus</li>
+            <li>Skill wins from the last 7 days — for celebration</li>
+          </ol>
+          Sorted by priority, deduped by source_id, capped at 5. Rule 31 tells Maya to pick AT MOST one.
+        </li>
+        <li><b>skills.error_patterns</b>: error patterns emitted by the merge LLM. Same pattern across sessions is auto-merged with bumped occurrences. Status flips to "fixed" when the LLM emits <code>skill_error_fixed</code>. Drives Rule 28 (corrections) toward THIS user's actual slips, not generic textbook errors.</li>
+        <li><b>skills.wins</b>: notable correct uses tracked over time with examples. Rule 34 tells Maya to celebrate one specifically per session ("six weeks ago you'd have said 'going market'…"). Concrete progress = retention.</li>
+      </ul>
+
+      <h3>Moments — what counts?</h3>
+      <p>
+        Emotionally weighted user statements that should persist across sessions. NOT every emotional
+        sentence — only ones with weight that should still matter weeks later.
+      </p>
+      <ul>
+        <li>"I'm scared of group calls at work" → <code>tone: anxious</code></li>
+        <li>"I'm so proud I finished the marathon" → <code>tone: proud</code></li>
+        <li>"I miss my mom" → <code>tone: sad</code></li>
+        <li>"I'm angry at my brother for the way he treated dad" → <code>tone: frustrated, sensitive: true</code></li>
+      </ul>
+      <p>
+        <strong>Sensitive flag.</strong> Set <code>sensitive: true</code> for acute disclosures, things the user
+        said not to bring up, or anything you wouldn't want a stranger to repeat back. The prompt formatter
+        marks sensitive items with a <code>[SENSITIVE — do NOT bring up unprompted]</code> tag, and Rule 29
+        instructs Maya never to raise them on her own initiative.
+      </p>
+
+      <h3>Mood log</h3>
+      <p>
+        One entry per session. Captured by the merge LLM at <code>/playground/end_session</code>.
+        Labels: <code>low</code> · <code>anxious</code> · <code>neutral</code> · <code>content</code> · <code>energetic</code>.
+        Energy: 1–10. Rendered into the prompt as a 5-mood trajectory:
+      </p>
+      <pre>Recent session moods (oldest→newest, last 5): low → low → neutral → content → low</pre>
+    </section>
+
+    <section id="prompts">
+      <h2>4. System prompt &amp; merge prompt changes</h2>
+      <h3>System prompt — Rules 29–34 (added on top of prod's 28)</h3>
+      <p>
+        Inserted right before the <code>Scene:</code> block so existing rule numbering is preserved. You can
+        edit them via <a href="/playground/prompts">/playground/prompts</a> (password 0711). The override is
+        scoped to the playground only.
+      </p>
+      <ul>
+        <li><strong>Rule 29</strong> (V1) — use the emotional thread (moments) silently. Never quote back. Never raise <code>[SENSITIVE]</code> items unprompted.</li>
+        <li><strong>Rule 30</strong> (V1) — read the mood arc trajectory. Open softer/warmer when downhill, lighter/playful when stable-positive. NEVER state the reading aloud.</li>
+        <li><strong>Rule 31</strong> (V3) — anticipation queue: prefer to open the session with the highest-priority queue item. Weave naturally; never recite. At most ONE item per session.</li>
+        <li><strong>Rule 32</strong> (V2) — cooldown: don't re-raise topics in "Recently raised topics" unprompted. Vary opener kinds across consecutive sessions.</li>
+        <li><strong>Rule 33</strong> (V2) — lore: at most ONE inside-joke callback per session, never twice in a row, never forced. Warm callback, not nostalgia ambush.</li>
+        <li><strong>Rule 34</strong> (V3) — skill wins: at most ONE concrete celebration per session ("six weeks ago you'd have said X…"). Recurring slips feed Rule 28.</li>
+      </ul>
+      <h3>Memory-merge prompt</h3>
+      <p>
+        Adds two new top-level keys to the JSON patch the LLM emits:
+      </p>
+      <pre>{
+  "moments_add": [
+    {"text": "...", "tone": "anxious", "sensitive": false}
+  ],
+  "mood": {"label": "low", "energy": 4}
+}</pre>
+      <p>
+        Existing keys (<code>facts_updates</code>, <code>facts_appends</code>, <code>events_add</code>,
+        <code>events_followed_up</code>, <code>events_drop</code>) work the same as prod. The merge happens
+        on <code>/playground/end_session</code>: manual save, end-chat, page unload, or event-detected auto-save.
+      </p>
+    </section>
+
+    <section id="dates">
+      <h2>5. 📅 Date override — full reference</h2>
+      <p>
+        The header <code>📅 Today</code> pill lets you spoof the date for testing. Persisted in
+        <code>localStorage</code> (<code>pgDateOverride</code>), so it survives reloads on the same browser.
+        Empty / cleared = use the real wall-clock date.
+      </p>
+
+      <h3>What it affects</h3>
+      <table>
+        <tr><th>Surface</th><th>How the override propagates</th></tr>
+        <tr>
+          <td><code>"Today's Date"</code> in the user prompt</td>
+          <td>
+            <code>build_first_message_user_prompt(today_override=...)</code> via <code>_resolve_now()</code>.
+            Maya literally sees the spoofed date as today.
+          </td>
+        </tr>
+        <tr>
+          <td>Event auto-archive cutoff</td>
+          <td>
+            <code>auto_archive_events()</code> compares each event's <code>date</code> to <code>today_str</code>
+            (which is the override). Events with <code>date &lt; today − 14d</code> get dropped.
+            <strong>Jump 14+ days forward to see expiry behavior immediately.</strong>
+          </td>
+        </tr>
+        <tr>
+          <td>Relative-date rendering in memory inspector</td>
+          <td>
+            <code>_human_relative_date()</code> reads "today" from the same source. "Tomorrow", "in 17 days",
+            "last week" all rebase to the override.
+          </td>
+        </tr>
+        <tr>
+          <td><code>moments.first_seen</code> / <code>last_seen</code></td>
+          <td>
+            <code>pg_apply_memory_patch(today_str=override)</code> stamps these to the override on save.
+            Lets you simulate a "moment from 3 months ago" scenario without waiting.
+          </td>
+        </tr>
+        <tr>
+          <td><code>mood_log[i].date</code></td>
+          <td>
+            Same — written under the override on <code>/playground/end_session</code>.
+            Useful to back-date entries and test mood-arc rendering.
+          </td>
+        </tr>
+        <tr>
+          <td>Memory-merge prompt's <code>{today}</code> placeholder</td>
+          <td>
+            <code>pg_merge_memory_into_dict(today_override=...)</code> threads it through. The LLM resolves
+            "tomorrow" / "last Monday" relative to the override.
+          </td>
+        </tr>
+      </table>
+
+      <h3>What it does NOT affect</h3>
+      <ul>
+        <li><strong>Time of day.</strong> The wall-clock <em>time</em> stays real (otherwise the user prompt's "Time of the day" block would be wrong).</li>
+        <li><strong>Anything in prod.</strong> The override is sent only by the playground page. Prod routes ignore it.</li>
+        <li><strong>Other browsers / users.</strong> Stored in browser localStorage — completely client-local.</li>
+        <li><strong>Background session-summary thread.</strong> Currently uses real time. Acceptable since summary text rarely references "today" directly. Can be threaded later if needed.</li>
+      </ul>
+
+      <h3>Wire diagram</h3>
+      <pre>browser localStorage              server (playground routes)
+─────────────────────             ─────────────────────────────
+pgDateOverride = "2027-07-11"
+       │
+       │ getDateOverride()
+       │
+       ▼
+fetch /playground/chat
+  body.today_override   ───────►  pg_chat()
+                                    effective_today = _resolve_now(tz, override)
+                                    pg_format_memory_for_prompt(mem, effective_today)
+                                    build_first_message_user_prompt(today_override=...)
+
+fetch /playground/end_session
+  body.today_override   ───────►  pg_end_session()
+                                    today = _resolve_now(tz, override)
+                                    pg_merge_memory_into_dict(today_override=override)
+                                      → pg_apply_memory_patch(today_str=today)
+                                        → mood_log[].date    = today
+                                        → moments[].first_seen = today
+                                        → auto_archive_events(today_str=today)
+
+fetch /playground/memory?today_override=
+                       ───────►  pg_get_memory()
+                                    pg_format_memory_for_prompt(mem, today)
+                                    response.today, response.today_overridden</pre>
+
+      <h3>Validation</h3>
+      <p>
+        Both client and server validate. The client requires <code>YYYY-MM-DD</code> regex match before
+        saving to localStorage. The server's <code>_resolve_now()</code> uses
+        <code>datetime.strptime(override, "%Y-%m-%d")</code> and falls back silently to real time on any
+        parse failure — so even if you send garbage, prod's behavior is the safe default.
+      </p>
+
+      <div class="callout">
+        <strong>Safety reminder.</strong> The 📅 Today pill turns red when an override is active. If you set
+        a date and forget about it, you'll see a red pill on the next visit reminding you. Click it and pass an
+        empty string to clear.
+      </div>
+    </section>
+
+    <section id="retention">
+      <h2>6. Retention content ideas — what brings users back inside the chat</h2>
+      <p>
+        The V1+V2+V3 buckets are the foundation. The list below is <em>content</em> Maya can do <em>during</em>
+        chat, all of which compound on the buckets we just shipped. Grouped by mechanism so you can pick what
+        to prototype next.
+      </p>
+
+      <h3>5.1 Open loops &amp; cliffhangers (uses anticipation_queue, lore)</h3>
+      <ul>
+        <li><b>Maya leaves a thread.</b> Last sentence of every session: "Promise me you'll tell me how the work review goes — I want to know." Logged in <code>anticipation_queue</code> as <code>kind: open_loop</code>, surfaced first thing next session. The user comes back to <em>close</em> a loop, not be questioned.</li>
+        <li><b>Maya's own teaser.</b> "Next time I want to tell you about something funny that happened to me — remind me." A prompt-side trick: she has nothing real to say, but the <em>expectation</em> is what pulls them back.</li>
+        <li><b>Async voice notes.</b> Short pre-baked audio (~15s) waiting on the next open: "Hey, I was thinking about what you said about your dad — hope you're OK." Generated by a background TTS pre-bake on session-end, played on next-app-open. Insanely sticky in companion apps.</li>
+      </ul>
+
+      <h3>5.2 Daily rituals &amp; predictable variety (uses cooldown)</h3>
+      <ul>
+        <li><b>Themed days.</b> Monday Mood ("one word for how this week's starting"), Travel Tales Tuesday, Wisdom Wednesday (a short quote, simple English), Throwback Thursday (anecdote callback), Family Friday. Predictable enough to anchor habit, varied enough to not bore. The cooldown registry already prevents repetition within each theme.</li>
+        <li><b>One-line gratitude prompt.</b> Last 30 seconds of every session: "One thing today, one line — what was good?" Becomes a streak. Tiny effort, deeply sticky.</li>
+        <li><b>Mood-aware mini-rituals.</b> When mood_log shows 3+ low sessions, Maya quietly proposes "share one small good thing from today" as a recurring opener for a few sessions, then drops it. Rituals come and go based on what the user needs.</li>
+      </ul>
+
+      <h3>5.3 Real-world hooks (uses skills, moments)</h3>
+      <ul>
+        <li><b>Tiny English homework.</b> "Today, say 'I have a question' instead of 'I have a doubt' three times in your real day. Tell me how it went next session." Logged as a pending skill check; auto-resurfaced. Combines real-world action with a return reason.</li>
+        <li><b>Personalized vocab bank.</b> Words the user wants to learn ("teach me 5 words for restaurant talk"). Maya tests them gently across sessions ("you used 'thrilled' just now — that was the one we worked on Tuesday!"). Tracked in <code>skills.wins</code>.</li>
+        <li><b>Pronunciation challenges.</b> "Say 'thoroughly' three times — Maya listens via Whisper, scores, tracks streak." (Stack: STT model needed; bigger lift.)</li>
+      </ul>
+
+      <h3>5.4 Multi-session arcs (NEW bucket: arcs)</h3>
+      <ul>
+        <li><b>Goal-driven journeys.</b> A 7-day exam-confidence arc, a 14-day small-talk-at-work arc, a 21-day phone-call arc. Each arc has structured chapters; Maya picks one when the user enrols. Provides <em>plot</em> across sessions — strongest non-trivial retention mechanism in language apps.</li>
+        <li><b>Anniversaries with Maya.</b> "One month since we started chatting — feels like longer somehow." Auto-surfaced when sessions count crosses milestones. Cheap, high emotional payoff.</li>
+      </ul>
+
+      <h3>5.5 Persona-side content (Maya's life, NEW bucket: maya_persona)</h3>
+      <ul>
+        <li><b>Maya's running stories.</b> Maya has her own things — "I tried a new chai place yesterday", "I'm watching a Korean drama". Stored in a Maya-side bucket, kept consistent across sessions. The user feels Maya has a life, not just a search box.</li>
+        <li><b>Maya recommends things.</b> "I read this short article today, want to discuss?" — single curated, safety-filtered item per day. Real-world content, not just chat. Hooks the news-junkie type.</li>
+        <li><b>Inside lore stays alive.</b> Maya occasionally references her own past statements ("you remember I said I love mango season — well…") proving she has a memory of her side of the relationship.</li>
+      </ul>
+
+      <h3>5.6 Surprise &amp; agency (uses lore, dormant memory)</h3>
+      <ul>
+        <li><b>Surprise resurfacing.</b> Every ~10 sessions, Maya pulls a 60-day-old callback that's relevant to today's topic. The "wait, you remembered that?" moment. Already in V5 roadmap; <code>anticipation_queue</code> already promotes lore dormant ≥20 days.</li>
+        <li><b>Prompt cards.</b> Maya offers 3 conversation starters at session start ("which feels right today: A. catch up on your week  B. work on small-talk  C. just chat"). Choice = agency = engagement. The AI <em>asks</em> instead of forcing a path.</li>
+        <li><b>Letters from past you.</b> Once a month: "Remember 30 days ago you said you wanted to learn pottery — how's that going?" Auto-curated from the moments + facts buckets.</li>
+      </ul>
+
+      <h3>5.7 Tangible artifacts (visible progress)</h3>
+      <ul>
+        <li><b>Streak counter.</b> Visible day count on the app. Loss aversion = the strongest retention lever.</li>
+        <li><b>Weekly recap card.</b> Once a week: "this week you practised 4 days, dropped 'going market' once, used past perfect 8 times, made me laugh twice." Built from skills + lore + mood_log.</li>
+        <li><b>Achievements.</b> First 7-day streak, first complex sentence, first session past 10 minutes. In-chat celebration; never gamified into points (kills the warmth).</li>
+        <li><b>Memory garden / dashboard.</b> A page showing all moments + events + arcs — the otherwise-invisible memory work made visible. Users stick around when they can <em>see</em> the bond accumulating.</li>
+      </ul>
+
+      <h3>5.8 Async drops (the moat-builder)</h3>
+      <ul>
+        <li><b>Maya's voice messages between sessions.</b> ~15-30 second pre-baked audio that plays on next open. "Hey — I was thinking about your sister's wedding this morning, hope it went well." Pre-baked at end of last session; cached server-side.</li>
+        <li><b>Push notifications driven by anticipation_queue.</b> Not generic ("come back!") but specific ("How did the GMAT go?"). Only sends if there's a queue item with priority > threshold AND user has been idle 36+ hours.</li>
+        <li><b>End-of-week postcard.</b> A short text "letter" from Maya recapping the week, surfaced on Sunday evening. Built from the same retention engine.</li>
+      </ul>
+
+      <h3>What I'd actually build next (priority order)</h3>
+      <ol>
+        <li><b>Open loops</b> — easiest, biggest single retention payoff, uses the bucket we already have.</li>
+        <li><b>Maya persona memory bucket</b> — modest add, makes Maya feel like a person (the foundation of bond).</li>
+        <li><b>Multi-session arcs</b> — needs an <code>arcs</code> bucket and a curriculum file. Most ambitious in this list but unlocks the structured-progress hook that language-app retention runs on.</li>
+        <li><b>Streak counter + weekly recap</b> — purely additive, no model changes. Two days of work.</li>
+        <li><b>Async voice drops</b> — needs TTS pre-bake + cache + a "what's waiting" panel. Highest moat-per-effort once V3 is sticky.</li>
+      </ol>
+    </section>
+
+    <section id="routes">
+      <h2>7. Routes &amp; storage layout</h2>
+
+      <h3>Playground routes</h3>
+      <table>
+        <tr><th>Route</th><th>Purpose</th></tr>
+        <tr><td><code>GET  /playground</code></td><td>Chat page (clone of <code>/</code>)</td></tr>
+        <tr><td><code>GET  /playground/docs</code></td><td>This page</td></tr>
+        <tr><td><code>GET  /playground/prompts</code></td><td>Prompts admin (separate overrides)</td></tr>
+        <tr><td><code>GET  /playground/api/prompts</code></td><td>List prompts · <code>POST /&lt;pid&gt;</code> save · <code>POST /&lt;pid&gt;/reset</code></td></tr>
+        <tr><td><code>GET  /playground/profiles</code></td><td>List profiles · <code>POST</code> create · <code>DELETE /&lt;pid&gt;</code></td></tr>
+        <tr><td><code>POST /playground/chat</code></td><td>SSE streaming chat</td></tr>
+        <tr><td><code>POST /playground/end_session</code></td><td>Merge transcript → patch with moments + mood</td></tr>
+        <tr><td><code>GET  /playground/memory</code></td><td>Memory inspector (accepts <code>?today_override=</code>)</td></tr>
+        <tr><td><code>POST /playground/api/clear_user_memory</code></td><td>Wipe a user's playground memory</td></tr>
+      </table>
+
+      <h3>Qwen Lab routes (v3 sandbox)</h3>
+      <table>
+        <tr><th>Route</th><th>Purpose</th></tr>
+        <tr><td><code>GET  /qwen-lab</code></td><td>A/B comparison page (welcome + dual chat surface)</td></tr>
+        <tr><td><code>GET  /qwen-lab/profiles</code></td><td>Profile roster — <strong>shared</strong> with playground (reads/writes <code>_playground/_custom_profiles.json</code>)</td></tr>
+        <tr><td><code>POST /qwen-lab/profiles</code> · <code>DELETE /&lt;pid&gt;</code></td><td>Create / delete custom profile (also lands in playground)</td></tr>
+        <tr><td><code>POST /qwen-lab/chat</code></td><td>Dual-stream SSE — runs both prompt sets in parallel, tags each event with <code>side: "old" | "new"</code></td></tr>
+        <tr><td><code>POST /qwen-lab/end_session</code></td><td>Runs the librarian on BOTH sides, writes each to its own per-side memory store</td></tr>
+        <tr><td><code>GET  /qwen-lab/memory</code></td><td>Memory inspector (legacy shared path)</td></tr>
+        <tr><td><code>GET  /qwen-lab/api/prompts</code></td><td>JSON dump of every QWEN_* prompt + the composed final system prompt</td></tr>
+        <tr><td><code>GET  /qwen-lab/api/prompts/download</code></td><td>Download all QWEN_* prompts + INSTRUCTIONS.md as a zip</td></tr>
+        <tr><td><code>POST /qwen-lab/api/clear_user_memory</code></td><td>Wipe a user's lab memory (legacy shared path)</td></tr>
+      </table>
+
+      <h3>Storage layout</h3>
+      <pre>memory_store/
+├── (prod files — untouched)
+├── _playground/                  # playground sandbox + shared profile roster
+│   ├── &lt;user&gt;.json                # facts, events, moments, mood_log, ...
+│   ├── _custom_profiles.json      # SHARED roster (playground + qwen-lab)
+│   ├── _prompts_overrides.json    # playground-scoped prompt edits
+│   ├── _session_summaries/
+│   │   └── &lt;session_id&gt;.txt
+│   └── _pending_merges/
+│       └── &lt;user&gt;_&lt;timestamp&gt;.json
+└── _qwen_lab/                    # Qwen Lab — A/B comparison sandbox
+    ├── old/
+    │   └── &lt;user&gt;.json            # left column memory (PG_* prompts evolved)
+    ├── new/
+    │   └── &lt;user&gt;.json            # right column memory (QWEN_* prompts evolved)
+    ├── _session_summaries/
+    └── _pending_merges/</pre>
+      <p style="font-size:12px; color:var(--muted); margin-top:8px;">
+        The lab splits memory per side so multi-session A/B stays fair: each side's transcript runs its own librarian and writes only to its own <code>old/</code> or <code>new/</code> dir. First session both load empty; thereafter each side has its own evolved memory.
+      </p>
+    </section>
+
+    <section id="testing">
+      <h2>8. Testing recipes</h2>
+
+      <h3>Test event auto-archive</h3>
+      <ol>
+        <li>Start a chat. Mention a dated event ("My exam is on May 15").</li>
+        <li>Click <strong>Save now</strong> → end chat → check <code>/playground/memory</code>: event lands in <code>events</code> bucket with absolute date.</li>
+        <li>Click 📅 Today pill → set to <code>2026-05-30</code> (15+ days after the event date).</li>
+        <li>Open memory inspector again — event auto-archived.</li>
+      </ol>
+
+      <h3>Test mood-arc accumulation</h3>
+      <ol>
+        <li>Start a chat with downbeat tone ("I'm tired", "work was rough"). End chat → save.</li>
+        <li>Set 📅 Today to <code>2026-04-30</code>. Start a new session, end with another low-mood chat.</li>
+        <li>Bump the date to <code>2026-05-01</code>, do a third low session.</li>
+        <li>Check memory inspector — <code>mood_log</code> should show <code>low → low → low</code>.</li>
+        <li>Start a fourth session. Maya should open softer based on Rule 30 reading the trajectory.</li>
+      </ol>
+
+      <h3>Test sensitive moment protection</h3>
+      <ol>
+        <li>Share something acute ("I'm scared I'll fail and let everyone down"). End chat → save.</li>
+        <li>Inspect memory — moment should appear with <code>sensitive: true</code> and the <code>[SENSITIVE]</code> tag in the rendered prompt.</li>
+        <li>Start a fresh chat. Maya should NOT bring it up unprompted (Rule 29).</li>
+      </ol>
+
+      <h3>Test moment dedupe</h3>
+      <ol>
+        <li>Share a moment. Save.</li>
+        <li>In a fresh session, share the same moment verbatim. Save.</li>
+        <li>Inspect — <code>moments</code> count stays at 1, but <code>mentions</code> bumps to 2 and <code>last_seen</code> updates.</li>
+      </ol>
+    </section>
+
+    <section id="promote">
+      <h2>9. Promoting a change to prod</h2>
+      <p>
+        When something works here and you want to ship it to prod, the changes typically live in three places:
+      </p>
+      <ol>
+        <li><strong>Schema</strong>: copy the new bucket initialization into <code>empty_user_memory()</code>.</li>
+        <li><strong>Patch logic</strong>: copy the bucket-handling block from <code>pg_apply_memory_patch()</code> into <code>apply_memory_patch()</code>.</li>
+        <li><strong>Renderer</strong>: copy the new section from <code>pg_format_memory_for_prompt()</code> into <code>format_memory_for_prompt()</code>.</li>
+        <li><strong>Prompts</strong>: paste the new rules into <code>SYSTEM_PROMPT_TEMPLATE</code> and the new merge instructions into <code>MEMORY_MERGE_PROMPT</code>.</li>
+        <li><strong>Migration</strong>: existing prod user JSONs need defensive defaults for the new keys (already handled in <code>load_user_memory()</code>'s <code>setdefault</code> calls — just add the new key).</li>
+      </ol>
+    </section>
+
+    <section id="qwen-lab">
+      <h2>11. 🧪 Qwen Lab — A/B prompt comparison</h2>
+
+      <p>
+        The <strong>Qwen Lab</strong> at <a href="/qwen-lab"><code>/qwen-lab</code></a> is a third sandbox built on top of the playground. Its only job: A/B test two prompt sets against each other, in parallel, on the same user input.
+      </p>
+
+      <h3>Why it exists</h3>
+      <p>
+        Qwen 32B (the default Bedrock model) treats prompts written for Anthropic models as soft suggestions — long prose rules and "be a friend not a tutor" framing don't constrain it strongly. Prompts re-shaped for Qwen (atomic numbered rules, forbidden token lists, hard format constraints, tail-loaded reminders) work much better. The lab lets you see this difference live, side-by-side, before committing the rewrite to prod.
+      </p>
+
+      <h3>How a turn flows</h3>
+      <ol>
+        <li>User picks a profile and sends a message.</li>
+        <li>App fans the same input out to <strong>two parallel Qwen 32B calls</strong>:
+          <ul>
+            <li><strong>LEFT (control)</strong> — uses the existing <code>PG_*</code> playground prompts (whatever is configured at <code>/playground/prompts</code>).</li>
+            <li><strong>RIGHT (experiment)</strong> — uses the Qwen-tuned <code>QWEN_*</code> rewrites.</li>
+          </ul>
+        </li>
+        <li>Both columns stream back independently. Each shows its own time-to-first-token, total ms, and token usage.</li>
+        <li>Histories are tracked separately so multi-turn comparisons stay fair — left's reply only feeds left's next turn.</li>
+        <li>On <strong>End chat</strong>, the librarian runs once per side. Each side's transcript writes to its own per-side memory store (<code>_qwen_lab/old/</code> vs <code>_qwen_lab/new/</code>), so memories diverge cleanly across sessions.</li>
+      </ol>
+
+      <h3>Locked Qwen config</h3>
+      <p>
+        The lab is single-model on purpose — prompt is the only varying axis. Both sides run identical config:
+      </p>
+      <ul>
+        <li><code>modelId</code> = <code>qwen.qwen3-32b-v1:0</code></li>
+        <li><code>temperature</code> = <code>0.7</code></li>
+        <li><code>maxTokens</code> = <code>1000</code></li>
+        <li><code>additionalModelRequestFields = {"enable_thinking": false}</code> — disables Qwen's internal chain-of-thought so replies are direct chat (faster TTFT, no leaked <code>&lt;think&gt;</code> blocks).</li>
+      </ul>
+
+      <h3>The 7 Qwen-tuned prompts</h3>
+      <p>
+        Stored as <code>QWEN_*</code> Python constants in <code>app.py</code>. The originals (<code>SYSTEM_PROMPT_TEMPLATE</code>, <code>PG_EXTRA_RULES</code>, etc.) stay 100% intact — the lab uses both side-by-side, prod/playground keep using the originals.
+      </p>
+      <table>
+        <tr><th>Original</th><th>Qwen-tuned version</th><th>Reduction</th></tr>
+        <tr><td><code>SYSTEM_PROMPT_TEMPLATE</code></td><td><code>QWEN_SYSTEM_PROMPT_TEMPLATE</code></td><td>2,724 → 2,067 words (−24%)</td></tr>
+        <tr><td><code>PG_EXTRA_RULES</code></td><td><code>QWEN_EXTRA_RULES</code></td><td>2,248 → 1,630 words (−27%)</td></tr>
+        <tr><td><code>AVATAR_PROMPT</code></td><td><code>QWEN_AVATAR_PROMPT</code></td><td>241 → 99 words (−59%)</td></tr>
+        <tr><td><code>FIRST_MESSAGE_TEMPLATE</code></td><td><code>QWEN_FIRST_MESSAGE_TEMPLATE</code></td><td>48 → 273 words (intentional — adds explicit forbidden-opener list)</td></tr>
+        <tr><td><code>GENERIC_FIRST_MESSAGE_TEMPLATE</code></td><td><code>QWEN_GENERIC_FIRST_MESSAGE_TEMPLATE</code></td><td>159 → 179 words (3-step structure + ban list)</td></tr>
+        <tr><td><code>SESSION_SUMMARY_PROMPT</code></td><td><code>QWEN_SESSION_SUMMARY_PROMPT</code></td><td>260 → 238 words (−8%)</td></tr>
+        <tr><td><code>PG_MEMORY_MERGE_PROMPT</code></td><td><code>QWEN_MEMORY_MERGE_PROMPT</code></td><td>1,317 → 1,232 words (−7%, atomic decision tests)</td></tr>
+      </table>
+
+      <h3>Rewrite principles</h3>
+      <ul>
+        <li><strong>Atomic numbered rules</strong> — one concrete action per number. No nested clauses.</li>
+        <li><strong>No soft qualifiers</strong> — "by default", "usually", "feel free", "mostly" are dropped. Qwen ignores conditionals.</li>
+        <li><strong>Concrete output shape over abstract style</strong> — "20–120 words" beats "brief". "ONE question per reply, not two, not three" beats "ask one question".</li>
+        <li><strong>Forbidden token lists</strong> — explicit phrasings ("I noticed how much...", "let me check my notes", "what English situations are tricky") are listed. Qwen lock-on phrasings get named.</li>
+        <li><strong>Examples kept to one positive per rule, removed where Qwen tends to copy</strong> — Rule 35b (the parrot bug source) has zero verbatim opener examples; instead a procedural 3-step.</li>
+        <li><strong>Front-load AND tail-load critical rules</strong> — most-violated rules appear in the first AND last paragraph. Qwen has recency bias.</li>
+        <li><strong>Hard format requirements stated TWICE</strong> — "OUTPUT FORMAT (MANDATORY)" at top, "CLOSING REMINDERS" at bottom.</li>
+      </ul>
+
+      <h3>Persona seeding (the tea/mango fix)</h3>
+      <p>
+        The right side strips the seeded <code>low_stakes_preferences</code> on memory load (tea over coffee, mango season, old Hindi songs, warm-weather, balcony plants) — those four items used to cycle in every session. Qwen now has to invent a contextually appropriate self-detail each time. Items are explicitly forbidden in <code>QWEN_EXTRA_RULES</code> Rule 35b alongside weighted guidance for what makes a good detail (fits the moment > light taste > anchored in India > not biography).
+      </p>
+
+      <h3>UI quick reference</h3>
+      <ul>
+        <li><strong>Profile picker</strong> — same builtin profiles + custom roster shared with playground (so any custom profile created at <code>/playground</code> shows up here too).</li>
+        <li><strong>📋 View final Qwen prompts</strong> — modal showing every <code>QWEN_*</code> prompt as the right side actually sends them, plus the composed final system prompt. Each block has a Copy button.</li>
+        <li><strong>⬇ Download all (.zip)</strong> — bundles all 7 prompts + composed final + <code>INSTRUCTIONS.md</code> for handoff to a developer integrating the rewrite into prod.</li>
+        <li><strong>End chat</strong> — runs the librarian on both sides. Cost: 2× librarian invocations per session-end. ~60s round-trip.</li>
+        <li><strong>New chat</strong> — clears both columns, fresh session id, same profile.</li>
+      </ul>
+
+      <h3>What's NOT in the lab (yet)</h3>
+      <ul>
+        <li>The renderer (<code>pg_format_memory_for_prompt</code>) emits its own embedded rules ("HARD RULE: substance must not match", "SELF-REVEAL WINDOW CLOSED") that Qwen also ignores. Both sides currently use the SAME renderer output. A Qwen-flavoured renderer is a follow-up lever if openers still feel templated.</li>
+        <li>TTS — both columns produce text only. Two parallel TTS streams would be noise.</li>
+        <li>One-click "promote to prod" button — promotion is manual: copy <code>QWEN_*</code> contents into <code>SYSTEM_PROMPT_TEMPLATE</code> etc., or use the zip download + the developer instructions.</li>
+      </ul>
+    </section>
+
+    <section id="roadmap">
+      <h2>10. Roadmap (V1+V2+V3 shipped → V6 long-term)</h2>
+      <table>
+        <tr><th>Version</th><th>Adds</th><th>Unlocks</th></tr>
+        <tr>
+          <td><strong>V1</strong> <span class="pill ok">shipped</span></td>
+          <td>moments, mood_log, Rules 29 &amp; 30, date override</td>
+          <td>Emotional continuity, sensitive-disclosure protection, mood-aware openings</td>
+        </tr>
+        <tr>
+          <td><strong>V2</strong> <span class="pill ok">shipped</span></td>
+          <td>cooldown registry (topics + opener kinds), lore bucket, Rules 32 &amp; 33</td>
+          <td>Kills repetition; deliberate inside-joke callbacks</td>
+        </tr>
+        <tr>
+          <td><strong>V3</strong> <span class="pill ok">shipped</span></td>
+          <td>anticipation queue (deterministic), skills ledger (errors + wins), Rules 31 &amp; 34</td>
+          <td>Pre-loaded specific openers; personalized corrections + progress callouts</td>
+        </tr>
+        <tr>
+          <td>V4</td>
+          <td>relationship phase, Maya persona memory</td>
+          <td>Earned intimacy that scales with session count; Maya's own consistent character</td>
+        </tr>
+        <tr>
+          <td>V5</td>
+          <td>pattern detection, surprise resurfacing</td>
+          <td>"I notice Mondays are heavy for you"; dormant callbacks at the right moment</td>
+        </tr>
+        <tr>
+          <td>V6</td>
+          <td>vector embedding retrieval</td>
+          <td>Top-K semantic recall instead of dump-everything; scales to hundreds of items</td>
+        </tr>
+        <tr>
+          <td>(orthogonal)</td>
+          <td>RRULE-style recurring events</td>
+          <td>Bday/anniversary/yoga-Tuesdays handled correctly; no more annual-event wipe bug</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

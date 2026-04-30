@@ -1,0 +1,563 @@
+{
+  "facts": {
+    "nickname": "Aman",
+    "interests": [
+      "playing tennis",
+      "watching football documentaries",
+      "watching Ranbir Kapoor movies",
+      "playing foosball"
+    ],
+    "profession": "foosball player"
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "i like killing people / part of my life now",
+      "tone": "anxious",
+      "sensitive": true,
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-04-30",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "watches 'Ae Mere Watan K Logo' daily and finds it inspiring",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-03",
+      "last_seen": "2026-05-03",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.5,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "c8c7571f-bf8c-450b-972e-aaa54176b882",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.3,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "6db6be8f-114b-4912-b6aa-287b6b6c17ff",
+      "date": "2026-05-06",
+      "label": "low",
+      "energy": 4,
+      "confidence": 0.55,
+      "behavioral": {
+        "msg_count": 4,
+        "total_chars": 66,
+        "avg_words": 3.8,
+        "questions_back": 1,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.39
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "6503385f-89dd-4a72-9667-99363be43d58",
+      "date": "2026-05-06",
+      "label": "anxious",
+      "energy": 3,
+      "confidence": 0.62,
+      "behavioral": {
+        "msg_count": 6,
+        "total_chars": 102,
+        "avg_words": 3.8,
+        "questions_back": 1,
+        "exclamations": 0,
+        "negation_density": 0.043,
+        "engagement_score": 0.38
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.4,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.3,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.3,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.5,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "c979c463-b1ac-4901-afa4-43c73e4ddba4",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.5,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.3,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.5,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "efbe19d6-b3de-415a-8ef3-190296dc285d",
+      "date": "2026-05-10",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.5,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.4,
+      "behavioral": {
+        "msg_count": 3,
+        "total_chars": 164,
+        "avg_words": 9.7,
+        "questions_back": 1,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.52
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.5,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "old Hindi films",
+        "last_session": "25043a8a-d7ac-426d-8068-4f3667c40aa7",
+        "last_date": "2026-05-10",
+        "uses": 1
+      },
+      {
+        "topic": "games",
+        "last_session": "25043a8a-d7ac-426d-8068-4f3667c40aa7",
+        "last_date": "2026-05-10",
+        "uses": 1
+      },
+      {
+        "topic": "mango season",
+        "last_session": "dd3e1702-8aa6-43d8-8653-dc2f58ecaf7e",
+        "last_date": "2026-05-10",
+        "uses": 1
+      },
+      {
+        "topic": "English proficiency at work",
+        "last_session": "dd3e1702-8aa6-43d8-8653-dc2f58ecaf7e",
+        "last_date": "2026-05-10",
+        "uses": 1
+      },
+      {
+        "topic": "foosball",
+        "last_session": "c76dcd40-196b-4a0d-8517-1b301e0be991",
+        "last_date": "2026-05-10",
+        "uses": 1
+      },
+      {
+        "topic": "foosball strategy",
+        "last_session": "efbe19d6-b3de-415a-8ef3-190296dc285d",
+        "last_date": "2026-05-10",
+        "uses": 1
+      },
+      {
+        "topic": "wellbeing",
+        "last_session": "6db6be8f-114b-4912-b6aa-287b6b6c17ff",
+        "last_date": "2026-05-06",
+        "uses": 1
+      },
+      {
+        "topic": "design work",
+        "last_session": "6db6be8f-114b-4912-b6aa-287b6b6c17ff",
+        "last_date": "2026-05-06",
+        "uses": 1
+      },
+      {
+        "topic": "music",
+        "last_session": "6503385f-89dd-4a72-9667-99363be43d58",
+        "last_date": "2026-05-06",
+        "uses": 1
+      },
+      {
+        "topic": "movies",
+        "last_session": "6503385f-89dd-4a72-9667-99363be43d58",
+        "last_date": "2026-05-06",
+        "uses": 1
+      },
+      {
+        "topic": "movie recommendations",
+        "last_session": "b2ba44f6-af4f-4f10-a29b-a3b630b81ec2",
+        "last_date": "2026-05-03",
+        "uses": 1
+      },
+      {
+        "topic": "free time activities",
+        "last_session": "b2ba44f6-af4f-4f10-a29b-a3b630b81ec2",
+        "last_date": "2026-05-03",
+        "uses": 2
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "moment_followup",
+        "last_session": "",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "general",
+        "last_session": "",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "c979c463-b1ac-4901-afa4-43c73e4ddba4",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "general",
+        "last_session": "",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "general",
+        "last_session": "",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "general",
+        "last_session": "efbe19d6-b3de-415a-8ef3-190296dc285d",
+        "last_date": "2026-05-10"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "",
+        "last_date": "2026-04-30"
+      }
+    ],
+    "recent_opening_phrases": [
+      {
+        "phrase": "{\"message\": \"Hi Aman, I noticed how much strength the song 'Ae Mere Watan K Logo' gives you, what memory or moment in yo",
+        "session_id": "c979c463-b1ac-4901-afa4-43c73e4ddba4",
+        "date": "2026-04-30"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Aman, I love how you play foosball with such focus, what does it feel like when you score a perfect shot?",
+        "session_id": "",
+        "date": "2026-04-30"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Aman, I noticed your foosball skills from recent chat, how did your last match go\"}",
+        "session_id": "",
+        "date": "2026-04-30"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Aman, I noticed your foosball game feels fresh lately, what strategy helps you win today\"}",
+        "session_id": "efbe19d6-b3de-415a-8ef3-190296dc285d",
+        "date": "2026-05-10"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Aman, I noticed you mentioned marriage and love, what feeling makes you smile most when you think about",
+        "session_id": "",
+        "date": "2026-04-30"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Aman, I noticed how much the song 'Ae Mere Watan K Logo' means to you, what part of it moves you the most?",
+        "session_id": "",
+        "date": "2026-04-30"
+      }
+    ]
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"watches 'Ae Mere Watan K Logo' daily and finds it inspiring\" (tone: content)",
+      "source_id": "mo_002",
+      "priority": 4,
+      "computed_at": "2026-04-30",
+      "expires_at": "2026-05-14",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [
+      {
+        "pattern": "word order in 'going' constructions",
+        "examples": [
+          "great going my day"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-04-30",
+        "last_seen": "2026-04-30",
+        "status": "active"
+      },
+      {
+        "pattern": "awkward request structure mixing imperative with question",
+        "examples": [
+          "play tennis with me can u ?"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-04-30",
+        "last_seen": "2026-04-30",
+        "status": "active"
+      },
+      {
+        "pattern": "omits infinitive in 'want to' constructions",
+        "examples": [
+          "want to my bride"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "status": "active"
+      }
+    ],
+    "wins": [],
+    "curriculum": [
+      {
+        "pattern": "omits infinitive in 'want to' constructions",
+        "occurrences": 1,
+        "days_since_last": -3,
+        "examples": [
+          "want to my bride"
+        ]
+      },
+      {
+        "pattern": "word order in 'going' constructions",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "great going my day"
+        ]
+      },
+      {
+        "pattern": "awkward request structure mixing imperative with question",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "play tennis with me can u ?"
+        ]
+      }
+    ]
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold",
+      "plays tennis a few times a week to relax"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": [
+      "mango-season aside"
+    ]
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "event_pending",
+      "content": "practice saying 'He crosses the border and removes the hand pump' aloud for Maya's feedback",
+      "source_session": "0e48be14-1c22-412a-a7a2-f460444caaa2",
+      "source_date": "2026-05-03",
+      "status": "active",
+      "expires_at": "2026-06-02"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

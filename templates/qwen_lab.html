@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PeerUp · Qwen Lab</title>
+  <style>
+    :root {
+      --accent: #c9442a;
+      --accent-soft: #fceee9;
+      --border: #e8c8be;
+      --bg: #faf6f3;
+      --panel: #fff;
+      --muted: #8a6f66;
+      --text: #2a2020;
+      --green: #2a7a3a;
+      --red: #a83838;
+      --left: #6b3fa0;
+      --left-soft: #f3edff;
+      --left-border: #d8c8ec;
+      --right: #2a7a3a;
+      --right-soft: #e9f5ec;
+      --right-border: #b9dcc1;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.55;
+      display: flex; flex-direction: column; min-height: 100vh;
+    }
+    .pill {
+      display: inline-block; padding: 3px 10px; font-size: 11px;
+      background: var(--accent-soft); color: var(--accent);
+      border-radius: 999px; font-weight: 700; letter-spacing: 0.04em;
+    }
+    .lab-banner {
+      background: var(--accent); color: #fff;
+      padding: 8px 18px; font-size: 13px; display: flex; align-items: center; gap: 12px;
+      flex-shrink: 0;
+    }
+    .lab-banner b { font-weight: 700; }
+    .lab-banner code { background: rgba(255,255,255,0.2); color:#fff; padding: 1px 6px; border-radius: 3px; font-size: 11.5px; }
+    .lab-banner a { color: rgba(255,255,255,0.9); text-decoration: none; font-size: 12px; margin-left: 8px; }
+    .lab-banner a:hover { color: #fff; }
+
+    /* ============== SETUP SCREEN ============== */
+    #setup {
+      max-width: 880px; margin: 28px auto; padding: 28px 32px;
+      background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
+    }
+    h1 { margin: 0 0 6px; font-size: 24px; }
+    h2 { margin: 22px 0 8px; font-size: 16px; color: var(--accent); }
+    p, li { font-size: 14px; }
+    code { background: var(--accent-soft); padding: 1px 6px; border-radius: 3px; font-size: 12px; font-family: ui-monospace, Menlo, monospace; }
+    .profile-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 6px; }
+    .profile-card { border: 1px solid var(--border); padding: 10px 14px; border-radius: 6px; cursor: pointer; background: #fff; position: relative; }
+    .profile-card:hover { background: var(--accent-soft); }
+    .profile-card.selected { border-color: var(--accent); background: var(--accent-soft); }
+    .profile-card .custom-tag { position: absolute; top: 6px; right: 8px; font-size: 10px; color: var(--accent); }
+    .profile-card .del-btn { position: absolute; bottom: 6px; right: 8px; padding: 2px 6px; font-size: 11px; background: transparent; color: var(--red); border: none; cursor: pointer; }
+    button { padding: 9px 16px; font-size: 13px; border: none; border-radius: 5px; background: var(--accent); color: #fff; cursor: pointer; font-weight: 600; }
+    button:disabled { background: #ddd2cc; cursor: not-allowed; opacity: 0.7; }
+    .secondary { background: #6b6b6b; }
+    #start-btn { padding: 12px 22px; font-size: 14px; }
+    #start-btn:not(:disabled) { box-shadow: 0 2px 6px rgba(201, 68, 42, 0.3); animation: pulse 1.6s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { box-shadow: 0 2px 6px rgba(201, 68, 42, 0.3); } 50% { box-shadow: 0 2px 14px rgba(201, 68, 42, 0.5); } }
+    .actions { margin-top: 18px; display: flex; gap: 10px; align-items: center; }
+    #start-hint { font-size: 12px; color: var(--muted); }
+    #start-hint.ready { color: var(--accent); font-weight: 600; }
+    label { font-weight: 600; font-size: 13px; display: block; margin-top: 14px; }
+    input[type="text"] { width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 4px; font-family: inherit; font-size: 14px; }
+    .new-profile-form { margin-top: 16px; padding: 14px; background: #fcf6f3; border: 1px dashed var(--border); border-radius: 6px; }
+    .new-profile-form.hidden { display: none; }
+    .config { margin-top: 22px; padding: 12px 16px; background: #f4ede9; border-radius: 6px; font-size: 12.5px; color: var(--muted); }
+    .config code { font-size: 11.5px; }
+
+    /* ============== CHAT SURFACE ============== */
+    #chat-surface {
+      display: none; flex: 1; flex-direction: column; min-height: 0;
+    }
+    #chat-surface.active { display: flex; }
+    .chat-header {
+      background: #fff; border-bottom: 1px solid var(--border); padding: 8px 18px;
+      display: flex; align-items: center; gap: 12px; font-size: 13px; flex-shrink: 0;
+    }
+    .chat-header .who { font-weight: 700; color: var(--accent); }
+    .chat-header .meta { color: var(--muted); font-size: 12px; }
+    .chat-header .actions-right { margin-left: auto; display: flex; gap: 8px; }
+    .chat-header button { padding: 6px 12px; font-size: 12px; }
+
+    .columns {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 0;
+      flex: 1; min-height: 0; border-top: 1px solid var(--border);
+    }
+    .column { display: flex; flex-direction: column; min-height: 0; min-width: 0; }
+    .column.left  { border-right: 1px solid var(--border); }
+    .col-header {
+      padding: 10px 16px; background: var(--left-soft); border-bottom: 1px solid var(--left-border);
+      font-weight: 700; font-size: 13px; color: var(--left);
+      display: flex; justify-content: space-between; align-items: center; flex-shrink: 0;
+    }
+    .column.right .col-header { background: var(--right-soft); border-bottom-color: var(--right-border); color: var(--right); }
+    .col-header .stats { font-weight: 400; font-size: 11px; color: var(--muted); font-family: ui-monospace, Menlo, monospace; }
+    .messages { flex: 1; overflow-y: auto; padding: 14px 18px; min-height: 0; }
+    .msg { margin: 0 0 10px; padding: 10px 14px; border-radius: 8px; max-width: 95%; line-height: 1.5; font-size: 14px; word-wrap: break-word; }
+    .msg.user { background: #f4f1ea; color: var(--text); align-self: flex-end; margin-left: auto; }
+    .msg.maya { background: #fff; border: 1px solid var(--border); }
+    .column.left  .msg.maya { background: var(--left-soft);  border-color: var(--left-border); }
+    .column.right .msg.maya { background: var(--right-soft); border-color: var(--right-border); }
+    .msg.error  { background: #fde6e6; border: 1px solid #f0b8b8; color: #6a2a2a; }
+    .msg .meta-line { font-size: 10px; color: var(--muted); margin-top: 4px; font-family: ui-monospace, Menlo, monospace; }
+
+    .composer {
+      padding: 12px 18px; background: #fff; border-top: 1px solid var(--border);
+      display: flex; gap: 10px; flex-shrink: 0;
+    }
+    .composer textarea {
+      flex: 1; padding: 10px 12px; border: 1px solid var(--border); border-radius: 6px;
+      font-family: inherit; font-size: 14px; resize: none; min-height: 42px; max-height: 140px;
+    }
+    .composer button { padding: 0 22px; }
+    .placeholder-note { margin-top: 18px; padding: 14px 18px; background: #fff8f3; border-left: 4px solid var(--accent); border-radius: 0 6px 6px 0; font-size: 13px; }
+
+    /* ===== Final-prompts modal ===== */
+    #prompts-modal {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0, 0, 0, 0.55); z-index: 1000;
+      align-items: flex-start; justify-content: center;
+      padding: 30px; overflow-y: auto;
+    }
+    #prompts-modal.open { display: flex; }
+    #prompts-modal .panel {
+      background: #fff; border-radius: 8px; max-width: 1100px; width: 100%;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.3); overflow: hidden;
+    }
+    #prompts-modal .panel-header {
+      padding: 14px 22px; border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; gap: 14px; background: #faf6f3;
+    }
+    #prompts-modal .panel-header h2 { margin: 0; font-size: 17px; color: var(--accent); }
+    #prompts-modal .panel-header .meta { font-size: 12px; color: var(--muted); }
+    #prompts-modal .panel-body {
+      padding: 18px 24px; max-height: calc(100vh - 140px); overflow-y: auto;
+    }
+    .prompt-block {
+      margin-bottom: 16px; border: 1px solid var(--border); border-radius: 6px; overflow: hidden;
+    }
+    .prompt-block summary {
+      padding: 10px 14px; cursor: pointer; background: var(--accent-soft); color: var(--accent);
+      font-weight: 700; font-size: 13.5px; display: flex; align-items: center; gap: 10px;
+      list-style: none;
+    }
+    .prompt-block summary::-webkit-details-marker { display: none; }
+    .prompt-block summary::before { content: "▶"; font-size: 10px; transition: transform 200ms; }
+    .prompt-block[open] summary::before { transform: rotate(90deg); }
+    .prompt-block .word-count {
+      margin-left: auto; font-weight: 400; font-size: 11px; color: var(--muted);
+      font-family: ui-monospace, Menlo, monospace;
+    }
+    .prompt-block .desc {
+      padding: 10px 14px; background: #faf6f3; font-size: 12.5px;
+      color: var(--muted); border-bottom: 1px solid var(--border);
+    }
+    .prompt-block pre {
+      margin: 0; padding: 14px 18px; background: #2a2020; color: #f4f1ea;
+      font-size: 11.5px; line-height: 1.55; white-space: pre-wrap;
+      max-height: 480px; overflow: auto;
+      font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    }
+    .prompt-block.composed summary { background: #fdebe5; color: var(--accent); }
+    .prompt-block.composed pre { max-height: 600px; }
+    .prompt-actions {
+      display: flex; gap: 8px; padding: 8px 14px; background: #faf6f3;
+      border-bottom: 1px solid var(--border);
+    }
+    .prompt-actions button { padding: 4px 10px; font-size: 11px; background: #6b6b6b; }
+  </style>
+</head>
+<body>
+  <div class="lab-banner">
+    <span class="pill">QWEN LAB</span>
+    <b>A/B prompt comparison sandbox</b>
+    <span style="opacity:0.85; font-size:12px;">— locked to <code>qwen.qwen3-32b-v1:0</code> · enable_thinking=false · isolated storage</span>
+    <a href="/playground" style="margin-left:auto;">← Playground</a>
+    <a href="/">Home</a>
+  </div>
+
+  <!-- ============== SETUP SCREEN ============== -->
+  <div id="setup">
+    <h1>Welcome to the Qwen Lab</h1>
+    <p style="color: var(--muted); margin: 6px 0 0;">
+      Pick a test profile to start. Every turn you send will be answered <b>twice</b>: once with the existing prompts (left), once with the Qwen-tuned rewrites (right). Side-by-side.
+    </p>
+
+    <h2>Pick a profile</h2>
+    <div id="profile-grid" class="profile-grid">loading…</div>
+
+    <div id="new-profile-form" class="new-profile-form hidden">
+      <label>Display name (used as profile + memory key)</label>
+      <input id="np-name" type="text" placeholder="e.g. Aman">
+      <label>Profession / role</label>
+      <input id="np-prof" type="text" placeholder="e.g. Marketing manager at a fintech">
+      <label>Mother tongue</label>
+      <input id="np-mt" type="text" placeholder="e.g. Hindi">
+      <label>Interests (comma-separated)</label>
+      <input id="np-int" type="text" placeholder="e.g. Football, FooseBall, Office gossip">
+      <div style="margin-top: 10px;">
+        <button id="np-save">Save profile</button>
+        <button class="secondary" id="np-cancel">Cancel</button>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button id="new-profile-btn" class="secondary">+ Create new profile</button>
+      <button id="view-prompts-btn" class="secondary" title="Show every QWEN_* prompt the right column uses">📋 View final Qwen prompts</button>
+      <button id="start-btn" disabled>Start comparison →</button>
+      <span id="start-hint">↑ pick a profile above to enable</span>
+    </div>
+
+    <div class="config">
+      <b>Locked Qwen config:</b><br>
+      model = <code>qwen.qwen3-32b-v1:0</code> · temperature = <code>0.7</code> · max_tokens = <code>1000</code> · enable_thinking = <code>false</code><br>
+      Both sides run on the same model and config — the only varying axis is the prompt set. Memory is shared between the two sides (read-only during comparison; the librarian doesn't run here).
+    </div>
+  </div>
+
+  <!-- ============== FINAL PROMPTS MODAL ============== -->
+  <div id="prompts-modal">
+    <div class="panel">
+      <div class="panel-header">
+        <h2>📋 Final Qwen prompts</h2>
+        <span class="meta" id="prompts-meta">loading…</span>
+        <a id="prompts-download" href="/qwen-lab/api/prompts/download" download
+           style="margin-left:auto; padding: 6px 14px; font-size: 12px; background: var(--accent); color: #fff; border-radius: 5px; text-decoration: none; font-weight: 600;">
+           ⬇ Download all (.zip)
+        </a>
+        <button id="prompts-close" class="secondary" style="padding: 6px 14px; font-size: 12px;">Close ✕</button>
+      </div>
+      <div class="panel-body" id="prompts-body">
+        <div style="color: var(--muted); font-size: 13px;">loading…</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============== CHAT SURFACE ============== -->
+  <div id="chat-surface">
+    <div class="chat-header">
+      <span class="who" id="chat-who">—</span>
+      <span class="meta" id="chat-meta">Locked: qwen.qwen3-32b-v1:0 · enable_thinking=false</span>
+      <div class="actions-right">
+        <button id="new-chat-btn" class="secondary">New chat</button>
+        <button id="end-chat-btn" class="secondary">End chat</button>
+        <button id="back-btn" class="secondary">← Profiles</button>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column left">
+        <div class="col-header">
+          <span>📜 LEFT — Existing prompts (PG_*)</span>
+          <span class="stats" id="left-stats">—</span>
+        </div>
+        <div class="messages" id="left-messages"></div>
+      </div>
+      <div class="column right">
+        <div class="col-header">
+          <span>✨ RIGHT — Qwen-tuned prompts (QWEN_*)</span>
+          <span class="stats" id="right-stats">—</span>
+        </div>
+        <div class="messages" id="right-messages"></div>
+      </div>
+    </div>
+    <div class="composer">
+      <textarea id="input" placeholder="Type a reply… enter sends; shift-enter newline" rows="1"></textarea>
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+
+<script>
+const $ = id => document.getElementById(id);
+let SELECTED_PROFILE = null;
+let PROFILE = null;
+let leftHistory  = [];   // user + Maya-left  for the existing-prompts side
+let rightHistory = [];   // user + Maya-right for the Qwen-tuned side
+let sessionId = "";
+let isReplying = false;
+
+// ----- Profile picker -----
+async function loadProfiles() {
+  const res = await fetch("/qwen-lab/profiles");
+  const data = await res.json();
+  const grid = $("profile-grid");
+  grid.innerHTML = "";
+  for (const p of data.profiles) {
+    const div = document.createElement("div");
+    div.className = "profile-card";
+    div.innerHTML = `
+      <div style="font-weight:700;">${p.user_name}</div>
+      <div style="font-size:12px; color:var(--muted);">${p.profession || "&nbsp;"}</div>
+      <div style="font-size:12px; color:var(--muted);">Mother tongue: ${p.mother_tongue || "—"}</div>
+      <div style="font-size:12px; color:var(--muted);">${p.interests || "&nbsp;"}</div>
+      ${p.custom ? '<span class="custom-tag">custom</span>' : ''}
+      ${p.custom ? `<button class="del-btn" data-id="${p.id}">×</button>` : ''}
+    `;
+    div.onclick = (e) => {
+      if (e.target.classList.contains("del-btn")) return;
+      document.querySelectorAll(".profile-card").forEach(c => c.classList.remove("selected"));
+      div.classList.add("selected");
+      SELECTED_PROFILE = p;
+      $("start-btn").disabled = false;
+      const hint = $("start-hint");
+      hint.textContent = "ready — click Start comparison";
+      hint.classList.add("ready");
+    };
+    grid.appendChild(div);
+  }
+  document.querySelectorAll(".del-btn").forEach(b => {
+    b.onclick = async (e) => {
+      e.stopPropagation();
+      if (!confirm("Delete this custom profile?")) return;
+      await fetch(`/qwen-lab/profiles/${b.dataset.id}`, { method: "DELETE" });
+      loadProfiles();
+    };
+  });
+}
+
+// ----- View final Qwen prompts modal -----
+async function loadFinalPrompts() {
+  const body = $("prompts-body");
+  const meta = $("prompts-meta");
+  body.innerHTML = '<div style="color: var(--muted); font-size: 13px;">loading…</div>';
+  meta.textContent = "loading…";
+  try {
+    const res = await fetch("/qwen-lab/api/prompts");
+    const data = await res.json();
+    const totalWords = data.prompts.reduce((s, p) => s + (p.words || 0), 0);
+    meta.textContent = `7 prompts · ~${totalWords} words total · composed system: ${data.composed_system_prompt.chars} chars`;
+
+    function escape(s) { return (s||"").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+    function renderBlock(p, isComposed) {
+      const cls = isComposed ? "prompt-block composed" : "prompt-block";
+      const stats = isComposed ? `${p.words} words · ${p.chars} chars` : `${p.words} words`;
+      return `
+        <details class="${cls}" ${isComposed ? "open" : ""}>
+          <summary>${p.label}<span class="word-count">${stats}</span></summary>
+          <div class="desc">${escape(p.description || "")}</div>
+          <div class="prompt-actions">
+            <button class="copy-btn" data-pid="${p.id || 'composed'}">Copy</button>
+          </div>
+          <pre data-pid="${p.id || 'composed'}">${escape(p.text)}</pre>
+        </details>
+      `;
+    }
+    let html = renderBlock(data.composed_system_prompt, true);
+    html += '<div style="margin: 16px 0 8px; font-size: 12px; color: var(--muted); font-style: italic;">↓ Raw individual prompts (these are what the composed prompt above is built from)</div>';
+    for (const p of data.prompts) html += renderBlock(p, false);
+    body.innerHTML = html;
+    body.querySelectorAll(".copy-btn").forEach(btn => {
+      btn.onclick = () => {
+        const pid = btn.dataset.pid;
+        const pre = body.querySelector(`pre[data-pid="${pid}"]`);
+        if (!pre) return;
+        navigator.clipboard.writeText(pre.textContent).then(() => {
+          btn.textContent = "Copied ✓";
+          setTimeout(() => btn.textContent = "Copy", 1200);
+        });
+      };
+    });
+  } catch (e) {
+    body.innerHTML = '<div style="color: var(--red); font-size: 13px;">Failed to load: ' + e + '</div>';
+    meta.textContent = "error";
+  }
+}
+
+$("view-prompts-btn").onclick = () => {
+  $("prompts-modal").classList.add("open");
+  loadFinalPrompts();
+};
+$("prompts-close").onclick = () => $("prompts-modal").classList.remove("open");
+$("prompts-modal").onclick = (e) => { if (e.target.id === "prompts-modal") $("prompts-modal").classList.remove("open"); };
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && $("prompts-modal").classList.contains("open")) {
+    $("prompts-modal").classList.remove("open");
+  }
+});
+
+$("new-profile-btn").onclick = () => $("new-profile-form").classList.toggle("hidden");
+$("np-cancel").onclick = () => $("new-profile-form").classList.add("hidden");
+$("np-save").onclick = async () => {
+  const body = {
+    user_name: $("np-name").value.trim(),
+    profession: $("np-prof").value.trim(),
+    mother_tongue: $("np-mt").value.trim(),
+    interests: $("np-int").value.trim(),
+  };
+  if (!body.user_name) return alert("Display name required");
+  await fetch("/qwen-lab/profiles", {
+    method: "POST", headers: {"Content-Type": "application/json"},
+    body: JSON.stringify(body),
+  });
+  $("np-name").value = $("np-prof").value = $("np-mt").value = $("np-int").value = "";
+  $("new-profile-form").classList.add("hidden");
+  loadProfiles();
+};
+
+// ----- Start chat -----
+function resetChat() {
+  leftHistory = []; rightHistory = [];
+  sessionId = "qwen_lab_" + Date.now() + "_" + Math.random().toString(36).slice(2, 8);
+  $("left-messages").innerHTML = "";
+  $("right-messages").innerHTML = "";
+  $("left-stats").textContent = "—";
+  $("right-stats").textContent = "—";
+}
+
+$("start-btn").onclick = () => {
+  if (!SELECTED_PROFILE) return;
+  PROFILE = SELECTED_PROFILE;
+  resetChat();
+  $("chat-who").textContent = "Chatting as: " + PROFILE.user_name + " (" + (PROFILE.profession || "—") + ")";
+  $("setup").style.display = "none";
+  $("chat-surface").classList.add("active");
+  sendTurn("");                  // opening turn (no user input)
+};
+
+$("back-btn").onclick = () => {
+  if (isReplying) return alert("Wait for the current reply to finish.");
+  $("chat-surface").classList.remove("active");
+  $("setup").style.display = "block";
+};
+
+$("new-chat-btn").onclick = () => {
+  if (isReplying) return alert("Wait for the current reply to finish.");
+  if (!confirm("Clear both columns and start a fresh chat with the same profile?")) return;
+  resetChat();
+  sendTurn("");
+};
+
+$("end-chat-btn").onclick = async () => {
+  if (isReplying) return alert("Wait for the current reply to finish.");
+  if (!leftHistory.length && !rightHistory.length) {
+    return alert("Nothing to save — both sides have empty history.");
+  }
+  $("end-chat-btn").disabled = true;
+  $("end-chat-btn").textContent = "Saving…";
+  try {
+    const res = await fetch("/qwen-lab/end_session", {
+      method: "POST", headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({
+        user_name: PROFILE.user_name,
+        session_id: sessionId,
+        history_old: leftHistory,
+        history_new: rightHistory,
+      }),
+    });
+    const data = await res.json();
+    function fmt(side) {
+      const d = data[side] || {};
+      if (d.skipped) return `${side}: skipped (${d.skipped})`;
+      if (d.error)   return `${side}: ERROR — ${d.error}`;
+      return `${side}: facts=${d.facts_count}  events=${d.events_count}  moments=${d.moments_count}  mood_log=${d.mood_log_count}`;
+    }
+    alert("Memory saved.\n\n" + fmt("old") + "\n" + fmt("new"));
+  } catch (e) {
+    alert("End-chat failed: " + e);
+  } finally {
+    $("end-chat-btn").disabled = false;
+    $("end-chat-btn").textContent = "End chat";
+  }
+};
+
+// ----- Message rendering helpers -----
+function appendUser(text) {
+  for (const colId of ["left-messages", "right-messages"]) {
+    const box = $(colId);
+    const div = document.createElement("div");
+    div.className = "msg user";
+    div.textContent = text;
+    box.appendChild(div);
+    box.scrollTop = box.scrollHeight;
+  }
+}
+
+function appendMaya(side) {
+  const box = $(`${side}-messages`);
+  const div = document.createElement("div");
+  div.className = "msg maya";
+  div.dataset.side = side;
+  div.innerHTML = '<span class="body"></span><span class="meta-line"></span>';
+  box.appendChild(div);
+  box.scrollTop = box.scrollHeight;
+  return div;
+}
+
+function appendError(side, text) {
+  const box = $(`${side}-messages`);
+  const div = document.createElement("div");
+  div.className = "msg error";
+  div.textContent = text;
+  box.appendChild(div);
+  box.scrollTop = box.scrollHeight;
+}
+
+// ----- The dual stream -----
+async function sendTurn(userText) {
+  if (isReplying) return;
+  isReplying = true;
+  $("send-btn").disabled = true;
+  $("input").disabled = true;
+
+  if (userText) appendUser(userText);
+  const leftBubble  = appendMaya("left");
+  const rightBubble = appendMaya("right");
+  const leftBody  = leftBubble.querySelector(".body");
+  const rightBody = rightBubble.querySelector(".body");
+  const leftMeta  = leftBubble.querySelector(".meta-line");
+  const rightMeta = rightBubble.querySelector(".meta-line");
+
+  let leftText = "", rightText = "";
+  let leftDoneInfo = null, rightDoneInfo = null;
+  const startTime = performance.now();
+  const ttftObserved = { left: null, right: null };
+
+  try {
+    const res = await fetch("/qwen-lab/chat", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({
+        user_name: PROFILE.user_name,
+        profession: PROFILE.profession,
+        mother_tongue: PROFILE.mother_tongue,
+        interests: PROFILE.interests,
+        history_old: leftHistory,
+        history_new: rightHistory,
+        user_message: userText,
+        session_id: sessionId,
+      }),
+    });
+    if (!res.ok || !res.body) throw new Error("HTTP " + res.status);
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let buf = "";
+    while (true) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      buf += decoder.decode(value, { stream: true });
+      let nl;
+      while ((nl = buf.indexOf("\n\n")) !== -1) {
+        const evt = buf.slice(0, nl);
+        buf = buf.slice(nl + 2);
+        if (!evt.startsWith("data: ")) continue;
+        let d;
+        try { d = JSON.parse(evt.slice(6)); } catch (e) { continue; }
+        const side = d.side || "old";
+        if (d.type === "delta") {
+          if (ttftObserved[side === "old" ? "left" : "right"] === null) {
+            ttftObserved[side === "old" ? "left" : "right"] = performance.now() - startTime;
+          }
+          if (side === "old") {
+            leftText += d.text; leftBody.textContent = leftText;
+            $("left-messages").scrollTop = $("left-messages").scrollHeight;
+          } else {
+            rightText += d.text; rightBody.textContent = rightText;
+            $("right-messages").scrollTop = $("right-messages").scrollHeight;
+          }
+        } else if (d.type === "done") {
+          if (side === "old") leftDoneInfo = d;
+          else rightDoneInfo = d;
+        } else if (d.type === "error") {
+          appendError(side === "new" ? "right" : "left", d.message || "(error)");
+        } else if (d.type === "lab_meta") {
+          // header only; could surface system_prompt_chars
+        }
+      }
+    }
+  } catch (e) {
+    appendError("left", String(e));
+    appendError("right", String(e));
+  } finally {
+    // Try to extract message field if Qwen returned JSON-wrapped output.
+    function unwrap(text) {
+      const t = (text || "").trim();
+      if (t.startsWith("{")) {
+        try { const o = JSON.parse(t); if (o && typeof o.message === "string") return o.message; } catch (e) {}
+      }
+      const m = t.match(/```(?:json)?\s*(\{.*?\})\s*```/s);
+      if (m) { try { const o = JSON.parse(m[1]); if (o && typeof o.message === "string") return o.message; } catch (e) {} }
+      return text;
+    }
+    if (leftDoneInfo)  leftBody.textContent  = unwrap(leftText);
+    if (rightDoneInfo) rightBody.textContent = unwrap(rightText);
+
+    // Stats line per column
+    function fmtUsage(d, ttft) {
+      if (!d) return "—";
+      const u = d.usage || {};
+      const ms = d.duration_ms || 0;
+      const ttftStr = ttft ? `ttft ${Math.round(ttft)}ms` : "";
+      return `${ttftStr}  ·  ${ms}ms total  ·  in ${u.input||0} / out ${u.output||0}`.trim();
+    }
+    $("left-stats").textContent  = fmtUsage(leftDoneInfo,  ttftObserved.left);
+    $("right-stats").textContent = fmtUsage(rightDoneInfo, ttftObserved.right);
+    leftMeta.textContent  = fmtUsage(leftDoneInfo,  ttftObserved.left);
+    rightMeta.textContent = fmtUsage(rightDoneInfo, ttftObserved.right);
+
+    // Push this turn into each side's history so multi-turn comparisons stay
+    // coherent within each column. User message is the same for both sides;
+    // each side's Maya reply only goes into its own history.
+    if (userText) {
+      leftHistory.push({ role: "user", content: userText });
+      rightHistory.push({ role: "user", content: userText });
+    }
+    if (leftDoneInfo  && leftText)  leftHistory.push({  role: "assistant", content: unwrap(leftText)  });
+    if (rightDoneInfo && rightText) rightHistory.push({ role: "assistant", content: unwrap(rightText) });
+    isReplying = false;
+    $("send-btn").disabled = false;
+    $("input").disabled = false;
+    $("input").focus();
+  }
+}
+
+$("send-btn").onclick = () => {
+  const text = $("input").value.trim();
+  if (!text) return;
+  $("input").value = "";
+  sendTurn(text);
+};
+$("input").addEventListener("keydown", (e) => {
+  if (e.key === "Enter" && !e.shiftKey) {
+    e.preventDefault();
+    $("send-btn").click();
+  }
+});
+$("input").addEventListener("input", () => {
+  $("input").style.height = "auto";
+  $("input").style.height = Math.min(140, $("input").scrollHeight) + "px";
+});
+
+loadProfiles();
+</script>
+</body>
+</html>

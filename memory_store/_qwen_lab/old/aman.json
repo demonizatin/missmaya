@@ -1,0 +1,157 @@
+{
+  "facts": {
+    "nickname": "Aman",
+    "favorite_movie": "Ae Mere Watan Ke Logo",
+    "birthday": "May 1"
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "Birthday celebration",
+      "date": "2026-05-01",
+      "added": "2026-04-30",
+      "followed_up": true
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "who the fuck asked?",
+      "tone": "frustrated",
+      "sensitive": true,
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-04-30",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "qwen_lab_1777562273968_deb2ko",
+      "date": "2026-04-30",
+      "label": "content",
+      "energy": 5,
+      "confidence": 0.6,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "qwen_lab_1777562469972_wlasfu",
+      "date": "2026-04-30",
+      "label": "anxious",
+      "energy": 3,
+      "confidence": 0.65,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "hobbies",
+        "last_session": "qwen_lab_1777562273968_deb2ko",
+        "last_date": "2026-04-30",
+        "uses": 1
+      },
+      {
+        "topic": "birthday plans",
+        "last_session": "qwen_lab_1777562469972_wlasfu",
+        "last_date": "2026-04-30",
+        "uses": 1
+      },
+      {
+        "topic": "Hindi film songs",
+        "last_session": "qwen_lab_1777562469972_wlasfu",
+        "last_date": "2026-04-30",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "qwen_lab_1777562273968_deb2ko",
+        "last_date": "2026-04-30"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "qwen_lab_1777562469972_wlasfu",
+        "last_date": "2026-04-30"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [],
+  "skills": {
+    "error_patterns": [
+      {
+        "pattern": "Does not capitalize the pronoun 'I'",
+        "examples": [
+          "i have a different favourite movie"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-04-30",
+        "last_seen": "2026-04-30",
+        "status": "active"
+      }
+    ],
+    "wins": [],
+    "curriculum": [
+      {
+        "pattern": "Does not capitalize the pronoun 'I'",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "i have a different favourite movie"
+        ]
+      }
+    ]
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

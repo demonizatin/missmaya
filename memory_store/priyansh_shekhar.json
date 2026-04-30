@@ -1,0 +1,183 @@
+{
+  "facts": {
+    "interests": [
+      "club hopping",
+      "dancing",
+      "The Boys",
+      "football"
+    ],
+    "favorite_drinks": [
+      "natural coconut water"
+    ],
+    "past_experiences": [
+      "visited Goa 100 times",
+      "prefers solo travel"
+    ]
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "waiting for football match",
+      "date": "2026-04-29",
+      "added": "2026-04-29",
+      "followed_up": true
+    }
+  ],
+  "moments": [],
+  "mood_log": [
+    {
+      "session_id": "",
+      "date": "2026-04-29",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.4,
+      "behavioral": {
+        "msg_count": 1,
+        "total_chars": 5,
+        "avg_words": 1.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.15
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "",
+      "date": "2026-04-29",
+      "label": "neutral",
+      "energy": 5,
+      "confidence": 0.28,
+      "behavioral": {
+        "msg_count": 1,
+        "total_chars": 46,
+        "avg_words": 9.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.111,
+        "engagement_score": 0.18
+      },
+      "agreement": "soft_conflict",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "",
+      "date": "2026-04-30",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.3,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "football match",
+        "last_session": "",
+        "last_date": "2026-04-30",
+        "uses": 1
+      },
+      {
+        "topic": "favorite dance style",
+        "last_session": "",
+        "last_date": "2026-04-29",
+        "uses": 1
+      },
+      {
+        "topic": "favorite movie genre",
+        "last_session": "",
+        "last_date": "2026-04-29",
+        "uses": 1
+      },
+      {
+        "topic": "startups",
+        "last_session": "",
+        "last_date": "2026-04-29",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "",
+        "last_date": "2026-04-29"
+      },
+      {
+        "kind": "general",
+        "last_session": "",
+        "last_date": "2026-04-29"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "",
+        "last_date": "2026-04-30"
+      }
+    ],
+    "recent_opening_phrases": [
+      {
+        "phrase": "{\"message\": \"Hi Priyansh, I noticed you mentioned dancing and movies, do you have a favorite dance style or movie genre that you'd love to talk about?",
+        "session_id": "",
+        "date": "2026-04-29"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Priyansh, I love how you work with new ideas at PeerUp, do you get to see any cool start ups in your job?",
+        "session_id": "",
+        "date": "2026-04-29"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Priyansh, I'm a huge football fan and love mango season, how are you feeling about that match you're waiting for?",
+        "session_id": "",
+        "date": "2026-04-30"
+      }
+    ]
+  },
+  "lore": [],
+  "anticipation_queue": [],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold",
+      "huge football fan"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}
