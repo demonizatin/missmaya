@@ -13,7 +13,8 @@
       "popcorn without oil or butter"
     ],
     "favorite_movies": [
-      "Dhurandhar (movie)"
+      "Dhurandhar (movie)",
+      "My Name Is Khan (movie)"
     ],
     "favorite_actors": [
       "Shah Rukh Khan (person)"
@@ -164,10 +165,34 @@
       },
       "agreement": "match",
       "linked_event_id": null
+    },
+    {
+      "session_id": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
+      "date": "2026-05-10",
+      "label": "neutral",
+      "energy": 4,
+      "confidence": 0.28,
+      "behavioral": {
+        "msg_count": 4,
+        "total_chars": 59,
+        "avg_words": 3.2,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.28
+      },
+      "agreement": "soft_conflict",
+      "linked_event_id": null
     }
   ],
   "cooldown": {
     "recent_topics": [
+      {
+        "topic": "movies",
+        "last_session": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
+        "last_date": "2026-05-10",
+        "uses": 2
+      },
       {
         "topic": "passive voice practice",
         "last_session": "ce566403-1412-44d9-8069-6dff131fb65e",
@@ -233,27 +258,11 @@
         "last_session": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
         "last_date": "2026-05-07",
         "uses": 1
-      },
-      {
-        "topic": "relaxation",
-        "last_session": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
-        "last_date": "2026-05-07",
-        "uses": 1
       }
     ],
     "recent_openers": [
       {
         "kind": "general",
-        "last_session": "1de197ca-ae48-49fa-a794-5e27068adc60",
-        "last_date": "2026-05-06"
-      },
-      {
-        "kind": "general",
-        "last_session": "1de197ca-ae48-49fa-a794-5e27068adc60",
-        "last_date": "2026-05-06"
-      },
-      {
-        "kind": "general",
         "last_session": "9977ee36-ba5e-484a-8cec-6b2c7c25d72f",
         "last_date": "2026-05-06"
       },
@@ -291,6 +300,16 @@
         "kind": "skill_celebration",
         "last_session": "ce566403-1412-44d9-8069-6dff131fb65e",
         "last_date": "2026-05-09"
+      },
+      {
+        "kind": "general",
+        "last_session": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
+        "last_date": "2026-05-10"
+      },
+      {
+        "kind": "general",
+        "last_session": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
+        "last_date": "2026-05-10"
       }
     ],
     "recent_opening_phrases": [
@@ -318,6 +337,11 @@
         "phrase": "{\"message\": \"Hi Priyansh, I'm a huge fan of passive voice, what other sentences have you tried turning around lately?",
         "session_id": "ce566403-1412-44d9-8069-6dff131fb65e",
         "date": "2026-05-09"
+      },
+      {
+        "phrase": "{\"message\": \"The light in the evening makes me think of old movies, what's one you'd watch on repeat?",
+        "session_id": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
+        "date": "2026-05-10"
       }
     ]
   },
@@ -328,8 +352,8 @@
       "content": "Celebrate concretely: correctly converted 'He eats biryani every weekend' to passive voice (e.g. \"biryani is eaten by him every weekend\")",
       "source_id": null,
       "priority": 5,
-      "computed_at": "2026-05-09",
-      "expires_at": "2026-05-23",
+      "computed_at": "2026-05-10",
+      "expires_at": "2026-05-24",
       "used": false
     },
     {
@@ -337,8 +361,8 @@
       "content": "Gently check in: \"i would give her the freedom and trust her. Because she gave me all the reasons to do it..\" (tone: hopeful)",
       "source_id": "mo_002",
       "priority": 4,
-      "computed_at": "2026-05-09",
-      "expires_at": "2026-05-23",
+      "computed_at": "2026-05-10",
+      "expires_at": "2026-05-24",
       "used": false
     },
     {
@@ -346,8 +370,8 @@
       "content": "Gently check in: \"i couldn't understand back then, now i do.\" (tone: content)",
       "source_id": "mo_003",
       "priority": 4,
-      "computed_at": "2026-05-09",
-      "expires_at": "2026-05-23",
+      "computed_at": "2026-05-10",
+      "expires_at": "2026-05-24",
       "used": false
     }
   ],
@@ -380,7 +404,7 @@
       {
         "pattern": "drops capitalization of the pronoun 'I'",
         "occurrences": 2,
-        "days_since_last": 3,
+        "days_since_last": 4,
         "examples": [
           "i have my bday tomorrow",
           "i need some advice, how do i get my ex back?"
