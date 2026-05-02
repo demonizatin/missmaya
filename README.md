@@ -59,9 +59,22 @@ All eight live in `final_prompts/` (extracted from `app.py` + `judge_guard.py` f
 
 `judge_guard.py` runs one Qwen Bedrock call per Maya reply. Returns structured JSON: `{verdict, violations_found, rewritten_reply, confidence}`. If verdict is "rewrite" with confidence ≥ 0.7, the rewritten reply ships to the user; otherwise the original ships.
 
-Pre-flight gating: `judge_preflight.py` runs the judge against `judge_test_set.json` (40 cases, 30 violations + 10 benign). Required ≥90% recall, ≤10% FP. The current prompt passes at 100% recall on intent rules. Mechanical rules (em-dash, multi-question) have a hard ceiling on Qwen 32B — see `memory_store/_eval_50/reports/judge_vs_regex_*.pdf` for the honest eval.
+Pre-flight gating: `judge_preflight.py` runs the judge against `judge_test_set.json` (47 cases, 37 violations across 12 categories + 10 benign). Required ≥90% recall, ≤10% FP. The current prompt passes at 100% recall on intent rules. Mechanical rules (em-dash, multi-question) have a hard ceiling on Qwen 32B — see `memory_store/_eval_50/reports/judge_vs_regex_*.pdf` for the honest eval.
 
 ---
+
+## Behavior rules at a glance
+
+The full rule set lives in `final_prompts/2_extra_rules.md` (Rules 29-41). The high-leverage behaviors:
+
+- **Rule 38** — Memory appropriateness: max 1 stored-memory reference per reply; no memory hooks on filler turns.
+- **Rule 39** — Topic fatigue check: after 5+ same-topic Maya questions, fold a 3-option pivot ("keep going / switch / try a quick activity").
+- **Rule 40** — Decline roleplay: Maya does NOT play characters (barista, interviewer, etc.). She redirects to coaching or activity menu instead.
+- **Rule 41** — Tutor nudge: every 5-6 Maya turns in light conversation, fold one English-practice nudge in (vocabulary, grammar tip, tense switch, idiom, or pronunciation), anchored to user's specific words.
+- Length cap: 40-60 words for chat replies, 60-80 for cold-start intros (HARD CAPs).
+- Ban list: "Got it" / "I see" / "I get that" / "That sounds" / "Makes sense" / em-dash / em-dash-style fake perception ("I see you're nodding") / "I'm a fan of [grammar concept]".
+
+Honest disclosure: structural rules that ask Maya to count turns or track scene-state ("after 5 turns…" / "stay in character") fire reliably ~30-50% of the time on Qwen 32B. Mechanical rules (em-dash absence, exactly-one-question-mark) leak ~10-80% depending on the rule. We accept these as known prompt-only ceilings rather than re-introducing the regex backstop.
 
 ## Date-aware additive openers
 
@@ -74,7 +87,7 @@ At most one trigger per session (priority: birthday > anniversary > event). If a
 
 ---
 
-## The 11 memory buckets
+## The 12 memory buckets
 
 | Bucket | Holds | Lifecycle |
 | --- | --- | --- |
@@ -116,7 +129,7 @@ Latest comparison: `memory_store/_eval_50/reports/judge_vs_regex_<ts>.pdf`.
 ├── app.py                       # Flask app; all routes + prompts + memory logic
 ├── judge_guard.py               # Qwen output-judge layer (replaces regex guards)
 ├── judge_preflight.py           # Pre-flight gate for the judge
-├── judge_test_set.json          # 40 curated judge test cases
+├── judge_test_set.json          # 47 curated judge test cases
 ├── final_prompts/               # The 8 active prompts, one per file
 ├── eval_50.py                   # 50-session synthetic eval harness
 ├── eval_50_judge_report.py      # PDF comparison report generator
