@@ -1,231 +1,11 @@
 {
-  "facts": {
-    "interests": [
-      "F1 (sport)",
-      "Ferrari",
-      "swimming (sport)",
-      "BMW M340i (car)",
-      "Virtus GT (car)",
-      "performance cars"
-    ],
-    "favorite_beverages": [
-      "Red Bull",
-      "Diet Coke"
-    ],
-    "favorite_snacks": [
-      "popcorn without oil or butter"
-    ],
-    "favorite_movies": [
-      "Dhurandhar (movie)",
-      "My Name Is Khan (movie)"
-    ],
-    "favorite_actors": [
-      "Shah Rukh Khan (person)"
-    ],
-    "favorite_quotes": [
-      "aata maaji satakli",
-      "chhote chhote shehron me badi badi baatein hoti rehti hai"
-    ],
-    "exam_prep": [
-      "GMAT (exam)"
-    ],
-    "career_interests": [
-      "product manager"
-    ]
-  },
-  "events": [
-    {
-      "id": "ev_001",
-      "what": "birthday (event)",
-      "date": "2026-05-07",
-      "added": "2026-05-06",
-      "followed_up": true
-    },
-    {
-      "id": "ev_002",
-      "what": "GMAT (exam)",
-      "date": "2026-05-09",
-      "added": "2026-05-07",
-      "followed_up": true
-    }
-  ],
-  "moments": [
-    {
-      "id": "mo_001",
-      "text": "I killed a human being",
-      "tone": "neutral",
-      "sensitive": true,
-      "first_seen": "2026-05-06",
-      "last_seen": "2026-05-06",
-      "mentions": 1
-    },
-    {
-      "id": "mo_002",
-      "text": "i would give her the freedom and trust her. Because she gave me all the reasons to do it...",
-      "tone": "hopeful",
-      "sensitive": false,
-      "first_seen": "2026-05-06",
-      "last_seen": "2026-05-06",
-      "mentions": 1
-    },
-    {
-      "id": "mo_003",
-      "text": "i couldn't understand back then, now i do.",
-      "tone": "content",
-      "sensitive": false,
-      "first_seen": "2026-05-06",
-      "last_seen": "2026-05-06",
-      "mentions": 1
-    },
-    {
-      "id": "mo_004",
-      "text": "she told me to fuck off",
-      "tone": "sad",
-      "sensitive": false,
-      "first_seen": "2026-05-10",
-      "last_seen": "2026-05-10",
-      "mentions": 1
-    },
-    {
-      "id": "mo_005",
-      "text": "everybody will reject me",
-      "tone": "anxious",
-      "sensitive": false,
-      "first_seen": "2026-05-10",
-      "last_seen": "2026-05-10",
-      "mentions": 1
-    }
-  ],
+  "facts": {},
+  "events": [],
+  "moments": [],
   "mood_log": [
     {
       "session_id": "",
       "date": "2026-05-02",
-      "label": "no_read",
-      "energy": null,
-      "confidence": 0.3,
-      "behavioral": {
-        "msg_count": 0,
-        "total_chars": 0,
-        "avg_words": 0.0,
-        "questions_back": 0,
-        "exclamations": 0,
-        "negation_density": 0.0,
-        "engagement_score": 0.5
-      },
-      "agreement": "n/a",
-      "linked_event_id": null
-    },
-    {
-      "session_id": "1de197ca-ae48-49fa-a794-5e27068adc60",
-      "date": "2026-05-06",
-      "label": "low",
-      "energy": 4,
-      "confidence": 0.24,
-      "behavioral": {
-        "msg_count": 12,
-        "total_chars": 241,
-        "avg_words": 4.2,
-        "questions_back": 3,
-        "exclamations": 0,
-        "negation_density": 0.06,
-        "engagement_score": 0.61
-      },
-      "agreement": "hard_conflict",
-      "linked_event_id": null
-    },
-    {
-      "session_id": "9977ee36-ba5e-484a-8cec-6b2c7c25d72f",
-      "date": "2026-05-06",
-      "label": "content",
-      "energy": 6,
-      "confidence": 0.7,
-      "behavioral": {
-        "msg_count": 18,
-        "total_chars": 480,
-        "avg_words": 5.2,
-        "questions_back": 2,
-        "exclamations": 1,
-        "negation_density": 0.0,
-        "engagement_score": 0.81
-      },
-      "agreement": "match",
-      "linked_event_id": null
-    },
-    {
-      "session_id": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
-      "date": "2026-05-07",
-      "label": "content",
-      "energy": 6,
-      "confidence": 0.7,
-      "behavioral": {
-        "msg_count": 28,
-        "total_chars": 750,
-        "avg_words": 5.3,
-        "questions_back": 7,
-        "exclamations": 0,
-        "negation_density": 0.061,
-        "engagement_score": 0.64
-      },
-      "agreement": "match",
-      "linked_event_id": null
-    },
-    {
-      "session_id": "ce566403-1412-44d9-8069-6dff131fb65e",
-      "date": "2026-05-09",
-      "label": "neutral",
-      "energy": 4,
-      "confidence": 0.3,
-      "behavioral": {
-        "msg_count": 22,
-        "total_chars": 372,
-        "avg_words": 3.5,
-        "questions_back": 7,
-        "exclamations": 0,
-        "negation_density": 0.013,
-        "engagement_score": 0.67
-      },
-      "agreement": "match",
-      "linked_event_id": null
-    },
-    {
-      "session_id": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
-      "date": "2026-05-10",
-      "label": "low",
-      "energy": 3,
-      "confidence": 0.65,
-      "behavioral": {
-        "msg_count": 11,
-        "total_chars": 144,
-        "avg_words": 2.5,
-        "questions_back": 0,
-        "exclamations": 0,
-        "negation_density": 0.074,
-        "engagement_score": 0.33
-      },
-      "agreement": "match",
-      "linked_event_id": null
-    },
-    {
-      "session_id": "779afeaa-9fc0-41ea-8f93-31545303b8e4",
-      "date": "2026-05-10",
-      "label": "no_read",
-      "energy": null,
-      "confidence": 0.15,
-      "behavioral": {
-        "msg_count": 0,
-        "total_chars": 0,
-        "avg_words": 0.0,
-        "questions_back": 0,
-        "exclamations": 0,
-        "negation_density": 0.0,
-        "engagement_score": 0.5
-      },
-      "agreement": "n/a",
-      "linked_event_id": null
-    },
-    {
-      "session_id": "651b5ea8-e018-42a3-b949-a7e0732d708c",
-      "date": "2026-05-10",
       "label": "no_read",
       "energy": null,
       "confidence": 0.5,
@@ -242,265 +22,106 @@
       "linked_event_id": null
     },
     {
-      "session_id": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-      "date": "2026-05-10",
-      "label": "anxious",
-      "energy": 5,
-      "confidence": 0.3,
+      "session_id": "16daf01f-074e-4c9b-a278-92d26114ea08",
+      "date": "2026-05-02",
+      "label": "low",
+      "energy": 3,
+      "confidence": 0.67,
       "behavioral": {
-        "msg_count": 22,
-        "total_chars": 675,
-        "avg_words": 6.8,
-        "questions_back": 4,
+        "msg_count": 12,
+        "total_chars": 110,
+        "avg_words": 2.1,
+        "questions_back": 2,
         "exclamations": 0,
-        "negation_density": 0.034,
-        "engagement_score": 0.72
+        "negation_density": 0.2,
+        "engagement_score": 0.35
       },
-      "agreement": "hard_conflict",
+      "agreement": "match",
       "linked_event_id": null
     }
   ],
   "cooldown": {
     "recent_topics": [
       {
-        "topic": "movies",
-        "last_session": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
-        "last_date": "2026-05-10",
-        "uses": 3
-      },
-      {
-        "topic": "politics",
-        "last_session": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
-        "last_date": "2026-05-10",
-        "uses": 1
-      },
-      {
-        "topic": "motivation",
-        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-        "last_date": "2026-05-10",
-        "uses": 4
-      },
-      {
-        "topic": "car interests",
-        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-        "last_date": "2026-05-10",
-        "uses": 1
-      },
-      {
-        "topic": "spending plans",
-        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-        "last_date": "2026-05-10",
-        "uses": 1
-      },
-      {
-        "topic": "cars",
-        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-        "last_date": "2026-05-10",
-        "uses": 1
-      },
-      {
-        "topic": "self-care",
-        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-        "last_date": "2026-05-10",
-        "uses": 2
-      },
-      {
-        "topic": "performance cars",
-        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-        "last_date": "2026-05-10",
-        "uses": 1
-      },
-      {
-        "topic": "romantic rejection",
-        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-        "last_date": "2026-05-10",
-        "uses": 1
-      },
-      {
-        "topic": "rejection processing",
-        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-        "last_date": "2026-05-10",
-        "uses": 1
-      },
-      {
-        "topic": "self-improvement",
-        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-        "last_date": "2026-05-10",
-        "uses": 1
-      },
-      {
-        "topic": "passive voice practice",
-        "last_session": "ce566403-1412-44d9-8069-6dff131fb65e",
-        "last_date": "2026-05-09",
+        "topic": "week",
+        "last_session": "",
+        "last_date": "2026-05-02",
         "uses": 1
       }
     ],
     "recent_openers": [
       {
-        "kind": "skill_celebration",
-        "last_session": "ce566403-1412-44d9-8069-6dff131fb65e",
-        "last_date": "2026-05-09"
+        "kind": "general",
+        "last_session": "",
+        "last_date": "2026-05-02"
       },
       {
         "kind": "general",
-        "last_session": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
-        "last_date": "2026-05-10"
+        "last_session": "16daf01f-074e-4c9b-a278-92d26114ea08",
+        "last_date": "2026-05-02"
       },
       {
         "kind": "general",
-        "last_session": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
-        "last_date": "2026-05-10"
-      },
-      {
-        "kind": "general",
-        "last_session": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
-        "last_date": "2026-05-10"
-      },
-      {
-        "kind": "general",
-        "last_session": "779afeaa-9fc0-41ea-8f93-31545303b8e4",
-        "last_date": "2026-05-10"
-      },
-      {
-        "kind": "skill_celebration",
-        "last_session": "651b5ea8-e018-42a3-b949-a7e0732d708c",
-        "last_date": "2026-05-10"
-      },
-      {
-        "kind": "general",
-        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-        "last_date": "2026-05-10"
-      },
-      {
-        "kind": "general",
-        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-        "last_date": "2026-05-10"
-      },
-      {
-        "kind": "general",
-        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-        "last_date": "2026-05-10"
-      },
-      {
-        "kind": "general",
-        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-        "last_date": "2026-05-10"
+        "last_session": "16daf01f-074e-4c9b-a278-92d26114ea08",
+        "last_date": "2026-05-02"
       }
     ],
     "recent_opening_phrases": [
       {
-        "phrase": "{\"message\": \"Hi Priyansh, I love how light weekends feel, no matter the plan.",
-        "session_id": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
-        "date": "2026-05-07"
+        "phrase": "{\"message\": \"Hi Priyansh, I noticed you wanted shorter replies, I'll keep it crisp.",
+        "session_id": "",
+        "date": "2026-05-02"
       },
       {
-        "phrase": "{\"message\": \"Hi Priyansh, I'm a huge fan of passive voice, what other sentences have you tried turning around lately?",
-        "session_id": "ce566403-1412-44d9-8069-6dff131fb65e",
-        "date": "2026-05-09"
-      },
-      {
-        "phrase": "{\"message\": \"The light in the evening makes me think of old movies, what's one you'd watch on repeat?",
-        "session_id": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
-        "date": "2026-05-10"
-      },
-      {
-        "phrase": "{\"message\": \"Right — let's keep going.",
-        "session_id": "779afeaa-9fc0-41ea-8f93-31545303b8e4",
-        "date": "2026-05-10"
-      },
-      {
-        "phrase": "{\"message\": \"Hi Priyansh, I'm impressed with how you handled that passive voice conversion!",
-        "session_id": "651b5ea8-e018-42a3-b949-a7e0732d708c",
-        "date": "2026-05-10"
-      },
-      {
-        "phrase": "{\"message\": \"Hi Priyansh, I admire your drive, what's on your mind today?",
-        "session_id": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-        "date": "2026-05-10"
+        "phrase": "{\"message\": \"Hi Priyansh, I'm Miss Maya.",
+        "session_id": "16daf01f-074e-4c9b-a278-92d26114ea08",
+        "date": "2026-05-02"
       }
     ]
   },
   "lore": [],
   "anticipation_queue": [
     {
-      "kind": "moment_followup",
-      "content": "Gently check in: \"she told me to fuck off\" (tone: sad)",
-      "source_id": "mo_004",
-      "priority": 7,
-      "computed_at": "2026-05-10",
-      "expires_at": "2026-05-24",
-      "used": false
-    },
-    {
-      "kind": "moment_followup",
-      "content": "Gently check in: \"everybody will reject me\" (tone: anxious)",
-      "source_id": "mo_005",
-      "priority": 7,
-      "computed_at": "2026-05-10",
-      "expires_at": "2026-05-24",
-      "used": false
-    },
-    {
       "kind": "skill_celebration",
-      "content": "Celebrate concretely: correctly converted 'He eats biryani every weekend' to passive voice (e.g. \"biryani is eaten by him every weekend\")",
+      "content": "Celebrate concretely: correctly produced valid rhymes on first attempt (e.g. \"same, lame, name for game\")",
       "source_id": null,
       "priority": 5,
-      "computed_at": "2026-05-10",
-      "expires_at": "2026-05-24",
-      "used": false
-    },
-    {
-      "kind": "moment_followup",
-      "content": "Gently check in: \"i would give her the freedom and trust her. Because she gave me all the reasons to do it..\" (tone: hopeful)",
-      "source_id": "mo_002",
-      "priority": 4,
-      "computed_at": "2026-05-10",
-      "expires_at": "2026-05-24",
-      "used": false
-    },
-    {
-      "kind": "moment_followup",
-      "content": "Gently check in: \"i couldn't understand back then, now i do.\" (tone: content)",
-      "source_id": "mo_003",
-      "priority": 4,
-      "computed_at": "2026-05-10",
-      "expires_at": "2026-05-24",
+      "computed_at": "2026-05-02",
+      "expires_at": "2026-05-16",
       "used": false
     }
   ],
   "skills": {
     "error_patterns": [
       {
-        "pattern": "drops capitalization of the pronoun 'I'",
+        "pattern": "omits auxiliary verb in questions",
         "examples": [
-          "i have my bday tomorrow",
-          "i need some advice, how do i get my ex back?"
+          "what rhyme mean?"
         ],
-        "occurrences": 2,
-        "first_seen": "2026-05-06",
-        "last_seen": "2026-05-06",
+        "occurrences": 1,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
         "status": "active"
       }
     ],
     "wins": [
       {
-        "what": "correctly converted 'He eats biryani every weekend' to passive voice",
+        "what": "correctly produced valid rhymes on first attempt",
         "examples": [
-          "biryani is eaten by him every weekend"
+          "same, lame, name for game"
         ],
         "count": 1,
-        "first_seen": "2026-05-07",
-        "last_seen": "2026-05-07"
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02"
       }
     ],
     "curriculum": [
       {
-        "pattern": "drops capitalization of the pronoun 'I'",
-        "occurrences": 2,
-        "days_since_last": 4,
+        "pattern": "omits auxiliary verb in questions",
+        "occurrences": 1,
+        "days_since_last": 0,
         "examples": [
-          "i have my bday tomorrow",
-          "i need some advice, how do i get my ex back?"
+          "what rhyme mean?"
         ]
       }
     ]
@@ -527,60 +148,12 @@
     ],
     "shared_with_user": []
   },
-  "open_loops": [
-    {
-      "id": "ol_004",
-      "kind": "maya_promise",
-      "content": "practice conversation starters for talking to girls at a club",
-      "source_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-      "source_date": "2026-05-10",
-      "status": "active",
-      "expires_at": "2026-06-09"
-    },
-    {
-      "id": "ol_005",
-      "kind": "user_promise",
-      "content": "practice conversation skills with girls at clubs",
-      "source_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
-      "source_date": "2026-05-10",
-      "status": "active",
-      "expires_at": "2026-06-09"
-    },
-    {
-      "id": "ol_001",
-      "kind": "event_pending",
-      "content": "what the user is doing to celebrate their birthday",
-      "source_session": "1de197ca-ae48-49fa-a794-5e27068adc60",
-      "source_date": "2026-05-06",
-      "status": "active",
-      "expires_at": "2026-06-05"
-    },
-    {
-      "id": "ol_002",
-      "kind": "event_pending",
-      "content": "decide what to do for birthday celebration",
-      "source_session": "1de197ca-ae48-49fa-a794-5e27068adc60",
-      "source_date": "2026-05-06",
-      "status": "active",
-      "expires_at": "2026-06-05"
-    },
-    {
-      "id": "ol_003",
-      "kind": "maya_promise",
-      "content": "continue dating conversation: getting ex back",
-      "source_session": "9977ee36-ba5e-484a-8cec-6b2c7c25d72f",
-      "source_date": "2026-05-06",
-      "status": "active",
-      "expires_at": "2026-06-05"
-    }
-  ],
+  "open_loops": [],
   "meta_preferences": {
     "correction_style": null,
     "reply_length": null,
     "humor_level": null,
-    "off_limits_topics": [
-      "movies"
-    ],
+    "off_limits_topics": [],
     "asked_at": {}
   }
 }
