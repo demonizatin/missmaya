@@ -1,6 +1,6 @@
 # Librarian (memory-merge librarian)
 
-**Role:** Non-streaming call on /end_session. Reads transcript + current memory, returns a JSON patch the server applies to the users memory file. Now routed through Qwen Bedrock (formerly Haiku CLI).
+**Role:** Non-streaming call on /end_session. Routed through Qwen Bedrock.
 
 ---
 

@@ -1,6 +1,6 @@
 # Output judge (replaced the 12 regex guards)
 
-**Role:** One Qwen Bedrock call per Maya reply. Returns structured JSON with verdict + optional rewrite. Lives in judge_guard.py.
+**Role:** One Qwen Bedrock call per Maya reply. Lives in judge_guard.py.
 
 ---
 

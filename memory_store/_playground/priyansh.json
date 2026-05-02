@@ -24,6 +24,9 @@
     ],
     "exam_prep": [
       "GMAT (exam)"
+    ],
+    "career_interests": [
+      "product manager"
     ]
   },
   "events": [
@@ -147,26 +150,44 @@
     {
       "session_id": "ce566403-1412-44d9-8069-6dff131fb65e",
       "date": "2026-05-09",
-      "label": "anxious",
-      "energy": 3,
-      "confidence": 0.24,
+      "label": "neutral",
+      "energy": 4,
+      "confidence": 0.3,
       "behavioral": {
-        "msg_count": 15,
-        "total_chars": 308,
-        "avg_words": 4.1,
+        "msg_count": 22,
+        "total_chars": 372,
+        "avg_words": 3.5,
         "questions_back": 7,
         "exclamations": 0,
-        "negation_density": 0.0,
-        "engagement_score": 0.7
+        "negation_density": 0.013,
+        "engagement_score": 0.67
       },
-      "agreement": "hard_conflict",
+      "agreement": "match",
       "linked_event_id": null
     }
   ],
   "cooldown": {
     "recent_topics": [
       {
+        "topic": "passive voice practice",
+        "last_session": "ce566403-1412-44d9-8069-6dff131fb65e",
+        "last_date": "2026-05-09",
+        "uses": 1
+      },
+      {
+        "topic": "product manager role",
+        "last_session": "ce566403-1412-44d9-8069-6dff131fb65e",
+        "last_date": "2026-05-09",
+        "uses": 1
+      },
+      {
         "topic": "passive voice",
+        "last_session": "ce566403-1412-44d9-8069-6dff131fb65e",
+        "last_date": "2026-05-09",
+        "uses": 1
+      },
+      {
+        "topic": "product management",
         "last_session": "ce566403-1412-44d9-8069-6dff131fb65e",
         "last_date": "2026-05-09",
         "uses": 1
@@ -218,24 +239,6 @@
         "last_session": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
         "last_date": "2026-05-07",
         "uses": 1
-      },
-      {
-        "topic": "swimming",
-        "last_session": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
-        "last_date": "2026-05-07",
-        "uses": 1
-      },
-      {
-        "topic": "GMAT prep",
-        "last_session": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
-        "last_date": "2026-05-07",
-        "uses": 1
-      },
-      {
-        "topic": "birthday plans",
-        "last_session": "1de197ca-ae48-49fa-a794-5e27068adc60",
-        "last_date": "2026-05-06",
-        "uses": 2
       }
     ],
     "recent_openers": [

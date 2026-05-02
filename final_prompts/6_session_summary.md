@@ -1,6 +1,6 @@
 # Rolling session-summary compression
 
-**Role:** Background non-streaming call after the conversation grows past WINDOW_SIZE. Compresses older messages so Maya keeps continuity without paying token cost.
+**Role:** Background non-streaming call after the conversation grows past WINDOW_SIZE.
 
 ---
 
