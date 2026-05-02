@@ -1,176 +1,111 @@
 # Miss Maya — PeerUp's AI English-tutor prototype
 
-A Flask-based chat prototype for **Miss Maya**, the AI English-tutor character built by [PeerUp](https://www.peerup.com). This repo is the experimental playground where new prompts, memory-architecture changes, and model integrations are tested before they ship to the production app.
+A Flask chat prototype for **Miss Maya**, the AI English-tutor character built by [PeerUp](https://www.peerup.com). All chat, output review, and memory-write paths run on **Qwen 32B via AWS Bedrock** (`qwen.qwen3-32b-v1:0`). No Anthropic models, no CLI fallbacks.
 
-> **Status**: prototype. Not the production codebase. Use it as a reference, not a deploy target.
+> Status: prototype. Reference for the production app, not a deploy target.
 
 ---
 
 ## What's in here
 
-Three chat surfaces, each with a different purpose:
-
 | URL | Purpose |
 | --- | --- |
-| **`/`** | Production-shape chat. Audio-style call surface with avatar video + TTS. The "real product" simulator. |
-| **`/playground`** | Sandbox for memory experiments. Same chat flow, but isolated storage so prod data never gets touched. Where new memory buckets / merge logic / prompt edits get tested first. |
-| **`/qwen-lab`** | A/B prompt comparison sandbox. Runs the same user input through two prompt sets in parallel — existing prompts on the left, Qwen-tuned rewrites on the right — both pinned to Qwen 32B on Bedrock. |
+| `/` | Production-shape chat. Audio-style call surface with avatar video + TTS. |
+| `/playground` | Sandbox for memory + prompt experiments. Isolated storage. |
+| `/qwen-lab` | A/B prompt comparison (left = baseline prompts, right = active Qwen-tuned set). |
 
-Plus admin pages: `/prompts`, `/playground/prompts`, `/playground/docs`, `/settings`, `/evals`.
+Plus admin: `/prompts`, `/playground/prompts`, `/playground/docs`, `/settings`, `/evals`.
 
 ---
 
-## Quick start (0 → 1)
-
-### 1. Clone and enter the repo
+## Quick start
 
 ```bash
 git clone <this-repo-url>
 cd peerup-prototype
-```
-
-### 2. Configure secrets
-
-```bash
 cp .env.example .env
-# open .env in your editor and fill in either:
-#   - ANTHROPIC_API_KEY      (for Anthropic API calls), AND/OR
-#   - AWS_BEARER_TOKEN_BEDROCK or AWS_ACCESS_KEY_ID + SECRET   (for Bedrock)
-# At least one backend must be configured. Bedrock is the default for Qwen 32B.
-```
-
-### 3. (Optional) Install the Claude CLI
-
-If you want a third backend option that uses your Claude subscription instead of API metering:
-
-```bash
-# macOS
-curl -fsSL https://claude.ai/install.sh | bash
-claude --version
-```
-
-The CLI is detected at runtime; if absent, the app falls back to API or Bedrock.
-
-### 4. Run
-
-```bash
+# fill in AWS_BEARER_TOKEN_BEDROCK (12-hour scoped token for Bedrock)
 ./run.sh
 ```
 
-This creates a Python venv, installs `requirements.txt`, and starts Flask on port 5050. Visit:
-
-- **http://localhost:5050** — production-shape chat
-- **http://localhost:5050/playground** — playground sandbox
-- **http://localhost:5050/qwen-lab** — A/B prompt comparison
-- **http://localhost:5050/playground/docs** — full architecture documentation
-
-### 5. Send your first message
-
-1. Pick a profile from the welcome screen.
-2. Click **Start chat**.
-3. Maya should reply within a few seconds. Stream is SSE; tokens arrive incrementally.
-
-If Maya doesn't reply, check the browser console and the terminal running `./run.sh` — almost always a missing API key or Bedrock credential.
+Visit `http://localhost:5050`. Pick a profile, click **Start chat**.
 
 ---
 
 ## Architecture in one paragraph
 
-Each user has **one JSON file** on disk (`memory_store/<slug>.json`) holding 11 buckets of memory: facts, dated events, emotionally weighted moments, per-session mood log, repetition cooldown, inside jokes, pre-cooked openers, English skill patterns, Maya's revealed self, open conversational loops, and user-set preferences. On every chat turn, the file is read and rendered into a natural-language block injected into Maya's system prompt. After the user ends the session, a separate "librarian" LLM call reads the transcript + current memory and writes a JSON patch back to the file — that's how memory persists across sessions.
-
-The model that powers Maya is selectable per-session: **Qwen 32B on AWS Bedrock** (default), Anthropic's **Sonnet 4.6** or **Haiku 4.5** via API, or Claude via the local **Claude CLI** subscription. Backend choice doesn't affect memory architecture — every backend reads from and writes to the same JSON files.
-
-For a deep dive: open **`/playground/docs`** while the app is running.
+Each user has one JSON file on disk (`memory_store/<slug>.json`) holding 11 buckets of memory: facts, dated events, emotionally weighted moments, mood log, repetition cooldown, inside jokes, pre-cooked openers, English skill patterns, Maya's revealed self, open conversational loops, user-set preferences. Every chat turn renders the file into a natural-language block injected into Maya's system prompt. Maya's reply runs through a single Qwen-based **output judge** (`judge_guard.py`) that may rewrite the reply against 10 rules. After `/end_session`, a separate **librarian** Qwen call reads the transcript + memory and writes a JSON patch back. Both judge and librarian are Qwen — there are no Anthropic models in the live path.
 
 ---
 
-## The 7 prompts
+## The 8 prompts in production
 
-Every chat turn assembles its prompt from these constants (all in `app.py`):
+All eight live in `final_prompts/` (extracted from `app.py` + `judge_guard.py` for easy reading). Source of truth is still the constants in those two files.
 
-| Constant | Role | Where it fires |
+| File | Role | When |
 | --- | --- | --- |
-| `SYSTEM_PROMPT_TEMPLATE` | Rules 1–28: tone, corrections, output format | Every turn (system role) |
-| `PG_EXTRA_RULES` | Rules 29–37: emotional thread, mood, cooldown, lore, persona, open loops, user prefs | Every turn (spliced into system prompt) |
-| `AVATAR_PROMPT` | Maya's character description | Every turn (interpolated into Rule 1) |
-| `FIRST_MESSAGE_TEMPLATE` | First-turn user-message wrapper for **returning users** | Session start, returning |
-| `GENERIC_FIRST_MESSAGE_TEMPLATE` | First-turn wrapper for **brand-new users** | Session start, no memory |
-| `SESSION_SUMMARY_PROMPT` | Background rolling-summary compression | After ~30 messages, lazy |
-| `PG_MEMORY_MERGE_PROMPT` | The librarian — returns a JSON patch | On `End chat` |
+| `final_prompts/1_system_prompt.md` | Maya persona + rules 1-28 | Every chat turn |
+| `final_prompts/2_extra_rules.md` | Rules 29-37 (emotional thread, mood, cooldown, lore, etc.) | Every chat turn |
+| `final_prompts/3_avatar_prompt.md` | Maya's character description | Every chat turn |
+| `final_prompts/4_first_message_returning_user.md` | Opening turn for returning users | Session start, has memory |
+| `final_prompts/5_first_message_new_user.md` | Opening turn for brand-new users | Session start, no memory |
+| `final_prompts/6_session_summary.md` | Rolling-summary compression | Background, > WINDOW_SIZE messages |
+| `final_prompts/7_librarian_memory_merge.md` | Writes JSON patch to memory | On `/end_session` |
+| `final_prompts/8_output_judge.md` | Reviews + rewrites every Maya reply | Before reply ships to user |
 
-A Qwen-tuned rewrite of all 7 (named `QWEN_*`) lives alongside the originals and is served by the **`/qwen-lab`** A/B surface. Click **📋 View final Qwen prompts** on the lab welcome screen → **⬇ Download all (.zip)** to grab them with integration instructions.
+---
+
+## The output judge (replaces 12 regex guards)
+
+`judge_guard.py` runs one Qwen Bedrock call per Maya reply. Returns structured JSON: `{verdict, violations_found, rewritten_reply, confidence}`. If verdict is "rewrite" with confidence ≥ 0.7, the rewritten reply ships to the user; otherwise the original ships.
+
+Pre-flight gating: `judge_preflight.py` runs the judge against `judge_test_set.json` (40 cases, 30 violations + 10 benign). Required ≥90% recall, ≤10% FP. The current prompt passes at 100% recall on intent rules. Mechanical rules (em-dash, multi-question) have a hard ceiling on Qwen 32B — see `memory_store/_eval_50/reports/judge_vs_regex_*.pdf` for the honest eval.
+
+---
+
+## Date-aware additive openers
+
+When a returning user opens a session, `pg_select_date_trigger()` checks for:
+1. Birthday today / tomorrow / yesterday (`facts.birthday`)
+2. Anniversary today / tomorrow / yesterday (`facts.anniversary`)
+3. Stored event with date today / tomorrow / 1-3 days ago
+
+At most one trigger per session (priority: birthday > anniversary > event). If a trigger fires, an additive instruction is injected into the memory block — Maya wishes / acknowledges / asks-how-it-went, AND continues with her usual question. After the reply ships, `pg_mark_acknowledgement()` records the trigger in `mem.acknowledgements` so a same-day reopen doesn't repeat the wish. Birthdays/anniversaries are stored as `MM-DD` for year-rolling; events use full `YYYY-MM-DD`.
 
 ---
 
 ## The 11 memory buckets
 
-| Bucket | What it holds | Lifecycle |
+| Bucket | Holds | Lifecycle |
 | --- | --- | --- |
-| `facts` | Timeless truths (name, profession, family, hometown, interests). | Forever, until contradicted. Name is overwrite-protected. |
+| `facts` | Timeless truths (name, profession, family, hometown, birthday, anniversary). | Forever. Name overwrite-protected. |
 | `events` | Dated things (exams, weddings, matches). | Auto-archive 14 days after the date. |
-| `moments` | Emotionally weighted statements (no date). | Persist long-term. Dedupe + bump `mentions`. |
-| `mood_log` | One mood reading per session. | Last 14 entries. FIFO. |
-| `cooldown` | Topics + opener kinds + opener phrases Maya raised recently. | FIFO buffers (12 / 10 / 6). |
-| `lore` | Inside jokes between Maya and the user. | Up to 30. Dormant items can resurface. |
-| `anticipation_queue` | Pre-cooked openers Maya plans for next time. | Up to 5. TTL 14 days. Consumed on use. |
+| `moments` | Emotionally weighted statements (no date). | Persist. Dedupe + bump `mentions`. |
+| `mood_log` | One mood reading per session. | Last 14 entries. |
+| `cooldown` | Recent topics + opener kinds. | FIFO buffers (12 / 10 / 6). |
+| `lore` | Inside jokes Maya + user share. | Up to 30. |
+| `anticipation_queue` | Pre-cooked openers Maya plans for next time. | Up to 5. TTL 14 days. |
 | `skills` | English error patterns + wins + current focus. | Up to 20 errors / 30 wins. |
-| `maya_persona` | Maya's character + what she's already revealed to this user. | Decoration only. Never claims biography. |
-| `open_loops` | Threads either party said they'd come back to. | Up to 12. Auto-expire 30 days unfollowed. |
+| `maya_persona` | Maya's character + revealed self. | Decoration only. Never claims biography. |
+| `open_loops` | Threads either party said they'd come back to. | Up to 12. Auto-expire 30 days. |
 | `meta_preferences` | User-set knobs (correction style, reply length, humor, off-limits). | Hard override. User's word is law. |
+| `acknowledgements` | Date-trigger anti-spam (per-trigger last-fired date). | Indefinite, small. |
 
-Open a chat and click **📦 My memory** in the header for the live, in-app version with all buckets and lifecycle tables.
-
----
-
-## Routes
-
-### Public
-
-```
-GET  /                         Production-shape chat
-GET  /playground               Memory-experiments sandbox
-GET  /qwen-lab                 Qwen A/B prompt comparison
-
-POST /chat                     Streaming chat (prod path)
-POST /playground/chat          Streaming chat (playground path)
-POST /qwen-lab/chat            Dual-stream chat (left = old prompts, right = Qwen-tuned)
-
-POST /end_session              Run librarian + save memory (prod)
-POST /playground/end_session   Same, playground
-POST /qwen-lab/end_session     Run librarian on BOTH sides
-
-GET  /memory                   Memory inspector (prod)
-GET  /playground/memory        Memory inspector (playground)
-GET  /qwen-lab/memory          Memory inspector (lab)
-```
-
-### Admin
-
-```
-GET  /prompts                  Edit production prompt overrides (password-protected)
-GET  /playground/prompts       Edit playground prompt overrides
-GET  /playground/docs          Full architecture documentation
-GET  /settings                 Backend / API key configuration
-GET  /evals                    Multi-profile, multi-backend eval runner
-GET  /qwen-lab/api/prompts     JSON dump of every QWEN_* prompt
-GET  /qwen-lab/api/prompts/download   Bundle all QWEN_* prompts + INSTRUCTIONS.md as .zip
-POST /playground/api/ask       Opus-powered Q&A bot for the integrating dev
-```
+Open a chat → `📦 My memory` for the live in-app inspector.
 
 ---
 
-## Sharing the running app publicly
+## Eval harness
 
-For demos / showing testers, the app is wired to be exposable via [ngrok](https://ngrok.com):
+The `eval_50.py` script runs a 50-session synthetic conversation suite across five tiers: same-day, consecutive-day, sporadic-gap, cold-start, deep-run. Output goes to `memory_store/_eval_50/`. Scoring + comparison reports:
 
 ```bash
-brew install ngrok            # one-time
-ngrok config add-authtoken <your-token>
-./run.sh                      # in one terminal
-ngrok http 5050               # in another — gives you a public URL
+./.venv/bin/python run_judge_eval.py        # run 50 sessions into validation_judge_only/
+./.venv/bin/python score_judge_run.py       # score vs the regex baseline
+./.venv/bin/python eval_50_judge_report.py  # generate the comparison PDF
 ```
 
-The Werkzeug debugger is automatically disabled (`debug=False`) when `PEERUP_DEBUG` is unset, so the public URL is safe to share with a few testers. **Do not** post the URL widely — there is no auth.
+Latest comparison: `memory_store/_eval_50/reports/judge_vs_regex_<ts>.pdf`.
 
 ---
 
@@ -178,44 +113,40 @@ The Werkzeug debugger is automatically disabled (`debug=False`) when `PEERUP_DEB
 
 ```
 .
-├── app.py                       # The whole Flask app — ~5,000 lines, all backends
-├── requirements.txt             # 4 deps: anthropic[bedrock], boto3, flask, edge-tts
-├── run.sh                       # venv setup + launch
-├── .env.example                 # template for secrets (copy to .env)
+├── app.py                       # Flask app; all routes + prompts + memory logic
+├── judge_guard.py               # Qwen output-judge layer (replaces regex guards)
+├── judge_preflight.py           # Pre-flight gate for the judge
+├── judge_test_set.json          # 40 curated judge test cases
+├── final_prompts/               # The 8 active prompts, one per file
+├── eval_50.py                   # 50-session synthetic eval harness
+├── eval_50_judge_report.py      # PDF comparison report generator
+├── score_judge_run.py           # Categorical scoring of a transcript folder
+├── run_judge_eval.py            # Wrapper: 50-session run into isolated dir
+├── requirements.txt
+├── run.sh
+├── .env.example                 # Copy to .env and fill AWS_BEARER_TOKEN_BEDROCK
 ├── templates/
-│   ├── index.html               # Prod chat surface (audio-call style)
-│   ├── playground.html          # Playground chat surface
-│   ├── qwen_lab.html            # A/B comparison surface
-│   ├── playground_docs.html     # In-app architecture docs
-│   ├── prompts.html             # Prompt admin (prod)
-│   ├── playground_prompts.html  # Prompt admin (playground)
-│   ├── settings.html            # Backend / API config
-│   ├── evals.html               # Eval runner
-│   └── ...
 ├── static/peerup/               # Avatar video + UI assets
-├── voices/                      # Pre-rendered TTS samples (gitignored — 121MB)
+├── voices/                      # Pre-rendered TTS samples (gitignored, ~120MB)
 └── memory_store/                # Per-user JSON memory + session summaries
-    ├── <user>.json              # Prod memory (one file per user)
+    ├── <user>.json              # Prod memory
     ├── _playground/             # Playground sandbox (isolated)
-    │   └── <user>.json
-    └── _qwen_lab/               # A/B lab (split per side)
-        ├── old/<user>.json
-        └── new/<user>.json
+    ├── _qwen_lab/               # A/B lab (split per side)
+    └── _eval_50/                # Eval transcripts + reports
 ```
 
 ---
 
-## Backend selection
+## Sharing the running app
 
-The app supports four backends. Selection happens per-session via the dropdown on the welcome screen:
+```bash
+brew install ngrok
+ngrok config add-authtoken <your-token>
+./run.sh                         # one terminal
+ngrok http 5050                  # another — gives a public URL
+```
 
-| Backend | When to use |
-| --- | --- |
-| **Bedrock — Qwen 32B** (default) | Fastest TTFT; cheapest with `enable_thinking: false`; the model the prod app uses. |
-| **Bedrock — Anthropic Claude** (Sonnet 4.5, Haiku 4.5, with `apac.` / `us.` / `global.` regional prefixes) | When you want tighter rule-following than Qwen offers. |
-| **Bedrock — NVIDIA Nemotron Nano 3 30B** | Experimental. Routed via the same Converse API path as Qwen. |
-| **Anthropic API** (Sonnet 4.6, Haiku 4.5) | If you don't have AWS Bedrock set up. Pay-per-token. |
-| **Claude CLI** (local subscription) | Free if you have a paid Claude subscription. Slower than API. |
+Werkzeug debugger is off by default. Don't post the URL widely — there's no auth.
 
 ---
 
@@ -224,12 +155,12 @@ The app supports four backends. Selection happens per-session via the dropdown o
 This is a prototype that lives next to the production app. Two things to know:
 
 1. **Don't change the prompts directly.** Use `/playground/prompts` (or the in-memory `QWEN_*` constants for the lab) so changes are scoped to one sandbox at a time.
-2. **The librarian merge prompt is the highest-leverage thing in the codebase.** Tweaks here ripple across every user's stored memory. Test in the playground for a few sessions before promoting.
+2. **The librarian + judge prompts are the highest-leverage things in the codebase.** Tweaks here ripple across every user. Test in the playground for a few sessions, then run the 50-session eval before promoting.
 
-For a deeper dive into the memory system, prompt internals, and the experimental V4 → V6 roadmap: open `/playground/docs` while the app is running.
+For the deepest dive: open `/playground/docs` while the app is running.
 
 ---
 
 ## License
 
-No license file. Default copyright applies. Treat this as reference code, not as something to fork-and-deploy without explicit permission.
+No license file. Default copyright applies. Reference code, not for fork-and-deploy.
