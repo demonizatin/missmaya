@@ -1,0 +1,1200 @@
+{
+  "session_count": 50,
+  "summary_metrics": {
+    "avg_reply_words": 25.7,
+    "replies_over_120w": 0,
+    "replies_under_8w": 2,
+    "avg_memory_ref_rate_returning_users": 0.32,
+    "opener_repetition_pairs": 4,
+    "stale_phrase_total_hits": 0,
+    "wrap_up_seen_count": 23
+  },
+  "ranked_gaps": [
+    {
+      "id": "opener_repetition",
+      "severity": 5,
+      "frequency_pct": 8.0,
+      "count": 4,
+      "layer": "guard",
+      "description": "4 pairs of openers across same-user sessions had >=0.65 structural similarity.",
+      "examples": [
+        {
+          "user": "u02_aarti",
+          "session_a": 12,
+          "session_b": 18,
+          "ratio": 0.74,
+          "a_raw": "Hi Aarti, I'm Miss Maya. Honestly, the monsoon rains make me feel relaxed. How's your NEET PG prep going these days?",
+          "b_raw": "Hi Aarti, I'm Miss Maya. Honestly, I love the way monsoon makes me feel cozy and relaxed. How are you feeling today?"
+        },
+        {
+          "user": "u02_aarti",
+          "session_a": 14,
+          "session_b": 17,
+          "ratio": 0.78,
+          "a_raw": "Hi Aarti, I'm Miss Maya. How has your day been so far?",
+          "b_raw": "Hi Aarti, I'm Miss Maya. How was your day with NEET PG prep?"
+        },
+        {
+          "user": "u02_aarti",
+          "session_a": 18,
+          "session_b": 19,
+          "ratio": 0.66,
+          "a_raw": "Hi Aarti, I'm Miss Maya. Honestly, I love the way monsoon makes me feel cozy and relaxed. How are you feeling today?",
+          "b_raw": "Hi Aarti, I'm Miss Maya. Honestly, the monsoon makes me sleepy too, but I find warm chai helps shake it off. How was your day?"
+        },
+        {
+          "user": "u04_neha",
+          "session_a": 46,
+          "session_b": 47,
+          "ratio": 0.86,
+          "a_raw": "Hi Neha, I'm Miss Maya. I'm glad you're here to practice English. What's been keeping you busy today?",
+          "b_raw": "Hi Neha, I'm Miss Maya. I'm glad you're here to practice English, it's a wonderful way to learn. What's been keeping you busy today?"
+        }
+      ],
+      "suggested_fix": "Add a deterministic first-turn similarity check that strips opener if normalized form matches one of the last 6 stored opening_phrases by SequenceMatcher >= 0.7.",
+      "score": 250
+    },
+    {
+      "id": "multiple_questions_per_reply",
+      "severity": 3,
+      "frequency_pct": 6.0,
+      "count": 5,
+      "layer": "prompt",
+      "description": "Maya included 2+ questions in 5 replies across 3 sessions (Rule 9 violation).",
+      "examples": [
+        {
+          "session_idx": 5,
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "\"Medium with a kick sounds perfect. A little playful banter with the wife adds to the fun, right? Pappu! What’s your go to spicy dish when you want that extra heat?\""
+        },
+        {
+          "session_idx": 22,
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "\"Drawing a table is a great idea, it makes things clearer. The cat idea is fun, right? It makes learning feel lighter. What’s one side effect you find hardest to remember?\""
+        },
+        {
+          "session_idx": 46,
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "\"Got it, send the draft and lean into the mess, drama can be productive. New coffee, fancy name, and a lid that stays on? Now that’s a plan. What’s your go to fancy coffee order?\""
+        }
+      ],
+      "suggested_fix": "Sharpen Rule 9 with 'NEVER more than ONE question mark per reply'. Optionally a guard that drops trailing questions when count>1.",
+      "score": 18.0
+    }
+  ],
+  "per_session_metrics": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        25,
+        21,
+        16,
+        20,
+        21,
+        23
+      ],
+      "avg_words": 21.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        22,
+        27,
+        27,
+        29,
+        25,
+        28,
+        28
+      ],
+      "avg_words": 25.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.25,
+      "has_memory": true
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        26,
+        18,
+        24,
+        22,
+        26,
+        22,
+        26,
+        27,
+        23,
+        26
+      ],
+      "avg_words": 24.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        24,
+        23,
+        23,
+        25,
+        30,
+        31,
+        28,
+        17,
+        20,
+        25,
+        18,
+        26
+      ],
+      "avg_words": 24.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.08,
+      "has_memory": true
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "\"Medium with a kick sounds perfect. A little playful banter with the wife adds to the fun, right? Pappu! What’s your go to spicy dish when you want that extra heat?\""
+        }
+      ],
+      "word_counts": [
+        22,
+        27,
+        23,
+        31,
+        29,
+        28,
+        26,
+        30,
+        27,
+        26,
+        25,
+        25
+      ],
+      "avg_words": 26.6,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        28,
+        32,
+        30,
+        45,
+        29,
+        21
+      ],
+      "avg_words": 30.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        8,
+        25,
+        29,
+        33,
+        26,
+        26,
+        33,
+        30,
+        30,
+        27,
+        31,
+        28
+      ],
+      "avg_words": 27.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.67,
+      "has_memory": true
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        29,
+        29,
+        34,
+        32,
+        38,
+        41,
+        26,
+        45
+      ],
+      "avg_words": 34.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.5,
+      "has_memory": true
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        22,
+        27,
+        30,
+        40,
+        37,
+        31
+      ],
+      "avg_words": 31.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.33,
+      "has_memory": true
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        20,
+        35,
+        27,
+        27,
+        29,
+        28,
+        28,
+        20,
+        20,
+        23
+      ],
+      "avg_words": 25.7,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.3,
+      "has_memory": true
+    },
+    {
+      "session_idx": 11,
+      "label": "B01_consec_d0",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        17,
+        19,
+        16,
+        21,
+        20,
+        28
+      ],
+      "avg_words": 20.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 12,
+      "label": "B02_consec_d1",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        24,
+        25,
+        36,
+        24,
+        26,
+        24,
+        14,
+        20,
+        14
+      ],
+      "avg_words": 22.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.4,
+      "has_memory": true
+    },
+    {
+      "session_idx": 13,
+      "label": "B03_consec_d2",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        27,
+        47,
+        45,
+        27,
+        22,
+        19,
+        10
+      ],
+      "avg_words": 26.6,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.38,
+      "has_memory": true
+    },
+    {
+      "session_idx": 14,
+      "label": "B04_consec_d3",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        12,
+        14,
+        21,
+        26,
+        31,
+        26,
+        31,
+        24
+      ],
+      "avg_words": 23.1,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.62,
+      "has_memory": true
+    },
+    {
+      "session_idx": 15,
+      "label": "B05_consec_d4",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        32,
+        13,
+        23,
+        22,
+        19,
+        20
+      ],
+      "avg_words": 21.5,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 16,
+      "label": "B06_consec_d5",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        25,
+        21,
+        23,
+        12,
+        20
+      ],
+      "avg_words": 20.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.2,
+      "has_memory": true
+    },
+    {
+      "session_idx": 17,
+      "label": "B07_consec_d6",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        13,
+        11,
+        15,
+        15,
+        16,
+        24,
+        19,
+        15
+      ],
+      "avg_words": 16.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.25,
+      "has_memory": true
+    },
+    {
+      "session_idx": 18,
+      "label": "B08_consec_d7",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        22,
+        27,
+        27,
+        23,
+        26,
+        34,
+        35,
+        37,
+        30,
+        27,
+        37,
+        40
+      ],
+      "avg_words": 30.4,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.5,
+      "has_memory": true
+    },
+    {
+      "session_idx": 19,
+      "label": "B09_consec_d8",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        25,
+        24,
+        21,
+        25,
+        19,
+        26,
+        28,
+        22,
+        26,
+        22
+      ],
+      "avg_words": 23.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.4,
+      "has_memory": true
+    },
+    {
+      "session_idx": 20,
+      "label": "B10_consec_d9",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        20,
+        21,
+        18,
+        21,
+        19,
+        32,
+        32,
+        19,
+        29,
+        18,
+        7,
+        21,
+        23,
+        15
+      ],
+      "avg_words": 21.1,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.14,
+      "has_memory": true
+    },
+    {
+      "session_idx": 21,
+      "label": "B11_consec_d10",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        27,
+        24,
+        33,
+        32,
+        25,
+        32,
+        25,
+        19
+      ],
+      "avg_words": 27.1,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.25,
+      "has_memory": true
+    },
+    {
+      "session_idx": 22,
+      "label": "B12_consec_d11",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "\"Drawing a table is a great idea, it makes things clearer. The cat idea is fun, right? It makes learning feel lighter. What’s one side effect you find hardest to remember?\""
+        },
+        {
+          "turn": 7,
+          "q_count": 2,
+          "snippet": "\"Tiny coughing doctor, I like that! It makes it visual, right? What’s a word or phrase you’d give to another tricky side effect?\""
+        },
+        {
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "\"Angiotensin anger is a fun twist! Music breaks help, right? Bach or Beethoven, what’s your mood today?\""
+        }
+      ],
+      "word_counts": [
+        12,
+        19,
+        38,
+        31,
+        31,
+        36,
+        23,
+        17,
+        23,
+        25,
+        28,
+        25,
+        17,
+        13
+      ],
+      "avg_words": 24.1,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.29,
+      "has_memory": true
+    },
+    {
+      "session_idx": 23,
+      "label": "B13_consec_d12",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        27,
+        33,
+        16,
+        23,
+        22,
+        24,
+        22,
+        21
+      ],
+      "avg_words": 23.5,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.5,
+      "has_memory": true
+    },
+    {
+      "session_idx": 24,
+      "label": "B14_consec_d13",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        27,
+        22,
+        23,
+        23,
+        22,
+        28,
+        35,
+        26,
+        26,
+        21,
+        32,
+        31
+      ],
+      "avg_words": 26.3,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.33,
+      "has_memory": true
+    },
+    {
+      "session_idx": 25,
+      "label": "B15_consec_d14",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        20,
+        23,
+        35,
+        40,
+        48,
+        34
+      ],
+      "avg_words": 33.3,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.33,
+      "has_memory": true
+    },
+    {
+      "session_idx": 26,
+      "label": "C01_sporadic_d0",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        18,
+        17,
+        23,
+        27,
+        22,
+        24
+      ],
+      "avg_words": 21.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 27,
+      "label": "C02_sporadic_d9",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        12,
+        19,
+        25,
+        28,
+        23,
+        23,
+        33,
+        21,
+        18,
+        23,
+        23,
+        32
+      ],
+      "avg_words": 23.3,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.42,
+      "has_memory": true
+    },
+    {
+      "session_idx": 28,
+      "label": "C03_sporadic_d19",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        12,
+        23,
+        29,
+        23,
+        39,
+        32
+      ],
+      "avg_words": 26.3,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 29,
+      "label": "C04_sporadic_d31",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        29,
+        23,
+        30,
+        37,
+        29,
+        50,
+        40,
+        42
+      ],
+      "avg_words": 35.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.38,
+      "has_memory": true
+    },
+    {
+      "session_idx": 30,
+      "label": "C05_sporadic_d38",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        18,
+        27,
+        30,
+        21,
+        32,
+        30,
+        33,
+        28,
+        40,
+        37,
+        29
+      ],
+      "avg_words": 29.5,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.36,
+      "has_memory": true
+    },
+    {
+      "session_idx": 31,
+      "label": "C06_sporadic_d46",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        25,
+        25,
+        10,
+        28,
+        24,
+        22,
+        26
+      ],
+      "avg_words": 22.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.5,
+      "has_memory": true
+    },
+    {
+      "session_idx": 32,
+      "label": "C07_sporadic_d51",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        14,
+        20,
+        24,
+        21,
+        30,
+        30
+      ],
+      "avg_words": 23.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.67,
+      "has_memory": true
+    },
+    {
+      "session_idx": 33,
+      "label": "C08_sporadic_d60",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        24,
+        25,
+        32,
+        37,
+        33,
+        37,
+        31,
+        27
+      ],
+      "avg_words": 30.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.38,
+      "has_memory": true
+    },
+    {
+      "session_idx": 34,
+      "label": "C09_sporadic_d68",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        27,
+        21,
+        29,
+        25,
+        29,
+        25,
+        31,
+        27,
+        27,
+        25,
+        26,
+        24
+      ],
+      "avg_words": 26.3,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.08,
+      "has_memory": true
+    },
+    {
+      "session_idx": 35,
+      "label": "C10_sporadic_d80",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        9,
+        20,
+        19,
+        26,
+        34,
+        30,
+        36,
+        32
+      ],
+      "avg_words": 25.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.75,
+      "has_memory": true
+    },
+    {
+      "session_idx": 36,
+      "label": "D01_coldstart_u01_pr",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        22,
+        19,
+        15,
+        14,
+        14,
+        16,
+        16,
+        13
+      ],
+      "avg_words": 16.1,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 37,
+      "label": "D02_coldstart_u02_aa",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        24,
+        27,
+        27,
+        20
+      ],
+      "avg_words": 22.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 38,
+      "label": "D03_coldstart_u03_ro",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        26,
+        21,
+        24,
+        17,
+        39,
+        23,
+        23,
+        29,
+        26,
+        29
+      ],
+      "avg_words": 25.7,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 39,
+      "label": "D04_coldstart_u04_ne",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        23,
+        17,
+        18,
+        38,
+        63,
+        65,
+        64,
+        65,
+        34,
+        31
+      ],
+      "avg_words": 41.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 40,
+      "label": "D05_coldstart_u05_vi",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        22,
+        27,
+        25,
+        20,
+        26,
+        25
+      ],
+      "avg_words": 24.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 41,
+      "label": "D06_coldstart_u06_an",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        22,
+        13,
+        14,
+        16,
+        16,
+        14,
+        16,
+        17,
+        13,
+        12
+      ],
+      "avg_words": 15.3,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 42,
+      "label": "D07_coldstart_u07_am",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        5,
+        15,
+        18,
+        35
+      ],
+      "avg_words": 18.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 43,
+      "label": "D08_coldstart_u08_di",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        25,
+        16,
+        16,
+        26,
+        20,
+        17,
+        19,
+        20,
+        19,
+        18
+      ],
+      "avg_words": 19.6,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 44,
+      "label": "D09_coldstart_u09_ka",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        14,
+        19,
+        21,
+        23,
+        19,
+        17
+      ],
+      "avg_words": 18.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 45,
+      "label": "D10_coldstart_u10_sh",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        18,
+        17,
+        31,
+        34,
+        29,
+        29,
+        36,
+        24
+      ],
+      "avg_words": 27.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "\"Got it, send the draft and lean into the mess, drama can be productive. New coffee, fancy name, and a lid that stays on? Now that’s a plan. What’s your go to fancy coffee order?\""
+        }
+      ],
+      "word_counts": [
+        18,
+        34,
+        43,
+        36,
+        25,
+        25,
+        41,
+        35,
+        37,
+        35,
+        35,
+        25
+      ],
+      "avg_words": 32.4,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        24,
+        19,
+        33,
+        38,
+        29,
+        39,
+        37,
+        39,
+        38,
+        22
+      ],
+      "avg_words": 31.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        28,
+        27
+      ],
+      "avg_words": 27.5,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.5,
+      "has_memory": true
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        15,
+        30,
+        37,
+        37,
+        50,
+        33,
+        40,
+        45,
+        37,
+        35,
+        27,
+        21,
+        28,
+        22
+      ],
+      "avg_words": 32.6,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        23,
+        20,
+        23,
+        25,
+        29,
+        14
+      ],
+      "avg_words": 22.3,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    }
+  ]
+}

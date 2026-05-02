@@ -1,0 +1,544 @@
+{
+  "session_count": 15,
+  "summary_metrics": {
+    "avg_reply_words": 28.1,
+    "replies_over_120w": 0,
+    "replies_under_8w": 0,
+    "avg_memory_ref_rate_returning_users": 0.15,
+    "opener_repetition_pairs": 1,
+    "stale_phrase_total_hits": 5,
+    "wrap_up_seen_count": 11
+  },
+  "ranked_gaps": [
+    {
+      "id": "opener_repetition",
+      "severity": 5,
+      "frequency_pct": 6.7,
+      "count": 1,
+      "layer": "guard",
+      "description": "1 pairs of openers across same-user sessions had >=0.65 structural similarity.",
+      "examples": [
+        {
+          "user": "u01_priyansh",
+          "session_a": 4,
+          "session_b": 10,
+          "ratio": 0.8,
+          "a_raw": "Hi Priyansh, how did your team meeting about the new app feature go today?",
+          "b_raw": "Hi Priyansh, how was the team meeting about the new app feature?"
+        }
+      ],
+      "suggested_fix": "Add a deterministic first-turn similarity check that strips opener if normalized form matches one of the last 6 stored opening_phrases by SequenceMatcher >= 0.7.",
+      "score": 250
+    },
+    {
+      "id": "low_memory_utilization",
+      "severity": 4,
+      "frequency_pct": 100.0,
+      "count": 12,
+      "layer": "prompt+renderer",
+      "description": "On returning-user sessions, average memory-reference rate is 15% — too low. Maya is ignoring stored facts/events.",
+      "examples": [],
+      "suggested_fix": "Renderer: surface the highest-priority anticipation_queue item more prominently. Prompt: tighten Rule 31 to require referencing one stored item every 3rd turn at minimum.",
+      "score": 200
+    },
+    {
+      "id": "stale_phrase_tea_persona_cycle",
+      "severity": 4,
+      "frequency_pct": 26.7,
+      "count": 4,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'tea_persona_cycle' in 4/15 sessions (26.7%).",
+      "examples": [
+        {
+          "session_idx": 2,
+          "turn": 1,
+          "snippet": "Hi Priyansh, the monsoon is starting today — I’m a tea person, so I’ll be sipping chai by the window. How was your day at work?"
+        },
+        {
+          "session_idx": 5,
+          "turn": 6,
+          "snippet": "I love a good chaat — spicy and tangy hits the spot! Tea pairs well with it. I’m a tea person too. What chaat do you like best?"
+        },
+        {
+          "session_idx": 48,
+          "turn": 1,
+          "snippet": "Hi Neha, it's been a few days — how's the design work feeling these days? I'm a tea person myself, by the way. What's your take on it?"
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 106.8
+    },
+    {
+      "id": "multiple_questions_per_reply",
+      "severity": 3,
+      "frequency_pct": 26.7,
+      "count": 8,
+      "layer": "prompt",
+      "description": "Maya included 2+ questions in 8 replies across 4 sessions (Rule 9 violation).",
+      "examples": [
+        {
+          "session_idx": 3,
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "I get that — lazy days happen, and plain dal is always there for you. Next time, maybe toss in some chopped tomatoes? It adds a nice kick. What do you think?"
+        },
+        {
+          "session_idx": 7,
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "\"Got it — meetings can be busy. Startup ideas are exciting, right? What kind of app are you thinking about?\""
+        },
+        {
+          "session_idx": 48,
+          "turn": 1,
+          "q_count": 2,
+          "snippet": "Hi Neha, it's been a few days — how's the design work feeling these days? I'm a tea person myself, by the way. What's your take on it?"
+        }
+      ],
+      "suggested_fix": "Sharpen Rule 9 with 'NEVER more than ONE question mark per reply'. Optionally a guard that drops trailing questions when count>1.",
+      "score": 80.1
+    },
+    {
+      "id": "stale_phrase_hindi_songs_persona_cycle",
+      "severity": 4,
+      "frequency_pct": 6.7,
+      "count": 1,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'hindi_songs_persona_cycle' in 1/15 sessions (6.7%).",
+      "examples": [
+        {
+          "session_idx": 10,
+          "turn": 6,
+          "snippet": "\"Classic songs like 'Chunariyaan' stick with you for a reason — they're beautiful. I enjoy old Hindi songs too, especially when they feel timeless. What's one you hum often?\""
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 26.8
+    },
+    {
+      "id": "greeting_on_turn_2plus",
+      "severity": 4,
+      "frequency_pct": 6.7,
+      "count": 1,
+      "layer": "prompt",
+      "description": "Maya started a turn-2+ reply with a greeting ('Hi <name>,...') in 1 replies across 1 sessions.",
+      "examples": [
+        {
+          "session_idx": 48,
+          "turn": 7,
+          "snippet": "Hi Neha, \"The Winter Kids\" sounds interesting. I like how you mix different styles. What's your favorite song by *Vaalee"
+        }
+      ],
+      "suggested_fix": "Strengthen Rule 1 turn-2+ no-greeting clause OR add a server-side strip in pg_apply_output_guard.",
+      "score": 26.8
+    }
+  ],
+  "per_session_metrics": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        18,
+        19,
+        38,
+        34,
+        27,
+        22
+      ],
+      "avg_words": 26.3,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "stale_hits": [
+        {
+          "turn": 1,
+          "tag": "tea_persona_cycle",
+          "snippet": "Hi Priyansh, the monsoon is starting today — I’m a tea person, so I’ll be sipping chai by the window. How was your day at work?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        26,
+        31,
+        30,
+        28,
+        21,
+        25,
+        26,
+        21
+      ],
+      "avg_words": 26.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "I get that — lazy days happen, and plain dal is always there for you. Next time, maybe toss in some chopped tomatoes? It adds a nice kick. What do you think?"
+        },
+        {
+          "turn": 7,
+          "q_count": 2,
+          "snippet": "That sounds like a plan — take your time. Team meetings can be tough! What’s on the agenda? Work updates?"
+        }
+      ],
+      "word_counts": [
+        16,
+        17,
+        35,
+        29,
+        32,
+        22,
+        20,
+        22,
+        26,
+        15
+      ],
+      "avg_words": 23.4,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.2,
+      "has_memory": true
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        14,
+        25,
+        33,
+        26,
+        37,
+        29,
+        29,
+        34,
+        28,
+        28,
+        22
+      ],
+      "avg_words": 27.7,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "stale_hits": [
+        {
+          "turn": 6,
+          "tag": "tea_persona_cycle",
+          "snippet": "I love a good chaat — spicy and tangy hits the spot! Tea pairs well with it. I’m a tea person too. What chaat do you like best?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        20,
+        27,
+        33,
+        28,
+        28,
+        30,
+        27,
+        35,
+        28
+      ],
+      "avg_words": 27.7,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.4,
+      "has_memory": true
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        23,
+        17,
+        20,
+        21,
+        23,
+        24
+      ],
+      "avg_words": 21.3,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "\"Got it — meetings can be busy. Startup ideas are exciting, right? What kind of app are you thinking about?\""
+        }
+      ],
+      "word_counts": [
+        24,
+        20,
+        25,
+        15,
+        20,
+        17,
+        16,
+        25,
+        24,
+        20,
+        20,
+        22
+      ],
+      "avg_words": 20.7,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        31,
+        23,
+        32,
+        31,
+        25,
+        30,
+        34
+      ],
+      "avg_words": 29.4,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.29,
+      "has_memory": true
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        26,
+        22,
+        25,
+        33,
+        29,
+        36
+      ],
+      "avg_words": 28.5,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.33,
+      "has_memory": true
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "stale_hits": [
+        {
+          "turn": 6,
+          "tag": "hindi_songs_persona_cycle",
+          "snippet": "\"Classic songs like 'Chunariyaan' stick with you for a reason — they're beautiful. I enjoy old Hindi songs too, especially when they feel timeless. What's one you hum often?\""
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        12,
+        21,
+        24,
+        40,
+        28,
+        29,
+        27
+      ],
+      "avg_words": 25.9,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.43,
+      "has_memory": true
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        23,
+        26,
+        23,
+        23,
+        24,
+        26,
+        23,
+        26,
+        31,
+        18
+      ],
+      "avg_words": 24.3,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        24,
+        27,
+        32,
+        27,
+        30,
+        31,
+        26,
+        27,
+        25
+      ],
+      "avg_words": 27.7,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "stale_hits": [
+        {
+          "turn": 1,
+          "tag": "tea_persona_cycle",
+          "snippet": "Hi Neha, it's been a few days — how's the design work feeling these days? I'm a tea person myself, by the way. What's your take on it?"
+        },
+        {
+          "turn": 4,
+          "tag": "tea_persona_cycle",
+          "snippet": "Cafes and indie shows both have that quiet magic — I get that. I’m a tea person, but no music? Never. What kind of music floats your boat these days?"
+        }
+      ],
+      "bad_greeting_t2": [
+        {
+          "turn": 7,
+          "snippet": "Hi Neha, \"The Winter Kids\" sounds interesting. I like how you mix different styles. What's your favorite song by *Vaalee"
+        }
+      ],
+      "multi_q": [
+        {
+          "turn": 1,
+          "q_count": 2,
+          "snippet": "Hi Neha, it's been a few days — how's the design work feeling these days? I'm a tea person myself, by the way. What's your take on it?"
+        },
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "Cafes and indie shows both have that quiet magic — I get that. I’m a tea person, but no music? Never. What kind of music floats your boat these days?"
+        }
+      ],
+      "word_counts": [
+        28,
+        32,
+        39,
+        30,
+        34,
+        25,
+        20,
+        24,
+        40,
+        27,
+        34,
+        34
+      ],
+      "avg_words": 30.6,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 2,
+          "q_count": 3,
+          "snippet": "That sounds like a nice break — acoustic sets are a good vibe. Work and exams are tough though, I get it. You're doing great, just a tiny tweak — \"How are you?\" should be \"How are you doing?\" to sound"
+        },
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "I miss live music these days — did you know The Internet has that perfect mix of chill and energy? You're doing great, just a tiny tweak: \"amaaazing\" is fun to say, but we say \"amazing\" for correct sp"
+        },
+        {
+          "turn": 11,
+          "q_count": 2,
+          "snippet": "That sounds like the perfect recharge — beach walks, cozy cafés, and zero deadlines? Yes, please! You're doing great, just a tiny tweak: \"you know, the vibes\" is fun, but we say \"the kind of vibes\" fo"
+        }
+      ],
+      "word_counts": [
+        19,
+        49,
+        45,
+        44,
+        48,
+        49,
+        50,
+        45,
+        51,
+        41,
+        49,
+        50,
+        37,
+        26
+      ],
+      "avg_words": 43.1,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        23,
+        32,
+        38,
+        38,
+        33
+      ],
+      "avg_words": 32.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    }
+  ]
+}

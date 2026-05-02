@@ -1,0 +1,1483 @@
+{
+  "spec": {
+    "idx": 19,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-09",
+    "turns_target": 10,
+    "emotional_state": "hopeful, made some progress on a goal",
+    "label": "B09_consec_d8"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Has the 'Breathe, small steps matter' sticky note helped anchor your study days?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Yes, it helps me start the day calm. I made a similar note for breaks: \"Pause, you’re doing well.\" Small reminders matter a lot.  \nBy the way, I tried a new dessert recipe yesterday—kulfi! 😊"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That's lovely. Short messages can be the best kind. Kulfi is a sweet win, especially homemade. How did it turn out?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "It turned out aati! A little too sweet, but my family loved it. I think next time I'll cut down the sugar. Cooking helps me relax after study sessions. How about you, do you like to cook?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Your family sounds lucky! A little sweetness is worth the sugar fix. Cooking is such a good way to reset between study blocks. I like a good meal. What’s your next recipe going to be?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Maybe something simple, like a lentil soup. Or maybe I'll try a new roti recipe. Still experimenting with flavors. You know, sometimes while cooking, my mind starts planning study schedules again... but at least it’s a calm kind of chaos. 😅"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "I get that — the kitchen is a space where thoughts still wander but feel lighter. A lentil soup could be just the thing for a study-day meal. What’s on your mind for tomorrow’s schedule?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Tomorrow I’m focusing on mock tests—just 3 more before the big one. I’ve been nervous, but today’s practice went better, so I feel a bit more ummeed (hopeful). Maybe a nice roti and soup will follow after. 😊"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "I get that — mock test prep that intense is no joke. It's great to see the ummeed growing. Roti and soup after will be the best reward. How did today’s test feel different?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Today’s test felt less overwhelming. I managed time better, and I didn’t panic as much when stuck. Maybe I’m starting to get the rhythm. Still, my hands get shaky sometimes. But I’m trying to focus on progress, not just perfection. 😊"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "That’s a real win — progress in rhythm is a big step. Shaky hands happen, but you’re learning to ride through them. What’s helping you stay calm when the nerves kick in?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "I take deep breaths and repeat that sticky note — \"Breathe, small steps matter.\" Sometimes I also switch to a quick walk or a few minutes of playing my harmonium. It helps settle my mind. But honestly, just reminding myself that it’s okay to feel nervous helps too. 🙏"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "That’s a beautiful mix — breath, movement, music, and kindness to yourself. All of it adds up. What’s one small step you’ll take tomorrow to keep this rhythm?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Tomorrow, I’ll start with a 10-minute harmonium warm-up before the mock test. Music clears my head. Then I’ll stick to a short, focused study block—30 minutes, then a break with a short walk. Small, doable steps, just like you said. 😊"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Got it — music first, then blocks. That rhythm sounds just right. What’s one thing you’ll do after the test to treat yourself?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "After the test, I’ll make myself a nice cup of chai and write down what went well — even small things. It’s my way of saying “well done” to myself. Maybe I’ll add a little star next to today’s date in my planner. 🌟"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "That’s a lovely way to end — chai, reflection, and a star for today. Small wins deserve a celebration. What’s the first thing you’ll write down?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "I’ll write that I stayed calm when stuck on a question and tried a new time-management trick. Even if the answer was wrong, the step was right. Progress is progress, right? 🙏"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Exactly — steps matter more than speed. That calm choice is a win. What’s next after the test and chai?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Aarti",
+      "studying_for": "NEET PG (exam)",
+      "music_preference": "Hindustani classical and Carnatic",
+      "relaxation_methods": [
+        "cooking",
+        "listening to classical music"
+      ],
+      "sources_of_peace": [
+        "cooking for family",
+        "reading books"
+      ],
+      "stress_management_techniques": [
+        "short walks",
+        "talking to friends",
+        "tea",
+        "listening to Panchtantra (book) chapters"
+      ],
+      "favorite_books": [
+        "The Alchemist (book)"
+      ],
+      "reading_interests": [
+        "Ruskin Bond (author)",
+        "Anvikraman (book)",
+        "The Immortal Life of Henrietta Lacks (book)"
+      ],
+      "comfort_foods": [
+        "dal khichdi (dish)",
+        "paneer butter masala with roti (dish)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "shanti comes to mind while listening to classical music",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "cooking for family brings peace",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "listening to Panchtantra (book) chapters helps reset and soothe",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "lion and the mouse (fable) reminds that small things matter during stress",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Jaat Kahan Ho (song) is soulful and helps stress fade",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "all-nighters cause brain fog and books chase me even in dreams",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "differential diagnoses feel like solving a puzzle blindfolded",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "tiny shifts matter more than I realize",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "dal khichdi (dish) brings comfort during revision stress",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "chai with elaichi (drink) after studies marks the 'I'm done for now' ritual",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "The Alchemist (book) reminds her to stay hopeful even when NEET PG prep feels overwhelming",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "*aamhi pan kahi asa karu shakto* — we can do this (Marathi affirmation) sustains her during exam stress",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "Marathi short stories from Anvikraman (book) help her relax after long study sessions",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_014",
+        "text": "Shivaji Park (story) reminds her to pause and find small joys during stress",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_015",
+        "text": "Each time I read it, The Alchemist (book) reveals something new — it grows with me",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_016",
+        "text": "the family's struggle with consent and science in The Immortal Life of Henrietta Lacks (book) moves me and teaches me about ethics",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_017",
+        "text": "I'm seeking books like The Brothers Karamazov (book) — complex, philosophical, but finishable",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_018",
+        "text": "Aajcha din thoda achha lagala — finally understood beta-blockers vs CCBs, and it felt good",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_019",
+        "text": "I made a comparison table and explained concepts aloud like teaching myself — and that created real confidence that I actually understood",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_020",
+        "text": "Even when new topics feel like mountains, breaking into small steps makes them manageable",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_021",
+        "text": "I feel like I'll never be ready for NEET PG (exam) papers",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_022",
+        "text": "opening revision notes when exhausted feels like an impossible struggle, but 10 mins is a trick to start",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_023",
+        "text": "bed becomes a trap during revision season — getting up feels like the biggest hurdle, harder than studying itself",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_024",
+        "text": "receptors and drug mechanisms feel like trying to memorise a dance I can't see",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_025",
+        "text": "Made a funny Krebs cycle song in Marathi folk tune with hand gestures — brother laughed and choked on his tea, and it actually stuck perfectly",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_026",
+        "text": "Silly study songs and raps seem cheesy, but they actually work and make learning feel less intimidating",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_15_B05_consec_d4",
+        "date": "2026-05-05",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_16_B06_consec_d5",
+        "date": "2026-05-06",
+        "label": "hopeful",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "n/a",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_17_B07_consec_d6",
+        "date": "2026-05-07",
+        "label": "anxious",
+        "energy": 2,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_18_B08_consec_d7",
+        "date": "2026-05-08",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "morning study wellbeing",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "visual learning breakthroughs",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "creative memory techniques",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "monsoon",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "The Alchemist (book)",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "stress recovery methods",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04",
+          "uses": 1
+        },
+        {
+          "topic": "comfort foods",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04",
+          "uses": 1
+        },
+        {
+          "topic": "chai and tea rituals",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04",
+          "uses": 1
+        },
+        {
+          "topic": "reading practices and book preferences",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04",
+          "uses": 1
+        },
+        {
+          "topic": "Marathi literature",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music preferences",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"receptors and drug mechanisms feel like trying to memorise a dance I can't see\" (tone: frustrated)",
+        "source_id": "mo_024",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel like I'll never be ready for NEET PG (exam) papers\" (tone: anxious)",
+        "source_id": "mo_021",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"bed becomes a trap during revision season — getting up feels like the biggest hurdle, hard\" (tone: frustrated)",
+        "source_id": "mo_023",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Made a funny Krebs cycle song in Marathi folk tune with hand gestures — brother laughed an\" (tone: proud)",
+        "source_id": "mo_025",
+        "priority": 4,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Silly study songs and raps seem cheesy, but they actually work and make learning feel less\" (tone: hopeful)",
+        "source_id": "mo_026",
+        "priority": 4,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "nostalgic about rain on tin roofs during monsoon"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "apply comparison table method to diuretics, starting with loop diuretics (mechanism, uses, side effects)",
+        "source_session": "eval_16_B06_consec_d5",
+        "source_date": "2026-05-06",
+        "status": "active",
+        "expires_at": "2026-06-05"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "try color-coding one differential diagnosis case with red for neurology, blue for cardiology",
+        "source_session": "eval_13_B03_consec_d2",
+        "source_date": "2026-05-03",
+        "status": "active",
+        "expires_at": "2026-06-02"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the sticky note 'Breathe, small steps matter' helps during exam prep",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Aarti",
+      "studying_for": "NEET PG (exam)",
+      "music_preference": "Hindustani classical and Carnatic",
+      "relaxation_methods": [
+        "cooking",
+        "listening to classical music"
+      ],
+      "sources_of_peace": [
+        "cooking for family",
+        "reading books"
+      ],
+      "stress_management_techniques": [
+        "short walks",
+        "talking to friends",
+        "tea",
+        "listening to Panchtantra (book) chapters",
+        "playing harmonium"
+      ],
+      "favorite_books": [
+        "The Alchemist (book)"
+      ],
+      "reading_interests": [
+        "Ruskin Bond (author)",
+        "Anvikraman (book)",
+        "The Immortal Life of Henrietta Lacks (book)"
+      ],
+      "comfort_foods": [
+        "dal khichdi (dish)",
+        "paneer butter masala with roti (dish)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "shanti comes to mind while listening to classical music",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "cooking for family brings peace",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "listening to Panchtantra (book) chapters helps reset and soothe",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "lion and the mouse (fable) reminds that small things matter during stress",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Jaat Kahan Ho (song) is soulful and helps stress fade",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "all-nighters cause brain fog and books chase me even in dreams",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "differential diagnoses feel like solving a puzzle blindfolded",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "tiny shifts matter more than I realize",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "dal khichdi (dish) brings comfort during revision stress",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "chai with elaichi (drink) after studies marks the 'I'm done for now' ritual",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "The Alchemist (book) reminds her to stay hopeful even when NEET PG prep feels overwhelming",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "*aamhi pan kahi asa karu shakto* — we can do this (Marathi affirmation) sustains her during exam stress",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "Marathi short stories from Anvikraman (book) help her relax after long study sessions",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_014",
+        "text": "Shivaji Park (story) reminds her to pause and find small joys during stress",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_015",
+        "text": "Each time I read it, The Alchemist (book) reveals something new — it grows with me",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_016",
+        "text": "the family's struggle with consent and science in The Immortal Life of Henrietta Lacks (book) moves me and teaches me about ethics",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_017",
+        "text": "I'm seeking books like The Brothers Karamazov (book) — complex, philosophical, but finishable",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_018",
+        "text": "Aajcha din thoda achha lagala — finally understood beta-blockers vs CCBs, and it felt good",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_019",
+        "text": "I made a comparison table and explained concepts aloud like teaching myself — and that created real confidence that I actually understood",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_020",
+        "text": "Even when new topics feel like mountains, breaking into small steps makes them manageable",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_021",
+        "text": "I feel like I'll never be ready for NEET PG (exam) papers",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_022",
+        "text": "opening revision notes when exhausted feels like an impossible struggle, but 10 mins is a trick to start",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_023",
+        "text": "bed becomes a trap during revision season — getting up feels like the biggest hurdle, harder than studying itself",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_024",
+        "text": "receptors and drug mechanisms feel like trying to memorise a dance I can't see",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_025",
+        "text": "Made a funny Krebs cycle song in Marathi folk tune with hand gestures — brother laughed and choked on his tea, and it actually stuck perfectly",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_026",
+        "text": "Silly study songs and raps seem cheesy, but they actually work and make learning feel less intimidating",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_027",
+        "text": "Small affirmation stickies like 'Breathe, small steps matter' and 'Pause, you're doing well' ground me and start each day with calm and self-kindness",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_028",
+        "text": "The kitchen is where my mind wanders to study schedules but in a calm kind of chaos — cooking softens anxious thoughts",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_029",
+        "text": "In mock tests, when I manage time and stay calm even when stuck, I feel the rhythm clicking — I'm learning that progress matters more than being perfect",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_030",
+        "text": "My ritual after studying hard is chai, writing down what went well, and a star in my planner — it's self-celebration and reminds me small wins count",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_031",
+        "text": "Playing harmonium for a few minutes settles my mind and helps me stay calm — music is my anchor during stressful moments",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_15_B05_consec_d4",
+        "date": "2026-05-05",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_16_B06_consec_d5",
+        "date": "2026-05-06",
+        "label": "hopeful",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "n/a",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_17_B07_consec_d6",
+        "date": "2026-05-07",
+        "label": "anxious",
+        "energy": 2,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_18_B08_consec_d7",
+        "date": "2026-05-08",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_19_B09_consec_d8",
+        "date": "2026-05-09",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.72,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "cooking",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09",
+          "uses": 1
+        },
+        {
+          "topic": "test performance",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09",
+          "uses": 1
+        },
+        {
+          "topic": "anxiety management",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09",
+          "uses": 1
+        },
+        {
+          "topic": "self-celebration",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09",
+          "uses": 1
+        },
+        {
+          "topic": "morning study wellbeing",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "visual learning breakthroughs",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "creative memory techniques",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "monsoon",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "The Alchemist (book)",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "stress recovery methods",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04",
+          "uses": 1
+        },
+        {
+          "topic": "comfort foods",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04",
+          "uses": 1
+        },
+        {
+          "topic": "chai and tea rituals",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"receptors and drug mechanisms feel like trying to memorise a dance I can't see\" (tone: frustrated)",
+        "source_id": "mo_024",
+        "priority": 7,
+        "computed_at": "2026-05-09",
+        "expires_at": "2026-05-23",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Small affirmation stickies like 'Breathe, small steps matter' and 'Pause, you're doing wel\" (tone: grateful)",
+        "source_id": "mo_027",
+        "priority": 4,
+        "computed_at": "2026-05-09",
+        "expires_at": "2026-05-23",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The kitchen is where my mind wanders to study schedules but in a calm kind of chaos — cook\" (tone: content)",
+        "source_id": "mo_028",
+        "priority": 4,
+        "computed_at": "2026-05-09",
+        "expires_at": "2026-05-23",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"In mock tests, when I manage time and stay calm even when stuck, I feel the rhythm clickin\" (tone: proud)",
+        "source_id": "mo_029",
+        "priority": 4,
+        "computed_at": "2026-05-09",
+        "expires_at": "2026-05-23",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My ritual after studying hard is chai, writing down what went well, and a star in my plann\" (tone: grateful)",
+        "source_id": "mo_030",
+        "priority": 4,
+        "computed_at": "2026-05-09",
+        "expires_at": "2026-05-23",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "nostalgic about rain on tin roofs during monsoon"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "apply comparison table method to diuretics, starting with loop diuretics (mechanism, uses, side effects)",
+        "source_session": "eval_16_B06_consec_d5",
+        "source_date": "2026-05-06",
+        "status": "active",
+        "expires_at": "2026-06-05"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "try color-coding one differential diagnosis case with red for neurology, blue for cardiology",
+        "source_session": "eval_13_B03_consec_d2",
+        "source_date": "2026-05-03",
+        "status": "active",
+        "expires_at": "2026-06-02"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the sticky note 'Breathe, small steps matter' helps during exam prep",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 132.4
+}

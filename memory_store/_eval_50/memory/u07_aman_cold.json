@@ -1,0 +1,160 @@
+{
+  "facts": {
+    "nickname": "Aman",
+    "studying_subject": "Maths",
+    "context": "office setting",
+    "hobbies": [
+      "fooseball"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ]
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Got exams coming up, so I'm like, super anxious. Even fooseball helps only a bit.",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_42_D07_coldstart_u07_am",
+      "date": "2026-05-01",
+      "label": "anxious",
+      "energy": 5,
+      "confidence": 0.75,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_42_D07_coldstart_u07_am",
+        "last_date": "2026-05-01"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Got exams coming up, so I'm like, super anxious. Even fooseball helps only a bit.\" (tone: anxious)",
+      "source_id": "mo_001",
+      "priority": 7,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    },
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: natural code-switching between English and Hindi (e.g. \"baar baar kahin dekha hai yaar\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    },
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: smooth colloquial mix of Hindi in English (e.g. \"abhi toh kuch nahi aayega\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [
+      {
+        "what": "natural code-switching between English and Hindi",
+        "examples": [
+          "baar baar kahin dekha hai yaar"
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      },
+      {
+        "what": "smooth colloquial mix of Hindi in English",
+        "examples": [
+          "abhi toh kuch nahi aayega"
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      }
+    ],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold",
+      "likes soft music while working",
+      "enjoys the cool post-lunch break feeling",
+      "appreciates good stories",
+      "uses chai to stay focused",
+      "finds monsoon mornings comforting",
+      "cooks as a form of relaxation",
+      "watches football",
+      "has not been to Chennai but would love to experience that vibe"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "event_pending",
+      "content": "exams are coming up — follow up on exam preparation progress",
+      "source_session": "eval_42_D07_coldstart_u07_am",
+      "source_date": "2026-05-01",
+      "status": "active",
+      "expires_at": "2026-05-31"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

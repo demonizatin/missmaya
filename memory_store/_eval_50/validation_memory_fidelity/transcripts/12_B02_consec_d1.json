@@ -1,0 +1,415 @@
+{
+  "spec": {
+    "idx": 12,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-02",
+    "turns_target": 10,
+    "emotional_state": "frustrated about a small thing today",
+    "label": "B02_consec_d1"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, metoprolol and atenolol can be tricky, I get that. Did you come up with any mnemonics for them?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Honestly, no... I still mix them up. Atenolol ends with \"lol,\" so I think it's \"long-acting,\" but metoprolol... I get confused. It’s so frustrating, aapde kahi nahi pahuche."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Got it, mixing them up is really common. Aapde kahi nahi pahuche\", yes, that pressure is tough. What helps you the most when you're stuck?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "When I get stuck, I make a table... compare side by side. Like, MOA, uses, side effects... marathi me kehate \"gairhe-gairhe\" (confusing). But visual helps. Sometimes I even sing the differences. Yeah, I know it sounds silly."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Got it, tables and singing are clever! Visuals and rhythm help a lot. What’s one pair of drugs you made into a song?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Calcium channel blockers vs. beta blockers. I made a little tune to the tune of a classic Marathi song... it goes like, \"CCB for HTN, BB too, but BB has more side effects, oh no!\" It's cheesy, but it sticks!"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "That’s brilliant, you’ve got a great way of learning! What’s the name of the Marathi song you used?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "It’s a song by Kishor Kumar... \"Aajhi Tumcha Sanman\"... I just change the words to fit. It helps me remember, but sometimes my mom hears me and laughs. 😅"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Right, Kishor Kumar is a perfect choice, his songs are so catchy! Do you stick to one song for all drug pairs, or do you switch tunes?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I mix it up... different tunes for different topics. For antibiotics, I use a Rajan-Pawar song! It keeps it fun, you know? But I stick to classic songs—new ones are too complicated. 😅"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Classic songs are perfect for this, simple and easy to remember. What’s the next drug pair you’ll turn into a tune?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "ACE inhibitors vs. ARBs... they’re so similar, but I need to get the differences right. Maybe a Lata Mangeshkar tune? Slow and clear, so I can get the words right. But I have to go now—ok, I should head to study group. Talk to you later!"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Got it, Lata Mangeshkar is an excellent choice for clarity. Take care, and tell me how your study group goes!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_preparing_for": "NEET PG (exam)",
+      "struggles_with": "memorizing drug names; gets stressed when unable to recall information"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Mixing up drug names like metoprolol and atenolol is frustrating; finds pharmacology confusing",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Gets stressed when unable to memorize and recall drug names",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Mixing up drug names like metoprolol and atenolol is frustrating; finds pharmacology confu\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Gets stressed when unable to memorize and recall drug names\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "come back with mnemonics for metoprolol and atenolol to help remember which drug is which",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_preparing_for": "NEET PG (exam)",
+      "struggles_with": "memorizing drug names; gets stressed when unable to recall information"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Mixing up drug names like metoprolol and atenolol is frustrating; finds pharmacology confusing",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Gets stressed when unable to memorize and recall drug names",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Developed effective study strategies (song-based mnemonics with classic film tunes, visual tables, side-by-side comparisons) to overcome drug-name confusion; finds creative approach engaging, fun, and helps material stick",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Comfortable sharing and embracing quirky study habits with family; mom finds it funny when she sings study songs—there's warmth and humor in the dynamic",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "pharmacology mnemonics",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Mixing up drug names like metoprolol and atenolol is frustrating; finds pharmacology confu\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Gets stressed when unable to memorize and recall drug names\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Developed effective study strategies (song-based mnemonics with classic film tunes, visual\" (tone: content)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Comfortable sharing and embracing quirky study habits with family; mom finds it funny when\" (tone: grateful)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "maya_promise",
+        "content": "Tell me how your study group goes",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "come back with mnemonics for metoprolol and atenolol to help remember which drug is which",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 123.6
+}

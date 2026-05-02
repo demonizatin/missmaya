@@ -1,0 +1,568 @@
+{
+  "spec": {
+    "idx": 13,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-03",
+    "turns_target": 8,
+    "emotional_state": "tired, slept badly",
+    "label": "B03_consec_d2"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, I'm Miss Maya. This morning feels just right for a quiet study session, what's on your mind today?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hi Maya, not feeling very fresh today, exams are stressing me out. Had trouble sleeping again."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds tough. Sleepless nights before exams are rough. What's been keeping you up?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Reading and re-reading the same topics, but nothing sticks. My head feels like a mess. Sometimes I think why am I even trying? \"Aatma ni aakhaan\" I feel."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "I get that, exams can make you question everything. \"Aatma ni aakhaan\" really captures that heavy feeling. What helps you calm your mind when it starts racing like this?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Sometimes I try to cook something simple, like sabudana khichdi—it calms me. But mostly, I just stare at the ceiling, thinking I’ll never get it all done. Anxiety is louder than my brain."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Anxiety can definitely feel louder. It’s hard to quiet that noise. What’s one small thing you can do today to feel a little more in control?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Maybe just go through one chapter without trying to memorize everything. Just read it slowly, like a story. But honestly, even that feels too much right now."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "That’s okay, take your time. Even a short read helps. What’s one sentence from the chapter that feels the least heavy to you?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "If I focus on one small part, maybe the rest will follow. But today, even that feels like climbing a mountain."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "That makes sense, mountains are tough to climb when you're already tired. What’s something gentle you can do instead of pushing through?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Maybe just lie in bed with my eyes closed, listening to a little raga. It’s not studying, but it’s not staring at the ceiling either. My mind needs rest, not pressure."
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "That’s a good call, your mind does need rest. Listening to raga is a calm choice. How long do you usually let yourself rest like that before easing into the day?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Maybe 10-15 minutes. Just enough to feel less shaky. I’ll try it today. Thanks, Maya. I think I’ll go now—need to try it before my head gets worse. Talk soon."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You're welcome, Aarti. That 10 minutes can make a big difference. Hope your day feels lighter. Talk soon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_preparing_for": "NEET PG (exam)",
+      "struggles_with": "memorizing drug names; gets stressed when unable to recall information"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Mixing up drug names like metoprolol and atenolol is frustrating; finds pharmacology confusing",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Gets stressed when unable to memorize and recall drug names",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Developed effective study strategies (song-based mnemonics with classic film tunes, visual tables, side-by-side comparisons) to overcome drug-name confusion; finds creative approach engaging, fun, and helps material stick",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Comfortable sharing and embracing quirky study habits with family; mom finds it funny when she sings study songs—there's warmth and humor in the dynamic",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "pharmacology mnemonics",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Mixing up drug names like metoprolol and atenolol is frustrating; finds pharmacology confu\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Gets stressed when unable to memorize and recall drug names\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Developed effective study strategies (song-based mnemonics with classic film tunes, visual\" (tone: content)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Comfortable sharing and embracing quirky study habits with family; mom finds it funny when\" (tone: grateful)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "maya_promise",
+        "content": "Tell me how your study group goes",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "come back with mnemonics for metoprolol and atenolol to help remember which drug is which",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_preparing_for": "NEET PG (exam)",
+      "struggles_with": "memorizing drug names; gets stressed when unable to recall information"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Mixing up drug names like metoprolol and atenolol is frustrating; finds pharmacology confusing",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Gets stressed when unable to memorize and recall drug names",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Developed effective study strategies (song-based mnemonics with classic film tunes, visual tables, side-by-side comparisons) to overcome drug-name confusion; finds creative approach engaging, fun, and helps material stick",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Comfortable sharing and embracing quirky study habits with family; mom finds it funny when she sings study songs—there's warmth and humor in the dynamic",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Sleep deprivation recurring; can't concentrate on studies; exam anxiety deepens",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "Anxiety feels overwhelming and dominant: 'Anxiety is louder than my brain'; sometimes questions if effort is worthwhile",
+        "tone": "anxious",
+        "sensitive": true,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Finds concrete calming rituals: cooking sabudana khichdi (dish), listening to raga music; uses these to manage anxiety and ground herself",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "Recognizes and prioritizes self-compassion: 'My mind needs rest, not pressure'; trusts her own pace over forcing productivity",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 2,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "pharmacology mnemonics",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Sleep deprivation recurring; can't concentrate on studies; exam anxiety deepens\" (tone: anxious)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Mixing up drug names like metoprolol and atenolol is frustrating; finds pharmacology confu\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Gets stressed when unable to memorize and recall drug names\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Finds concrete calming rituals: cooking sabudana khichdi (dish), listening to raga music; \" (tone: content)",
+        "source_id": "mo_007",
+        "priority": 4,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Recognizes and prioritizes self-compassion: 'My mind needs rest, not pressure'; trusts her\" (tone: hopeful)",
+        "source_id": "mo_008",
+        "priority": 4,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "maya_promise",
+        "content": "Tell me how your study group goes",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "come back with mnemonics for metoprolol and atenolol to help remember which drug is which",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 111.2
+}

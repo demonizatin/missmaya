@@ -1,0 +1,297 @@
+{
+  "spec": {
+    "idx": 36,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh_cold",
+    "today": "2026-05-24",
+    "turns_target": 8,
+    "emotional_state": "hopeful, made some progress on a goal",
+    "label": "D01_coldstart_u01_pr"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, I'm Miss Maya. Happy to chat and help you practice English. What's been keeping you busy today?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hi Maya, nice to meet you. Today was good, I worked on a project and made some progress. Also, watched a Bollywood movie in the evening. How about you?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds fun. Progress and Bollywood — what movie did you watch?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Kisi Ka Bhai Kisi Ki Jaan,\" a comedy. It was light and good for relaxation. Not the best movie, but okay. Did you watch anything recently?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "\"Kisi Ka Bhai Kisi Ki Jaan\" is a good pick — comedies are perfect for winding down. How often do you watch Bollywood movies?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "About two or three times a month. It depends on my mood. Sometimes I prefer dramas, sometimes action. What about you? Do you like Bollywood movies?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "I enjoy Bollywood movies — they bring a nice mix of music and stories. Dramas or action? Or maybe something else catches your eye?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Dramas, maybe. I like emotional stories, ya know? But lately, I've been into some startup-themed movies too. They show how people build companies — reminds me of my work."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Startup stories are interesting — they mirror the hustle of real life. Which one moved you the most?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Start-Up\" by Anand Gandhi, a small film but powerful. It’s about a programmer and his struggles. Not very famous, but it shows the pressure and passion of building something new — feels familiar! Have you seen it?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "\"Start-Up\" sounds meaningful — passion and pressure are universal. I haven’t seen it, but I’ll keep it in mind. What part of the story stuck with you?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "The part about the programmer working late, alone, with so much on his mind — it felt real. Like how we all push through, even when it’s tough. It made me think about my own goals and how far I’ve come. You know?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Yes, that sounds powerful — real moments make the best stories. What goals are you pushing toward these days?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Right now, I’m focusing on improving my coding skills and maybe leading a project soon. Also, trying to speak more English — it’s a slow climb, but I’m hopeful. Thanks for chatting, Maya. It’s been good."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You're doing great — coding and English, both take steady effort. What part of coding feels most challenging?"
+    }
+  ],
+  "memory_before": {
+    "facts": {},
+    "events": [],
+    "moments": [],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "Bollywood movies (movie)",
+        "startup-themed movies (movie)",
+        "coding (project)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Watching 'Kisi Ka Bhai Kisi Ki Jaan' (movie) for relaxation",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-24",
+        "last_seen": "2026-05-24",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Thinking about personal goals and progress in work and English",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-24",
+        "last_seen": "2026-05-24",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bollywood movies (movie)",
+          "last_session": "eval_36_D01_coldstart_u01_pr",
+          "last_date": "2026-05-24",
+          "uses": 1
+        },
+        {
+          "topic": "startup-themed movies (movie)",
+          "last_session": "eval_36_D01_coldstart_u01_pr",
+          "last_date": "2026-05-24",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_36_D01_coldstart_u01_pr",
+          "last_date": "2026-05-24"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "reference to 'Start-Up' movie (movie)",
+        "context": "User shared a personal connection to the film; Maya acknowledged and asked follow-up questions.",
+        "first_seen": "2026-05-24",
+        "last_used": "2026-05-24",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Used emotional language to reflect on stories (e.g. \"It made me think about my own goals and how far I’ve come.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-24",
+        "expires_at": "2026-06-07",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Watching 'Kisi Ka Bhai Kisi Ki Jaan' (movie) for relaxation\" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-24",
+        "expires_at": "2026-06-07",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Thinking about personal goals and progress in work and English\" (tone: hopeful)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-24",
+        "expires_at": "2026-06-07",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "Used emotional language to reflect on stories",
+          "examples": [
+            "It made me think about my own goals and how far I’ve come."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-24",
+          "last_seen": "2026-05-24"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "Tell Maya how the work meeting went",
+        "source_session": "eval_36_D01_coldstart_u01_pr",
+        "source_date": "2026-05-24",
+        "status": "active",
+        "expires_at": "2026-06-23"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 12.1
+}

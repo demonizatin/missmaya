@@ -1,0 +1,170 @@
+{
+  "facts": {
+    "interests": [
+      "fooseball (sport)"
+    ]
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "The essay part is my weakness. I can’t write good in English — always stuck for words. My Punjabi is better! 😂",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "I want to punch him but we have match tomorrow.",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_42_D07_coldstart_u07_am",
+      "date": "2026-05-01",
+      "label": "anxious",
+      "energy": 4,
+      "confidence": 0.7,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "exam (exam)",
+        "last_session": "eval_42_D07_coldstart_u07_am",
+        "last_date": "2026-05-01",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_42_D07_coldstart_u07_am",
+        "last_date": "2026-05-01"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"The essay part is my weakness. I can’t write good in English — always stuck for words. My \" (tone: frustrated)",
+      "source_id": "mo_001",
+      "priority": 7,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I want to punch him but we have match tomorrow.\" (tone: frustrated)",
+      "source_id": "mo_002",
+      "priority": 7,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [
+      {
+        "pattern": "Incorrect article usage (e.g., 'I play fooseball' → 'I play futsal')",
+        "examples": [
+          "I play fooseball"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "status": "active"
+      },
+      {
+        "pattern": "Subject-verb agreement in past tense (e.g., 'he show off' → 'he shows off')",
+        "examples": [
+          "he show off"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "status": "active"
+      }
+    ],
+    "wins": [],
+    "curriculum": [
+      {
+        "pattern": "Incorrect article usage (e.g., 'I play fooseball' → 'I play futsal')",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "I play fooseball"
+        ]
+      },
+      {
+        "pattern": "Subject-verb agreement in past tense (e.g., 'he show off' → 'he shows off')",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "he show off"
+        ]
+      }
+    ]
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "tell Maya how the exam went",
+      "source_session": "eval_42_D07_coldstart_u07_am",
+      "source_date": "2026-05-01",
+      "status": "active",
+      "expires_at": "2026-05-31"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

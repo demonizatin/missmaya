@@ -1,0 +1,221 @@
+{
+  "facts": {
+    "nickname": "Anu",
+    "background": "Commerce graduate",
+    "primary_interest": "Accounting (enjoys precision, clear right answers, predictability)",
+    "key_strength": "Detail-oriented, strong with numbers, attention to detail in calculations",
+    "career_aversion": "Dislikes high-stakes social/creative work (like marketing); prefers work with minimal talking",
+    "anxiety_pattern": "Gets anxious in front of people, mind goes blank in interviews; worries about making mistakes",
+    "recent_achievement": "Found error in tax calculations during final year project that professor missed"
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "Had interview; felt it went poorly due to anxiety and mind going blank when asked about future goals",
+      "date": "2026-05-22",
+      "added": "2026-05-22",
+      "followed_up": false
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "When I balance a sheet and everything adds up, it feels… chill.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "I get super anxious, and my mind goes blank. I don't know if accounting is cool enough—everyone says marketing or finance is better.",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mentions": 1
+    },
+    {
+      "id": "mo_003",
+      "text": "I feel stuck, Maya. How do I even start?",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mentions": 1
+    },
+    {
+      "id": "mo_004",
+      "text": "I just say I'm not really sure yet and change the subject—it feels safer. But that's probably a bad idea in interviews.",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_41_D06_coldstart_u06_an",
+      "date": "2026-05-22",
+      "label": "anxious",
+      "energy": 6,
+      "confidence": 0.75,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": "ev_001"
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "Interview anxiety",
+        "last_session": "eval_41_D06_coldstart_u06_an",
+        "last_date": "2026-05-22",
+        "uses": 1
+      },
+      {
+        "topic": "Accounting career choice",
+        "last_session": "eval_41_D06_coldstart_u06_an",
+        "last_date": "2026-05-22",
+        "uses": 1
+      },
+      {
+        "topic": "Interview communication",
+        "last_session": "eval_41_D06_coldstart_u06_an",
+        "last_date": "2026-05-22",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_41_D06_coldstart_u06_an",
+        "last_date": "2026-05-22"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "event_upcoming",
+      "content": "Ask about \"Had interview; felt it went poorly due to anxiety and mind going blank when asked about future goals\" — today",
+      "source_id": "ev_001",
+      "priority": 10,
+      "computed_at": "2026-05-22",
+      "expires_at": "2026-06-05",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I get super anxious, and my mind goes blank. I don't know if accounting is cool enough—eve\" (tone: anxious)",
+      "source_id": "mo_002",
+      "priority": 7,
+      "computed_at": "2026-05-22",
+      "expires_at": "2026-06-05",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I feel stuck, Maya. How do I even start?\" (tone: frustrated)",
+      "source_id": "mo_003",
+      "priority": 7,
+      "computed_at": "2026-05-22",
+      "expires_at": "2026-06-05",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I just say I'm not really sure yet and change the subject—it feels safer. But that's proba\" (tone: anxious)",
+      "source_id": "mo_004",
+      "priority": 7,
+      "computed_at": "2026-05-22",
+      "expires_at": "2026-06-05",
+      "used": false
+    },
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: articulated complex past-tense narrative with relative clauses under interview-practice pressure (e.g. \"During my final year project, I found a small mistake in the tax calculations that even my professor almost missed.\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-05-22",
+      "expires_at": "2026-06-05",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [
+      {
+        "pattern": "subject-verb disagreement with singular subject ('don't' instead of 'doesn't')",
+        "examples": [
+          "it don't involve too much guesswork"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "status": "active"
+      }
+    ],
+    "wins": [
+      {
+        "what": "articulated complex past-tense narrative with relative clauses under interview-practice pressure",
+        "examples": [
+          "During my final year project, I found a small mistake in the tax calculations that even my professor almost missed."
+        ],
+        "count": 1,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22"
+      }
+    ],
+    "curriculum": [
+      {
+        "pattern": "subject-verb disagreement with singular subject ('don't' instead of 'doesn't')",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "it don't involve too much guesswork"
+        ]
+      }
+    ]
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

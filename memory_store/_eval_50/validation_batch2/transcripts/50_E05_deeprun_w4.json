@@ -1,0 +1,857 @@
+{
+  "spec": {
+    "idx": 50,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-29",
+    "turns_target": 14,
+    "emotional_state": "low energy, monosyllabic mood",
+    "label": "E05_deeprun_w4"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, I hope you had a good time at the Velvet Haze show — what did you end up doing that Friday?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Didn’t go. Last minute plans fell through. Was supposed to meet friends, but they canceled. Sat home doing nothing. Bored. Watched a movie. What’s your take on indie music?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Oh, that’s a bummer — movie nights are better with snacks and company. Indie music feels so personal, like the artist is singing just for you. What’s your favourite part about it?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The intimacy, maybe? Or the rawness. Like, it feels more *real*. Not overproduced. But sometimes it’s too mellow for me. I prefer stuff with good beats. You know, something you can vibe to. What about you?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "I get that — some indie feels like a quiet chat while others are full of energy. I’m all for music that makes you tap your foot or sway a little. What kind of beats catch your attention?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Electronic beats. The ones that hit just right — you don’t think, you just move. Or lo-fi, when it’s chill but still groovy. But maybe I’m biased. I design products for a living, you know? So rhythm and flow matter. What’s your vibe?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "That makes sense — design and music both need rhythm to feel right. I love when something flows without effort, like a good chai with just the right sugar. Smooth beats or smooth brews — what’s your pick?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Chai, hands down. No competition. But I mean, a good brew is a good brew. My chai needs cardamom, though — no ifs or buts. Speaking of, I need to get going. Found a new café downtown. Gotta test the vibes. Maybe next week. Bye."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "\"Got it — cardamom chai is the best kind. New café, huh? Let me guess, you're checking the light, the layout, the vibe for design inspiration. Tell me how it goes next week!\""
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "profession": "designer",
+      "remote_work_impact": "prefers in-person collaboration; remote work feels isolating",
+      "current_music": "Tamil indie (Vaalee, The Winter Kids) with lo-fi and experimental; primary sources of inspiration",
+      "inspiration_sources": "cafés (light, spatial arrangement), real-world observation",
+      "music_in_design": "central to design workflow; uses music as 'co-worker' that fills silence without distraction; matches project intensity (lo-fi/ambient for soft work, raw indie for intense work)",
+      "social_life": "social circle concentrated in favorite cafes; live music rare due to work commitments; values the connection of live venues and crowds"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "Velvet Haze indie band show — lo-fi, mellow; described as amazing with a vibe that stuck; user reflected 'This is what a perfect Friday should feel like'",
+        "date": "2026-05-11",
+        "added": "2026-05-15",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I'd kill for someone to just yell 'YES THIS LOOKS FINE' at me.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "It's so finicky — like I'm overthinking it, but I can't shake the feeling it's holding the whole thing back.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "It's like it's resisting me.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I'm waiting for a spark that's not coming. Tension hai all around.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "I think I need to stop trying so hard and start playing.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "But honestly, I'm scared to even try. What if it makes it worse?",
+        "tone": "scared",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Tea is my soul, honestly.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "I miss live music these days, especially with folks who get the vibe.",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "Their lyrics are so raw, it's like they're singing my thoughts.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "It's like they're singing straight into the quiet corners of my brain.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "Music is my glue.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "Old songs are like comfort food. When life feels chaotic, I need the familiar.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "neutral",
+        "energy": 5,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_48_E03_deeprun_w2",
+        "date": "2026-05-15",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "design work progress",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "tea preference",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "live band shows",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "music taste (indie/lo-fi/experimental)",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "Tamil indie artists",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "music as design tool",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "work + music/silence habits",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "stepping away from work",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "music and energy",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "play and experimentation",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "reframing fear",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I miss live music these days, especially with folks who get the vibe.\" (tone: lonely)",
+        "source_id": "mo_008",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"It's like it's resisting me.\" (tone: frustrated)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I'm waiting for a spark that's not coming. Tension hai all around.\" (tone: anxious)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Tea is my soul, honestly.\" (tone: content)",
+        "source_id": "mo_007",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Their lyrics are so raw, it's like they're singing my thoughts.\" (tone: grateful)",
+        "source_id": "mo_009",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": [
+        "tea-over-coffee preference",
+        "enjoys live music and crowd connection"
+      ]
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "try 10-minute speed mockup with zero revisions (and doodle with upbeat Latin music)",
+        "source_session": "eval_47_E02_deeprun_w1",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "report back on design experiments using chaos color palette from daily photos",
+        "source_session": "eval_47_E02_deeprun_w1",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "profession": "designer",
+      "remote_work_impact": "prefers in-person collaboration; remote work feels isolating",
+      "current_music": "Tamil indie (Vaalee, The Winter Kids) with lo-fi and experimental; primary sources of inspiration",
+      "inspiration_sources": "cafés (light, spatial arrangement), real-world observation",
+      "music_in_design": "central to design workflow; uses music as 'co-worker' that fills silence without distraction; matches project intensity (lo-fi/ambient for soft work, raw indie for intense work)",
+      "social_life": "social circle concentrated in favorite cafes; live music rare due to work commitments; values the connection of live venues and crowds"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I'd kill for someone to just yell 'YES THIS LOOKS FINE' at me.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "It's so finicky — like I'm overthinking it, but I can't shake the feeling it's holding the whole thing back.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "It's like it's resisting me.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I'm waiting for a spark that's not coming. Tension hai all around.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "I think I need to stop trying so hard and start playing.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "But honestly, I'm scared to even try. What if it makes it worse?",
+        "tone": "scared",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Tea is my soul, honestly.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "I miss live music these days, especially with folks who get the vibe.",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "Their lyrics are so raw, it's like they're singing my thoughts.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "It's like they're singing straight into the quiet corners of my brain.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "Music is my glue.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "Old songs are like comfort food. When life feels chaotic, I need the familiar.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "neutral",
+        "energy": 5,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_48_E03_deeprun_w2",
+        "date": "2026-05-15",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_50_E05_deeprun_w4",
+        "date": "2026-05-29",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "indie music",
+          "last_session": "eval_50_E05_deeprun_w4",
+          "last_date": "2026-05-29",
+          "uses": 1
+        },
+        {
+          "topic": "music beats",
+          "last_session": "eval_50_E05_deeprun_w4",
+          "last_date": "2026-05-29",
+          "uses": 1
+        },
+        {
+          "topic": "design inspiration",
+          "last_session": "eval_50_E05_deeprun_w4",
+          "last_date": "2026-05-29",
+          "uses": 1
+        },
+        {
+          "topic": "design work progress",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "tea preference",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "live band shows",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "music taste (indie/lo-fi/experimental)",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "Tamil indie artists",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "music as design tool",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "work + music/silence habits",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "stepping away from work",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "music and energy",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_50_E05_deeprun_w4",
+          "last_date": "2026-05-29"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I miss live music these days, especially with folks who get the vibe.\" (tone: lonely)",
+        "source_id": "mo_008",
+        "priority": 7,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"It's like it's resisting me.\" (tone: frustrated)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I'm waiting for a spark that's not coming. Tension hai all around.\" (tone: anxious)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Tea is my soul, honestly.\" (tone: content)",
+        "source_id": "mo_007",
+        "priority": 4,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Their lyrics are so raw, it's like they're singing my thoughts.\" (tone: grateful)",
+        "source_id": "mo_009",
+        "priority": 4,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "loves smooth/flowing things and chai with just-right sugar"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": [
+        "tea-over-coffee preference",
+        "enjoys live music and crowd connection"
+      ]
+    },
+    "open_loops": [
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "visit new café downtown and tell Maya about the vibes and design inspiration",
+        "source_session": "eval_50_E05_deeprun_w4",
+        "source_date": "2026-05-29",
+        "status": "active",
+        "expires_at": "2026-06-28"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "try 10-minute speed mockup with zero revisions (and doodle with upbeat Latin music)",
+        "source_session": "eval_47_E02_deeprun_w1",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "report back on design experiments using chaos color palette from daily photos",
+        "source_session": "eval_47_E02_deeprun_w1",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 89.9
+}

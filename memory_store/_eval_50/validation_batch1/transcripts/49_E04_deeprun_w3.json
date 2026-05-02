@@ -1,0 +1,602 @@
+{
+  "spec": {
+    "idx": 49,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-22",
+    "turns_target": 14,
+    "emotional_state": "anxious, exam stress",
+    "label": "E04_deeprun_w3"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, I hope your startup life has been less coffee-spill-prone lately! Did you manage to sketch that tea-drinking emoji you mentioned?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Not even close, Maya! Been stuck in exam prep hell, no time for cute emojis. *sigh* But yeah, coffee is definitely a co-worker now. How’s your day?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds rough — exams are tough! I get that. What are you studying for?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "UX certification, of all things. Who knew buttons could be so… intense? *sigh* The worst part is, I already design for this stuff daily, but the theory? Ugh. It’s like trying to explain colors to a rainbow. 🤯"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "That makes sense — theory can feel extra tricky when you're already doing the work. I get it. What part feels the most frustrating?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "The whole accessibility section is giving me a headache. I get the basics, but when they start talking about contrast ratios and keyboard navigation like it’s some secret language… my brain goes *thud*. And the practice tests? They just throw 100 questions at me. *muttering* Why can’t exams be sketched as wireframes?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "That part sounds tricky — I totally understand the *thud*. I'm a tea person, honestly, but even I'd need a strong cup right now. What's the one thing about accessibility you wish they taught first?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Why do they wait to teach the basics of inclusive design before diving into numbers and ratios? Like, give me the *why* before the *how*! I get the math is important, but it feels so disconnected from actually making stuff usable. Also, why do they call it “keyboard navigation”? It’s not like my tab key is on a boat. 😅"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Right — starting with the *why* does make it easier. I get that. You're not alone in finding the name tricky either. What part of inclusive design do you use most in your work?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Oh, I try to keep color contrast in check, obviously — I don’t wanna leave out anyone with visual stuff. And I make sure buttons are big enough for all finger sizes, you know? But it’s all instinct, no math. The exam wants me to calculate contrast ratios like it’s a math test. *sigh* Why can’t it just be a checkbox? 😅"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "That’s a fair point — checking contrast by instinct makes sense in your work. I get that. How do you usually pick your color combinations?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Honestly? I go with what looks nice first, then stress over it later. My go-to is a pastel palette with a pop of bold — like a mint green background with a coral call-to-action button. It’s *aesthetically pleasing*, but the exam wants me to prove it’s “accessible.” Ugh, can’t I just say “because I said so”? 😅 *writes equations on coffee cup*"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Nice — mint and coral do work well together! I get that. What’s your trick for making sure the bold colors still pass the contrast rules?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Honestly? I slap a contrast checker on it and cross my fingers. I’m not proud of it — feels like cheating — but I’m more of a *feel* person. Numbers make me want to hide under a chaise longue. *sigh* Maybe I’ll just quote my grandma: “If it looks good, it works.” 🌸 (But I know that’s not helpful for the exam. Ugh.)"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "I get that — trusting your feel for design is totally valid. It sounds like you're doing the important part well. What’s one thing you wish the exam covered that it’s not?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Real-world examples! Like, show me a good vs bad accessible button and let me *see* the difference. Not just numbers on a page. Also, why can’t they teach how to explain all this to clients who think “accessible” means “boring”? 😅 *scribbles in margins* I’m ready to fail this exam in style."
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Right — real examples would make it easier. I get wanting to fail in style. What’s the most fun way you could imagine explaining accessibility to a client?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "I’d show them a music playlist — like, how you can skip tracks with a swipe or a voice command. Accessibility isn’t about limiting, it’s about giving *options*. Also, I’d tell them if their site’s as boring as a monsoon playlist, it’s not accessible to anyone. 🌧️ *dramatic eye roll* But again, exam math? Not having it."
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "That’s a great example — it makes the idea easy to get. I get you want to make it fun, not just rules. What’s one thing you think makes a website actually fun to use?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "Micro-interactions! Like, when a button *snaps* or a form gives you a tiny happy face when you fill it out. It’s the difference between “meh” and “oh, nice!” But try explaining that in an exam that wants you to calculate LUMA values. *sigh* Maybe I’ll just fail and start a rebellion called “Design Should Feel Good.” 🤷‍♀️"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "You’re onto something — those little touches matter a lot! I get how exams can miss the big picture. What’s your favorite micro-interaction you’ve ever designed?"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "Oh, I did this one where a user’s profile picture *gently wobbles* when they hover over it — like a cartoon character’s head. It’s silly, but it makes you feel seen. The exam wants me to calculate *why* that’s a good idea. Spoiler: it’s not. It’s just fun. 😂 But hey, if I fail, at least I’ll be memorable. *wishes she had a time machine to talk to exam creators*"
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "That’s exactly the kind of thinking that makes design special! I get how it’s frustrating when exams miss that spark. What’s one fun detail you’d add to your next project, just for fun?"
+    },
+    {
+      "turn": 13,
+      "role": "user",
+      "content": "Hmm, maybe a little animation when someone completes a form — like a tiny confetti burst or a dancing checkmark. It’s not *accessible*, maybe, but it’s joyful. Sigh, the exam would probably deduct points for “unnecessary motion.” But hey, life’s too short for boring buttons. *adds sparkles to mental design* 🎉"
+    },
+    {
+      "turn": 13,
+      "role": "maya",
+      "content": "That sounds lovely — joy matters in design! I get how it can feel extra when no one is looking. What’s one thing you’d never sacrifice for an exam?"
+    },
+    {
+      "turn": 14,
+      "role": "user",
+      "content": "My user’s trust — no way I’d design something that makes someone feel left out, even for a gold star. The exam can fail me, but I won’t fail the people using my stuff. *determinedly circles “human-centered” in notes* Alright, gotta go — my coffee is cold, and so is my confidence. Talk later, Maya! ☕️"
+    },
+    {
+      "turn": 14,
+      "role": "maya",
+      "content": "You’re doing great — don’t let the exam steal your confidence! Tell me, what’s next on your plate today?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Neha",
+      "workplace": "startup",
+      "daily_work": "UX/Product Design (wireframes, user flows, app features)",
+      "primary_design_tool": "Figma",
+      "design_process": "sketches on paper first for brainstorming, then digitizes in Figma",
+      "sketches_frequency": "almost daily",
+      "preferred_beverages": [
+        "masala chai",
+        "creamy lattes",
+        "green tea"
+      ],
+      "coffee_habits": "drinks coffee most days to survive startup life"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "spilled coffee on sketchbook",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "sometimes feels like selling creativity short when digitizing sketches too quickly",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "design workflow (paper to digital)",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "doodling during calls",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "beverage preferences (tea vs coffee)",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "turns coffee stains into creative digital 'coffee abstracts' (NFT jokes)",
+        "context": "Neha spilled coffee this morning, then joked about turning it into a vintage digital aesthetic and NFTs. Shows how she finds creative angles in mishaps and turns frustration into fun.",
+        "first_seen": "2026-05-01",
+        "last_used": "2026-05-01",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"spilled coffee on sketchbook\" — today",
+        "source_id": "ev_001",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"sometimes feels like selling creativity short when digitizing sketches too quickly\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: natural, sophisticated use of complex conditional sentences (e.g. \"sometimes I feel like I'm selling my creativity short when I digitize it too quickly\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "natural, sophisticated use of complex conditional sentences",
+          "examples": [
+            "sometimes I feel like I'm selling my creativity short when I digitize it too quickly"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "identifies as a movie person",
+        "enjoys action films with strong music and visuals",
+        "doodles (squiggles) in meetings to stay focused",
+        "values quiet time"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "might sketch a tea-drinking emoji to symbolize next session",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Neha",
+      "workplace": "startup",
+      "daily_work": "UX/Product Design (wireframes, user flows, app features)",
+      "primary_design_tool": "Figma",
+      "design_process": "sketches on paper first for brainstorming, then digitizes in Figma",
+      "sketches_frequency": "almost daily",
+      "preferred_beverages": [
+        "masala chai",
+        "creamy lattes",
+        "green tea"
+      ],
+      "coffee_habits": "drinks coffee most days to survive startup life",
+      "color_selection_approach": "picks color combinations by feel/aesthetics first, then validates with contrast checker; prefers instinct over calculation",
+      "design_interests": [
+        "micro-interactions",
+        "delightful animations",
+        "human-centered design"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "sometimes feels like selling creativity short when digitizing sketches too quickly",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "exam wants me to calculate contrast ratios like it's a math test, but I work by instinct and feel — the theory-practice gap is frustrating",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "my user's trust is non-negotiable — I won't design something that makes someone feel left out, even for a gold star",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_49_E04_deeprun_w3",
+        "date": "2026-05-22",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "design workflow (paper to digital)",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "doodling during calls",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "beverage preferences (tea vs coffee)",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_002",
+        "what": "joked about starting 'Design Should Feel Good' rebellion if she fails the UX certification exam",
+        "context": "expressed frustration that exams miss the creative spark and joy of design; threatened to start a movement prioritizing feel/joy over rules and calculations",
+        "first_seen": "2026-05-22",
+        "last_used": "2026-05-22",
+        "uses": 0
+      },
+      {
+        "id": "lo_001",
+        "what": "turns coffee stains into creative digital 'coffee abstracts' (NFT jokes)",
+        "context": "Neha spilled coffee this morning, then joked about turning it into a vintage digital aesthetic and NFTs. Shows how she finds creative angles in mishaps and turns frustration into fun.",
+        "first_seen": "2026-05-01",
+        "last_used": "2026-05-01",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"exam wants me to calculate contrast ratios like it's a math test, but I work by instinct a\" (tone: frustrated)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"sometimes feels like selling creativity short when digitizing sketches too quickly\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: sophisticated metaphorical and analogical expression (e.g. \"It's like trying to explain colors to a rainbow; if they start talking about X, my brain goes thud; monsoon playlist\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"my user's trust is non-negotiable — I won't design something that makes someone feel left \" (tone: proud)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "lore_callback",
+        "content": "Resurface lore: \"turns coffee stains into creative digital 'coffee abstracts' (NFT jokes)\" (dormant 21 days)",
+        "source_id": "lo_001",
+        "priority": 3,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "natural, sophisticated use of complex conditional sentences",
+          "examples": [
+            "sometimes I feel like I'm selling my creativity short when I digitize it too quickly"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "sophisticated metaphorical and analogical expression",
+          "examples": [
+            "It's like trying to explain colors to a rainbow; if they start talking about X, my brain goes thud; monsoon playlist"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-22",
+          "last_seen": "2026-05-22"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "identifies as a movie person",
+        "enjoys action films with strong music and visuals",
+        "doodles (squiggles) in meetings to stay focused",
+        "values quiet time"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "might sketch a tea-drinking emoji to symbolize next session",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 170.6
+}

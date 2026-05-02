@@ -32,24 +32,6 @@
   ],
   "mood_log": [
     {
-      "session_id": "",
-      "date": "2026-04-30",
-      "label": "no_read",
-      "energy": null,
-      "confidence": 0.5,
-      "behavioral": {
-        "msg_count": 0,
-        "total_chars": 0,
-        "avg_words": 0.0,
-        "questions_back": 0,
-        "exclamations": 0,
-        "negation_density": 0.0,
-        "engagement_score": 0.5
-      },
-      "agreement": "n/a",
-      "linked_event_id": null
-    },
-    {
       "session_id": "c8c7571f-bf8c-450b-972e-aaa54176b882",
       "date": "2026-04-30",
       "label": "no_read",
@@ -282,6 +264,24 @@
       },
       "agreement": "n/a",
       "linked_event_id": null
+    },
+    {
+      "session_id": "",
+      "date": "2026-05-01",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.2,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
     }
   ],
   "cooldown": {
@@ -361,11 +361,6 @@
     ],
     "recent_openers": [
       {
-        "kind": "moment_followup",
-        "last_session": "",
-        "last_date": "2026-04-30"
-      },
-      {
         "kind": "general",
         "last_session": "",
         "last_date": "2026-04-30"
@@ -409,14 +404,14 @@
         "kind": "moment_followup",
         "last_session": "",
         "last_date": "2026-04-30"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "",
+        "last_date": "2026-05-01"
       }
     ],
     "recent_opening_phrases": [
-      {
-        "phrase": "{\"message\": \"Hi Aman, I noticed how much strength the song 'Ae Mere Watan K Logo' gives you, what memory or moment in yo",
-        "session_id": "c979c463-b1ac-4901-afa4-43c73e4ddba4",
-        "date": "2026-04-30"
-      },
       {
         "phrase": "{\"message\": \"Hi Aman, I love how you play foosball with such focus, what does it feel like when you score a perfect shot?",
         "session_id": "",
@@ -441,6 +436,11 @@
         "phrase": "{\"message\": \"Hi Aman, I noticed how much the song 'Ae Mere Watan K Logo' means to you, what part of it moves you the most?",
         "session_id": "",
         "date": "2026-04-30"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Aman, you mentioned the song 'Ae Mere Watan K Logo' moves you, what part of the lyrics gives you strength?",
+        "session_id": "",
+        "date": "2026-05-01"
       }
     ]
   },
@@ -451,8 +451,8 @@
       "content": "Gently check in: \"watches 'Ae Mere Watan K Logo' daily and finds it inspiring\" (tone: content)",
       "source_id": "mo_002",
       "priority": 4,
-      "computed_at": "2026-04-30",
-      "expires_at": "2026-05-14",
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
       "used": false
     }
   ],
@@ -494,7 +494,7 @@
       {
         "pattern": "omits infinitive in 'want to' constructions",
         "occurrences": 1,
-        "days_since_last": -3,
+        "days_since_last": -2,
         "examples": [
           "want to my bride"
         ]
@@ -502,7 +502,7 @@
       {
         "pattern": "word order in 'going' constructions",
         "occurrences": 1,
-        "days_since_last": 0,
+        "days_since_last": 1,
         "examples": [
           "great going my day"
         ]
@@ -510,7 +510,7 @@
       {
         "pattern": "awkward request structure mixing imperative with question",
         "occurrences": 1,
-        "days_since_last": 0,
+        "days_since_last": 1,
         "examples": [
           "play tennis with me can u ?"
         ]

@@ -1,0 +1,829 @@
+{
+  "spec": {
+    "idx": 7,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 12,
+    "emotional_state": "frustrated about a small thing today",
+    "label": "A07_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, Sui Dhaaga’s music stuck with you, right? Your sister must know every lyric by heart. What did you hum most?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Yeah, \"Kal aaj pahle\" was my go-to. My sister still teases me about it. But honestly, I could hum that song for hours. The music is so *baap*. But why am I even talking about this? I can't even debug my code right now, and that's the real problem. Ugh."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Kal aaj pahle\" is a banger — you say *baap*, I say genius. Music stays with you, code will too. What part of the code feels stuck?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "It's the API calls part. I'm getting a 404 error, but the endpoint should be right. Maybe the headers are wrong. I feel like I've tried everything. *Bhagwan*, why won't it work?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "I get that — API debugging is like finding a needle in a haystack. You’re doing great, just a tiny tweak. Are the headers exactly as the docs say?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I checked the headers again, and they look correct. Maybe some cache issue? Or maybe I messed up the authentication token. I'll try restarting the server. *Acha*, maybe I'm overcomplicating it."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "I get that — sometimes a restart clears the clutter. You’re on the right track. Did it work after you tried restarting?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "No luck yet. The 404 is still there. Maybe the endpoint URL is wrong. I'll double-check that. *Arre*, why do these small things take so much time?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Right — double-checking the URL is next. Small issues take time, but you’ll crack it. What did you find when you checked the URL?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "The URL looks correct, but maybe there's a typo I'm missing. Or perhaps the API version is outdated. I'll check the docs one more time. *Bhoot* frustrating."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Right — typos hide in plain sight. Take your time, it’s worth it. Did you spot any changes in the docs for the API version?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "The docs didn’t mention any version changes. Hmm. Maybe the endpoint is temporarily down? I'll try hitting it again in a while. Or maybe log something to see what's going wrong. *Bhoot* frustrating, right?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Right — sometimes endpoints act up without warning. Logging can help trace the issue. Did you see any clues in the logs?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "The logs didn’t show much, just the 404. Maybe I should check the network requests in the browser dev tools. *Arre*, why is this so hard? Sometimes I think I'm missing something obvious."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Right — browser dev tools show exactly what’s being sent. You’ll find it. What did the network tab reveal?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "The network tab showed the request is going to the right URL, but the response is still 404. Maybe there's an issue with how the request is formatted? Or maybe permissions are blocking it. *Arre*, why won't it just work?"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Right — the request looks right, but something’s still off. Permissions or formatting could be hiding the issue. Did you test with a simple tool like Postman?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "I tried Postman, and the same 404 came up. So it's not the code. Maybe the API is down on their end. *Arre*, why do these things always take forever to fix?"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Right — if Postman gives the same 404, it’s likely on their end. Frustrating, but you ruled out your code. Did you try reaching out to their support team?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "I just sent them a support email. Hoping they respond soon. Otherwise, I might have to wait and try again later. *Arre*, this is so *bored* me. Thanks for listening, Maya."
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "You're welcome — it's totally understandable to feel stuck. I hope they get back to you soon. What else are you working on that’s keeping you busy?"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "Nothing much else, honestly. I’m also looking into a new side project idea, but my head is too full of this API problem. Maybe tomorrow. *Arre*, I should get back to it. Thanks again, Maya. Gotta go now. Talk later."
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "You're welcome — take your time, tomorrow's a fresh start. Talk later, Priyansh. Tell me how the API story resolves, okay?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "current_learning_focus": "AI tools and NLP (chatbots, text analysis)",
+      "profession": "developer",
+      "movie_preferences": [
+        "Bollywood (especially Zoya Akhtar films and classics like Dilwale Dulhania Le Jayenge), comedies, romantic films; prefers laid-back content on weekends",
+        "Barfi!",
+        "Lagaan",
+        "Pathaan",
+        "Sui Dhaaga",
+        "Sui Dhaaga 2"
+      ],
+      "family": "has a sister who loves Bollywood and knows all songs by heart; watches movies together and collaboratively selects what to watch; sings Bollywood songs with mother",
+      "sports_interests": "supports Mumbai Indians (cricket team); favorite player is Virat Kohli (admires his work ethic and clear communication); also respects MS Dhoni's calm leadership style",
+      "gaming_interests": "plays strategy and sports games to unwind after work; FIFA is favorite game (usually plays Manchester United); sometimes gets so into games he forgets to eat",
+      "relaxation_activities": [
+        "video games",
+        "watching cricket with friends",
+        "listening to Hindi music while cooking"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "watched Jugjugg Jeeyo (Bollywood movie); found songs catchy, hummed them all night",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "watched Sui Dhaaga with sister; found music catchy, sister knows all songs by heart",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I enjoy watching movies alone because it gives me freedom to pause or rewind. But I also like laughing with my sister. It's about having that choice.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Old movies feel more real with deeper emotions. Simple, heartfelt stories about ordinary people—like a tailor and his family—feel honest and touching. These stories stay with me.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.82,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "movie preferences",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "favorite Bollywood movies",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "humming songs from movies",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "old vs. new film preference",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "language preferences in cinema",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "most impactful films",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood films",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket/sports",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "video games",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "reading",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"watched Sui Dhaaga with sister; found music catchy, sister knows all songs by heart\" — today",
+        "source_id": "ev_002",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: naturally elaborates on preferences with specific reasoning and emotional context (e.g. \"The first Sui Dhaaga had a nice simple story about a tailor and his family. It felt real and honest. The second one was okay, but I still have a soft corner for the first.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I enjoy watching movies alone because it gives me freedom to pause or rewind. But I also l\" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Old movies feel more real with deeper emotions. Simple, heartfelt stories about ordinary p\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "naturally elaborates on preferences with specific reasoning and emotional context",
+          "examples": [
+            "The first Sui Dhaaga had a nice simple story about a tailor and his family. It felt real and honest. The second one was okay, but I still have a soft corner for the first."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the next movie night goes",
+        "source_session": "eval_4_A04_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "current_learning_focus": "AI tools and NLP (chatbots, text analysis)",
+      "profession": "developer",
+      "movie_preferences": [
+        "Bollywood (especially Zoya Akhtar films and classics like Dilwale Dulhania Le Jayenge), comedies, romantic films; prefers laid-back content on weekends",
+        "Barfi!",
+        "Lagaan",
+        "Pathaan",
+        "Sui Dhaaga",
+        "Sui Dhaaga 2"
+      ],
+      "family": "has a sister who loves Bollywood and knows all songs by heart; watches movies together and collaboratively selects what to watch; sings Bollywood songs with mother",
+      "sports_interests": "supports Mumbai Indians (cricket team); favorite player is Virat Kohli (admires his work ethic and clear communication); also respects MS Dhoni's calm leadership style",
+      "gaming_interests": "plays strategy and sports games to unwind after work; FIFA is favorite game (usually plays Manchester United); sometimes gets so into games he forgets to eat",
+      "relaxation_activities": [
+        "video games",
+        "watching cricket with friends",
+        "listening to Hindi music while cooking"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "watched Jugjugg Jeeyo (Bollywood movie); found songs catchy, hummed them all night",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "watched Sui Dhaaga with sister; found music catchy, sister knows all songs by heart",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "sent support email to API provider about persistent 404 error; waiting for response",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I enjoy watching movies alone because it gives me freedom to pause or rewind. But I also like laughing with my sister. It's about having that choice.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Old movies feel more real with deeper emotions. Simple, heartfelt stories about ordinary people—like a tailor and his family—feel honest and touching. These stories stay with me.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.82,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_7_A07_same_day",
+        "date": "2026-05-01",
+        "label": "frustrated",
+        "energy": 5,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "n/a",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "movie preferences",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "favorite Bollywood movies",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "humming songs from movies",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "old vs. new film preference",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "language preferences in cinema",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "most impactful films",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood films",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket/sports",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "video games",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "reading",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Sui Dhaaga",
+          "last_session": "eval_7_A07_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_7_A07_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"sent support email to API provider about persistent 404 error; waiting for response\" — today",
+        "source_id": "ev_003",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: naturally elaborates on preferences with specific reasoning and emotional context (e.g. \"The first Sui Dhaaga had a nice simple story about a tailor and his family. It felt real and honest. The second one was okay, but I still have a soft corner for the first.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I enjoy watching movies alone because it gives me freedom to pause or rewind. But I also l\" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Old movies feel more real with deeper emotions. Simple, heartfelt stories about ordinary p\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "naturally elaborates on preferences with specific reasoning and emotional context",
+          "examples": [
+            "The first Sui Dhaaga had a nice simple story about a tailor and his family. It felt real and honest. The second one was okay, but I still have a soft corner for the first."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the next movie night goes",
+        "source_session": "eval_4_A04_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "event_pending",
+        "content": "waiting for API provider support email response to the 404 error",
+        "source_session": "eval_7_A07_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "tell Maya how the API 404 issue gets resolved",
+        "source_session": "eval_7_A07_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "explore a new side project idea tomorrow",
+        "source_session": "eval_7_A07_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 115.3
+}

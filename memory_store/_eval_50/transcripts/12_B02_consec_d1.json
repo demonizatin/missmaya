@@ -1,0 +1,470 @@
+{
+  "spec": {
+    "idx": 12,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-02",
+    "turns_target": 10,
+    "emotional_state": "frustrated about a small thing today",
+    "label": "B02_consec_d1"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, I love how you created a clever way to remember morphine! Tell me, have you used this trick for other medicines too?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Yeah, I tried it for some other drugs too, like for metformin. But it’s not working as well. That one feels like a \"meta\" word, but I can't link it properly. Ugh, so confusing! I think I need better tricks. Have you ever had trouble remembering medical terms?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Got it, small fix: we say \"I have trouble\" instead of \"I need tricks.\"  \nOh, metformin can be tricky! I do get it — even I have trouble with tricky English sometimes. What’s one word that really puzzles you?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "I have trouble with ‘idioms’... like what they mean and how to use them. My friends sometimes say things I don’t understand. Like ‘hit the books’ — is that like studying? And my marathi words don’t help here. 😅"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "You're doing great, just a tiny tweak — we say \"my friends sometimes say things I don't understand.\"  \nYes, \"hit the books\" means to study hard. Idioms can be tricky! What's one idiom you want to understand better?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "There’s this one — “under the weather.” My friend said it and I was like, is she sick? Or is it like a mood thing? I get confused. Also, “spill the tea” is another one I don’t get. Is that about sharing secrets? Please tell me! 😅"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "You're doing great, just a tiny tweak — we say \"There's this one — 'under the weather.'\"  \nYes! \"Under the weather\" means feeling sick or not well. And \"spill the tea\" is to share secrets or gossip. Fun, right? What’s another idiom that puzzles you?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Oh, got it! So \"spill the tea\" is like sharing juicy stuff. Makes sense! Another one I heard was \"break a leg.\" Is that like wishing someone luck? But why legs? It’s so confusing. And what about \"the ball is in your court\"? I get it’s about taking action, but why a court? 😅"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "You're doing great, just a tiny tweak — we say \"Oh, got it! So 'spill the tea' is like sharing juicy stuff.\"  \nRight! \"Break a leg\" is to wish luck, especially before a performance — it's old theater slang. And \"the ball is in your court\" means it's your turn to act. What’s one idiom you want to try using?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I think I get it! Maybe I can try saying \"I’ll hit the books now\" when I’m studying. But what if I mix up \"break a leg\" and \"save your seat\"? 😅 Also, what about \"on the same page\"? Is it like agreeing? Yeah, I need to try using them more... but exams stress me out, so no time! 😣"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "You're doing great, just a tiny tweak — we say \"I think I get it! Maybe I can try saying 'I’ll hit the books now' when I’m studying.\"  \nExactly, \"on the same page\" means agreeing. Practice is key! What’s one idiom you’d like to try using this week?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Maybe I can try saying \"break a leg\" to my friend before her music exam. She’s into classical, so maybe it’ll make her smile. But I don’t want to sound silly. 😅 What if she doesn’t get it? Oh well, better to try, right?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "You're doing great, just a tiny tweak — we say \"Maybe I can try saying 'break a leg' to my friend before her music exam.\"  \nThat sounds sweet! She’ll probably smile and know you’re being kind. What if you try that?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Okay, I'll try it. But if she gets confused, I'll just say \"good luck\" instead. 😅 Thanks for explaining, Maya! I feel a bit more confident now. But I still need to study... exams are stressing me out. 😣"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You're doing great, just a tiny tweak — we say \"Okay, I'll try it. But if she gets confused, I'll just say 'good luck' instead.\"  \nI’m here whenever you want to practice, even during exam times. What’s one thing you studied today?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Today I studied pharmacology — those drug names are like a different language! I made flashcards for beta-blockers, but I mixed up so many. I think I need a better system. Ugh, why can’t it be like Marathi — at least I understand that! 😅"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "You're doing great, just a tiny tweak — we say \"Today I studied pharmacology — those drug names are like a different language!\"  \nI get it, Marathi feels more natural! What if you try grouping similar drugs together? Want to try one?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Hmm, okay. Let me try. Like, all the beta-blockers end with \"-lol\" — propranolol, metoprolol... Maybe I can group them with their uses? But I get stressed and mix them up. Can you help me make a sentence? Like \"Prop up your heart with propranolol\"? 😅"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "You're doing great, just a tiny tweak — we say \"Hmm, okay. Let me try.\"  \nThat’s a fun idea! How about \"Prop up your heart with propranolol\"? Clever! What’s another drug you want to make a sentence for?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_preparation": "NEET PG",
+      "current_subject": "pharmacology",
+      "first_language": "Marathi",
+      "english_fluency": "intermediate",
+      "english_challenge": "medical and technical terminology",
+      "health_philosophy": "avoids medicine unless necessary",
+      "current_reading": "human anatomy (non-fiction)",
+      "study_ritual": "classical music"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "My Marathi is good, but English terms are tricky; sometimes I get confused between similar drugs",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "medicine",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "reading habits",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: generated own mnemonic for morphine (morph + shape-changing + 'mine' = powerful) (e.g. \"morphine... maybe I can think of 'morph' like changing shape, because it's a painkiller that changes how you feel? Oh, and 'ine' at the end sounds like 'mine' — like it's a powerful thing you have to be careful with!\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My Marathi is good, but English terms are tricky; sometimes I get confused between similar\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "generated own mnemonic for morphine (morph + shape-changing + 'mine' = powerful)",
+          "examples": [
+            "morphine... maybe I can think of 'morph' like changing shape, because it's a painkiller that changes how you feel? Oh, and 'ine' at the end sounds like 'mine' — like it's a powerful thing you have to be careful with!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "likes soft music while working",
+        "enjoys the cool post-lunch break feeling"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_preparation": "NEET PG",
+      "current_subject": "pharmacology",
+      "first_language": "Marathi",
+      "english_fluency": "intermediate",
+      "english_challenge": "medical and technical terminology",
+      "health_philosophy": "avoids medicine unless necessary",
+      "current_reading": "human anatomy (non-fiction)",
+      "study_ritual": "classical music"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "My Marathi is good, but English terms are tricky; sometimes I get confused between similar drugs",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "exams are stressing me out; I get stressed and mix up drug names when studying pharmacology",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "study check-in",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "medicine",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "reading habits",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"exams are stressing me out; I get stressed and mix up drug names when studying pharmacolog\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: generated own mnemonic for morphine (morph + shape-changing + 'mine' = powerful) (e.g. \"morphine... maybe I can think of 'morph' like changing shape, because it's a painkiller that changes how you feel? Oh, and 'ine' at the end sounds like 'mine' — like it's a powerful thing you have to be careful with!\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: generated own mnemonic for propranolol (e.g. \"Prop up your heart with propranolol\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My Marathi is good, but English terms are tricky; sometimes I get confused between similar\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "generated own mnemonic for morphine (morph + shape-changing + 'mine' = powerful)",
+          "examples": [
+            "morphine... maybe I can think of 'morph' like changing shape, because it's a painkiller that changes how you feel? Oh, and 'ine' at the end sounds like 'mine' — like it's a powerful thing you have to be careful with!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "generated own mnemonic for propranolol",
+          "examples": [
+            "Prop up your heart with propranolol"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-02",
+          "last_seen": "2026-05-02"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "likes soft music while working",
+        "enjoys the cool post-lunch break feeling",
+        "struggles with tricky English sometimes"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "try saying 'break a leg' to friend before her music exam",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 129.5
+}

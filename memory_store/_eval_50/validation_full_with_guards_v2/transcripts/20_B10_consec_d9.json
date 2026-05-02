@@ -1,0 +1,1344 @@
+{
+  "spec": {
+    "idx": 20,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-10",
+    "turns_target": 14,
+    "emotional_state": "lonely, wanting to talk",
+    "label": "B10_consec_d9"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, I'm Miss Maya. Honestly, I love how creative you get with your recipes. How did your banana bread with cinnamon and cardamom turn out?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "It was nice, but a bit sweet. Maybe I used too much sugar? Also, I was distracted studying—my mind was on NEET PG. 😅"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "You used too much sugar, I get that. NEET PG prep can take focus away from baking. What will you try next, maybe less sugar?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Maybe add more cardamom instead of sugar. I want it healthy but tasty. I also need to study more—tomorrow is a mock test. Ugh, so much to do."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "You're doing great, balancing study and taste! Cardamom is a smart swap. What topic are you focusing on for the mock test tomorrow?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I'm focusing on pharmacology. It's so confusing, especially the drug interactions. Sometimes I think I know it, but then I get anxious... *sigh*. Do you have any tips?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Pharmacology is tricky, I get it. How are you planning to study it today, with flashcards or a new method?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "I use flashcards, but I get confused with similar drugs. Maybe make tables to compare them? Also, I think I'll listen to classical music while studying—calms me a bit. Want to try something new today."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Tables sound like a good idea. Classical music helps me too. What piece are you going with?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Ragtime by Scott Joplin, maybe. I like it when it's upbeat. But sometimes I play old Marathi film songs too, they help me relax. Anyway, I should get back to pharmacology... *sigh*."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Ragtime is a good pick for focus. Marathi songs are cozy for breaks. What drug group are you tackling first today?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Antihypertensives. There are so many to remember—ACE inhibitors, beta blockers... it's a mess. I keep mixing them up. Maybe I'll make a table comparing all of them. *sigh* Gotta start now, or I'll fall behind. Thanks for the chat, Maya. It helps."
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "You're doing great tackling antihypertensives. A table will help sort them out. What part feels toughest right now?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "The mechanism of action and side effects—everything sounds the same! Like, how do I remember which one causes dry cough? It’s *so* frustrating. Maybe I’ll color-code the table… pink for ACE inhibitors? *sigh* Ugh, NEET PG is a monster."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "I get that, ACE inhibitors and dry cough go together. Color coding is smart! What will you mark next, maybe beta blockers?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Blue for beta blockers, maybe. I can write \"dry cough\" in pink and \"bradycardia\" in blue. It’s silly, but it might help. Sometimes I need silly tricks. *sigh* Thanks, Maya. I’ll start now. Maybe I can finish one table today. Fingers crossed."
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "You're doing great with the colors and tricks. One table today is a win! What’s next after that, another chapter or a break?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Maybe a short break after the table—listen to a Marathi song, chai time. Then maybe start on antidiabetics. But if I’m tired, I’ll just rest. My brain is fried enough. 😅"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Chai breaks and Marathi songs are perfect for recharge. Antidiabetics next or rest, what feels right?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "I think I’ll rest after the table. My head is spinning. Maybe watch a little movie or just sit quiet. Thanks for talking, Maya. It really helps. 😊"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "You're doing great balancing work and rest. Quiet time or a movie, what will you pick today?"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "Maybe just sit quiet, with music on low. My brain needs to chill. But I'll get back to pharmacology tomorrow. Thank you, Maya. Have a good day! 😊"
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "Take your time, Aarti, quiet with music sounds perfect. See you tomorrow, and all the best for your mock test!"
+    },
+    {
+      "turn": 13,
+      "role": "user",
+      "content": "You too, Maya! Will listen to some old \"Asha Bhosle\" songs, maybe. They calm me. Mock test is a mountain, but I climb. 😊 Take care!"
+    },
+    {
+      "turn": 13,
+      "role": "maya",
+      "content": "Asha Bhosle songs are the best for calm. Climb that mock test, you’ve got this! See you soon."
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "baking_background": "cookies, bread, and chocolate cake; experimenting with flavor combinations and new recipes",
+      "interests": [
+        "cooking",
+        "baking",
+        "trying new recipes",
+        "classical music"
+      ],
+      "academic_status": "preparing for NEET PG (exam) with focus on pharmacology and pathology",
+      "cooking_vs_baking": "strongly prefers cooking over baking; cooking is meditation for her, helps clear her mind, especially before exams; baking requires precision and her schedule is currently too chaotic",
+      "comfort_foods": "misal-pav (dish) and upma (dish) — quick, comforting, remind her of home; experiments with twists like roasted peanuts and coconut chutney"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "successfully baked chocolate cake (dish); sister gave positive feedback",
+        "date": "2026-05-04",
+        "added": "2026-05-04",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "planning to bake banana bread (dish) with 2/3 honey, 1/3 sugar, cinnamon, and cardamom",
+        "date": "2026-05-05",
+        "added": "2026-05-04",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "burnt hand mixing chocolate cake (dish) batter during baking",
+        "date": "2026-05-04",
+        "added": "2026-05-05",
+        "followed_up": false
+      },
+      {
+        "id": "ev_004",
+        "what": "made chicken curry (dish) with coconut milk — easy and calming",
+        "date": "2026-05-05",
+        "added": "2026-05-05",
+        "followed_up": true
+      },
+      {
+        "id": "ev_005",
+        "what": "understood concept of beta-blockers and bronchoconstriction in pharmacology",
+        "date": "2026-05-06",
+        "added": "2026-05-06",
+        "followed_up": false
+      },
+      {
+        "id": "ev_006",
+        "what": "overbaked banana bread (dish) — recipe suggested 45 mins, acknowledges need for more practice; notes kitchen smelled nice",
+        "date": "2026-05-05",
+        "added": "2026-05-07",
+        "followed_up": false
+      },
+      {
+        "id": "ev_007",
+        "what": "finished a chapter on pharmacology and pathology while preparing for NEET PG (exam)",
+        "date": "2026-05-08",
+        "added": "2026-05-08",
+        "followed_up": false
+      },
+      {
+        "id": "ev_008",
+        "what": "developed study technique: created Marathi flashcards with visual mnemonics to remember complex medical concepts (e.g., हृदयगती कमी होते for bradycardia, sad faced kidney for nephrotic syndrome)",
+        "date": "2026-05-08",
+        "added": "2026-05-08",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "scared that a chocolate cake (dish) might not turn out when she tries to bake it",
+        "tone": "scared",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "sees baking a cake as a big, challenging step forward; nervous but eager to try",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "worried about making a mess in the kitchen and having to clean up quickly before parents come home",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "believes the act of trying and learning matters more than perfect results ('it's worth it, even if not perfect')",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "successfully baked a chocolate cake despite initial uncertainty; sister said it was 'very good' (badi acchi). Proud and motivated to try more challenging recipes.",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "excited to experiment with new flavors and recipes instead of repeating the same things; willing to try novel combinations like cardamom and cinnamon in banana bread",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "bittersweet success: baked a good chocolate cake (dish) but burnt her hand mixing the batter; frames this as 'bhaang khao' (the sweet and the sting), seeing pain as integral to the victory",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "cooking is meditation for her; it helps her clear her mind and manage stress, especially before exams",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "likes to add experimental twists to recipes (roasted peanuts in upma (dish), coconut chutney in misal (dish)) while usually sticking to tradition; values how small changes can add joy",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "comfortable code-switching between English and Hindi; mixes words naturally without embarrassment or concern",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "celebrates learning breakthroughs and understanding difficult concepts, even small ones; finds pride and momentum in these moments ('small wins are the best kind')",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "pushed through nervousness and fear about attempting chocolate cake (dish) with aunt's recipe; decided to proceed despite anxiety, sees the attempt itself as worthwhile",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "playfully creates linguistic twists; calling 70% cocoa '70 pratiśat kheer chocolate' in Marathi and saying 'Maza hojayach!' (it will be fun); uses language mixing as a tool for humor and joy",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_014",
+        "text": "anxious about NEET PG (exam); scared of mixing up complex clinical concepts like pharmacology and pathology during the exam",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_015",
+        "text": "proud of finishing a chapter in pharmacology and pathology; relieved and motivated to continue studying despite the difficulty",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_016",
+        "text": "discovers that Marathi-based mnemonic techniques (combining medical concepts in Marathi with visual imagery like sad kidney, broken drum heartbeat) significantly enhance her learning and make complex material more engaging",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_017",
+        "text": "grateful that discussing study strategies with Maya about pharmacology side effects and Marathi mnemonics helped ease her exam anxiety and made her day feel lighter",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.68,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "content",
+        "energy": 8,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_15_B05_consec_d4",
+        "date": "2026-05-05",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_16_B06_consec_d5",
+        "date": "2026-05-06",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_17_B07_consec_d6",
+        "date": "2026-05-07",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_18_B08_consec_d7",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "monsoon mornings",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "chicken curry",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "break activity",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "chocolate cake success",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "banana bread recipe",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "cooking vs baking",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "comfort foods",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "recipe variations",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "recipes",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "desserts",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"finished a chapter on pharmacology and pathology while preparing for NEET PG (exam)\" — today",
+        "source_id": "ev_007",
+        "priority": 10,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"developed study technique: created Marathi flashcards with visual mnemonics to remember complex medical concepts (e.g., हृदयगती कमी होते for bradycardia, sad faced kidney for nephrotic syndrome)\" — today",
+        "source_id": "ev_008",
+        "priority": 10,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "event_followup",
+        "content": "Ask about \"understood concept of beta-blockers and bronchoconstriction in pharmacology\" — was 2 days ago",
+        "source_id": "ev_005",
+        "priority": 8,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "event_followup",
+        "content": "Ask about \"overbaked banana bread (dish) — recipe suggested 45 mins, acknowledges need for more practice; notes kitchen smelled nice\" — was 3 days ago",
+        "source_id": "ev_006",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"anxious about NEET PG (exam); scared of mixing up complex clinical concepts like pharmacol\" (tone: anxious)",
+        "source_id": "mo_014",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "engages in sophisticated language play (creating Marathi version of English term) while maintaining grammatical fluency",
+          "examples": [
+            "Maybe I'll call it '70% chocolate' even if it's not. Sounds good in Marathi, '70 pratiśat kheer chocolate'. Maza hojayach!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-07",
+          "last_seen": "2026-05-07"
+        },
+        {
+          "what": "asks precise clarifying questions when encountering unfamiliar technical terms",
+          "examples": [
+            "I don't know what that means exactly. Should I get the really bitter kind? Or the sweet one?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-07",
+          "last_seen": "2026-05-07"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "will attempt chocolate cake (dish) baking with aunt's recipe using 70% cocoa dark chocolate; plans to involve sister to help; will report back on outcome",
+        "source_session": "eval_17_B07_consec_d6",
+        "source_date": "2026-05-07",
+        "status": "active",
+        "expires_at": "2026-06-06"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "will bake banana bread (dish) with 2/3 honey, 1/3 sugar, cinnamon and cardamom tomorrow and share how it turns out",
+        "source_session": "eval_14_B04_consec_d3",
+        "source_date": "2026-05-04",
+        "status": "active",
+        "expires_at": "2026-06-03"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "will attempt to bake a simple chocolate cake (dish); will report back on the experience",
+        "source_session": "eval_13_B03_consec_d2",
+        "source_date": "2026-05-03",
+        "status": "active",
+        "expires_at": "2026-06-02"
+      },
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "user hasn't yet answered: what makes you want to try a chocolate cake (dish) now",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "baking_background": "cookies, bread, and chocolate cake; experimenting with flavor combinations and new recipes",
+      "interests": [
+        "cooking",
+        "baking",
+        "trying new recipes",
+        "classical music"
+      ],
+      "academic_status": "preparing for NEET PG (exam) with focus on pharmacology and pathology",
+      "cooking_vs_baking": "strongly prefers cooking over baking; cooking is meditation for her, helps clear her mind, especially before exams; baking requires precision and her schedule is currently too chaotic",
+      "comfort_foods": "misal-pav (dish) and upma (dish) — quick, comforting, remind her of home; experiments with twists like roasted peanuts and coconut chutney"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "successfully baked chocolate cake (dish); sister gave positive feedback",
+        "date": "2026-05-04",
+        "added": "2026-05-04",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "planning to bake banana bread (dish) with 2/3 honey, 1/3 sugar, cinnamon, and cardamom",
+        "date": "2026-05-05",
+        "added": "2026-05-04",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "burnt hand mixing chocolate cake (dish) batter during baking",
+        "date": "2026-05-04",
+        "added": "2026-05-05",
+        "followed_up": false
+      },
+      {
+        "id": "ev_004",
+        "what": "made chicken curry (dish) with coconut milk — easy and calming",
+        "date": "2026-05-05",
+        "added": "2026-05-05",
+        "followed_up": true
+      },
+      {
+        "id": "ev_005",
+        "what": "understood concept of beta-blockers and bronchoconstriction in pharmacology",
+        "date": "2026-05-06",
+        "added": "2026-05-06",
+        "followed_up": false
+      },
+      {
+        "id": "ev_006",
+        "what": "overbaked banana bread (dish) — recipe suggested 45 mins, acknowledges need for more practice; notes kitchen smelled nice",
+        "date": "2026-05-05",
+        "added": "2026-05-07",
+        "followed_up": false
+      },
+      {
+        "id": "ev_007",
+        "what": "finished a chapter on pharmacology and pathology while preparing for NEET PG (exam)",
+        "date": "2026-05-08",
+        "added": "2026-05-08",
+        "followed_up": false
+      },
+      {
+        "id": "ev_008",
+        "what": "developed study technique: created Marathi flashcards with visual mnemonics to remember complex medical concepts (e.g., हृदयगती कमी होते for bradycardia, sad faced kidney for nephrotic syndrome)",
+        "date": "2026-05-08",
+        "added": "2026-05-08",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "scared that a chocolate cake (dish) might not turn out when she tries to bake it",
+        "tone": "scared",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "sees baking a cake as a big, challenging step forward; nervous but eager to try",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "worried about making a mess in the kitchen and having to clean up quickly before parents come home",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "believes the act of trying and learning matters more than perfect results ('it's worth it, even if not perfect')",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "successfully baked a chocolate cake despite initial uncertainty; sister said it was 'very good' (badi acchi). Proud and motivated to try more challenging recipes.",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "excited to experiment with new flavors and recipes instead of repeating the same things; willing to try novel combinations like cardamom and cinnamon in banana bread",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "bittersweet success: baked a good chocolate cake (dish) but burnt her hand mixing the batter; frames this as 'bhaang khao' (the sweet and the sting), seeing pain as integral to the victory",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "cooking is meditation for her; it helps her clear her mind and manage stress, especially before exams",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "likes to add experimental twists to recipes (roasted peanuts in upma (dish), coconut chutney in misal (dish)) while usually sticking to tradition; values how small changes can add joy",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "comfortable code-switching between English and Hindi; mixes words naturally without embarrassment or concern",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "celebrates learning breakthroughs and understanding difficult concepts, even small ones; finds pride and momentum in these moments ('small wins are the best kind')",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "pushed through nervousness and fear about attempting chocolate cake (dish) with aunt's recipe; decided to proceed despite anxiety, sees the attempt itself as worthwhile",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "playfully creates linguistic twists; calling 70% cocoa '70 pratiśat kheer chocolate' in Marathi and saying 'Maza hojayach!' (it will be fun); uses language mixing as a tool for humor and joy",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_014",
+        "text": "anxious about NEET PG (exam); scared of mixing up complex clinical concepts like pharmacology and pathology during the exam",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_015",
+        "text": "proud of finishing a chapter in pharmacology and pathology; relieved and motivated to continue studying despite the difficulty",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_016",
+        "text": "discovers that Marathi-based mnemonic techniques (combining medical concepts in Marathi with visual imagery like sad kidney, broken drum heartbeat) significantly enhance her learning and make complex material more engaging",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_017",
+        "text": "grateful that discussing study strategies with Maya about pharmacology side effects and Marathi mnemonics helped ease her exam anxiety and made her day feel lighter",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.68,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "content",
+        "energy": 8,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_15_B05_consec_d4",
+        "date": "2026-05-05",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_16_B06_consec_d5",
+        "date": "2026-05-06",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_17_B07_consec_d6",
+        "date": "2026-05-07",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_18_B08_consec_d7",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "monsoon mornings",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "chicken curry",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "break activity",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "chocolate cake success",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "banana bread recipe",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "cooking vs baking",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "comfort foods",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "recipe variations",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "recipes",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "desserts",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"finished a chapter on pharmacology and pathology while preparing for NEET PG (exam)\" — today",
+        "source_id": "ev_007",
+        "priority": 10,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"developed study technique: created Marathi flashcards with visual mnemonics to remember complex medical concepts (e.g., हृदयगती कमी होते for bradycardia, sad faced kidney for nephrotic syndrome)\" — today",
+        "source_id": "ev_008",
+        "priority": 10,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "event_followup",
+        "content": "Ask about \"understood concept of beta-blockers and bronchoconstriction in pharmacology\" — was 2 days ago",
+        "source_id": "ev_005",
+        "priority": 8,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "event_followup",
+        "content": "Ask about \"overbaked banana bread (dish) — recipe suggested 45 mins, acknowledges need for more practice; notes kitchen smelled nice\" — was 3 days ago",
+        "source_id": "ev_006",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"anxious about NEET PG (exam); scared of mixing up complex clinical concepts like pharmacol\" (tone: anxious)",
+        "source_id": "mo_014",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "engages in sophisticated language play (creating Marathi version of English term) while maintaining grammatical fluency",
+          "examples": [
+            "Maybe I'll call it '70% chocolate' even if it's not. Sounds good in Marathi, '70 pratiśat kheer chocolate'. Maza hojayach!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-07",
+          "last_seen": "2026-05-07"
+        },
+        {
+          "what": "asks precise clarifying questions when encountering unfamiliar technical terms",
+          "examples": [
+            "I don't know what that means exactly. Should I get the really bitter kind? Or the sweet one?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-07",
+          "last_seen": "2026-05-07"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "will attempt chocolate cake (dish) baking with aunt's recipe using 70% cocoa dark chocolate; plans to involve sister to help; will report back on outcome",
+        "source_session": "eval_17_B07_consec_d6",
+        "source_date": "2026-05-07",
+        "status": "active",
+        "expires_at": "2026-06-06"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "will bake banana bread (dish) with 2/3 honey, 1/3 sugar, cinnamon and cardamom tomorrow and share how it turns out",
+        "source_session": "eval_14_B04_consec_d3",
+        "source_date": "2026-05-04",
+        "status": "active",
+        "expires_at": "2026-06-03"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "will attempt to bake a simple chocolate cake (dish); will report back on the experience",
+        "source_session": "eval_13_B03_consec_d2",
+        "source_date": "2026-05-03",
+        "status": "active",
+        "expires_at": "2026-06-02"
+      },
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "user hasn't yet answered: what makes you want to try a chocolate cake (dish) now",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 207.9
+}

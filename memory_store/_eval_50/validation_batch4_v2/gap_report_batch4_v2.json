@@ -1,0 +1,449 @@
+{
+  "session_count": 15,
+  "summary_metrics": {
+    "avg_reply_words": 29.2,
+    "replies_over_120w": 0,
+    "replies_under_8w": 0,
+    "avg_memory_ref_rate_returning_users": 0.07,
+    "opener_repetition_pairs": 0,
+    "stale_phrase_total_hits": 1,
+    "wrap_up_seen_count": 11
+  },
+  "ranked_gaps": [
+    {
+      "id": "low_memory_utilization",
+      "severity": 4,
+      "frequency_pct": 100.0,
+      "count": 13,
+      "layer": "prompt+renderer",
+      "description": "On returning-user sessions, average memory-reference rate is 7% — too low. Maya is ignoring stored facts/events.",
+      "examples": [],
+      "suggested_fix": "Renderer: surface the highest-priority anticipation_queue item more prominently. Prompt: tighten Rule 31 to require referencing one stored item every 3rd turn at minimum.",
+      "score": 200
+    },
+    {
+      "id": "multiple_questions_per_reply",
+      "severity": 3,
+      "frequency_pct": 33.3,
+      "count": 7,
+      "layer": "prompt",
+      "description": "Maya included 2+ questions in 7 replies across 5 sessions (Rule 9 violation).",
+      "examples": [
+        {
+          "session_idx": 4,
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "Actors bringing raw emotion to screen — that’s powerful. Cricket matches and good films both carry that energy, don’t they? I follow cricket — the drama of a tight finish never gets old. Do you have a"
+        },
+        {
+          "session_idx": 7,
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "It’s okay to feel stuck sometimes — no need to fix it right away. If you did pick something new, what would it be? Something tiny, just to shift the rhythm?"
+        },
+        {
+          "session_idx": 8,
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "You said that clearly — I get it, long stories can drag. Sometimes a lighter film helps. What about *Raees*? It has some nice drama and action balance. Or a comedy?"
+        }
+      ],
+      "suggested_fix": "Sharpen Rule 9 with 'NEVER more than ONE question mark per reply'. Optionally a guard that drops trailing questions when count>1.",
+      "score": 99.89999999999999
+    },
+    {
+      "id": "stale_phrase_tea_persona_cycle",
+      "severity": 4,
+      "frequency_pct": 6.7,
+      "count": 1,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'tea_persona_cycle' in 1/15 sessions (6.7%).",
+      "examples": [
+        {
+          "session_idx": 50,
+          "turn": 1,
+          "snippet": "Hi Neha, your laptop survived the coffee spill? I'm a tea person myself — no drama, just hot leaves."
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 26.8
+    }
+  ],
+  "per_session_metrics": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        15,
+        18,
+        17,
+        21,
+        22,
+        14
+      ],
+      "avg_words": 17.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        27,
+        25,
+        35,
+        21,
+        32,
+        27,
+        35
+      ],
+      "avg_words": 27.9,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        19,
+        13,
+        28,
+        29,
+        26,
+        28,
+        26,
+        20
+      ],
+      "avg_words": 23.6,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "Actors bringing raw emotion to screen — that’s powerful. Cricket matches and good films both carry that energy, don’t they? I follow cricket — the drama of a tight finish never gets old. Do you have a"
+        },
+        {
+          "turn": 9,
+          "q_count": 2,
+          "snippet": "The 2010 World Cup final — what a masterclass in control and rhythm. Messi’s vision that day was something else, wasn’t it? I’ve seen clips, but never the full match. Was that the one where the second"
+        },
+        {
+          "turn": 11,
+          "q_count": 4,
+          "snippet": "AI can mimic patterns and strategies, but the *flow* — like Xavi seeing Iniesta open and threading that pass? That’s human intuition, born from years of trust and rhythm. Can AI learn it? Maybe. Feel "
+        }
+      ],
+      "word_counts": [
+        23,
+        36,
+        52,
+        41,
+        38,
+        46,
+        40,
+        42,
+        45,
+        43,
+        46,
+        33
+      ],
+      "avg_words": 40.4,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        15,
+        20,
+        25,
+        33,
+        32,
+        30,
+        28,
+        27,
+        41,
+        35,
+        32
+      ],
+      "avg_words": 28.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        18,
+        24,
+        22,
+        25,
+        23,
+        29
+      ],
+      "avg_words": 23.5,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "It’s okay to feel stuck sometimes — no need to fix it right away. If you did pick something new, what would it be? Something tiny, just to shift the rhythm?"
+        }
+      ],
+      "word_counts": [
+        21,
+        23,
+        32,
+        36,
+        31,
+        27,
+        27,
+        29,
+        35,
+        31,
+        31
+      ],
+      "avg_words": 29.4,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.09,
+      "has_memory": true
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "You said that clearly — I get it, long stories can drag. Sometimes a lighter film helps. What about *Raees*? It has some nice drama and action balance. Or a comedy?"
+        }
+      ],
+      "word_counts": [
+        24,
+        29,
+        33,
+        31,
+        30,
+        31,
+        29,
+        24
+      ],
+      "avg_words": 28.9,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.38,
+      "has_memory": true
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        15,
+        26,
+        29,
+        29,
+        33
+      ],
+      "avg_words": 26.4,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        27,
+        23,
+        40,
+        23,
+        32,
+        21,
+        26,
+        39,
+        23
+      ],
+      "avg_words": 28.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.22,
+      "has_memory": true
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        17,
+        21,
+        26,
+        29,
+        27,
+        29,
+        28,
+        22,
+        36,
+        27,
+        23,
+        27
+      ],
+      "avg_words": 26.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "Your old laptop had stories, didn’t it? That’s how things feel like home — even the annoying bits. The new cafe sounds fun, even with average coffee. I’m always curious about music-first places. What’"
+        }
+      ],
+      "word_counts": [
+        30,
+        45,
+        56,
+        44,
+        55,
+        50,
+        59,
+        48,
+        48,
+        43
+      ],
+      "avg_words": 47.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        32,
+        34,
+        34,
+        34
+      ],
+      "avg_words": 33.5,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        23,
+        22,
+        17,
+        23,
+        25,
+        23,
+        15,
+        18,
+        16,
+        20,
+        23,
+        19,
+        17
+      ],
+      "avg_words": 20.1,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "stale_hits": [
+        {
+          "turn": 1,
+          "tag": "tea_persona_cycle",
+          "snippet": "Hi Neha, your laptop survived the coffee spill? I'm a tea person myself — no drama, just hot leaves."
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 9,
+          "q_count": 2,
+          "snippet": "Right, a robot with a mustache — that’s a great kind of nonsense. Robot-themed cup could be your sparkle. What if the handle had little gears? Would that pop?"
+        }
+      ],
+      "word_counts": [
+        19,
+        22,
+        18,
+        31,
+        39,
+        49,
+        34,
+        33,
+        29,
+        34
+      ],
+      "avg_words": 30.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    }
+  ]
+}

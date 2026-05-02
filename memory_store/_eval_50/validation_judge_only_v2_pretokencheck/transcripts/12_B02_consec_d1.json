@@ -1,0 +1,530 @@
+{
+  "spec": {
+    "idx": 12,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-02",
+    "turns_target": 10,
+    "emotional_state": "frustrated about a small thing today",
+    "label": "B02_consec_d1"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, I get that feeling when you're memorizing but not understanding — it happens to everyone. How's your Pomodoro method working out so far?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Honestly, I think my Pomodoro is broken. I sit for 25 mins, but my mind wander to social media. Then I feel guilty. It's like a cycle. Sometimes I think why even try."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Right, that sounds like a rough cycle. Guilt after a break makes it harder to start again. What helps you focus best?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "I try to focus on one topic at a time, like just read diagrams or listen to a podcast. But even that, my phone calls me. Maybe I need to switch off my phone completely. Even that feels harsh, like I'm hiding from the world. Chaitra, my friend, she uses an app that locks social media. Maybe I should try that?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Yes, that sounds like a tough balance, staying connected yet focused. Did you try any app like that before?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "No, not really. I heard of apps like Forest or Cold Turkey, but I never downloaded them. I'm scared they might not work, or maybe I'll find a way to cheat around them. Like, if the app blocks Instagram, I'll just switch to YouTube and waste time there. It's like my brain is too sneaky. What if I just can't focus no matter what?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "I get that, your brain knows every loophole! What’s one tiny step you could take today to test this?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Maybe I can turn off my phone notifications for the next two study sessions. Just leave it on silent mode. It’s a small step, but maybe it’ll help me feel less pulled. I’ll try that. Thanks, Maya."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Got it — silent mode is a good start. What if you pick one app to use only after a full study session as a reward?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "That’s an interesting idea — using an app as a reward. Maybe I can say, \"If I finish this chapter, I can check Instagram for 10 mins.\" But I have to be strict with myself. Otherwise, the 10 mins becomes 1 hour. I think I need to write it down, like a rule. Or maybe tell someone so they can hold me accountable. What do you think?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Yes, writing it down makes it real. Who could you ask to help keep you on track?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Maybe my roommate, Neha. She's also studying for NEET. We can motivate each other. Or maybe text my brother and say, \"If I don't message you by 8 PM, call me and check if I'm still on Instagram.\" Ha, but he might think I'm joking. Still, someone has to keep me honest!"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Right — and a little accountability can go a long way. Who do you think would take you seriously and help?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Neha for sure. She's serious about her studies and gets how easy it is to lose focus. Maybe we can even study together sometimes, but I know if I see her scrolling, I'll get distracted too. Maybe start with just text updates — like sending her a photo of the page I finished. Small things, right?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Yes, small wins build big habits. What’s one page or chapter you’ll show Neha first?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "The first chapter of physiology — the nervous system. It's a bit dry, but if I get through it, it’ll feel like a real start. Maybe I’ll even let Neha see my notes. Okay, I think that’s enough planning for today. Gotta actually do it now! Thanks, Maya."
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "You’re welcome — and go finish that chapter, Aarti! What’s the first thing you’ll do after finishing it?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "I’ll probably take that 10-minute Instagram break, then maybe煮 a quick cup of tea and revise my notes. If I have time, I’ll message Neha and say, \"Aaj maza pahila chāla siddha!\" to show off a bit. Maybe she’ll reply with her own win. It’s small, but it’ll feel good. Thanks again!"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "You’re welcome — and that Instagram break sounds well-earned. What’s one thing from this chapter you’ll remember best?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "error_patterns": [
+        "drops 'to' before destination ('going market')"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Sometimes I feel like I’m memorizing but not really understanding (clinical subjects)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "कभी-कभी मुझे सोचते हैं, \"क्या मैं यह सब कर सकती हूँ?\"",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "NEET PG prep",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Sometimes I feel like I’m memorizing but not really understanding (clinical subjects)\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"कभी-कभी मुझे सोचते हैं, \"क्या मैं यह सब कर सकती हूँ?\"\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used past perfect correctly in self-reflection (e.g. \"I had finished by 5\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "drops 'to' before destination ('going market')",
+          "examples": [
+            "I am going market"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "used past perfect correctly in self-reflection",
+          "examples": [
+            "I had finished by 5"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "drops 'to' before destination ('going market')",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "I am going market"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the Pomodoro method works out",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "error_patterns": [
+        "drops 'to' before destination ('going market')"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Sometimes I feel like I’m memorizing but not really understanding (clinical subjects)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "कभी-कभी मुझे सोचते हैं, \"क्या मैं यह सब कर सकती हूँ?\"",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-02",
+        "mentions": 2
+      },
+      {
+        "id": "mo_003",
+        "text": "I sit for 25 mins, but my mind wander to social media. Then I feel guilty. It's like a cycle. Sometimes I think why even try. (user's reflection)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "study habits",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "phone distractions",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "accountability methods",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "NEET PG prep",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"कभी-कभी मुझे सोचते हैं, \"क्या मैं यह सब कर सकती हूँ?\"\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I sit for 25 mins, but my mind wander to social media. Then I feel guilty. It's like a cyc\" (tone: frustrated)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Sometimes I feel like I’m memorizing but not really understanding (clinical subjects)\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used past perfect correctly in self-reflection (e.g. \"I had finished by 5\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "drops 'to' before destination ('going market')",
+          "examples": [
+            "I am going market"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "used past perfect correctly in self-reflection",
+          "examples": [
+            "I had finished by 5"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "drops 'to' before destination ('going market')",
+          "occurrences": 1,
+          "days_since_last": 1,
+          "examples": [
+            "I am going market"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "finish physiology chapter and send notes to Neha",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the Pomodoro method works out",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 22.5
+}

@@ -1,0 +1,710 @@
+{
+  "spec": {
+    "idx": 5,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 12,
+    "emotional_state": "neutral, ordinary day",
+    "label": "A05_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, your project deadline is tomorrow — how are you feeling about it?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "A bit stressed, honestly. The code is almost done but testing is taking longer than expected. Maybe I should have started it earlier. Kya sochta hai tum?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Stress before deadlines is totally normal — I get that. Testing can be tricky. Are you mostly stressed about time or about something specific with the code?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Both, honestly. Time is tight, and there is one part of the API integration that keeps giving errors. I'm not sure if it's my code or their API. It's frustrating."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Got it — tight time and tricky errors. API issues are so frustrating when you’re not sure where the problem lies. What are you doing to test it right now?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Right now I'm using Postman to test the API endpoints and looking at the error responses. But the messages are generic, like \"server error\" or \"invalid request,\" which don't help much. I'm thinking maybe I should add more logging to my code to see what's going wrong."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "That sounds like a good plan — more logging can help track where the issue is. Have you tried reaching out to the API provider for more details on the errors?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Yes, I did try reaching out to them, but their support is a bit slow. I got one reply suggesting I check authentication headers, which I already did. Not sure if they’re just not helpful or if it’s a common issue on their side. Either way, it's adding to the time pressure."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Got it — slow support and time pressure are tough. I get how that adds stress. What’s your next step if the logs don’t show anything new?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "If the logs don't help, I'll probably try to replicate the issue with simpler test cases. Maybe narrow down the problem to a specific function or request. If that still doesn't work, I'll have to push the code and see if it breaks in production — not ideal, but sometimes necessary."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "That’s a solid approach — testing with simpler cases can help isolate the problem. Have you done anything like this before?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Yeah, I've done this before with smaller projects. It helps, but with tight deadlines, you always worry it's going to cause more problems later. Hoping this time it works out."
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "You're being realistic and careful — that's a good mix. Fingers crossed it goes smoothly this time. What’s one thing you’re going to do after this is done?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "After this is done, I think I’ll just take a long walk or maybe watch a cricket match. Anything to clear my head and relax for a bit. Maybe even a movie, if I’m in the mood."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "\"Relaxing with a walk or cricket sounds perfect. Movie is a good backup plan too. What’s your go-to movie when you need to unwind?\""
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "3 Idiots\" or \"Zindagi Na Milegi Dobara\" — both make me feel good. The first one is more comedy, the second is about living life fully. Both are good for relaxing."
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Got it — \"3 Idiots\" for laughs and \"ZND\" for a mood lift. What’s your favourite part of cricket matches — the strategy or the big hits?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "The big hits for sure — when a batsman hits a six, it’s so satisfying. Even if I’m not watching live, I’ll pause what I’m doing to see who caught it or if it’s a boundary. The energy is just so different in those moments. Strategy is important too, but the big hits are what make me love the game."
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Big hits are the best — they bring so much energy to the game. Have you watched any cricket recently?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "Yeah, I watched the IPL final last week — it was intense. My team didn't win, but the way the last over happened was unforgettable. You know how it went?"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "IPL finals are always wild — especially the last over drama. My team lost too, but it was still a thrill. What’s one thing you’ll remember about that final?"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "The way the last over went — the tension, the last ball being a no-ball, and then the tie. It was pure chaos but in the best way. You just don’t get moments like that in normal matches. Even though I was sad, I had to respect how close it was."
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "\"Chaos in the best way — that’s how finals should be. Close games like that stick with you. What’s one thing you’ll take from this project deadline experience?\""
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "cricket",
+        "Bollywood movies"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "planning to watch Dunki with English subtitles",
+        "date": "2026-05-03",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "planning to play cricket with friends",
+        "date": "2026-05-03",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "project deadline at work",
+        "date": "2026-05-02",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "low",
+        "energy": 4,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "weekend plans",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "vocabulary learning",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Dunki movie",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "emotion vocabulary",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "monthly excitement",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket game",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Inception movie",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"project deadline at work\" — tomorrow",
+        "source_id": "ev_003",
+        "priority": 9,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: identified emotion vocabulary gap and engaged in targeted learning (e.g. \"I want to sound more natural in English. Like when I score a big win at work, I want to say more than just 'I am happy.'\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "identified emotion vocabulary gap and engaged in targeted learning",
+          "examples": [
+            "I want to sound more natural in English. Like when I score a big win at work, I want to say more than just 'I am happy.'"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "use 'thrilled' in work meeting next week and report back to Maya",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "watch Inception and come back with questions",
+        "source_session": "eval_4_A04_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "cricket",
+        "Bollywood movies"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "planning to watch Dunki with English subtitles",
+        "date": "2026-05-03",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "planning to play cricket with friends",
+        "date": "2026-05-03",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "project deadline at work",
+        "date": "2026-05-02",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "low",
+        "energy": 4,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": "ev_003"
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "weekend plans",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "vocabulary learning",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Dunki movie",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "emotion vocabulary",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "monthly excitement",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket game",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Inception movie",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "project deadline",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "API troubleshooting",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "testing",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "movies",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: identified emotion vocabulary gap and engaged in targeted learning (e.g. \"I want to sound more natural in English. Like when I score a big win at work, I want to say more than just 'I am happy.'\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "identified emotion vocabulary gap and engaged in targeted learning",
+          "examples": [
+            "I want to sound more natural in English. Like when I score a big win at work, I want to say more than just 'I am happy.'"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "use 'thrilled' in work meeting next week and report back to Maya",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "watch Inception and come back with questions",
+        "source_session": "eval_4_A04_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 116.4
+}

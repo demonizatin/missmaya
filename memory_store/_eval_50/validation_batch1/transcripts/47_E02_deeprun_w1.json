@@ -1,0 +1,488 @@
+{
+  "spec": {
+    "idx": 47,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-08",
+    "turns_target": 10,
+    "emotional_state": "lonely, wanting to talk",
+    "label": "E02_deeprun_w1"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, I heard about your coffee spill on the sketchbook — did you turn it into one of your famous 'coffee abstracts'?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Oh no, that was a disaster! I got so frustrated and just left it. No abstract art this time. But I did take a bunch of pics... you’d laugh at the mess 😂. You ever have that kind of day where everything just goes *not* your way?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Yes, I get that. My tea often ends up on my notebook too! What did you do next after the spill?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "I tried to salvage the sketchbook by letting it dry in the sun, but it just made the colors bleed more. Total wreck 😩. Eventually, I just started over... but it’s so hard to stay productive when you’re all soggy and sad. How do you handle mess-ups like that?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "I get that — starting over can feel heavy. What helps you is focusing on the small win of beginning again. Did you sketch something new after that?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Honestly? I just doodled some random shapes — no big plan. Felt too defeated for proper work. But weirdly, those random doodles ended up being my favorite stuff lately. Sometimes messes lead to magic, right? You ever make art when you're feeling low?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Yes, that makes sense. Messes can surprise you with magic! What kind of doodles were they?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Mostly just wavy lines and little birds — no idea why birds, maybe I was thinking of flying away from the mess 😅. But one of the birds looked kinda sad, and I ended up turning it into a whole tiny story about a lost bird finding a new home. You ever doodle stories like that?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "That sounds lovely. I get that — turning small things into stories. What happened to the bird next?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "The bird found a cozy nest made of coffee stains and broken pencil leads — ironic, right? And then it made friends with a moth who loved messy art too. Kinda silly, but it made me feel a little less stuck. You ever make up endings just to feel better?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Yes, that sounds nice. Making up endings can help your mood. Did you draw the moth too?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Yeah, I drew the moth — all sparkly and weird, like it was made of glittery mistakes. Gave it this tiny little crown shaped like a spilled coffee cup. It felt kind of rebellious, you know? Like, \"Look, the world is a mess, but we can still make beauty out of it.\" You ever feel like you’re just creating art to rebel against the chaos?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Yes, I get that. Making art to rebel feels freeing. What did you name the moth?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I called it \"Sir Muffin the Magnificent\" — no real reason, just sounded regal and silly at the same time. Added a little cape to the moth too. You know, the whole thing was ridiculous, but it made me smile. Sometimes I think that’s all we need — a bit of ridiculousness to cut through the day’s grump. What would you name your imaginary rebel moth?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Sir Muffin is a great name! I’d call mine “Captain Crumb” — after the tiny bits left on my tea cup. What color would Captain Crumb be?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Captain Crumb could be a patchwork of mismatched colors — like a tie-dye coffee stain! Maybe some sparkly black for the wings and a little splash of cinnamon brown on the cape. But yeah, naming them makes it feel like a real little rebellion, right? Like you’re giving power to the tiny, weird things. I think I’m done for today… gotta get back to my actual work… but thanks for the chat — it helped!"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "You're very welcome — and yes, tiny things can feel like big rebellions! Take your time, and tell me how the work goes. Have a great day!"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "You know, I think I’ll just keep Sir Muffin and Captain Crumb around for my next messy day — they’re way better company than coffee spills 😅. Thanks again, Maya — talk to you soon!"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "You're very welcome — and tell me, will Sir Muffin help you next time? Take care, and talk soon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Neha",
+      "workplace": "startup",
+      "daily_work": "UX/Product Design (wireframes, user flows, app features)",
+      "primary_design_tool": "Figma",
+      "design_process": "sketches on paper first for brainstorming, then digitizes in Figma",
+      "sketches_frequency": "almost daily",
+      "preferred_beverages": [
+        "masala chai",
+        "creamy lattes",
+        "green tea"
+      ],
+      "coffee_habits": "drinks coffee most days to survive startup life"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "spilled coffee on sketchbook",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "sometimes feels like selling creativity short when digitizing sketches too quickly",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "design workflow (paper to digital)",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "doodling during calls",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "beverage preferences (tea vs coffee)",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "turns coffee stains into creative digital 'coffee abstracts' (NFT jokes)",
+        "context": "Neha spilled coffee this morning, then joked about turning it into a vintage digital aesthetic and NFTs. Shows how she finds creative angles in mishaps and turns frustration into fun.",
+        "first_seen": "2026-05-01",
+        "last_used": "2026-05-01",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"spilled coffee on sketchbook\" — today",
+        "source_id": "ev_001",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"sometimes feels like selling creativity short when digitizing sketches too quickly\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: natural, sophisticated use of complex conditional sentences (e.g. \"sometimes I feel like I'm selling my creativity short when I digitize it too quickly\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "natural, sophisticated use of complex conditional sentences",
+          "examples": [
+            "sometimes I feel like I'm selling my creativity short when I digitize it too quickly"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "identifies as a movie person",
+        "enjoys action films with strong music and visuals",
+        "doodles (squiggles) in meetings to stay focused",
+        "values quiet time"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "might sketch a tea-drinking emoji to symbolize next session",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Neha",
+      "workplace": "startup",
+      "daily_work": "UX/Product Design (wireframes, user flows, app features)",
+      "primary_design_tool": "Figma",
+      "design_process": "sketches on paper first for brainstorming, then digitizes in Figma",
+      "sketches_frequency": "almost daily",
+      "preferred_beverages": [
+        "masala chai",
+        "creamy lattes",
+        "green tea"
+      ],
+      "coffee_habits": "drinks coffee most days to survive startup life"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "spilled coffee on sketchbook",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "sometimes feels like selling creativity short when digitizing sketches too quickly",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "design workflow (paper to digital)",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "doodling during calls",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "beverage preferences (tea vs coffee)",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "turns coffee stains into creative digital 'coffee abstracts' (NFT jokes)",
+        "context": "Neha spilled coffee this morning, then joked about turning it into a vintage digital aesthetic and NFTs. Shows how she finds creative angles in mishaps and turns frustration into fun.",
+        "first_seen": "2026-05-01",
+        "last_used": "2026-05-01",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"spilled coffee on sketchbook\" — today",
+        "source_id": "ev_001",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"sometimes feels like selling creativity short when digitizing sketches too quickly\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: natural, sophisticated use of complex conditional sentences (e.g. \"sometimes I feel like I'm selling my creativity short when I digitize it too quickly\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "natural, sophisticated use of complex conditional sentences",
+          "examples": [
+            "sometimes I feel like I'm selling my creativity short when I digitize it too quickly"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "identifies as a movie person",
+        "enjoys action films with strong music and visuals",
+        "doodles (squiggles) in meetings to stay focused",
+        "values quiet time"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "might sketch a tea-drinking emoji to symbolize next session",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 174.5
+}

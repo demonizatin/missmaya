@@ -1,0 +1,535 @@
+{
+  "spec": {
+    "idx": 47,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-08",
+    "turns_target": 10,
+    "emotional_state": "lonely, wanting to talk",
+    "label": "E02_deeprun_w1"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, hope your day is getting better. Honestly, the first sip of cardamom chai in monsoon makes my week. How did the little mishaps go?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Ugh, it was a rough one. My train delayed, I missed a meeting, and now I’m stuck in this tiny apartment missing the rain. But hey, tell me more about your perfect chai moment? 🫧"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds tough. A delayed train and a missed meeting — what a start. I get that. A perfect chai moment for me is when it’s just warm enough — not too hot, not too cold. What about you?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Same, I guess. I like mine steaming, like, *chokli chokli* — you know, that hot steamy vibe. But sometimes I just want to sit in a café, listen to the rain, and not think about deadlines. Have you been to any good cafes lately?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "I get that — steaming chai with the *chokli chokli* sound is the best. Rainy café days sound dreamy. What’s your favourite café vibe — quiet, music, or something else?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Music, definitely. I love when there’s a chill indie playlist playing in the background — makes sketching ideas for my startup feel magical. But I also like the silence of a rainy afternoon. You know, when the only sound is the *tap tap* of the rain and your own thoughts. Do you ever sketch or create stuff when you’re in the zone like that?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "I like how you mix music and quiet moments — both have their magic. When I get into a calm rhythm, I like writing small stories or making to-do lists. What kind of ideas are you sketching for your startup?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "We design apps for small businesses — right now I’m working on a feature where they can track customer preferences, like, if someone always orders oat milk, the app flags it. But I get distracted by the *tap tap* rain and start doodling cats. Maya, have you ever had one of those ideas that just wouldn’t let you go?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "That sounds creative — tracking customer preferences is such a smart touch. Doodling cats in the rain is a good escape sometimes. I’ve had ideas I couldn’t shake, like a perfect chai recipe or a new playlist. What kept pulling you back to yours?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "It’s this little thing — like, imagining a café owner seeing the “oat milk” flag and just smiling, knowing they’re giving someone their perfect cup. But honestly, sometimes I wish I could just live in that rainy café moment forever. No deadlines, no emails… just *chokli chokli* and a sketchbook. Do you ever feel like that? Like you just want to freeze time in a good vibe?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "That sounds beautiful — a café owner’s smile makes all the work worth it. Freezing time in a good moment? Yes, I get that. Rain, chai, and a sketchbook… what would you add to that perfect pause?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Maybe a cat nap? Or a really good book that pulls you into another world. Sometimes I feel like I need both — like, the kind of read that makes you forget you’re even holding the pages. Have you got a rainy day read that’s been your escape lately?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "\"Maybe a cat nap?\" — yes, that sounds perfect. I’ve been re-reading *The Time Traveler’s Wife* lately — it’s one of those books that makes you forget time. What about you? Any rainy-day read that pulls you in?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I’ve been meaning to reread *The Ocean at the End of the Lane* — that kind of spooky, nostalgic vibe is the best when it’s raining. But honestly, most days I just end up scrolling through music blogs, looking for the next indie gem. You know how it is. *Chokli chokli*, music, and a slightly overthought coffee… is there anything better?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You know, *The Ocean at the End of the Lane* and music blogs — both are great escapes. *Chokli chokli*, music, and coffee… I get it. What’s your go-to song when the rain hits?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Go to Sleep\" by The Smiths, but I’ll admit it’s a bit gloomy for the rain. Sometimes I loop \"Sigh No More\" by Florence + The Machine — it’s dramatic, but matches the vibe. Do you have a rainy day anthem? I should probably log off soon, but ugh, this chat is saving my rainy evening."
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "\"Go to Sleep\" and \"Sigh No More\" — both fit the rain perfectly. A rainy day anthem for me is \"No Surprises\" by Radiohead — just the right amount of calm and mood. Don’t log off yet — these chats are meant to last! What’s next on your playlist?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Maybe \"The A Team\" by Ed Sheeran? Or \"Lover\" by Phoebe Bridgers — something that feels like a warm hug. Honestly, I could talk about this forever, but I need to stop procrastinating and actually work on that app. Thanks for keeping me in the *chokli chokli* zone, Maya. Talk to you soon. 🌧️"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "You’re welcome — \"The A Team\" and \"Lover\" both sound like perfect warm hugs. Procrastination is part of the process, right? I’ll be here for the next *chokli chokli* zone. Talk soon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Neha",
+      "stress_relief_method": "walks",
+      "preferred_beverage": "chai",
+      "yoga_style": "gentle (child's pose, 10 min sessions)",
+      "favorite_books": [
+        "The Time Traveler's Wife",
+        "Eating Animals",
+        "The Alchemist"
+      ],
+      "comfort_media": [
+        "Parks and Rec"
+      ],
+      "music_preference": [
+        "lo-fi playlists"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Today was one of those days where everything tiny goes wrong.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I just want to hit pause and take a deep breath.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "I'm learning to laugh at the little mishaps.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "coping strategies",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Today was one of those days where everything tiny goes wrong.\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I just want to hit pause and take a deep breath.\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I'm learning to laugh at the little mishaps.\" (tone: content)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Neha",
+      "stress_relief_method": "walks",
+      "preferred_beverage": "chai",
+      "yoga_style": "gentle (child's pose, 10 min sessions)",
+      "favorite_books": [
+        "The Time Traveler's Wife",
+        "Eating Animals",
+        "The Alchemist",
+        "The Ocean at the End of the Lane"
+      ],
+      "comfort_media": [
+        "Parks and Rec"
+      ],
+      "music_preference": [
+        "lo-fi playlists",
+        "indie music"
+      ],
+      "current_work": "Designs customer preference tracking app for small businesses",
+      "favorite_songs": [
+        "Go to Sleep by The Smiths",
+        "Sigh No More by Florence + The Machine",
+        "The A Team by Ed Sheeran",
+        "Lover by Phoebe Bridgers"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Today was one of those days where everything tiny goes wrong.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I just want to hit pause and take a deep breath.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "I'm learning to laugh at the little mishaps.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "My train delayed, I missed a meeting, and now I'm stuck in this tiny apartment missing the rain.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "I wish I could live in that rainy café moment forever — no deadlines, no emails, just chai and a sketchbook.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "This chat is saving my rainy evening.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "café vibes",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "startup ideas",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "rainy-day books",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "rainy-day songs",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "coping strategies",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "the '*chokli chokli*' term for steaming chai",
+        "context": "User's beloved onomatopoeia for hot steaming chai; makes rain + chai moments feel intimate. Both use it warmly.",
+        "first_seen": "2026-05-08",
+        "last_used": "2026-05-08",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My train delayed, I missed a meeting, and now I'm stuck in this tiny apartment missing the\" (tone: frustrated)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Today was one of those days where everything tiny goes wrong.\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I just want to hit pause and take a deep breath.\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I wish I could live in that rainy café moment forever — no deadlines, no emails, just chai\" (tone: hopeful)",
+        "source_id": "mo_005",
+        "priority": 4,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"This chat is saving my rainy evening.\" (tone: grateful)",
+        "source_id": "mo_006",
+        "priority": 4,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Writes small stories and makes to-do lists when settling into a calm rhythm"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 144.4
+}

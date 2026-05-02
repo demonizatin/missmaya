@@ -1,0 +1,700 @@
+{
+  "spec": {
+    "idx": 30,
+    "profile_id": "u03_rohan",
+    "eval_user_key": "u03_rohan",
+    "today": "2026-06-08",
+    "turns_target": 12,
+    "emotional_state": "lonely, wanting to talk",
+    "label": "C05_sporadic_d38"
+  },
+  "profile": {
+    "id": "u03_rohan",
+    "user_name": "Rohan",
+    "profession": "Bank PO aspirant",
+    "mother_tongue": "Bengali",
+    "interests": "Football, Bengali cinema, photography",
+    "engagement": "chatty",
+    "english_level": "A2",
+    "personality": "enthusiastic, makes more grammar slips, talks about football a lot"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Rohan, I hope you've had a good morning! I've been watching some football matches lately — which teams are you into?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "I love football! I support Real Madrid and also follow the Indian Super League. Do you watch any particular team? By the way, yesterday a big match was there between Barcelona and Real — very exciting!"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Hi Rohan, I love that you enjoy football! I follow the Indian Super League too. Did you watch any match this week?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Yes, I watched Bengaluru FC vs Mumbai City — very good match! Goal in the last minute! I was very excited. I also watch some Bengali movies sometimes. They are called *olpens*. Do you like cinema?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Hi Rohan, that sounds like a thrilling match! I like watching football with such excitement. You said \"very good match\" — small fix: we say \"very exciting match.\" You did great, just a tiny tweak. Do you take photos of football games?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Yes, I take photos sometimes, especially when I go to the stadium. My phone camera is not so good, but I try my best. I also take photos of Bengali movies stars when they come to our city. It is called *dibeyo*. Do you like taking photos?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Hi Rohan, that sounds fun! Taking photos of movie stars must feel special. You said \"is called *dibeyo*\" — we say \"it is called *dibeyo*\" or just \"it's called *dibeyo*.\" You're doing great! Do you like taking photos of nature or events more?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "I like taking photos of both! But football events are my favorite because everything happens so fast — very exciting! Nature photos are also good, but I don't get much time for it. By the way, how about you — do you take photos?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Hi Rohan, football photos sound amazing! You said \"are also good\" — small fix: \"they are also good.\" You're improving! I take photos too, but not as much as I'd like. What kind of photos do you like most?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I like taking photos of people playing — especially footballers! It gives good action. Also, I take some candid photos of fans — very interesting expressions! I think you can say it is my hobby. Do you have a hobby like this?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Hi Rohan, that sounds like a wonderful hobby! You said \"it gives good action\" — small fix: \"it gives great action.\" You're doing well! I enjoy taking photos too, but I'm more into nature shots. What makes you love taking action photos?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "It is very exciting to capture action — when someone kicks the ball or runs fast, it looks cool in photos! Sometimes it is hard, but I enjoy it. Also, I feel happy when my photos get likes on Facebook. But I need to improve my skills. Do you take action photos?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Hi Rohan, that sounds fun! You said \"it is hard, but I enjoy it\" — we say \"it is hard, but I enjoy it.\" You said it perfectly! I don’t take action photos often, but I admire people who do. What camera do you use?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I use my phone camera mostly — it is not expensive, but I try to learn tips from YouTube. Sometimes I use a friend’s DSLR, it is called *dika*. The photos look much better! I want to buy one someday, but for now, I practice with my phone. Do you use a phone or a camera?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Hi Rohan, using a phone to learn is a great start! You said \"it is called *dika*\" — small fix: \"it is called a *DSLR*.\" You're doing well! I mostly use my phone too. What kind of tips do you find most helpful on YouTube?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "I learn tips about lighting, angles, and how to use the phone camera settings better. Some videos also teach how to take fast action photos — very helpful! I also watch some Bengali videos, but they are not so common. Do you watch YouTube for photos too?"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Hi Rohan, learning about lighting and angles is very smart! You said \"how to use the phone camera settings better\" — perfect! I watch YouTube for photography too. What’s your favorite tip you’ve learned?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "My favorite tip is to take photos in sunlight, not in shadows — it makes everything look better! Also, I learned to take photos from different angles, like low to the ground or from high up. It makes football photos look more dynamic! But sometimes it is hard to find good light. What about you — any favorite tips?"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Hi Rohan, that’s a great tip — sunlight really makes a difference! You said \"it makes everything look better\" — perfect! I like that too. My favorite is using the rule of thirds for composition. Do you know that one?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "No, I don’t know that one — what is it? Sounds interesting! I usually just try to get the action in the frame, but I want to learn more rules like that. Maybe I’ll search for it on YouTube. Thanks for the suggestion!"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "Hi Rohan, the rule of thirds means you imagine your screen divided into nine parts with two lines horizontally and two vertically. Then you place the main subject where the lines meet — it makes the photo look balanced. You said \"I don’t know that one\" — small fix: \"I don’t know it.\" You're doing great! Will you try it next time you take photos?"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "Yes, I will try it! Next time I take photos of a football match, I will think about the rule of thirds. Thank you for teaching me — it is very helpful! I think I should go now, but I will talk to you again soon. Have a nice day!"
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "Hi Rohan, I’m so glad I could help! You said \"I think I should go now\" — small fix: \"I think it’s time to go.\" You’re improving! Take care, and keep practicing photos. Talk to you soon! Have a nice day!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "football",
+        "movies",
+        "Bengali cinema",
+        "photography"
+      ],
+      "favorite_actor": "Dev",
+      "has_job": true,
+      "plays_sports": true
+    },
+    "events": [
+      {
+        "id": "ev_003",
+        "what": "preparing for bank exam",
+        "date": "2026-05-10",
+        "added": "2026-05-10",
+        "followed_up": true
+      },
+      {
+        "id": "ev_004",
+        "what": "camera broke; taken to repair shop",
+        "date": "2026-05-20",
+        "added": "2026-05-20",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I feel like kotha khabo — like nothing is going right today",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-20",
+        "last_seen": "2026-05-20",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_27_C02_sporadic_d9",
+        "date": "2026-05-10",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_28_C03_sporadic_d19",
+        "date": "2026-05-20",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "study methods",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation hobbies",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "favorite actor",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "study focus",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "Barcelona match",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "movie preferences",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "watching movies with friends",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "movies",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"camera broke; taken to repair shop\" — today",
+        "source_id": "ev_004",
+        "priority": 10,
+        "computed_at": "2026-05-20",
+        "expires_at": "2026-06-03",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel like kotha khabo — like nothing is going right today\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-20",
+        "expires_at": "2026-06-03",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "uses adjective 'good' instead of adverb 'well'",
+          "examples": [
+            "Liverpool played good"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        }
+      ],
+      "wins": [],
+      "curriculum": [
+        {
+          "pattern": "uses adjective 'good' instead of adverb 'well'",
+          "occurrences": 1,
+          "days_since_last": 10,
+          "examples": [
+            "Liverpool played good"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "likes soft music while working",
+        "enjoys the cool post-lunch break feeling",
+        "appreciates good stories",
+        "likes action movies"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell me how the exam prep went",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "share how your movie discussions with friends went",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "football",
+        "movies",
+        "Bengali cinema",
+        "photography"
+      ],
+      "favorite_actor": "Dev",
+      "has_job": true,
+      "plays_sports": true
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I feel like kotha khabo — like nothing is going right today",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-20",
+        "last_seen": "2026-05-20",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_27_C02_sporadic_d9",
+        "date": "2026-05-10",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_28_C03_sporadic_d19",
+        "date": "2026-05-20",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_30_C05_sporadic_d38",
+        "date": "2026-06-08",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.62,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "football",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        },
+        {
+          "topic": "photography",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        },
+        {
+          "topic": "study methods",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation hobbies",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "favorite actor",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "study focus",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "Barcelona match",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "movie preferences",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "watching movies with friends",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "movies",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel like kotha khabo — like nothing is going right today\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-06-08",
+        "expires_at": "2026-06-22",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "uses adjective 'good' instead of adverb 'well'",
+          "examples": [
+            "Liverpool played good"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        },
+        {
+          "pattern": "overuses 'good' as generic positive descriptor when more specific/vivid alternatives like 'exciting', 'great', 'thrillin",
+          "examples": [
+            "very good match"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-06-08",
+          "last_seen": "2026-06-08",
+          "status": "active"
+        }
+      ],
+      "wins": [],
+      "curriculum": [
+        {
+          "pattern": "overuses 'good' as generic positive descriptor when more specific/vivid alternatives like 'exciting', 'great', 'thrillin",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "very good match"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "likes soft music while working",
+        "enjoys the cool post-lunch break feeling",
+        "appreciates good stories",
+        "likes action movies"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "will use rule of thirds technique when photographing football matches next time",
+        "source_session": "eval_30_C05_sporadic_d38",
+        "source_date": "2026-06-08",
+        "status": "active",
+        "expires_at": "2026-07-08"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell me how the exam prep went",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "share how your movie discussions with friends went",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 158.1
+}

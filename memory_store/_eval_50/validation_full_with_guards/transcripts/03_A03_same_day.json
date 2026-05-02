@@ -1,0 +1,598 @@
+{
+  "spec": {
+    "idx": 3,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 10,
+    "emotional_state": "tired, slept badly",
+    "label": "A03_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, your team made it to the top 4 by two runs, amazing win! What part of the match was the most exciting for you?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "The final over was really nail-biting. Our bowler, Ishant, took two wickets in the last over. It was *aadhichya* moment!"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That was intense, bowlers under pressure are magic to watch. Who’s your pick for the next match’s hero?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "I think Virat has been in great form. He can change the game in 20 balls. But honestly, our bowlers are *unstoppable* right now. Maybe both?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "That’s a great mix of trust, batting and bowling in sync is a winning combo. What’s your go to snack while watching such matches?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I usually have some *pakodas* and tea. It’s messy but keeps me going. Oh, and popcorn if it’s a long match. You?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "I love pakodas and tea, the perfect match snack. I stick to tea most of the time. What’s your favorite pakoda flavor?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "My favorite is *aloo bhindi* pakoda. Sometimes I can’t choose and just get a mix. The spices make them so addictive!"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Aloo bhindi pakodas are a classic, spicy and crispy, hard to stop at one. Do you make them at home or buy from a street vendor?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Mostly from a street vendor near my office. They make it *crunchy* and hot. But I try to make them at home on weekends. Not as good, though. 😅"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Street vendor pakodas are unbeatable, that’s why we keep going back! What’s the one dish you *always* make at home on weekends?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "I make *rajma* on weekends. It takes time but is worth it. My mom’s recipe — slow cooked, spicy, and *delicious*. No street vendor can match that! 😄"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Rajma cooked the old school way is a comfort, slow cooking makes all the difference. What’s your favorite way to enjoy it, with rice or roti?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "With rice for sure. The way it soaks up the gravy... *mazaak*! Sometimes I add a boiled egg on top. Simple but hits the spot after a long week."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "That sounds comforting, rice soaking up all the flavor, and the egg on top is a smart touch. What’s your go to lazy weekend meal besides rajma?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Pav bhaji! Spicy, messy, and so satisfying. I just add a bit of *chaat masala* and relish. Easy, quick, and makes me feel like I'm in Mumbai again. 🍛"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Pav bhaji with chaat masala is a Mumbai memory in every bite, messy and perfect! What’s your favorite side to have with it?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "I usually have *masala chaas* or a simple salad. The chaas cools down the spice, and the salad adds a fresh crunch. Both are *aamcha* (normal) but make the meal complete. 😊"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Masala chaas and salad are the perfect balance, spice and fresh all in one meal. What’s your favorite movie to watch after a meal like this?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "Bollywood movies",
+        "action films",
+        "cricket"
+      ],
+      "favorite_cricket_team": "Mumbai Indians",
+      "favorite_cricket_players": [
+        "Virat Kohli",
+        "Jasprit Bumrah",
+        "Sai Sudharsan"
+      ],
+      "favorite_match_phases": [
+        "power plays",
+        "death overs"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "Cricket team won important match by 2 runs, now in top 4",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "It's always better with others",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.55,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "dancing",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "friends",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Cricket team performance",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Favorite match moments",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Favorite cricket team",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Favorite cricket players",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "International cricket",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Cricket watching habits",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"Cricket team won important match by 2 runs, now in top 4\" — today",
+        "source_id": "ev_001",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"It's always better with others\" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "Bollywood movies",
+        "action films",
+        "cricket"
+      ],
+      "favorite_cricket_team": "Mumbai Indians",
+      "favorite_cricket_players": [
+        "Virat Kohli",
+        "Jasprit Bumrah",
+        "Sai Sudharsan"
+      ],
+      "favorite_match_phases": [
+        "power plays",
+        "death overs"
+      ],
+      "favorite_foods": [
+        "aloo bhindi pakodas",
+        "rajma",
+        "pav bhaji"
+      ],
+      "favorite_accompaniments": [
+        "masala chaas",
+        "tea"
+      ],
+      "home_cooking_specialty": "rajma",
+      "cities_connection": [
+        "Mumbai"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "Cricket team won important match by 2 runs, now in top 4",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "It's always better with others",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "pav bhaji reminds me of Mumbai",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.55,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "dancing",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "friends",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Cricket team performance",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Favorite match moments",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Favorite cricket team",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Favorite cricket players",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "International cricket",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Cricket watching habits",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "food and cooking",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "movies",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: sustained conversational confidence with complex structures (e.g. \"No street vendor can match that; The way it soaks up the gravy\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"It's always better with others\" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"pav bhaji reminds me of Mumbai\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "sustained conversational confidence with complex structures",
+          "examples": [
+            "No street vendor can match that; The way it soaks up the gravy"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 152.4
+}

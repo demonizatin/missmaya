@@ -1,0 +1,1194 @@
+{
+  "spec": {
+    "idx": 9,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 6,
+    "emotional_state": "hopeful, made some progress on a goal",
+    "label": "A09_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, I'm Miss Maya. You know, I love how you said 'hit a six' so naturally — it made the story vivid! Did your meeting go smoothly today?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Yeah, the meeting was okay, more or less. We discussed some new features for the app. By the way, have you watched the latest Bollywood film? I heard it's quite good."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Got it, small fix: 'By the way' can be left out to make the sentence smoother. The meeting sounds interesting — what kind of features are they working on?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "We are adding some AI-based tools for fraud detection. It’s pretty cool, like the app can now predict risky transactions. Oh, and the movie I was talking about is called \"Dil Bechara\" — it's based on a popular novel. Have you heard of it?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "That sounds useful! Fraud detection with AI — neat work. I like how you said \"based on a popular novel\" — clear and confident. Did you enjoy the story?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "The story is emotional but beautiful, inspired by a real-life love story. The actors did a great job — their chemistry was \"unbelievable\" (aapke liye \"unbelievable\" ka use sahi hai?). But let me ask you, do you watch Bollywood movies?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Yes, I watch Bollywood movies! You used 'unbelievable' perfectly — it fits well there. What character did you connect with most in Dil Bechara?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Hmm, it's hard to pick just one character — both main characters are so \"kayi\". But maybe the male lead, he's very loyal and kind. I think most people can relate to him. Anyway, I should get back to work. Talk to you later, Maya!"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Got it, small tweak: \"kayi\" is a Hindi word — we’d say \"relatable\" or \"real\" in English. The male lead sounds inspiring. Tell me how the work meeting went later!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "Bollywood movies",
+        "action films (when stunts and music are strong)",
+        "T20 cricket",
+        "big hits in cricket",
+        "pressure moments in cricket"
+      ],
+      "recent_films_watched": [
+        "Pathaan (Shah Rukh Khan)",
+        "Bang Bang (Hrithik Roshan)",
+        "War (Hrithik Roshan)",
+        "3 Idiots",
+        "Chennai Express",
+        "Kabir Singh",
+        "Badrinath Ki Dulhania",
+        "Dil Bechara",
+        "Bhaag Milkha Bhaag"
+      ],
+      "music_notes": "enjoys catchy film music, especially old classics by Amitabh Bachchan and Rajesh Khanna (feels nostalgic); also current Shah Rukh Khan songs; favorites include 'Naam Hai Tera', 'Chogad Mein Basantiyaan' from Karan Arora, 'Chaiyya Chaiyya', 'Mere Sapnon Ki Rani', 'Tujhe Bhula Diya' (childhood favorite, from DDLJ), and 'Jana Galti Ho Gayi Hai' from Rocky (old song with raw feel; parents love it, creating generational connection)",
+      "aspirations": "dreams of learning action stunts (car jumping, parkour); inspired by action heroes; realistic about starting with simpler activities like wall climbing",
+      "habits": "nods head to music rather than dancing; friend has suggested learning to dance; watches '3 Idiots' multiple times per week; watches Bollywood dramas to unwind after work stress",
+      "barriers": "time constraints, fear/anxiety about stunts, concern about embarrassment in front of friends",
+      "actor_preferences": "Shah Rukh Khan (top choice), Salman Khan (energetic), Aamir Khan (intense/challenging roles)",
+      "favorite_aamir_khan_movies": "Dangal (sports/inspiring), PK (hilarious/thoughtful), Lagaan (cricket/music/classic)",
+      "cricket_notes": "plays casually (office events and with friends); more of a batter than bowler; loves watching IPL",
+      "favorite_food": "Gulab jamuns (soft, sweet; aunt makes them beautifully)"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "seeing actors do it makes me think, 'Why not me?' But maybe I need to start with something simpler.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Time and fear, mostly. I need to find a safe place to start. Also, I don't want to embarrass myself in front of friends.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Work is stressful, so I need the *drama* to feel better.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Lighting the diyas and bursting chakras with my cousins, with the whole house glowing and everyone singing along to old songs. It was magical. Every time I hear those songs, it takes me back to family parties and Diwali nights.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.67,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 6,
+        "confidence": 0.49,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "low",
+        "energy": 2,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_7_A07_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_8_A08_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 8,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "weekend plans",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "Bollywood songs and music",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Dancing",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Action films and stunts",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Barriers to trying physical activities",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "films",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "wind-down routines",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "chai",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "recovery",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "walking in rain",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket documentary",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_7_A07_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_8_A08_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Time and fear, mostly. I need to find a safe place to start. Also, I don't want to embarra\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used sports idiom 'hit a six' correctly and naturally (e.g. \"My friend hit a six, and I almost fell laughing\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used 'sad in parts' naturally to describe mixed emotions in a film (e.g. \"Chennai Express is sad in parts, but also has some good comedy\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used 'made me curious' naturally and idiomatically (e.g. \"I think the Chennai Express sad scenes made me curious about Lagaan\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"seeing actors do it makes me think, 'Why not me?' But maybe I need to start with something\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "unnecessary 'by the way'/'Btw' filler in conversational pivots",
+          "examples": [
+            "By the way, do you like action movies?"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        },
+        {
+          "pattern": "uses Hindi slang 'baap' instead of English expressions like 'ultimate'",
+          "examples": [
+            "It's *baap* of coolness"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "used present perfect correctly to express ongoing relevance",
+          "examples": [
+            "I haven't walked in the rain much"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used Hindi word 'khubsurat' correctly and naturally in English context, showing improved bilingual code-switching",
+          "examples": [
+            "My aunt makes them *khubsurat*, and I'm still chasing that taste"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used sports idiom 'hit a six' correctly and naturally",
+          "examples": [
+            "My friend hit a six, and I almost fell laughing"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used 'sad in parts' naturally to describe mixed emotions in a film",
+          "examples": [
+            "Chennai Express is sad in parts, but also has some good comedy"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used 'made me curious' naturally and idiomatically",
+          "examples": [
+            "I think the Chennai Express sad scenes made me curious about Lagaan"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "unnecessary 'by the way'/'Btw' filler in conversational pivots",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "By the way, do you like action movies?"
+          ]
+        },
+        {
+          "pattern": "uses Hindi slang 'baap' instead of English expressions like 'ultimate'",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "It's *baap* of coolness"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "identifies as a movie person",
+        "enjoys action films with strong music and visuals",
+        "appreciates actors who balance stunts and emotions",
+        "likes cricket movies and their spirit"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "user to share thoughts on next movie watched",
+        "source_session": "eval_1_A01_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "event_pending",
+        "content": "watch cricket documentary this weekend",
+        "source_session": "eval_1_A01_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "try walking in park for 20-30 min this weekend while listening to Bollywood music",
+        "source_session": "eval_4_A04_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "watch Pathaan this weekend and report back if it's worth watching",
+        "source_session": "eval_4_A04_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_005",
+        "kind": "maya_promise",
+        "content": "Ask about how the morning work meeting went",
+        "source_session": "eval_7_A07_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_006",
+        "kind": "user_promise",
+        "content": "Watch Lagaan and report back to Maya with thoughts",
+        "source_session": "eval_8_A08_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "Bollywood movies",
+        "action films (when stunts and music are strong)",
+        "T20 cricket",
+        "big hits in cricket",
+        "pressure moments in cricket"
+      ],
+      "recent_films_watched": [
+        "Pathaan (Shah Rukh Khan)",
+        "Bang Bang (Hrithik Roshan)",
+        "War (Hrithik Roshan)",
+        "3 Idiots",
+        "Chennai Express",
+        "Kabir Singh",
+        "Badrinath Ki Dulhania",
+        "Dil Bechara",
+        "Bhaag Milkha Bhaag"
+      ],
+      "music_notes": "enjoys catchy film music, especially old classics by Amitabh Bachchan and Rajesh Khanna (feels nostalgic); also current Shah Rukh Khan songs; favorites include 'Naam Hai Tera', 'Chogad Mein Basantiyaan' from Karan Arora, 'Chaiyya Chaiyya', 'Mere Sapnon Ki Rani', 'Tujhe Bhula Diya' (childhood favorite, from DDLJ), and 'Jana Galti Ho Gayi Hai' from Rocky (old song with raw feel; parents love it, creating generational connection)",
+      "aspirations": "dreams of learning action stunts (car jumping, parkour); inspired by action heroes; realistic about starting with simpler activities like wall climbing",
+      "habits": "nods head to music rather than dancing; friend has suggested learning to dance; watches '3 Idiots' multiple times per week; watches Bollywood dramas to unwind after work stress",
+      "barriers": "time constraints, fear/anxiety about stunts, concern about embarrassment in front of friends",
+      "actor_preferences": "Shah Rukh Khan (top choice), Salman Khan (energetic), Aamir Khan (intense/challenging roles)",
+      "favorite_aamir_khan_movies": "Dangal (sports/inspiring), PK (hilarious/thoughtful), Lagaan (cricket/music/classic)",
+      "cricket_notes": "plays casually (office events and with friends); more of a batter than bowler; loves watching IPL",
+      "favorite_food": "Gulab jamuns (soft, sweet; aunt makes them beautifully)"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "seeing actors do it makes me think, 'Why not me?' But maybe I need to start with something simpler.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Time and fear, mostly. I need to find a safe place to start. Also, I don't want to embarrass myself in front of friends.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Work is stressful, so I need the *drama* to feel better.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Lighting the diyas and bursting chakras with my cousins, with the whole house glowing and everyone singing along to old songs. It was magical. Every time I hear those songs, it takes me back to family parties and Diwali nights.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.67,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 6,
+        "confidence": 0.49,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "low",
+        "energy": 2,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_7_A07_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_8_A08_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 8,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_9_A09_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 5,
+        "confidence": 0.6,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "weekend plans",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "Bollywood songs and music",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Dancing",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Action films and stunts",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Barriers to trying physical activities",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "films",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "wind-down routines",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "chai",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "recovery",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "walking in rain",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket documentary",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_7_A07_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_8_A08_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_9_A09_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Time and fear, mostly. I need to find a safe place to start. Also, I don't want to embarra\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used sports idiom 'hit a six' correctly and naturally (e.g. \"My friend hit a six, and I almost fell laughing\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used 'sad in parts' naturally to describe mixed emotions in a film (e.g. \"Chennai Express is sad in parts, but also has some good comedy\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used 'made me curious' naturally and idiomatically (e.g. \"I think the Chennai Express sad scenes made me curious about Lagaan\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"seeing actors do it makes me think, 'Why not me?' But maybe I need to start with something\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "unnecessary 'by the way'/'Btw' filler in conversational pivots",
+          "examples": [
+            "By the way, do you like action movies?"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        },
+        {
+          "pattern": "uses Hindi slang 'baap' instead of English expressions like 'ultimate'",
+          "examples": [
+            "It's *baap* of coolness"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        },
+        {
+          "pattern": "substitutes Hindi words for English equivalents without realizing (e.g., 'kayi' for 'relatable')",
+          "examples": [
+            "both main characters are so 'kayi'"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "used present perfect correctly to express ongoing relevance",
+          "examples": [
+            "I haven't walked in the rain much"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used Hindi word 'khubsurat' correctly and naturally in English context, showing improved bilingual code-switching",
+          "examples": [
+            "My aunt makes them *khubsurat*, and I'm still chasing that taste"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used sports idiom 'hit a six' correctly and naturally",
+          "examples": [
+            "My friend hit a six, and I almost fell laughing"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used 'sad in parts' naturally to describe mixed emotions in a film",
+          "examples": [
+            "Chennai Express is sad in parts, but also has some good comedy"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used 'made me curious' naturally and idiomatically",
+          "examples": [
+            "I think the Chennai Express sad scenes made me curious about Lagaan"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "unnecessary 'by the way'/'Btw' filler in conversational pivots",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "By the way, do you like action movies?"
+          ]
+        },
+        {
+          "pattern": "uses Hindi slang 'baap' instead of English expressions like 'ultimate'",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "It's *baap* of coolness"
+          ]
+        },
+        {
+          "pattern": "substitutes Hindi words for English equivalents without realizing (e.g., 'kayi' for 'relatable')",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "both main characters are so 'kayi'"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "identifies as a movie person",
+        "enjoys action films with strong music and visuals",
+        "appreciates actors who balance stunts and emotions",
+        "likes cricket movies and their spirit"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "user to share thoughts on next movie watched",
+        "source_session": "eval_1_A01_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "event_pending",
+        "content": "watch cricket documentary this weekend",
+        "source_session": "eval_1_A01_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "try walking in park for 20-30 min this weekend while listening to Bollywood music",
+        "source_session": "eval_4_A04_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "watch Pathaan this weekend and report back if it's worth watching",
+        "source_session": "eval_4_A04_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_005",
+        "kind": "maya_promise",
+        "content": "Ask about how the morning work meeting went",
+        "source_session": "eval_7_A07_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_006",
+        "kind": "user_promise",
+        "content": "Watch Lagaan and report back to Maya with thoughts",
+        "source_session": "eval_8_A08_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_007",
+        "kind": "user_promise",
+        "content": "tell Maya how the work meeting went and what new fraud detection features were discussed",
+        "source_session": "eval_9_A09_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 127.3
+}

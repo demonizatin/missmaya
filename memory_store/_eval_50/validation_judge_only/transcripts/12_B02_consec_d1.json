@@ -1,0 +1,514 @@
+{
+  "spec": {
+    "idx": 12,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-02",
+    "turns_target": 10,
+    "emotional_state": "frustrated about a small thing today",
+    "label": "B02_consec_d1"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "The sound of classical music really brings peace, doesn't it? What's a recent song that moved you?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Yes, it's so calming. Lately, I've been listening to \"Jaat Kahan Ho\" from Khayyam. It's old, but very soulful. Stresses fade a bit when I hear it. Although today was a bad day for exams... 😣"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Jaat Kahan Ho is a gem — old songs really touch the soul. I get that, exam days are tough. What helped you feel better after it?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Hmm... I went for a walk and listened to a few chapters from \"Panchtantra.\" It's a bit cheesy, but it helps me reset. Ma says stories have a way to soothe. I just wish the stress would go away faster. 😔"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Stress doesn’t leave in a rush — it takes time. You picked a smart way to reset. What part of the story moved you most?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "The story about the lion and the mouse really gets to me. Such a simple lesson, but when you're stressed, it reminds you that even small things can matter a lot. I wish I could remember that during exams. 😅"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "The lion and the mouse — such a quiet power in small acts. It makes sense to hold that close. What helps you bring it to mind during exams?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "I try to take a deep breath and think of that story when I feel stuck. But sometimes my mind just blanks, and I panic. It’s like the stress has its own volume button — always on max. 😩"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Yes, stress can feel like it's on repeat. You're doing great by trying — what's one tiny tweak to make the pause stick?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Maybe I can carry a small note with the story's message? Like a reminder to pause and breathe. But I'm worried I'll forget it. 🥲"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "A note could work — you just need to make it part of your rhythm. What if you tried it once today, just to see?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Okay, maybe I'll write \"Breathe, small steps matter\" on a sticky note. Will try it now. Let’s see if it helps me calm down even a little. 🤞"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "\"Breathe, small steps matter\" — a perfect reminder. What part of your study space feels calmest for this note?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "The corner near my books, where I keep my small peacock figurine. It’s my favorite spot — quiet and not too cluttered. Maybe I’ll stick it there. Aarti. 😊"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "The peacock corner — that sounds like a good energy spot. Let me know how it lands for you. What’s next on your list today?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Next, I need to review pharmacology notes. It’s so dense and confusing — I get stuck in the middle of it. Maybe I’ll read the sticky note first to calm down. Thanks, Maya. 😊"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Pharmacology can feel like a maze — starting with your note is smart. You’ve got this, Aarti. What topic first?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "I think I'll start with autonomic nervous system — it's a bit easier, maybe. And I'll keep the note close. Thanks again, Maya. Talk to you later. 😊"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Starting with the autonomic system is a good pick - take your time. I'm here when you need to chat later. Good luck!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Aarti",
+      "studying_for": "NEET PG (exam)",
+      "music_preference": "Hindustani classical and Carnatic",
+      "relaxation_methods": [
+        "cooking",
+        "listening to classical music"
+      ],
+      "sources_of_peace": [
+        "cooking for family",
+        "reading books"
+      ],
+      "stress_management_techniques": [
+        "short walks",
+        "talking to friends",
+        "tea"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "shanti comes to mind while listening to classical music",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "cooking for family brings peace",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "relaxation",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music preferences",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "peace",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "stress management",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"shanti comes to mind while listening to classical music\" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"cooking for family brings peace\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Aarti",
+      "studying_for": "NEET PG (exam)",
+      "music_preference": "Hindustani classical and Carnatic",
+      "relaxation_methods": [
+        "cooking",
+        "listening to classical music"
+      ],
+      "sources_of_peace": [
+        "cooking for family",
+        "reading books"
+      ],
+      "stress_management_techniques": [
+        "short walks",
+        "talking to friends",
+        "tea",
+        "listening to Panchtantra (book) chapters"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "shanti comes to mind while listening to classical music",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "cooking for family brings peace",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "listening to Panchtantra (book) chapters helps reset and soothe",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "lion and the mouse (fable) reminds that small things matter during stress",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Jaat Kahan Ho (song) is soulful and helps stress fade",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "relaxation",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music preferences",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "peace",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "stress management",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"listening to Panchtantra (book) chapters helps reset and soothe\" (tone: hopeful)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"lion and the mouse (fable) reminds that small things matter during stress\" (tone: hopeful)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Jaat Kahan Ho (song) is soulful and helps stress fade\" (tone: content)",
+        "source_id": "mo_005",
+        "priority": 4,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"shanti comes to mind while listening to classical music\" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"cooking for family brings peace\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the sticky note 'Breathe, small steps matter' helps during exam prep",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 88.3
+}

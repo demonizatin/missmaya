@@ -1,0 +1,984 @@
+{
+  "spec": {
+    "idx": 32,
+    "profile_id": "u03_rohan",
+    "eval_user_key": "u03_rohan",
+    "today": "2026-06-21",
+    "turns_target": 6,
+    "emotional_state": "lonely, wanting to talk",
+    "label": "C07_sporadic_d51"
+  },
+  "profile": {
+    "id": "u03_rohan",
+    "user_name": "Rohan",
+    "profession": "Bank PO aspirant",
+    "mother_tongue": "Bengali",
+    "interests": "Football, Bengali cinema, photography",
+    "engagement": "chatty",
+    "english_level": "A2",
+    "personality": "enthusiastic, makes more grammar slips, talks about football a lot"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Rohan, I'm Miss Maya. I love how passionate you are about football, it's such a big part of life in Kolkata. How was your day today?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hi Miss Maya, thanks! My day was a bit slow today. I watched a movie in Bengali, it was called \"Fats\" — you should watch it sometime. I also tried to practice some English, but I find it hard sometimes. Did you watch any good matches lately?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Nice to hear from you again. That movie sounds interesting, I'm glad you enjoyed it. Practicing English is a journey, and you're doing great! Did you watch any football matches recently?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Yeah, I watch matches almost every day. Yesterday, I saw a Premier League game — Liverpool vs. Manchester United. Oh wow, what a match! It was 2-2, very exciting. I like Liverpool more, but United played well too. Sometimes I get confused with the rules, like offside. Do you follow English football?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "\"Got it. Liverpool vs. Manchester United is always a big one, what part of the game was most exciting for you? I know the rules can get tricky, any one in particular that’s confusing?\""
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "The most exciting part was the first goal by Liverpool — it came in the 10th minute, and it was a amazing pass from the wing. But I get confused when a player is offside — I don’t get how the referee decides so fast. Also, I missed the second half of the match because I had to study for a bank exam. Tired now, honestly."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "\"Right, a quick wing pass sounds brilliant. I get that, the offside rule is tricky even for many fans. What part of the exam prep feels most tiring for you?\""
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "The most tiring part is solving a lot of numerical ability questions — it takes so much time and brain power. Also, I have to read a lot of banking awareness stuff, which is a bit boring. But I keep going, because I want to become a Bank PO. Do you know any good ways to improve English while studying for exams?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "\"Got it. Numerical questions and banking reading sound heavy, what helps you stay focused when it gets tough? Mixing English practice into study breaks could work, like reading short news articles or summaries.\""
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Reading news articles sounds like a good idea — I’ll try that. Sometimes I get distracted while studying, so maybe switching to English news for a few minutes will help. Thank you, Miss Maya. I think I’ll go revise some math formulas now. Talk to you later!"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "\"Right, short breaks with English news could help. Talk to you later, good luck with the math formulas!\""
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Rohan",
+      "hometown": "Kolkata",
+      "favorite_team": "Mohun Bagan",
+      "language_self_assessment": "beginner",
+      "employment_status": "employed",
+      "sports_interests": [
+        "football (sport)"
+      ],
+      "hobbies": [
+        "match photography"
+      ],
+      "exam_type": "bank exam"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I love Mohun Bagan, they are my heart!",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "When I'm frustrated, I watch old Mohun Bagan match highlights. It makes me feel better.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-20",
+        "last_seen": "2026-05-20",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "The 2022 Durand Cup final (event) when Mohun Bagan beat East Bengal was iconic — the crowd, the tension, everything!",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-20",
+        "last_seen": "2026-05-20",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I support East Bengal — always have, always will. It's in my blood, my dad was a huge fan. I like their fighting spirit, even when it's tough.",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "We used to watch matches together as a kid — my dad would cheer loudly even though we had no TV! I still remember the 2015 Durand Cup final (event), we were so excited.",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "But I miss having someone to talk to about the game, you know? And about life. Now it's just me and the TV. It's like the stadium is empty inside sometimes.",
+        "tone": "lonely",
+        "sensitive": true,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "My dad taught me: 'Akhon bhap, porer din bhap' — today we lose, tomorrow we win. That spirit is what I try to carry in my exam prep, even though I miss talking to him now.",
+        "tone": "grateful",
+        "sensitive": true,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "The 2019 I-League final (event) — Mohun Bagan vs Kerala Blasters. I sneaked out of the library to watch on my phone, and when Mohun Bagan won, I could almost hear my dad cheering. I felt so connected to him that day, even though we were miles apart. It gave me strength to keep studying.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "Football teaches me you can't win alone — you need a team. My dad always said, 'Ekti khel, ekti jibon' — one game, one life. Every pass, every goal, it takes trust in others. That's how I try to study too.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_28_C03_sporadic_d19",
+        "date": "2026-05-20",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.76,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_30_C05_sporadic_d38",
+        "date": "2026-06-08",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.82,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_31_C06_sporadic_d46",
+        "date": "2026-06-16",
+        "label": "low",
+        "energy": 4,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "recent proud football moments",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16",
+          "uses": 1
+        },
+        {
+          "topic": "live match watching",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16",
+          "uses": 1
+        },
+        {
+          "topic": "team preferences",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16",
+          "uses": 1
+        },
+        {
+          "topic": "sleep issues",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16",
+          "uses": 1
+        },
+        {
+          "topic": "exam revision (reasoning/math)",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16",
+          "uses": 1
+        },
+        {
+          "topic": "rivalry psychology",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16",
+          "uses": 1
+        },
+        {
+          "topic": "film preferences",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16",
+          "uses": 1
+        },
+        {
+          "topic": "bank exam prep",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        },
+        {
+          "topic": "football (leagues, teams, positions)",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        },
+        {
+          "topic": "memories with father",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        },
+        {
+          "topic": "life lessons from football",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        },
+        {
+          "topic": "support network and isolation",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I support East Bengal — always have, always will. It's in my blood, my dad was a huge fan.\" (tone: proud)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-06-16",
+        "expires_at": "2026-06-30",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"We used to watch matches together as a kid — my dad would cheer loudly even though we had \" (tone: proud)",
+        "source_id": "mo_005",
+        "priority": 4,
+        "computed_at": "2026-06-16",
+        "expires_at": "2026-06-30",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The 2019 I-League final (event) — Mohun Bagan vs Kerala Blasters. I sneaked out of the lib\" (tone: hopeful)",
+        "source_id": "mo_008",
+        "priority": 4,
+        "computed_at": "2026-06-16",
+        "expires_at": "2026-06-30",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Football teaches me you can't win alone — you need a team. My dad always said, 'Ekti khel,\" (tone: grateful)",
+        "source_id": "mo_009",
+        "priority": 4,
+        "computed_at": "2026-06-16",
+        "expires_at": "2026-06-30",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "subject-verb agreement: drops -s for 3rd person singular present tense",
+          "examples": [
+            "The player run fast / he kick the ball / The crowd go wild"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        },
+        {
+          "pattern": "drops 'to' after 'love' in infinitive constructions",
+          "examples": [
+            "I love take photos"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-20",
+          "last_seen": "2026-05-20",
+          "status": "active"
+        },
+        {
+          "pattern": "uses base verb form instead of past participle in 'am/is + participle' constructions",
+          "examples": [
+            "When I am frustrate"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-20",
+          "last_seen": "2026-05-20",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "self-corrected on 3rd person singular form without prompting",
+          "examples": [
+            "questioned 'shoot' vs 'shoots' and correctly identified 'shoots' as better"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "constructed multi-clause narrative with vivid expression",
+          "examples": [
+            "The striker run fast, then he shoot... Siuuuuch! The crowd are happy!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "constructed complex multi-clause narrative with emotional precision",
+          "examples": [
+            "I was stuck in a library for bank prep, but I sneaked out to watch it on my phone. Mohun Bagan won, and I could almost hear my dad cheering."
+          ],
+          "count": 1,
+          "first_seen": "2026-06-08",
+          "last_seen": "2026-06-08"
+        },
+        {
+          "what": "used subordination and conditional structures naturally to express emotional nuance",
+          "examples": [
+            "I felt so connected to him that day, even though we were miles apart."
+          ],
+          "count": 1,
+          "first_seen": "2026-06-08",
+          "last_seen": "2026-06-08"
+        },
+        {
+          "what": "quoted and translated bilingual expressions with fluency and contextual precision",
+          "examples": [
+            "'Akhon bhap, porer din bhap' — today we lose, tomorrow we win"
+          ],
+          "count": 1,
+          "first_seen": "2026-06-08",
+          "last_seen": "2026-06-08"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "find a friend who loves football or start a study group for exam-prepping",
+        "source_session": "eval_30_C05_sporadic_d38",
+        "source_date": "2026-06-08",
+        "status": "active",
+        "expires_at": "2026-07-08"
+      },
+      {
+        "id": "ol_003",
+        "kind": "maya_promise",
+        "content": "ask Rohan about his first chat partner or friend in the study group idea",
+        "source_session": "eval_30_C05_sporadic_d38",
+        "source_date": "2026-06-08",
+        "status": "active",
+        "expires_at": "2026-07-08"
+      },
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "bank exam (exam) prep - Maya asked what's toughest part of studying",
+        "source_session": "eval_28_C03_sporadic_d19",
+        "source_date": "2026-05-20",
+        "status": "active",
+        "expires_at": "2026-06-19"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Rohan",
+      "hometown": "Kolkata",
+      "favorite_team": "Mohun Bagan",
+      "language_self_assessment": "beginner",
+      "employment_status": "employed",
+      "sports_interests": [
+        "football (sport)"
+      ],
+      "hobbies": [
+        "match photography"
+      ],
+      "exam_type": "bank exam"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I love Mohun Bagan, they are my heart!",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "When I'm frustrated, I watch old Mohun Bagan match highlights. It makes me feel better.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-20",
+        "last_seen": "2026-05-20",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "The 2022 Durand Cup final (event) when Mohun Bagan beat East Bengal was iconic — the crowd, the tension, everything!",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-20",
+        "last_seen": "2026-05-20",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I support East Bengal — always have, always will. It's in my blood, my dad was a huge fan. I like their fighting spirit, even when it's tough.",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "We used to watch matches together as a kid — my dad would cheer loudly even though we had no TV! I still remember the 2015 Durand Cup final (event), we were so excited.",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "But I miss having someone to talk to about the game, you know? And about life. Now it's just me and the TV. It's like the stadium is empty inside sometimes.",
+        "tone": "lonely",
+        "sensitive": true,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "My dad taught me: 'Akhon bhap, porer din bhap' — today we lose, tomorrow we win. That spirit is what I try to carry in my exam prep, even though I miss talking to him now.",
+        "tone": "grateful",
+        "sensitive": true,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "The 2019 I-League final (event) — Mohun Bagan vs Kerala Blasters. I sneaked out of the library to watch on my phone, and when Mohun Bagan won, I could almost hear my dad cheering. I felt so connected to him that day, even though we were miles apart. It gave me strength to keep studying.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "Football teaches me you can't win alone — you need a team. My dad always said, 'Ekti khel, ekti jibon' — one game, one life. Every pass, every goal, it takes trust in others. That's how I try to study too.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_28_C03_sporadic_d19",
+        "date": "2026-05-20",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.76,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_30_C05_sporadic_d38",
+        "date": "2026-06-08",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.82,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_31_C06_sporadic_d46",
+        "date": "2026-06-16",
+        "label": "low",
+        "energy": 4,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "recent proud football moments",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16",
+          "uses": 1
+        },
+        {
+          "topic": "live match watching",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16",
+          "uses": 1
+        },
+        {
+          "topic": "team preferences",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16",
+          "uses": 1
+        },
+        {
+          "topic": "sleep issues",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16",
+          "uses": 1
+        },
+        {
+          "topic": "exam revision (reasoning/math)",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16",
+          "uses": 1
+        },
+        {
+          "topic": "rivalry psychology",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16",
+          "uses": 1
+        },
+        {
+          "topic": "film preferences",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16",
+          "uses": 1
+        },
+        {
+          "topic": "bank exam prep",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        },
+        {
+          "topic": "football (leagues, teams, positions)",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        },
+        {
+          "topic": "memories with father",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        },
+        {
+          "topic": "life lessons from football",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        },
+        {
+          "topic": "support network and isolation",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I support East Bengal — always have, always will. It's in my blood, my dad was a huge fan.\" (tone: proud)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-06-16",
+        "expires_at": "2026-06-30",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"We used to watch matches together as a kid — my dad would cheer loudly even though we had \" (tone: proud)",
+        "source_id": "mo_005",
+        "priority": 4,
+        "computed_at": "2026-06-16",
+        "expires_at": "2026-06-30",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The 2019 I-League final (event) — Mohun Bagan vs Kerala Blasters. I sneaked out of the lib\" (tone: hopeful)",
+        "source_id": "mo_008",
+        "priority": 4,
+        "computed_at": "2026-06-16",
+        "expires_at": "2026-06-30",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Football teaches me you can't win alone — you need a team. My dad always said, 'Ekti khel,\" (tone: grateful)",
+        "source_id": "mo_009",
+        "priority": 4,
+        "computed_at": "2026-06-16",
+        "expires_at": "2026-06-30",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "subject-verb agreement: drops -s for 3rd person singular present tense",
+          "examples": [
+            "The player run fast / he kick the ball / The crowd go wild"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        },
+        {
+          "pattern": "drops 'to' after 'love' in infinitive constructions",
+          "examples": [
+            "I love take photos"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-20",
+          "last_seen": "2026-05-20",
+          "status": "active"
+        },
+        {
+          "pattern": "uses base verb form instead of past participle in 'am/is + participle' constructions",
+          "examples": [
+            "When I am frustrate"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-20",
+          "last_seen": "2026-05-20",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "self-corrected on 3rd person singular form without prompting",
+          "examples": [
+            "questioned 'shoot' vs 'shoots' and correctly identified 'shoots' as better"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "constructed multi-clause narrative with vivid expression",
+          "examples": [
+            "The striker run fast, then he shoot... Siuuuuch! The crowd are happy!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "constructed complex multi-clause narrative with emotional precision",
+          "examples": [
+            "I was stuck in a library for bank prep, but I sneaked out to watch it on my phone. Mohun Bagan won, and I could almost hear my dad cheering."
+          ],
+          "count": 1,
+          "first_seen": "2026-06-08",
+          "last_seen": "2026-06-08"
+        },
+        {
+          "what": "used subordination and conditional structures naturally to express emotional nuance",
+          "examples": [
+            "I felt so connected to him that day, even though we were miles apart."
+          ],
+          "count": 1,
+          "first_seen": "2026-06-08",
+          "last_seen": "2026-06-08"
+        },
+        {
+          "what": "quoted and translated bilingual expressions with fluency and contextual precision",
+          "examples": [
+            "'Akhon bhap, porer din bhap' — today we lose, tomorrow we win"
+          ],
+          "count": 1,
+          "first_seen": "2026-06-08",
+          "last_seen": "2026-06-08"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "find a friend who loves football or start a study group for exam-prepping",
+        "source_session": "eval_30_C05_sporadic_d38",
+        "source_date": "2026-06-08",
+        "status": "active",
+        "expires_at": "2026-07-08"
+      },
+      {
+        "id": "ol_003",
+        "kind": "maya_promise",
+        "content": "ask Rohan about his first chat partner or friend in the study group idea",
+        "source_session": "eval_30_C05_sporadic_d38",
+        "source_date": "2026-06-08",
+        "status": "active",
+        "expires_at": "2026-07-08"
+      },
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "bank exam (exam) prep - Maya asked what's toughest part of studying",
+        "source_session": "eval_28_C03_sporadic_d19",
+        "source_date": "2026-05-20",
+        "status": "active",
+        "expires_at": "2026-06-19"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 159.1
+}

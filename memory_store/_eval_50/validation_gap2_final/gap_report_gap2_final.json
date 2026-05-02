@@ -1,0 +1,574 @@
+{
+  "session_count": 15,
+  "summary_metrics": {
+    "avg_reply_words": 29.4,
+    "replies_over_120w": 0,
+    "replies_under_8w": 0,
+    "avg_memory_ref_rate_returning_users": 0.13,
+    "opener_repetition_pairs": 0,
+    "stale_phrase_total_hits": 4,
+    "wrap_up_seen_count": 7
+  },
+  "ranked_gaps": [
+    {
+      "id": "multiple_questions_per_reply",
+      "severity": 3,
+      "frequency_pct": 73.3,
+      "count": 18,
+      "layer": "prompt",
+      "description": "Maya included 2+ questions in 18 replies across 11 sessions (Rule 9 violation).",
+      "examples": [
+        {
+          "session_idx": 2,
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "That sounds rewarding. Cricket commentary is fun to listen to, isn't it? What team are you cheering for these days?"
+        },
+        {
+          "session_idx": 3,
+          "turn": 1,
+          "q_count": 2,
+          "snippet": "Hi Priyansh, the cricket final is in three days — what snacks will you have at 7:00 PM? I'm a tea person, but you?"
+        },
+        {
+          "session_idx": 4,
+          "turn": 10,
+          "q_count": 2,
+          "snippet": "\"Movie marathon energy for the final — no breaks, no distractions. Got it. What will you do if MI wins? Any traditions?\""
+        }
+      ],
+      "suggested_fix": "Sharpen Rule 9 with 'NEVER more than ONE question mark per reply'. Optionally a guard that drops trailing questions when count>1.",
+      "score": 219.89999999999998
+    },
+    {
+      "id": "low_memory_utilization",
+      "severity": 4,
+      "frequency_pct": 100.0,
+      "count": 13,
+      "layer": "prompt+renderer",
+      "description": "On returning-user sessions, average memory-reference rate is 13% — too low. Maya is ignoring stored facts/events.",
+      "examples": [],
+      "suggested_fix": "Renderer: surface the highest-priority anticipation_queue item more prominently. Prompt: tighten Rule 31 to require referencing one stored item every 3rd turn at minimum.",
+      "score": 200
+    },
+    {
+      "id": "stale_phrase_tea_persona_cycle",
+      "severity": 4,
+      "frequency_pct": 13.3,
+      "count": 2,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'tea_persona_cycle' in 2/15 sessions (13.3%).",
+      "examples": [
+        {
+          "session_idx": 3,
+          "turn": 1,
+          "snippet": "Hi Priyansh, the cricket final is in three days — what snacks will you have at 7:00 PM? I'm a tea person, but you?"
+        },
+        {
+          "session_idx": 10,
+          "turn": 1,
+          "snippet": "Hi Priyansh, I'm Miss Maya. I'm a tea person — it's my evening comfort. How was your day?"
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 53.2
+    },
+    {
+      "id": "stale_phrase_mango_persona_cycle",
+      "severity": 4,
+      "frequency_pct": 6.7,
+      "count": 1,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'mango_persona_cycle' in 1/15 sessions (6.7%).",
+      "examples": [
+        {
+          "session_idx": 2,
+          "turn": 1,
+          "snippet": "Hi Priyansh, mango season is here — my favorite time of the year! What's been on your mind today?"
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 26.8
+    },
+    {
+      "id": "stale_phrase_love_how_you_opener",
+      "severity": 3,
+      "frequency_pct": 6.7,
+      "count": 1,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'love_how_you_opener' in 1/15 sessions (6.7%).",
+      "examples": [
+        {
+          "session_idx": 48,
+          "turn": 6,
+          "snippet": "You turn “color choice anxiety” into chaos — I love how you lean into the drama. Both options work: scribble the list *then* sing “Good Life” on loop. Add a dance break if needed. What’s the main vibe"
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 20.1
+    }
+  ],
+  "per_session_metrics": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        22,
+        29,
+        29,
+        29
+      ],
+      "avg_words": 27.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "stale_hits": [
+        {
+          "turn": 1,
+          "tag": "mango_persona_cycle",
+          "snippet": "Hi Priyansh, mango season is here — my favorite time of the year! What's been on your mind today?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "That sounds rewarding. Cricket commentary is fun to listen to, isn't it? What team are you cheering for these days?"
+        }
+      ],
+      "word_counts": [
+        19,
+        20,
+        28,
+        22,
+        29,
+        21,
+        18,
+        26
+      ],
+      "avg_words": 22.9,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "stale_hits": [
+        {
+          "turn": 1,
+          "tag": "tea_persona_cycle",
+          "snippet": "Hi Priyansh, the cricket final is in three days — what snacks will you have at 7:00 PM? I'm a tea person, but you?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 1,
+          "q_count": 2,
+          "snippet": "Hi Priyansh, the cricket final is in three days — what snacks will you have at 7:00 PM? I'm a tea person, but you?"
+        }
+      ],
+      "word_counts": [
+        24,
+        21,
+        27,
+        20,
+        28,
+        19,
+        31,
+        22,
+        21,
+        22
+      ],
+      "avg_words": 23.5,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.1,
+      "has_memory": true
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 10,
+          "q_count": 2,
+          "snippet": "\"Movie marathon energy for the final — no breaks, no distractions. Got it. What will you do if MI wins? Any traditions?\""
+        }
+      ],
+      "word_counts": [
+        19,
+        25,
+        26,
+        23,
+        24,
+        21,
+        27,
+        24,
+        27,
+        22,
+        19,
+        28
+      ],
+      "avg_words": 23.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "\"Lagaan is a great pick — cricket and heart, what more could you want? I’d definitely give it a watch. Did you enjoy the cricket scenes the most?\""
+        }
+      ],
+      "word_counts": [
+        28,
+        24,
+        28,
+        28,
+        29,
+        43,
+        42,
+        40,
+        48,
+        43,
+        30,
+        26
+      ],
+      "avg_words": 34.1,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.33,
+      "has_memory": true
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "You're very welcome — \"Ghungroo\" is a scene that truly lingers. What about a comedy scene to balance it out? Any fun Bollywood ones?"
+        }
+      ],
+      "word_counts": [
+        19,
+        26,
+        25,
+        25,
+        23,
+        24
+      ],
+      "avg_words": 23.7,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "\"I get that — remixes do feel familiar. Stuck in the past? I don’t mind it! What classic song would you remix if you could?\""
+        }
+      ],
+      "word_counts": [
+        24,
+        23,
+        26,
+        28,
+        33,
+        25,
+        22,
+        20,
+        19,
+        24,
+        23
+      ],
+      "avg_words": 24.3,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.09,
+      "has_memory": true
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        24,
+        15,
+        51,
+        56,
+        42,
+        35,
+        43,
+        40
+      ],
+      "avg_words": 38.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        30,
+        25,
+        41,
+        29,
+        30,
+        38
+      ],
+      "avg_words": 32.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "stale_hits": [
+        {
+          "turn": 1,
+          "tag": "tea_persona_cycle",
+          "snippet": "Hi Priyansh, I'm Miss Maya. I'm a tea person — it's my evening comfort. How was your day?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        18,
+        21,
+        18,
+        28,
+        29,
+        23
+      ],
+      "avg_words": 22.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 12,
+          "q_count": 2,
+          "snippet": "\"Got it — raita with mango pickle sounds like a bold move. Ice cream and masala? I’m in, just send the link. What’s your backup snack if it crashes?\""
+        }
+      ],
+      "word_counts": [
+        18,
+        18,
+        27,
+        31,
+        34,
+        29,
+        26,
+        28,
+        27,
+        25,
+        31,
+        29
+      ],
+      "avg_words": 26.9,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "Right, a pro at selective focus — she’s got good taste in ignoring the mess. Jumping at chips was way more fun. For solo cooking survival, maybe a playlist with chill indie beats to match your vibe? S"
+        },
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "I get that — Tame Impala is perfect for pretend bonfires and real kitchen disasters. Me? I’m more into the quiet hum of a well-organized day. But I’ll admit, a little indie music makes even spreadshee"
+        },
+        {
+          "turn": 7,
+          "q_count": 2,
+          "snippet": "Right, a quality-control dog with a taste for chapati — that’s a level of sass only Buddy could reach. Flour-coated and in charge — what’s next? A Michelin star for sniffing?"
+        },
+        {
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "Right, a co-chef with a carb obsession — let the tastings begin. Blame her for soggy idli? Now you’re speaking my language. What’s the weirdest recipe hack she’s inspired you to try?"
+        }
+      ],
+      "word_counts": [
+        27,
+        26,
+        44,
+        50,
+        52,
+        46,
+        31,
+        32,
+        33,
+        45
+      ],
+      "avg_words": 38.6,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.2,
+      "has_memory": true
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "stale_hits": [
+        {
+          "turn": 6,
+          "tag": "love_how_you_opener",
+          "snippet": "You turn “color choice anxiety” into chaos — I love how you lean into the drama. Both options work: scribble the list *then* sing “Good Life” on loop. Add a dance break if needed. What’s the main vibe"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "\"Good Life\" is a solid panic anthem — I can see it fitting perfectly. Dancing while things go sideways sounds like the best way to deal with it. What's your next move after the music? Fix the chaos or"
+        },
+        {
+          "turn": 8,
+          "q_count": 4,
+          "snippet": "\"Emo café vibes\" — that’s a vibe I can get behind. Deep indigo and coral? You’re speaking in design poetry now. Coffee conspiracy? Count me in — we’ll blame the espresso. How do you pull off the revea"
+        },
+        {
+          "turn": 9,
+          "q_count": 2,
+          "snippet": "You build drama like it’s a performance art — I’m here for it. Fade-in, then BAM, coral! If they still don’t gasp, the humming is a solid backup plan. What’s your exit strategy if they *do* gasp? Run "
+        },
+        {
+          "turn": 10,
+          "q_count": 3,
+          "snippet": "Strike a pose like you cracked the code — that’s your moment. Whispering “thank you espresso” as you run? I’d call that a perfect exit. What if they don’t gasp but just… nod slowly? Do you pivot to pa"
+        },
+        {
+          "turn": 11,
+          "q_count": 3,
+          "snippet": "You pivot to improv like a seasoned stage actor — I’m impressed. “THEY GET IT!” yell followed by a dance? That’s your chaos-to-victory move. What’s the dance? Something dramatic or just coffee-sloshed"
+        }
+      ],
+      "word_counts": [
+        34,
+        42,
+        48,
+        41,
+        38,
+        46,
+        36,
+        46,
+        46,
+        43,
+        34,
+        28
+      ],
+      "avg_words": 40.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "Good plan — the texture and the “you’ve got this” note are smart. Bananas for nerves? I’m in. What time is the meeting tomorrow, so you can prep right?"
+        }
+      ],
+      "word_counts": [
+        19,
+        24,
+        33,
+        33,
+        53,
+        47,
+        30,
+        29,
+        24,
+        28
+      ],
+      "avg_words": 32.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.2,
+      "has_memory": true
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 7,
+          "q_count": 2,
+          "snippet": "Right — \"cry for help\" with a rice shortage. You’ve got a gift for drama. Coffee or chaos next week? Which one will win?"
+        }
+      ],
+      "word_counts": [
+        26,
+        24,
+        26,
+        29,
+        28,
+        27,
+        24,
+        23,
+        31,
+        30,
+        21,
+        25,
+        24,
+        25
+      ],
+      "avg_words": 25.9,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.07,
+      "has_memory": true
+    }
+  ]
+}

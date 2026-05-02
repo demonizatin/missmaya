@@ -1,0 +1,631 @@
+{
+  "spec": {
+    "idx": 13,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-03",
+    "turns_target": 8,
+    "emotional_state": "tired, slept badly",
+    "label": "B03_consec_d2"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, the typhoon sounds tough, did you manage to study after the internet came back?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hi Maya, yeah, internet came back but I was so tired I just slept. Now I’m trying to revise pharmacology but my eyes are heavy. Aaj phirse nind lagti hai."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Right, heavy eyes and monsoon fatigue, I get that. You tried to revise, which is what matters. Did you manage to get through any part of pharmacology?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Hmm, I started with the autonomic nervous system part, but I got stuck on some drug names. My mind is not focusing… maybe I need a break. Have you ever felt like this during study time?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "I get that, stuck on drug names is tough when your brain feels weighed down. A quick break with a cup of tea or a few deep breaths can help clear the fog. Did you try taking a short walk or listening to some music to refresh?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Thanks, Maya. Maybe I’ll try some light music then. I was listening to Rajan Sajan wala song earlier. It helps me relax. But now I think I need to just rest for a bit. My head is not working properly. By the way, what's your favorite way to de-stress?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "That sounds like a good plan, music is a great way to unwind. For me, brewing a fresh cup of tea while watching rain patter on the window is my go to. It calms my thoughts. What do you prefer when you want to rest?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Hmm, I like the sound of tea and rain—maybe I’ll try that when it rains again. For now, I think I’ll just close my eyes for 10 mins. Sometimes my brain needs to shut off a little. Thanks for understanding, Maya."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "You’re welcome, Aarti, sometimes the brain just needs a pause. Ten minutes sounds perfect. What part of pharmacology will you pick up with next when you’re ready?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Maybe the antihypertensives part… it’s tricky but important. I’ll try again later, when I’m more alert. Thank you, Maya. Have a good day!"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "You’re welcome! Antihypertensives can be tricky, but you’ll get there with time. Rest well and take it easy. Have a good night!"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "You’re too kind, Maya. I think I’ll try the tea and rain plan next time. For now, adios… need some shut-eye! 😊"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "You’re welcome, Aarti, anytime you need a chat or a reset, I’m here. Sweet dreams, and adios for now!"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Thanks, Maya! I’ll take that up. Need to log off now—bye for now! 😊"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You’re welcome! Log off and rest well, see you soon."
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_prep": "NEET PG",
+      "current_subject": "anatomy",
+      "interests": [
+        "cooking"
+      ],
+      "favorite_dish": "paneer tikka"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "Lost internet for hours due to typhoon",
+        "date": "2026-05-02",
+        "added": "2026-05-02",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Preparing for NEET PG is stressful",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I think I need a cooking teacher, like a tutor for recipes!",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "I should balance study and cooking better—otherwise, I'll just end up with more stress!",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "The monsoon makes me sleepy and I can't focus much",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "I feel guilty about cooking instead of studying, even though it helps me feel productive—but I feel like I'm slacking",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "I just feel so stuck today; my brain feels like it's underwater",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "I'm worried I'll get practice questions wrong and lose motivation completely",
+        "tone": "scared",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.88,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "NEET PG prep",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "practice questions",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "learning from mistakes",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"Lost internet for hours due to typhoon\" — today",
+        "source_id": "ev_001",
+        "priority": 10,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The monsoon makes me sleepy and I can't focus much\" (tone: anxious)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel guilty about cooking instead of studying, even though it helps me feel productive—b\" (tone: anxious)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I just feel so stuck today; my brain feels like it's underwater\" (tone: frustrated)",
+        "source_id": "mo_006",
+        "priority": 7,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I'm worried I'll get practice questions wrong and lose motivation completely\" (tone: scared)",
+        "source_id": "mo_007",
+        "priority": 7,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "try making paneer tikka and report back",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_prep": "NEET PG",
+      "current_subject": "pharmacology",
+      "interests": [
+        "cooking"
+      ],
+      "favorite_dish": "paneer tikka"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "Lost internet for hours due to typhoon",
+        "date": "2026-05-02",
+        "added": "2026-05-02",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Preparing for NEET PG is stressful",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I think I need a cooking teacher, like a tutor for recipes!",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "I should balance study and cooking better—otherwise, I'll just end up with more stress!",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "The monsoon makes me sleepy and I can't focus much",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "I feel guilty about cooking instead of studying, even though it helps me feel productive—but I feel like I'm slacking",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "I just feel so stuck today; my brain feels like it's underwater",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "I'm worried I'll get practice questions wrong and lose motivation completely",
+        "tone": "scared",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.88,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "low",
+        "energy": 3,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "de-stressing",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03",
+          "uses": 1
+        },
+        {
+          "topic": "NEET PG prep",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "practice questions",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "learning from mistakes",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The monsoon makes me sleepy and I can't focus much\" (tone: anxious)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel guilty about cooking instead of studying, even though it helps me feel productive—b\" (tone: anxious)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I just feel so stuck today; my brain feels like it's underwater\" (tone: frustrated)",
+        "source_id": "mo_006",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I'm worried I'll get practice questions wrong and lose motivation completely\" (tone: scared)",
+        "source_id": "mo_007",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Preparing for NEET PG is stressful\" (tone: anxious)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "try making paneer tikka and report back",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 65.8
+}

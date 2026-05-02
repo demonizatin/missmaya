@@ -1,0 +1,789 @@
+{
+  "spec": {
+    "idx": 14,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-04",
+    "turns_target": 8,
+    "emotional_state": "chatty, in a good mood",
+    "label": "B04_consec_d3"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, I hope your walk went well. How was your head feeling after it?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "It's fine, thank you! The walk helped a lot. I also cooked my favorite dal today, which made me feel better. How are you?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Good to hear, walking and dal are both good medicine. What kind of dal did you make?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "It was moong dal, with a bit of garam masala. I love how simple and soothing it is. I was reading a bit of a fiction book after cooking—do you ever read for fun?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "That sounds like a calm, warm combo ,  moong dal and fiction books. What kind of book are you into?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I mostly read classics—like Jane Austen or Tagore. They help me relax after long study hours. Sometimes I get so stressed about NEET PG, I just need to escape into another world. Have you read any good books lately?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Right, classics are a perfect escape. That balance between work and books is smart. What Tagore book are you into?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "I'm reading _Ghare Baire_ right now—such deep thoughts on love and duty. It makes me think about my own life sometimes. But I should probably get back to my notes now… NEET PG is in a few weeks!"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Got it — Ghare Baire is a heavy read. Love how you balance books and studies. What notes are top of mind now?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Mainly physiology and pharmacology. They are so confusing sometimes! I watched a short lecture on renal system today, but I still feel like I need more clarity. Sometimes I wonder, am I prepared enough? 😣"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "I get that, renal system is tricky, even for seniors. Small fix: we say \"I feel like I need more clarity.\" What part feels the heaviest right now?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "The heaviest part is connecting the clinical aspects with the diagrams. I get confused about how the nephron works exactly. Also, remembering all the drug actions—like how diuretics affect different parts of the kidney. It’s a lot! 😟"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Right, nephrons and diuretics are dense. Diagrams are key, what helps you remember them best?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Hmm, I try to make small sketches in my notes, but I get distracted easily. Maybe I should watch another video or ask a friend to explain it. Thank you for caring, Maya! I think I should get back to it now… byee! 😊"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You're doing great, just take it step by step. Good luck with your study session — see you soon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "error_patterns": [
+        "drops 'to' before destination ('going market')"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Sometimes I feel like I’m memorizing but not really understanding (clinical subjects)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "कभी-कभी मुझे सोचते हैं, \"क्या मैं यह सब कर सकती हूँ?\"",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-02",
+        "mentions": 2
+      },
+      {
+        "id": "mo_003",
+        "text": "I sit for 25 mins, but my mind wander to social media. Then I feel guilty. It's like a cycle. Sometimes I think why even try. (user's reflection)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I feel like I'm running out of time (exam) (exam)",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "My head is so heavy, even cooking doesn't cheer me up these days (user's reflection)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "exam prep",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03",
+          "uses": 1
+        },
+        {
+          "topic": "stress management",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03",
+          "uses": 1
+        },
+        {
+          "topic": "yoga",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03",
+          "uses": 1
+        },
+        {
+          "topic": "study habits",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "phone distractions",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "accountability methods",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "NEET PG prep",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel like I'm running out of time (exam) (exam)\" (tone: anxious)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My head is so heavy, even cooking doesn't cheer me up these days (user's reflection)\" (tone: frustrated)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"कभी-कभी मुझे सोचते हैं, \"क्या मैं यह सब कर सकती हूँ?\"\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I sit for 25 mins, but my mind wander to social media. Then I feel guilty. It's like a cyc\" (tone: frustrated)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Sometimes I feel like I’m memorizing but not really understanding (clinical subjects)\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "drops 'to' before destination ('going market')",
+          "examples": [
+            "I am going market"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "used past perfect correctly in self-reflection",
+          "examples": [
+            "I had finished by 5"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "drops 'to' before destination ('going market')",
+          "occurrences": 1,
+          "days_since_last": 2,
+          "examples": [
+            "I am going market"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "try a 10-15 minute walk later",
+        "source_session": "eval_13_B03_consec_d2",
+        "source_date": "2026-05-03",
+        "status": "active",
+        "expires_at": "2026-06-02"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "finish physiology chapter and send notes to Neha",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the Pomodoro method works out",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "error_patterns": [
+        "drops 'to' before destination ('going market')"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Sometimes I feel like I’m memorizing but not really understanding (clinical subjects)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "कभी-कभी मुझे सोचते हैं, \"क्या मैं यह सब कर सकती हूँ?\"",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-02",
+        "mentions": 2
+      },
+      {
+        "id": "mo_003",
+        "text": "I sit for 25 mins, but my mind wander to social media. Then I feel guilty. It's like a cycle. Sometimes I think why even try. (user's reflection)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I feel like I'm running out of time (exam) (exam)",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "My head is so heavy, even cooking doesn't cheer me up these days (user's reflection)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "The walk and cooking helped me feel better (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.6,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Ghare Baire (book)",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04",
+          "uses": 1
+        },
+        {
+          "topic": "exam prep",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03",
+          "uses": 1
+        },
+        {
+          "topic": "stress management",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03",
+          "uses": 1
+        },
+        {
+          "topic": "yoga",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03",
+          "uses": 1
+        },
+        {
+          "topic": "study habits",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "phone distractions",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "accountability methods",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "NEET PG prep",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel like I'm running out of time (exam) (exam)\" (tone: anxious)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-04",
+        "expires_at": "2026-05-18",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My head is so heavy, even cooking doesn't cheer me up these days (user's reflection)\" (tone: frustrated)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-04",
+        "expires_at": "2026-05-18",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"कभी-कभी मुझे सोचते हैं, \"क्या मैं यह सब कर सकती हूँ?\"\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-04",
+        "expires_at": "2026-05-18",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I sit for 25 mins, but my mind wander to social media. Then I feel guilty. It's like a cyc\" (tone: frustrated)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-04",
+        "expires_at": "2026-05-18",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Sometimes I feel like I’m memorizing but not really understanding (clinical subjects)\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-04",
+        "expires_at": "2026-05-18",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "drops 'to' before destination ('going market')",
+          "examples": [
+            "I am going market"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "used past perfect correctly in self-reflection",
+          "examples": [
+            "I had finished by 5"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "connected clinical aspects with diagrams in physiology",
+          "examples": [
+            "connected nephron functions with clinical relevance"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-04",
+          "last_seen": "2026-05-04"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "drops 'to' before destination ('going market')",
+          "occurrences": 1,
+          "days_since_last": 3,
+          "examples": [
+            "I am going market"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Maya mentioned she reads a lot of fiction for fun"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "tell Maya how the study session on physiology went",
+        "source_session": "eval_14_B04_consec_d3",
+        "source_date": "2026-05-04",
+        "status": "active",
+        "expires_at": "2026-06-03"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "try a 10-15 minute walk later",
+        "source_session": "eval_13_B03_consec_d2",
+        "source_date": "2026-05-03",
+        "status": "active",
+        "expires_at": "2026-06-02"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "finish physiology chapter and send notes to Neha",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the Pomodoro method works out",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 18.2
+}

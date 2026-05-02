@@ -1,0 +1,477 @@
+{
+  "spec": {
+    "idx": 28,
+    "profile_id": "u03_rohan",
+    "eval_user_key": "u03_rohan",
+    "today": "2026-05-20",
+    "turns_target": 6,
+    "emotional_state": "frustrated about a small thing today",
+    "label": "C03_sporadic_d19"
+  },
+  "profile": {
+    "id": "u03_rohan",
+    "user_name": "Rohan",
+    "profession": "Bank PO aspirant",
+    "mother_tongue": "Bengali",
+    "interests": "Football, Bengali cinema, photography",
+    "engagement": "chatty",
+    "english_level": "A2",
+    "personality": "enthusiastic, makes more grammar slips, talks about football a lot"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Rohan, missed our chat! How was your exam prep last week?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "It was okay, I think. I had a lot of work in the office, so I couldn’t study much. Also, my phone broke, so no practice online. Frustrating, na? I watched a football match though. Messi played again!"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Right, work and phone trouble make it tough. Watching Messi is a good way to unwind. What did you think of the match?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Messi was on form, no doubt. But their team lost, which is sad. Anyway, I tried to read an English article yesterday to improve, but my concentration was bad. Work stress, you know? By the way, any tips for better English practice?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "\"Got it, work stress does mess with focus. Reading is a great habit. Try reading a bit every day, even 10 minutes. What kind of articles do you like?\""
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I like sports articles the most, like about football or cricket. Also, sometimes Bengali cinema news. But it’s hard to find simple English ones. Oh, and I tried to speak English with my friend yesterday, but I made so many mistakes. It feels frustrating. Any advice?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "\"Same, focused practice helps. Speaking with a friend is great, mistakes are part of learning. What part feels toughest, grammar, words, or confidence?\""
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Grammar and confidence, mostly. I know some rules, but when I speak, my brain freezes. Also, I mix up words a lot. Like, I say \"do\" instead of \"does\" or forget articles. It makes me feel shy to speak. And sometimes I can’t think of the right word for Bengali things—like \"jatra\" or \"pulka.\" Do you have any tips?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "\"True, grammar can trip us in a hurry. Small fix: practice one rule at a time, like 'does' for third person. For Bengali words, try pairing them with English, 'jatra is a festival.' What word feels trickiest right now?\""
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Oh, the word \"schedule\" is giving me trouble. Like, how to say I have a busy schedule because of work and study. Also, when I watch a match, I want to describe the action, like \"He scored a goal\" or \"The defender slipped.\" But I get confused with past tenses. Maybe I can practice that?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "\"Right, 'schedule' can trip us. Try: 'I have a busy schedule with work and study.' For past actions, keep it simple, 'He scored' or 'The defender slipped.' What match did you see?\""
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "exam_prep": "bank exam",
+      "favorite_team": "Bengaluru FC",
+      "team_support_since": 2013,
+      "home_language": "Bengali",
+      "interests": [
+        "emotional stories",
+        "Bengali films",
+        "football",
+        "photography"
+      ]
+    },
+    "events": [],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "Uses present tense for completed past events in narrative context",
+          "examples": [
+            "Last night I watch a film called *Koira Kahe Pabo*"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        },
+        {
+          "pattern": "Omits article before superlative adjectives",
+          "examples": [
+            "They are best team in India"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        },
+        {
+          "pattern": "Uses simple present instead of present perfect for ongoing states since a past date",
+          "examples": [
+            "I follow them since 2013"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [],
+      "curriculum": [
+        {
+          "pattern": "Uses present tense for completed past events in narrative context",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "Last night I watch a film called *Koira Kahe Pabo*"
+          ]
+        },
+        {
+          "pattern": "Omits article before superlative adjectives",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "They are best team in India"
+          ]
+        },
+        {
+          "pattern": "Uses simple present instead of present perfect for ongoing states since a past date",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "I follow them since 2013"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "Bank exam practice on 2026-05-02 — Rohan to report back next session",
+        "source_session": "eval_26_C01_sporadic_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "exam_prep": "bank exam",
+      "favorite_team": "Bengaluru FC",
+      "team_support_since": 2013,
+      "home_language": "Bengali",
+      "interests": [
+        "emotional stories",
+        "Bengali films",
+        "football",
+        "photography",
+        "cricket"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "When I speak English, my brain freezes and I mix up words. It makes me feel shy to speak.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-20",
+        "last_seen": "2026-05-20",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_28_C03_sporadic_d19",
+        "date": "2026-05-20",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "reading practice",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "grammar drilling",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "Bengali-English pairing",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "past tenses",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"When I speak English, my brain freezes and I mix up words. It makes me feel shy to speak.\" (tone: anxious)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-20",
+        "expires_at": "2026-06-03",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: consistently used correct simple past tense for completed actions (e.g. \"I watched a football match\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-20",
+        "expires_at": "2026-06-03",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "Uses present tense for completed past events in narrative context",
+          "examples": [
+            "Last night I watch a film called *Koira Kahe Pabo*"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        },
+        {
+          "pattern": "Omits article before superlative adjectives",
+          "examples": [
+            "They are best team in India"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        },
+        {
+          "pattern": "Uses simple present instead of present perfect for ongoing states since a past date",
+          "examples": [
+            "I follow them since 2013"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "consistently used correct simple past tense for completed actions",
+          "examples": [
+            "I watched a football match"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-20",
+          "last_seen": "2026-05-20"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "Uses present tense for completed past events in narrative context",
+          "occurrences": 1,
+          "days_since_last": 19,
+          "examples": [
+            "Last night I watch a film called *Koira Kahe Pabo*"
+          ]
+        },
+        {
+          "pattern": "Omits article before superlative adjectives",
+          "occurrences": 1,
+          "days_since_last": 19,
+          "examples": [
+            "They are best team in India"
+          ]
+        },
+        {
+          "pattern": "Uses simple present instead of present perfect for ongoing states since a past date",
+          "occurrences": 1,
+          "days_since_last": 19,
+          "examples": [
+            "I follow them since 2013"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "practice describing sports actions and events using simple past tense",
+        "source_session": "eval_28_C03_sporadic_d19",
+        "source_date": "2026-05-20",
+        "status": "active",
+        "expires_at": "2026-06-19"
+      },
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "Bank exam practice on 2026-05-02 — Rohan to report back next session",
+        "source_session": "eval_26_C01_sporadic_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 100.2
+}

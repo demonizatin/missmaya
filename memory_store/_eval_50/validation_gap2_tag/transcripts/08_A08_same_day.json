@@ -1,0 +1,1046 @@
+{
+  "spec": {
+    "idx": 8,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 8,
+    "emotional_state": "chatty, in a good mood",
+    "label": "A08_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, I heard you watched a Bollywood movie in the evening — which one?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "I watched \"Kesari,\" it's about a historical battle. The movie was good, but a bit sad. Did you watch any movie recently?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds interesting — I like historical films. I missed the sad part. Did you enjoy the story?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Yeah, the story was quite engaging. It showed the courage of soldiers. But the way it ended, it left me feeling emotional. I like such stories, but sometimes they are too sad for me."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "I get that — history and emotions mix strongly. I missed the sad part too. What made you pick \"Kesari\"?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I chose it because my friend recommended it. He said it’s based on a real battle, so I wanted to learn more. Also, the actor’s performance was great. I like watching such intense movies once in a while. By the way, do you like historical movies?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "I see — friends are great for suggesting movies. History makes stories feel real. What’s your favourite historical moment to imagine?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Hmm, difficult to pick one... maybe the time of ancient Indian epics, like Mahabharata. It's fascinating how those stories still matter today. But honestly, I'm more curious about how things were in the early days of India's independence movement. What about you?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "I like how you connect old stories to today. The independence movement has so much to explore. Did you read about it or watch a film?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I mostly watched old movies about leaders like Gandhi and Nehru. Books are a bit heavy for me. But those films show sacrifices people made — it feels very real. Btw, have you seen the movie \"PK\"? It’s not historical but has some good messages."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Got it — movies make history feel alive. \"PK\" sounds interesting. Did you like the message about faith and truth?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Yeah, I really liked the message in \"PK.\" It made me think about how people see religion and truth. The comedy parts were good too, but the serious message stuck with me. It’s not historical, but it made me reflect a lot. Anyway, I should probably stop talking about movies now — they take up too much of my evening!"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "I get that — movies can take over the evening! Glad they make you think. What else fills your evenings?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "In the evenings, I also like to watch some cricket matches, especially if India is playing. It's a good way to relax. Sometimes I read a few pages of a book, but mostly I just chat with friends. It depends on the mood, you know?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Cricket and chats — both are good for winding down. What's your go-to chat topic with friends?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "movie_interests": "Salman Khan films, Shah Rukh Khan films, action movies; recent favorites: *Raees*, *Dilwale Dulhania Le Jayenge*, *Chennai Express*",
+      "music_preferences": "Arijit Singh, Lata Mangeshkar (Bollywood), some old rock (Elvis, Queen)",
+      "humming_habit": "hums along to songs when alone in the car",
+      "cricket_interest": "watches cricket matches while unwinding",
+      "work_focus": "backend development with APIs and databases",
+      "work_style_preference": "prefers team projects over solo work",
+      "learning_interests": "cloud infrastructure and deployment practices",
+      "character_preference": "strong, driven characters",
+      "values_in_storytelling": "integrity and doing the right thing; music and story intertwined"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "fixed a bug at work",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "had a meeting about a new project",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "watched a Bollywood movie in the evening",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "It's slow, emotional, and makes me feel like everything's going to be okay",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Channa Mereya makes me miss Punjab a bit",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "working with others makes the work feel less heavy",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "knowing that the system will be more secure and users' data will be better protected—it feels impactful",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "doing the right thing even when it's tough — driven characters resonate with me",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "low",
+        "energy": 4,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": "ev_001"
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.72,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_6_A06_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 5,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bollywood music",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "singing",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "humming habits",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music preferences",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "evening unwinding",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "sleep routine",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation techniques",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music for sleep",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "new project meeting",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work style preferences",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "learning from teammates",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"watched a Bollywood movie in the evening\" — today",
+        "source_id": "ev_003",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: asked reciprocal questions to maintain conversational flow (e.g. \"Did you have a good day? Have you seen it?\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"It's slow, emotional, and makes me feel like everything's going to be okay\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Channa Mereya makes me miss Punjab a bit\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"working with others makes the work feel less heavy\" (tone: content)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "uses 'a' instead of 'an' before vowel sound",
+          "examples": [
+            "It's a action movie"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "asked reciprocal questions to maintain conversational flow",
+          "examples": [
+            "Did you have a good day? Have you seen it?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "uses 'a' instead of 'an' before vowel sound",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "It's a action movie"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "try Lata Mangeshkar's 'Mera Joota Paida' for sleep",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "event_pending",
+        "content": "ask teammates about cloud infrastructure and deployment",
+        "source_session": "eval_4_A04_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "event_pending",
+        "content": "try Lata Mangeshkar's song for sleep and report back",
+        "source_session": "eval_6_A06_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "movie_interests": "Salman Khan films, Shah Rukh Khan films, action movies, historical films; recent favorites: *Raees*, *Dilwale Dulhania Le Jayenge*, *Chennai Express*, *Kesari*, *PK*",
+      "music_preferences": "Arijit Singh, Lata Mangeshkar (Bollywood), some old rock (Elvis, Queen)",
+      "humming_habit": "hums along to songs when alone in the car",
+      "cricket_interest": "watches cricket matches while unwinding",
+      "work_focus": "backend development with APIs and databases",
+      "work_style_preference": "prefers team projects over solo work",
+      "learning_interests": "cloud infrastructure and deployment practices",
+      "character_preference": "strong, driven characters",
+      "values_in_storytelling": "integrity and doing the right thing; music and story intertwined",
+      "history_learning_preference": "prefers films over books for learning history"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "fixed a bug at work",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "had a meeting about a new project",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "watched a Bollywood movie in the evening",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "It's slow, emotional, and makes me feel like everything's going to be okay",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Channa Mereya makes me miss Punjab a bit",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "working with others makes the work feel less heavy",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "knowing that the system will be more secure and users' data will be better protected—it feels impactful",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "doing the right thing even when it's tough — driven characters resonate with me",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "I like such stories, but sometimes they are too sad for me",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "those films show sacrifices people made — it feels very real",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "the serious message stuck with me and made me reflect a lot",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "low",
+        "energy": 4,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": "ev_001"
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.72,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_6_A06_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 5,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_8_A08_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bollywood music",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "singing",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "humming habits",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music preferences",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "evening unwinding",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "sleep routine",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation techniques",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music for sleep",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "new project meeting",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work style preferences",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "learning from teammates",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_8_A08_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: asked reciprocal questions to maintain conversational flow (e.g. \"Did you have a good day? Have you seen it?\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used idiomatic expressions naturally and contextually (e.g. \"'books are a bit heavy for me' and 'the serious message stuck with me'\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"It's slow, emotional, and makes me feel like everything's going to be okay\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Channa Mereya makes me miss Punjab a bit\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"working with others makes the work feel less heavy\" (tone: content)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "uses 'a' instead of 'an' before vowel sound",
+          "examples": [
+            "It's a action movie"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "asked reciprocal questions to maintain conversational flow",
+          "examples": [
+            "Did you have a good day? Have you seen it?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used idiomatic expressions naturally and contextually",
+          "examples": [
+            "'books are a bit heavy for me' and 'the serious message stuck with me'"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "uses 'a' instead of 'an' before vowel sound",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "It's a action movie"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "try Lata Mangeshkar's 'Mera Joota Paida' for sleep",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "event_pending",
+        "content": "ask teammates about cloud infrastructure and deployment",
+        "source_session": "eval_4_A04_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "event_pending",
+        "content": "try Lata Mangeshkar's song for sleep and report back",
+        "source_session": "eval_6_A06_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 151.1
+}

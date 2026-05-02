@@ -1,0 +1,281 @@
+{
+  "spec": {
+    "idx": 11,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-01",
+    "turns_target": 6,
+    "emotional_state": "neutral, ordinary day",
+    "label": "B01_consec_d0"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, I am your English chat partner. It's a pleasure to meet you — I'm excited to practice English with you. How was your day so far?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hi Maya, nice to meet you too! My day was okay, just studying for NEET PG. Lot of books, some stress. How about you?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "You're doing great — studying that much is no joke. How do you usually relax after a heavy study session?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Hmm, I try to cook sometimes. Makes me feel better. Or I listen to some classical music. What do you do to relax?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Cooking or classical music — both sound calming. I get that. What kind of music do you like?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Mainly Hindustani classical, but I enjoy Carnatic too. It's like... \"shanti\" comes to my mind while listening. How about you?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "You said \"shanti\" — I get that. Peace feels rare these days. What brings peace to you most?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Most times, cooking for family brings peace. Also, when I read a good book. But lately, exams stress me out, \"aapka kya hain\"?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "You said 'aapka kya hain' — I get that. Exams stress everyone. What helps you most when stress builds up."
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I take short walks or talk to a friend. Sometimes, just a cup of tea helps. But studies are piling up, so it's hard to find time. Gotta go now — thanks for chatting, Maya!"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "You're doing great — taking time for tea or walks is smart. What's one small thing you can steal back for yourself today?"
+    }
+  ],
+  "memory_before": {
+    "facts": {},
+    "events": [],
+    "moments": [],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Aarti",
+      "studying_for": "NEET PG (exam)",
+      "music_preference": "Hindustani classical and Carnatic",
+      "relaxation_methods": [
+        "cooking",
+        "listening to classical music"
+      ],
+      "sources_of_peace": [
+        "cooking for family",
+        "reading books"
+      ],
+      "stress_management_techniques": [
+        "short walks",
+        "talking to friends",
+        "tea"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "shanti comes to mind while listening to classical music",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "cooking for family brings peace",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "relaxation",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music preferences",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "peace",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "stress management",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"shanti comes to mind while listening to classical music\" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"cooking for family brings peace\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 84.7
+}

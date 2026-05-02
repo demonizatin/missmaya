@@ -1,0 +1,210 @@
+{
+  "facts": {
+    "nickname": "Priyansh",
+    "interests": [
+      "comedies",
+      "cricket movies"
+    ],
+    "story_values": [
+      "authentic/heartfelt narratives",
+      "mix of humor with emotion"
+    ]
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "completed important client report (project)",
+      "date": "2026-05-24",
+      "added": "2026-05-24",
+      "followed_up": false
+    },
+    {
+      "id": "ev_002",
+      "what": "watched Jug Jugg Jeeyo (movie)",
+      "date": "2026-05-24",
+      "added": "2026-05-24",
+      "followed_up": false
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "I managed to finish an important task... Finally, the green light!",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-24",
+      "last_seen": "2026-05-24",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "I'd say strong emotions... but only if they're heartfelt. Like, real stories with real feelings.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-24",
+      "last_seen": "2026-05-24",
+      "mentions": 1
+    },
+    {
+      "id": "mo_003",
+      "text": "The way it shows people being good without trying too hard... It feels real. The main character is funny but also wise... It made me think but in a relaxed way, not too heavy.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-24",
+      "last_seen": "2026-05-24",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_36_D01_coldstart_u01_pr",
+      "date": "2026-05-24",
+      "label": "content",
+      "energy": 6,
+      "confidence": 0.8,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "comedy films",
+        "last_session": "eval_36_D01_coldstart_u01_pr",
+        "last_date": "2026-05-24",
+        "uses": 1
+      },
+      {
+        "topic": "emotional tone in movies",
+        "last_session": "eval_36_D01_coldstart_u01_pr",
+        "last_date": "2026-05-24",
+        "uses": 1
+      },
+      {
+        "topic": "cricket movies",
+        "last_session": "eval_36_D01_coldstart_u01_pr",
+        "last_date": "2026-05-24",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_36_D01_coldstart_u01_pr",
+        "last_date": "2026-05-24"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "event_upcoming",
+      "content": "Ask about \"completed important client report (project)\" — today",
+      "source_id": "ev_001",
+      "priority": 10,
+      "computed_at": "2026-05-24",
+      "expires_at": "2026-06-07",
+      "used": false
+    },
+    {
+      "kind": "event_upcoming",
+      "content": "Ask about \"watched Jug Jugg Jeeyo (movie)\" — today",
+      "source_id": "ev_002",
+      "priority": 10,
+      "computed_at": "2026-05-24",
+      "expires_at": "2026-06-07",
+      "used": false
+    },
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: used effective contrast structures to express nuance (e.g. \"Not too serious, but also not just jokes\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-05-24",
+      "expires_at": "2026-06-07",
+      "used": false
+    },
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: expressed complex emotional preferences with articulate language (e.g. \"I'd say strong emotions... but only if they're heartfelt. Like, real stories with real feelings.\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-05-24",
+      "expires_at": "2026-06-07",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I managed to finish an important task... Finally, the green light!\" (tone: content)",
+      "source_id": "mo_001",
+      "priority": 4,
+      "computed_at": "2026-05-24",
+      "expires_at": "2026-06-07",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [
+      {
+        "what": "used effective contrast structures to express nuance",
+        "examples": [
+          "Not too serious, but also not just jokes"
+        ],
+        "count": 1,
+        "first_seen": "2026-05-24",
+        "last_seen": "2026-05-24"
+      },
+      {
+        "what": "expressed complex emotional preferences with articulate language",
+        "examples": [
+          "I'd say strong emotions... but only if they're heartfelt. Like, real stories with real feelings."
+        ],
+        "count": 1,
+        "first_seen": "2026-05-24",
+        "last_seen": "2026-05-24"
+      }
+    ],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

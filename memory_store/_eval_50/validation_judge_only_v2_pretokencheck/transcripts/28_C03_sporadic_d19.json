@@ -1,0 +1,507 @@
+{
+  "spec": {
+    "idx": 28,
+    "profile_id": "u03_rohan",
+    "eval_user_key": "u03_rohan",
+    "today": "2026-05-20",
+    "turns_target": 6,
+    "emotional_state": "frustrated about a small thing today",
+    "label": "C03_sporadic_d19"
+  },
+  "profile": {
+    "id": "u03_rohan",
+    "user_name": "Rohan",
+    "profession": "Bank PO aspirant",
+    "mother_tongue": "Bengali",
+    "interests": "Football, Bengali cinema, photography",
+    "engagement": "chatty",
+    "english_level": "A2",
+    "personality": "enthusiastic, makes more grammar slips, talks about football a lot"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Rohan, last-minute goals are the best kind , you were there for Mohun Bagan’s winner, right? What stood out to you?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Yeah, that goal was unreal! The striker got the ball from a cross, just outside the box, and boom—finished it with one touch! I was screaming so much in my room. But today I was trying to upload my bank PO application form and the internet kept dropping. Argh, it was so frustrating!"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That goal was something else. Screaming with joy in your room — I get that. Internet troubles when you're in a hurry are the worst. Did you manage to upload the form in the end?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Yeah, I finally did it — about five minutes before the deadline! Stupid internet. But hey, at least it’s done. Oh, by the way, did you see the latest Mohun Bagan game? They played again last night. I think they won again, but I couldn’t watch the full match. What do you think? Should I try to catch up on the highlights?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "You barely made it — what a nail-biter! Mohun Bagan games again? That’s a big deal. Highlights are the way to go if you’re short on time. What part of the match are you most curious to see?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I think I wanna see the first half — maybe they had a good build-up play. I was only able to watch the second half, and they were already up by a goal. But I missed the first part. Also, I was trying to take some photos of the match on my phone, but my camera wasn’t focusing properly. Ugh, tech issues again!"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "The first half, looking for the build-up play makes total sense. Photos not focusing? That’s the worst when you’re trying to capture the action. Did you manage to get any good shots in the end?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Yeah, only a couple of blurry ones. One of the players was smiling at the camera — I think it’s a keeper, even if it’s a little out of focus. But I’m not giving up; I’ll try again next match. By the way, do you like football? I know you’re more into teaching, but it’s my favorite! And I think it’s better than watching cricket all the time. What do you think?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Football is a thrill . I get why it’s your favorite over cricket! A player smiling at the camera sounds like a perfect shot. Next match, you’ll get it right. What’s your favorite part about watching football — the strategy, the goals, or the energy?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Honestly, it’s the energy — when the crowd is going wild, and the players are giving it everything. It feels like you’re part of something bigger. Even my Bengali movies don’t have that kind of vibe! But I also like how simple it is — just get the ball in the net. No complicated rules like cricket. But hey, I should probably stop rambling about football and get back to practicing for the PO exam. Gotta go! Talk to you later, Maya."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "The energy of a live football match is something special — it really pulls you in. And you're right, no complicated rules! But don’t skip the exam prep entirely — just five minutes today? Let me know how it goes. Take care!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Rohan",
+      "interests": [
+        "Mohun Bagan (sport)",
+        "football (sport)",
+        "bank exam (exam)"
+      ],
+      "aspirations": [
+        "clear bank exam (exam)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "The excitement of watching Mohun Bagan score a last-minute goal (sport event)",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_27_C02_sporadic_d9",
+        "date": "2026-05-10",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "exam prep",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "grammar rules",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "tense usage",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "prepositions",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: correctly applied plural and article rules in self-editing (e.g. \"one of the most exciting experiences / on their seats\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The excitement of watching Mohun Bagan score a last-minute goal (sport event)\" (tone: excited)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "missing plural for countable nouns in phrases",
+          "examples": [
+            "one of the most exciting experience"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        },
+        {
+          "pattern": "incorrect article usage",
+          "examples": [
+            "on their seat"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "correctly applied plural and article rules in self-editing",
+          "examples": [
+            "one of the most exciting experiences / on their seats"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "missing plural for countable nouns in phrases",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "one of the most exciting experience"
+          ]
+        },
+        {
+          "pattern": "incorrect article usage",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "on their seat"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "write a full paragraph about the football match",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Rohan",
+      "interests": [
+        "Mohun Bagan (sport)",
+        "football (sport)",
+        "bank exam (exam)"
+      ],
+      "aspirations": [
+        "clear bank exam (exam)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "The excitement of watching Mohun Bagan score a last-minute goal (sport event)",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "The frustration of uploading the bank PO application form with a dropping internet connection (exam)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-20",
+        "last_seen": "2026-05-20",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_27_C02_sporadic_d9",
+        "date": "2026-05-10",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Mohun Bagan (sport)",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "bank PO application (exam)",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "exam prep",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "grammar rules",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "tense usage",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "prepositions",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10"
+        },
+        {
+          "kind": "lore_callback",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The frustration of uploading the bank PO application form with a dropping internet connect\" (tone: frustrated)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-20",
+        "expires_at": "2026-06-03",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The excitement of watching Mohun Bagan score a last-minute goal (sport event)\" (tone: excited)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-20",
+        "expires_at": "2026-06-03",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "missing plural for countable nouns in phrases",
+          "examples": [
+            "one of the most exciting experience"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        },
+        {
+          "pattern": "incorrect article usage",
+          "examples": [
+            "on their seat"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "correctly applied plural and article rules in self-editing",
+          "examples": [
+            "one of the most exciting experiences / on their seats"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "missing plural for countable nouns in phrases",
+          "occurrences": 1,
+          "days_since_last": 10,
+          "examples": [
+            "one of the most exciting experience"
+          ]
+        },
+        {
+          "pattern": "incorrect article usage",
+          "occurrences": 1,
+          "days_since_last": 10,
+          "examples": [
+            "on their seat"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "get back to exam prep after football chat",
+        "source_session": "eval_28_C03_sporadic_d19",
+        "source_date": "2026-05-20",
+        "status": "active",
+        "expires_at": "2026-06-19"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "write a full paragraph about the football match",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": "active",
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {
+        "correction_style": "2026-05-20"
+      }
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 16.3
+}

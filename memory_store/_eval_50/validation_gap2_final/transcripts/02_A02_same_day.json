@@ -1,0 +1,337 @@
+{
+  "spec": {
+    "idx": 2,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 8,
+    "emotional_state": "hopeful, made some progress on a goal",
+    "label": "A02_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, mango season is here — my favorite time of the year! What's been on your mind today?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Just launched a new feature at work, feels good. Also, watching a lot of cricket this month. How about you?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds rewarding. Cricket commentary is fun to listen to, isn't it? What team are you cheering for these days?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "I'm with Mumbai Indians this season. Their batting is on point. Also, I love the new commentary style — more energetic. Have you watched any big matches recently?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Mumbai Indians have some great players. I get how you'd enjoy their batting. I haven’t watched a match yet — what’s the best game you’ve seen so far?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "The semifinal last year between MI and CSK was unreal. So many runs, so much tension — I was on edge the whole time. Maybe I'll try to catch a game this weekend. You should watch it too, the vibe is lit."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "The semifinal must have been intense — edge-of-seat stuff. Sounds like a perfect weekend watch. Which game are you planning to catch?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "The final between MI and CSK this Sunday, maybe? Or if they have a practice match earlier, I'll watch that. You should join me — it's more fun with someone to talk to!"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "The final sounds like a big one — I’ll take you up on that. Practice matches are fun too. Are you going for snacks or a quiet night in?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Snacks, obviously! No cricket without samosas and chilly. Maybe some popcorn if I can't find chaat. You in?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Samosas and chilly — perfect pairing. I’m in for the game and the snacks. What time are you planning to watch?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Probably around 7 PM, so we can watch it together. Let me know if that works for you — I’ll even bring the chaat if we meet somewhere!"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "7 PM works well. Let’s make it a chaat-and-cricket night. Are you watching from home or a café?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Home is better, more comfortable. Unless you want to go to that new café downtown — the one with good food and big screens. What you think?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Home sounds cozy, and the café is a nice option too. I say go with home — comfort wins. Are you setting up the snacks now?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "coding",
+        "Bollywood films"
+      ],
+      "relaxation_method": "watches Bollywood/action movies to unwind"
+    },
+    "events": [],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "coding",
+        "Bollywood films",
+        "cricket"
+      ],
+      "relaxation_method": "watches Bollywood/action movies to unwind"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "watching cricket final (MI vs CSK) with snacks at 7:00 PM",
+        "date": "2026-05-04",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "mango season",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"watching cricket final (MI vs CSK) with snacks at 7:00 PM\" — in 3 days",
+        "source_id": "ev_001",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "omits auxiliary verb 'do' in questions",
+          "examples": [
+            "What you think?"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [],
+      "curriculum": [
+        {
+          "pattern": "omits auxiliary verb 'do' in questions",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "What you think?"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "watch cricket final (MI vs CSK) on 2026-05-04 at 7:00 PM with snacks",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 102.0
+}

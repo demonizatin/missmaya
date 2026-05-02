@@ -1,0 +1,264 @@
+{
+  "spec": {
+    "idx": 45,
+    "profile_id": "u10_shreya",
+    "eval_user_key": "u10_shreya_cold",
+    "today": "2026-05-28",
+    "turns_target": 8,
+    "emotional_state": "excited about a weekend plan",
+    "label": "D10_coldstart_u10_sh"
+  },
+  "profile": {
+    "id": "u10_shreya",
+    "user_name": "Shreya",
+    "profession": "MBA student at IIM",
+    "mother_tongue": "Hindi",
+    "interests": "Strategy consulting, books, F1",
+    "engagement": "medium",
+    "english_level": "C1",
+    "personality": "fluent, articulate, occasional grammar slip; treats the chat as banter"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "It's a bright afternoon, and I'm glad you're here to chat. How was your day?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hey! My day was pretty good—just wrapped up a case study for my strategy class. How about you? Btw, I’m heading to a Formula 1 meet this weekend, super excited!"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds fun - case studies can be intense! Formula 1 meets are always exciting. What team are you following?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Mercedes, no doubt! They’ve been dominating this season. But I’m also a huge fan of the underdog stories, ya know? How’s your week been?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Mercedes is a great choice — their performance this season has been top-notch. Underdog stories do make the races more thrilling! My week has been smooth so far. Are you watching any races live?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Yeah, I’m catching a few live—Silverstone was on, and I didn’t miss it! Nothing beats the energy of being there in person, though. Can’t wait for the weekend. You up for any plans?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Silverstone is such an iconic track — you’re lucky to catch it live! The energy at the circuits is unmatched. I don't have any plans, but I might finally try baking a new recipe. What are you planning to do post-race?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Probably hit up some local street food—nothing like that after a day at the track! Maybe a bit of cricket later if there's time. You'll love the chaat here, you know? Excited to hear about your baking!"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Street food after a race day sounds perfect — chaat is always a great choice. Cricket after F1? That’s a fun mix of sports! What recipe are you trying?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "A lemon rose cake—simple but tricky! Need to make sure the batter isn’t too dense. You ever baked something fancy?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Lemon rose cake sounds beautiful - the balance of flavors must be perfect! I’ve tried a few recipes, but nothing too fancy. What makes this cake tricky for you?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Mainly the rose essence—it’s so potent, even a drop can throw off the whole flavor. I’m scared I’ll overdo it! But hey, even if it’s a disaster, it’ll be a delicious one, right? Btw, are you a baking pro or just experimenting? 😄"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Rose essence is delicate for sure - one drop can change everything! I'm all experimenting, no pro here, but I do love trying new flavors. What’s your favorite to bake?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Hmm, tough question! I love baking cookies—simple, but so much room for creativity, like adding cardamom or chocolate chunks. But I’ve been eyeing a red velvet cupcake recipe too. Maybe next time! Gotta run—race prep calls! Talk soon! 🏁"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Got it — cookies are the perfect canvas for creativity. Red velvet sounds delicious, do save some for me if you try it! Have a great race day."
+    }
+  ],
+  "memory_before": {
+    "facts": {},
+    "events": [],
+    "moments": [],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "favorite_f1_team": "Mercedes",
+      "academic_class": "strategy",
+      "sports_interests": [
+        "Formula 1 (sport)",
+        "cricket (sport)"
+      ],
+      "baking_interests": [
+        "cookies with cardamom/chocolate chunks (dish)",
+        "lemon rose cake (dish)",
+        "red velvet cupcakes (dish)"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "Formula 1 meet (event)",
+        "date": "2026-06-01",
+        "added": "2026-05-28",
+        "followed_up": false
+      }
+    ],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_45_D10_coldstart_u10_sh",
+        "date": "2026-05-28",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "F1",
+          "last_session": "eval_45_D10_coldstart_u10_sh",
+          "last_date": "2026-05-28",
+          "uses": 1
+        },
+        {
+          "topic": "baking",
+          "last_session": "eval_45_D10_coldstart_u10_sh",
+          "last_date": "2026-05-28",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_45_D10_coldstart_u10_sh",
+          "last_date": "2026-05-28"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"Formula 1 meet (event)\" — in 4 days",
+        "source_id": "ev_001",
+        "priority": 6,
+        "computed_at": "2026-05-28",
+        "expires_at": "2026-06-11",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 98.9
+}

@@ -1,0 +1,453 @@
+{
+  "summary": {
+    "session_count": 15,
+    "category_totals": {
+      "A_titles": 15,
+      "B_named_entities": 0,
+      "C_personal_claims": 2,
+      "D_fake_quotes": 0
+    },
+    "category_session_counts": {
+      "C_personal_claims": 2,
+      "A_titles": 8
+    },
+    "examples": {
+      "C_personal_claims": [
+        {
+          "session_idx": 2,
+          "label": "A02_same_day",
+          "user": "Priyansh",
+          "turn": 1,
+          "claim": "I heard you're planning to watch Dunki with English subtitles in tw",
+          "snippet": "Hi Priyansh, I heard you're planning to watch Dunki with English subtitles in two days — are you looking forward to it?"
+        },
+        {
+          "session_idx": 7,
+          "label": "A07_same_day",
+          "user": "Priyansh",
+          "turn": 1,
+          "claim": "I heard you're planning to watch 'Chhichhore' this weekend — excite",
+          "snippet": "Hi Priyansh, the first sip of cardamom chai in the evening makes my day brighter. I heard you're planning to watch 'Chhichhore' this weekend — excited about it?"
+        }
+      ],
+      "A_titles": [
+        {
+          "session_idx": 5,
+          "label": "A05_same_day",
+          "user": "Priyansh",
+          "turn": 9,
+          "title": "ZND",
+          "snippet": "Got it — \"3 Idiots\" for laughs and \"ZND\" for a mood lift. What’s your favourite part of cricket matches — the strategy or the big hits?"
+        },
+        {
+          "session_idx": 6,
+          "label": "A06_same_day",
+          "user": "Priyansh",
+          "turn": 3,
+          "title": "Dil Bechara",
+          "snippet": "You did well — 10 minutes is not easy! It's normal to want to do better — you're already improving. Got it. For Bollywood, maybe \"Chhichhore\" or \"Dil Bechara\"? Light and fun. What kind of mood are you"
+        },
+        {
+          "session_idx": 8,
+          "label": "A08_same_day",
+          "user": "Priyansh",
+          "turn": 6,
+          "title": "Mere Naam Shabnam",
+          "snippet": "I agree — music carries emotions that cross all languages. \"Tum Hi Ho\" is a classic for a reason. I enjoy songs that make me feel something, like old \"Mere Naam Shabnam\" or \"Pyar Hua Ikrar Hua\". Do yo"
+        },
+        {
+          "session_idx": 8,
+          "label": "A08_same_day",
+          "user": "Priyansh",
+          "turn": 6,
+          "title": "Pyar Hua Ikrar Hua",
+          "snippet": "I agree — music carries emotions that cross all languages. \"Tum Hi Ho\" is a classic for a reason. I enjoy songs that make me feel something, like old \"Mere Naam Shabnam\" or \"Pyar Hua Ikrar Hua\". Do yo"
+        },
+        {
+          "session_idx": 46,
+          "label": "E01_deeprun_w0",
+          "user": "Neha",
+          "turn": 2,
+          "title": "Hi Neha, I'm Miss Maya.",
+          "snippet": "\"Hi Neha, I'm Miss Maya.\" — I'm sorry to hear your day has been rough. Rainy commutes can be the worst. I hope things turn better for you soon. How about your day?"
+        },
+        {
+          "session_idx": 46,
+          "label": "E01_deeprun_w0",
+          "user": "Neha",
+          "turn": 9,
+          "title": "The Time Traveler’s Wife",
+          "snippet": "\"Got it — old favorites are the best kind. *The Time Traveler’s Wife* is like a warm blanket for the heart — I get that. I also come back to *The Alchemist* for a little inspiration. What’s next for y"
+        },
+        {
+          "session_idx": 47,
+          "label": "E02_deeprun_w1",
+          "user": "Neha",
+          "turn": 7,
+          "title": "The Time Traveler’s Wife",
+          "snippet": "\"Maybe a cat nap?\" — yes, that sounds perfect. I’ve been re-reading *The Time Traveler’s Wife* lately — it’s one of those books that makes you forget time. What about you? Any rainy-day read that pull"
+        },
+        {
+          "session_idx": 47,
+          "label": "E02_deeprun_w1",
+          "user": "Neha",
+          "turn": 9,
+          "title": "No Surprises",
+          "snippet": "\"Go to Sleep\" and \"Sigh No More\" — both fit the rain perfectly. A rainy day anthem for me is \"No Surprises\" by Radiohead — just the right amount of calm and mood. Don’t log off yet — these chats are m"
+        }
+      ]
+    }
+  },
+  "per_session": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 1,
+            "claim": "I heard you're planning to watch Dunki with English subtitles in tw",
+            "snippet": "Hi Priyansh, I heard you're planning to watch Dunki with English subtitles in two days — are you looking forward to it?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 9,
+            "title": "ZND",
+            "snippet": "Got it — \"3 Idiots\" for laughs and \"ZND\" for a mood lift. What’s your favourite part of cricket matches — the strategy or the big hits?"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 3,
+            "title": "Dil Bechara",
+            "snippet": "You did well — 10 minutes is not easy! It's normal to want to do better — you're already improving. Got it. For Bollywood, maybe \"Chhichhore\" or \"Dil Bechara\"? Light and fun. What kind of mood are you"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 1,
+            "claim": "I heard you're planning to watch 'Chhichhore' this weekend — excite",
+            "snippet": "Hi Priyansh, the first sip of cardamom chai in the evening makes my day brighter. I heard you're planning to watch 'Chhichhore' this weekend — excited about it?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 6,
+            "title": "Mere Naam Shabnam",
+            "snippet": "I agree — music carries emotions that cross all languages. \"Tum Hi Ho\" is a classic for a reason. I enjoy songs that make me feel something, like old \"Mere Naam Shabnam\" or \"Pyar Hua Ikrar Hua\". Do yo"
+          },
+          {
+            "turn": 6,
+            "title": "Pyar Hua Ikrar Hua",
+            "snippet": "I agree — music carries emotions that cross all languages. \"Tum Hi Ho\" is a classic for a reason. I enjoy songs that make me feel something, like old \"Mere Naam Shabnam\" or \"Pyar Hua Ikrar Hua\". Do yo"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 2,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 2,
+            "title": "Hi Neha, I'm Miss Maya.",
+            "snippet": "\"Hi Neha, I'm Miss Maya.\" — I'm sorry to hear your day has been rough. Rainy commutes can be the worst. I hope things turn better for you soon. How about your day?"
+          },
+          {
+            "turn": 9,
+            "title": "The Time Traveler’s Wife",
+            "snippet": "\"Got it — old favorites are the best kind. *The Time Traveler’s Wife* is like a warm blanket for the heart — I get that. I also come back to *The Alchemist* for a little inspiration. What’s next for y"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 2,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 7,
+            "title": "The Time Traveler’s Wife",
+            "snippet": "\"Maybe a cat nap?\" — yes, that sounds perfect. I’ve been re-reading *The Time Traveler’s Wife* lately — it’s one of those books that makes you forget time. What about you? Any rainy-day read that pull"
+          },
+          {
+            "turn": 9,
+            "title": "No Surprises",
+            "snippet": "\"Go to Sleep\" and \"Sigh No More\" — both fit the rain perfectly. A rainy day anthem for me is \"No Surprises\" by Radiohead — just the right amount of calm and mood. Don’t log off yet — these chats are m"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 2,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 3,
+            "title": "Filter coffee and rainy days make a rough mix. But you handled it well.",
+            "snippet": "\"Upbeat indie and lo-fi are perfect for focus — you have good taste!\"  \n\"Filter coffee and rainy days make a rough mix. But you handled it well.\"  \n\"What kind of music do you usually listen to while w"
+          },
+          {
+            "turn": 5,
+            "title": "Music setting the mood is such a small luxury. It makes the day feel intentional.",
+            "snippet": "\"That sounds like the perfect mix — old memories with a new beat!\"  \n\"Music setting the mood is such a small luxury. It makes the day feel intentional.\"  \n\"Do you listen to music for mood or to help y"
+          },
+          {
+            "turn": 6,
+            "title": "Tamil ballads and slow indie tracks are like quiet conversations for the heart.",
+            "snippet": "\"Music as therapy is pure magic — it fits every mood just right.\"  \n\"Tamil ballads and slow indie tracks are like quiet conversations for the heart.\"  \n\"Do you often pick songs that match how you’re f"
+          },
+          {
+            "turn": 7,
+            "title": "Singing along in your head is a lovely way to feel connected to yourself.",
+            "snippet": "\"Music that mirrors your mood is like a silent friend — always there for you.\"  \n\"Singing along in your head is a lovely way to feel connected to yourself.\"  \n\"Do you often find comfort in music when "
+          },
+          {
+            "turn": 8,
+            "title": "That sense of 'the universe nodding' is magic in music.",
+            "snippet": "\"Looping a song for hours? I get that — it’s like the world joins you in your vibe.\"  \n\"That sense of 'the universe nodding' is magic in music.\"  \n\"Do you ever share your favorite songs with others to"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 5,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 2,
+            "title": "You're not alone in this. Many designers second-guess before a deadline.",
+            "snippet": "\"Got it — exam stress is real. It's tough when everything feels fragile.\"  \n\"You're not alone in this. Many designers second-guess before a deadline.\"  \n\"Right now, what part feels the most out of con"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 7,
+            "title": "chokli chokli",
+            "snippet": "\"Chai can be the perfect match for that quiet moment. One *chokli chokli* sip and the world feels softer. What kind of chai — cardamom, cinnamon, or plain?\""
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    }
+  ]
+}

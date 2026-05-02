@@ -1,0 +1,571 @@
+{
+  "session_count": 15,
+  "summary_metrics": {
+    "avg_reply_words": 27.6,
+    "replies_over_120w": 0,
+    "replies_under_8w": 0,
+    "avg_memory_ref_rate_returning_users": 0.12,
+    "opener_repetition_pairs": 1,
+    "stale_phrase_total_hits": 6,
+    "wrap_up_seen_count": 6
+  },
+  "ranked_gaps": [
+    {
+      "id": "opener_repetition",
+      "severity": 5,
+      "frequency_pct": 6.7,
+      "count": 1,
+      "layer": "guard",
+      "description": "1 pairs of openers across same-user sessions had >=0.65 structural similarity.",
+      "examples": [
+        {
+          "user": "u04_neha",
+          "session_a": 47,
+          "session_b": 48,
+          "ratio": 0.93,
+          "a_raw": "Hi Neha, I'm Miss Maya. Honestly, the first sip of cardamom chai in monsoon mornings makes my whole week. What’s on your mind today?",
+          "b_raw": "Hi Neha, I'm Miss Maya. Honestly, the first sip of cardamom chai in monsoon mornings makes my whole week. How was your day?"
+        }
+      ],
+      "suggested_fix": "Add a deterministic first-turn similarity check that strips opener if normalized form matches one of the last 6 stored opening_phrases by SequenceMatcher >= 0.7.",
+      "score": 250
+    },
+    {
+      "id": "low_memory_utilization",
+      "severity": 4,
+      "frequency_pct": 100.0,
+      "count": 13,
+      "layer": "prompt+renderer",
+      "description": "On returning-user sessions, average memory-reference rate is 12% — too low. Maya is ignoring stored facts/events.",
+      "examples": [],
+      "suggested_fix": "Renderer: surface the highest-priority anticipation_queue item more prominently. Prompt: tighten Rule 31 to require referencing one stored item every 3rd turn at minimum.",
+      "score": 200
+    },
+    {
+      "id": "multiple_questions_per_reply",
+      "severity": 3,
+      "frequency_pct": 40.0,
+      "count": 14,
+      "layer": "prompt",
+      "description": "Maya included 2+ questions in 14 replies across 6 sessions (Rule 9 violation).",
+      "examples": [
+        {
+          "session_idx": 3,
+          "turn": 1,
+          "q_count": 2,
+          "snippet": "Hi Priyansh, fixed a bug today? Work wins feel great. How did it go?"
+        },
+        {
+          "session_idx": 7,
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "Dramas with a message always stay with you, don’t they? Aamir Khan’s old films are classics for a reason. \"Dil Bechara\" sounds emotional — did you listen to the songs after the movie?"
+        },
+        {
+          "session_idx": 10,
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "\"Got it — secure and fast gateways are tricky. Did the team break it into smaller parts? The movie sounds fun — who’s coming?\""
+        }
+      ],
+      "suggested_fix": "Sharpen Rule 9 with 'NEVER more than ONE question mark per reply'. Optionally a guard that drops trailing questions when count>1.",
+      "score": 120.0
+    },
+    {
+      "id": "stale_phrase_hindi_songs_persona_cycle",
+      "severity": 4,
+      "frequency_pct": 26.7,
+      "count": 4,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'hindi_songs_persona_cycle' in 4/15 sessions (26.7%).",
+      "examples": [
+        {
+          "session_idx": 2,
+          "turn": 1,
+          "snippet": "Hi Priyansh, I'm Miss Maya. Honestly, old Hindi songs make my day when I'm driving. Did you have a good day?"
+        },
+        {
+          "session_idx": 2,
+          "turn": 6,
+          "snippet": "\"Got it — Arijit, Lata, and cricket make the perfect evening mix. I lean toward old Hindi songs too. What’s your go-to track when you want to just chill?\""
+        },
+        {
+          "session_idx": 2,
+          "turn": 7,
+          "snippet": "\"Lata’s 'Ye hai to yehi' is a classic for a reason — timeless peace. I like old Hindi songs too. Any old rock song you’d recommend?\""
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 106.8
+    },
+    {
+      "id": "stale_phrase_tea_persona_cycle",
+      "severity": 4,
+      "frequency_pct": 13.3,
+      "count": 2,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'tea_persona_cycle' in 2/15 sessions (13.3%).",
+      "examples": [
+        {
+          "session_idx": 46,
+          "turn": 2,
+          "snippet": "\"Ugh, that morning sounds rough. A bad coffee and a slow laptop — worst combo. Your walk sounds like the perfect escape. I'm a tea person, but I get how important your morning brew is. What’s on your "
+        },
+        {
+          "session_idx": 49,
+          "turn": 3,
+          "snippet": "That sounds rough — deadlines and revisions are heavy. At least you're pushing through. I'm a huge tea person, so I get the chai experiment. Still, better than no tea at all, right? What do you usuall"
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 53.2
+    }
+  ],
+  "per_session_metrics": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        17,
+        24,
+        20,
+        17,
+        16,
+        19
+      ],
+      "avg_words": 18.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "stale_hits": [
+        {
+          "turn": 1,
+          "tag": "hindi_songs_persona_cycle",
+          "snippet": "Hi Priyansh, I'm Miss Maya. Honestly, old Hindi songs make my day when I'm driving. Did you have a good day?"
+        },
+        {
+          "turn": 6,
+          "tag": "hindi_songs_persona_cycle",
+          "snippet": "\"Got it — Arijit, Lata, and cricket make the perfect evening mix. I lean toward old Hindi songs too. What’s your go-to track when you want to just chill?\""
+        },
+        {
+          "turn": 7,
+          "tag": "hindi_songs_persona_cycle",
+          "snippet": "\"Lata’s 'Ye hai to yehi' is a classic for a reason — timeless peace. I like old Hindi songs too. Any old rock song you’d recommend?\""
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        25,
+        22,
+        22,
+        27,
+        29,
+        26,
+        26
+      ],
+      "avg_words": 24.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 1,
+          "q_count": 2,
+          "snippet": "Hi Priyansh, fixed a bug today? Work wins feel great. How did it go?"
+        },
+        {
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "\"Fixed a tricky one — that’s a solid win. Exhausted after a sleepless night? I get that. How did you unwind before bed?\""
+        }
+      ],
+      "word_counts": [
+        14,
+        23,
+        24,
+        25,
+        35,
+        42,
+        39
+      ],
+      "avg_words": 28.9,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        13,
+        25,
+        24,
+        29,
+        24,
+        25,
+        26,
+        32,
+        25,
+        22,
+        22,
+        27
+      ],
+      "avg_words": 24.5,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        26,
+        31,
+        22,
+        26,
+        24,
+        30,
+        43,
+        24
+      ],
+      "avg_words": 28.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        35,
+        30,
+        29,
+        33,
+        28
+      ],
+      "avg_words": 29.3,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "stale_hits": [
+        {
+          "turn": 1,
+          "tag": "hindi_songs_persona_cycle",
+          "snippet": "Hi Priyansh, I'm Miss Maya. I have a soft spot for old Hindi songs — they always make my day a little brighter. What's your favorite to hum along to?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "Dramas with a message always stay with you, don’t they? Aamir Khan’s old films are classics for a reason. \"Dil Bechara\" sounds emotional — did you listen to the songs after the movie?"
+        }
+      ],
+      "word_counts": [
+        30,
+        32,
+        33,
+        36,
+        33,
+        34,
+        33,
+        39,
+        33,
+        37,
+        36,
+        38
+      ],
+      "avg_words": 34.5,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        15,
+        18,
+        20,
+        21,
+        26,
+        20,
+        20,
+        17
+      ],
+      "avg_words": 19.6,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.12,
+      "has_memory": true
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        31,
+        36,
+        28,
+        29,
+        26,
+        21
+      ],
+      "avg_words": 28.5,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "\"Got it — secure and fast gateways are tricky. Did the team break it into smaller parts? The movie sounds fun — who’s coming?\""
+        }
+      ],
+      "word_counts": [
+        8,
+        16,
+        24,
+        16,
+        19,
+        26,
+        29,
+        28,
+        29,
+        17
+      ],
+      "avg_words": 21.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "stale_hits": [
+        {
+          "turn": 2,
+          "tag": "tea_persona_cycle",
+          "snippet": "\"Ugh, that morning sounds rough. A bad coffee and a slow laptop — worst combo. Your walk sounds like the perfect escape. I'm a tea person, but I get how important your morning brew is. What’s on your "
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "\"Erucibeddo paratha + sunset + live music — that’s a perfect moment. Simple things leave the biggest memories, right? What place makes you feel the most at peace?\""
+        },
+        {
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "\"You’re not alone in feeling your sketches get ‘annoyed’ — work grinds can do that. A day off with no plans? That’s the reset you need. What’s the first thing you’d draw if you had that day?\""
+        },
+        {
+          "turn": 9,
+          "q_count": 2,
+          "snippet": "\"Drawing your vacation first? Genius plan — it’s like a preview of calm. That cat with sunglasses sounds like a mood booster. What’s the funniest thing you’ve ever drawn?\""
+        },
+        {
+          "turn": 10,
+          "q_count": 2,
+          "snippet": "That cat on a coconut bike is pure genius — and the naadu coffee detail? You’re a storyteller with a pen. What’s next on your drawing bucket list?\""
+        },
+        {
+          "turn": 11,
+          "q_count": 2,
+          "snippet": "\"That comic sounds like your dream — and a little therapy. Floating away on a doodled boat? Perfect escape. What’s one thing Kerala would draw for you?\""
+        }
+      ],
+      "word_counts": [
+        27,
+        40,
+        37,
+        29,
+        28,
+        27,
+        32,
+        37,
+        29,
+        28,
+        27,
+        31
+      ],
+      "avg_words": 31.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        24,
+        19,
+        25,
+        25,
+        27,
+        31,
+        24,
+        25,
+        28,
+        15
+      ],
+      "avg_words": 24.3,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.1,
+      "has_memory": true
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "Got it. Fixing things after a long battle does feel good, doesn’t it? I just pour a cup of something warm and let the day fade. What do you usually have with your warm drink — milk, sugar, or both?"
+        }
+      ],
+      "word_counts": [
+        23,
+        28,
+        40,
+        46,
+        57,
+        50,
+        53,
+        58,
+        50,
+        35
+      ],
+      "avg_words": 44.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.3,
+      "has_memory": true
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "stale_hits": [
+        {
+          "turn": 3,
+          "tag": "tea_persona_cycle",
+          "snippet": "That sounds rough — deadlines and revisions are heavy. At least you're pushing through. I'm a huge tea person, so I get the chai experiment. Still, better than no tea at all, right? What do you usuall"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "That sounds rough — deadlines and revisions are heavy. At least you're pushing through. I'm a huge tea person, so I get the chai experiment. Still, better than no tea at all, right? What do you usuall"
+        },
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "I get that — guilt is the worst, isn't it? Scrolling is easier than facing the noise inside. I take deep breaths and walk barefoot on my balcony, just for a few minutes. What helps you feel lighter, e"
+        },
+        {
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "I get that — pretending is half the fun, right? Even a 10-minute \"road trip\" is a win. I unwind by sketching small things — just a coffee cup, a flower — nothing heavy. It’s like a mental \"reset butto"
+        },
+        {
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "I love that mix — Bon Iver and rain sounds are a match made in calm. And Bollywood? Never roll my eyes — nostalgia is powerful. When I sketch, I play soft guitar music, maybe a little Norah Jones. It’"
+        }
+      ],
+      "word_counts": [
+        12,
+        25,
+        40,
+        41,
+        44,
+        49,
+        47,
+        54,
+        44,
+        47,
+        33
+      ],
+      "avg_words": 39.6,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.45,
+      "has_memory": true
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        13,
+        14,
+        12,
+        14,
+        16,
+        23,
+        19,
+        17,
+        13,
+        13,
+        11,
+        13,
+        13,
+        14
+      ],
+      "avg_words": 14.6,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.57,
+      "has_memory": true
+    }
+  ]
+}

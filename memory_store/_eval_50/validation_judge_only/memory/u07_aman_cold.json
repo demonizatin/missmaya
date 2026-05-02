@@ -1,0 +1,176 @@
+{
+  "facts": {
+    "studying": "mathematics for exams",
+    "hobbies": [
+      "foosball (sport)"
+    ],
+    "academic_struggles": [
+      "algebra",
+      "geometry"
+    ],
+    "daily_rituals": [
+      "chai time"
+    ],
+    "distractions": [
+      "phone calls"
+    ],
+    "coping_strategies": [
+      "foosball breaks",
+      "teammate gossip"
+    ]
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "I get so tense I can't even focus",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "I miss the days when I just played foosball (sport) and didn't care about exams",
+      "tone": "sad",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_003",
+      "text": "Sometimes I think I get it, but then I see a new problem and I just freeze",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_004",
+      "text": "I just stare at the problem until it goes away or my phone rings, then I forget everything",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_42_D07_coldstart_u07_am",
+      "date": "2026-05-01",
+      "label": "anxious",
+      "energy": 5,
+      "confidence": 0.8,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_42_D07_coldstart_u07_am",
+        "last_date": "2026-05-01"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I get so tense I can't even focus\" (tone: anxious)",
+      "source_id": "mo_001",
+      "priority": 7,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I miss the days when I just played foosball (sport) and didn't care about exams\" (tone: sad)",
+      "source_id": "mo_002",
+      "priority": 7,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Sometimes I think I get it, but then I see a new problem and I just freeze\" (tone: frustrated)",
+      "source_id": "mo_003",
+      "priority": 7,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I just stare at the problem until it goes away or my phone rings, then I forget everything\" (tone: frustrated)",
+      "source_id": "mo_004",
+      "priority": 7,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "maya_promise",
+      "content": "explore small steps that help when stuck on exam problems",
+      "source_session": "eval_42_D07_coldstart_u07_am",
+      "source_date": "2026-05-01",
+      "status": "active",
+      "expires_at": "2026-05-31"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

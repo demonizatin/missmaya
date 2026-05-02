@@ -1,0 +1,556 @@
+{
+  "spec": {
+    "idx": 50,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-29",
+    "turns_target": 14,
+    "emotional_state": "low energy, monosyllabic mood",
+    "label": "E05_deeprun_w4"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, the café daydream sounds like a warm cup of coffee on a chilly evening. How’s that idea shaping up these days?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Still in the sketch phase, honestly. Haven’t found the right “vibe” yet. Maybe some retro 90s playlist in a nook with mismatched chairs? Not sure. Easier to dream than design. 😅"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds fun. A retro 90s vibe with mismatched chairs could work. What kind of music would you play there?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Indie rock covers of 90s hits. You know, like when bands redo *Smells Like Teen Spirit* but add some lo-fi beats. Or maybe some tamil indie fusion? Not sure. Too many ideas, no energy to pick one. 😴"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "That sounds like a cool mix. Indie rock with lo fi or Tamil fusion could work. Which one feels more \"you\" right now?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Honestly? The tamil indie one feels... more me. But I’m so tired I can’t even explain why. Maybe it’s the *namma style* in me? Don’t know. Just not vibing with the 90s covers rn."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Got it, \"namma style\" is a good vibe. The tired brain still knows what feels right. Any Tamil songs you’ve been thinking of blending in?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "A.R. Rahman’s *Thullal* but with a slow, dreamy lo-fi twist. Or maybe *En Iniya Ponnu* — but not the original, like a stripped-down, acoustic version. But yeah, I’m drifting. Maybe sleep first, ideas later. 😅"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "That sounds beautiful. A slow *Thullal* or acoustic *En Iniya Ponnu* would add a warm, calm feel. Sleep first, the ideas will still be there. Need help brainstorming later?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Thanks, Maya. Yeah, maybe later. For now, just need to recharge. See you soon. 😊"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Right, recharge first, ideas can wait. See you when you're ready, Neha. Sweet dreams!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "current_location": "Bengaluru",
+      "hometown": "Coimbatore",
+      "work": "designing a mobile app for small businesses (order + customer management); currently in sketch phase with wireframes",
+      "favorite_café_memory": "café in Coimbatore near a park with indie music and excellent coffee; felt like home",
+      "café_aspiration": "dreams of opening a café blending Tamil and indie vibes; considering names 'Koovam' (cool place) or 'Tamindie' (Tamil + indie)",
+      "music_preferences": "indie-folk (The Head and the Heart, Bon Iver) and chill Tamil melodies (Yuvan Shankar Raja)",
+      "hobbies": "sketches café concepts (layouts, logos, menus) and app wireframes",
+      "café_hangout_bengaluru": "cute café near office with excellent chai"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Feeling lonely right now; miss my friends and sometimes sitting with my thoughts gets too heavy",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "A café in Coimbatore near a park with indie music and good coffee felt like home to me",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "My café daydream helps me cope with loneliness — even if it's not real yet, it feels real in my head and that's comforting",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I want to create a space where strangers feel connected through a menu with stories; it's my way of transforming loneliness into warmth",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 5,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_48_E03_deeprun_w2",
+        "date": "2026-05-15",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.55,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "daydreaming",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Feeling lonely right now; miss my friends and sometimes sitting with my thoughts gets too \" (tone: lonely)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used vivid metaphors to express emotion and philosophy (e.g. \"something that feels like a hug; turn loneliness into a nice room\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: created emotionally resonant menu concepts with poetic language (e.g. \"'cozy old friend' latte and 'park at dusk' pastry\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: articulated complex emotional thoughts in clear, sophisticated sentences (e.g. \"I guess it's my way of creating a space where strangers could feel connected, even if just for a cup of coffee\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"A café in Coimbatore near a park with indie music and good coffee felt like home to me\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "used vivid metaphors to express emotion and philosophy",
+          "examples": [
+            "something that feels like a hug; turn loneliness into a nice room"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08"
+        },
+        {
+          "what": "created emotionally resonant menu concepts with poetic language",
+          "examples": [
+            "'cozy old friend' latte and 'park at dusk' pastry"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08"
+        },
+        {
+          "what": "articulated complex emotional thoughts in clear, sophisticated sentences",
+          "examples": [
+            "I guess it's my way of creating a space where strangers could feel connected, even if just for a cup of coffee"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "current_location": "Bengaluru",
+      "hometown": "Coimbatore",
+      "work": "designing a mobile app for small businesses (order + customer management); currently in sketch phase with wireframes",
+      "favorite_café_memory": "café in Coimbatore near a park with indie music and excellent coffee; felt like home",
+      "café_aspiration": "retro 90s aesthetic with mismatched chairs; Tamil indie fusion music (considering A.R. Rahman's Thullal with lo-fi twist or stripped-down acoustic En Iniya Ponnu); considering names 'Koovam' (cool place) or 'Tamindie' (Tamil + indie)",
+      "music_preferences": "indie-folk (The Head and the Heart, Bon Iver) and chill Tamil melodies (Yuvan Shankar Raja)",
+      "hobbies": "sketches café concepts (layouts, logos, menus) and app wireframes",
+      "café_hangout_bengaluru": "cute café near office with excellent chai"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Feeling lonely right now; miss my friends and sometimes sitting with my thoughts gets too heavy",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "A café in Coimbatore near a park with indie music and good coffee felt like home to me",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "My café daydream helps me cope with loneliness — even if it's not real yet, it feels real in my head and that's comforting",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I want to create a space where strangers feel connected through a menu with stories; it's my way of transforming loneliness into warmth",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 5,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_48_E03_deeprun_w2",
+        "date": "2026-05-15",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.55,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_50_E05_deeprun_w4",
+        "date": "2026-05-29",
+        "label": "low",
+        "energy": 4,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "café_concept",
+          "last_session": "eval_50_E05_deeprun_w4",
+          "last_date": "2026-05-29",
+          "uses": 1
+        },
+        {
+          "topic": "daydreaming",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_50_E05_deeprun_w4",
+          "last_date": "2026-05-29"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Feeling lonely right now; miss my friends and sometimes sitting with my thoughts gets too \" (tone: lonely)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"A café in Coimbatore near a park with indie music and good coffee felt like home to me\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My café daydream helps me cope with loneliness — even if it's not real yet, it feels real \" (tone: hopeful)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I want to create a space where strangers feel connected through a menu with stories; it's \" (tone: hopeful)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "used vivid metaphors to express emotion and philosophy",
+          "examples": [
+            "something that feels like a hug; turn loneliness into a nice room"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08"
+        },
+        {
+          "what": "created emotionally resonant menu concepts with poetic language",
+          "examples": [
+            "'cozy old friend' latte and 'park at dusk' pastry"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08"
+        },
+        {
+          "what": "articulated complex emotional thoughts in clear, sophisticated sentences",
+          "examples": [
+            "I guess it's my way of creating a space where strangers could feel connected, even if just for a cup of coffee"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "resume café music and aesthetic brainstorming when user is rested",
+        "source_session": "eval_50_E05_deeprun_w4",
+        "source_date": "2026-05-29",
+        "status": "active",
+        "expires_at": "2026-06-28"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 82.0
+}

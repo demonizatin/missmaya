@@ -1,0 +1,191 @@
+{
+  "facts": {
+    "profession": "product designer",
+    "primary_english_goal": "improve confidence in professional writing (emails, Slack, project updates)",
+    "key_grammar_challenges": [
+      "past_tense_vs_present_perfect"
+    ]
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "spilled coffee on sketchbook and sent email with typo to team",
+      "date": "2026-05-18",
+      "added": "2026-05-18",
+      "followed_up": false
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "I've been a product designer for years and I still hit 'send' before proofreading. My colleague was like, 'Eyo, what even is this sentence?' I'm so over typos.",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-18",
+      "last_seen": "2026-05-18",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_39_D04_coldstart_u04_ne",
+      "date": "2026-05-18",
+      "label": "content",
+      "energy": 6,
+      "confidence": 0.8,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_39_D04_coldstart_u04_ne",
+        "last_date": "2026-05-18"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "event_upcoming",
+      "content": "Ask about \"spilled coffee on sketchbook and sent email with typo to team\" — today",
+      "source_id": "ev_001",
+      "priority": 10,
+      "computed_at": "2026-05-18",
+      "expires_at": "2026-06-01",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I've been a product designer for years and I still hit 'send' before proofreading. My coll\" (tone: frustrated)",
+      "source_id": "mo_001",
+      "priority": 7,
+      "computed_at": "2026-05-18",
+      "expires_at": "2026-06-01",
+      "used": false
+    },
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: correctly applies simple past with specific time markers (e.g. \"I worked on the design today; I sent the email by 5 PM; I started work at 9 AM\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-05-18",
+      "expires_at": "2026-06-01",
+      "used": false
+    },
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: correctly applies present perfect for ongoing/recent actions (e.g. \"I have finished the project, so I'm free now\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-05-18",
+      "expires_at": "2026-06-01",
+      "used": false
+    },
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: articulates the grammatical rule without prompting (e.g. \"explained that 'have finished' connects the action to now\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-05-18",
+      "expires_at": "2026-06-01",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [
+      {
+        "pattern": "uncertain about when to use past tense vs present perfect",
+        "examples": [
+          "unsure whether 'I have worked on the design today' or 'I worked on the design today'"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-05-18",
+        "last_seen": "2026-05-18",
+        "status": "active"
+      }
+    ],
+    "wins": [
+      {
+        "what": "correctly applies simple past with specific time markers",
+        "examples": [
+          "I worked on the design today; I sent the email by 5 PM; I started work at 9 AM"
+        ],
+        "count": 1,
+        "first_seen": "2026-05-18",
+        "last_seen": "2026-05-18"
+      },
+      {
+        "what": "correctly applies present perfect for ongoing/recent actions",
+        "examples": [
+          "I have finished the project, so I'm free now"
+        ],
+        "count": 1,
+        "first_seen": "2026-05-18",
+        "last_seen": "2026-05-18"
+      },
+      {
+        "what": "articulates the grammatical rule without prompting",
+        "examples": [
+          "explained that 'have finished' connects the action to now"
+        ],
+        "count": 1,
+        "first_seen": "2026-05-18",
+        "last_seen": "2026-05-18"
+      }
+    ],
+    "curriculum": [
+      {
+        "pattern": "uncertain about when to use past tense vs present perfect",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "unsure whether 'I have worked on the design today' or 'I worked on the design today'"
+        ]
+      }
+    ]
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

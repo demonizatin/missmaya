@@ -1,0 +1,977 @@
+{
+  "spec": {
+    "idx": 17,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-07",
+    "turns_target": 8,
+    "emotional_state": "low energy, monosyllabic mood",
+    "label": "B07_consec_d6"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, I'm Miss Maya. How was your day with NEET PG prep?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Tired. Study whole day. Not much time for anything else. 😅"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Got it, study days are heavy. What topic was toughest today?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Pharmacology. Too many drugs, too little time. 😫"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "That makes sense, pharmacology is a big one. What’s one part that feels most confusing?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Cardiovascular drugs. All the names, uses, side effects... it's like a maze. I get confused. 😓"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "I get that, it’s a lot to track. What part feels most tangled right now?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Beta blockers vs. calcium channel blockers. Both for high BP, but how to remember which is which? My brain is stuck. 😕"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "\"Got it, they do sound tricky. I’ll help, what’s one small detail you remember about them?\""
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Beta blockers slow the heart, right? That’s what I remember. But for calcium channel... something about blood vessels? Not sure. 😬"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Got it, you’ve got the heart part down. Calcium channel blockers relax blood vessels, that’s the key difference. What’s next on your study list?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Next is neurology. I don’t even want to start. My brain is already full. 😩"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "I get that, moving from one heavy topic to another is tough. How do you usually start fresh chapters?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "No real plan. Just read first para, get bored, then panic. Same every time. 😔 Thanks for the beta blocker tip... maybe I can write it down. Need to go now. Study calls."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You’re welcome, writing it down is a great start. Good luck with your study marathon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_prep": "NEET PG",
+      "current_subject": "pharmacology",
+      "interests": [
+        "cooking",
+        "reading",
+        "veena"
+      ],
+      "favorite_dish": "paneer tikka",
+      "favorite_spice": "garam masala",
+      "home_language": "Marathi"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "Lost internet for hours due to typhoon",
+        "date": "2026-05-02",
+        "added": "2026-05-02",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Preparing for NEET PG is stressful",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I think I need a cooking teacher, like a tutor for recipes!",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "I should balance study and cooking better—otherwise, I'll just end up with more stress!",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "The monsoon makes me sleepy and I can't focus much",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "I feel guilty about cooking instead of studying, even though it helps me feel productive—but I feel like I'm slacking",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "I just feel so stuck today; my brain feels like it's underwater",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "I'm worried I'll get practice questions wrong and lose motivation completely",
+        "tone": "scared",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "Finding myself in The Namesake—the main character's struggle between two cultures mirrors my own experience of growing up Marathi at home but learning everything in English. It's what makes stories so relatable.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "I want to write fiction after exams—it feels like the creative outlet I'm putting on hold for now.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.88,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "low",
+        "energy": 3,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_15_B05_consec_d4",
+        "date": "2026-05-05",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_16_B06_consec_d5",
+        "date": "2026-05-06",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "study snacks",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "study music",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "biryani recipe",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "monsoon comfort",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "reading habits",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "favorite spices",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04",
+          "uses": 1
+        },
+        {
+          "topic": "de-stressing",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03",
+          "uses": 1
+        },
+        {
+          "topic": "NEET PG prep",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "practice questions",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "learning from mistakes",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The monsoon makes me sleepy and I can't focus much\" (tone: anxious)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-06",
+        "expires_at": "2026-05-20",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel guilty about cooking instead of studying, even though it helps me feel productive—b\" (tone: anxious)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-06",
+        "expires_at": "2026-05-20",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I just feel so stuck today; my brain feels like it's underwater\" (tone: frustrated)",
+        "source_id": "mo_006",
+        "priority": 7,
+        "computed_at": "2026-05-06",
+        "expires_at": "2026-05-20",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I'm worried I'll get practice questions wrong and lose motivation completely\" (tone: scared)",
+        "source_id": "mo_007",
+        "priority": 7,
+        "computed_at": "2026-05-06",
+        "expires_at": "2026-05-20",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Preparing for NEET PG is stressful\" (tone: anxious)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-06",
+        "expires_at": "2026-05-20",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_003",
+        "kind": "maya_promise",
+        "content": "tell me what kind of writing you'd try first after exams",
+        "source_session": "eval_15_B05_consec_d4",
+        "source_date": "2026-05-05",
+        "status": "active",
+        "expires_at": "2026-06-04"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "report back on how the vegetable biryani turned out",
+        "source_session": "eval_14_B04_consec_d3",
+        "source_date": "2026-05-04",
+        "status": "active",
+        "expires_at": "2026-06-03"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "try making paneer tikka and report back",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_prep": "NEET PG",
+      "current_subject": "pharmacology",
+      "interests": [
+        "cooking",
+        "reading",
+        "veena"
+      ],
+      "favorite_dish": "paneer tikka",
+      "favorite_spice": "garam masala",
+      "home_language": "Marathi"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "Lost internet for hours due to typhoon",
+        "date": "2026-05-02",
+        "added": "2026-05-02",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Preparing for NEET PG is stressful",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I think I need a cooking teacher, like a tutor for recipes!",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "I should balance study and cooking better—otherwise, I'll just end up with more stress!",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "The monsoon makes me sleepy and I can't focus much",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "I feel guilty about cooking instead of studying, even though it helps me feel productive—but I feel like I'm slacking",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "I just feel so stuck today; my brain feels like it's underwater",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "I'm worried I'll get practice questions wrong and lose motivation completely",
+        "tone": "scared",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "Finding myself in The Namesake—the main character's struggle between two cultures mirrors my own experience of growing up Marathi at home but learning everything in English. It's what makes stories so relatable.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "I want to write fiction after exams—it feels like the creative outlet I'm putting on hold for now.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "I have no real study plan. I just read the first paragraph, get bored, then panic. It's the same pattern every time.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.88,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "low",
+        "energy": 3,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_15_B05_consec_d4",
+        "date": "2026-05-05",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_16_B06_consec_d5",
+        "date": "2026-05-06",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_17_B07_consec_d6",
+        "date": "2026-05-07",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "study snacks",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "study music",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "biryani recipe",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "monsoon comfort",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "reading habits",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "favorite spices",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04",
+          "uses": 1
+        },
+        {
+          "topic": "de-stressing",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03",
+          "uses": 1
+        },
+        {
+          "topic": "NEET PG prep",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "practice questions",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "learning from mistakes",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I have no real study plan. I just read the first paragraph, get bored, then panic. It's th\" (tone: anxious)",
+        "source_id": "mo_010",
+        "priority": 7,
+        "computed_at": "2026-05-07",
+        "expires_at": "2026-05-21",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The monsoon makes me sleepy and I can't focus much\" (tone: anxious)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-07",
+        "expires_at": "2026-05-21",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel guilty about cooking instead of studying, even though it helps me feel productive—b\" (tone: anxious)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-07",
+        "expires_at": "2026-05-21",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I just feel so stuck today; my brain feels like it's underwater\" (tone: frustrated)",
+        "source_id": "mo_006",
+        "priority": 7,
+        "computed_at": "2026-05-07",
+        "expires_at": "2026-05-21",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I'm worried I'll get practice questions wrong and lose motivation completely\" (tone: scared)",
+        "source_id": "mo_007",
+        "priority": 7,
+        "computed_at": "2026-05-07",
+        "expires_at": "2026-05-21",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_003",
+        "kind": "maya_promise",
+        "content": "tell me what kind of writing you'd try first after exams",
+        "source_session": "eval_15_B05_consec_d4",
+        "source_date": "2026-05-05",
+        "status": "active",
+        "expires_at": "2026-06-04"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "report back on how the vegetable biryani turned out",
+        "source_session": "eval_14_B04_consec_d3",
+        "source_date": "2026-05-04",
+        "status": "active",
+        "expires_at": "2026-06-03"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "try making paneer tikka and report back",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 86.0
+}

@@ -1,0 +1,1262 @@
+{
+  "spec": {
+    "idx": 34,
+    "profile_id": "u03_rohan",
+    "eval_user_key": "u03_rohan",
+    "today": "2026-07-08",
+    "turns_target": 12,
+    "emotional_state": "hopeful, made some progress on a goal",
+    "label": "C09_sporadic_d68"
+  },
+  "profile": {
+    "id": "u03_rohan",
+    "user_name": "Rohan",
+    "profession": "Bank PO aspirant",
+    "mother_tongue": "Bengali",
+    "interests": "Football, Bengali cinema, photography",
+    "engagement": "chatty",
+    "english_level": "A2",
+    "personality": "enthusiastic, makes more grammar slips, talks about football a lot"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Rohan, the monsoon drizzle makes me think of perfect passes and sudden goals — how’s your training these days?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "We had a friendly match last weekend! I scored a goal, but my passing could be better. I watch some Bengali football movies to get inspired. How about you, play any football?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds exciting. Scoring a goal is always a high. What’s your favorite Bengali football movie?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "My favorite is Goal! The Movie. It’s not real life, but it makes me feel happy. I also like to take photos of football matches sometimes. The light during monsoon is so nice for pictures. Do you like photography?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "The monsoon light is magical for photos, it softens everything. I admire that you find joy in both football and photography. Do you have a favorite shot from a match?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "There’s one shot of a player scoring during rain — the ball, the net, the crowd — all blurred but clear at same time. I took it last monsoon. I think it’s my best photo yet! But I still need to work on my passing. Maybe I can practice more."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "That sounds like a special photo — how did it feel when you took it? And your idea to practice more shows you’re growing, just like your passing will get better with time. What’s your next step?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Next step is to practice with my local team more. I also want to try taking photos of fast action — maybe that helps me with timing in football too. Easier said than done, right? 😄"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "I love that idea — photography and football can sharpen each other’s timing. What’s one thing you’ll try this week to get started?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "This week, I’ll try to take 10 photos during a match — of passes, shots, maybe even my own team. And I’ll practice passing for 30 minutes every day. I think consistency is key, na? Let’s see how it goes!"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "You're planning it perfectly — 10 shots and daily practice show great focus. Consistency really does make the difference. How will you track your progress?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "I’ll use my phone to save the photos and a notebook for passing practice — like, write down what I did each day. Maybe even ask my coach to check my notes? It’s a start, na? I’ll keep you updated, promise! 😄"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "That sounds smart — a phone, a notebook, and a coach are a great mix. I'll wait to hear how it goes! What’s one challenge you expect with this plan?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "One challenge might be finding time — I have bank exam prep too, so balancing all could be tough. Sometimes I get so into football that I forget my study time! But I’ll try my best. Thank you for asking, Maya! 😊"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You’re very welcome — balancing bank prep and football is no small task! What’s one small win you’ll celebrate this week to stay motivated?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "A small win could be taking all 10 photos during the match and practicing passing without getting distracted by my phone. Even if it’s just 10 minutes extra, I’ll treat myself to my favorite chai! It keeps me going, you know? 😄"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Chai is the perfect fuel — 10 minutes extra and a photo goal sound just right. What match are you planning to shoot next?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "The local league match on Saturday — my team is playing against the old rivals! It’s always intense, but the best for practice. I’ll try to capture some good moments and maybe even get a shot of the coach shouting orders! You know, it’s like a little drama, na? 😄 I should get going now — got to revise some banking terms. Talk to you later, Maya!"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "That sounds like a plan — capturing the coach and the drama is a great idea! Revising banking terms — you’ve got this! Talk soon, Rohan."
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "sport": "football (plays matches with team)",
+      "music": "loves old Bengali songs; favorite songs are Chand (song) and Bijoy (song) by Arjit Singh (person)",
+      "hobby": "photography - learning low-light and sunset photography settings",
+      "currently_studying": "banking",
+      "equipment": "Canon 450D",
+      "position": "striker",
+      "best_friend": "Souvik (person)",
+      "favorite_bengali_movies": [
+        "Raajkumar (movie)",
+        "Koyekti Premer Golpo (movie)"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_005",
+        "what": "football derby match against Mohun Bagan (event)",
+        "date": "2026-06-16",
+        "added": "2026-06-16",
+        "followed_up": true
+      },
+      {
+        "id": "ev_006",
+        "what": "won local match 3-2, scored a goal (event)",
+        "date": "2026-06-23",
+        "added": "2026-06-30",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "khele khelai - expresses joy through a cultural phrase after winning a match",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "photography success is like magic - delighted when low-light shots come out well",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "nervous but excited about trying manual camera mode for the first time - sees it as a growth step",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "friend points out they get too focused on photography during matches and miss the fun",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "local football team feels like family to them",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "shy about moving around during matches to find better shooting angles",
+        "tone": "neutral",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "describes derby crowd atmosphere as 'a war of passion' between his supporters ('chula') and Mohun Bagan fans—thrilled by the competing energy",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-16",
+        "last_seen": "2026-06-16",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "despite physical exhaustion before the match, trusts that heart full of passion will fuel better performance on the pitch",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-06-16",
+        "last_seen": "2026-06-16",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "sacrifices sleep for important matches; stayed up late for the Mohun Bagan match (event) despite tiredness because the experience felt worth it",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-21",
+        "last_seen": "2026-06-21",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "'Football is life for me' — expresses that football is core to their identity and passion",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-21",
+        "last_seen": "2026-06-21",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "experiences a rush when scoring with teammates; the teamwork and shared moment of success is what makes football deeply meaningful",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-21",
+        "last_seen": "2026-06-21",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "finds it lonely playing football alone; genuinely prefers the community, energy, and dynamic of playing with their team",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-06-21",
+        "last_seen": "2026-06-21",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "experiences the 'khubsuraj' magic when everything aligns perfectly — the pass is perfect, the shot just right, the whole team moves as one mind, the crowd sings the team song",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30",
+        "mentions": 1
+      },
+      {
+        "id": "mo_014",
+        "text": "celebrates match wins by gathering with teammates over dal-chawal (dish) at a small restaurant; the shared meal deepens the joy of victory",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30",
+        "mentions": 1
+      },
+      {
+        "id": "mo_015",
+        "text": "relaxes by walking around with camera to photograph small things (sky, street corners, laughing teammates) — helps their mind rest after tense moments; also watches Bengali movies especially ones with action and emotions",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30",
+        "mentions": 1
+      },
+      {
+        "id": "mo_016",
+        "text": "feels that teammates are proud of their banking studies journey, even though the teammates don't understand the field",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_27_C02_sporadic_d9",
+        "date": "2026-05-10",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_31_C06_sporadic_d46",
+        "date": "2026-06-16",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_32_C07_sporadic_d51",
+        "date": "2026-06-21",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.49,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_33_C08_sporadic_d60",
+        "date": "2026-06-30",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "team dynamics and magic moments",
+          "last_session": "eval_33_C08_sporadic_d60",
+          "last_date": "2026-06-30",
+          "uses": 1
+        },
+        {
+          "topic": "banking-football parallels",
+          "last_session": "eval_33_C08_sporadic_d60",
+          "last_date": "2026-06-30",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation habits",
+          "last_session": "eval_33_C08_sporadic_d60",
+          "last_date": "2026-06-30",
+          "uses": 1
+        },
+        {
+          "topic": "Bengali movies",
+          "last_session": "eval_33_C08_sporadic_d60",
+          "last_date": "2026-06-30",
+          "uses": 1
+        },
+        {
+          "topic": "photography",
+          "last_session": "eval_33_C08_sporadic_d60",
+          "last_date": "2026-06-30",
+          "uses": 1
+        },
+        {
+          "topic": "team style",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21",
+          "uses": 2
+        },
+        {
+          "topic": "position choice (defender vs midfielder)",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21",
+          "uses": 1
+        },
+        {
+          "topic": "teamwork",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21",
+          "uses": 1
+        },
+        {
+          "topic": "playing alone",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21",
+          "uses": 1
+        },
+        {
+          "topic": "joining local club",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21",
+          "uses": 1
+        },
+        {
+          "topic": "derby match",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16",
+          "uses": 1
+        },
+        {
+          "topic": "manual mode",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_33_C08_sporadic_d60",
+          "last_date": "2026-06-30"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"finds it lonely playing football alone; genuinely prefers the community, energy, and dynam\" (tone: lonely)",
+        "source_id": "mo_012",
+        "priority": 7,
+        "computed_at": "2026-06-30",
+        "expires_at": "2026-07-14",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"experiences the 'khubsuraj' magic when everything aligns perfectly — the pass is perfect, \" (tone: excited)",
+        "source_id": "mo_013",
+        "priority": 4,
+        "computed_at": "2026-06-30",
+        "expires_at": "2026-07-14",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"celebrates match wins by gathering with teammates over dal-chawal (dish) at a small restau\" (tone: grateful)",
+        "source_id": "mo_014",
+        "priority": 4,
+        "computed_at": "2026-06-30",
+        "expires_at": "2026-07-14",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"relaxes by walking around with camera to photograph small things (sky, street corners, lau\" (tone: content)",
+        "source_id": "mo_015",
+        "priority": 4,
+        "computed_at": "2026-06-30",
+        "expires_at": "2026-07-14",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"feels that teammates are proud of their banking studies journey, even though the teammates\" (tone: hopeful)",
+        "source_id": "mo_016",
+        "priority": 4,
+        "computed_at": "2026-06-30",
+        "expires_at": "2026-07-14",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "occasionally drops auxiliary verbs in conditional/future contexts",
+          "examples": [
+            "Maybe I sit near the goal to take better close-ups"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "naturally uses past tense correctly and consistently",
+          "examples": [
+            "Had a nice match, took photos, I'd love to see them"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "constructs complex sentences with subordinate clauses naturally",
+          "examples": [
+            "Sometimes the photos come out blurry, but when they don't… wow!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "expresses emotional nuance with natural metaphor and sophistication",
+          "examples": [
+            "The favorite part? Definitely the teamwork and that feeling when we score together. It's like… a rush!"
+          ],
+          "count": 1,
+          "first_seen": "2026-06-21",
+          "last_seen": "2026-06-21"
+        },
+        {
+          "what": "constructs sophisticated cross-domain analogy naturally without scaffolding",
+          "examples": [
+            "Bank exam, football — both need trust in the team"
+          ],
+          "count": 1,
+          "first_seen": "2026-06-21",
+          "last_seen": "2026-06-21"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_005",
+        "kind": "maya_promise",
+        "content": "user to share their proudest photo and the story behind it",
+        "source_session": "eval_33_C08_sporadic_d60",
+        "source_date": "2026-06-30",
+        "status": "active",
+        "expires_at": "2026-07-30"
+      },
+      {
+        "id": "ol_004",
+        "kind": "event_pending",
+        "content": "ask how the Mohun Bagan match went and whether passion helped overcome tiredness",
+        "source_session": "eval_31_C06_sporadic_d46",
+        "source_date": "2026-06-16",
+        "status": "active",
+        "expires_at": "2026-07-16"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "sport": "football (plays matches with team)",
+      "music": "loves old Bengali songs; favorite songs are Chand (song) and Bijoy (song) by Arjit Singh (person)",
+      "hobby": "photography - learning low-light and sunset photography settings",
+      "currently_studying": "banking",
+      "equipment": "Canon 450D",
+      "position": "striker",
+      "best_friend": "Souvik (person)",
+      "favorite_bengali_movies": [
+        "Raajkumar (movie)",
+        "Koyekti Premer Golpo (movie)",
+        "Goal! The Movie (movie)"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_007",
+        "what": "friendly match, scored a goal (event)",
+        "date": "2026-07-05",
+        "added": "2026-07-08",
+        "followed_up": false
+      },
+      {
+        "id": "ev_008",
+        "what": "local league match against old rivals (event)",
+        "date": "2026-07-12",
+        "added": "2026-07-08",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "khele khelai - expresses joy through a cultural phrase after winning a match",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "photography success is like magic - delighted when low-light shots come out well",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "nervous but excited about trying manual camera mode for the first time - sees it as a growth step",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "friend points out they get too focused on photography during matches and miss the fun",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "local football team feels like family to them",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "shy about moving around during matches to find better shooting angles",
+        "tone": "neutral",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "describes derby crowd atmosphere as 'a war of passion' between his supporters ('chula') and Mohun Bagan fans—thrilled by the competing energy",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-16",
+        "last_seen": "2026-06-16",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "despite physical exhaustion before the match, trusts that heart full of passion will fuel better performance on the pitch",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-06-16",
+        "last_seen": "2026-06-16",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "sacrifices sleep for important matches; stayed up late for the Mohun Bagan match (event) despite tiredness because the experience felt worth it",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-21",
+        "last_seen": "2026-06-21",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "'Football is life for me' — expresses that football is core to their identity and passion",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-21",
+        "last_seen": "2026-06-21",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "experiences a rush when scoring with teammates; the teamwork and shared moment of success is what makes football deeply meaningful",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-21",
+        "last_seen": "2026-06-21",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "finds it lonely playing football alone; genuinely prefers the community, energy, and dynamic of playing with their team",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-06-21",
+        "last_seen": "2026-06-21",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "experiences the 'khubsuraj' magic when everything aligns perfectly — the pass is perfect, the shot just right, the whole team moves as one mind, the crowd sings the team song",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30",
+        "mentions": 1
+      },
+      {
+        "id": "mo_014",
+        "text": "celebrates match wins by gathering with teammates over dal-chawal (dish) at a small restaurant; the shared meal deepens the joy of victory",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30",
+        "mentions": 1
+      },
+      {
+        "id": "mo_015",
+        "text": "relaxes by walking around with camera to photograph small things (sky, street corners, laughing teammates) — helps their mind rest after tense moments; also watches Bengali movies especially ones with action and emotions",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30",
+        "mentions": 1
+      },
+      {
+        "id": "mo_016",
+        "text": "feels that teammates are proud of their banking studies journey, even though the teammates don't understand the field",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30",
+        "mentions": 1
+      },
+      {
+        "id": "mo_017",
+        "text": "Bengali football movies fuel their passion and inspire them, even if not realistic",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-07-08",
+        "last_seen": "2026-07-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_018",
+        "text": "treasures a rain-soaked goal photo from last monsoon where player, ball, net, crowd are 'blurred but clear'; calls it their best photo",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-07-08",
+        "last_seen": "2026-07-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_019",
+        "text": "gets so focused on football that they sometimes neglect banking studies; aware of the balance challenge",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-07-08",
+        "last_seen": "2026-07-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_020",
+        "text": "uses chai as a personal reward and motivator; 'it keeps me going'",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-07-08",
+        "last_seen": "2026-07-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_021",
+        "text": "sees matches against old rivals as 'little drama' and perfect for practice; loves the intensity and capturing good moments",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-07-08",
+        "last_seen": "2026-07-08",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_27_C02_sporadic_d9",
+        "date": "2026-05-10",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_31_C06_sporadic_d46",
+        "date": "2026-06-16",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_32_C07_sporadic_d51",
+        "date": "2026-06-21",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.49,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_33_C08_sporadic_d60",
+        "date": "2026-06-30",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_34_C09_sporadic_d68",
+        "date": "2026-07-08",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.49,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "photography",
+          "last_session": "eval_34_C09_sporadic_d68",
+          "last_date": "2026-07-08",
+          "uses": 2
+        },
+        {
+          "topic": "football training",
+          "last_session": "eval_34_C09_sporadic_d68",
+          "last_date": "2026-07-08",
+          "uses": 1
+        },
+        {
+          "topic": "Bengali films",
+          "last_session": "eval_34_C09_sporadic_d68",
+          "last_date": "2026-07-08",
+          "uses": 1
+        },
+        {
+          "topic": "progress tracking",
+          "last_session": "eval_34_C09_sporadic_d68",
+          "last_date": "2026-07-08",
+          "uses": 1
+        },
+        {
+          "topic": "balancing studies and sports",
+          "last_session": "eval_34_C09_sporadic_d68",
+          "last_date": "2026-07-08",
+          "uses": 1
+        },
+        {
+          "topic": "team dynamics and magic moments",
+          "last_session": "eval_33_C08_sporadic_d60",
+          "last_date": "2026-06-30",
+          "uses": 1
+        },
+        {
+          "topic": "banking-football parallels",
+          "last_session": "eval_33_C08_sporadic_d60",
+          "last_date": "2026-06-30",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation habits",
+          "last_session": "eval_33_C08_sporadic_d60",
+          "last_date": "2026-06-30",
+          "uses": 1
+        },
+        {
+          "topic": "Bengali movies",
+          "last_session": "eval_33_C08_sporadic_d60",
+          "last_date": "2026-06-30",
+          "uses": 1
+        },
+        {
+          "topic": "team style",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21",
+          "uses": 2
+        },
+        {
+          "topic": "position choice (defender vs midfielder)",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21",
+          "uses": 1
+        },
+        {
+          "topic": "teamwork",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_31_C06_sporadic_d46",
+          "last_date": "2026-06-16"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_33_C08_sporadic_d60",
+          "last_date": "2026-06-30"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_34_C09_sporadic_d68",
+          "last_date": "2026-07-08"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_followup",
+        "content": "Ask about \"friendly match, scored a goal (event)\" — was 3 days ago",
+        "source_id": "ev_007",
+        "priority": 7,
+        "computed_at": "2026-07-08",
+        "expires_at": "2026-07-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"gets so focused on football that they sometimes neglect banking studies; aware of the bala\" (tone: frustrated)",
+        "source_id": "mo_019",
+        "priority": 7,
+        "computed_at": "2026-07-08",
+        "expires_at": "2026-07-22",
+        "used": false
+      },
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"local league match against old rivals (event)\" — in 4 days",
+        "source_id": "ev_008",
+        "priority": 6,
+        "computed_at": "2026-07-08",
+        "expires_at": "2026-07-22",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: naturally code-switches with cultural/linguistic markers ('na?' at sentence ends) without self-consciousness (e.g. \"I think consistency is key, na?\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-07-08",
+        "expires_at": "2026-07-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Bengali football movies fuel their passion and inspire them, even if not realistic\" (tone: content)",
+        "source_id": "mo_017",
+        "priority": 4,
+        "computed_at": "2026-07-08",
+        "expires_at": "2026-07-22",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "occasionally drops auxiliary verbs in conditional/future contexts",
+          "examples": [
+            "Maybe I sit near the goal to take better close-ups"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "naturally uses past tense correctly and consistently",
+          "examples": [
+            "Had a nice match, took photos, I'd love to see them"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "constructs complex sentences with subordinate clauses naturally",
+          "examples": [
+            "Sometimes the photos come out blurry, but when they don't… wow!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "expresses emotional nuance with natural metaphor and sophistication",
+          "examples": [
+            "The favorite part? Definitely the teamwork and that feeling when we score together. It's like… a rush!"
+          ],
+          "count": 1,
+          "first_seen": "2026-06-21",
+          "last_seen": "2026-06-21"
+        },
+        {
+          "what": "constructs sophisticated cross-domain analogy naturally without scaffolding",
+          "examples": [
+            "Bank exam, football — both need trust in the team"
+          ],
+          "count": 1,
+          "first_seen": "2026-06-21",
+          "last_seen": "2026-06-21"
+        },
+        {
+          "what": "naturally code-switches with cultural/linguistic markers ('na?' at sentence ends) without self-consciousness",
+          "examples": [
+            "I think consistency is key, na?"
+          ],
+          "count": 1,
+          "first_seen": "2026-07-08",
+          "last_seen": "2026-07-08"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_006",
+        "kind": "user_promise",
+        "content": "share progress on 10-photo goal and daily 30-min passing practice",
+        "source_session": "eval_34_C09_sporadic_d68",
+        "source_date": "2026-07-08",
+        "status": "active",
+        "expires_at": "2026-08-07"
+      },
+      {
+        "id": "ol_007",
+        "kind": "event_pending",
+        "content": "report back on Saturday's local league match against old rivals",
+        "source_session": "eval_34_C09_sporadic_d68",
+        "source_date": "2026-07-08",
+        "status": "active",
+        "expires_at": "2026-08-07"
+      },
+      {
+        "id": "ol_005",
+        "kind": "maya_promise",
+        "content": "user to share their proudest photo and the story behind it",
+        "source_session": "eval_33_C08_sporadic_d60",
+        "source_date": "2026-06-30",
+        "status": "active",
+        "expires_at": "2026-07-30"
+      },
+      {
+        "id": "ol_004",
+        "kind": "event_pending",
+        "content": "ask how the Mohun Bagan match went and whether passion helped overcome tiredness",
+        "source_session": "eval_31_C06_sporadic_d46",
+        "source_date": "2026-06-16",
+        "status": "active",
+        "expires_at": "2026-07-16"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 128.0
+}

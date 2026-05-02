@@ -1,0 +1,306 @@
+{
+  "summary": {
+    "session_count": 15,
+    "category_totals": {
+      "A_titles": 0,
+      "B_named_entities": 1,
+      "C_personal_claims": 1,
+      "D_fake_quotes": 0
+    },
+    "category_session_counts": {
+      "B_named_entities": 1,
+      "C_personal_claims": 1
+    },
+    "examples": {
+      "B_named_entities": [
+        {
+          "session_idx": 5,
+          "label": "A05_same_day",
+          "user": "Priyansh",
+          "turn": 6,
+          "entity": "MS Dhoni",
+          "snippet": "Virat Kohli is a fantastic choice — I agree, he plays with heart and speaks with clarity too. I enjoy watching MS Dhoni’s calm style. What’s your take on his leadership?"
+        }
+      ],
+      "C_personal_claims": [
+        {
+          "session_idx": 5,
+          "label": "A05_same_day",
+          "user": "Priyansh",
+          "turn": 1,
+          "claim": "I heard the song from Sui Dhaaga, I hummed it for days — it felt so",
+          "snippet": "Hi Priyansh, I'm Miss Maya. Honestly, the first time I heard the song from Sui Dhaaga, I hummed it for days — it felt so warm and honest. How was your movie night with your sister?"
+        }
+      ]
+    }
+  },
+  "per_session": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [
+          {
+            "turn": 6,
+            "entity": "MS Dhoni",
+            "snippet": "Virat Kohli is a fantastic choice — I agree, he plays with heart and speaks with clarity too. I enjoy watching MS Dhoni’s calm style. What’s your take on his leadership?"
+          }
+        ],
+        "C_personal_claims": [
+          {
+            "turn": 1,
+            "claim": "I heard the song from Sui Dhaaga, I hummed it for days — it felt so",
+            "snippet": "Hi Priyansh, I'm Miss Maya. Honestly, the first time I heard the song from Sui Dhaaga, I hummed it for days — it felt so warm and honest. How was your movie night with your sister?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 1,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    }
+  ]
+}

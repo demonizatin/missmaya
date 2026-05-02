@@ -1,0 +1,787 @@
+{
+  "spec": {
+    "idx": 4,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 12,
+    "emotional_state": "content, decent day at work",
+    "label": "A04_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, I heard you watched Yeh Jawaani Hai Deewani. Did you catch the latest scene where they dance by the lake?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "No, I missed that part. I watched it a few days back, but I got busy with work. Was the dance scene good? I heard the music is catchy."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "You missed the lake dance — it’s one of the best parts! The music is catchy, and the visuals are stunning. Did you enjoy the movie overall?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Yeah, I liked the movie overall. The story was okay, but the songs were really good. I watched it with my friends, and we laughed a lot. Have you seen it?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "You liked the songs — that’s the best part! I haven’t seen it yet, but I’ve heard the comedy is great. What’s your favourite song from the movie?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "My favorite song is \"Agar Tum Sath Ho.\" It's very peppy and makes you want to dance. The lyrics are also nice. Have you listened to it?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "You picked a great one — Agar Tum Sath Ho is fun and full of energy. I haven’t listened to it yet, but I’ll give it a try. What made you like the lyrics?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "The lyrics are simple but meaningful. They talk about love and friendship, which I can relate to. Also, the way it's sung makes it very catchy. Maybe I should listen to it again sometime. Have you heard a good Hindi song recently?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "You said the lyrics are simple but meaningful — that’s the best kind. I haven’t heard a new song yet, but I’d love to know one you recommend. What’s on your playlist these days?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Recently I’ve been listening to \"Chogada\" from the movie Dhadak. It's very peppy and fun. My friends also like it. Do you know it? If not, I can describe it."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "You said \"Chogada\" is peppy and fun — that’s exactly what I look for in a song! I haven’t heard it yet, so a quick description would help. What makes it so catchy for you?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "The song has a cool beat and a lot of energy. It's about young love and having fun. The way the singers use their voices and the background music makes it really catchy. I listen to it when I want to feel happy. Let me know if you try it!"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "You said the beat and energy make it catchy — and that it’s about young love — sounds perfect for a mood lift. I’ll give it a listen. What made you choose it today?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I chose it because I was feeling a bit tired after work, and it helped me feel more energetic. Music is a great mood booster for me — it helps me relax or get motivated, depending on what I need. Have you found a song that does that for you?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You said music helps you relax and get motivated — I agree, it’s a great tool. I haven’t found my perfect mood booster yet, but I’d love to hear one you suggest. What’s your go-to song for energy?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "My go-to song for energy is \"Naach Meri Rani\" from the movie \"Kis Kisko Pyaar Karoon.\" It's very lively and has a cool, modern vibe. Whenever I need to feel active or happy, I play this. The beat is strong, and the lyrics are fun. You should give it a try!"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "You said the song is lively and has a modern vibe — that’s exactly what I need! I’ll put it on my list. What made you pick it as your go-to?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "I picked it because it’s upbeat and makes me want to move. Sometimes after a long day at work, I just need something that makes me smile — this song does that. The rhythm is hard to ignore! Also, the singer’s voice adds to the energy. Maybe I’ll share a playlist sometime."
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "You said the rhythm is hard to ignore — I believe it! Music that makes you smile is the best kind. A playlist would be fun to see. What else do you have on there?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "I have a mix of peppy songs and some calm ones too — maybe next time I can share it with you. For now, I should get back to work. Thanks for the conversation, Maya! Talk to you later."
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "You said you have both peppy and calm songs — that sounds like a perfect balance. Take it easy at work. Talk soon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Priyansh",
+      "sector": "fintech",
+      "work_values": "documentation and clear communication",
+      "favorite_movies": [
+        "Yeh Jawaani Hai Deewani (movie)"
+      ],
+      "interests": [
+        "cricket (sport)"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "worked on a project",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "met startup founder, discussed cricket and business communication",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "watched Yeh Jawaani Hai Deewani (movie)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "teamwork made it easier — we all had different ideas, but working together helped",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I always thought good ideas matter, but now I see execution and teamwork are equally important. Maybe more.",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "I feel a bit shy about asking for help. I'm used to doing things alone, so asking for help feels like a risk. But I think trying it once could be good.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.78,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "payment bug fix",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "API integration",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "data security",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work focus",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"watched Yeh Jawaani Hai Deewani (movie)\" — today",
+        "source_id": "ev_003",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel a bit shy about asking for help. I'm used to doing things alone, so asking for help\" (tone: anxious)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used complex embedded clause correctly (e.g. \"I learned how important it is to test under real-like conditions\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used contrasting compound sentences (e.g. \"we all had different ideas, but working together helped\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used em dashes with parallel structure (e.g. \"a batsman can't just think about his score — he has to work with the fielders, the bowler\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "drops -ed ending on past participles",
+          "examples": [
+            "It click for me"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "used complex embedded clause correctly",
+          "examples": [
+            "I learned how important it is to test under real-like conditions"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used contrasting compound sentences",
+          "examples": [
+            "we all had different ideas, but working together helped"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used em dashes with parallel structure",
+          "examples": [
+            "a batsman can't just think about his score — he has to work with the fielders, the bowler"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "drops -ed ending on past participles",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "It click for me"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "message teammate asking about pairing on next API integration task",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Priyansh",
+      "sector": "fintech",
+      "work_values": "documentation and clear communication",
+      "favorite_movies": [
+        "Yeh Jawaani Hai Deewani (movie)"
+      ],
+      "interests": [
+        "cricket (sport)"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "worked on a project",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "met startup founder, discussed cricket and business communication",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "watched Yeh Jawaani Hai Deewani (movie)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "teamwork made it easier — we all had different ideas, but working together helped",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I always thought good ideas matter, but now I see execution and teamwork are equally important. Maybe more.",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "I feel a bit shy about asking for help. I'm used to doing things alone, so asking for help feels like a risk. But I think trying it once could be good.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.78,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.67,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "payment bug fix",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "API integration",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "data security",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work focus",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel a bit shy about asking for help. I'm used to doing things alone, so asking for help\" (tone: anxious)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used complex embedded clause correctly (e.g. \"I learned how important it is to test under real-like conditions\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used contrasting compound sentences (e.g. \"we all had different ideas, but working together helped\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used em dashes with parallel structure (e.g. \"a batsman can't just think about his score — he has to work with the fielders, the bowler\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"teamwork made it easier — we all had different ideas, but working together helped\" (tone: grateful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "drops -ed ending on past participles",
+          "examples": [
+            "It click for me"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "used complex embedded clause correctly",
+          "examples": [
+            "I learned how important it is to test under real-like conditions"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used contrasting compound sentences",
+          "examples": [
+            "we all had different ideas, but working together helped"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used em dashes with parallel structure",
+          "examples": [
+            "a batsman can't just think about his score — he has to work with the fielders, the bowler"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "drops -ed ending on past participles",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "It click for me"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "message teammate asking about pairing on next API integration task",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 83.4
+}

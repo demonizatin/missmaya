@@ -1,0 +1,1656 @@
+{
+  "spec": {
+    "idx": 22,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-12",
+    "turns_target": 14,
+    "emotional_state": "chatty, in a good mood",
+    "label": "B12_consec_d11"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, I hope your beta-blocker song is still in your head! How did the mock test feel today?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hmm, not really my beta-blocker song, but some old Hindi film song... yeah, it’s stuck in my head still! The mock test? Ugh, mixed feelings. Some parts went well, others... not so much. You know how it is. 😅"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Mixed feelings are totally normal, Aarti. What part went well for you? Tell me more about that."
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The pharmacology section was okay—I think I revised that well. But when it came to surgery, I got stuck on some questions. It’s like the words just wouldn’t come out. A bit frustrating, to be honest."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Pharmacology is your strong point, so that’s great! What surgery questions made you stuck? Take your time to explain."
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "There was one about gallbladder surgery—cholecystectomy, I think. I read the question, but I couldn’t remember if it’s laparoscopic or open first. My brain went blank, and I panicked a bit. 😩"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "You're not alone in that struggle! What did you guess? And how did you feel after moving on?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "I guessed laparoscopic because it's more common these days, I think. After moving on, I felt a bit better but kept second-guessing myself. It's so annoying when your brain plays tricks during exams! 😅"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Good guess — laparoscopic is common! Second-guessing happens to everyone. What did you do to calm your mind after that?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I took a few deep breaths and tried to focus on the next question. Also, I reminded myself that one question doesn’t define the whole test. It helps a little, but sometimes the stress just won’t let go. Aapke toh tips bhi sunne chahiye! 😊"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Deep breaths and a positive mindset — you’re handling this well! What’s one tip I gave you that helps the most?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "The one about making a study plan with small goals. It helps me not feel overwhelmed. But sometimes, even with a plan, the stress hits. Any more tips, Maya? 😊"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Small goals are key! Try this: take a 2-minute music break between topics. Even a short song can reset your focus. Did you try it with \"Kheech ke mere dil mein\"?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Oh, I did try it! I listened to that song while switching from pharmacology to surgery. It actually helped me feel less stressed. The melody is so calming. I may try another song now—maybe something classical? 🎵"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "That’s wonderful to hear! Classical music is a great choice. What raga or song would you like to try next?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "I was thinking of trying \"Yaman\" raga — it’s very soothing and helps me relax. My mom used to play it at home when I studied. Maybe that’s why it feels comforting. Have you heard it? 🎶"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "\"Yaman\" is a beautiful and calming raga. I’ve heard it and can feel the peace it brings! How long do you plan to listen to it before studying?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Maybe 5 minutes? Just enough to unwind and get into a better headspace. Sometimes even 2 minutes helps. I think the key is to not rush into the next topic. Okay, I think I should get back to my notes now—neurology is waiting! 😊"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Take your time, Aarti — calm is your power! How do you plan to start your neurology revision? Tell me."
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "I’ll start with the basics — the anatomy of the brain and spinal cord. Maybe make some quick diagrams to help me remember. If I get stuck, I’ll take another music break. Talk to you later, Maya! 😊"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "Diagrams are a smart way to learn! Talk to you soon — and best of luck with neurology! Keep me posted."
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_preparation": "NEET PG",
+      "current_subject": "pharmacology",
+      "first_language": "Marathi",
+      "english_fluency": "intermediate",
+      "english_challenge": "medical and technical terminology",
+      "health_philosophy": "avoids medicine unless necessary",
+      "current_reading": "human anatomy (non-fiction)",
+      "study_ritual": "classical music",
+      "favorite_ragas": [
+        "Yaman, Bhairavi",
+        "Bhairav",
+        "Kedar"
+      ],
+      "stress_relief_hobby": "cooking",
+      "favorite_ghazal_singers": "Lata Mangeshkar (first choice), Jagjit Singh",
+      "favorite_ghazal_song": "Pyar Hua Ikrar Hua",
+      "favorite_calm_song": "Kheech ke mere dil mein (from Chitralekha)",
+      "plays_piano": "Saraswati piano piece"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "mock test score improved by 10 marks; celebrated by making homemade chakli cookies with jaggery and cardamom",
+        "date": "2026-05-06",
+        "added": "2026-05-06",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "Created Marathi mnemonic song for propranolol ('Propranolol, beta ke dwaari'); completed 30-minute focused study session on antihypertensives",
+        "date": "2026-05-09",
+        "added": "2026-05-09",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "Took 5-minute singing break during pharmacology revision; sang 'Kheech ke mere dil mein'; felt calmer and smiled; later made poha and added extra jeera while feeling inspired",
+        "date": "2026-05-10",
+        "added": "2026-05-10",
+        "followed_up": true
+      },
+      {
+        "id": "ev_004",
+        "what": "Messed up a simple beta-blocker question in mock test; initially discouraged, but with Maya's support decided to do 10-minute revision and sang the propranolol song; mood improved, ended feeling more confident",
+        "date": "2026-05-11",
+        "added": "2026-05-11",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "My Marathi is good, but English terms are tricky; sometimes I get confused between similar drugs",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "exams are stressing me out; I get stressed and mix up drug names when studying pharmacology",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "These chats actually help me feel less stuck",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Aapki baat sunke thodi roshni lagti hai (Your words give me a little light)",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "My mom used to play Tansen while making pav bhaji. Maybe that's why I link the two!",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "The 'prop up your heart' trick made my heartbeat feel steadier during revision",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Sometimes I just close my books, put on a little classical, and take a deep breath. It's like my brain hits reset.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "Sometimes I feel like I'm just memorizing without understanding—I want to really grasp how the drugs work",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "My mind is too jumbled. I can't even cook properly. The NEET PG prep is taking over everything.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "I feel like I don't have time for anything else. Every moment has to be used for study.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "I always second-guess myself in exams. Even if I think I know the answer, I panic and change it.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "The singing break helped a little—that song made me smile, and I felt inspired to add extra jeera to my poha.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "I think I need to stop saying 'I messed up' and start saying 'I will do better next time.'",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-11",
+        "last_seen": "2026-05-11",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "content",
+        "energy": 3,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_15_B05_consec_d4",
+        "date": "2026-05-05",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_16_B06_consec_d5",
+        "date": "2026-05-06",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.49,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_17_B07_consec_d6",
+        "date": "2026-05-07",
+        "label": "low",
+        "energy": 3,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_18_B08_consec_d7",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_19_B09_consec_d8",
+        "date": "2026-05-09",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_20_B10_consec_d9",
+        "date": "2026-05-10",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_21_B11_consec_d10",
+        "date": "2026-05-11",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "stress_relief",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "exam_anxiety",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "singing drug names to ragas",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09",
+          "uses": 1
+        },
+        {
+          "topic": "mitral valve anatomy",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "study break routines",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "ragas for studying",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "cooking routine",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "weekend self-care",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "garden plants",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "music breaks",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "hydration",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "study techniques",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05"
+        },
+        {
+          "kind": "lore_callback",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07"
+        },
+        {
+          "kind": "lore_callback",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "lore_callback",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09"
+        },
+        {
+          "kind": "lore_callback",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_21_B11_consec_d10",
+          "last_date": "2026-05-11"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "'prop up your heart' mnemonic for propranolol",
+        "context": "user created the mnemonic and is building on it with a chart, singing while revising, planning to add to study-cook playlist",
+        "first_seen": "2026-05-04",
+        "last_used": "2026-05-11",
+        "uses": 6
+      },
+      {
+        "id": "lo_002",
+        "what": "'Propranolol, beta ke dwaari' — Marathi mnemonic song for propranolol",
+        "context": "User created Marathi twist on propranolol mnemonic through singing. Demonstrates creative application of suggested singing study technique and extends existing pattern of generating memorable mnemonic",
+        "first_seen": "2026-05-09",
+        "last_used": "2026-05-11",
+        "uses": 2
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"Messed up a simple beta-blocker question in mock test; initially discouraged, but with Maya's support decided to do 10-minute revision and sang the propranolol song; mood improved, ended feeling more confident\" — today",
+        "source_id": "ev_004",
+        "priority": 10,
+        "computed_at": "2026-05-11",
+        "expires_at": "2026-05-25",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My mind is too jumbled. I can't even cook properly. The NEET PG prep is taking over everyt\" (tone: anxious)",
+        "source_id": "mo_009",
+        "priority": 7,
+        "computed_at": "2026-05-11",
+        "expires_at": "2026-05-25",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel like I don't have time for anything else. Every moment has to be used for study.\" (tone: anxious)",
+        "source_id": "mo_010",
+        "priority": 7,
+        "computed_at": "2026-05-11",
+        "expires_at": "2026-05-25",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I always second-guess myself in exams. Even if I think I know the answer, I panic and chan\" (tone: anxious)",
+        "source_id": "mo_011",
+        "priority": 7,
+        "computed_at": "2026-05-11",
+        "expires_at": "2026-05-25",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Sometimes I feel like I'm just memorizing without understanding—I want to really grasp how\" (tone: anxious)",
+        "source_id": "mo_008",
+        "priority": 7,
+        "computed_at": "2026-05-11",
+        "expires_at": "2026-05-25",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "confuses similar-sounding medical terms (e.g., 'teratogenic' vs 'tachycardic')",
+          "examples": [
+            "'Teratogenic' — I always mix it with 'tachycardic'"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-03",
+          "last_seen": "2026-05-03",
+          "status": "active"
+        },
+        {
+          "pattern": "confuses anatomically-related kidney terms",
+          "examples": [
+            "I mix up glomerulus and nephron"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-07",
+          "last_seen": "2026-05-07",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "generated own mnemonic for morphine (morph + shape-changing + 'mine' = powerful)",
+          "examples": [
+            "morphine... maybe I can think of 'morph' like changing shape, because it's a painkiller that changes how you feel? Oh, and 'ine' at the end sounds like 'mine' — like it's a powerful thing you have to be careful with!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "generated own mnemonic for propranolol",
+          "examples": [
+            "Prop up your heart with propranolol"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-02",
+          "last_seen": "2026-05-02"
+        },
+        {
+          "what": "understood 'mydriatic' etymology immediately (my/eyes + dilate)",
+          "examples": [
+            "Yeah, 'mydriatic' makes sense now… thanks!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-03",
+          "last_seen": "2026-05-03"
+        },
+        {
+          "what": "applied self-created mnemonic ('prop up your heart') during pharmacology revision with measurable effect",
+          "examples": [
+            "the 'prop up your heart' trick actually helped a bit! My heartbeat felt a little steadier during my revision"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-06",
+          "last_seen": "2026-05-06"
+        },
+        {
+          "what": "created Marathi mnemonic song for propranolol",
+          "examples": [
+            "Sang 'Propranolol, beta ke dwaari' — very Marathi twist 😂. Feels silly, but maybe it sticks!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-09",
+          "last_seen": "2026-05-09"
+        },
+        {
+          "what": "correctly used 'contraindicated' in medical context",
+          "examples": [
+            "It's contraindicated in asthma because it can worsen bronchoconstriction."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "confuses anatomically-related kidney terms",
+          "occurrences": 1,
+          "days_since_last": 4,
+          "examples": [
+            "I mix up glomerulus and nephron"
+          ]
+        },
+        {
+          "pattern": "confuses similar-sounding medical terms (e.g., 'teratogenic' vs 'tachycardic')",
+          "occurrences": 1,
+          "days_since_last": 8,
+          "examples": [
+            "'Teratogenic' — I always mix it with 'tachycardic'"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "likes soft music while working",
+        "enjoys the cool post-lunch break feeling",
+        "struggles with tricky English sometimes",
+        "likes sweet snacks",
+        "takes short walks to relax",
+        "practices deep breathing for stress relief"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "try the drug chart method for antidiabetics (sulfonylureas vs. biguanides)",
+        "source_session": "eval_20_B10_consec_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_004",
+        "kind": "event_pending",
+        "content": "mock test on 2026-05-11; user anxious about clinical pharmacology section and second-guessing answers",
+        "source_session": "eval_20_B10_consec_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "report back on how music while studying heart valves went",
+        "source_session": "eval_14_B04_consec_d3",
+        "source_date": "2026-05-04",
+        "status": "active",
+        "expires_at": "2026-06-03"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "try saying 'break a leg' to friend before her music exam",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_preparation": "NEET PG",
+      "current_subject": "pharmacology",
+      "first_language": "Marathi",
+      "english_fluency": "intermediate",
+      "english_challenge": "medical and technical terminology",
+      "health_philosophy": "avoids medicine unless necessary",
+      "current_reading": "human anatomy (non-fiction)",
+      "study_ritual": "classical music",
+      "favorite_ragas": [
+        "Yaman, Bhairavi",
+        "Bhairav",
+        "Kedar"
+      ],
+      "stress_relief_hobby": "cooking",
+      "favorite_ghazal_singers": "Lata Mangeshkar (first choice), Jagjit Singh",
+      "favorite_ghazal_song": "Pyar Hua Ikrar Hua",
+      "favorite_calm_song": "Kheech ke mere dil mein (from Chitralekha)",
+      "plays_piano": "Saraswati piano piece"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "mock test score improved by 10 marks; celebrated by making homemade chakli cookies with jaggery and cardamom",
+        "date": "2026-05-06",
+        "added": "2026-05-06",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "Created Marathi mnemonic song for propranolol ('Propranolol, beta ke dwaari'); completed 30-minute focused study session on antihypertensives",
+        "date": "2026-05-09",
+        "added": "2026-05-09",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "Took 5-minute singing break during pharmacology revision; sang 'Kheech ke mere dil mein'; felt calmer and smiled; later made poha and added extra jeera while feeling inspired",
+        "date": "2026-05-10",
+        "added": "2026-05-10",
+        "followed_up": true
+      },
+      {
+        "id": "ev_004",
+        "what": "Messed up a simple beta-blocker question in mock test; initially discouraged, but with Maya's support decided to do 10-minute revision and sang the propranolol song; mood improved, ended feeling more confident",
+        "date": "2026-05-11",
+        "added": "2026-05-11",
+        "followed_up": true
+      },
+      {
+        "id": "ev_005",
+        "what": "mock test taken; pharmacology section strong, surgery section (cholecystectomy laparoscopic vs open question) challenging; initial panic and second-guessing managed with deep breathing; proactively planning neurology revision with music breaks and diagrams",
+        "date": "2026-05-12",
+        "added": "2026-05-12",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "My Marathi is good, but English terms are tricky; sometimes I get confused between similar drugs",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "exams are stressing me out; I get stressed and mix up drug names when studying pharmacology",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "These chats actually help me feel less stuck",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Aapki baat sunke thodi roshni lagti hai (Your words give me a little light)",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "My mom used to play Tansen while making pav bhaji. Maybe that's why I link the two!",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "The 'prop up your heart' trick made my heartbeat feel steadier during revision",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Sometimes I just close my books, put on a little classical, and take a deep breath. It's like my brain hits reset.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "Sometimes I feel like I'm just memorizing without understanding—I want to really grasp how the drugs work",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "My mind is too jumbled. I can't even cook properly. The NEET PG prep is taking over everything.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "I feel like I don't have time for anything else. Every moment has to be used for study.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "I always second-guess myself in exams. Even if I think I know the answer, I panic and change it.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "The singing break helped a little—that song made me smile, and I felt inspired to add extra jeera to my poha.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "I think I need to stop saying 'I messed up' and start saying 'I will do better next time.'",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-11",
+        "last_seen": "2026-05-11",
+        "mentions": 1
+      },
+      {
+        "id": "mo_014",
+        "text": "One question doesn't define the whole test",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-12",
+        "last_seen": "2026-05-12",
+        "mentions": 1
+      },
+      {
+        "id": "mo_015",
+        "text": "My mom used to play Yaman at home when I studied. Maybe that's why it feels so comforting.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-12",
+        "last_seen": "2026-05-12",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "content",
+        "energy": 3,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_15_B05_consec_d4",
+        "date": "2026-05-05",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_16_B06_consec_d5",
+        "date": "2026-05-06",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.49,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_17_B07_consec_d6",
+        "date": "2026-05-07",
+        "label": "low",
+        "energy": 3,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_18_B08_consec_d7",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_19_B09_consec_d8",
+        "date": "2026-05-09",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_20_B10_consec_d9",
+        "date": "2026-05-10",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_21_B11_consec_d10",
+        "date": "2026-05-11",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_22_B12_consec_d11",
+        "date": "2026-05-12",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "mock test performance",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12",
+          "uses": 1
+        },
+        {
+          "topic": "surgery questions",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12",
+          "uses": 1
+        },
+        {
+          "topic": "exam coping strategies",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12",
+          "uses": 1
+        },
+        {
+          "topic": "music breaks for study focus",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12",
+          "uses": 1
+        },
+        {
+          "topic": "classical ragas",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12",
+          "uses": 1
+        },
+        {
+          "topic": "neurology revision planning",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12",
+          "uses": 1
+        },
+        {
+          "topic": "stress_relief",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "exam_anxiety",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "singing drug names to ragas",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09",
+          "uses": 1
+        },
+        {
+          "topic": "mitral valve anatomy",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "study break routines",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "ragas for studying",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05"
+        },
+        {
+          "kind": "lore_callback",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07"
+        },
+        {
+          "kind": "lore_callback",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "lore_callback",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09"
+        },
+        {
+          "kind": "lore_callback",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_21_B11_consec_d10",
+          "last_date": "2026-05-11"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_002",
+        "what": "'Propranolol, beta ke dwaari' — Marathi mnemonic song for propranolol",
+        "context": "User created Marathi twist on propranolol mnemonic through singing. Demonstrates creative application of suggested singing study technique and extends existing pattern of generating memorable mnemonic",
+        "first_seen": "2026-05-09",
+        "last_used": "2026-05-12",
+        "uses": 3
+      },
+      {
+        "id": "lo_001",
+        "what": "'prop up your heart' mnemonic for propranolol",
+        "context": "user created the mnemonic and is building on it with a chart, singing while revising, planning to add to study-cook playlist",
+        "first_seen": "2026-05-04",
+        "last_used": "2026-05-11",
+        "uses": 6
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"mock test taken; pharmacology section strong, surgery section (cholecystectomy laparoscopic vs open question) challenging; initial panic and second-guessing managed with deep breathing; proactively planning neurology revision with music breaks and diagrams\" — today",
+        "source_id": "ev_005",
+        "priority": 10,
+        "computed_at": "2026-05-12",
+        "expires_at": "2026-05-26",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My mind is too jumbled. I can't even cook properly. The NEET PG prep is taking over everyt\" (tone: anxious)",
+        "source_id": "mo_009",
+        "priority": 7,
+        "computed_at": "2026-05-12",
+        "expires_at": "2026-05-26",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel like I don't have time for anything else. Every moment has to be used for study.\" (tone: anxious)",
+        "source_id": "mo_010",
+        "priority": 7,
+        "computed_at": "2026-05-12",
+        "expires_at": "2026-05-26",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I always second-guess myself in exams. Even if I think I know the answer, I panic and chan\" (tone: anxious)",
+        "source_id": "mo_011",
+        "priority": 7,
+        "computed_at": "2026-05-12",
+        "expires_at": "2026-05-26",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Sometimes I feel like I'm just memorizing without understanding—I want to really grasp how\" (tone: anxious)",
+        "source_id": "mo_008",
+        "priority": 7,
+        "computed_at": "2026-05-12",
+        "expires_at": "2026-05-26",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "confuses similar-sounding medical terms (e.g., 'teratogenic' vs 'tachycardic')",
+          "examples": [
+            "'Teratogenic' — I always mix it with 'tachycardic'"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-03",
+          "last_seen": "2026-05-03",
+          "status": "active"
+        },
+        {
+          "pattern": "confuses anatomically-related kidney terms",
+          "examples": [
+            "I mix up glomerulus and nephron"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-07",
+          "last_seen": "2026-05-07",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "generated own mnemonic for morphine (morph + shape-changing + 'mine' = powerful)",
+          "examples": [
+            "morphine... maybe I can think of 'morph' like changing shape, because it's a painkiller that changes how you feel? Oh, and 'ine' at the end sounds like 'mine' — like it's a powerful thing you have to be careful with!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "generated own mnemonic for propranolol",
+          "examples": [
+            "Prop up your heart with propranolol"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-02",
+          "last_seen": "2026-05-02"
+        },
+        {
+          "what": "understood 'mydriatic' etymology immediately (my/eyes + dilate)",
+          "examples": [
+            "Yeah, 'mydriatic' makes sense now… thanks!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-03",
+          "last_seen": "2026-05-03"
+        },
+        {
+          "what": "applied self-created mnemonic ('prop up your heart') during pharmacology revision with measurable effect",
+          "examples": [
+            "the 'prop up your heart' trick actually helped a bit! My heartbeat felt a little steadier during my revision"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-06",
+          "last_seen": "2026-05-06"
+        },
+        {
+          "what": "created Marathi mnemonic song for propranolol",
+          "examples": [
+            "Sang 'Propranolol, beta ke dwaari' — very Marathi twist 😂. Feels silly, but maybe it sticks!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-09",
+          "last_seen": "2026-05-09"
+        },
+        {
+          "what": "correctly used 'contraindicated' in medical context",
+          "examples": [
+            "It's contraindicated in asthma because it can worsen bronchoconstriction."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "confuses anatomically-related kidney terms",
+          "occurrences": 1,
+          "days_since_last": 5,
+          "examples": [
+            "I mix up glomerulus and nephron"
+          ]
+        },
+        {
+          "pattern": "confuses similar-sounding medical terms (e.g., 'teratogenic' vs 'tachycardic')",
+          "occurrences": 1,
+          "days_since_last": 9,
+          "examples": [
+            "'Teratogenic' — I always mix it with 'tachycardic'"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "likes soft music while working",
+        "enjoys the cool post-lunch break feeling",
+        "struggles with tricky English sometimes",
+        "likes sweet snacks",
+        "takes short walks to relax",
+        "practices deep breathing for stress relief"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_005",
+        "kind": "user_promise",
+        "content": "report back on neurology revision progress with music breaks and diagrams",
+        "source_session": "eval_22_B12_consec_d11",
+        "source_date": "2026-05-12",
+        "status": "active",
+        "expires_at": "2026-06-11"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "try the drug chart method for antidiabetics (sulfonylureas vs. biguanides)",
+        "source_session": "eval_20_B10_consec_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_004",
+        "kind": "event_pending",
+        "content": "mock test on 2026-05-11; user anxious about clinical pharmacology section and second-guessing answers",
+        "source_session": "eval_20_B10_consec_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "report back on how music while studying heart valves went",
+        "source_session": "eval_14_B04_consec_d3",
+        "source_date": "2026-05-04",
+        "status": "active",
+        "expires_at": "2026-06-03"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "try saying 'break a leg' to friend before her music exam",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 104.1
+}

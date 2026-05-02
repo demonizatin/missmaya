@@ -1,0 +1,255 @@
+{
+  "spec": {
+    "idx": 37,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti_cold",
+    "today": "2026-05-07",
+    "turns_target": 6,
+    "emotional_state": "anxious, exam stress",
+    "label": "D02_coldstart_u02_aa"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, I am here to help you feel more confident with English. How was your day today?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hi Maya, thanks. My day was stressful. I had a long study session for NEET PG. My head hurts a bit. How are you?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "I get that — intense study days take a toll. Take a deep breath. How are you usually unwinding after a tough session?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Sometimes I try to cook something simple, like aloo gobi, to take my mind off. But most times, I just collapse on the couch and listen to some ghazals. It helps, a little."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "I get that — cooking is a good escape, and ghazals are the perfect calm. What’s one line from a ghazal that really speaks to you?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "A few months back, I came across this line by Jagjit Singh: *\"Ab yahan se kahan jaye hum, phir kahan se aaye hum?\"* It makes me pause. Sometimes, I feel like I'm on auto-pilot with studies, no time to even breathe. But then, when I hear lines like these, it's like... a reminder to just *be*.  \nBut I need to get back to books, exams are near. Ugh. 😅"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "That line is beautiful — it really does make you stop and think. Cooking or ghazals are your little pauses, and they matter. What’s one small ‘you’ moment you can steal today before hitting the books again?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Maybe a quick cup of chai while listening to a old sitar melody? That’s my 5 minutes of ‘me time’. But honestly, even that feels like a luxury sometimes. 😅  \nI think I’ll take 10 mins now, before starting my next mock test. Need to stay balanced, right?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Your 10 minutes of chai and sitar is a smart move — balance is everything, especially now. What’s your go-to mock test strategy to stay focused?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I usually start with the toughest subjects first — like AIIMS or previous years’ papers. It helps me focus when my mind is fresh. But sometimes I get stuck and panic. Then I take a deep breath, like you said, and move on to something else. It’s not perfect, but it works most days.  \nThanks, Maya. I think I’ll go make that chai now.  \nBye! 😊"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "You’re doing great — taking deep breaths and staying balanced is half the battle. Enjoy your chai, Aarti. See you soon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {},
+    "events": [],
+    "moments": [],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Aarti",
+      "currently_preparing_for": "NEET PG (exam)",
+      "preferred_self_care_ritual": "chai with sitar melody",
+      "exam_strategy": "starts with toughest subjects first, like AIIMS or previous years' papers",
+      "relaxation_methods": [
+        "cooking simple dishes like aloo gobi (dish)",
+        "listening to ghazals"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Sometimes I feel like I'm on auto-pilot with studies, no time to even breathe. But then, when I hear 'Ab yahan se kahan jaye hum, phir kahan se aaye hum?' (song), it's like a reminder to just *be*.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_37_D02_coldstart_u02_aa",
+        "date": "2026-05-07",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "unwinding after stressful study",
+          "last_session": "eval_37_D02_coldstart_u02_aa",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "ghazals and meaningful music",
+          "last_session": "eval_37_D02_coldstart_u02_aa",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "self-care moments",
+          "last_session": "eval_37_D02_coldstart_u02_aa",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "exam strategy and focus",
+          "last_session": "eval_37_D02_coldstart_u02_aa",
+          "last_date": "2026-05-07",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_37_D02_coldstart_u02_aa",
+          "last_date": "2026-05-07"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Sometimes I feel like I'm on auto-pilot with studies, no time to even breathe. But then, w\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-07",
+        "expires_at": "2026-05-21",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 86.0
+}

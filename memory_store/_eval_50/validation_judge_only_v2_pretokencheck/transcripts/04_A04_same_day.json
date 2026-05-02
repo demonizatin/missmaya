@@ -1,0 +1,698 @@
+{
+  "spec": {
+    "idx": 4,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 12,
+    "emotional_state": "content, decent day at work",
+    "label": "A04_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, how was your work meeting on Monday?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "It was good, thanks. We discussed some new features for our app. Nothing too stressful. How about you? Did you have a busy week?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Good to hear the meeting went smoothly. New features always bring fresh energy. I've been here, ready to chat — nothing too busy on my end. What’s one thing you’re excited about in the new features?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "We are adding a new payment gateway for international transactions. It’s going to help our users a lot. I think it’s pretty cool. Have you used any fintech apps before?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Adding a payment gateway for international use sounds smart, it makes the app more useful for everyone. I’ve used some fintech apps for small things like recharging or paying bills. Which kind of fintech apps do you usually use?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "We mostly use our own app for transferring money between users, but I also use some popular ones like Paytm and PhonePe for stuff like recharging or buying tickets. They’re pretty convinient, but our app is more focused on cross-border stuff. Aapne Paytm use kiya hai?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "You said \"convenient\" — perfect word! Our app sounds well-focused for its users. Aapko Paytm ka Hindi naam padhkar thoda confusing laga, but I get what you meant. Which one do you use most often — Paytm or PhonePe?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Honestly, I use both, but Paytm more for big things like shopping or travel bookings. PhonePe is good for small stuff like UPI payments. It depends on the situation. By the way, do you use UPI in your country?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Yes, UPI is very popular here too, quick and easy for small payments. Shopping or travel bookings through Paytm sounds like a big step for one app. What part of the new payment gateway are you most excited about?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "The part where users can link multiple bank accounts and currencies is the most interesting to me. It makes the app more flexible for people who deal with international transactions often. I think it’ll be a big plus."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "That’s a smart feature, linking multiple accounts makes it easier for users to manage everything in one place. It sounds like you’re solving a real problem for your users. What made you decide to focus on this part of the gateway?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Honestly, I saw a lot of users struggling with managing different currencies and banks. So, we thought — why not make it easier? It’s like one-stop for everything. By the way, have you ever dealt with international payments?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "You're solving a real pain point — I get that. One-stop solutions are a big win. I haven’t handled big international payments, but I’ve sent small money transfers abroad. What made that process tricky for you?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "It can get tricky with all the currency conversions and transfer fees. Sometimes the process is slow, too. That’s why I think our new gateway will save users time and money. But hey, I should probably stop talking about work. It’s getting a bit much. Thanks for listening!"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You said it perfectly — time and money are big factors. Work talk can get heavy. What’s a small thing you do to switch off after a long day?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "I usually watch a Bollywood movie or two. They’re light and fun, even if the plots are sometimes a bit over the top. Music and emotions — you know how it is. Sometimes I even sing along! What about you — do you watch Indian movies?"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Got it, Bollywood is a perfect unwind. Music and emotions are always the stars. I watch the occasional Indian film — what’s your go-to movie when you’re in the mood?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "I usually go for old classics like Dilwale Dulhania Le Jayenge or Kabhi Khushi Kabhie Gham. They’re not too intense, and the songs are always a hit. Lately, I’ve also been into some cricket-based movies — they’re a good mix of sports and drama. You should check them out!"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Right, old Bollywood hits are a safe and happy choice. Cricket movies mix action and emotion well. What’s one cricket movie that made a strong impression on you?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "M.S. Dhoni: The Untold Story is my favorite cricket movie. It’s based on real life, and the way they showed his journey is amazing. The final match scene gives me goosebumps. Cricket movies are not my usual thing, but this one really stuck with me.  \nI think that’s enough for today. Thanks, Maya! It was nice chatting. Aajkal it’s getting late. Take care!"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "MS Dhoni’s journey is inspiring, real life can be the best story. The final match scene must have been emotional. Take your time, Priyansh — we’ll chat again soon. Aajkal chalte hai, but keep me updated on the new gateway launch!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "Bollywood (movie)",
+        "Hindi songs (song)",
+        "Ye Dil Maange More (song)",
+        "Lag Ja Gale (song)",
+        "Pyar Hua Ikrar (song)",
+        "Dilwale Dulhania Le Jayenge (movie)",
+        "Jawan (movie)",
+        "Rabba (song)",
+        "Dunki (movie)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Watching Pathaan (movie) was a fun experience for Priyansh, and he especially enjoyed the action scenes and Besharam Rang (song).",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Priyansh enjoys old Hindi songs like 'Ye Dil Maange More (song)', 'Lag Ja Gale (song)', and 'Pyar Hua Ikrar (song)', and also finds songs in movies like 'Rabba (song)' from Jawan (movie) appealing due to their old-school vibe.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Priyansh balances work by taking evening walks and watching cricket matches, and sometimes enjoys a 'Dilwale Dulhania Le Jayenge (movie)' rerun with some chai.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Priyansh is feeling exhausted from work and is considering watching the movie Dunki (movie) this weekend as a form of escape.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Priyansh expressed a deep fatigue from work and a longing for rest and weekend relaxation, feeling drained and overwhelmed with the current workload.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "low",
+        "energy": 3,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "songs matching movie scenes",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "weekend movie plans",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "India vs Pakistan match",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work fatigue",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Priyansh is feeling exhausted from work and is considering watching the movie Dunki (movie\" (tone: frustrated)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Priyansh expressed a deep fatigue from work and a longing for rest and weekend relaxation,\" (tone: frustrated)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Described a movie and its elements (action scenes, songs, mood) effectively in English (e.g. \"The action scenes were very thrilling, like when the main character fights with the bad guys. Also, the movie had some good Hindi songs...\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Described the style and appeal of a movie song, noting its blend of old and new styles. (e.g. \"'Rabba' mixing old and new is a smart move, songs like that really stand out.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Watching Pathaan (movie) was a fun experience for Priyansh, and he especially enjoyed the \" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "Described a movie and its elements (action scenes, songs, mood) effectively in English",
+          "examples": [
+            "The action scenes were very thrilling, like when the main character fights with the bad guys. Also, the movie had some good Hindi songs..."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Described the style and appeal of a movie song, noting its blend of old and new styles.",
+          "examples": [
+            "'Rabba' mixing old and new is a smart move, songs like that really stand out."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "Tell Maya how the work meeting went",
+        "source_session": "eval_1_A01_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "Tell Maya how the work deadline goes",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": "active",
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {
+        "correction_style": "2026-05-01"
+      }
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "Bollywood (movie)",
+        "Hindi songs (song)",
+        "Ye Dil Maange More (song)",
+        "Lag Ja Gale (song)",
+        "Pyar Hua Ikrar (song)",
+        "Dilwale Dulhania Le Jayenge (movie)",
+        "Jawan (movie)",
+        "Rabba (song)",
+        "Dunki (movie)",
+        "M.S. Dhoni: The Untold Story (movie)",
+        "cricket (sport)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Watching Pathaan (movie) was a fun experience for Priyansh, and he especially enjoyed the action scenes and Besharam Rang (song).",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Priyansh enjoys old Hindi songs like 'Ye Dil Maange More (song)', 'Lag Ja Gale (song)', and 'Pyar Hua Ikrar (song)', and also finds songs in movies like 'Rabba (song)' from Jawan (movie) appealing due to their old-school vibe.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Priyansh balances work by taking evening walks and watching cricket matches, and sometimes enjoys a 'Dilwale Dulhania Le Jayenge (movie)' rerun with some chai.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Priyansh is feeling exhausted from work and is considering watching the movie Dunki (movie) this weekend as a form of escape.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Priyansh expressed a deep fatigue from work and a longing for rest and weekend relaxation, feeling drained and overwhelmed with the current workload.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "Priyansh finds M.S. Dhoni: The Untold Story (movie) emotionally compelling, especially the final match scene, and considers it a standout cricket-based film.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Priyansh balances work discussions with casual Bollywood movie watching and small pleasures like singing along to songs as a way to unwind.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "low",
+        "energy": 3,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "songs matching movie scenes",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "weekend movie plans",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "India vs Pakistan match",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work fatigue",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "fintech apps",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "international payments",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket movies",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Priyansh is feeling exhausted from work and is considering watching the movie Dunki (movie\" (tone: frustrated)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Priyansh expressed a deep fatigue from work and a longing for rest and weekend relaxation,\" (tone: frustrated)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Described the style and appeal of a movie song, noting its blend of old and new styles. (e.g. \"'Rabba' mixing old and new is a smart move, songs like that really stand out.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Used past perfect tense to communicate a recent experience with clarity and precision. (e.g. \"I had finished by 5.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Correctly and confidently used the term 'UPI' in context of international payment systems. (e.g. \"Do you use UPI in your country?\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "Described a movie and its elements (action scenes, songs, mood) effectively in English",
+          "examples": [
+            "The action scenes were very thrilling, like when the main character fights with the bad guys. Also, the movie had some good Hindi songs..."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Described the style and appeal of a movie song, noting its blend of old and new styles.",
+          "examples": [
+            "'Rabba' mixing old and new is a smart move, songs like that really stand out."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Used past perfect tense to communicate a recent experience with clarity and precision.",
+          "examples": [
+            "I had finished by 5."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Correctly and confidently used the term 'UPI' in context of international payment systems.",
+          "examples": [
+            "Do you use UPI in your country?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "Tell Maya how the work meeting went",
+        "source_session": "eval_1_A01_same_day",
+        "source_date": "2026-05-01",
+        "status": "resolved",
+        "expires_at": "2026-05-31",
+        "resolved_at": "2026-05-01"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "Tell Maya how the work deadline goes",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": "active",
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {
+        "correction_style": "2026-05-01"
+      }
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 25.9
+}

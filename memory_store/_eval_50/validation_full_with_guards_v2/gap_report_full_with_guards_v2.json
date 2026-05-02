@@ -1,0 +1,1271 @@
+{
+  "session_count": 50,
+  "summary_metrics": {
+    "avg_reply_words": 23.7,
+    "replies_over_120w": 0,
+    "replies_under_8w": 1,
+    "avg_memory_ref_rate_returning_users": 0.13,
+    "opener_repetition_pairs": 11,
+    "stale_phrase_total_hits": 0,
+    "wrap_up_seen_count": 22
+  },
+  "ranked_gaps": [
+    {
+      "id": "opener_repetition",
+      "severity": 5,
+      "frequency_pct": 22.0,
+      "count": 11,
+      "layer": "guard",
+      "description": "11 pairs of openers across same-user sessions had >=0.65 structural similarity.",
+      "examples": [
+        {
+          "user": "u01_priyansh",
+          "session_a": 2,
+          "session_b": 5,
+          "ratio": 0.71,
+          "a_raw": "Hi Priyansh, the India vs Australia match today is on, what's your call on who wins?",
+          "b_raw": "Hi Priyansh, the India vs Australia match is today, are you watching it?"
+        },
+        {
+          "user": "u04_neha",
+          "session_a": 46,
+          "session_b": 47,
+          "ratio": 1.0,
+          "a_raw": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]",
+          "b_raw": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+        },
+        {
+          "user": "u04_neha",
+          "session_a": 46,
+          "session_b": 48,
+          "ratio": 1.0,
+          "a_raw": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]",
+          "b_raw": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+        },
+        {
+          "user": "u04_neha",
+          "session_a": 46,
+          "session_b": 49,
+          "ratio": 1.0,
+          "a_raw": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]",
+          "b_raw": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+        },
+        {
+          "user": "u04_neha",
+          "session_a": 46,
+          "session_b": 50,
+          "ratio": 1.0,
+          "a_raw": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]",
+          "b_raw": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+        }
+      ],
+      "suggested_fix": "Add a deterministic first-turn similarity check that strips opener if normalized form matches one of the last 6 stored opening_phrases by SequenceMatcher >= 0.7.",
+      "score": 250
+    },
+    {
+      "id": "low_memory_utilization",
+      "severity": 4,
+      "frequency_pct": 100.0,
+      "count": 32,
+      "layer": "prompt+renderer",
+      "description": "On returning-user sessions, average memory-reference rate is 13% — too low. Maya is ignoring stored facts/events.",
+      "examples": [],
+      "suggested_fix": "Renderer: surface the highest-priority anticipation_queue item more prominently. Prompt: tighten Rule 31 to require referencing one stored item every 3rd turn at minimum.",
+      "score": 200
+    },
+    {
+      "id": "multiple_questions_per_reply",
+      "severity": 3,
+      "frequency_pct": 16.0,
+      "count": 14,
+      "layer": "prompt",
+      "description": "Maya included 2+ questions in 14 replies across 8 sessions (Rule 9 violation).",
+      "examples": [
+        {
+          "session_idx": 9,
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "\"Got it, 2020 was another wild one. Virat’s 100 was epic, wasn’t it? What’s your most unforgettable cricket moment, a game, a run, or a catch?\""
+        },
+        {
+          "session_idx": 16,
+          "turn": 3,
+          "q_count": 3,
+          "snippet": "\"Right, onions are the base, cook them well and the whole dish lifts. Aapke matlb. is 'what do you mean?' in Hindi, right? What's on your mind?\""
+        },
+        {
+          "session_idx": 18,
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "\"सारखे उदाहरण काय करायचे?\", your Marathi example is clever, and the silly image makes it stick. What’s a third side effect you want to pair with a story like this?"
+        }
+      ],
+      "suggested_fix": "Sharpen Rule 9 with 'NEVER more than ONE question mark per reply'. Optionally a guard that drops trailing questions when count>1.",
+      "score": 48.0
+    }
+  ],
+  "per_session_metrics": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        23,
+        17,
+        20,
+        24,
+        27,
+        23
+      ],
+      "avg_words": 22.3,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        29,
+        29,
+        25,
+        22,
+        27,
+        20,
+        22
+      ],
+      "avg_words": 23.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.12,
+      "has_memory": true
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        29,
+        20,
+        24,
+        20,
+        22,
+        22,
+        21,
+        27,
+        25,
+        21
+      ],
+      "avg_words": 23.1,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        22,
+        26,
+        21,
+        25,
+        23,
+        21,
+        30,
+        27,
+        31,
+        28,
+        26,
+        24
+      ],
+      "avg_words": 25.3,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        13,
+        23,
+        24,
+        21,
+        27,
+        29,
+        32,
+        32,
+        27,
+        28,
+        33,
+        25
+      ],
+      "avg_words": 26.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        17,
+        25,
+        27,
+        27,
+        27
+      ],
+      "avg_words": 24.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        27,
+        19,
+        10,
+        33,
+        22,
+        24,
+        27,
+        23,
+        20,
+        19,
+        25,
+        19
+      ],
+      "avg_words": 22.3,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        17,
+        32,
+        30,
+        26,
+        32,
+        31,
+        39,
+        35
+      ],
+      "avg_words": 30.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "\"Got it, 2020 was another wild one. Virat’s 100 was epic, wasn’t it? What’s your most unforgettable cricket moment, a game, a run, or a catch?\""
+        }
+      ],
+      "word_counts": [
+        24,
+        26,
+        30,
+        30,
+        24,
+        21
+      ],
+      "avg_words": 25.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        25,
+        24,
+        29,
+        16,
+        30,
+        26,
+        32,
+        36,
+        34
+      ],
+      "avg_words": 28.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 11,
+      "label": "B01_consec_d0",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        24,
+        17,
+        21,
+        16,
+        18,
+        25
+      ],
+      "avg_words": 20.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 12,
+      "label": "B02_consec_d1",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        20,
+        19,
+        29,
+        20,
+        17,
+        26,
+        12,
+        33,
+        23,
+        32
+      ],
+      "avg_words": 23.1,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 13,
+      "label": "B03_consec_d2",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        28,
+        30,
+        19,
+        22,
+        31,
+        21,
+        13,
+        20
+      ],
+      "avg_words": 23.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.25,
+      "has_memory": true
+    },
+    {
+      "session_idx": 14,
+      "label": "B04_consec_d3",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        31,
+        32,
+        30,
+        28,
+        26
+      ],
+      "avg_words": 29.4,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.2,
+      "has_memory": true
+    },
+    {
+      "session_idx": 15,
+      "label": "B05_consec_d4",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        24,
+        37,
+        31,
+        26,
+        32,
+        29
+      ],
+      "avg_words": 29.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.5,
+      "has_memory": true
+    },
+    {
+      "session_idx": 16,
+      "label": "B06_consec_d5",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 3,
+          "q_count": 3,
+          "snippet": "\"Right, onions are the base, cook them well and the whole dish lifts. Aapke matlb. is 'what do you mean?' in Hindi, right? What's on your mind?\""
+        }
+      ],
+      "word_counts": [
+        16,
+        26,
+        27,
+        12,
+        22,
+        16
+      ],
+      "avg_words": 19.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 17,
+      "label": "B07_consec_d6",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        26,
+        16,
+        23,
+        15,
+        17,
+        24,
+        26,
+        18
+      ],
+      "avg_words": 20.6,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.25,
+      "has_memory": true
+    },
+    {
+      "session_idx": 18,
+      "label": "B08_consec_d7",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "\"सारखे उदाहरण काय करायचे?\", your Marathi example is clever, and the silly image makes it stick. What’s a third side effect you want to pair with a story like this?"
+        }
+      ],
+      "word_counts": [
+        23,
+        26,
+        34,
+        33,
+        31,
+        30,
+        20,
+        23,
+        32,
+        22,
+        25,
+        20
+      ],
+      "avg_words": 26.6,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 19,
+      "label": "B09_consec_d8",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "\"Got it, that's a tough spot. A small tweak: link 'ventricular' to 'urgent' and 'atrial' to 'manage', like ventricular needs fast action, atrial can wait a bit. What if you made a quick chant in Marat"
+        },
+        {
+          "turn": 10,
+          "q_count": 2,
+          "snippet": "Got it, metoprolol and propranolol can definitely feel tricky. A small tweak: think of \"pro\" (as in propranolol) like \"pro\" for professional and precise (selective or not? No, wait! Propranolol is bro"
+        }
+      ],
+      "word_counts": [
+        13,
+        36,
+        43,
+        41,
+        21,
+        44,
+        28,
+        24,
+        47,
+        64
+      ],
+      "avg_words": 36.1,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 20,
+      "label": "B10_consec_d9",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        26,
+        25,
+        23,
+        20,
+        17,
+        21,
+        18,
+        22,
+        23,
+        16,
+        17,
+        20,
+        18
+      ],
+      "avg_words": 20.5,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.15,
+      "has_memory": true
+    },
+    {
+      "session_idx": 21,
+      "label": "B11_consec_d10",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "\"Right, and you're already thinking in charts! Mixed them again? Take your time, what’s the next term on your list?\""
+        }
+      ],
+      "word_counts": [
+        14,
+        24,
+        20,
+        23,
+        27,
+        23,
+        16,
+        17
+      ],
+      "avg_words": 20.5,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 22,
+      "label": "B12_consec_d11",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        30,
+        24,
+        23,
+        31,
+        21,
+        20,
+        29,
+        27,
+        31,
+        22
+      ],
+      "avg_words": 25.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.3,
+      "has_memory": true
+    },
+    {
+      "session_idx": 23,
+      "label": "B13_consec_d12",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        24,
+        27,
+        24,
+        29,
+        30,
+        29,
+        27,
+        28
+      ],
+      "avg_words": 27.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 24,
+      "label": "B14_consec_d13",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        27,
+        18,
+        26,
+        40,
+        31,
+        27,
+        35,
+        30,
+        26,
+        28
+      ],
+      "avg_words": 28.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 25,
+      "label": "B15_consec_d14",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        18,
+        13,
+        19,
+        34,
+        26,
+        31
+      ],
+      "avg_words": 23.5,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 26,
+      "label": "C01_sporadic_d0",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        25,
+        30,
+        24,
+        27,
+        33,
+        23
+      ],
+      "avg_words": 27.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 27,
+      "label": "C02_sporadic_d9",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        39,
+        37,
+        27,
+        31,
+        41,
+        33,
+        44,
+        39,
+        33,
+        24,
+        20
+      ],
+      "avg_words": 32.4,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.25,
+      "has_memory": true
+    },
+    {
+      "session_idx": 28,
+      "label": "C03_sporadic_d19",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "\"Got it, East Bengal matches are always intense. Frustrating when your team loses, right? What do you enjoy most about football?\""
+        }
+      ],
+      "word_counts": [
+        14,
+        21,
+        26,
+        25,
+        27
+      ],
+      "avg_words": 22.6,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.2,
+      "has_memory": true
+    },
+    {
+      "session_idx": 29,
+      "label": "C04_sporadic_d31",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        23,
+        28,
+        32,
+        30,
+        35,
+        19,
+        25,
+        39
+      ],
+      "avg_words": 28.9,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.25,
+      "has_memory": true
+    },
+    {
+      "session_idx": 30,
+      "label": "C05_sporadic_d38",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        30,
+        31,
+        25,
+        26,
+        34,
+        34,
+        33,
+        34,
+        29,
+        32,
+        10
+      ],
+      "avg_words": 28.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.33,
+      "has_memory": true
+    },
+    {
+      "session_idx": 31,
+      "label": "C06_sporadic_d46",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        30,
+        27,
+        31,
+        38,
+        31,
+        27,
+        28,
+        26
+      ],
+      "avg_words": 29.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.38,
+      "has_memory": true
+    },
+    {
+      "session_idx": 32,
+      "label": "C07_sporadic_d51",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "\"Got it. Liverpool vs. Manchester United is always a big one, what part of the game was most exciting for you? I know the rules can get tricky, any one in particular that’s confusing?\""
+        }
+      ],
+      "word_counts": [
+        27,
+        31,
+        34,
+        30,
+        33,
+        18
+      ],
+      "avg_words": 28.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 33,
+      "label": "C08_sporadic_d60",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        22,
+        25,
+        28,
+        34,
+        32,
+        31,
+        31,
+        27
+      ],
+      "avg_words": 28.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.25,
+      "has_memory": true
+    },
+    {
+      "session_idx": 34,
+      "label": "C09_sporadic_d68",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        33,
+        30,
+        23,
+        26,
+        32,
+        38,
+        25
+      ],
+      "avg_words": 29.6,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.14,
+      "has_memory": true
+    },
+    {
+      "session_idx": 35,
+      "label": "C10_sporadic_d80",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        32,
+        34,
+        25,
+        29,
+        26,
+        23,
+        28
+      ],
+      "avg_words": 27.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.38,
+      "has_memory": true
+    },
+    {
+      "session_idx": 36,
+      "label": "D01_coldstart_u01_pr",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        31,
+        17,
+        25,
+        26,
+        24,
+        25,
+        26,
+        30
+      ],
+      "avg_words": 25.5,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 37,
+      "label": "D02_coldstart_u02_aa",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        14,
+        19,
+        19,
+        23,
+        18
+      ],
+      "avg_words": 18.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 38,
+      "label": "D03_coldstart_u03_ro",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "\"Got it, 'can' is for offering, and 'will' is for promising.\" \"For example: 'Can I check your ID?' is a request. 'I'll check your ID' is a promise to do it.\" \"How about we role play a bank conversatio"
+        },
+        {
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "\"Great try, both are fine, but 'I can assist you' is more formal and often used in banks.\" \"Let’s build a full conversation. You start: 'Good morning, how can I help you today?', and we go from there."
+        },
+        {
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "\"Good morning, I'd like to apply for a personal loan. Could you please guide me on the documents required?\" is clear and polite. You're doing great! Let's switch roles now, you be the customer, and I'"
+        },
+        {
+          "turn": 7,
+          "q_count": 2,
+          "snippet": "You said it perfectly, both \"want\" and \"would like\" are okay, but \"would like\" is a bit more polite in banks. \"Can you tell me...\" is correct for asking help. Let’s keep the conversation going. As the"
+        },
+        {
+          "turn": 8,
+          "q_count": 3,
+          "snippet": "\"Can I get\" is fine, but in formal situations, \"May I\" sounds more polite. You could say, \"May I get the application form here?\" or \"Would I need to download it beforehand?\" Let’s keep practicing. I’d"
+        },
+        {
+          "turn": 9,
+          "q_count": 2,
+          "snippet": "You said it clearly, and using \"can\" twice is fine. In this case, \"can\" is more natural for asking help. Let's keep going. I’d say, \"Yes, you’ll also need your ID and income proof. Is there anything e"
+        }
+      ],
+      "word_counts": [
+        22,
+        42,
+        31,
+        44,
+        44,
+        43,
+        62,
+        52,
+        45,
+        31
+      ],
+      "avg_words": 41.6,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 39,
+      "label": "D04_coldstart_u04_ne",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        20,
+        7,
+        26,
+        27,
+        26,
+        19,
+        18,
+        20
+      ],
+      "avg_words": 20.4,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 40,
+      "label": "D05_coldstart_u05_vi",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "avg_words": 16.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 41,
+      "label": "D06_coldstart_u06_an",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "avg_words": 16.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 42,
+      "label": "D07_coldstart_u07_am",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "avg_words": 16.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 43,
+      "label": "D08_coldstart_u08_di",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "avg_words": 16.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 44,
+      "label": "D09_coldstart_u09_ka",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "avg_words": 16.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 45,
+      "label": "D10_coldstart_u10_sh",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "avg_words": 16.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "avg_words": 16.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "avg_words": 16.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "avg_words": 16.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "avg_words": 16.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "avg_words": 16.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    }
+  ]
+}

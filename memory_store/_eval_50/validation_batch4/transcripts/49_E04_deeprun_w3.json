@@ -1,0 +1,744 @@
+{
+  "spec": {
+    "idx": 49,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-22",
+    "turns_target": 14,
+    "emotional_state": "anxious, exam stress",
+    "label": "E04_deeprun_w3"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, that 'thavil beat as heartbeat' idea was brilliant — it made the whole onboarding feel alive. What’s a new idea that’s buzzing in your head today?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hmm, actually my head’s more stuck on an upcoming design exam. I’m stressing over user journey maps — *nervous breakdown mode on*. But I’ve been thinking, what if we turned cafe menus into interactive design challenges? Like, \"rework this for a visually impaired user\" or something. *na?*"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds like a great way to practice. Turning real things into design challenges helps us think deeply. What part of the menu design do you find trickiest for visually impaired users?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The contrast and readability part is a big one, right? Like, if the text is too light on a white background, it’s a nightmare. Also, buttons or touchpoints in a cafe app — if they’re too close together, it’s easy to tap the wrong thing. *Eyy, imagine fumbling with a coffee order when you're already in a rush!* But how do you balance aesthetics with accessibility? That’s the real head-scratcher."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "You're right — balance is tricky. Making something look good while staying easy to use needs smart choices. Do you usually sketch out design ideas first, or jump straight into digital tools?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I usually sketch first — like, rough doodles on my phone notes app. Helps me think through the flow without getting caught up in colors or fonts too early. But sometimes I get so stuck in the sketch that I avoid going digital altogether. It’s like… *I don’t want to commit until it’s *perfect* in my head.* Which is dumb, obviously. Do you think starting digital forces better decisions?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "You sketch first — that makes sense. It’s a good way to focus on ideas, not just looks. Starting digital can push you to decide, yes, but sketching is a safe space to play. Maybe both? When do you feel more free — with pen and paper or on a screen?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Honestly? Pen and paper feels less pressure-y. If I mess up a sketch, I don’t feel like I’ve \"wasted time\" the way I do with a digital draft. But I do get stuck comparing it to \"real\" design later. Like, *is this even good enough to translate?* It’s a weird loop. Maybe I need to sketch more *badly* just to get more done? *Sigh.* Exams are making me overthink everything."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "I get that — exams make everything feel heavier. Sketching badly is totally fine — it’s about moving ideas forward, not perfection. What’s one small change you could make in your next sketch to feel more at ease with the process?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Maybe I could set a tiny goal, like one sketch a day for 10 minutes. No pressure, just moving. And maybe use a timer so I don’t overthink it. But honestly, the biggest hurdle is my own head — I need to stop seeing \"bad sketches\" as failures and more like… brain dumps. Easier said than done, though. 🙃"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "I love that idea — tiny goals make big things manageable. Brain dumps are meant to be messy, not perfect. What’s one thing you’ll let yourself ignore in your next sketch so you can just start?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Maybe I’ll let myself ignore the colors altogether. Like, just stick to black and white for the next sketch. If I don’t have to pick \"the right shade of brown\" for cafe vibes, I might actually finish it. Plus, it’ll force me to focus on layout and flow — which is way more important anyway. *I think.* Let’s see if my brain agrees."
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Black and white is a smart move — it cuts the noise and keeps you focused on what really matters. What’s the first thing you’ll sketch when you start?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Maybe a simple cafe order screen with bigger touch areas and clear labels. Something that feels intuitive even if you’re in a hurry or using a screen reader. I’ll make the buttons huge and spaced out — no more accidental \"add 1000ml of whipped cream\" moments. *Haha.* Just need to remember: this is a sketch, not a masterpiece. Let’s see how it goes."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "That sounds like a solid plan — practical and user-first. Starting small helps you build confidence. Did you try sketching it out already, or are you waiting for the right moment?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Not yet — been procrastinating by overthinking the *overthinking*. But I’m gonna do it tonight. Maybe with a cup of chai to feel all productive. *By the way, have you seen the new indie album by A.R. Rahman?* It’s giving me serious cafe sketch vibes. Maybe I’ll doodle to that. 🎵"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "That’s a great way to get into the flow — music and chai can work wonders. I haven’t heard the new album yet, but I’ll look out for it. What song are you thinking of using while you sketch?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Honestly, I might just play the whole album on shuffle — you know how those late-night creative sessions go. But I think *\"Vaadi Vaadi\"* has this chill rhythm that’d make me sketch without second-guessing every line. Plus, it’s got this *mellow synth* that makes me think of neon-lit cafe signs and bad design decisions. Perfect combo. Gonna give it a shot after my 8 PM chai fix. 🫧"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "\"Vaadi Vaadi\" sounds like the perfect track — mellow and creative. Chai and synth vibes are a winning combo. What’s one thing you hope to sketch without overthinking tonight?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "Just the cafe order layout — no colors, no fancy fonts, just big buttons and clear labels. If I can get that down, I’ll feel like I’ve won something. Maybe even take a messy sketch photo and post it with *#designbabysteps*. Let’s see if my brain lets me. Fingers crossed! 🤞"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "\"Big buttons and clear labels\" — that’s a win you can build on. A sketch is still a win, messy or not. What time tonight will you start?"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "Probably right after I finish this cup of chai — aim for 8:30 PM. Might need a second cup halfway through to keep the doodle energy alive. Fingers crossed I don’t get distracted by *yet another* design podcast. *Sigh.* But hey, at least I’ll have a sketch by midnight. Or by 1 AM. Depends on how many times I pause the album to adjust the bass. 🎧"
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "That sounds like a solid plan — with chai, music, and a little flexibility. Midnight or 1 AM, it’s still a win. What will you name your sketch to keep you motivated?"
+    },
+    {
+      "turn": 13,
+      "role": "user",
+      "content": "Maybe call it *\"Neon Chaos v1.0\"* — gives it that experimental cafe vibe. If it’s terrible, I can just say it was *intentional*. Or blame the bass levels. Either way, it’s a step forward. Alright, I should probably head out — got an app mockup due tomorrow. Talk to you later, Maya! 😊"
+    },
+    {
+      "turn": 13,
+      "role": "maya",
+      "content": "\"Neon Chaos v1.0\" sounds fun and full of possibility. Step forward or not, it’s all part of the process. Tell me how the mockup goes tomorrow — I’m here whenever you want to practice. Have a great session! 😊"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "profession": "designer",
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "interests": [
+        "app design",
+        "sketching",
+        "doodling",
+        "notebook design",
+        "music"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "coffee spilled on notebook; sketch of new app interface damaged",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Loves the satisfaction of seeing messy thoughts turn into something real—like watching a seed grow. Especially loves flipping back later and finding forgotten ideas.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Uses the Tamil mantra 'Look at it without responsibility' (பொறுப்பு பொறுப்பில்லாமல் பார்த்துக்கொள்) to detach when drowning in design deadlines or frustration",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Prefers working in bustling environments with personal boundaries — 'the hum of a café, but need a quiet corner.' Values company that doesn't require attention — 'like a silent friend.'",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Draws inspiration from listening to old Marathi folk songs (especially ones her mom used to hum). A song recently sparked the idea for a modernized button design with traditional motifs. Values the way cultural memory combined with modern product design can feel both nostalgic and fresh.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Music is essential to her creative process — loud indie playlists while walking, folk songs, rhythmic instruments like thavil all unlock stuck design ideas. Sometimes loops a single song for 20 minutes while working, and a breakthrough arrives. Believes music accesses creative insights that linear thinking blocks.",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.72,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.49,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_48_E03_deeprun_w2",
+        "date": "2026-05-15",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "design challenges and iteration",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "walking with music",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "breaking creative loops",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "unexpected inspiration sources",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "simplicity in design",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "cafés as creative spaces",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "sketching preferences",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "social preferences while working",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "dream café design",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Uses vivid metaphors and cultural analogies naturally to explain complex ideas — engages listener through sensory and em (e.g. \"thought 'thavil beat as the heartbeat of our app's onboarding flow'; used 'masala dosa layers' as analogy for feature introduction strategy\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Draws inspiration from listening to old Marathi folk songs (especially ones her mom used t\" (tone: grateful)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Music is essential to her creative process — loud indie playlists while walking, folk song\" (tone: excited)",
+        "source_id": "mo_005",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Prefers working in bustling environments with personal boundaries — 'the hum of a café, bu\" (tone: content)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Loves the satisfaction of seeing messy thoughts turn into something real—like watching a s\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "Uses vivid metaphors and cultural analogies naturally to explain complex ideas — engages listener through sensory and em",
+          "examples": [
+            "thought 'thavil beat as the heartbeat of our app's onboarding flow'; used 'masala dosa layers' as analogy for feature introduction strategy"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-15",
+          "last_seen": "2026-05-15"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "profession": "designer",
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "interests": [
+        "app design",
+        "sketching",
+        "doodling",
+        "notebook design",
+        "music"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "coffee spilled on notebook; sketch of new app interface damaged",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Loves the satisfaction of seeing messy thoughts turn into something real—like watching a seed grow. Especially loves flipping back later and finding forgotten ideas.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Uses the Tamil mantra 'Look at it without responsibility' (பொறுப்பு பொறுப்பில்லாமல் பார்த்துக்கொள்) to detach when drowning in design deadlines or frustration",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Prefers working in bustling environments with personal boundaries — 'the hum of a café, but need a quiet corner.' Values company that doesn't require attention — 'like a silent friend.'",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Draws inspiration from listening to old Marathi folk songs (especially ones her mom used to hum). A song recently sparked the idea for a modernized button design with traditional motifs. Values the way cultural memory combined with modern product design can feel both nostalgic and fresh.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Music is essential to her creative process — loud indie playlists while walking, folk songs, rhythmic instruments like thavil all unlock stuck design ideas. Sometimes loops a single song for 20 minutes while working, and a breakthrough arrives. Believes music accesses creative insights that linear thinking blocks.",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.72,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.49,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_48_E03_deeprun_w2",
+        "date": "2026-05-15",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "design challenges and iteration",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "walking with music",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "breaking creative loops",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "unexpected inspiration sources",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "simplicity in design",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "cafés as creative spaces",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "sketching preferences",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "social preferences while working",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "dream café design",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Uses vivid metaphors and cultural analogies naturally to explain complex ideas — engages listener through sensory and em (e.g. \"thought 'thavil beat as the heartbeat of our app's onboarding flow'; used 'masala dosa layers' as analogy for feature introduction strategy\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Draws inspiration from listening to old Marathi folk songs (especially ones her mom used t\" (tone: grateful)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Music is essential to her creative process — loud indie playlists while walking, folk song\" (tone: excited)",
+        "source_id": "mo_005",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Prefers working in bustling environments with personal boundaries — 'the hum of a café, bu\" (tone: content)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Loves the satisfaction of seeing messy thoughts turn into something real—like watching a s\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "Uses vivid metaphors and cultural analogies naturally to explain complex ideas — engages listener through sensory and em",
+          "examples": [
+            "thought 'thavil beat as the heartbeat of our app's onboarding flow'; used 'masala dosa layers' as analogy for feature introduction strategy"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-15",
+          "last_seen": "2026-05-15"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 174.9
+}

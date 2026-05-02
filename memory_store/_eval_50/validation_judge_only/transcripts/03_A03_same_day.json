@@ -1,0 +1,656 @@
+{
+  "spec": {
+    "idx": 3,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 10,
+    "emotional_state": "tired, slept badly",
+    "label": "A03_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Priyansh, the cricket and business chat with that startup founder must have been interesting. What did you take away from it?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "It was good. He said focus on one thing. Many startups fail because they try too many things. Some *bhari* ideas, but not actionable."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That makes sense — focusing keeps things clear. What did you think about the cricket part of the chat?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Oh, that part was fun. He compared a cricket team to a startup — everyone has a role. If someone doesn’t do their job, the whole game suffers. I liked that analogy."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "\"Cricket and startups both need teamwork. What made that idea land for you?\""
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Maybe because I play cricket, I could see what he meant. Like, a batsman can’t just think about his score — he has to work with the fielders, the bowler. Startup is same — you can’t work alone. It *click* for me."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Got it — the *click* is when theory meets practice. Was that idea new to you, or did it confirm something you already felt?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "It confirmed something I felt. I always thought good ideas matter, but now I see execution and teamwork are equally important. Maybe more."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "You’re doing great — that’s a solid shift in thinking. What’s one thing you want to focus on in your work now?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I want to focus more on collaboration. At work, I tend to do things alone. Maybe if I work better with my team, we can move faster. Let’s try."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "That sounds like a smart plan. Working with others can really speed things up. What’s one small way you could start collaborating more this week?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Maybe I can ask my teammate for feedback on my code before I submit it. Or pair up for a task once. It’s small, but could help. Let’s give it a shot."
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Starting small helps build the habit. What task would you pick for that first teamwork try?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Maybe the next API integration task. It’s something I usually do alone, but I can ask my teammate to pair with me. Two heads might spot issues I miss. Let’s see how it goes."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "That’s a solid choice — API setups can be tricky. How do you feel about asking for help on it?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Honestly, I feel a bit shy. I’m used to doing things alone, so asking for help feels like a risk. But I think trying it once could be good. Let’s give it a try."
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Shyness is totally normal — but it gets easier with practice. What’s one small step you can take to start the conversation with your teammate?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Maybe I can just message him today and say, “Hey, want to pair on the next API task? I think it could help.” That’s small, but I’ll do it. Thanks, Maya. I think I’ll give it a shot."
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "You’re doing great — small steps matter. How do you think your teammate will react to that message?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Priyansh",
+      "sector": "fintech",
+      "work_values": "documentation and clear communication",
+      "favorite_movies": [
+        "Yeh Jawaani Hai Deewani (movie)"
+      ],
+      "interests": [
+        "cricket (sport)"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "worked on a project",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "met startup founder, discussed cricket and business communication",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      },
+      {
+        "id": "ev_003",
+        "what": "watched Yeh Jawaani Hai Deewani (movie)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "teamwork made it easier — we all had different ideas, but working together helped",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.78,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "payment bug fix",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "API integration",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "data security",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"met startup founder, discussed cricket and business communication\" — today",
+        "source_id": "ev_002",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"watched Yeh Jawaani Hai Deewani (movie)\" — today",
+        "source_id": "ev_003",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used complex embedded clause correctly (e.g. \"I learned how important it is to test under real-like conditions\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used contrasting compound sentences (e.g. \"we all had different ideas, but working together helped\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"teamwork made it easier — we all had different ideas, but working together helped\" (tone: grateful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "used complex embedded clause correctly",
+          "examples": [
+            "I learned how important it is to test under real-like conditions"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used contrasting compound sentences",
+          "examples": [
+            "we all had different ideas, but working together helped"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Priyansh",
+      "sector": "fintech",
+      "work_values": "documentation and clear communication",
+      "favorite_movies": [
+        "Yeh Jawaani Hai Deewani (movie)"
+      ],
+      "interests": [
+        "cricket (sport)"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "worked on a project",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "met startup founder, discussed cricket and business communication",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "watched Yeh Jawaani Hai Deewani (movie)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "teamwork made it easier — we all had different ideas, but working together helped",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I always thought good ideas matter, but now I see execution and teamwork are equally important. Maybe more.",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "I feel a bit shy about asking for help. I'm used to doing things alone, so asking for help feels like a risk. But I think trying it once could be good.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.78,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "payment bug fix",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "API integration",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "data security",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work focus",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"watched Yeh Jawaani Hai Deewani (movie)\" — today",
+        "source_id": "ev_003",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel a bit shy about asking for help. I'm used to doing things alone, so asking for help\" (tone: anxious)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used complex embedded clause correctly (e.g. \"I learned how important it is to test under real-like conditions\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used contrasting compound sentences (e.g. \"we all had different ideas, but working together helped\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used em dashes with parallel structure (e.g. \"a batsman can't just think about his score — he has to work with the fielders, the bowler\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "drops -ed ending on past participles",
+          "examples": [
+            "It click for me"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "used complex embedded clause correctly",
+          "examples": [
+            "I learned how important it is to test under real-like conditions"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used contrasting compound sentences",
+          "examples": [
+            "we all had different ideas, but working together helped"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used em dashes with parallel structure",
+          "examples": [
+            "a batsman can't just think about his score — he has to work with the fielders, the bowler"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "drops -ed ending on past participles",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "It click for me"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "message teammate asking about pairing on next API integration task",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 111.2
+}

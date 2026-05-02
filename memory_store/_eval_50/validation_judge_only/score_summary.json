@@ -1,0 +1,324 @@
+{
+  "baseline": {
+    "label": "WITH-GUARDS (regex, baseline)",
+    "folder": "/Users/priyansh/Downloads/peerup-prototype/memory_store/_eval_50/validation_full_with_guards_v2/transcripts",
+    "n_sessions": 50,
+    "n_maya_turns": 434,
+    "counts": {
+      "soft_bio": 4,
+      "greeting_t2": 32,
+      "self_intro_t2": 18,
+      "multi_q": 14,
+      "bio_hard": 1
+    },
+    "sessions_with": {
+      "soft_bio": [
+        "01_A01_same_day",
+        "02_A02_same_day",
+        "03_A03_same_day"
+      ],
+      "greeting_t2": [
+        "02_A02_same_day",
+        "03_A03_same_day",
+        "04_A04_same_day",
+        "05_A05_same_day",
+        "06_A06_same_day",
+        "07_A07_same_day",
+        "08_A08_same_day",
+        "09_A09_same_day",
+        "10_A10_same_day",
+        "12_B02_consec_d1",
+        "13_B03_consec_d2",
+        "14_B04_consec_d3",
+        "15_B05_consec_d4",
+        "16_B06_consec_d5",
+        "17_B07_consec_d6",
+        "18_B08_consec_d7",
+        "19_B09_consec_d8",
+        "20_B10_consec_d9",
+        "21_B11_consec_d10",
+        "22_B12_consec_d11",
+        "23_B13_consec_d12",
+        "24_B14_consec_d13",
+        "25_B15_consec_d14",
+        "27_C02_sporadic_d9",
+        "28_C03_sporadic_d19",
+        "29_C04_sporadic_d31",
+        "30_C05_sporadic_d38",
+        "31_C06_sporadic_d46",
+        "32_C07_sporadic_d51",
+        "33_C08_sporadic_d60",
+        "34_C09_sporadic_d68",
+        "35_C10_sporadic_d80"
+      ],
+      "self_intro_t2": [
+        "04_A04_same_day",
+        "07_A07_same_day",
+        "10_A10_same_day",
+        "12_B02_consec_d1",
+        "13_B03_consec_d2",
+        "14_B04_consec_d3",
+        "15_B05_consec_d4",
+        "17_B07_consec_d6",
+        "18_B08_consec_d7",
+        "20_B10_consec_d9",
+        "23_B13_consec_d12",
+        "24_B14_consec_d13",
+        "25_B15_consec_d14",
+        "27_C02_sporadic_d9",
+        "29_C04_sporadic_d31",
+        "31_C06_sporadic_d46",
+        "32_C07_sporadic_d51",
+        "33_C08_sporadic_d60"
+      ],
+      "multi_q": [
+        "09_A09_same_day",
+        "16_B06_consec_d5",
+        "18_B08_consec_d7",
+        "19_B09_consec_d8",
+        "21_B11_consec_d10",
+        "28_C03_sporadic_d19",
+        "32_C07_sporadic_d51",
+        "38_D03_coldstart_u03_ro"
+      ],
+      "bio_hard": [
+        "35_C10_sporadic_d80"
+      ]
+    },
+    "samples": {
+      "soft_bio": [
+        [
+          "01_A01_same_day",
+          5,
+          "Got it, batting for the thrill, bowling for the wicket magic. I follow cricket, what's your favourite moment in a match. A big score. A tight finish?"
+        ],
+        [
+          "02_A02_same_day",
+          2,
+          "\"India's got a strong team, Kohli and Jasprit make a great combo. I follow cricket, but not as closely as you, what position do you like in a match?\""
+        ],
+        [
+          "02_A02_same_day",
+          3,
+          "India's got a strong team, Kohli and Jasprit make a great combo. I follow cricket, but not as closely as you, what position do you like in a match?"
+        ]
+      ],
+      "greeting_t2": [
+        [
+          "02_A02_same_day",
+          1,
+          "Hi Priyansh, the India vs Australia match today is on, what's your call on who wins?"
+        ],
+        [
+          "03_A03_same_day",
+          1,
+          "Hi Priyansh, the India vs Australia match today must have been exciting! I'm a morning person, so I love starting the day with some cricket. Did you watch it?"
+        ],
+        [
+          "04_A04_same_day",
+          1,
+          "Hi Priyansh, I'm Miss Maya. Honestly, I'm looking forward to this cricket match today, India vs Australia. What are you rooting for?"
+        ]
+      ],
+      "self_intro_t2": [
+        [
+          "04_A04_same_day",
+          1,
+          "Hi Priyansh, I'm Miss Maya. Honestly, I'm looking forward to this cricket match today, India vs Australia. What are you rooting for?"
+        ],
+        [
+          "07_A07_same_day",
+          1,
+          "Hi Priyansh, I'm Miss Maya. The way you describe cricket, I can tell you really love the thrill. What's been your most exciting match to watch lately?"
+        ],
+        [
+          "10_A10_same_day",
+          1,
+          "Hi Priyansh, I'm Miss Maya. Honestly, mornings make me happy, fresh air, calm streets, and the smell of breakfast. How do you start your day?"
+        ]
+      ],
+      "multi_q": [
+        [
+          "09_A09_same_day",
+          2,
+          "\"Got it, 2020 was another wild one. Virat’s 100 was epic, wasn’t it? What’s your most unforgettable cricket moment, a game, a run, or a catch?\""
+        ],
+        [
+          "16_B06_consec_d5",
+          3,
+          "\"Right, onions are the base, cook them well and the whole dish lifts. Aapke matlb. is 'what do you mean?' in Hindi, right? What's on your mind?\""
+        ],
+        [
+          "18_B08_consec_d7",
+          6,
+          "\"सारखे उदाहरण काय करायचे?\", your Marathi example is clever, and the silly image makes it stick. What’s a third side effect you want to pair with a story like this?"
+        ]
+      ],
+      "bio_hard": [
+        [
+          "35_C10_sporadic_d80",
+          1,
+          "Hi Rohan, I saw you watched the East Bengal Mohun Bagan match, what stood out for you in that comeback win?"
+        ]
+      ]
+    }
+  },
+  "judge_only": {
+    "label": "JUDGE-ONLY (Qwen judge, after)",
+    "folder": "/Users/priyansh/Downloads/peerup-prototype/memory_store/_eval_50/validation_judge_only/transcripts",
+    "n_sessions": 50,
+    "n_maya_turns": 438,
+    "counts": {
+      "dashes": 363,
+      "greeting_t2": 15,
+      "multi_q": 40
+    },
+    "sessions_with": {
+      "dashes": [
+        "01_A01_same_day",
+        "02_A02_same_day",
+        "03_A03_same_day",
+        "04_A04_same_day",
+        "05_A05_same_day",
+        "06_A06_same_day",
+        "07_A07_same_day",
+        "08_A08_same_day",
+        "09_A09_same_day",
+        "10_A10_same_day",
+        "11_B01_consec_d0",
+        "12_B02_consec_d1",
+        "13_B03_consec_d2",
+        "14_B04_consec_d3",
+        "15_B05_consec_d4",
+        "16_B06_consec_d5",
+        "17_B07_consec_d6",
+        "18_B08_consec_d7",
+        "19_B09_consec_d8",
+        "20_B10_consec_d9",
+        "21_B11_consec_d10",
+        "22_B12_consec_d11",
+        "23_B13_consec_d12",
+        "24_B14_consec_d13",
+        "25_B15_consec_d14",
+        "26_C01_sporadic_d0",
+        "27_C02_sporadic_d9",
+        "28_C03_sporadic_d19",
+        "29_C04_sporadic_d31",
+        "30_C05_sporadic_d38",
+        "31_C06_sporadic_d46",
+        "32_C07_sporadic_d51",
+        "33_C08_sporadic_d60",
+        "34_C09_sporadic_d68",
+        "35_C10_sporadic_d80",
+        "36_D01_coldstart_u01_pr",
+        "37_D02_coldstart_u02_aa",
+        "38_D03_coldstart_u03_ro",
+        "39_D04_coldstart_u04_ne",
+        "40_D05_coldstart_u05_vi",
+        "41_D06_coldstart_u06_an",
+        "42_D07_coldstart_u07_am",
+        "43_D08_coldstart_u08_di",
+        "44_D09_coldstart_u09_ka",
+        "45_D10_coldstart_u10_sh",
+        "46_E01_deeprun_w0",
+        "47_E02_deeprun_w1",
+        "48_E03_deeprun_w2",
+        "49_E04_deeprun_w3",
+        "50_E05_deeprun_w4"
+      ],
+      "greeting_t2": [
+        "04_A04_same_day",
+        "05_A05_same_day",
+        "09_A09_same_day",
+        "15_B05_consec_d4",
+        "16_B06_consec_d5",
+        "17_B07_consec_d6",
+        "18_B08_consec_d7",
+        "23_B13_consec_d12",
+        "27_C02_sporadic_d9",
+        "31_C06_sporadic_d46",
+        "34_C09_sporadic_d68",
+        "47_E02_deeprun_w1",
+        "48_E03_deeprun_w2",
+        "49_E04_deeprun_w3",
+        "50_E05_deeprun_w4"
+      ],
+      "multi_q": [
+        "06_A06_same_day",
+        "07_A07_same_day",
+        "10_A10_same_day",
+        "12_B02_consec_d1",
+        "18_B08_consec_d7",
+        "20_B10_consec_d9",
+        "24_B14_consec_d13",
+        "25_B15_consec_d14",
+        "26_C01_sporadic_d0",
+        "27_C02_sporadic_d9",
+        "28_C03_sporadic_d19",
+        "29_C04_sporadic_d31",
+        "30_C05_sporadic_d38",
+        "34_C09_sporadic_d68",
+        "35_C10_sporadic_d80",
+        "39_D04_coldstart_u04_ne",
+        "41_D06_coldstart_u06_an",
+        "44_D09_coldstart_u09_ka",
+        "45_D10_coldstart_u10_sh",
+        "48_E03_deeprun_w2",
+        "50_E05_deeprun_w4"
+      ]
+    },
+    "samples": {
+      "dashes": [
+        [
+          "01_A01_same_day",
+          1,
+          "Hi Priyansh, I'm Miss Maya. It's a lovely evening to chat — how was your day?"
+        ],
+        [
+          "01_A01_same_day",
+          2,
+          "You worked on a project and watched a Bollywood movie — that sounds like a perfect balance. What movie did you watch?"
+        ],
+        [
+          "01_A01_same_day",
+          3,
+          "Yeh Jawaani Hai Deewani is such a classic — and those songs never get old. Meeting a startup founder who loves cricket must have been fun. What did you talk about first?"
+        ]
+      ],
+      "greeting_t2": [
+        [
+          "04_A04_same_day",
+          1,
+          "Hi Priyansh, I heard you watched Yeh Jawaani Hai Deewani. Did you catch the latest scene where they dance by the lake?"
+        ],
+        [
+          "05_A05_same_day",
+          1,
+          "Hi Priyansh, it's good to see you again! What's been on your mind today?"
+        ],
+        [
+          "09_A09_same_day",
+          1,
+          "Hi Priyansh. How was the one-run victory you mentioned?"
+        ]
+      ],
+      "multi_q": [
+        [
+          "06_A06_same_day",
+          3,
+          "The underdog spirit is always magnetic — it gives you that extra push, doesn’t it? What are you rooting for next?"
+        ],
+        [
+          "07_A07_same_day",
+          2,
+          "\"Iski baat kyun itni mushkil hai?\" — it's a common challenge when mixing different worlds. The startup and Bollywood blend is a fresh idea. What part of the script keeps needing changes?"
+        ],
+        [
+          "07_A07_same_day",
+          3,
+          "\"Real but cinematic\" is tricky — you're not overthinking, that’s where good writing happens. What’s the coder’s breakdown scene like? A quiet desk moment or a big team confrontation?"
+        ]
+      ]
+    }
+  }
+}

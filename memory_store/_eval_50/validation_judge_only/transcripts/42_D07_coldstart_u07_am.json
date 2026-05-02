@@ -1,0 +1,294 @@
+{
+  "spec": {
+    "idx": 42,
+    "profile_id": "u07_aman",
+    "eval_user_key": "u07_aman_cold",
+    "today": "2026-05-01",
+    "turns_target": 5,
+    "emotional_state": "anxious, exam stress",
+    "label": "D07_coldstart_u07_am"
+  },
+  "profile": {
+    "id": "u07_aman",
+    "user_name": "Aman",
+    "profession": "Professional fooseball player",
+    "mother_tongue": "Punjabi",
+    "interests": "Fooseball, marriage, office gossip",
+    "engagement": "chatty",
+    "english_level": "A2",
+    "personality": "informal, jokes around, switches topics quickly"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aman, I'm Miss Maya. I'm glad you joined to practice English. What's been keeping you busy today?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Exam stress, you know? Plus I practice fooseball daily, so that’s a lot. My friends say I should relax, but how? I play, study, and hear office gossip. Chai time is my only break. How are you?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "You're doing a lot — practice, study, gossip, and time for chai. That's a full day. What part of exam prep feels heaviest right now?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The math part, obviously. Numbers, formulas, *baarish* of confusion. Everyone says \"just practice\", but I get so tense I can’t even focus. I miss the days when I just played fooseball and didn’t care about exams. You know?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "I get that — exams bring so much pressure. You mentioned *baarish* of confusion — what’s one math topic that leaves you stuck most?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Algebra, mostly. Like, solving equations with letters and numbers... it’s confusing. Sometimes I think I get it, but then I see a new problem and *kya karu?* I just freeze. Geometry is worse, honestly. Why do we need so many angles and shapes? It’s not like in fooseball — there you hit the ball, here you just... think. Ugh."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "You’re not alone — algebra can feel like a maze. When you freeze, what helps you get moving again?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Hmm... usually I take a break, like play a quick game of fooseball or gossip with my teammates. But when I’m stuck on exams, even that doesn’t help much. Sometimes I just stare at the problem until it goes away... or my phone rings. Then I forget everything. 😅 Maybe I need better tricks? Any ideas? Or should I just *run away* like I do in games?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "You laugh, but exams do have their own kind of chaos. When you feel stuck, even for a moment, what small step could bring you back in?"
+    }
+  ],
+  "memory_before": {
+    "facts": {},
+    "events": [],
+    "moments": [],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "studying": "mathematics for exams",
+      "hobbies": [
+        "foosball (sport)"
+      ],
+      "academic_struggles": [
+        "algebra",
+        "geometry"
+      ],
+      "daily_rituals": [
+        "chai time"
+      ],
+      "distractions": [
+        "phone calls"
+      ],
+      "coping_strategies": [
+        "foosball breaks",
+        "teammate gossip"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I get so tense I can't even focus",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I miss the days when I just played foosball (sport) and didn't care about exams",
+        "tone": "sad",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Sometimes I think I get it, but then I see a new problem and I just freeze",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I just stare at the problem until it goes away or my phone rings, then I forget everything",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_42_D07_coldstart_u07_am",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_42_D07_coldstart_u07_am",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I get so tense I can't even focus\" (tone: anxious)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I miss the days when I just played foosball (sport) and didn't care about exams\" (tone: sad)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Sometimes I think I get it, but then I see a new problem and I just freeze\" (tone: frustrated)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I just stare at the problem until it goes away or my phone rings, then I forget everything\" (tone: frustrated)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "explore small steps that help when stuck on exam problems",
+        "source_session": "eval_42_D07_coldstart_u07_am",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 124.7
+}

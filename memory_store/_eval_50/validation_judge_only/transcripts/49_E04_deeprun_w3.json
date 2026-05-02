@@ -1,0 +1,624 @@
+{
+  "spec": {
+    "idx": 49,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-22",
+    "turns_target": 14,
+    "emotional_state": "anxious, exam stress",
+    "label": "E04_deeprun_w3"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, the monsoon is here and I love the smell of rain — how was your train ride?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Ugh, it was hectic! My train got delayed by an hour, and I was already stressed about the presentation tomorrow. But the rain definitely helped calm me down. I stepped outside to get some fresh air and, oh man, the smell was so *vazhuthu*! 🥰"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Got it — stressed then soothed by the weather. You said 'soothed by the weather' — that's a smooth phrase. What part of the presentation feels tight?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Honestly, I think it's the structure. I've got all the data ready, but putting it into a story people will actually care about? That’s the tricky part. Also, my boss keeps changing the slides last minute — *nervous energy*, you know? 😅"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "\"Story people care about\" is a sharp phrase. Structure shifts can definitely stress. What's the one slide that changes the most?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "The stats slide. Every time I finalize it, he wants a different visual or a new metric added. I swear, it’s like herding cats! I get it’s important, but it’s driving me *crazy* — we’ve only got 24 hours left!"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Right — stats are a moving target. Herding cats is a fun way to put it. What’s the one metric you’re sure should stay?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "The conversion rate, for sure. It’s the only number that shows actual user behavior, not just clicks or views. Everything else is fluff. Honestly, I just want the slide to be *done* — I’m so over this. But hey, at least the rain’s still falling and the coffee’s still hot. 😅"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Conversion rate is the real deal. Rain and coffee — classic stress balancers. What’s your go-to move when you’re stuck in a loop like this?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I take a walk, usually. Even if it’s just around the block. Or I’ll blast some lo-fi beats and reorganize my coffee stash — it’s weirdly calming. But honestly? Right now, I’m just trying to breathe and not let the last-minute changes mess with my head. I mean, we all get it… but ugh, *why so many stats?* 😅"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "You’re doing great — walking and coffee reorg are solid moves. Why do you think the stats keep piling up?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Honestly, I think it’s because no one’s 100% sure what the presentation is *for*. Is it to convince investors? To show the team we’re on track? If we knew the goal, we wouldn’t be adding fluff — we’d be sharpening the message. But yeah, I guess that’s part of working in a startup — everyone has a theory, and all of them show up on the same slide. 😅"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "That makes sense — unclear goals breed fluff. What’s your backup plan if the stats don’t settle before tomorrow?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I’ll just do a stripped-down version with the core metrics and a quick note that some data is still being finalized. It’s not perfect, but at least it’s clear. Maybe I can pivot the presentation to focus more on *narrative* than numbers — you know, just in case. Fingers crossed it all settles soon!"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "That sounds like a smart pivot. Focusing on the story makes sense. Will you add the note in bold?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Yeah, I will — maybe a quick \"Data updates pending\" in bold at the bottom. Simple and honest. It’s not a perfect solution, but at least it sets the right expectations. Honestly, I just need to stop second-guessing and trust my gut. *Easy for you to say*, right? 😅"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Got it — honesty beats perfection. What’s the one thing you’re most confident about in the presentation?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "The visuals for sure — the flow and the key points look strong. I just need to rehearse the script a bit more. If I can keep the story tight, the stats can wait in the background. And hey, if all else fails, I’ll just blame the monsoon for the jitters. 😅"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "You said \"the stats can wait in the background\" — that’s a solid mindset. Will you rehearse out loud or just run through it in your head?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "Out loud, definitely — I’ll record myself and play it back on loop until it feels smooth. My voice gets shaky when I’m nervous, so the more I hear it, the better. Also, I’ll practice in the meeting room tomorrow morning to get a feel for the acoustics. No more surprises, right? 😅"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "You said \"play it back on loop\" — out loud practice is a strong move. Will you time yourself for each slide?"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "Yeah, I’ll time myself — 1.5 minutes per slide max. If I’m over, I’ll cut fluff or simplify the language. The goal is to be clear, not verbose. And honestly, I’ll probably add a joke or two to ease the tension. Even if it’s just \"As you can see… these stats are less exciting than my weekend plans.\" 😅"
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "That sounds like a solid plan. Jokes can really break the tension. What’s on your mind now?"
+    },
+    {
+      "turn": 13,
+      "role": "user",
+      "content": "Honestly? I’m just trying to not panic about the “what-ifs.” What if the Wi-Fi dies? What if the projector hates my visuals? What if I trip on my own shoes while walking to the meeting room? 🤭 But I guess that’s just nerves talking — I’ll just breathe, trust the prep, and hope the rain keeps falling. *Ummachu* luck, right? 😅"
+    },
+    {
+      "turn": 13,
+      "role": "maya",
+      "content": "You said 'the rain keeps falling' — that’s a nice touch. What’s your favorite way to calm your nerves before a big moment?"
+    },
+    {
+      "turn": 14,
+      "role": "user",
+      "content": "I’ll sip a big cup of ginger tea and blast my favorite lofi track on loop — the kind with soft rain sounds and a distant hum of indie guitar. It’s weirdly effective. Also, I’ll do a quick mindfulness thing — like a two-minute breathing break while staring out the window at the rain. *Chill vibes only*, you know? 🌧️☕️"
+    },
+    {
+      "turn": 14,
+      "role": "maya",
+      "content": "That’s a great combo — tea, music, and mindfulness. What’s the one track you always go back to?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "hometown": "Chennai",
+      "comfort_songs": [
+        "Kadhalikka Neram (song)",
+        "Enna Solluthen (song)",
+        "Raina (song)",
+        "Chikku (song)",
+        "Kurukku Kurukku (song)",
+        "Thuli Thuli (song)",
+        "Roja (song)"
+      ],
+      "family_members": [
+        "mother",
+        "aunt",
+        "cousins"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Roja (song) triggers childhood memories—running in my Chennai neighborhood, my mom played it on loop while cooking. Just the first few notes make me smell cardamom and feel like I'm 7 again.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Thuli Thuli (song) by Yuvan Shankar Raja takes me back instantly—danced to it in a hotel room during a Kerala trip; now every time I hear it, I'm instantly there.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Enna Solluthen (song) brings me back to my aunt's terrace with cousins eating vadais, the breeze, the sunset—like a whole mini-vacation in a song.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "music preferences",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Roja (song) triggers childhood memories—running in my Chennai neighborhood, my mom played \" (tone: grateful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Thuli Thuli (song) by Yuvan Shankar Raja takes me back instantly—danced to it in a hotel r\" (tone: grateful)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Enna Solluthen (song) brings me back to my aunt's terrace with cousins eating vadais, the \" (tone: grateful)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "Maya asked to hear how the train ride went",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "hometown": "Chennai",
+      "comfort_songs": [
+        "Kadhalikka Neram (song)",
+        "Enna Solluthen (song)",
+        "Raina (song)",
+        "Chikku (song)",
+        "Kurukku Kurukku (song)",
+        "Thuli Thuli (song)",
+        "Roja (song)"
+      ],
+      "family_members": [
+        "mother",
+        "aunt",
+        "cousins"
+      ],
+      "work_context": "startup employee",
+      "stress_relief_activities": [
+        "walking around the block",
+        "listening to lo-fi music",
+        "reorganizing coffee",
+        "drinking ginger tea",
+        "listening to lofi with rain sounds and indie guitar",
+        "mindfulness breathing",
+        "watching rain from window"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "work presentation (event)",
+        "date": "2026-05-23",
+        "added": "2026-05-22",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Roja (song) triggers childhood memories—running in my Chennai neighborhood, my mom played it on loop while cooking. Just the first few notes make me smell cardamom and feel like I'm 7 again.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Thuli Thuli (song) by Yuvan Shankar Raja takes me back instantly—danced to it in a hotel room during a Kerala trip; now every time I hear it, I'm instantly there.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Enna Solluthen (song) brings me back to my aunt's terrace with cousins eating vadais, the breeze, the sunset—like a whole mini-vacation in a song.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "The monsoon petrichor smell ('vazhuthu') instantly calms Neha—when work stress hits, stepping outside to breathe it in brings immediate reset.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Ginger tea + lofi track with soft rain sounds and indie guitar hum + two-minute mindfulness breathing while watching rain from the window—that's Neha's tried-and-true ritual for centering herself when everything feels chaotic.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "Even when presentation slides are shifting and deadlines loom, Neha steadies herself with tiny anchors—'the rain's still falling, the coffee's still hot.' Small truths that ground her.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_49_E04_deeprun_w3",
+        "date": "2026-05-22",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "music preferences",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 2
+        },
+        {
+          "topic": "stress-relief tactics",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "root cause analysis (unclear presentation goals)",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "backup planning",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "rehearsal preparation",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "timing and pacing per slide",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "calming techniques",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"work presentation (event)\" — tomorrow",
+        "source_id": "ev_001",
+        "priority": 9,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The monsoon petrichor smell ('vazhuthu') instantly calms Neha—when work stress hits, stepp\" (tone: grateful)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Ginger tea + lofi track with soft rain sounds and indie guitar hum + two-minute mindfulnes\" (tone: content)",
+        "source_id": "mo_005",
+        "priority": 4,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Even when presentation slides are shifting and deadlines loom, Neha steadies herself with \" (tone: hopeful)",
+        "source_id": "mo_006",
+        "priority": 4,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Roja (song) triggers childhood memories—running in my Chennai neighborhood, my mom played \" (tone: grateful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "event_pending",
+        "content": "work presentation on 2026-05-23 — follow up on how it went",
+        "source_session": "eval_49_E04_deeprun_w3",
+        "source_date": "2026-05-22",
+        "status": "active",
+        "expires_at": "2026-06-21"
+      },
+      {
+        "id": "ol_003",
+        "kind": "maya_promise",
+        "content": "ask Neha about her favorite lofi track with rain sounds and indie guitar (question cut off)",
+        "source_session": "eval_49_E04_deeprun_w3",
+        "source_date": "2026-05-22",
+        "status": "active",
+        "expires_at": "2026-06-21"
+      },
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "Maya asked to hear how the train ride went",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 132.7
+}

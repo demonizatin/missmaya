@@ -1,0 +1,378 @@
+{
+  "summary": {
+    "session_count": 15,
+    "category_totals": {
+      "A_titles": 3,
+      "B_named_entities": 1,
+      "C_personal_claims": 3,
+      "D_fake_quotes": 0
+    },
+    "category_session_counts": {
+      "C_personal_claims": 3,
+      "A_titles": 2,
+      "B_named_entities": 1
+    },
+    "examples": {
+      "C_personal_claims": [
+        {
+          "session_idx": 4,
+          "label": "A04_same_day",
+          "user": "Priyansh",
+          "turn": 2,
+          "claim": "I watched Dilwale Dulhania Le Jayenge again last week. What’s your go",
+          "snippet": "Ah, rain is the best kind of surprise — even when it’s just a drizzle. Coding and meetings sound busy. I watched Dilwale Dulhania Le Jayenge again last week. What’s your go-to Bollywood movie right no"
+        },
+        {
+          "session_idx": 9,
+          "label": "A09_same_day",
+          "user": "Priyansh",
+          "turn": 1,
+          "claim": "I've been thinking about your walks — how was your 20-minute reset today?",
+          "snippet": "Hi Priyansh, I've been thinking about your walks — how was your 20-minute reset today?"
+        },
+        {
+          "session_idx": 10,
+          "label": "A10_same_day",
+          "user": "Priyansh",
+          "turn": 1,
+          "claim": "I watched 'Raees' made me understand why people love Shah Rukh Khan s",
+          "snippet": "Hi Priyansh, I'm Miss Maya. Honestly, the first time I watched 'Raees' made me understand why people love Shah Rukh Khan so much. How was your day?"
+        }
+      ],
+      "A_titles": [
+        {
+          "session_idx": 6,
+          "label": "A06_same_day",
+          "user": "Priyansh",
+          "turn": 6,
+          "title": "your",
+          "snippet": "Got it — that prank in *Chennai Express* is a classic loop-worthy moment. I get how *Bhool Bhulaiyaa*’s prank feels more magical. What makes it feel like *your* favorite?"
+        },
+        {
+          "session_idx": 49,
+          "label": "E04_deeprun_w3",
+          "user": "Neha",
+          "turn": 2,
+          "title": "Mad day",
+          "snippet": "\"Mad day\" sounds heavy — exams are tough. I get how music helps you through it. What exam are you preparing for?"
+        },
+        {
+          "session_idx": 49,
+          "label": "E04_deeprun_w3",
+          "user": "Neha",
+          "turn": 6,
+          "title": "Dark chocolate and pretending to meditate",
+          "snippet": "\"Dark chocolate and pretending to meditate\" — I get that. Will you try the sketching first or save it as a backup plan?"
+        }
+      ],
+      "B_named_entities": [
+        {
+          "session_idx": 10,
+          "label": "A10_same_day",
+          "user": "Priyansh",
+          "turn": 1,
+          "entity": "Shah Rukh Khan",
+          "snippet": "Hi Priyansh, I'm Miss Maya. Honestly, the first time I watched 'Raees' made me understand why people love Shah Rukh Khan so much. How was your day?"
+        }
+      ]
+    }
+  },
+  "per_session": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 2,
+            "claim": "I watched Dilwale Dulhania Le Jayenge again last week. What’s your go",
+            "snippet": "Ah, rain is the best kind of surprise — even when it’s just a drizzle. Coding and meetings sound busy. I watched Dilwale Dulhania Le Jayenge again last week. What’s your go-to Bollywood movie right no"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 6,
+            "title": "your",
+            "snippet": "Got it — that prank in *Chennai Express* is a classic loop-worthy moment. I get how *Bhool Bhulaiyaa*’s prank feels more magical. What makes it feel like *your* favorite?"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 1,
+            "claim": "I've been thinking about your walks — how was your 20-minute reset today?",
+            "snippet": "Hi Priyansh, I've been thinking about your walks — how was your 20-minute reset today?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [
+          {
+            "turn": 1,
+            "entity": "Shah Rukh Khan",
+            "snippet": "Hi Priyansh, I'm Miss Maya. Honestly, the first time I watched 'Raees' made me understand why people love Shah Rukh Khan so much. How was your day?"
+          }
+        ],
+        "C_personal_claims": [
+          {
+            "turn": 1,
+            "claim": "I watched 'Raees' made me understand why people love Shah Rukh Khan s",
+            "snippet": "Hi Priyansh, I'm Miss Maya. Honestly, the first time I watched 'Raees' made me understand why people love Shah Rukh Khan so much. How was your day?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 1,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 2,
+            "title": "Mad day",
+            "snippet": "\"Mad day\" sounds heavy — exams are tough. I get how music helps you through it. What exam are you preparing for?"
+          },
+          {
+            "turn": 6,
+            "title": "Dark chocolate and pretending to meditate",
+            "snippet": "\"Dark chocolate and pretending to meditate\" — I get that. Will you try the sketching first or save it as a backup plan?"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 2,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    }
+  ]
+}

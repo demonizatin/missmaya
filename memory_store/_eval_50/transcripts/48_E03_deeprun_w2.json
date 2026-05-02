@@ -1,0 +1,728 @@
+{
+  "spec": {
+    "idx": 48,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-15",
+    "turns_target": 12,
+    "emotional_state": "lonely, wanting to talk",
+    "label": "E03_deeprun_w2"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, I hope your coffee situation is better today! Speaking of music, I love sketching while listening to calm tunes. What kind of music helps you relax?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hey, thanks for asking! Yeah, the coffee thing’s sorted—found a cute little café nearby. I usually vibe to lo-fi or soft indie tunes when I need to chill. Bands like The xx or even some Tamil slow songs, you know? What about you? Any particular artist you’re into?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Hi Neha, I'm glad to hear about the café! I enjoy listening to calm music too. My favorite is soft Tamil songs. They help me relax while I work. What’s your favorite Tamil song?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Oh, really? Soft Tamil songs are the best, right? “Nenjam Marappathu” by Yuvan still gives me chills. But lately, I’ve been into A.R. Rahman’s older stuff—like “Chennai Express” soundtrack. It’s weird how some melodies just stick with you. Do you have a go-to song for relaxing? I’m curious, I mean, if you don’t mind me asking."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Hi Neha, \"Nenjam Marappathu\" is a classic—so beautiful! I agree, old melodies have a way of staying with us. I often listen to \"En Iniya Ponnu\" by A.R. Rahman when I need to relax. It’s gentle and peaceful. What’s your favorite moment while listening to music?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Honestly? Late nights at my desk, sketching or coding, with my headphones on. The world just fades away, you know? I feel like I’m in my own little bubble. Sometimes I forget to eat because I’m just lost in the beat. It’s kinda magic. How about you? Any special moments like that?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Hi Neha, that sounds peaceful! I get that feeling too—like time stops when the music flows. I often sketch while listening to soft songs, just like you. Do you sketch a lot? What do you usually draw?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Yeah, sketching is a big part of my life—most days, I’m doodling product ideas or just random scenes I imagine. I love drawing cafes, like little nooks with sunlight pouring in, you know? It’s my way of escaping… even if it’s just on paper. Do you sketch too, or is it more about the music?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Hi Neha, that’s a lovely way to escape! I don’t sketch much, but I love how music helps me feel creative. Your café drawings sound amazing—do you ever turn them into real designs?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Sometimes, I do! Like, I once designed a café app interface with little sketchy vibes—like the menus had doodles of coffee cups and such. It never left the prototype phase, though. But it felt so freeing to blend art and function. You ever try mixing your passions into your work like that?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Hi Neha, that sounds fun and creative! I wish I could mix my passions like that. Do you think you might try bringing that café design to life someday?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Maybe, who knows? Life’s too short not to try, right? I keep thinking if only I had a café of my own, I’d plaster the walls with my doodles and blast Tamil indie tunes. But for now, I’ll just daydream. How do you unwind when you’re not listening to music?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Hi Neha, that sounds like a dream café! I unwind by sipping warm tea and watching the rain—simple things. Do you like rainy days?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Yeah, I love rainy days! There’s something so cozy about being inside with the rain tapping on the window. I used to draw a lot during monsoons as a kid, like imagining I was in some fantasy world with magical rains. Still do it sometimes—grab my sketchbook and just let the rain do its thing. You ever feel like the rain is basically nature’s ASMR? 🌧️"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Hi Neha, I completely get that! Rain feels like a natural calm song. I sometimes write while it rains—it helps my thoughts flow. What’s your favorite thing to draw on rainy days?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Rainy day sketches are always my escape hatch—usually, I draw these whimsical little cafes, or maybe a person with an umbrella, or some over-the-top rain clouds with little faces 😂. Sometimes I even add little Tamil song lyrics in the background. It’s my weird way of combining everything I love—music, art, and monsoons. What do you write when it rains?"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Hi Neha, that sounds so creative and fun! I write small stories when it rains—like little moments from daily life. What’s the funniest thing you’ve drawn in the rain?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Oh, let me think—I once drew a café with a giant coffee cup as the roof, and little raindrops falling into it like it was a waterfall of coffee. The “barista” was a cat in an apron. My roommate nearly died laughing. But hey, why not? Rainy days are for weird, happy ideas, right?"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Hi Neha, that’s hilarious and brilliant! A cat barista? Genius. I love how you bring ideas to life. Do you ever think of turning your drawings into something people can buy, like prints or stickers?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "Honestly? I’ve thought about it, but I’m a little shy to put my doodles out there. Maybe one day I’ll start a small Instagram or something—just for fun. But for now, I’ll keep imagining my cat-barista café empire. You ever think about sharing your stories with others? Like a blog or something?"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "Hi Neha, I love your cat-barista idea! It sounds like it could be a hit. I’ve thought about a blog too, but I’m not great at keeping up with one. Do you think you’d name your café something fun, like “The Doodle Bean”?"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "“Doodle Bean” sounds perfect—so cute and quirky! I can already see the little doodles on the cups and the playlist of Tamil indie tunes playing in the background. Maybe even a wall where customers can leave their own sketches. But I should probably get back to reality… for now. Thanks for chatting, Maya! 😊"
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "Hi Neha, I’m smiling at your “Doodle Bean” vision—it’s so creative! Let me know if you ever build it, I’ll be your first customer. What’s one thing you’ll do today to keep the dream alive?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "morning_ritual": "coffee + quick playlist",
+      "music_dependency": "can't focus without music; prefers lo-fi and mellow indie tracks",
+      "music_platform": "Spotify",
+      "favorite_upbeat_song": "Fixer-Upper by The Shins",
+      "sketching": "sketches while listening to calming music like Martha Wainwright",
+      "english_learning_method": "learns through music—picks up lyrics, slang, pronunciation by singing",
+      "learning_style": "rhythm-based learner; beats help words stick",
+      "travel_goal": "solo road trip to Kerala with sketchbook and indie music"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "My coffee spilled, my headphones died, and I can't focus. But at least I get to chat with you instead of sulking!",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "My brain felt like it was in slow motion. Even my favorite lo-fi beats felt like they were mocking me. I ended up switching genres five times—classic Neha overthinking.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Even my cozy blanket felt like it was judging my productivity fail. Maybe I need a serious playlist overhaul. Or maybe just a day off from being productive.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Sometimes I just need a full restart—like a digital 'delete everything and start fresh' moment. Ugh, I miss that.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "travel plans",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "learning through music",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "song recommendations",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "morning routine",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music for productivity",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music playlists",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "rest and breaks",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "mood-lifting music",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My brain felt like it was in slow motion. Even my favorite lo-fi beats felt like they were\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Even my cozy blanket felt like it was judging my productivity fail. Maybe I need a serious\" (tone: anxious)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Sometimes I just need a full restart—like a digital 'delete everything and start fresh' mo\" (tone: frustrated)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My coffee spilled, my headphones died, and I can't focus. But at least I get to chat with \" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "likes soft music while working",
+        "enjoys the cool post-lunch break feeling",
+        "appreciates good stories",
+        "uses chai to stay focused",
+        "finds monsoon mornings comforting",
+        "cooks as a form of relaxation",
+        "watches football",
+        "has not been to Chennai but would love to experience that vibe",
+        "enjoys books about Indian history",
+        "loves historical fiction",
+        "balances classics with contemporary literature",
+        "plays car games",
+        "dreams of attending a live F1 race",
+        "loves weekend getaways",
+        "packs light for trips"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "listen to and report on 'The A Team' by Ed Sheeran",
+        "source_session": "eval_47_E02_deeprun_w1",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "build Kerala road trip playlist with Maya's recommendations",
+        "source_session": "eval_47_E02_deeprun_w1",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "morning_ritual": "coffee + quick playlist",
+      "music_dependency": "can't focus without music; prefers lo-fi and mellow indie tracks",
+      "music_platform": "Spotify",
+      "favorite_upbeat_song": "Fixer-Upper by The Shins",
+      "sketching": "sketches while listening to calming music like Martha Wainwright",
+      "english_learning_method": "learns through music—picks up lyrics, slang, pronunciation by singing",
+      "learning_style": "rhythm-based learner; beats help words stick",
+      "travel_goal": "solo road trip to Kerala with sketchbook and indie music",
+      "favorite_tamil_song": "Nenjam Marappathu by Yuvan",
+      "ar_rahman_preference": "older work, especially 'Chennai Express' soundtrack",
+      "evening_activities": "late nights at desk, sketching or coding with headphones",
+      "sketching_subjects": "doodling product ideas, random scenes, cafes with sunlight pouring in",
+      "cafe_app_design": "designed café app interface with sketchy vibes (menus with coffee cup doodles), never left prototype stage",
+      "rainy_day_creativity": "draws during monsoons, imagines fantasy worlds, sketches whimsical cafés, adds Tamil song lyrics, cat barista café example",
+      "art_sharing_hesitation": "shy to share doodles publicly, interested in Instagram but hesitant",
+      "cafe_dream": "dreams of owning café with doodles on walls, Tamil indie playlist, customer sketch wall"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "My coffee spilled, my headphones died, and I can't focus. But at least I get to chat with you instead of sulking!",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "My brain felt like it was in slow motion. Even my favorite lo-fi beats felt like they were mocking me. I ended up switching genres five times—classic Neha overthinking.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Even my cozy blanket felt like it was judging my productivity fail. Maybe I need a serious playlist overhaul. Or maybe just a day off from being productive.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Sometimes I just need a full restart—like a digital 'delete everything and start fresh' moment. Ugh, I miss that.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_48_E03_deeprun_w2",
+        "date": "2026-05-15",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "music for relaxation",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "Tamil music",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "sketching habits",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "monetizing art",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "rainy day creativity",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "café design",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "travel plans",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "learning through music",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "song recommendations",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "morning routine",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music for productivity",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music playlists",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "the 'Doodle Bean' café concept",
+        "context": "Neha dreams of owning a café with doodles on cups, Tamil indie playlist, and a cat barista; Maya enthusiastically endorsed it and promised to be first customer",
+        "first_seen": "2026-05-15",
+        "last_used": "2026-05-15",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My brain felt like it was in slow motion. Even my favorite lo-fi beats felt like they were\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Even my cozy blanket felt like it was judging my productivity fail. Maybe I need a serious\" (tone: anxious)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Sometimes I just need a full restart—like a digital 'delete everything and start fresh' mo\" (tone: frustrated)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My coffee spilled, my headphones died, and I can't focus. But at least I get to chat with \" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "likes soft music while working",
+        "enjoys the cool post-lunch break feeling",
+        "appreciates good stories",
+        "uses chai to stay focused",
+        "finds monsoon mornings comforting",
+        "cooks as a form of relaxation",
+        "watches football",
+        "has not been to Chennai but would love to experience that vibe",
+        "enjoys books about Indian history",
+        "loves historical fiction",
+        "balances classics with contemporary literature",
+        "plays car games",
+        "dreams of attending a live F1 race",
+        "loves weekend getaways",
+        "packs light for trips"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "listen to and report on 'The A Team' by Ed Sheeran",
+        "source_session": "eval_47_E02_deeprun_w1",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "build Kerala road trip playlist with Maya's recommendations",
+        "source_session": "eval_47_E02_deeprun_w1",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 114.6
+}

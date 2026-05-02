@@ -1,0 +1,162 @@
+{
+  "facts": {
+    "interests": [
+      "pharmacology (exam)",
+      "physiology (subject)",
+      "cardiovascular system (subject)"
+    ]
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Studying for NEET PG is intense, and the user is feeling overwhelmed with pharmacology and physiology topics. They mentioned their notes look like a mess and that their brain feels fried.",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "The user used to make paneer stir-fry with veggies as a quick stress-relief meal but has stopped cooking due to fatigue from studying.",
+      "tone": "sad",
+      "sensitive": false,
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_37_D02_coldstart_u02_aa",
+      "date": "2026-05-07",
+      "label": "anxious",
+      "energy": 3,
+      "confidence": 0.7,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "studying tips",
+        "last_session": "eval_37_D02_coldstart_u02_aa",
+        "last_date": "2026-05-07",
+        "uses": 1
+      },
+      {
+        "topic": "cooking as a stress reliever",
+        "last_session": "eval_37_D02_coldstart_u02_aa",
+        "last_date": "2026-05-07",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_37_D02_coldstart_u02_aa",
+        "last_date": "2026-05-07"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Studying for NEET PG is intense, and the user is feeling overwhelmed with pharmacology and\" (tone: frustrated)",
+      "source_id": "mo_001",
+      "priority": 7,
+      "computed_at": "2026-05-07",
+      "expires_at": "2026-05-21",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"The user used to make paneer stir-fry with veggies as a quick stress-relief meal but has s\" (tone: sad)",
+      "source_id": "mo_002",
+      "priority": 7,
+      "computed_at": "2026-05-07",
+      "expires_at": "2026-05-21",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [
+      {
+        "pattern": "difficulty organizing notes and retaining information",
+        "examples": [
+          "My notes look like a mess."
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "status": "active"
+      }
+    ],
+    "wins": [],
+    "curriculum": [
+      {
+        "pattern": "difficulty organizing notes and retaining information",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "My notes look like a mess."
+        ]
+      }
+    ]
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "User will try drawing the pressure-volume loop step by step to visualize it better.",
+      "source_session": "eval_37_D02_coldstart_u02_aa",
+      "source_date": "2026-05-07",
+      "status": "active",
+      "expires_at": "2026-06-06"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": "active",
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {
+      "correction_style": "2026-05-07"
+    }
+  }
+}

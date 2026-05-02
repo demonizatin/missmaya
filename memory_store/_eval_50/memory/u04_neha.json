@@ -1,0 +1,360 @@
+{
+  "facts": {
+    "morning_ritual": "coffee + quick playlist",
+    "music_dependency": "can't focus without music; prefers lo-fi and mellow indie tracks",
+    "music_platform": "Spotify",
+    "favorite_upbeat_song": "Fixer-Upper by The Shins",
+    "sketching": "sketches while listening to calming music like Martha Wainwright",
+    "english_learning_method": "learns through music—picks up lyrics, slang, pronunciation by singing",
+    "learning_style": "rhythm-based learner; beats help words stick",
+    "travel_goal": "solo road trip to Kerala with sketchbook and indie music",
+    "favorite_tamil_song": "Nenjam Marappathu by Yuvan",
+    "ar_rahman_preference": "older work, especially 'Chennai Express' soundtrack",
+    "evening_activities": "late nights at desk, sketching or coding with headphones",
+    "sketching_subjects": "doodling product ideas, random scenes, cafes with sunlight pouring in",
+    "cafe_app_design": "designed café app interface with sketchy vibes (menus with coffee cup doodles), never left prototype stage",
+    "rainy_day_creativity": "draws during monsoons, imagines fantasy worlds, sketches whimsical cafés, adds Tamil song lyrics, cat barista café example",
+    "art_sharing_hesitation": "shy to share doodles publicly, interested in Instagram but hesitant",
+    "cafe_dream": "dreams of owning café with doodles on walls, Tamil indie playlist, customer sketch wall",
+    "trip_planning_style": "low-pressure, unplanned—doesn't want to overplan, just chill"
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "My coffee spilled, my headphones died, and I can't focus. But at least I get to chat with you instead of sulking!",
+      "tone": "hopeful",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "My brain felt like it was in slow motion. Even my favorite lo-fi beats felt like they were mocking me. I ended up switching genres five times—classic Neha overthinking.",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_003",
+      "text": "Even my cozy blanket felt like it was judging my productivity fail. Maybe I need a serious playlist overhaul. Or maybe just a day off from being productive.",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_004",
+      "text": "Sometimes I just need a full restart—like a digital 'delete everything and start fresh' moment. Ugh, I miss that.",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_46_E01_deeprun_w0",
+      "date": "2026-05-01",
+      "label": "anxious",
+      "energy": 3,
+      "confidence": 0.75,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_47_E02_deeprun_w1",
+      "date": "2026-05-08",
+      "label": "content",
+      "energy": 7,
+      "confidence": 0.75,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_48_E03_deeprun_w2",
+      "date": "2026-05-15",
+      "label": "content",
+      "energy": 7,
+      "confidence": 0.8,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_50_E05_deeprun_w4",
+      "date": "2026-05-29",
+      "label": "content",
+      "energy": 6,
+      "confidence": 0.7,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "Tamil music",
+        "last_session": "eval_50_E05_deeprun_w4",
+        "last_date": "2026-05-29",
+        "uses": 2
+      },
+      {
+        "topic": "Kerala road trip",
+        "last_session": "eval_50_E05_deeprun_w4",
+        "last_date": "2026-05-29",
+        "uses": 1
+      },
+      {
+        "topic": "playlist creation",
+        "last_session": "eval_50_E05_deeprun_w4",
+        "last_date": "2026-05-29",
+        "uses": 1
+      },
+      {
+        "topic": "UI/UX work",
+        "last_session": "eval_50_E05_deeprun_w4",
+        "last_date": "2026-05-29",
+        "uses": 1
+      },
+      {
+        "topic": "music for relaxation",
+        "last_session": "eval_48_E03_deeprun_w2",
+        "last_date": "2026-05-15",
+        "uses": 1
+      },
+      {
+        "topic": "sketching habits",
+        "last_session": "eval_48_E03_deeprun_w2",
+        "last_date": "2026-05-15",
+        "uses": 1
+      },
+      {
+        "topic": "monetizing art",
+        "last_session": "eval_48_E03_deeprun_w2",
+        "last_date": "2026-05-15",
+        "uses": 1
+      },
+      {
+        "topic": "rainy day creativity",
+        "last_session": "eval_48_E03_deeprun_w2",
+        "last_date": "2026-05-15",
+        "uses": 1
+      },
+      {
+        "topic": "café design",
+        "last_session": "eval_48_E03_deeprun_w2",
+        "last_date": "2026-05-15",
+        "uses": 1
+      },
+      {
+        "topic": "travel plans",
+        "last_session": "eval_47_E02_deeprun_w1",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "learning through music",
+        "last_session": "eval_47_E02_deeprun_w1",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "song recommendations",
+        "last_session": "eval_47_E02_deeprun_w1",
+        "last_date": "2026-05-08",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_46_E01_deeprun_w0",
+        "last_date": "2026-05-01"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "eval_47_E02_deeprun_w1",
+        "last_date": "2026-05-08"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "eval_48_E03_deeprun_w2",
+        "last_date": "2026-05-15"
+      },
+      {
+        "kind": "general",
+        "last_session": "eval_50_E05_deeprun_w4",
+        "last_date": "2026-05-29"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [
+    {
+      "id": "lo_001",
+      "what": "the 'Doodle Bean' café concept",
+      "context": "Neha dreams of owning a café with doodles on cups, Tamil indie playlist, and a cat barista; Maya enthusiastically endorsed it and promised to be first customer",
+      "first_seen": "2026-05-15",
+      "last_used": "2026-05-15",
+      "uses": 0
+    }
+  ],
+  "anticipation_queue": [],
+  "skills": {
+    "error_patterns": [
+      {
+        "pattern": "uses 'wana' instead of 'want to'",
+        "examples": [
+          "dont wana overplan"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-05-29",
+        "last_seen": "2026-05-29",
+        "status": "active"
+      },
+      {
+        "pattern": "uses 'wth' instead of 'with'",
+        "examples": [
+          "share it wth you"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-05-29",
+        "last_seen": "2026-05-29",
+        "status": "active"
+      }
+    ],
+    "wins": [],
+    "curriculum": [
+      {
+        "pattern": "uses 'wana' instead of 'want to'",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "dont wana overplan"
+        ]
+      },
+      {
+        "pattern": "uses 'wth' instead of 'with'",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "share it wth you"
+        ]
+      }
+    ]
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold",
+      "likes soft music while working",
+      "enjoys the cool post-lunch break feeling",
+      "appreciates good stories",
+      "uses chai to stay focused",
+      "finds monsoon mornings comforting",
+      "cooks as a form of relaxation",
+      "watches football",
+      "has not been to Chennai but would love to experience that vibe",
+      "enjoys books about Indian history",
+      "loves historical fiction",
+      "balances classics with contemporary literature",
+      "plays car games",
+      "dreams of attending a live F1 race",
+      "loves weekend getaways",
+      "packs light for trips"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_003",
+      "kind": "user_promise",
+      "content": "share road trip playlist with Maya for feedback on vibe",
+      "source_session": "eval_50_E05_deeprun_w4",
+      "source_date": "2026-05-29",
+      "status": "active",
+      "expires_at": "2026-06-28"
+    },
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "listen to and report on 'The A Team' by Ed Sheeran",
+      "source_session": "eval_47_E02_deeprun_w1",
+      "source_date": "2026-05-08",
+      "status": "active",
+      "expires_at": "2026-06-07"
+    },
+    {
+      "id": "ol_002",
+      "kind": "user_promise",
+      "content": "build Kerala road trip playlist with Maya's recommendations",
+      "source_session": "eval_47_E02_deeprun_w1",
+      "source_date": "2026-05-08",
+      "status": "active",
+      "expires_at": "2026-06-07"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

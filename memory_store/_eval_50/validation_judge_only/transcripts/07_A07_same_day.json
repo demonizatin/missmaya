@@ -1,0 +1,1083 @@
+{
+  "spec": {
+    "idx": 7,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 12,
+    "emotional_state": "frustrated about a small thing today",
+    "label": "A07_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Priyansh, I heard you're working on a Bollywood movie project about a startup — how's the creative process shaping up?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Honestly, it’s been a bit frustrating. The idea is good, but getting the startup and Bollywood parts to gel feels tough. I keep redoing the script — *iski baat kyun itni mushkil hai?* But I’m not giving up. It’s a cool concept, right?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Iski baat kyun itni mushkil hai?\" — it's a common challenge when mixing different worlds. The startup and Bollywood blend is a fresh idea. What part of the script keeps needing changes?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The startup tech details keep clashing with the dramatic parts. Like, when the lead coder has a breakdown over a bug, it feels forced. I want it to feel real but also… cinematic. Maybe I’m overthinking?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "\"Real but cinematic\" is tricky — you're not overthinking, that’s where good writing happens. What’s the coder’s breakdown scene like? A quiet desk moment or a big team confrontation?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I’m leaning toward a quiet desk moment — intense but not over the top. Maybe he stares at the screen too long, or a small mistake causes a big problem later. But how do I show the tension without making it cheesy?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "\"Quiet desk moment\" sounds grounded. A small mistake that builds is smart — like a typo causing chaos later. What typo could accidentally take down a startup?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Maybe a misplaced decimal in a financial algorithm? The startup is fintech, so a tiny code error could mess up user transactions. The coder realizes it too late — but how do I show the weight of that moment without melodrama?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "A misplaced decimal is a strong detail — it feels both personal and high-stakes. How does the coder react when he spots the error? A pause? A deep breath? What's the first thing he does?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "He freezes for a second, then zooms in on the line. His hands clench. Maybe he mutters something in Hindi, then slams the desk — not too loud, but enough to show it hits him. Then… he just sits there. Like the weight of all the users’ money is on his back."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "\"That desk slam — quiet but loaded\" is a great visual. Showing the weight without overdoing it makes it real. What happens next? Does he fix it alone, or reach out for help?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "He calls in the CTO — not out of panic, but because he knows it’s bigger than him. They stay up all night fixing it. But the CTO says something like, \"Next time, test it *thoroughly*,\" which just adds to the coder’s guilt. It’s that quiet shame, not a big argument, that feels real to me. But I’m not sure if it’s… *enough*."
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "That quiet shame is powerful — it shows growth without drama. Ending with \"test it thoroughly\" makes it human, not just a tech problem. What’s the coder thinking while they fix it? Is he focused on the code, or the users behind it?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "He’s thinking about the users — people relying on the app for real money, maybe someone’s savings, or a small business. That’s the part that eats at him. It’s not just code anymore. It’s trust. But I’m still not sure if it’s clear enough. Maybe I need to show, not tell — like a user message pops up on his phone while they’re fixing the bug. Just a simple “Thanks, it’s working now.” That could do it."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "\"Thanks, it’s working now\" — a tiny message that carries so much. It shifts the weight from just code to real impact. Does the coder react to it? A pause? A sigh? A moment of quiet relief?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "He pauses, almost like he doesn’t want to read it. Then he sighs… but it’s not sad, just tired. He shows it to the CTO. No words, just that one message. Maybe that’s enough."
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "\"Enough\" is the right word — sometimes a glance, a message, and a sigh is all you need. It leaves the weight in the air. What’s the next scene like after that?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "The next scene is the team huddling in the morning — no drama, no blame. Just a quiet, exhausted team. The coder’s eyes are red, but he’s calm. One of the designers makes a joke about coffee being their new salary, and everyone laughs a little… but it feels earned. Like they’re all just glad it’s over. For now."
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "That \"glad it’s over… for now\" moment is so real — it shows the quiet bond of a team that’s been through something but kept it grounded. Does the joke about coffee hint at more stress coming? Or is it just a moment of relief?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "It hints at more stress — maybe not right after, but later. The coder’s problem was one thing, but the startup’s bigger challenges are still coming. The coffee joke is just a breath before the next storm. But I think that’s realistic. Teams don’t just get one crisis, right?"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "\"Teams don’t just get one crisis\" — that’s the truth of it. How do you want to signal the next wave without crashing the rhythm? A new bug? A funding update? Or something else?"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "Maybe a funding update — something subtle. The coder’s still at his desk, maybe a news alert pops up on his phone that a competitor just raised a big round. It’s not the drama of the code crisis, but it’s another pressure. He just closes the app… and gets back to work. Quiet, but heavy. I think that’s the tone I want. Thanks, Maya."
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "\"You’re welcome — that competitor update as a quiet pressure is smart. It keeps the weight without the noise.\" What kind of work does he get back to? A new project or the same old code?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Priyansh",
+      "sector": "fintech",
+      "work_values": "documentation and clear communication",
+      "favorite_movies": [
+        "Yeh Jawaani Hai Deewani (movie)",
+        "Pathaan (movie)",
+        "Befikre (movie)"
+      ],
+      "interests": [
+        "cricket (sport)"
+      ],
+      "favorite_snack": "popcorn with garam masala and chaat masala (dish)"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "worked on a project",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "met startup founder, discussed cricket and business communication",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "watched Yeh Jawaani Hai Deewani (movie)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_004",
+        "what": "watched cricket match final (game) - one-run victory",
+        "date": "2026-04-30",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_005",
+        "what": "Bollywood movie project about startup pursuing street food passion (project)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "teamwork made it easier — we all had different ideas, but working together helped",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I always thought good ideas matter, but now I see execution and teamwork are equally important. Maybe more.",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "I feel a bit shy about asking for help. I'm used to doing things alone, so asking for help feels like a risk. But I think trying it once could be good.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.78,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.67,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_6_A06_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "payment bug fix",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "API integration",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "data security",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work focus",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket match",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "movie elements",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "song singing",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "weekend plans",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "snacks",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"Bollywood movie project about startup pursuing street food passion (project)\" — today",
+        "source_id": "ev_005",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel a bit shy about asking for help. I'm used to doing things alone, so asking for help\" (tone: anxious)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used complex embedded clause correctly (e.g. \"I learned how important it is to test under real-like conditions\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used contrasting compound sentences (e.g. \"we all had different ideas, but working together helped\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used em dashes with parallel structure (e.g. \"a batsman can't just think about his score — he has to work with the fielders, the bowler\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "drops -ed ending on past participles",
+          "examples": [
+            "It click for me"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "used complex embedded clause correctly",
+          "examples": [
+            "I learned how important it is to test under real-like conditions"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used contrasting compound sentences",
+          "examples": [
+            "we all had different ideas, but working together helped"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used em dashes with parallel structure",
+          "examples": [
+            "a batsman can't just think about his score — he has to work with the fielders, the bowler"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "drops -ed ending on past participles",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "It click for me"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "message teammate asking about pairing on next API integration task",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "maya_promise",
+        "content": "follow up on Bollywood movie budget finalization",
+        "source_session": "eval_6_A06_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Priyansh",
+      "sector": "fintech",
+      "work_values": "documentation and clear communication",
+      "favorite_movies": [
+        "Yeh Jawaani Hai Deewani (movie)",
+        "Pathaan (movie)",
+        "Befikre (movie)"
+      ],
+      "interests": [
+        "cricket (sport)"
+      ],
+      "favorite_snack": "popcorn with garam masala and chaat masala (dish)"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "worked on a project",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "met startup founder, discussed cricket and business communication",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "watched Yeh Jawaani Hai Deewani (movie)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_004",
+        "what": "watched cricket match final (game) - one-run victory",
+        "date": "2026-04-30",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_005",
+        "what": "Bollywood movie project about startup pursuing street food passion (project)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "teamwork made it easier — we all had different ideas, but working together helped",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I always thought good ideas matter, but now I see execution and teamwork are equally important. Maybe more.",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "I feel a bit shy about asking for help. I'm used to doing things alone, so asking for help feels like a risk. But I think trying it once could be good.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I'm still not sure if it's… *enough*.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.78,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.67,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_6_A06_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_7_A07_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "payment bug fix",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "API integration",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "data security",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work focus",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket match",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "movie elements",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "song singing",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "weekend plans",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "snacks",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_7_A07_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel a bit shy about asking for help. I'm used to doing things alone, so asking for help\" (tone: anxious)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I'm still not sure if it's… *enough*.\" (tone: anxious)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used contrasting compound sentences (e.g. \"we all had different ideas, but working together helped\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used em dashes with parallel structure (e.g. \"a batsman can't just think about his score — he has to work with the fielders, the bowler\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used restraint and emotional precision to convey weight without melodrama (e.g. \"He shows it to the CTO. No words, just that one message.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "drops -ed ending on past participles",
+          "examples": [
+            "It click for me"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "used complex embedded clause correctly",
+          "examples": [
+            "I learned how important it is to test under real-like conditions"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used contrasting compound sentences",
+          "examples": [
+            "we all had different ideas, but working together helped"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used em dashes with parallel structure",
+          "examples": [
+            "a batsman can't just think about his score — he has to work with the fielders, the bowler"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used restraint and emotional precision to convey weight without melodrama",
+          "examples": [
+            "He shows it to the CTO. No words, just that one message."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "drops -ed ending on past participles",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "It click for me"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "message teammate asking about pairing on next API integration task",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "maya_promise",
+        "content": "follow up on Bollywood movie budget finalization",
+        "source_session": "eval_6_A06_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 89.3
+}

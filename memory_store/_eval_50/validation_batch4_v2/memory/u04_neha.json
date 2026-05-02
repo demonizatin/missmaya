@@ -1,0 +1,414 @@
+{
+  "facts": {
+    "role": "UI Designer",
+    "current_work": "brand guidelines (button spacing, font consistency) + coffee cup design project",
+    "music_style": "indie, lo-fi",
+    "music_artists": [
+      "L'Rain",
+      "Unknown Mortal Orchestra",
+      "Pharrell's Neptunes",
+      "Yves Tumor",
+      "Anoushka Shankar",
+      "Vaigai Porai"
+    ],
+    "music_connection": "gets lost in music while working, uses as escapism from tedious work",
+    "favorite_book": "The Midnight Library by Matt Haig (audiobook preference)",
+    "stress_response": "indie music, sketching (especially at cafes with indie playlists), and redesigning old app ideas",
+    "favorite_song": "Kaalai Kettupen by Vaigai Porai",
+    "design_philosophy": "form follows function with just enough flair to pop without screaming; aesthetic ideal: calm wave with tiny sparkle at peak"
+  },
+  "events": [
+    {
+      "id": "ev_002",
+      "what": "product design certification exam (10-day intensive prep)",
+      "date": "2026-05-22",
+      "added": "2026-05-22",
+      "followed_up": false
+    },
+    {
+      "id": "ev_003",
+      "what": "client deadline for prototype delivery",
+      "date": "2026-05-22",
+      "added": "2026-05-22",
+      "followed_up": false
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "It's like juggling broken glass — you don't wanna drop anything, but it's all gonna cut your hands.",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "My brain isn't firing on all cylinders after the coffee incident. But hey, I'll power through — or at least pretend to.",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_003",
+      "text": "Do you ever get lost in songs like that? Where they just… take over your headspace?",
+      "tone": "vulnerable",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_004",
+      "text": "I'm alive and this is weird and beautiful.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_005",
+      "text": "I'll survive — or at least make it look like I did.",
+      "tone": "resigned",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_006",
+      "text": "I miss that… being around people. Lately, it's just me and my plants.",
+      "tone": "lonely",
+      "sensitive": false,
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mentions": 1
+    },
+    {
+      "id": "mo_007",
+      "text": "sketching makes me feel less alone. Like, even if no one sees it, it's a small part of the world that's *mine*.",
+      "tone": "lonely",
+      "sensitive": false,
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mentions": 1
+    },
+    {
+      "id": "mo_008",
+      "text": "Maybe I just wanted to believe there was something soft waiting for me outside. It didn't make sense, but it felt like hope.",
+      "tone": "hopeful",
+      "sensitive": false,
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mentions": 1
+    },
+    {
+      "id": "mo_009",
+      "text": "Honestly? Not well. I'm pulling off a 'fake it till I make it' vibe, but I'm clearly running on fumes.",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mentions": 1
+    },
+    {
+      "id": "mo_010",
+      "text": "I barely had time to listen to my usual indie playlists today 😭 But I'll need them to survive this week.",
+      "tone": "sad",
+      "sensitive": false,
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mentions": 1
+    },
+    {
+      "id": "mo_011",
+      "text": "I think I needed this chat more than I realized.",
+      "tone": "grateful",
+      "sensitive": false,
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mentions": 1
+    },
+    {
+      "id": "mo_012",
+      "text": "Like a secret between me and the cup.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_46_E01_deeprun_w0",
+      "date": "2026-05-01",
+      "label": "anxious",
+      "energy": 3,
+      "confidence": 0.75,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_47_E02_deeprun_w1",
+      "date": "2026-05-08",
+      "label": "content",
+      "energy": 6,
+      "confidence": 0.7,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_48_E03_deeprun_w2",
+      "date": "2026-05-15",
+      "label": "lonely",
+      "energy": 5,
+      "confidence": 0.75,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_49_E04_deeprun_w3",
+      "date": "2026-05-22",
+      "label": "anxious",
+      "energy": 4,
+      "confidence": 0.85,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_50_E05_deeprun_w4",
+      "date": "2026-05-29",
+      "label": "anxious",
+      "energy": 4,
+      "confidence": 0.65,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "silly sketches",
+        "last_session": "eval_50_E05_deeprun_w4",
+        "last_date": "2026-05-29",
+        "uses": 1
+      },
+      {
+        "topic": "rain",
+        "last_session": "eval_48_E03_deeprun_w2",
+        "last_date": "2026-05-15",
+        "uses": 1
+      },
+      {
+        "topic": "work deadlines",
+        "last_session": "eval_46_E01_deeprun_w0",
+        "last_date": "2026-05-01",
+        "uses": 1
+      },
+      {
+        "topic": "team feedback",
+        "last_session": "eval_46_E01_deeprun_w0",
+        "last_date": "2026-05-01",
+        "uses": 1
+      },
+      {
+        "topic": "coping strategies",
+        "last_session": "eval_46_E01_deeprun_w0",
+        "last_date": "2026-05-01",
+        "uses": 1
+      },
+      {
+        "topic": "indie music",
+        "last_session": "eval_46_E01_deeprun_w0",
+        "last_date": "2026-05-01",
+        "uses": 1
+      },
+      {
+        "topic": "audiobooks",
+        "last_session": "eval_46_E01_deeprun_w0",
+        "last_date": "2026-05-01",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_46_E01_deeprun_w0",
+        "last_date": "2026-05-01"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "eval_47_E02_deeprun_w1",
+        "last_date": "2026-05-08"
+      },
+      {
+        "kind": "general",
+        "last_session": "eval_48_E03_deeprun_w2",
+        "last_date": "2026-05-15"
+      },
+      {
+        "kind": "general",
+        "last_session": "eval_49_E04_deeprun_w3",
+        "last_date": "2026-05-22"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "eval_50_E05_deeprun_w4",
+        "last_date": "2026-05-29"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Honestly? Not well. I'm pulling off a 'fake it till I make it' vibe, but I'm clearly runni\" (tone: anxious)",
+      "source_id": "mo_009",
+      "priority": 7,
+      "computed_at": "2026-05-29",
+      "expires_at": "2026-06-12",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I barely had time to listen to my usual indie playlists today 😭 But I'll need them to surv\" (tone: sad)",
+      "source_id": "mo_010",
+      "priority": 7,
+      "computed_at": "2026-05-29",
+      "expires_at": "2026-06-12",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I miss that… being around people. Lately, it's just me and my plants.\" (tone: lonely)",
+      "source_id": "mo_006",
+      "priority": 7,
+      "computed_at": "2026-05-29",
+      "expires_at": "2026-06-12",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"sketching makes me feel less alone. Like, even if no one sees it, it's a small part of the\" (tone: lonely)",
+      "source_id": "mo_007",
+      "priority": 7,
+      "computed_at": "2026-05-29",
+      "expires_at": "2026-06-12",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Like a secret between me and the cup.\" (tone: content)",
+      "source_id": "mo_012",
+      "priority": 4,
+      "computed_at": "2026-05-29",
+      "expires_at": "2026-06-12",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_002",
+      "kind": "user_promise",
+      "content": "return with coffee cup design update",
+      "source_session": "eval_50_E05_deeprun_w4",
+      "source_date": "2026-05-29",
+      "status": "active",
+      "expires_at": "2026-06-28"
+    },
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "check if laptop survived the coffee spill and report back how it works",
+      "source_session": "eval_46_E01_deeprun_w0",
+      "source_date": "2026-05-01",
+      "status": "active",
+      "expires_at": "2026-05-31"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

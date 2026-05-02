@@ -1,0 +1,874 @@
+{
+  "spec": {
+    "idx": 8,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 8,
+    "emotional_state": "chatty, in a good mood",
+    "label": "A08_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, you mentioned an API issue — how's the wait going? I enjoy solving tech hiccups with a hot cup of tea. What's your go-to drink?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Tea, obviously! No work for me without it. Sometimes add a dash of milk — *chai* is life. How about you? Any specific tea you like during tech troubles?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds perfect — tea and code go well together, I think. I love the first Sui Dhaaga movie, how it tells simple stories with real feelings. What's your take on it?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Hmm, I haven't watched Sui Dhaaga myself, but I know many people liked it for its soft and gentle story. I usually prefer action or comedy, like some Bollywood ones. Maybe something like *Dilwale* or *PK* for a laugh. Do you watch a lot of Bollywood?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "You said \"I haven't watched Sui Dhaaga myself\" — and that's clear. Action and comedy are fun choices. I get that — sometimes you just want a good laugh. What's your favourite Bollywood comedy?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "*Dilwale* is a solid pick, but I'd say *Lagaan* has some iconic comedy moments too — especially the village elders acting all serious. Also, *Chennai Express* with Salman Khan is a crowd-pleaser. But maybe I should try more dramas like Sui Dhaaga sometime. What made you like it?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Lagaan’s village elders are a classic — hilarious! I get why you like it. Sui Dhaaga moved me with its small-town warmth. It felt real, not too flashy. What draws you to action or comedy over dramas?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Action and comedy give me that instant escape, you know? Maybe I'm just not a heavy drama person. I like my stories to have some zing — whether it's a fast-paced cricket match or a funny scene. But I can see how dramas like Sui Dhaaga bring a different kind of joy. Maybe I'll give it a try sometime!"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "I get that — instant escape is great after a tough day. Cricket matches and zingy scenes are perfect for a quick boost. Give Sui Dhaaga a try sometime — you might find a new corner of joy. What movie are you watching next?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I was thinking of watching *Brahmāstra* again — it's a fantasy action film with some good comedy bits too. Maybe not as gentle as Sui Dhaaga, but it's fun. Have you seen it?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Brahmāstra sounds like a fun pick — fantasy with some laughs is a good mix. I haven’t seen it, but I’m all for a good entertaining watch. What part of the movie do you enjoy most — action, comedy, or the story?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "The action scenes are the highlight for me — all the big visuals and stunts are a treat to watch. Salman Khan and Amitabh Bachchan’s chemistry adds a nice touch too. Maybe one day I’ll try a more gentle movie like you said. Thanks for the suggestion!"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "You said \"the action scenes are the highlight\" — and that's clear. Salman and Amitabh’s team-up is always fun to watch. Maybe next time, a gentle story with some laughs? What’s on your list for the weekend?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Weekend plans? Probably some cricket on TV and maybe a movie marathon — though I might stick to action-comedy for now! But I'll keep Sui Dhaaga in mind. Thanks again!"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Cricket and movie marathons sound like a perfect weekend. I get that — comfort picks are the best. Let me know how the cricket action is. Watching Sui Dhaaga anytime soon?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "current_learning_focus": "AI tools and NLP (chatbots, text analysis)",
+      "profession": "developer",
+      "movie_preferences": [
+        "Bollywood (especially Zoya Akhtar films and classics like Dilwale Dulhania Le Jayenge), comedies, romantic films; prefers laid-back content on weekends",
+        "Barfi!",
+        "Lagaan",
+        "Pathaan",
+        "Sui Dhaaga",
+        "Sui Dhaaga 2"
+      ],
+      "family": "has a sister who loves Bollywood and knows all songs by heart; watches movies together and collaboratively selects what to watch; sings Bollywood songs with mother",
+      "sports_interests": "supports Mumbai Indians (cricket team); favorite player is Virat Kohli (admires his work ethic and clear communication); also respects MS Dhoni's calm leadership style",
+      "gaming_interests": "plays strategy and sports games to unwind after work; FIFA is favorite game (usually plays Manchester United); sometimes gets so into games he forgets to eat",
+      "relaxation_activities": [
+        "video games",
+        "watching cricket with friends",
+        "listening to Hindi music while cooking"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "watched Jugjugg Jeeyo (Bollywood movie); found songs catchy, hummed them all night",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "watched Sui Dhaaga with sister; found music catchy, sister knows all songs by heart",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "sent support email to API provider about persistent 404 error; waiting for response",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I enjoy watching movies alone because it gives me freedom to pause or rewind. But I also like laughing with my sister. It's about having that choice.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Old movies feel more real with deeper emotions. Simple, heartfelt stories about ordinary people—like a tailor and his family—feel honest and touching. These stories stay with me.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.82,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_7_A07_same_day",
+        "date": "2026-05-01",
+        "label": "frustrated",
+        "energy": 5,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "n/a",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "movie preferences",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "favorite Bollywood movies",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "humming songs from movies",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "old vs. new film preference",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "language preferences in cinema",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "most impactful films",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood films",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket/sports",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "video games",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "reading",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Sui Dhaaga",
+          "last_session": "eval_7_A07_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_7_A07_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"sent support email to API provider about persistent 404 error; waiting for response\" — today",
+        "source_id": "ev_003",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: naturally elaborates on preferences with specific reasoning and emotional context (e.g. \"The first Sui Dhaaga had a nice simple story about a tailor and his family. It felt real and honest. The second one was okay, but I still have a soft corner for the first.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I enjoy watching movies alone because it gives me freedom to pause or rewind. But I also l\" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Old movies feel more real with deeper emotions. Simple, heartfelt stories about ordinary p\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "naturally elaborates on preferences with specific reasoning and emotional context",
+          "examples": [
+            "The first Sui Dhaaga had a nice simple story about a tailor and his family. It felt real and honest. The second one was okay, but I still have a soft corner for the first."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the next movie night goes",
+        "source_session": "eval_4_A04_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "event_pending",
+        "content": "waiting for API provider support email response to the 404 error",
+        "source_session": "eval_7_A07_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "tell Maya how the API 404 issue gets resolved",
+        "source_session": "eval_7_A07_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "explore a new side project idea tomorrow",
+        "source_session": "eval_7_A07_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "current_learning_focus": "AI tools and NLP (chatbots, text analysis)",
+      "profession": "developer",
+      "movie_preferences": [
+        "Bollywood (especially Zoya Akhtar films and classics like Dilwale Dulhania Le Jayenge), comedies, romantic films; prefers laid-back content on weekends",
+        "Barfi!",
+        "Lagaan",
+        "Pathaan",
+        "Brahmāstra",
+        "Chennai Express"
+      ],
+      "family": "has a sister who loves Bollywood and knows all songs by heart; watches movies together and collaboratively selects what to watch; sings Bollywood songs with mother",
+      "sports_interests": "supports Mumbai Indians (cricket team); favorite player is Virat Kohli (admires his work ethic and clear communication); also respects MS Dhoni's calm leadership style",
+      "gaming_interests": "plays strategy and sports games to unwind after work; FIFA is favorite game (usually plays Manchester United); sometimes gets so into games he forgets to eat",
+      "relaxation_activities": [
+        "video games",
+        "watching cricket with friends",
+        "listening to Hindi music while cooking"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "watched Jugjugg Jeeyo (Bollywood movie); found songs catchy, hummed them all night",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "sent support email to API provider about persistent 404 error; waiting for response",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I enjoy watching movies alone because it gives me freedom to pause or rewind. But I also like laughing with my sister. It's about having that choice.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Old movies feel more real with deeper emotions. Simple, heartfelt stories about ordinary people—like a tailor and his family—feel honest and touching. These stories stay with me.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.82,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_7_A07_same_day",
+        "date": "2026-05-01",
+        "label": "frustrated",
+        "energy": 5,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "n/a",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_8_A08_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "movie preferences",
+          "last_session": "eval_8_A08_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "favorite Bollywood movies",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "humming songs from movies",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "old vs. new film preference",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "language preferences in cinema",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "most impactful films",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood films",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket/sports",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "video games",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "reading",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Sui Dhaaga",
+          "last_session": "eval_7_A07_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "weekend plans",
+          "last_session": "eval_8_A08_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_7_A07_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_8_A08_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"sent support email to API provider about persistent 404 error; waiting for response\" — today",
+        "source_id": "ev_003",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: naturally elaborates on preferences with specific reasoning and emotional context (e.g. \"The first Sui Dhaaga had a nice simple story about a tailor and his family. It felt real and honest. The second one was okay, but I still have a soft corner for the first.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I enjoy watching movies alone because it gives me freedom to pause or rewind. But I also l\" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Old movies feel more real with deeper emotions. Simple, heartfelt stories about ordinary p\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "naturally elaborates on preferences with specific reasoning and emotional context",
+          "examples": [
+            "The first Sui Dhaaga had a nice simple story about a tailor and his family. It felt real and honest. The second one was okay, but I still have a soft corner for the first."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the next movie night goes",
+        "source_session": "eval_4_A04_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "event_pending",
+        "content": "waiting for API provider support email response to the 404 error",
+        "source_session": "eval_7_A07_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "tell Maya how the API 404 issue gets resolved",
+        "source_session": "eval_7_A07_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "explore a new side project idea tomorrow",
+        "source_session": "eval_7_A07_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 108.7
+}

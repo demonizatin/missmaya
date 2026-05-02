@@ -1,0 +1,611 @@
+{
+  "spec": {
+    "idx": 4,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 12,
+    "emotional_state": "content, decent day at work",
+    "label": "A04_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, I hope your day is going better than last time. The rain outside makes me think of cricket — are you all set for the game with friends in two days?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Yeah, we're planning to play on Sunday. The weather looks clear now. By the way, have you watched the new Bollywood movie \"Jawan\"? It's quite popular here."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Great to hear — cricket and clear skies are a perfect match! I love when the weather plays along. That sounds like a fun plan.  \n\nBollywood movies are always exciting. I haven’t watched *Jawan* yet, but it sounds interesting — what part of the story are you most curious about?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The main character is a soldier, so I think the action scenes will be awesome. Also, Shah Rukh Khan is back after a long time — that’s a big deal. I’ll let you know how it is after I watch it again!"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "\"Got it — SRK coming back is always a big deal. He has that unique energy in action roles.  \n\nYou said you’ll watch it again — what made you want to see it a second time?\""
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "The first time was good, but I want to catch the details I missed. You know, like the background stories and dialogues. Also, some scenes are so intense that I want to watch them again — maybe I'll understand more the second time. And I like how Hindi movies have layers you don't get on first watch."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "That makes sense — Hindi movies often hide small stories in plain sight. I love how you watch for layers.  \n\nDo you usually take notes while watching a movie, or just notice them on a second watch?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "I usually just watch and enjoy the first time. Maybe pause once or twice if something catches my eye. But for the second watch, I pay more attention — sometimes I even pause to think about a scene. It’s like coding: first you run the code, then you debug!"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "\"Nice comparison — movies and coding both need that first run and then the deep dive.  \n\nThat second watch sounds like a good way to catch all the details. What’s one thing you noticed on a second watch that surprised you?\""
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "In one movie, I noticed a small symbol in the background during the second watch — it was actually a clue for the ending! The first time, I just thought it was a random prop. It made the whole story make more sense. By the way, do you enjoy movies with hidden details, or do you prefer straightforward ones?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "\"Love that — hidden details make re-watches so rewarding. I enjoy both kinds, but I do love a twist that makes me go back and rewatch a scene with new eyes.  \n\nWhat’s one movie you’d watch again just for that kind of surprise?\""
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Probably *Gully Cricket* — there are so many little jokes and cameos that I missed the first time. One of my friends said there's a scene where the entire team wears similar clothes to a real match from a few years ago — I want to spot that!"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "\"Ah, *Gully Cricket* is a classic for hidden cameos — that’s a fun detail to look out for.  \n\nYou mentioned spotting the team’s outfits — what do you think those kinds of references add to the movie?\""
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "They give the movie depth and make it more relatable, especially for people who know cricket. It’s like inside jokes — you feel connected when you catch them. But sometimes it’s just cool to see real players or old footage used in a fun way. It’s not just for the plot — it’s for the fans!"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "\"Exactly — it’s that shared moment between the movie and the fan.  \n\nYou said it’s not just for the plot — what’s one moment you’ve caught that made you smile for no real reason?\""
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "There’s this one scene in *Dilwale* where they recreate the iconic \"Ek Do Teen\" dance — but with a twist. I noticed it on the second watch and just laughed because it was a nod to the olden days but made super modern. It felt like a bridge between generations — and that’s just fun to catch!"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "\"That bridge between old and new is gold — it makes the movie feel alive.  \n\nYou mentioned it felt fun to catch — do you think hidden nods like that matter more in Bollywood than in Hollywood?\""
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "I think Bollywood uses them more — maybe because it connects with a huge audience who know the culture, the songs, the old movies. In Hollywood, maybe the references are more global or pop-culture based. But honestly, I don’t watch Hollywood much — maybe I should try? Or maybe you can suggest something!"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "\"Bollywood has that built-in shared history, so the references feel like a big group hug.  \n\nHollywood can be fun too — if you like twists and hidden details, maybe *Inception*? It’s layered and makes you think. Want to try it?\""
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "*Inception* sounds interesting — I’ve heard it’s a bit confusing but smart. Maybe I’ll watch it and come back with questions! But for now, I should get some work done — have a project deadline tomorrow. Talk to you later, Maya!"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "Fair enough — deadlines come first. *Inception* is a great choice for tricky layers. Ask anytime. Have a productive night, Priyansh!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "cricket",
+        "Bollywood movies"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "planning to watch Dunki with English subtitles",
+        "date": "2026-05-03",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "planning to play cricket with friends",
+        "date": "2026-05-03",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "low",
+        "energy": 4,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "weekend plans",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "vocabulary learning",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Dunki movie",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "emotion vocabulary",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "monthly excitement",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"planning to play cricket with friends\" — in 2 days",
+        "source_id": "ev_002",
+        "priority": 8,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: identified emotion vocabulary gap and engaged in targeted learning (e.g. \"I want to sound more natural in English. Like when I score a big win at work, I want to say more than just 'I am happy.'\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "identified emotion vocabulary gap and engaged in targeted learning",
+          "examples": [
+            "I want to sound more natural in English. Like when I score a big win at work, I want to say more than just 'I am happy.'"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "use 'thrilled' in work meeting next week and report back to Maya",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "cricket",
+        "Bollywood movies"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "planning to watch Dunki with English subtitles",
+        "date": "2026-05-03",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "planning to play cricket with friends",
+        "date": "2026-05-03",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "project deadline at work",
+        "date": "2026-05-02",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "low",
+        "energy": 4,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "weekend plans",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "vocabulary learning",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Dunki movie",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "emotion vocabulary",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "monthly excitement",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket game",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Inception movie",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"project deadline at work\" — tomorrow",
+        "source_id": "ev_003",
+        "priority": 9,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: identified emotion vocabulary gap and engaged in targeted learning (e.g. \"I want to sound more natural in English. Like when I score a big win at work, I want to say more than just 'I am happy.'\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "identified emotion vocabulary gap and engaged in targeted learning",
+          "examples": [
+            "I want to sound more natural in English. Like when I score a big win at work, I want to say more than just 'I am happy.'"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "use 'thrilled' in work meeting next week and report back to Maya",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "watch Inception and come back with questions",
+        "source_session": "eval_4_A04_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 140.4
+}

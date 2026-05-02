@@ -1,0 +1,390 @@
+{
+  "spec": {
+    "idx": 2,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 8,
+    "emotional_state": "hopeful, made some progress on a goal",
+    "label": "A02_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, it's a lovely night for a cricket update, how's your team doing these days?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "We won an important match today! Our team is in the top 4 now. The batsmen did well, but the bowlers were a bit shaky."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Great job, winning feels amazing! The top 4 is a strong position. What part of the match felt most exciting for you?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The last over was super tense—we were chasing a high score, and the bowler took a wicket in the last ball. It felt like *chak de* moment! But we won by 2 runs."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "That was intense, winning by 2 runs is thrilling! I get why you said *chak de*, those moments feel huge. Did you cheer with anyone while watching?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Yeah, I was with some friends at a small cricket café. We were shouting, clapping, and even danced a little when we won! It’s always better with others. Do you watch cricket, Maya?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "You’re describing it so well, café, shouting, dancing, yes! That’s the spirit. I do watch cricket, love the energy. What team are you cheering for these days?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "I support Mumbai Indians mostly—great mix of experienced and young players. But honestly, I enjoy watching any good match. Have you seen the new season?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Mumbai Indians are an exciting team, right, full of energy and talent. I get that, good matches are always fun to watch. What’s your favourite part of the game?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "The power plays are my favorite—when the batsmen score really fast, or the bowlers take a wicket early. It sets the tone for the whole game. Though I also love the tension in the death overs. It’s like *adrenalin* kicks in! What about you?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Got it, power plays and death overs are the highlights for many. Adrenalin is definitely part of the fun! Do you follow any specific players?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "I like Virat Kohli and Jasprit Bumrah the most—Kohli’s determination is inspiring, and Bumrah’s yorkers are *unbeatable*. I also follow some young players, like Rajasthan’s Sai Sudharsan. What about you, any favorite players?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Virat and Bumrah are solid choices, Kohli’s grit and Bumrah’s yorkers are iconic! Sai Sudharsan is rising fast, good eye there. Do you follow any international players too?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Not really, I mostly stick to the Indian league and team. But I do get updates about the Aussies and the West Indies sometimes. Their matches seem *very competitive*. Maybe I should watch more. Thanks for the suggestion!"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You’re welcome, the Aussies and West Indies add great energy to the game, it’s easy to get hooked! When do you find time to watch matches these days?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "Bollywood movies",
+        "action films",
+        "cricket"
+      ]
+    },
+    "events": [],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.55,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "dancing",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "friends",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "Bollywood movies",
+        "action films",
+        "cricket"
+      ],
+      "favorite_cricket_team": "Mumbai Indians",
+      "favorite_cricket_players": [
+        "Virat Kohli",
+        "Jasprit Bumrah",
+        "Sai Sudharsan"
+      ],
+      "favorite_match_phases": [
+        "power plays",
+        "death overs"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "Cricket team won important match by 2 runs, now in top 4",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "It's always better with others",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.55,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "dancing",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "friends",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Cricket team performance",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Favorite match moments",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Favorite cricket team",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Favorite cricket players",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "International cricket",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Cricket watching habits",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"Cricket team won important match by 2 runs, now in top 4\" — today",
+        "source_id": "ev_001",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"It's always better with others\" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 109.8
+}

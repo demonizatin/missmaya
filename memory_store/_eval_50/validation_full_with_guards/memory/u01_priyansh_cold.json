@@ -1,0 +1,103 @@
+{
+  "facts": {
+    "current_work": "building a fintech app for faster peer-to-peer payments; balancing security and ease-of-use",
+    "payment_preference": "UPI"
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "I made good progress on a project at work today",
+      "tone": "hopeful",
+      "sensitive": false,
+      "first_seen": "2026-05-24",
+      "last_seen": "2026-05-24",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_36_D01_coldstart_u01_pr",
+      "date": "2026-05-24",
+      "label": "content",
+      "energy": 7,
+      "confidence": 0.9,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "fintech payment project",
+        "last_session": "eval_36_D01_coldstart_u01_pr",
+        "last_date": "2026-05-24",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_36_D01_coldstart_u01_pr",
+        "last_date": "2026-05-24"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I made good progress on a project at work today\" (tone: hopeful)",
+      "source_id": "mo_001",
+      "priority": 4,
+      "computed_at": "2026-05-24",
+      "expires_at": "2026-06-07",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

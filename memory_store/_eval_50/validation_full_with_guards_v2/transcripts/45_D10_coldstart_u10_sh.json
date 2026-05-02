@@ -1,0 +1,196 @@
+{
+  "spec": {
+    "idx": 45,
+    "profile_id": "u10_shreya",
+    "eval_user_key": "u10_shreya_cold",
+    "today": "2026-05-28",
+    "turns_target": 8,
+    "emotional_state": "excited about a weekend plan",
+    "label": "D10_coldstart_u10_sh"
+  },
+  "profile": {
+    "id": "u10_shreya",
+    "user_name": "Shreya",
+    "profession": "MBA student at IIM",
+    "mother_tongue": "Hindi",
+    "interests": "Strategy consulting, books, F1",
+    "engagement": "medium",
+    "english_level": "C1",
+    "personality": "fluent, articulate, occasional grammar slip; treats the chat as banter"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "[user-sim error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "[user-sim error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "[user-sim error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "[user-sim error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "[user-sim error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "[user-sim error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "[user-sim error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    }
+  ],
+  "memory_before": {
+    "facts": {},
+    "events": [],
+    "moments": [],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {},
+    "events": [],
+    "moments": [],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 11.8
+}

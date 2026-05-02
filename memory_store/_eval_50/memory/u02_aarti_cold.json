@@ -1,0 +1,127 @@
+{
+  "facts": {
+    "nickname": "Aarti",
+    "exam_prep": "NEET PG",
+    "subject_focus": "Neurology",
+    "cooking_comforts": [
+      "vada pav",
+      "poha"
+    ],
+    "cuisine_culture": "Marathi",
+    "recipe_source": "library cookbooks",
+    "aspiration_dish": "Marathi thali with sabzi, dal, roti, achar, papad",
+    "favorite_component": "sabzi, especially kadhi or bhindi"
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "My head hurts sometimes from revision stress. I know I should rest but I can't afford to get distracted.",
+      "tone": "anxious",
+      "sensitive": true,
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "I haven't had time to cook a proper thali in months. Exams always come first. Maybe after the results.",
+      "tone": "sad",
+      "sensitive": false,
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_37_D02_coldstart_u02_aa",
+      "date": "2026-05-07",
+      "label": "anxious",
+      "energy": 4,
+      "confidence": 0.85,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "cooking",
+        "last_session": "eval_37_D02_coldstart_u02_aa",
+        "last_date": "2026-05-07",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_37_D02_coldstart_u02_aa",
+        "last_date": "2026-05-07"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I haven't had time to cook a proper thali in months. Exams always come first. Maybe after \" (tone: sad)",
+      "source_id": "mo_002",
+      "priority": 7,
+      "computed_at": "2026-05-07",
+      "expires_at": "2026-05-21",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold",
+      "likes soft music while working",
+      "enjoys the cool post-lunch break feeling",
+      "appreciates good stories",
+      "uses chai to stay focused",
+      "finds monsoon mornings comforting",
+      "cooks as a form of relaxation"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

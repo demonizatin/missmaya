@@ -1,0 +1,146 @@
+{
+  "facts": {
+    "nickname": "Aman",
+    "job_target": "team leader position",
+    "job_scope": "manage people and projects, speak with clients",
+    "english_strengths": "reading, writing",
+    "english_weakness": "speaking (gets nervous, mind goes blank)",
+    "hobbies": "foosball (plays professionally)",
+    "exam_context": "competitive exam for job placement"
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "I want to pass badly, yaar. But I also need to practice English.",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "when I have to talk, I get nervous. Like, my brain goes blank!",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_003",
+      "text": "I'm scared… what if I can't speak well?",
+      "tone": "scared",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_42_D07_coldstart_u07_am",
+      "date": "2026-05-01",
+      "label": "anxious",
+      "energy": 6,
+      "confidence": 0.8,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_42_D07_coldstart_u07_am",
+        "last_date": "2026-05-01"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [
+    {
+      "id": "lo_001",
+      "what": "'exam is for a job, not for marriage this time' — self-aware joke about family expectations",
+      "context": "Aman joked about being under family pressure for both career and marriage, using humor to lighten the stress of exam prep",
+      "first_seen": "2026-05-01",
+      "last_used": "2026-05-01",
+      "uses": 0
+    }
+  ],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I want to pass badly, yaar. But I also need to practice English.\" (tone: anxious)",
+      "source_id": "mo_001",
+      "priority": 7,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"when I have to talk, I get nervous. Like, my brain goes blank!\" (tone: anxious)",
+      "source_id": "mo_002",
+      "priority": 7,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I'm scared… what if I can't speak well?\" (tone: scared)",
+      "source_id": "mo_003",
+      "priority": 7,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

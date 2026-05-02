@@ -1,0 +1,416 @@
+{
+  "spec": {
+    "idx": 46,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-01",
+    "turns_target": 12,
+    "emotional_state": "frustrated about a small thing today",
+    "label": "E01_deeprun_w0"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, I'm Miss Maya. It's nice to meet you! How has your day been so far?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hey Maya! Not so great, honestly. My coffee spilled all over my laptop this morning—*naaavadhu* frustrating. Other than that, just trying to keep up with design deadlines. How about you?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds rough — coffee and laptops don’t mix well! I get that. How are you managing the deadlines these days?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Honestly? It’s a bit of a mess. I’ve been stuck in this feedback loop with my team, and it’s slowing me down. Plus, my brain isn’t firing on all cylinders after the coffee incident. But hey, I’ll power through — or at least pretend to."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Right — feedback loops can really drain you. It’s one thing to work, another to keep up the act. What part feels the heaviest right now?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "The worst part is when you know the feedback is valid, but you just don’t have the bandwidth to fix everything at once. Feels like juggling broken glass — you don’t wanna drop anything, but it’s all gonna cut your hands. Also, I’m still waiting for my laptop to dry. It’s been like 6 hours, and I’m scared to turn it on. 😅"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Right — that juggling metaphor is spot on. It's one thing to want to fix everything, another to manage the burn. What are they asking you to change most?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Mostly tiny UI tweaks — button spacing, font consistency, that sort of thing. Should be easy, but with the feedback coming in waves, it feels never-ending. And don’t even get me started on aligning with the new brand guidelines. It’s like trying to color inside lines that keep moving. 😅"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Right — moving lines are the worst. They make even simple work feel like a puzzle. Are you handling the guidelines part alone or with the team?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "It’s mostly me, honestly. The designers are all swamped with their own stuff, so I’m the one stuck between the brand team and dev. It’s not bad work — just tedious in a way that makes you question your life choices. But hey, at least my laptop’s dry… I think. Fingers crossed."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Right — stuck in the middle is never easy. It’s like being the glue no one wants to be. What’s your go-to when the tedious work gets too much?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Indie music, mostly. Throw on some chill lo-fi and pretend I’m in a café somewhere else. Or I’ll open up a design tool just to mess around with something fun—like redesigning my old app ideas. It’s not productive, but it reminds me why I got into this in the first place. Just… not sure what I’ll do if my laptop dies tomorrow. 😬"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Right — escaping into music or old projects makes sense. It’s a way to reset without really leaving. Speaking of, any new indie artists you’ve been into lately?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Yeah, actually — this one artist named L'Rain just blew me away. Her sound is so moody and layered, like it’s painting a whole mood while you work. Also been revisiting some old faves like Unknown Mortal Orchestra. You know how it is — when the work gets too much, you need something that feels like a cozy blanket but also slaps."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Right — music that wraps around the stress but still moves you forward. I get that. What’s your favorite track from L’Rain?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "“Nothing Is Not the Case” is the one that hooked me — it’s got this slow, heavy groove that just pulls you in. Feels like you’re walking through a foggy city at midnight, you know? Like, not in a sad way, but in a “I’m alive and this is weird and beautiful” kind of way. Umm… do you ever get lost in songs like that? Where they just… *take over* your headspace? 😅"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Right — that kind of music sticks with you. It’s more than a track — it’s a mood. I do get lost like that sometimes. What’s the last song that took over your headspace like that?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Pharrell’s “Neptunes” album — random as it sounds, it just *got* me last week. The beats are so smooth and spaced out, like floating on a tide. I was working on a design late one night, and it just clicked in. From then on, every click of a button or scroll of a page felt like part of the rhythm. Kinda ridiculous, right? But hey, if the work needs a soundtrack, why not go full orchestra? 🎶"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Right — that kind of connection between work and music is wild but brilliant. You’re doing great, just a tiny tweak — what’s next on your playlist?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "Next up? Probably some Yves Tumor — he’s got this chaotic, dreamy vibe that’s perfect for when I need to feel a little lost on purpose. Or maybe a local artist I’ve been into lately, Anoushka Shankar. Fusion stuff, you know? Cuts through the noise without making it worse. But hey, if my laptop finally dies, I might just switch to audiobooks and pretend I’m a writer. Fingers crossed for more survival, less drama. 😅"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "Right — survival mode with a side of good tunes. That’s the goal. What audiobook would you pick if you switched tracks tomorrow?"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "Probably something like *The Midnight Library* — you know, that one by Matt Haig? Feels like cheating a bit, but it’s got that calm, what-if vibe that fits with my current “just don’t break” mindset. Plus, the narrator’s voice is like a warm hug. But honestly, if I *do* switch to audiobooks, I might as well just take the week off. 😅 Either way, I’ll survive — or at least make it look like I did. Talk to you soon, Maya! Gotta go check if my laptop still works. 🙌"
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "Right — *The Midnight Library* is a good pick when the world feels like a puzzle. You’ll survive for sure. Tell me how the laptop test goes!"
+    }
+  ],
+  "memory_before": {
+    "facts": {},
+    "events": [],
+    "moments": [],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "role": "UI Designer",
+      "current_work": "brand guidelines implementation with UI tweaks (button spacing, font consistency), handling solo while team is busy",
+      "music_style": "indie, lo-fi",
+      "music_artists": [
+        "L'Rain",
+        "Unknown Mortal Orchestra",
+        "Pharrell's Neptunes",
+        "Yves Tumor",
+        "Anoushka Shankar"
+      ],
+      "music_connection": "gets lost in music while working, uses as escapism from tedious work",
+      "favorite_book": "The Midnight Library by Matt Haig (audiobook preference)",
+      "stress_response": "indie music and redesigning old app ideas"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "coffee spilled on laptop in the morning; laptop drying for ~6 hours, uncertain if it will power on",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "It's like juggling broken glass — you don't wanna drop anything, but it's all gonna cut your hands.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "My brain isn't firing on all cylinders after the coffee incident. But hey, I'll power through — or at least pretend to.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Do you ever get lost in songs like that? Where they just… take over your headspace?",
+        "tone": "vulnerable",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I'm alive and this is weird and beautiful.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "I'll survive — or at least make it look like I did.",
+        "tone": "resigned",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "work deadlines",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "team feedback",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "coping strategies",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "indie music",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "audiobooks",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"coffee spilled on laptop in the morning; laptop drying for ~6 hours, uncertain if it will power on\" — today",
+        "source_id": "ev_001",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"It's like juggling broken glass — you don't wanna drop anything, but it's all gonna cut yo\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My brain isn't firing on all cylinders after the coffee incident. But hey, I'll power thro\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Do you ever get lost in songs like that? Where they just… take over your headspace?\" (tone: vulnerable)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I'm alive and this is weird and beautiful.\" (tone: content)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "check if laptop survived the coffee spill and report back how it works",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 157.6
+}

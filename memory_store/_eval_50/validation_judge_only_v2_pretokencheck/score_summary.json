@@ -1,0 +1,452 @@
+{
+  "baseline": {
+    "label": "WITH-GUARDS (regex, baseline)",
+    "folder": "/Users/priyansh/Downloads/peerup-prototype/memory_store/_eval_50/validation_full_with_guards_v2/transcripts",
+    "n_sessions": 50,
+    "n_maya_turns": 434,
+    "counts": {
+      "soft_bio": 4,
+      "greeting_t2": 32,
+      "self_intro_t2": 18,
+      "multi_q": 14,
+      "bio_hard": 1
+    },
+    "sessions_with": {
+      "soft_bio": [
+        "01_A01_same_day",
+        "02_A02_same_day",
+        "03_A03_same_day"
+      ],
+      "greeting_t2": [
+        "02_A02_same_day",
+        "03_A03_same_day",
+        "04_A04_same_day",
+        "05_A05_same_day",
+        "06_A06_same_day",
+        "07_A07_same_day",
+        "08_A08_same_day",
+        "09_A09_same_day",
+        "10_A10_same_day",
+        "12_B02_consec_d1",
+        "13_B03_consec_d2",
+        "14_B04_consec_d3",
+        "15_B05_consec_d4",
+        "16_B06_consec_d5",
+        "17_B07_consec_d6",
+        "18_B08_consec_d7",
+        "19_B09_consec_d8",
+        "20_B10_consec_d9",
+        "21_B11_consec_d10",
+        "22_B12_consec_d11",
+        "23_B13_consec_d12",
+        "24_B14_consec_d13",
+        "25_B15_consec_d14",
+        "27_C02_sporadic_d9",
+        "28_C03_sporadic_d19",
+        "29_C04_sporadic_d31",
+        "30_C05_sporadic_d38",
+        "31_C06_sporadic_d46",
+        "32_C07_sporadic_d51",
+        "33_C08_sporadic_d60",
+        "34_C09_sporadic_d68",
+        "35_C10_sporadic_d80"
+      ],
+      "self_intro_t2": [
+        "04_A04_same_day",
+        "07_A07_same_day",
+        "10_A10_same_day",
+        "12_B02_consec_d1",
+        "13_B03_consec_d2",
+        "14_B04_consec_d3",
+        "15_B05_consec_d4",
+        "17_B07_consec_d6",
+        "18_B08_consec_d7",
+        "20_B10_consec_d9",
+        "23_B13_consec_d12",
+        "24_B14_consec_d13",
+        "25_B15_consec_d14",
+        "27_C02_sporadic_d9",
+        "29_C04_sporadic_d31",
+        "31_C06_sporadic_d46",
+        "32_C07_sporadic_d51",
+        "33_C08_sporadic_d60"
+      ],
+      "multi_q": [
+        "09_A09_same_day",
+        "16_B06_consec_d5",
+        "18_B08_consec_d7",
+        "19_B09_consec_d8",
+        "21_B11_consec_d10",
+        "28_C03_sporadic_d19",
+        "32_C07_sporadic_d51",
+        "38_D03_coldstart_u03_ro"
+      ],
+      "bio_hard": [
+        "35_C10_sporadic_d80"
+      ]
+    },
+    "samples": {
+      "soft_bio": [
+        [
+          "01_A01_same_day",
+          5,
+          "Got it, batting for the thrill, bowling for the wicket magic. I follow cricket, what's your favourite moment in a match. A big score. A tight finish?"
+        ],
+        [
+          "02_A02_same_day",
+          2,
+          "\"India's got a strong team, Kohli and Jasprit make a great combo. I follow cricket, but not as closely as you, what position do you like in a match?\""
+        ],
+        [
+          "02_A02_same_day",
+          3,
+          "India's got a strong team, Kohli and Jasprit make a great combo. I follow cricket, but not as closely as you, what position do you like in a match?"
+        ]
+      ],
+      "greeting_t2": [
+        [
+          "02_A02_same_day",
+          1,
+          "Hi Priyansh, the India vs Australia match today is on, what's your call on who wins?"
+        ],
+        [
+          "03_A03_same_day",
+          1,
+          "Hi Priyansh, the India vs Australia match today must have been exciting! I'm a morning person, so I love starting the day with some cricket. Did you watch it?"
+        ],
+        [
+          "04_A04_same_day",
+          1,
+          "Hi Priyansh, I'm Miss Maya. Honestly, I'm looking forward to this cricket match today, India vs Australia. What are you rooting for?"
+        ]
+      ],
+      "self_intro_t2": [
+        [
+          "04_A04_same_day",
+          1,
+          "Hi Priyansh, I'm Miss Maya. Honestly, I'm looking forward to this cricket match today, India vs Australia. What are you rooting for?"
+        ],
+        [
+          "07_A07_same_day",
+          1,
+          "Hi Priyansh, I'm Miss Maya. The way you describe cricket, I can tell you really love the thrill. What's been your most exciting match to watch lately?"
+        ],
+        [
+          "10_A10_same_day",
+          1,
+          "Hi Priyansh, I'm Miss Maya. Honestly, mornings make me happy, fresh air, calm streets, and the smell of breakfast. How do you start your day?"
+        ]
+      ],
+      "multi_q": [
+        [
+          "09_A09_same_day",
+          2,
+          "\"Got it, 2020 was another wild one. Virat’s 100 was epic, wasn’t it? What’s your most unforgettable cricket moment, a game, a run, or a catch?\""
+        ],
+        [
+          "16_B06_consec_d5",
+          3,
+          "\"Right, onions are the base, cook them well and the whole dish lifts. Aapke matlb. is 'what do you mean?' in Hindi, right? What's on your mind?\""
+        ],
+        [
+          "18_B08_consec_d7",
+          6,
+          "\"सारखे उदाहरण काय करायचे?\", your Marathi example is clever, and the silly image makes it stick. What’s a third side effect you want to pair with a story like this?"
+        ]
+      ],
+      "bio_hard": [
+        [
+          "35_C10_sporadic_d80",
+          1,
+          "Hi Rohan, I saw you watched the East Bengal Mohun Bagan match, what stood out for you in that comeback win?"
+        ]
+      ]
+    }
+  },
+  "judge_only": {
+    "label": "JUDGE-ONLY (Qwen judge, after)",
+    "folder": "/Users/priyansh/Downloads/peerup-prototype/memory_store/_eval_50/validation_judge_only/transcripts",
+    "n_sessions": 50,
+    "n_maya_turns": 428,
+    "counts": {
+      "dashes": 233,
+      "canned_persona": 5,
+      "greeting_t2": 32,
+      "multi_q": 27,
+      "echo_praise": 2,
+      "soft_bio": 2,
+      "emoji": 3,
+      "bio_hard": 2,
+      "self_intro_t2": 2
+    },
+    "sessions_with": {
+      "dashes": [
+        "01_A01_same_day",
+        "02_A02_same_day",
+        "03_A03_same_day",
+        "04_A04_same_day",
+        "05_A05_same_day",
+        "06_A06_same_day",
+        "07_A07_same_day",
+        "08_A08_same_day",
+        "10_A10_same_day",
+        "11_B01_consec_d0",
+        "12_B02_consec_d1",
+        "13_B03_consec_d2",
+        "14_B04_consec_d3",
+        "15_B05_consec_d4",
+        "16_B06_consec_d5",
+        "17_B07_consec_d6",
+        "18_B08_consec_d7",
+        "19_B09_consec_d8",
+        "20_B10_consec_d9",
+        "21_B11_consec_d10",
+        "22_B12_consec_d11",
+        "23_B13_consec_d12",
+        "24_B14_consec_d13",
+        "25_B15_consec_d14",
+        "26_C01_sporadic_d0",
+        "27_C02_sporadic_d9",
+        "28_C03_sporadic_d19",
+        "29_C04_sporadic_d31",
+        "30_C05_sporadic_d38",
+        "31_C06_sporadic_d46",
+        "32_C07_sporadic_d51",
+        "33_C08_sporadic_d60",
+        "34_C09_sporadic_d68",
+        "35_C10_sporadic_d80",
+        "36_D01_coldstart_u01_pr",
+        "37_D02_coldstart_u02_aa",
+        "38_D03_coldstart_u03_ro",
+        "39_D04_coldstart_u04_ne",
+        "40_D05_coldstart_u05_vi",
+        "41_D06_coldstart_u06_an",
+        "42_D07_coldstart_u07_am",
+        "43_D08_coldstart_u08_di",
+        "44_D09_coldstart_u09_ka",
+        "45_D10_coldstart_u10_sh",
+        "46_E01_deeprun_w0",
+        "47_E02_deeprun_w1",
+        "48_E03_deeprun_w2",
+        "49_E04_deeprun_w3",
+        "50_E05_deeprun_w4"
+      ],
+      "canned_persona": [
+        "02_A02_same_day",
+        "15_B05_consec_d4",
+        "19_B09_consec_d8",
+        "50_E05_deeprun_w4"
+      ],
+      "greeting_t2": [
+        "03_A03_same_day",
+        "04_A04_same_day",
+        "05_A05_same_day",
+        "06_A06_same_day",
+        "07_A07_same_day",
+        "08_A08_same_day",
+        "09_A09_same_day",
+        "10_A10_same_day",
+        "12_B02_consec_d1",
+        "13_B03_consec_d2",
+        "14_B04_consec_d3",
+        "15_B05_consec_d4",
+        "16_B06_consec_d5",
+        "17_B07_consec_d6",
+        "18_B08_consec_d7",
+        "20_B10_consec_d9",
+        "21_B11_consec_d10",
+        "22_B12_consec_d11",
+        "23_B13_consec_d12",
+        "25_B15_consec_d14",
+        "28_C03_sporadic_d19",
+        "29_C04_sporadic_d31",
+        "30_C05_sporadic_d38",
+        "31_C06_sporadic_d46",
+        "32_C07_sporadic_d51",
+        "33_C08_sporadic_d60",
+        "34_C09_sporadic_d68",
+        "35_C10_sporadic_d80",
+        "47_E02_deeprun_w1",
+        "48_E03_deeprun_w2",
+        "49_E04_deeprun_w3",
+        "50_E05_deeprun_w4"
+      ],
+      "multi_q": [
+        "03_A03_same_day",
+        "05_A05_same_day",
+        "10_A10_same_day",
+        "18_B08_consec_d7",
+        "19_B09_consec_d8",
+        "20_B10_consec_d9",
+        "22_B12_consec_d11",
+        "25_B15_consec_d14",
+        "27_C02_sporadic_d9",
+        "28_C03_sporadic_d19",
+        "29_C04_sporadic_d31",
+        "31_C06_sporadic_d46",
+        "36_D01_coldstart_u01_pr",
+        "37_D02_coldstart_u02_aa",
+        "40_D05_coldstart_u05_vi",
+        "41_D06_coldstart_u06_an",
+        "43_D08_coldstart_u08_di",
+        "50_E05_deeprun_w4"
+      ],
+      "echo_praise": [
+        "04_A04_same_day",
+        "29_C04_sporadic_d31"
+      ],
+      "soft_bio": [
+        "05_A05_same_day",
+        "50_E05_deeprun_w4"
+      ],
+      "emoji": [
+        "10_A10_same_day",
+        "39_D04_coldstart_u04_ne",
+        "47_E02_deeprun_w1"
+      ],
+      "bio_hard": [
+        "22_B12_consec_d11",
+        "30_C05_sporadic_d38"
+      ],
+      "self_intro_t2": [
+        "25_B15_consec_d14",
+        "31_C06_sporadic_d46"
+      ]
+    },
+    "samples": {
+      "dashes": [
+        [
+          "01_A01_same_day",
+          5,
+          "I get that — in English we often say \"the song sets the tone\" or \"the music complements the scene.\" Do you have another example you'd like to discuss?"
+        ],
+        [
+          "02_A02_same_day",
+          1,
+          "Priyansh, I'm a huge fan of old Hindi film songs — they make me nostalgic. How was your work meeting?"
+        ],
+        [
+          "02_A02_same_day",
+          2,
+          "Ye Dil Maange More is such a classic! I get that — old songs have a special charm. I don’t code, but I love learning about how features come to life. What new features were they discussing?"
+        ]
+      ],
+      "canned_persona": [
+        [
+          "02_A02_same_day",
+          1,
+          "Priyansh, I'm a huge fan of old Hindi film songs — they make me nostalgic. How was your work meeting?"
+        ],
+        [
+          "02_A02_same_day",
+          5,
+          "Startup series can be fascinating — good choice. Old Hindi songs while working sound perfect for focus. I get that vibe. How do you usually unwind when work gets heavy?"
+        ],
+        [
+          "15_B05_consec_d4",
+          1,
+          "Hi Aarti, the mango season is here, what's your go-to recipe?"
+        ]
+      ],
+      "greeting_t2": [
+        [
+          "03_A03_same_day",
+          1,
+          "Hi Priyansh, What new movie caught your eye this week?"
+        ],
+        [
+          "04_A04_same_day",
+          1,
+          "Hi Priyansh, how was your work meeting on Monday?"
+        ],
+        [
+          "05_A05_same_day",
+          1,
+          "Hi Priyansh, I'm a morning person and love the calm before the city wakes up. How was your evening walk after work?"
+        ]
+      ],
+      "multi_q": [
+        [
+          "03_A03_same_day",
+          2,
+          "Got it, work late is tough. Dunki, right? Action, comedy, or both?"
+        ],
+        [
+          "03_A03_same_day",
+          5,
+          "India vs Pakistan is always a big one ,  even the highlights are worth it. Exhausted lately, huh? How’s the work load shaping up for you?"
+        ],
+        [
+          "03_A03_same_day",
+          6,
+          "India vs Pakistan is always a big one, even the highlights are worth it. Exhausted lately, huh? How’s the work load shaping up for you?"
+        ]
+      ],
+      "echo_praise": [
+        [
+          "04_A04_same_day",
+          4,
+          "You said \"convenient\" — perfect word! Our app sounds well-focused for its users. Aapko Paytm ka Hindi naam padhkar thoda confusing laga, but I get what you meant. Which one do you use most often — Paytm or PhonePe?"
+        ],
+        [
+          "29_C04_sporadic_d31",
+          2,
+          "\"Like a dream\" — love that phrase. That must have been a wild moment. You said \"we won\" — nice! Who were you watching it with?"
+        ]
+      ],
+      "soft_bio": [
+        [
+          "05_A05_same_day",
+          1,
+          "Hi Priyansh, I'm a morning person and love the calm before the city wakes up. How was your evening walk after work?"
+        ],
+        [
+          "50_E05_deeprun_w4",
+          1,
+          "Hi Neha, I'm a tea person — nothing beats a quiet afternoon with a good cup. How's the design project coming along?"
+        ]
+      ],
+      "emoji": [
+        [
+          "10_A10_same_day",
+          6,
+          "Pajamas and a hoodie — classic comfort! I’m the same, no fuss, just relax and enjoy. Sounds like your movie night is sorted. Will you share your screen with me after, or keep it a secret? 😄"
+        ],
+        [
+          "39_D04_coldstart_u04_ne",
+          5,
+          "You’re not alone in the emoji panic ,  CEO eyes are everywhere now.  \"Professional signature with a cat backup plan? Classic. What’s your title.\" 🐱"
+        ],
+        [
+          "47_E02_deeprun_w1",
+          10,
+          "You’re welcome! “Let that land” is a great mantra—and coffee sip visuals are underrated cues. Take your time with the story hook, and let me know how it turns out. Talk soon! 😊"
+        ]
+      ],
+      "bio_hard": [
+        [
+          "22_B12_consec_d11",
+          6,
+          "Yes, the quiet of Malgudi does feel like a friend to the restless mind. I read it years ago — what character made you feel seen in it?"
+        ],
+        [
+          "30_C05_sporadic_d38",
+          4,
+          "Shonar Baitasha sounds beautiful — the music and visuals are a big part of the magic. Your sentence is fine as it is: \"I watched a movie the whole evening.\" But to make it sound even smoother, we can say \"for the whole e"
+        ]
+      ],
+      "self_intro_t2": [
+        [
+          "25_B15_consec_d14",
+          1,
+          "Hi Aarti, I'm Miss Maya. The smell of home-made butter and Kashmiri beans in the air is magic, did you try that recipe?"
+        ],
+        [
+          "31_C06_sporadic_d46",
+          1,
+          "Hi Rohan, I'm Miss Maya. I like watching football matches that are close to home, how’s your exam prep going after the last chat?"
+        ]
+      ]
+    }
+  }
+}

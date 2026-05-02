@@ -1,0 +1,605 @@
+{
+  "spec": {
+    "idx": 13,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-03",
+    "turns_target": 8,
+    "emotional_state": "tired, slept badly",
+    "label": "B03_consec_d2"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, I hope you're having a calm morning. I noticed your study ritual with classical music — does it still help you focus on tricky English terms?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Yeah, it does... sometimes. Today, my head feels heavy, like \"dhokla\" after a big meal. The music helps, but I’m just so tired. My revision is lagging. Ugh."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Hi Aarti, I get that heavy feeling — like after too much spicy biryani! Take it slow. What part of pharmacology is giving you trouble today?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Oh, you got the \"heavy head\" part right! It’s not pharmacology exactly… it’s the English terms in the PG notes. Words like “idiosyncratic” or “pharmacokinetics” — they look like puzzles. I mix up the prefixes. Maybe we can do a quick vocab drill? Or should I just rest?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Hi Aarti, you used \"idiosyncratic\" perfectly! Tiny tweak: we often say \"pharmacokinetics\" as one word, but your meaning was clear. You decide — want to practice a few terms, or take a short break?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Let’s try a quick drill… but just 5 minutes, okay? My eyes are half-closed already."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Hi Aarti, ready when you are! Let’s start with “idiosyncratic.” Imagine it as \"idiots have their own quirks!\" What’s next? “Pharmacokinetics” — think \"pharma\" (drugs) + \"kinetics\" (movement). Any other term on your mind?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Teratogenic\" — I always mix it with \"tachycardic.\" Help? 😅"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Hi Aarti, great catch! \"Teratogenic\" (starts with \"tera\") relates to birth defects — think \"terrible for a baby.\" \"Tachycardic\" (starts with \"tachy\") is fast heart rate — like \"tachometer\" in a fast car. Want to try one more? Or take a deep breath and rest?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "One more, please… and then I’ll take a break. Promise."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Hi Aarti, okay! Let’s try “mydriatic.” It’s for eye drops that make your pupils bigger. Think \"my\" (as in \"my eyes\") + \"dilate.\" Got it? You did so well with the others — take your break now, you’ve earned it."
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Yeah, \"mydriatic\" makes sense now… thanks! My brain feels a tiny bit lighter. I’ll go sip some ginger tea and rest my eyes. Talk later, Miss Maya. 😊"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Hi Aarti, ginger tea is a perfect pick — it warms up the mind and body. Rest well, and take your time. I'm here for more practice anytime you're ready. Talk soon!"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Thanks, Miss Maya! I’ll take your advice. These chats actually help me feel less stuck. Aapki baat sunke thodi roshni lagti hai. Goodnight! 🌙"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Hi Aarti, \"Aapki baat sunke thodi roshni lagti hai\" — what a beautiful way to say that! You're doing great, just a tiny tweak: we say \"sunke\" without the \"ke\" at the end. Rest well, and I'll be here for your next chat. Goodnight!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_preparation": "NEET PG",
+      "current_subject": "pharmacology",
+      "first_language": "Marathi",
+      "english_fluency": "intermediate",
+      "english_challenge": "medical and technical terminology",
+      "health_philosophy": "avoids medicine unless necessary",
+      "current_reading": "human anatomy (non-fiction)",
+      "study_ritual": "classical music"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "My Marathi is good, but English terms are tricky; sometimes I get confused between similar drugs",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "exams are stressing me out; I get stressed and mix up drug names when studying pharmacology",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "study check-in",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "medicine",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "reading habits",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"exams are stressing me out; I get stressed and mix up drug names when studying pharmacolog\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: generated own mnemonic for morphine (morph + shape-changing + 'mine' = powerful) (e.g. \"morphine... maybe I can think of 'morph' like changing shape, because it's a painkiller that changes how you feel? Oh, and 'ine' at the end sounds like 'mine' — like it's a powerful thing you have to be careful with!\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: generated own mnemonic for propranolol (e.g. \"Prop up your heart with propranolol\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My Marathi is good, but English terms are tricky; sometimes I get confused between similar\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-02",
+        "expires_at": "2026-05-16",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "generated own mnemonic for morphine (morph + shape-changing + 'mine' = powerful)",
+          "examples": [
+            "morphine... maybe I can think of 'morph' like changing shape, because it's a painkiller that changes how you feel? Oh, and 'ine' at the end sounds like 'mine' — like it's a powerful thing you have to be careful with!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "generated own mnemonic for propranolol",
+          "examples": [
+            "Prop up your heart with propranolol"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-02",
+          "last_seen": "2026-05-02"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "likes soft music while working",
+        "enjoys the cool post-lunch break feeling",
+        "struggles with tricky English sometimes"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "try saying 'break a leg' to friend before her music exam",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_preparation": "NEET PG",
+      "current_subject": "pharmacology",
+      "first_language": "Marathi",
+      "english_fluency": "intermediate",
+      "english_challenge": "medical and technical terminology",
+      "health_philosophy": "avoids medicine unless necessary",
+      "current_reading": "human anatomy (non-fiction)",
+      "study_ritual": "classical music"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "My Marathi is good, but English terms are tricky; sometimes I get confused between similar drugs",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "exams are stressing me out; I get stressed and mix up drug names when studying pharmacology",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "These chats actually help me feel less stuck",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Aapki baat sunke thodi roshni lagti hai (Your words give me a little light)",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "content",
+        "energy": 3,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "study check-in",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "medicine",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "reading habits",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"exams are stressing me out; I get stressed and mix up drug names when studying pharmacolog\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: generated own mnemonic for morphine (morph + shape-changing + 'mine' = powerful) (e.g. \"morphine... maybe I can think of 'morph' like changing shape, because it's a painkiller that changes how you feel? Oh, and 'ine' at the end sounds like 'mine' — like it's a powerful thing you have to be careful with!\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: generated own mnemonic for propranolol (e.g. \"Prop up your heart with propranolol\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: understood 'mydriatic' etymology immediately (my/eyes + dilate) (e.g. \"Yeah, 'mydriatic' makes sense now… thanks!\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"These chats actually help me feel less stuck\" (tone: hopeful)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "confuses similar-sounding medical terms (e.g., 'teratogenic' vs 'tachycardic')",
+          "examples": [
+            "'Teratogenic' — I always mix it with 'tachycardic'"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-03",
+          "last_seen": "2026-05-03",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "generated own mnemonic for morphine (morph + shape-changing + 'mine' = powerful)",
+          "examples": [
+            "morphine... maybe I can think of 'morph' like changing shape, because it's a painkiller that changes how you feel? Oh, and 'ine' at the end sounds like 'mine' — like it's a powerful thing you have to be careful with!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "generated own mnemonic for propranolol",
+          "examples": [
+            "Prop up your heart with propranolol"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-02",
+          "last_seen": "2026-05-02"
+        },
+        {
+          "what": "understood 'mydriatic' etymology immediately (my/eyes + dilate)",
+          "examples": [
+            "Yeah, 'mydriatic' makes sense now… thanks!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-03",
+          "last_seen": "2026-05-03"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "confuses similar-sounding medical terms (e.g., 'teratogenic' vs 'tachycardic')",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "'Teratogenic' — I always mix it with 'tachycardic'"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "likes soft music while working",
+        "enjoys the cool post-lunch break feeling",
+        "struggles with tricky English sometimes"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "try saying 'break a leg' to friend before her music exam",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 112.3
+}

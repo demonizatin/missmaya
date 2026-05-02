@@ -1,0 +1,497 @@
+{
+  "facts": {
+    "nickname": "Neha",
+    "stress_relief_method": "walks",
+    "preferred_beverage": "chai",
+    "yoga_style": "gentle (child's pose, 10 min sessions)",
+    "favorite_books": [
+      "The Time Traveler's Wife",
+      "Eating Animals",
+      "The Alchemist",
+      "The Ocean at the End of the Lane"
+    ],
+    "comfort_media": [
+      "Parks and Rec"
+    ],
+    "music_preference": [
+      "lo-fi playlists",
+      "indie music",
+      "Tamil indie",
+      "old Tamil film songs"
+    ],
+    "current_work": "Designs customer preference tracking app for small businesses",
+    "favorite_songs": [
+      "Go to Sleep by The Smiths",
+      "Sigh No More by Florence + The Machine",
+      "The A Team by Ed Sheeran",
+      "Lover by Phoebe Bridgers",
+      "Ethir Padai by Sathya",
+      "Midnight Sun by The Paper Kites",
+      "Fools by Radiohead",
+      "Ho Hey by The Lumineers"
+    ]
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "Project design deadline",
+      "date": "2026-05-16",
+      "added": "2026-05-15",
+      "followed_up": true
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Today was one of those days where everything tiny goes wrong.",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "I just want to hit pause and take a deep breath.",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_003",
+      "text": "I'm learning to laugh at the little mishaps.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_004",
+      "text": "My train delayed, I missed a meeting, and now I'm stuck in this tiny apartment missing the rain.",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mentions": 1
+    },
+    {
+      "id": "mo_005",
+      "text": "I wish I could live in that rainy café moment forever — no deadlines, no emails, just chai and a sketchbook.",
+      "tone": "hopeful",
+      "sensitive": false,
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mentions": 1
+    },
+    {
+      "id": "mo_006",
+      "text": "This chat is saving my rainy evening.",
+      "tone": "grateful",
+      "sensitive": false,
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mentions": 1
+    },
+    {
+      "id": "mo_007",
+      "text": "It's not loneliness when you're vibing with your favorite tune, right?",
+      "tone": "hopeful",
+      "sensitive": false,
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mentions": 1
+    },
+    {
+      "id": "mo_008",
+      "text": "It's weird — now I feel less alone.",
+      "tone": "grateful",
+      "sensitive": false,
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mentions": 1
+    },
+    {
+      "id": "mo_009",
+      "text": "Rare treat, but I chase it like a sunset 🌅. It's that spark that makes the mess worth it.",
+      "tone": "hopeful",
+      "sensitive": false,
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mentions": 1
+    },
+    {
+      "id": "mo_010",
+      "text": "It's not perfect, but it's *done*.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mentions": 1
+    },
+    {
+      "id": "mo_011",
+      "text": "I'm doing my best. I'm doing my best.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mentions": 1
+    },
+    {
+      "id": "mo_012",
+      "text": "Everything feels heavy — even the smallest comforts feel like work.",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "mentions": 1
+    },
+    {
+      "id": "mo_013",
+      "text": "Just breathing, I guess. Or pretending to.",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "mentions": 1
+    },
+    {
+      "id": "mo_014",
+      "text": "Today I'm still counting ceiling tiles.",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "mentions": 1
+    },
+    {
+      "id": "mo_015",
+      "text": "The world's holding its breath with me — that pause before chai is so small, but enough.",
+      "tone": "grateful",
+      "sensitive": false,
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_46_E01_deeprun_w0",
+      "date": "2026-05-01",
+      "label": "content",
+      "energy": 6,
+      "confidence": 0.8,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_47_E02_deeprun_w1",
+      "date": "2026-05-08",
+      "label": "content",
+      "energy": 6,
+      "confidence": 0.75,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_48_E03_deeprun_w2",
+      "date": "2026-05-15",
+      "label": "content",
+      "energy": 6,
+      "confidence": 0.75,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": "ev_001"
+    },
+    {
+      "session_id": "eval_49_E04_deeprun_w3",
+      "date": "2026-05-22",
+      "label": "anxious",
+      "energy": 6,
+      "confidence": 0.75,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": "ev_001"
+    },
+    {
+      "session_id": "eval_50_E05_deeprun_w4",
+      "date": "2026-05-29",
+      "label": "low",
+      "energy": 2,
+      "confidence": 0.59,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "soft_conflict",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "Cafe discovery",
+        "last_session": "eval_50_E05_deeprun_w4",
+        "last_date": "2026-05-29",
+        "uses": 1
+      },
+      {
+        "topic": "Music preferences",
+        "last_session": "eval_50_E05_deeprun_w4",
+        "last_date": "2026-05-29",
+        "uses": 1
+      },
+      {
+        "topic": "Comfort routines",
+        "last_session": "eval_50_E05_deeprun_w4",
+        "last_date": "2026-05-29",
+        "uses": 1
+      },
+      {
+        "topic": "Coping with heavy days",
+        "last_session": "eval_50_E05_deeprun_w4",
+        "last_date": "2026-05-29",
+        "uses": 1
+      },
+      {
+        "topic": "small wins / progress dots",
+        "last_session": "eval_49_E04_deeprun_w3",
+        "last_date": "2026-05-22",
+        "uses": 1
+      },
+      {
+        "topic": "finishing and feeling proud",
+        "last_session": "eval_49_E04_deeprun_w3",
+        "last_date": "2026-05-22",
+        "uses": 1
+      },
+      {
+        "topic": "music",
+        "last_session": "eval_48_E03_deeprun_w2",
+        "last_date": "2026-05-15",
+        "uses": 1
+      },
+      {
+        "topic": "café vibes",
+        "last_session": "eval_47_E02_deeprun_w1",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "startup ideas",
+        "last_session": "eval_47_E02_deeprun_w1",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "rainy-day books",
+        "last_session": "eval_47_E02_deeprun_w1",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "rainy-day songs",
+        "last_session": "eval_47_E02_deeprun_w1",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "coping strategies",
+        "last_session": "eval_46_E01_deeprun_w0",
+        "last_date": "2026-05-01",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_46_E01_deeprun_w0",
+        "last_date": "2026-05-01"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "eval_47_E02_deeprun_w1",
+        "last_date": "2026-05-08"
+      },
+      {
+        "kind": "general",
+        "last_session": "eval_48_E03_deeprun_w2",
+        "last_date": "2026-05-15"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "eval_49_E04_deeprun_w3",
+        "last_date": "2026-05-22"
+      },
+      {
+        "kind": "general",
+        "last_session": "eval_50_E05_deeprun_w4",
+        "last_date": "2026-05-29"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [
+    {
+      "id": "lo_001",
+      "what": "the '*chokli chokli*' term for steaming chai",
+      "context": "User's beloved onomatopoeia for hot steaming chai; makes rain + chai moments feel intimate. Both use it warmly.",
+      "first_seen": "2026-05-08",
+      "last_used": "2026-05-29",
+      "uses": 1
+    }
+  ],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Everything feels heavy — even the smallest comforts feel like work.\" (tone: anxious)",
+      "source_id": "mo_012",
+      "priority": 7,
+      "computed_at": "2026-05-29",
+      "expires_at": "2026-06-12",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Just breathing, I guess. Or pretending to.\" (tone: anxious)",
+      "source_id": "mo_013",
+      "priority": 7,
+      "computed_at": "2026-05-29",
+      "expires_at": "2026-06-12",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Today I'm still counting ceiling tiles.\" (tone: anxious)",
+      "source_id": "mo_014",
+      "priority": 7,
+      "computed_at": "2026-05-29",
+      "expires_at": "2026-06-12",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"The world's holding its breath with me — that pause before chai is so small, but enough.\" (tone: grateful)",
+      "source_id": "mo_015",
+      "priority": 4,
+      "computed_at": "2026-05-29",
+      "expires_at": "2026-06-12",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Rare treat, but I chase it like a sunset 🌅. It's that spark that makes the mess worth it.\" (tone: hopeful)",
+      "source_id": "mo_009",
+      "priority": 4,
+      "computed_at": "2026-05-29",
+      "expires_at": "2026-06-12",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold",
+      "Writes small stories and makes to-do lists when settling into a calm rhythm"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_003",
+      "kind": "maya_promise",
+      "content": "user to send 'done' message when back from walk and palette work",
+      "source_session": "eval_49_E04_deeprun_w3",
+      "source_date": "2026-05-22",
+      "status": "active",
+      "expires_at": "2026-06-21"
+    },
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "Share the link to 'Ethir Padai' by Sathya",
+      "source_session": "eval_48_E03_deeprun_w2",
+      "source_date": "2026-05-15",
+      "status": "active",
+      "expires_at": "2026-06-14"
+    },
+    {
+      "id": "ol_002",
+      "kind": "user_promise",
+      "content": "Bring a full playlist next session",
+      "source_session": "eval_48_E03_deeprun_w2",
+      "source_date": "2026-05-15",
+      "status": "active",
+      "expires_at": "2026-06-14"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

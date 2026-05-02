@@ -1,0 +1,688 @@
+{
+  "spec": {
+    "idx": 4,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 12,
+    "emotional_state": "content, decent day at work",
+    "label": "A04_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, how did your team meeting about the new app feature go today?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "It went ok. We discussed the payment gateway integration. My manager said the deadline is tight. I think we can manage. Have you seen the new Bollywood movie \"Jawan\"? It's trending."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "I get that — tight deadlines can be tricky. Payment gateways are a big part of fintech. Speaking of Bollywood — did you enjoy 'Jawan'?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Yeah, I liked it. The action scenes are good, and Shah Rukh Khan's acting is top-notch. But the second half could have been better. Did you watch it?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "I get that — action scenes with SRK are always exciting. I haven’t watched it yet, but I’ve heard the second half is a bit slow. Do you plan to watch it again?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "No, I don't plan to watch it again. Maybe watch the Hindi movie \"Chandigarh Kare Aashiqui\" next. It's more romantic. How about you? Do you like Bollywood movies?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "I get that — romantic movies are a nice change. I like Bollywood films, especially ones with good stories. What made you choose \"Chandigarh Kare Aashiqui\"?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "The story looks fresh and the music is nice. Plus, I like watching new kinds of Bollywood movies. But I’m not sure yet — maybe watch it this weekend. By the way, do you like watching movies in your free time?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "I get that — fresh stories and good music are a great combo. Weekends are perfect for trying new movies. Yes, I enjoy watching movies in my free time. What kind of movies do you usually like?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I usually like action and comedy movies. Sometimes I watch thrillers too. But I’m open to try different genres. Last weekend I watched a Hindi comedy, it was really funny. Do you have a favorite genre?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "I get that — Hindi comedies can be so funny! I like comedy too, especially ones with a good message. Do you watch a lot of comedies from Bollywood?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Yeah, I watch a lot of Bollywood comedies. They're light and make me laugh. Some are just for fun, but others have nice messages too. I like \"Chennai Express\" and \"PK\" — you? Any favorite comedy movies?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "I get that — Bollywood comedies are great for a light-hearted watch. \"PK\" is a classic — I like it too! Do you prefer newer comedies or older ones?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I like both, but newer ones catch my attention more. Maybe because the comedy style is different now. But \"Chennai Express\" is still a hit — the chemistry between Salman and Deepika is awesome. I should watch it again."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "I get that — newer styles do stand out, but classics like \"Chennai Express\" always have something special. The chemistry between Salman and Deepika is indeed great. Should you watch it again this weekend?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Yeah, maybe I will. It’s been a while since I watched it. But I’m also thinking of trying a new comedy — maybe something from 2023. Not sure yet. What about you? Do you prefer romantic comedies or just funny ones?"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "I get that — trying a 2023 comedy sounds fun. I like romantic comedies the most — they’re light and have good moments. Do you enjoy those too?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Yeah, I like romantic comedies too — they’re fun and not too serious. \"Barfi!\" is one of my favorites. But I also enjoy just funny ones without the romance. It depends on my mood. I think I’ll go with \"Chennai Express\" this weekend — need some nostalgia. Thanks for the suggestion!"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "You're welcome — \"Chennai Express\" is a great pick for a nostalgic watch. I get that — mood really decides what we feel like watching. Enjoy the movie!"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "You're welcome! Yeah, I think I'll go with \"Chennai Express\" — it's always a good time. Need to log off now, gotta get some work done. Talk to you later!"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "You're welcome! \"Chennai Express\" is a safe bet — enjoy the fun and the nostalgia. Take care, and talk to you soon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "occupation": "project-based work",
+      "interests": [
+        "Bollywood movies"
+      ],
+      "favorite_bollywood_movie": "Munnabhai MBBS",
+      "movie_preference": "comedy (favorite), but appreciates good drama",
+      "beverage_preference": "coffee",
+      "weather_preference": "cool weather, prefers monsoon season",
+      "monsoon_snacks": [
+        "bhel puri",
+        "pakora with tea",
+        "roasted chana"
+      ],
+      "lunch_preference": "aloo gobhi sabzi",
+      "dal_preference": "moong dal"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "team meeting about new app feature",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I'm feeling hopeful today",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "comedy vs drama",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "tea preference",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "weather",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "heat management",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "monsoon snacks",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "roasted chana and sabzi",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "dal cooking variations",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "team meetings",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "beverages",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"team meeting about new app feature\" — today",
+        "source_id": "ev_001",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I'm feeling hopeful today\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Maya prefers dal and rice over sabzi"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "how the roasted chana from the office canteen tastes",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "try adding tomatoes to moong dal and report back",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "tell Maya how the team meeting went",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "occupation": "project-based work",
+      "interests": [
+        "Bollywood movies"
+      ],
+      "favorite_bollywood_movie": "Munnabhai MBBS",
+      "movie_preference": "action and comedy (favorites), romantic comedy, drama, thrillers (occasional)",
+      "beverage_preference": "coffee",
+      "weather_preference": "cool weather, prefers monsoon season",
+      "monsoon_snacks": [
+        "bhel puri",
+        "pakora with tea",
+        "roasted chana"
+      ],
+      "lunch_preference": "aloo gobhi sabzi",
+      "dal_preference": "moong dal",
+      "other_favorite_bollywood_movies": [
+        "Chennai Express",
+        "PK",
+        "Barfi!"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "team meeting about new app feature",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I'm feeling hopeful today",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "comedy vs drama",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "tea preference",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "weather",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "heat management",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "monsoon snacks",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "roasted chana and sabzi",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "dal cooking variations",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "team meetings",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "beverages",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I'm feeling hopeful today\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Maya prefers dal and rice over sabzi",
+        "Likes Bollywood films, especially ones with good stories",
+        "Enjoys watching movies in free time",
+        "Likes romantic comedies the most"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "how the roasted chana from the office canteen tastes",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "try adding tomatoes to moong dal and report back",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "tell Maya how the team meeting went",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 118.5
+}

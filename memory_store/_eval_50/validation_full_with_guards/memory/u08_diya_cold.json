@@ -1,0 +1,151 @@
+{
+  "facts": {
+    "nickname": "Diya",
+    "profession": "marketing firm owner (left corporate job)",
+    "reason_for_career_change": "wanted control over time and work; found corporate grind unsustainable",
+    "benefits_of_career_change": "can say no to things; more time to travel and read",
+    "work_nostalgia": "misses big team wins and solving problems under deadline pressure",
+    "favorite_drink": "ginger tea with honey",
+    "currently_reading": "*The Midnight Library*",
+    "reading_preference": "slow, meaningful reads",
+    "unwinding_activities": [
+      "long walks by the sea",
+      "reading with tea",
+      "journaling"
+    ],
+    "dream_destinations": [
+      "Iceland",
+      "Greece"
+    ],
+    "travel_style": "slow, simple, chill experiences"
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "Trip to Kerala",
+      "date": "2026-06-15",
+      "added": "2026-05-28",
+      "followed_up": false
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Leaving corporate job to start own marketing firm was scary but liberating. Worth it, despite the fear at first.",
+      "tone": "proud",
+      "sensitive": false,
+      "first_seen": "2026-05-28",
+      "last_seen": "2026-05-28",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_43_D08_coldstart_u08_di",
+      "date": "2026-05-28",
+      "label": "content",
+      "energy": 7,
+      "confidence": 0.8,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "favorite drinks",
+        "last_session": "eval_43_D08_coldstart_u08_di",
+        "last_date": "2026-05-28",
+        "uses": 1
+      },
+      {
+        "topic": "reading",
+        "last_session": "eval_43_D08_coldstart_u08_di",
+        "last_date": "2026-05-28",
+        "uses": 1
+      },
+      {
+        "topic": "life choices",
+        "last_session": "eval_43_D08_coldstart_u08_di",
+        "last_date": "2026-05-28",
+        "uses": 1
+      },
+      {
+        "topic": "work nostalgia",
+        "last_session": "eval_43_D08_coldstart_u08_di",
+        "last_date": "2026-05-28",
+        "uses": 1
+      },
+      {
+        "topic": "travel",
+        "last_session": "eval_43_D08_coldstart_u08_di",
+        "last_date": "2026-05-28",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_43_D08_coldstart_u08_di",
+        "last_date": "2026-05-28"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Leaving corporate job to start own marketing firm was scary but liberating. Worth it, desp\" (tone: proud)",
+      "source_id": "mo_001",
+      "priority": 4,
+      "computed_at": "2026-05-28",
+      "expires_at": "2026-06-11",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

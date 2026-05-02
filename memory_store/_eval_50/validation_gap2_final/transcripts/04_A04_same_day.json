@@ -1,0 +1,705 @@
+{
+  "spec": {
+    "idx": 4,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 12,
+    "emotional_state": "content, decent day at work",
+    "label": "A04_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, cricket finals are always exciting — what snack are you choosing for the MI vs CSK match?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "I think I'll go with some pav bhaji and cold drinks. It's a classic combo for me. How about you?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Nice choice — pav bhaji and cold drinks are perfect for a cricket match. I’m curious, which player are you rooting for in the final?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "I'm supporting MI, obviously! I'm a big fan of Surya Kumar Yadav. What about you?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "\"Got it — MI has a strong team this season. Surya Kumar Yadav is a smart pick. Are you watching the final with friends or alone?\""
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "With friends, definitely! We usually gather at a small watch party. Sometimes even watch in the office if the game is on a weekday. You?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "\"Great — office watch parties are fun too. Will you take your pav bhaji to the office or eat it at home first?\""
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "At home first. We usually start the match with a pre-game feast, then head to the office for the actual match. It's more comfortable. 😊"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "\"Sounds like a perfect plan — feast first, then the action. Will you and your team stream the match or watch it on TV?\""
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "We usually stream it on our phones or a laptop — it’s easier if we’re all in a small room. Sometimes we even use a projector if the office space allows. You know, keep it casual but game-ready! 😄"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "\"Love the casual setup — phones, laptops, even a projector if space allows. What’s your go-to drink while streaming the match?\""
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Soft drinks, mostly. Sometimes we get some beer if it's a weekend gathering. But mostly just chilled soda — easy, refreshing, and no mess! 😊"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "\"Chilled soda is a solid choice — no mess, easy, and refreshing. Are you planning to root for MI with some team chants or just watch quietly?\""
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "We usually cheer a lot, especially when MI scores. Team chants, clapping, and sometimes even some fake commentary — it gets pretty fun! Quiet is for when CSK are batting, obviously 😂"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "\"Fake commentary and team chants sound like a winning setup — especially when MI scores! What’s your favourite moment from this season so far?\""
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "My favorite moment was when MI chased down that 200+ total in the semi-final. Surya was on fire that day — what a knock! Just pure thrill, you know? 😄"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "\"Chasing 200+ is always thrilling — Surya’s knock was amazing. Will you and your team take a break during the final or watch it all at once?\""
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "We’ll probably watch it all at once — no breaks, no distractions. We want to feel every twist and turn, you know? Like a movie marathon but with cricket! 😄"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "\"Movie marathon energy for the final — no breaks, no distractions. Got it. What will you do if MI wins? Any traditions?\""
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "If MI wins, we’ll definitely celebrate — maybe grab some dinner or order pizzas! Sometimes we even head to a local pub if it's a weekend. But if CSK win... well, we’ll pretend we didn’t care, right? 😂"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "\"Pretending not to care if CSK win is the best strategy — classic! What’s your all-time favourite MI victory?\""
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "Hmm, tough one! But I think the 2019 final against CSK was the best — what a game! Surya and Quinton de Kock really carried the team. That moment when they won... unforgettable. 😊"
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "\"2019 final vs CSK — what a game! Surya and Quinton’s chase was magic. Will you relive that moment during the final or focus only on the present?\""
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "coding",
+        "Bollywood films",
+        "cricket"
+      ],
+      "relaxation_method": "watches Bollywood/action movies to unwind",
+      "favorite_cricket_team": "Mumbai Indians",
+      "favorite_cricket_players": [
+        "Sachin Tendulkar",
+        "Virat Kohli"
+      ],
+      "favorite_bollywood_movies": [
+        "Dil Bechara",
+        "3 Idiots"
+      ],
+      "reading_habit": "occasionally reads Hindi novels; prefers watching Bollywood movies"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "watching cricket final (MI vs CSK) with snacks at 7:00 PM",
+        "date": "2026-05-04",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "mango season",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket and the final",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "sleep schedule",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation methods",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "reading habits",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "language practice",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: consistently used correct auxiliary verb 'do' in all questions throughout session (e.g. \"Do you follow any players?\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "omits auxiliary verb 'do' in questions",
+          "examples": [
+            "What you think?"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "consistently used correct auxiliary verb 'do' in all questions throughout session",
+          "examples": [
+            "Do you follow any players?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "omits auxiliary verb 'do' in questions",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "What you think?"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "watch cricket final (MI vs CSK) on 2026-05-04 at 7:00 PM with snacks",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "report back on whether reading or music before bed helped with sleep",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "try using 'read' in a sentence and report back to Maya",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "coding",
+        "Bollywood films",
+        "cricket"
+      ],
+      "relaxation_method": "watches Bollywood/action movies to unwind",
+      "favorite_cricket_team": "Mumbai Indians",
+      "favorite_cricket_players": [
+        "Sachin Tendulkar",
+        "Virat Kohli",
+        "Surya Kumar Yadav"
+      ],
+      "favorite_bollywood_movies": [
+        "Dil Bechara",
+        "3 Idiots"
+      ],
+      "reading_habit": "occasionally reads Hindi novels; prefers watching Bollywood movies",
+      "favorite_mi_victory": "2019 MI vs CSK final"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "watching cricket final (MI vs CSK) with snacks at 7:00 PM",
+        "date": "2026-05-04",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "mango season",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket and the final",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "sleep schedule",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation methods",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "reading habits",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "language practice",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket final snacks",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "player preferences",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "watch party logistics",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "streaming and viewing",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "celebration plans",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: consistently used correct auxiliary verb 'do' in all questions throughout session (e.g. \"Do you follow any players?\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "omits auxiliary verb 'do' in questions",
+          "examples": [
+            "What you think?"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "consistently used correct auxiliary verb 'do' in all questions throughout session",
+          "examples": [
+            "Do you follow any players?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "omits auxiliary verb 'do' in questions",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "What you think?"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "watch cricket final (MI vs CSK) on 2026-05-04 at 7:00 PM with snacks",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "report back on whether reading or music before bed helped with sleep",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "try using 'read' in a sentence and report back to Maya",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 106.0
+}

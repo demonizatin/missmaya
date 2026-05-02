@@ -1,0 +1,509 @@
+{
+  "session_count": 15,
+  "summary_metrics": {
+    "avg_reply_words": 29.4,
+    "replies_over_120w": 0,
+    "replies_under_8w": 0,
+    "avg_memory_ref_rate_returning_users": 0.2,
+    "opener_repetition_pairs": 0,
+    "stale_phrase_total_hits": 4,
+    "wrap_up_seen_count": 6
+  },
+  "ranked_gaps": [
+    {
+      "id": "multiple_questions_per_reply",
+      "severity": 3,
+      "frequency_pct": 33.3,
+      "count": 7,
+      "layer": "prompt",
+      "description": "Maya included 2+ questions in 7 replies across 5 sessions (Rule 9 violation).",
+      "examples": [
+        {
+          "session_idx": 4,
+          "turn": 10,
+          "q_count": 2,
+          "snippet": "\"Bollywood has that built-in shared history, so the references feel like a big group hug.  \n\nHollywood can be fun too — if you like twists and hidden details, maybe *Inception*? It’s layered and makes"
+        },
+        {
+          "session_idx": 6,
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "You're doing great — 'excited' is a good word. 'Thrilled' adds extra energy. Try this: 'I'm thrilled about the new feature!' Sounds fun, right? Was your meeting already?"
+        },
+        {
+          "session_idx": 47,
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "That sounds beautiful — a café owner’s smile makes all the work worth it. Freezing time in a good moment? Yes, I get that. Rain, chai, and a sketchbook… what would you add to that perfect pause?"
+        }
+      ],
+      "suggested_fix": "Sharpen Rule 9 with 'NEVER more than ONE question mark per reply'. Optionally a guard that drops trailing questions when count>1.",
+      "score": 99.89999999999999
+    },
+    {
+      "id": "stale_phrase_love_how_you_opener",
+      "severity": 3,
+      "frequency_pct": 13.3,
+      "count": 2,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'love_how_you_opener' in 2/15 sessions (13.3%).",
+      "examples": [
+        {
+          "session_idx": 4,
+          "turn": 4,
+          "snippet": "That makes sense — Hindi movies often hide small stories in plain sight. I love how you watch for layers.  \n\nDo you usually take notes while watching a movie, or just notice them on a second watch?"
+        },
+        {
+          "session_idx": 6,
+          "turn": 1,
+          "snippet": "Hi Priyansh, I hope your project deadline is going smoothly! I love how you're working on richer ways to talk about emotions — that's a big win for your English. Did you get a chance to use 'thrilled'"
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 39.900000000000006
+    },
+    {
+      "id": "stale_phrase_self_intro_in_reply",
+      "severity": 5,
+      "frequency_pct": 6.7,
+      "count": 1,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'self_intro_in_reply' in 1/15 sessions (6.7%).",
+      "examples": [
+        {
+          "session_idx": 46,
+          "turn": 2,
+          "snippet": "\"Hi Neha, I'm Miss Maya.\" — I'm sorry to hear your day has been rough. Rainy commutes can be the worst. I hope things turn better for you soon. How about your day?"
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 33.5
+    },
+    {
+      "id": "stale_phrase_tea_persona_cycle",
+      "severity": 4,
+      "frequency_pct": 6.7,
+      "count": 1,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'tea_persona_cycle' in 1/15 sessions (6.7%).",
+      "examples": [
+        {
+          "session_idx": 7,
+          "turn": 1,
+          "snippet": "Hi Priyansh, the first sip of cardamom chai in the evening makes my day brighter. I heard you're planning to watch 'Chhichhore' this weekend — excited about it?"
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 26.8
+    }
+  ],
+  "per_session_metrics": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        24,
+        27,
+        25,
+        38,
+        31
+      ],
+      "avg_words": 27.7,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        22,
+        27,
+        24,
+        23,
+        23,
+        28,
+        26,
+        22
+      ],
+      "avg_words": 24.4,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.12,
+      "has_memory": true
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        28,
+        19,
+        29,
+        23,
+        29,
+        29,
+        21,
+        32
+      ],
+      "avg_words": 26.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "stale_hits": [
+        {
+          "turn": 4,
+          "tag": "love_how_you_opener",
+          "snippet": "That makes sense — Hindi movies often hide small stories in plain sight. I love how you watch for layers.  \n\nDo you usually take notes while watching a movie, or just notice them on a second watch?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 10,
+          "q_count": 2,
+          "snippet": "\"Bollywood has that built-in shared history, so the references feel like a big group hug.  \n\nHollywood can be fun too — if you like twists and hidden details, maybe *Inception*? It’s layered and makes"
+        }
+      ],
+      "word_counts": [
+        33,
+        50,
+        36,
+        37,
+        41,
+        43,
+        37,
+        34,
+        37,
+        40,
+        21
+      ],
+      "avg_words": 37.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.27,
+      "has_memory": true
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        14,
+        27,
+        30,
+        31,
+        27,
+        21,
+        28,
+        24,
+        27,
+        20,
+        29,
+        28
+      ],
+      "avg_words": 25.5,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.25,
+      "has_memory": true
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "stale_hits": [
+        {
+          "turn": 1,
+          "tag": "love_how_you_opener",
+          "snippet": "Hi Priyansh, I hope your project deadline is going smoothly! I love how you're working on richer ways to talk about emotions — that's a big win for your English. Did you get a chance to use 'thrilled'"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "You're doing great — 'excited' is a good word. 'Thrilled' adds extra energy. Try this: 'I'm thrilled about the new feature!' Sounds fun, right? Was your meeting already?"
+        },
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "You did well — 10 minutes is not easy! It's normal to want to do better — you're already improving. Got it. For Bollywood, maybe \"Chhichhore\" or \"Dil Bechara\"? Light and fun. What kind of mood are you"
+        }
+      ],
+      "word_counts": [
+        42,
+        28,
+        39,
+        29,
+        29,
+        29
+      ],
+      "avg_words": 32.7,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.33,
+      "has_memory": true
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "stale_hits": [
+        {
+          "turn": 1,
+          "tag": "tea_persona_cycle",
+          "snippet": "Hi Priyansh, the first sip of cardamom chai in the evening makes my day brighter. I heard you're planning to watch 'Chhichhore' this weekend — excited about it?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        28,
+        18,
+        31,
+        28,
+        29,
+        25,
+        17,
+        24,
+        13,
+        22,
+        15,
+        21
+      ],
+      "avg_words": 22.6,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.25,
+      "has_memory": true
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        19,
+        27,
+        41,
+        35,
+        42,
+        28,
+        24
+      ],
+      "avg_words": 29.6,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        24,
+        26,
+        18,
+        25,
+        31,
+        21
+      ],
+      "avg_words": 24.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        27,
+        22,
+        35,
+        34,
+        30,
+        36,
+        36,
+        39,
+        35,
+        25
+      ],
+      "avg_words": 31.9,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "stale_hits": [
+        {
+          "turn": 2,
+          "tag": "self_intro_in_reply",
+          "snippet": "\"Hi Neha, I'm Miss Maya.\" — I'm sorry to hear your day has been rough. Rainy commutes can be the worst. I hope things turn better for you soon. How about your day?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        19,
+        33,
+        29,
+        26,
+        31,
+        27,
+        23,
+        33,
+        41,
+        23,
+        17,
+        18
+      ],
+      "avg_words": 26.7,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "That sounds beautiful — a café owner’s smile makes all the work worth it. Freezing time in a good moment? Yes, I get that. Rain, chai, and a sketchbook… what would you add to that perfect pause?"
+        },
+        {
+          "turn": 7,
+          "q_count": 3,
+          "snippet": "\"Maybe a cat nap?\" — yes, that sounds perfect. I’ve been re-reading *The Time Traveler’s Wife* lately — it’s one of those books that makes you forget time. What about you? Any rainy-day read that pull"
+        }
+      ],
+      "word_counts": [
+        26,
+        39,
+        30,
+        40,
+        44,
+        37,
+        38,
+        34,
+        49,
+        32
+      ],
+      "avg_words": 36.9,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.5,
+      "has_memory": true
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "\"Looping a song for hours? I get that — it’s like the world joins you in your vibe.\"  \n\"That sense of 'the universe nodding' is magic in music.\"  \n\"Do you ever share your favorite songs with others to"
+        }
+      ],
+      "word_counts": [
+        22,
+        29,
+        38,
+        47,
+        40,
+        36,
+        39,
+        43,
+        41,
+        36,
+        58,
+        37
+      ],
+      "avg_words": 38.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        14,
+        34,
+        40,
+        33,
+        27,
+        28,
+        42,
+        25,
+        25,
+        36,
+        34,
+        33,
+        22
+      ],
+      "avg_words": 30.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.38,
+      "has_memory": true
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "\"Found a new cafe! That sounds fun. Was it near your apartment? What made you go there?\""
+        }
+      ],
+      "word_counts": [
+        18,
+        17,
+        25,
+        24,
+        22,
+        20,
+        28,
+        32,
+        25,
+        28,
+        30,
+        30,
+        27,
+        28
+      ],
+      "avg_words": 25.3,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.14,
+      "has_memory": true
+    }
+  ]
+}

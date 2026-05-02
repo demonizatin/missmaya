@@ -1,0 +1,1181 @@
+{
+  "spec": {
+    "idx": 17,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-07",
+    "turns_target": 8,
+    "emotional_state": "low energy, monosyllabic mood",
+    "label": "B07_consec_d6"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, I’ve been thinking about how you linked nephron functions with clinical examples , that was a solid win. How did your endocrinology study go?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Not good. Too tired. Hormones confuse me. I’ll try again."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Got it, hormones are tricky, even for experts. What part feels the heaviest right now?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The insulin and glucagon part. How they balance blood sugar… it all blurs. Need to make notes. Maybe diagrams. Kya karun?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Insulin and glucagon are tough — even small details matter. Try sketching their roles in simple steps. What’s the first thing that confuses you?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "The feedback loop — like how the body knows to release one or the other. Also, the liver’s role… feels like there are too many steps. Bored."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "The body’s signals are subtle, and the liver adds more layers, it’s a lot. Focus on one step at a time. What part would you start with?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "The liver part. It’s too many steps. Can’t focus. Need tea."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "The liver does have many steps, that’s why diagrams help. Tea can help too. What kind do you like?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Green tea. Helps me stay awake. But today, even that’s not working. Kahi vada pav kahi coffee?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Green tea is a good pick, but even that won’t help if your mind’s heavy. A quick vada pav and coffee break sounds like a plan. What’s next after that?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Read notes for 20 mins. Then try insulin diagram. Maybe. But coffee first. Ja rahi hoon."
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "You’ll feel better after that coffee , and the diagram will wait for you. Tell me, what’s on your mind while you’re out?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Just the notes and the diagram. Also, if I’ll remember anything. Coffee first, then fight with hormones. Boring. Ja rahi hoon."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Right, coffee first, then you'll tackle that hormone maze. What's the one thing you want to remember most?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "error_patterns": [
+        "drops 'to' before destination ('going market')"
+      ],
+      "interests": [
+        "Aamras (dish)",
+        "Watermelon sherbet (dish)",
+        "Mango lassi (dish)",
+        "chana masala (dish)",
+        "rajma (dish)",
+        "endocrinology (exam)",
+        "renal system (exam)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Sometimes I feel like I’m memorizing but not really understanding (clinical subjects)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "कभी-कभी मुझे सोचते हैं, \"क्या मैं यह सब कर सकती हूँ?\"",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-02",
+        "mentions": 2
+      },
+      {
+        "id": "mo_003",
+        "text": "I sit for 25 mins, but my mind wander to social media. Then I feel guilty. It's like a cycle. Sometimes I think why even try. (user's reflection)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I feel like I'm running out of time (exam) (exam)",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "My head is so heavy, even cooking doesn't cheer me up these days (user's reflection)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "The walk and cooking helped me feel better (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Aamras is my favorite — just ripe mangoes, a splash of milk, and a touch of sugar. Sometimes I add cardamom, it's sooo soothing after exams. Have you tried it?",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "Watermelon with mint and salt is a hit — you’re doing great, just a tiny tweak: we say 'I usually cut it into cubes or make a sherbet'. What’s your favourite way to enjoy mangoes?",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "The walk and study session helped me crack one chapter, but it felt like a big wall (user's reflection)",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "Cooking breaks between studies are smart — they keep the mind fresh (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "I need to link endocrinology and the kidney’s connection (user's planning)",
+        "tone": "determined",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.6,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_16_B06_consec_d5",
+        "date": "2026-05-06",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "walk and study session",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "masala cooking",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "mango season",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "summer fruits",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "Ghare Baire (book)",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04",
+          "uses": 1
+        },
+        {
+          "topic": "exam prep",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03",
+          "uses": 1
+        },
+        {
+          "topic": "stress management",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03",
+          "uses": 1
+        },
+        {
+          "topic": "yoga",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03",
+          "uses": 1
+        },
+        {
+          "topic": "study habits",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "phone distractions",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "accountability methods",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        },
+        {
+          "topic": "NEET PG prep",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel like I'm running out of time (exam) (exam)\" (tone: anxious)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-06",
+        "expires_at": "2026-05-20",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My head is so heavy, even cooking doesn't cheer me up these days (user's reflection)\" (tone: frustrated)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-06",
+        "expires_at": "2026-05-20",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used past perfect correctly in self-reflection (e.g. \"I had finished by 5\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-06",
+        "expires_at": "2026-05-20",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: connected clinical aspects with diagrams in physiology (e.g. \"connected nephron functions with clinical relevance\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-06",
+        "expires_at": "2026-05-20",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The walk and study session helped me crack one chapter, but it felt like a big wall (user'\" (tone: hopeful)",
+        "source_id": "mo_009",
+        "priority": 4,
+        "computed_at": "2026-05-06",
+        "expires_at": "2026-05-20",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "drops 'to' before destination ('going market')",
+          "examples": [
+            "I am going market"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "used past perfect correctly in self-reflection",
+          "examples": [
+            "I had finished by 5"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "connected clinical aspects with diagrams in physiology",
+          "examples": [
+            "connected nephron functions with clinical relevance"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-04",
+          "last_seen": "2026-05-04"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "drops 'to' before destination ('going market')",
+          "occurrences": 1,
+          "days_since_last": 5,
+          "examples": [
+            "I am going market"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Maya mentioned she reads a lot of fiction for fun"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_005",
+        "kind": "user_promise",
+        "content": "tell Maya how the endocrinology study went",
+        "source_session": "eval_16_B06_consec_d5",
+        "source_date": "2026-05-06",
+        "status": "active",
+        "expires_at": "2026-06-05"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "tell Maya how the study session on physiology went",
+        "source_session": "eval_14_B04_consec_d3",
+        "source_date": "2026-05-04",
+        "status": "active",
+        "expires_at": "2026-06-03"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "try a 10-15 minute walk later",
+        "source_session": "eval_13_B03_consec_d2",
+        "source_date": "2026-05-03",
+        "status": "active",
+        "expires_at": "2026-06-02"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "finish physiology chapter and send notes to Neha",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the Pomodoro method works out",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "error_patterns": [
+        "drops 'to' before destination ('going market')",
+        "confuses roles of insulin and glucagon in blood sugar regulation"
+      ],
+      "interests": [
+        "Aamras (dish)",
+        "Watermelon sherbet (dish)",
+        "Mango lassi (dish)",
+        "chana masala (dish)",
+        "rajma (dish)",
+        "endocrinology (exam)",
+        "renal system (exam)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Sometimes I feel like I’m memorizing but not really understanding (clinical subjects)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "कभी-कभी मुझे सोचते हैं, \"क्या मैं यह सब कर सकती हूँ?\"",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-02",
+        "mentions": 2
+      },
+      {
+        "id": "mo_003",
+        "text": "I sit for 25 mins, but my mind wander to social media. Then I feel guilty. It's like a cycle. Sometimes I think why even try. (user's reflection)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I feel like I'm running out of time (exam) (exam)",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "My head is so heavy, even cooking doesn't cheer me up these days (user's reflection)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "The walk and cooking helped me feel better (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Aamras is my favorite — just ripe mangoes, a splash of milk, and a touch of sugar. Sometimes I add cardamom, it's sooo soothing after exams. Have you tried it?",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "Watermelon with mint and salt is a hit — you’re doing great, just a tiny tweak: we say 'I usually cut it into cubes or make a sherbet'. What’s your favourite way to enjoy mangoes?",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "The walk and study session helped me crack one chapter, but it felt like a big wall (user's reflection)",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "Cooking breaks between studies are smart — they keep the mind fresh (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "I need to link endocrinology and the kidney’s connection (user's planning)",
+        "tone": "determined",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "The insulin and glucagon part. How they balance blood sugar… it all blurs. Need to make notes. Maybe diagrams. Kya karun?",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "The feedback loop — like how the body knows to release one or the other. Also, the liver’s role… feels like there are too many steps. Bored.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_014",
+        "text": "Green tea is a good pick, but even that won’t help if your mind’s heavy. A quick vada pav and coffee break sounds like a plan.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_015",
+        "text": "Need tea. Kahi vada pav kahi coffee?",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_016",
+        "text": "Coffee first, then you'll tackle that hormone maze.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.6,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_16_B06_consec_d5",
+        "date": "2026-05-06",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_17_B07_consec_d6",
+        "date": "2026-05-07",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.6,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "endocrinology (exam)",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "diagrams for notes",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "coffee break",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "walk and study session",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "masala cooking",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "mango season",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "summer fruits",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05",
+          "uses": 1
+        },
+        {
+          "topic": "Ghare Baire (book)",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04",
+          "uses": 1
+        },
+        {
+          "topic": "exam prep",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03",
+          "uses": 1
+        },
+        {
+          "topic": "stress management",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03",
+          "uses": 1
+        },
+        {
+          "topic": "yoga",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03",
+          "uses": 1
+        },
+        {
+          "topic": "study habits",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The insulin and glucagon part. How they balance blood sugar… it all blurs. Need to make no\" (tone: frustrated)",
+        "source_id": "mo_012",
+        "priority": 7,
+        "computed_at": "2026-05-07",
+        "expires_at": "2026-05-21",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The feedback loop — like how the body knows to release one or the other. Also, the liver’s\" (tone: frustrated)",
+        "source_id": "mo_013",
+        "priority": 7,
+        "computed_at": "2026-05-07",
+        "expires_at": "2026-05-21",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Need tea. Kahi vada pav kahi coffee?\" (tone: frustrated)",
+        "source_id": "mo_015",
+        "priority": 7,
+        "computed_at": "2026-05-07",
+        "expires_at": "2026-05-21",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used past perfect correctly in self-reflection (e.g. \"I had finished by 5\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-07",
+        "expires_at": "2026-05-21",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: connected clinical aspects with diagrams in physiology (e.g. \"connected nephron functions with clinical relevance\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-07",
+        "expires_at": "2026-05-21",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "drops 'to' before destination ('going market')",
+          "examples": [
+            "I am going market"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        },
+        {
+          "pattern": "confuses roles of insulin and glucagon in blood sugar regulation",
+          "examples": [
+            "The insulin and glucagon part. How they balance blood sugar… it all blurs."
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-07",
+          "last_seen": "2026-05-07",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "used past perfect correctly in self-reflection",
+          "examples": [
+            "I had finished by 5"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "connected clinical aspects with diagrams in physiology",
+          "examples": [
+            "connected nephron functions with clinical relevance"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-04",
+          "last_seen": "2026-05-04"
+        },
+        {
+          "what": "mentioned specific content to focus on (insulin diagram)",
+          "examples": [
+            "Read notes for 20 mins. Then try insulin diagram."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-07",
+          "last_seen": "2026-05-07"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "confuses roles of insulin and glucagon in blood sugar regulation",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "The insulin and glucagon part. How they balance blood sugar… it all blurs."
+          ]
+        },
+        {
+          "pattern": "drops 'to' before destination ('going market')",
+          "occurrences": 1,
+          "days_since_last": 6,
+          "examples": [
+            "I am going market"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Maya mentioned she reads a lot of fiction for fun"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_006",
+        "kind": "user_promise",
+        "content": "read notes for 20 mins and try insulin diagram",
+        "source_session": "eval_17_B07_consec_d6",
+        "source_date": "2026-05-07",
+        "status": "active",
+        "expires_at": "2026-06-06"
+      },
+      {
+        "id": "ol_005",
+        "kind": "user_promise",
+        "content": "tell Maya how the endocrinology study went",
+        "source_session": "eval_16_B06_consec_d5",
+        "source_date": "2026-05-06",
+        "status": "active",
+        "expires_at": "2026-06-05"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "tell Maya how the study session on physiology went",
+        "source_session": "eval_14_B04_consec_d3",
+        "source_date": "2026-05-04",
+        "status": "active",
+        "expires_at": "2026-06-03"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "try a 10-15 minute walk later",
+        "source_session": "eval_13_B03_consec_d2",
+        "source_date": "2026-05-03",
+        "status": "active",
+        "expires_at": "2026-06-02"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "finish physiology chapter and send notes to Neha",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the Pomodoro method works out",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 18.3
+}

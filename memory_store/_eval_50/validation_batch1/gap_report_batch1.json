@@ -1,0 +1,619 @@
+{
+  "session_count": 15,
+  "summary_metrics": {
+    "avg_reply_words": 30.3,
+    "replies_over_120w": 0,
+    "replies_under_8w": 0,
+    "avg_memory_ref_rate_returning_users": 0.07,
+    "opener_repetition_pairs": 1,
+    "stale_phrase_total_hits": 6,
+    "wrap_up_seen_count": 9
+  },
+  "ranked_gaps": [
+    {
+      "id": "opener_repetition",
+      "severity": 5,
+      "frequency_pct": 6.7,
+      "count": 1,
+      "layer": "guard",
+      "description": "1 pairs of openers across same-user sessions had >=0.65 structural similarity.",
+      "examples": [
+        {
+          "user": "u01_priyansh",
+          "session_a": 5,
+          "session_b": 6,
+          "ratio": 0.88,
+          "a_raw": "Hi Priyansh, I hope your weekend plans went well! Speaking of which, did you get a chance to walk in the park while listening to Bollywood music?",
+          "b_raw": "Hi Priyansh, I hope your weekend plans went well. Did you get a chance to try walking in the park while listening to some Bollywood music?"
+        }
+      ],
+      "suggested_fix": "Add a deterministic first-turn similarity check that strips opener if normalized form matches one of the last 6 stored opening_phrases by SequenceMatcher >= 0.7.",
+      "score": 250
+    },
+    {
+      "id": "low_memory_utilization",
+      "severity": 4,
+      "frequency_pct": 100.0,
+      "count": 13,
+      "layer": "prompt+renderer",
+      "description": "On returning-user sessions, average memory-reference rate is 7% — too low. Maya is ignoring stored facts/events.",
+      "examples": [],
+      "suggested_fix": "Renderer: surface the highest-priority anticipation_queue item more prominently. Prompt: tighten Rule 31 to require referencing one stored item every 3rd turn at minimum.",
+      "score": 200
+    },
+    {
+      "id": "multiple_questions_per_reply",
+      "severity": 3,
+      "frequency_pct": 40.0,
+      "count": 15,
+      "layer": "prompt",
+      "description": "Maya included 2+ questions in 15 replies across 6 sessions (Rule 9 violation).",
+      "examples": [
+        {
+          "session_idx": 2,
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "Right, that scene was incredible! Parkour sounds fun — you’d start slow, of course. What made you want to try it? The thrill?"
+        },
+        {
+          "session_idx": 4,
+          "turn": 6,
+          "q_count": 3,
+          "snippet": "You're doing great, just a small tweak — we say \"do you like action movies?\" instead of \"by the way, do you like action movies?\" 😊  \nMiss Maya here — I enjoy action movies, especially when there are g"
+        },
+        {
+          "session_idx": 5,
+          "turn": 9,
+          "q_count": 2,
+          "snippet": "I get that — Bollywood dramas are the best way to switch off. Work stress needs *big* drama to melt away, right? I’m all for simple comforts — a film, some quiet, and a warm cup of tea. What’s your go"
+        }
+      ],
+      "suggested_fix": "Sharpen Rule 9 with 'NEVER more than ONE question mark per reply'. Optionally a guard that drops trailing questions when count>1.",
+      "score": 120.0
+    },
+    {
+      "id": "stale_phrase_tea_persona_cycle",
+      "severity": 4,
+      "frequency_pct": 20.0,
+      "count": 3,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'tea_persona_cycle' in 3/15 sessions (20.0%).",
+      "examples": [
+        {
+          "session_idx": 8,
+          "turn": 2,
+          "snippet": "That sounds lovely! Watching an emotional movie can be so comforting. I'm a tea person, but I understand the need for drama — it helps unwind. Did you enjoy the cricket match?"
+        },
+        {
+          "session_idx": 46,
+          "turn": 7,
+          "snippet": "You love masala chai for sketching — nice! I’m a tea person, but I get needing coffee for long days. Do you mostly drink black tea, or do you prefer it with milk and sugar?"
+        },
+        {
+          "session_idx": 49,
+          "turn": 4,
+          "snippet": "That part sounds tricky — I totally understand the *thud*. I'm a tea person, honestly, but even I'd need a strong cup right now. What's the one thing about accessibility you wish they taught first?"
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 80.0
+    },
+    {
+      "id": "stale_phrase_love_how_you_opener",
+      "severity": 3,
+      "frequency_pct": 13.3,
+      "count": 2,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'love_how_you_opener' in 2/15 sessions (13.3%).",
+      "examples": [
+        {
+          "session_idx": 7,
+          "turn": 10,
+          "snippet": "You said *khubsurat* perfectly — I love how you used it! Gulab jamuns are hard to beat, really. Take care, and tell me how your meeting goes!"
+        },
+        {
+          "session_idx": 9,
+          "turn": 1,
+          "snippet": "Hi Priyansh, I'm Miss Maya. You know, I love how you said 'hit a six' so naturally — it made the story vivid! Did your meeting go smoothly today?"
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 39.900000000000006
+    },
+    {
+      "id": "stale_phrase_echo_praise",
+      "severity": 4,
+      "frequency_pct": 6.7,
+      "count": 1,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'echo_praise' in 1/15 sessions (6.7%).",
+      "examples": [
+        {
+          "session_idx": 10,
+          "turn": 9,
+          "snippet": "That’s a fantastic choice — Virat’s mindset is something to admire! You said \"inspiring\" perfectly. I might watch it now. What made his training stand out to you?"
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 26.8
+    },
+    {
+      "id": "greeting_on_turn_2plus",
+      "severity": 4,
+      "frequency_pct": 6.7,
+      "count": 1,
+      "layer": "prompt",
+      "description": "Maya started a turn-2+ reply with a greeting ('Hi <name>,...') in 1 replies across 1 sessions.",
+      "examples": [
+        {
+          "session_idx": 48,
+          "turn": 9,
+          "snippet": "Hi Neha, I love that — walking in the rain sounds like a little reset. I’m more of a \"carry an umbrella\" person, but I g"
+        }
+      ],
+      "suggested_fix": "Strengthen Rule 1 turn-2+ no-greeting clause OR add a server-side strip in pg_apply_output_guard.",
+      "score": 26.8
+    }
+  ],
+  "per_session_metrics": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        18,
+        18,
+        33,
+        41,
+        36,
+        29
+      ],
+      "avg_words": 29.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "Right, that scene was incredible! Parkour sounds fun — you’d start slow, of course. What made you want to try it? The thrill?"
+        },
+        {
+          "turn": 7,
+          "q_count": 2,
+          "snippet": "You're not alone in thinking \"why not me?\" — that's what makes action films so exciting! Climbing a wall sounds like a good start. I’d probably need a safety net, though. What’s stopping you from tryi"
+        }
+      ],
+      "word_counts": [
+        25,
+        21,
+        26,
+        31,
+        35,
+        23,
+        37,
+        48
+      ],
+      "avg_words": 30.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        23,
+        32,
+        43,
+        32,
+        37,
+        37,
+        35,
+        36,
+        28
+      ],
+      "avg_words": 33.7,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 6,
+          "q_count": 3,
+          "snippet": "You're doing great, just a small tweak — we say \"do you like action movies?\" instead of \"by the way, do you like action movies?\" 😊  \nMiss Maya here — I enjoy action movies, especially when there are g"
+        },
+        {
+          "turn": 7,
+          "q_count": 2,
+          "snippet": "I like seeing strong actors who can pull off both stunts and emotions. Shah Rukh Khan, Aamir Khan — they all bring something special. What about you? Who’s your pick?"
+        }
+      ],
+      "word_counts": [
+        24,
+        25,
+        18,
+        25,
+        11,
+        43,
+        30,
+        45,
+        26,
+        33,
+        30,
+        32
+      ],
+      "avg_words": 28.5,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 9,
+          "q_count": 2,
+          "snippet": "I get that — Bollywood dramas are the best way to switch off. Work stress needs *big* drama to melt away, right? I’m all for simple comforts — a film, some quiet, and a warm cup of tea. What’s your go"
+        },
+        {
+          "turn": 10,
+          "q_count": 2,
+          "snippet": "\"3 Idiots\" is a fantastic choice — it's one of my favourites too! And \"Dilwale Dulhania Le Jayenge\" is timeless, right? For me, \"Lagaan\" is a classic — cricket, music, and a story that just sticks wit"
+        }
+      ],
+      "word_counts": [
+        27,
+        33,
+        40,
+        39,
+        45,
+        38,
+        48,
+        42,
+        47,
+        48,
+        34
+      ],
+      "avg_words": 40.1,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.09,
+      "has_memory": true
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        26,
+        35,
+        37
+      ],
+      "avg_words": 32.7,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "stale_hits": [
+        {
+          "turn": 10,
+          "tag": "love_how_you_opener",
+          "snippet": "You said *khubsurat* perfectly — I love how you used it! Gulab jamuns are hard to beat, really. Take care, and tell me how your meeting goes!"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "Right, Bollywood dramas can be intense — I get that. You watched 'Kabir Singh' again — is it one of your favorites? Why do you like it?"
+        },
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "You said it perfectly that time! Emotions in dramas can feel so real — that’s why they stick with us. You go for heavy dramas often? Or just when you need something strong?"
+        },
+        {
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "\"Ek Ladki Ko Dekha\" does take you back, doesn’t it? It’s a song that just fits into happy memories. What was your favorite part of Diwali growing up?"
+        }
+      ],
+      "word_counts": [
+        25,
+        27,
+        33,
+        39,
+        32,
+        29,
+        32,
+        28,
+        24,
+        27
+      ],
+      "avg_words": 29.6,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.1,
+      "has_memory": true
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "stale_hits": [
+        {
+          "turn": 2,
+          "tag": "tea_persona_cycle",
+          "snippet": "That sounds lovely! Watching an emotional movie can be so comforting. I'm a tea person, but I understand the need for drama — it helps unwind. Did you enjoy the cricket match?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        25,
+        32,
+        34,
+        39,
+        27,
+        33,
+        17
+      ],
+      "avg_words": 29.6,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "stale_hits": [
+        {
+          "turn": 1,
+          "tag": "love_how_you_opener",
+          "snippet": "Hi Priyansh, I'm Miss Maya. You know, I love how you said 'hit a six' so naturally — it made the story vivid! Did your meeting go smoothly today?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        29,
+        29,
+        29,
+        24,
+        30
+      ],
+      "avg_words": 28.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.2,
+      "has_memory": true
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "stale_hits": [
+        {
+          "turn": 9,
+          "tag": "echo_praise",
+          "snippet": "That’s a fantastic choice — Virat’s mindset is something to admire! You said \"inspiring\" perfectly. I might watch it now. What made his training stand out to you?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "Cricket documentaries are fun too — what's one you'd recommend? On Bollywood, I'm here to chat about it anytime. Just don't ask me to sing along — I can't carry a tune! What's your favorite so far?"
+        },
+        {
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "Mumbai fans are the loudest — I get that! The stadium energy is unmatched. My favorite team? I’m with the underdog, honestly. Who’s your pick when Mumbai isn’t playing?"
+        }
+      ],
+      "word_counts": [
+        24,
+        39,
+        37,
+        35,
+        29,
+        29,
+        37,
+        34,
+        28,
+        36
+      ],
+      "avg_words": 32.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "stale_hits": [
+        {
+          "turn": 7,
+          "tag": "tea_persona_cycle",
+          "snippet": "You love masala chai for sketching — nice! I’m a tea person, but I get needing coffee for long days. Do you mostly drink black tea, or do you prefer it with milk and sugar?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        25,
+        27,
+        43,
+        40,
+        43,
+        39,
+        35,
+        31,
+        20,
+        31,
+        25,
+        23
+      ],
+      "avg_words": 31.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        23,
+        21,
+        28,
+        16,
+        18,
+        17,
+        16,
+        27,
+        27,
+        19
+      ],
+      "avg_words": 21.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.1,
+      "has_memory": true
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 9,
+          "snippet": "Hi Neha, I love that — walking in the rain sounds like a little reset. I’m more of a \"carry an umbrella\" person, but I g"
+        }
+      ],
+      "multi_q": [],
+      "word_counts": [
+        20,
+        22,
+        25,
+        33,
+        23,
+        22,
+        26,
+        33,
+        39,
+        31,
+        30,
+        38
+      ],
+      "avg_words": 28.5,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "stale_hits": [
+        {
+          "turn": 4,
+          "tag": "tea_persona_cycle",
+          "snippet": "That part sounds tricky — I totally understand the *thud*. I'm a tea person, honestly, but even I'd need a strong cup right now. What's the one thing about accessibility you wish they taught first?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        22,
+        15,
+        24,
+        35,
+        34,
+        25,
+        26,
+        32,
+        28,
+        35,
+        26,
+        33,
+        29,
+        19
+      ],
+      "avg_words": 27.4,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.07,
+      "has_memory": true
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 1,
+          "q_count": 2,
+          "snippet": "Hi Neha, I hope your startup life is a bit less chaotic today. How was your coffee spill turning into NFT art idea? Still making fun of the exam stress?"
+        },
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "Right, that’s the kind of scene that makes you wonder — what’s his story? I’d love to hear more about your people-watching highlights. Any other funny ones?"
+        },
+        {
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "Right, that sounds like a scene from a movie. Love and notifications — who wins? I get it, though. Distractions are everywhere. Do you keep that kind of drama in your sketches?"
+        },
+        {
+          "turn": 10,
+          "q_count": 2,
+          "snippet": "Right — a barista in haikus or a business-plan cat? Sounds like your kind of mess. I’ll look forward to hearing about the spill of the day. What’s on your mind today?"
+        }
+      ],
+      "word_counts": [
+        30,
+        39,
+        34,
+        27,
+        32,
+        35,
+        38,
+        27,
+        23,
+        32,
+        26,
+        33,
+        30
+      ],
+      "avg_words": 31.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.15,
+      "has_memory": true
+    }
+  ]
+}

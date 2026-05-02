@@ -1,0 +1,844 @@
+{
+  "spec": {
+    "idx": 5,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 12,
+    "emotional_state": "neutral, ordinary day",
+    "label": "A05_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, I'm a morning person and love the calm before the city wakes up. How was your evening walk after work?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "It was nice, I walked for about 30 mins. The weather is good this time of year. I enjoy the fresh air after work. Sometimes I listen to a cricket podcast while walking, it helps me unwind."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Nice, 30 minutes is just right for winding down. Cricket podcasts are a smart choice — what’s your favourite player’s story these days?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Virat Kohli comes to mind. His journey from Delhi to being a global cricket icon is inspiring. I also like listening to MS Dhoni's stories, his calmness under pressure is something unique. What's your take on leadership in sports?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "True — both have different styles, but both lead well. Leadership is about staying calm and pushing forward, right? Who inspires you most and why?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I think someone like Steve Jobs inspires me a bit. His vision and how he pushed boundaries in tech is pretty cool. Also, hearing how he handled challenges makes me think about perseverance. But in sports, it’s definitely Dhoni’s cool head that stands out."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Right, Steve Jobs had that \"think different\" energy, tough to ignore. Dhoni’s calm fits sports perfectly. What’s one challenge you’d like to tackle with that kind of cool head?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Handling a big project deadline at work while staying focused and calm. Sometimes the pressure is high, but I try to take steady steps, like Dhoni during a tight chase. It’s about keeping your head, right?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Exactly — steady steps count in pressure moments. How did your last big deadline go?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "It went okay, but I could’ve managed better. I got a bit stressed and stayed up late. Next time, I’ll break tasks early and stay consistent, like a cricket team planning for the long run. Chai pe charcha helps too, sometimes. 😊"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Got it — breaking tasks early helps avoid last-minute rush. Does your chai-and-chat ritual have a go-to spot?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "My favourite spot is a small café near my office. It’s quiet, has good Wi-Fi, and the chai is just right — not too strong. Sometimes I take it home too, but that café has a vibe that makes brainstorming easier. What about you? Do you have a go-to place for focus?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "I get that — a good spot makes all the difference. I prefer a calm space with a view, something simple but inviting. What’s your top tip for staying focused during a big project?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I’d say set clear daily goals and avoid multitasking. Like in cricket, focusing on one ball at a time helps. Also, taking short breaks keeps the mind fresh. Oh, and a cup of chai — trust me, it helps! What about you? How do you stay focused?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Right — one ball at a time, one task at a time. Chai is a solid move. Do you sip it while working or save it for breaks?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "I usually sip it while working — the warmth helps me stay calm. Though I do take a proper break for tea sometimes. It’s like a mini recharge. Chai is almost like a teammate, you know? It keeps you going. Okay, I should probably get back to coding. Talk to you later! 😊"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Take your time, coding needs that calm focus. Talk soon, and keep that chai close. How did the next task go?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "Bollywood (movie)",
+        "Hindi songs (song)",
+        "Ye Dil Maange More (song)",
+        "Lag Ja Gale (song)",
+        "Pyar Hua Ikrar (song)",
+        "Dilwale Dulhania Le Jayenge (movie)",
+        "Jawan (movie)",
+        "Rabba (song)",
+        "Dunki (movie)",
+        "M.S. Dhoni: The Untold Story (movie)",
+        "cricket (sport)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Watching Pathaan (movie) was a fun experience for Priyansh, and he especially enjoyed the action scenes and Besharam Rang (song).",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Priyansh enjoys old Hindi songs like 'Ye Dil Maange More (song)', 'Lag Ja Gale (song)', and 'Pyar Hua Ikrar (song)', and also finds songs in movies like 'Rabba (song)' from Jawan (movie) appealing due to their old-school vibe.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Priyansh balances work by taking evening walks and watching cricket matches, and sometimes enjoys a 'Dilwale Dulhania Le Jayenge (movie)' rerun with some chai.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Priyansh is feeling exhausted from work and is considering watching the movie Dunki (movie) this weekend as a form of escape.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Priyansh expressed a deep fatigue from work and a longing for rest and weekend relaxation, feeling drained and overwhelmed with the current workload.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "Priyansh finds M.S. Dhoni: The Untold Story (movie) emotionally compelling, especially the final match scene, and considers it a standout cricket-based film.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Priyansh balances work discussions with casual Bollywood movie watching and small pleasures like singing along to songs as a way to unwind.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "low",
+        "energy": 3,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "songs matching movie scenes",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "weekend movie plans",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "India vs Pakistan match",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work fatigue",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "fintech apps",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "international payments",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket movies",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Priyansh is feeling exhausted from work and is considering watching the movie Dunki (movie\" (tone: frustrated)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Priyansh expressed a deep fatigue from work and a longing for rest and weekend relaxation,\" (tone: frustrated)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Described the style and appeal of a movie song, noting its blend of old and new styles. (e.g. \"'Rabba' mixing old and new is a smart move, songs like that really stand out.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Used past perfect tense to communicate a recent experience with clarity and precision. (e.g. \"I had finished by 5.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Correctly and confidently used the term 'UPI' in context of international payment systems. (e.g. \"Do you use UPI in your country?\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "Described a movie and its elements (action scenes, songs, mood) effectively in English",
+          "examples": [
+            "The action scenes were very thrilling, like when the main character fights with the bad guys. Also, the movie had some good Hindi songs..."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Described the style and appeal of a movie song, noting its blend of old and new styles.",
+          "examples": [
+            "'Rabba' mixing old and new is a smart move, songs like that really stand out."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Used past perfect tense to communicate a recent experience with clarity and precision.",
+          "examples": [
+            "I had finished by 5."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Correctly and confidently used the term 'UPI' in context of international payment systems.",
+          "examples": [
+            "Do you use UPI in your country?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "Tell Maya how the work meeting went",
+        "source_session": "eval_1_A01_same_day",
+        "source_date": "2026-05-01",
+        "status": "resolved",
+        "expires_at": "2026-05-31",
+        "resolved_at": "2026-05-01"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "Tell Maya how the work deadline goes",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": "active",
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {
+        "correction_style": "2026-05-01"
+      }
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "Bollywood (movie)",
+        "Hindi songs (song)",
+        "Ye Dil Maange More (song)",
+        "Lag Ja Gale (song)",
+        "Pyar Hua Ikrar (song)",
+        "Dilwale Dulhania Le Jayenge (movie)",
+        "Jawan (movie)",
+        "Rabba (song)",
+        "Dunki (movie)",
+        "M.S. Dhoni: The Untold Story (movie)",
+        "cricket (sport)",
+        "cricket podcast (podcast)",
+        "Virat Kohli (person)",
+        "MS Dhoni (person)",
+        "Steve Jobs (person)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Watching Pathaan (movie) was a fun experience for Priyansh, and he especially enjoyed the action scenes and Besharam Rang (song).",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Priyansh enjoys old Hindi songs like 'Ye Dil Maange More (song)', 'Lag Ja Gale (song)', and 'Pyar Hua Ikrar (song)', and also finds songs in movies like 'Rabba (song)' from Jawan (movie) appealing due to their old-school vibe.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Priyansh balances work by taking evening walks and watching cricket matches, and sometimes enjoys a 'Dilwale Dulhania Le Jayenge (movie)' rerun with some chai.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Priyansh is feeling exhausted from work and is considering watching the movie Dunki (movie) this weekend as a form of escape.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Priyansh expressed a deep fatigue from work and a longing for rest and weekend relaxation, feeling drained and overwhelmed with the current workload.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "Priyansh finds M.S. Dhoni: The Untold Story (movie) emotionally compelling, especially the final match scene, and considers it a standout cricket-based film.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Priyansh balances work discussions with casual Bollywood movie watching and small pleasures like singing along to songs as a way to unwind.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "Priyansh enjoys listening to a cricket podcast while walking, finding it a helpful way to unwind after work.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "Priyansh admires both Virat Kohli's journey and MS Dhoni's calm under pressure, finding inspiration in their leadership styles.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "Priyansh feels inspired by Steve Jobs' vision and perseverance in tech, alongside Dhoni's composure in sports, and wants to apply similar calmness to handling work project deadlines.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "Priyansh shared his preferred café for brainstorming, describing it as quiet with good Wi-Fi and just-right chai, and expressed how it helps him focus and plan tasks.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "low",
+        "energy": 3,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "songs matching movie scenes",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "weekend movie plans",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "India vs Pakistan match",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work fatigue",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "fintech apps",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "international payments",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket movies",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "leadership in sports",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work project deadlines",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Priyansh is feeling exhausted from work and is considering watching the movie Dunki (movie\" (tone: frustrated)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Priyansh expressed a deep fatigue from work and a longing for rest and weekend relaxation,\" (tone: frustrated)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Used the past perfect tense correctly to describe a past work experience ('I had finished by 5') (e.g. \"I had finished by 5.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Used similes and metaphors effectively, drawing parallels between cricket and project management ('like a cricket team p (e.g. \"Like a cricket team planning for the long run.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Used a complex comparative structure to discuss leadership ('True — both have different styles, but both lead well') (e.g. \"True — both have different styles, but both lead well.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "Described a movie and its elements (action scenes, songs, mood) effectively in English",
+          "examples": [
+            "The action scenes were very thrilling, like when the main character fights with the bad guys. Also, the movie had some good Hindi songs..."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Described the style and appeal of a movie song, noting its blend of old and new styles.",
+          "examples": [
+            "'Rabba' mixing old and new is a smart move, songs like that really stand out."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Used past perfect tense to communicate a recent experience with clarity and precision.",
+          "examples": [
+            "I had finished by 5."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Correctly and confidently used the term 'UPI' in context of international payment systems.",
+          "examples": [
+            "Do you use UPI in your country?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Used the past perfect tense correctly to describe a past work experience ('I had finished by 5')",
+          "examples": [
+            "I had finished by 5."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Used similes and metaphors effectively, drawing parallels between cricket and project management ('like a cricket team p",
+          "examples": [
+            "Like a cricket team planning for the long run."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Used a complex comparative structure to discuss leadership ('True — both have different styles, but both lead well')",
+          "examples": [
+            "True — both have different styles, but both lead well."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": [
+        "tea preference"
+      ]
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "Tell Maya how the work meeting went",
+        "source_session": "eval_1_A01_same_day",
+        "source_date": "2026-05-01",
+        "status": "resolved",
+        "expires_at": "2026-05-31",
+        "resolved_at": "2026-05-01"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "Tell Maya how the work deadline goes",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": "active",
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {
+        "correction_style": "2026-05-01"
+      }
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 18.0
+}

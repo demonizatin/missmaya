@@ -1,0 +1,567 @@
+{
+  "spec": {
+    "idx": 3,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 10,
+    "emotional_state": "tired, slept badly",
+    "label": "A03_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, I hope your day has been good! I'm a movie person myself — what's the next film you'd love to watch?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Yeah, I like movies too. Maybe watch \"Pathaan\" again — it's a new Bollywood film. Action is good, but slept badly last night, so not sure. What about you? Any films you like?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds like a fun choice! I get that — tired days can change our plans. What’s one film you’d watch again and again, no matter how many times you’ve seen it?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Hmm, tough choice... maybe \"3 Idiots\"? It's funny and inspiring. Or \"Chennai Express\" — good fun. But today, even thinking about movies feels like work. Joke: I'm more like a \"sleep\" movie now. 😅"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "That’s a great pick — 3 Idiots is timeless! I get what you mean about movies feeling like work today — sometimes all we need is a good nap. Tell me, what do you usually do when you want to switch off completely?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "When I’m too tired, I just scroll on phone — no thinking. Or maybe listen to songs, Hindi oldies mostly. But today even that feels heavy. Ish… (yawns in text)"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Right — scrolling or old songs are perfect for winding down. A heavy day just needs a little rest. What’s one song that always makes you feel better, even when you’re tired?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Chaiyya Chaiyya\" — it's so catchy, even when tired, I can't help but hum. But today, even that feels like a task. Maybe tomorrow... 😴"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "\"Chaiyya Chaiyya\" is a classic — it's hard to resist! I get that today feels extra heavy. Rest up, and we can chat more tomorrow. What’s one thing you always look forward to after a long day?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "A cup of strong tea — masala chai, of course. It’s like magic after a long day. But today, even getting up for tea feels like climbing a mountain. 😅"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Got it — masala chai is a hero in tired moments. I get how even getting up feels like climbing a mountain today. What do you usually add to your chai — ginger, cardamom, or something else?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Ginger, mostly. Sometimes cardamom, but ginger gives that kick. But today, even the smell of chai is like, \"No, thanks.\" Need to rest, I think. Okay, maybe later. 😊"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Right — ginger gives that perfect kick. I get it, your body is asking for rest, and that's what matters. Later it is! When you're ready, what's the first thing you'll do to feel better?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Maybe take a short nap — no plans, no thinking. Or just open a window and let the fresh air in. Ish, but right now even that feels like a to-do list. 😅"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Right — a nap or fresh air sounds simple but so refreshing. I get how even that feels like a to-do list today. What’s one thing you always promise yourself you’ll do after a good rest?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Watch an episode of something light — maybe a comedy. But not even that feels do-able right now. Ish, I think I’ll just close my eyes for a bit. Talk to you later, maybe? 😊"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Sure thing — rest is the best plan. A comedy episode can wait! Close your eyes, and I’ll be here when you’re ready. Take care, and talk soon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "Bollywood movies",
+        "action films (when stunts and music are strong)",
+        "T20 cricket"
+      ],
+      "recent_films_watched": [
+        "Pathaan (Shah Rukh Khan)",
+        "Bang Bang (Hrithik Roshan)",
+        "War (Hrithik Roshan)"
+      ],
+      "music_notes": "enjoys catchy film music; 'Naam Hai Tera' and 'Chogad Mein Basantiyaan' from Karan Arora stuck in his head",
+      "aspirations": "dreams of learning action stunts (car jumping, parkour); inspired by action heroes; realistic about starting with simpler activities like wall climbing",
+      "habits": "nods head to music rather than dancing; friend has suggested learning to dance",
+      "barriers": "time constraints, fear/anxiety about stunts, concern about embarrassment in front of friends"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "seeing actors do it makes me think, 'Why not me?' But maybe I need to start with something simpler.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Time and fear, mostly. I need to find a safe place to start. Also, I don't want to embarrass myself in front of friends.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.67,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 6,
+        "confidence": 0.49,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "weekend plans",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood songs and music",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Dancing",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Action films and stunts",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Barriers to trying physical activities",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Time and fear, mostly. I need to find a safe place to start. Also, I don't want to embarra\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"seeing actors do it makes me think, 'Why not me?' But maybe I need to start with something\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "identifies as a movie person",
+        "enjoys action films with strong music and visuals"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "user to share thoughts on next movie watched",
+        "source_session": "eval_1_A01_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "event_pending",
+        "content": "watch cricket documentary this weekend",
+        "source_session": "eval_1_A01_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "Bollywood movies",
+        "action films (when stunts and music are strong)",
+        "T20 cricket"
+      ],
+      "recent_films_watched": [
+        "Pathaan (Shah Rukh Khan)",
+        "Bang Bang (Hrithik Roshan)",
+        "War (Hrithik Roshan)",
+        "3 Idiots",
+        "Chennai Express"
+      ],
+      "music_notes": "enjoys catchy film music; 'Naam Hai Tera', 'Chogad Mein Basantiyaan' from Karan Arora, and 'Chaiyya Chaiyya' stuck in his head",
+      "aspirations": "dreams of learning action stunts (car jumping, parkour); inspired by action heroes; realistic about starting with simpler activities like wall climbing",
+      "habits": "nods head to music rather than dancing; friend has suggested learning to dance",
+      "barriers": "time constraints, fear/anxiety about stunts, concern about embarrassment in front of friends"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "seeing actors do it makes me think, 'Why not me?' But maybe I need to start with something simpler.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Time and fear, mostly. I need to find a safe place to start. Also, I don't want to embarrass myself in front of friends.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.67,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 6,
+        "confidence": 0.49,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "low",
+        "energy": 2,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "weekend plans",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood songs and music",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Dancing",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Action films and stunts",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Barriers to trying physical activities",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "films",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "wind-down routines",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "chai",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "recovery",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Time and fear, mostly. I need to find a safe place to start. Also, I don't want to embarra\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"seeing actors do it makes me think, 'Why not me?' But maybe I need to start with something\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "identifies as a movie person",
+        "enjoys action films with strong music and visuals"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "user to share thoughts on next movie watched",
+        "source_session": "eval_1_A01_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "event_pending",
+        "content": "watch cricket documentary this weekend",
+        "source_session": "eval_1_A01_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 114.7
+}

@@ -1,0 +1,346 @@
+{
+  "spec": {
+    "idx": 38,
+    "profile_id": "u03_rohan",
+    "eval_user_key": "u03_rohan_cold",
+    "today": "2026-05-08",
+    "turns_target": 10,
+    "emotional_state": "embarrassed about a recent mistake",
+    "label": "D03_coldstart_u03_ro"
+  },
+  "profile": {
+    "id": "u03_rohan",
+    "user_name": "Rohan",
+    "profession": "Bank PO aspirant",
+    "mother_tongue": "Bengali",
+    "interests": "Football, Bengali cinema, photography",
+    "engagement": "chatty",
+    "english_level": "A2",
+    "personality": "enthusiastic, makes more grammar slips, talks about football a lot"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Rohan. The light outside feels just right this evening. How was your day?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "My day was okay. I had bank exam practice, then watched a football match. My team lost, so I felt bad. How about you?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds tough , your team losing is a real bummer. The exam prep and the match, both on the same day — that’s a lot. What did you watch the match with?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "I watch matches with my friends. We always gather at someone's house. But today, I was alone. I forgot to invite anyone. Oh well, I can replay it later. Did you watch any match today?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "I get that, watching alone is not the same. Forgets happen, but replays are better with tea and snacks. Did you try any new exam prep strategy today?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Yeah, I tried something new today. I made notes on interest calculations and tried to teach it to myself like a teacher. But I think I messed up some formulas. 😅 Maybe I need to watch a video on it. Do you think that will help?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "You're doing great. Teaching yourself is a smart move. Videos can help clear small confusion, yes. What part of the formulas feels tricky?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "The compound interest part confuses me the most. I got the simple interest part, but when it comes to calculating the amount after multiple years, I mix up the formula. I think I used the wrong base value once. It’s kinda frustrating. 😅"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "I get that , compound interest can feel like a puzzle. Mixing up the base value happens, but you're on the right track. What method did you use for practice?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I used some sample questions from my study book and tried to solve them step by step. But I think I skipped a step and that’s why I messed up. Maybe I should write down the formula first and then plug in the numbers. Oh, and maybe I should ask my friend who’s good at math. 😅"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Got it — writing down the formula first can make a big difference. Friends are great for tricky topics. Have you practiced any math with friends before?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Not really, I usually study alone. I get shy asking doubts, even to friends. But maybe I should stop being shy. 😅 My friend Ayan is really good at math, I should call him. Oh, and *khaana* was bad today too. Just rice and dal. Boring."
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "I get that ,  studying alone is common, but having someone explain makes tricky topics easier. Rice and dal can be boring, but it’s better than nothing. Did you add any spices to it?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I added some *gheraine* and a bit of *tadka*, but still felt sad. Maybe I should cook something better tomorrow. Oh, and about the math — tomorrow I’ll call Ayan and ask him. Maybe he can explain compound interest step by step. Thanks for the idea, Maya! 😊"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You're doing great — talking through it is the first step. Ayan can definitely help. What’s one recipe you’d love to try for dinner tomorrow?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Maybe make a simple *paneer curry* with roti. I saw a video about it yesterday, but I was too lazy to try. It looks tasty though. And yeah, I’ll call Ayan soon. Thanks again! 😊"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Paneer curry with roti sounds delicious you’ll enjoy it. Lazy is okay, but calling Ayan is better. What’s your go-to spice for curry — garam masala or something else?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "I mostly use *garam masala* and *turmeric*, sometimes *cumin* too. But I still make mistakes while cooking — once I put too much salt! 😅 Well, I think I should get going. Need to revise some notes before bed. Talk to you soon, Maya! 😊"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Garam masala and turmeric are perfect ,  they give that warm flavor. Salt slips happen, but you’re learning. Take your time with the notes. Talk soon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {},
+    "events": [],
+    "moments": [],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Rohan"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Football match (sport) team lost",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Rice and dal with gheraine and tadka (dish)",
+        "tone": "neutral",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_38_D03_coldstart_u03_ro",
+        "date": "2026-05-08",
+        "label": "neutral",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "compound interest (exam)",
+          "last_session": "eval_38_D03_coldstart_u03_ro",
+          "last_date": "2026-05-08",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_38_D03_coldstart_u03_ro",
+          "last_date": "2026-05-08"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Football match (sport) team lost\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: teaching self through notes (e.g. \"I made notes on interest calculations and tried to teach it to myself like a teacher.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Rice and dal with gheraine and tadka (dish)\" (tone: neutral)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "mixing up compound interest formula",
+          "examples": [
+            "I think I used the wrong base value once."
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "teaching self through notes",
+          "examples": [
+            "I made notes on interest calculations and tried to teach it to myself like a teacher."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "mixing up compound interest formula",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "I think I used the wrong base value once."
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "Call Ayan to discuss compound interest (exam)",
+        "source_session": "eval_38_D03_coldstart_u03_ro",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "Try making paneer curry with roti (dish)",
+        "source_session": "eval_38_D03_coldstart_u03_ro",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 22.1
+}

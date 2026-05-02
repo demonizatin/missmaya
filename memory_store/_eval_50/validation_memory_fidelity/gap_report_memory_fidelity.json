@@ -1,0 +1,400 @@
+{
+  "session_count": 15,
+  "summary_metrics": {
+    "avg_reply_words": 25.1,
+    "replies_over_120w": 0,
+    "replies_under_8w": 0,
+    "avg_memory_ref_rate_returning_users": 0.17,
+    "opener_repetition_pairs": 0,
+    "stale_phrase_total_hits": 0,
+    "wrap_up_seen_count": 6
+  },
+  "ranked_gaps": [
+    {
+      "id": "low_memory_utilization",
+      "severity": 4,
+      "frequency_pct": 100.0,
+      "count": 14,
+      "layer": "prompt+renderer",
+      "description": "On returning-user sessions, average memory-reference rate is 17% — too low. Maya is ignoring stored facts/events.",
+      "examples": [],
+      "suggested_fix": "Renderer: surface the highest-priority anticipation_queue item more prominently. Prompt: tighten Rule 31 to require referencing one stored item every 3rd turn at minimum.",
+      "score": 200
+    },
+    {
+      "id": "multiple_questions_per_reply",
+      "severity": 3,
+      "frequency_pct": 20.0,
+      "count": 3,
+      "layer": "prompt",
+      "description": "Maya included 2+ questions in 3 replies across 3 sessions (Rule 9 violation).",
+      "examples": [
+        {
+          "session_idx": 11,
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "\"Stress makes it worse, right. Try linking each name to a word that starts with the first letter. For example, M for metoprolol, maybe 'M for muscle relaxer'? What about A for atenolol?\""
+        },
+        {
+          "session_idx": 18,
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "\"Marathi mnemonics are a brilliant touch, makes it personal, right? Flashcards with mechanisms and side effects will help a lot. What’s one key difference you want to focus on first?\""
+        },
+        {
+          "session_idx": 22,
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "\"Autonomic drugs can muddle even the best minds, that’s normal. You mentioned color coded charts before, maybe try that with these categories? What’s one agonist or antagonist you want to focus on rig"
+        }
+      ],
+      "suggested_fix": "Sharpen Rule 9 with 'NEVER more than ONE question mark per reply'. Optionally a guard that drops trailing questions when count>1.",
+      "score": 60.0
+    }
+  ],
+  "per_session_metrics": [
+    {
+      "session_idx": 11,
+      "label": "B01_consec_d0",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "\"Stress makes it worse, right. Try linking each name to a word that starts with the first letter. For example, M for metoprolol, maybe 'M for muscle relaxer'? What about A for atenolol?\""
+        }
+      ],
+      "word_counts": [
+        18,
+        20,
+        20,
+        33,
+        20
+      ],
+      "avg_words": 22.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 12,
+      "label": "B02_consec_d1",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        20,
+        25,
+        23,
+        18,
+        27,
+        21,
+        20
+      ],
+      "avg_words": 22.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.14,
+      "has_memory": true
+    },
+    {
+      "session_idx": 13,
+      "label": "B03_consec_d2",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        20,
+        14,
+        29,
+        26,
+        23,
+        22,
+        31,
+        18
+      ],
+      "avg_words": 22.9,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.25,
+      "has_memory": true
+    },
+    {
+      "session_idx": 14,
+      "label": "B04_consec_d3",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        14,
+        19,
+        16,
+        24,
+        31,
+        24,
+        22,
+        27
+      ],
+      "avg_words": 22.1,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.12,
+      "has_memory": true
+    },
+    {
+      "session_idx": 15,
+      "label": "B05_consec_d4",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        8,
+        22,
+        29,
+        27,
+        23,
+        22
+      ],
+      "avg_words": 21.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 16,
+      "label": "B06_consec_d5",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        28,
+        21,
+        16,
+        19,
+        23,
+        24
+      ],
+      "avg_words": 21.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 17,
+      "label": "B07_consec_d6",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        11,
+        18,
+        31,
+        33,
+        25,
+        21,
+        25,
+        23
+      ],
+      "avg_words": 23.4,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.25,
+      "has_memory": true
+    },
+    {
+      "session_idx": 18,
+      "label": "B08_consec_d7",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "\"Marathi mnemonics are a brilliant touch, makes it personal, right? Flashcards with mechanisms and side effects will help a lot. What’s one key difference you want to focus on first?\""
+        }
+      ],
+      "word_counts": [
+        29,
+        29,
+        30,
+        26,
+        26,
+        29,
+        24,
+        31,
+        22,
+        17
+      ],
+      "avg_words": 26.3,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.2,
+      "has_memory": true
+    },
+    {
+      "session_idx": 19,
+      "label": "B09_consec_d8",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        19,
+        20,
+        23,
+        31,
+        29,
+        33,
+        28,
+        33,
+        26,
+        22
+      ],
+      "avg_words": 26.4,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.1,
+      "has_memory": true
+    },
+    {
+      "session_idx": 20,
+      "label": "B10_consec_d9",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        24,
+        21,
+        18,
+        19,
+        25,
+        21,
+        25,
+        23,
+        25,
+        23,
+        22,
+        26,
+        24,
+        21
+      ],
+      "avg_words": 22.6,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.36,
+      "has_memory": true
+    },
+    {
+      "session_idx": 21,
+      "label": "B11_consec_d10",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        20,
+        23,
+        29,
+        30,
+        26,
+        26,
+        30,
+        36
+      ],
+      "avg_words": 27.5,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.12,
+      "has_memory": true
+    },
+    {
+      "session_idx": 22,
+      "label": "B12_consec_d11",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "\"Autonomic drugs can muddle even the best minds, that’s normal. You mentioned color coded charts before, maybe try that with these categories? What’s one agonist or antagonist you want to focus on rig"
+        }
+      ],
+      "word_counts": [
+        13,
+        19,
+        30,
+        34,
+        26,
+        32,
+        35,
+        39,
+        36,
+        26,
+        28,
+        28,
+        27,
+        20
+      ],
+      "avg_words": 28.1,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.07,
+      "has_memory": true
+    },
+    {
+      "session_idx": 23,
+      "label": "B13_consec_d12",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        18,
+        40,
+        41,
+        37,
+        37,
+        37,
+        33,
+        28
+      ],
+      "avg_words": 33.9,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.12,
+      "has_memory": true
+    },
+    {
+      "session_idx": 24,
+      "label": "B14_consec_d13",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        23,
+        33,
+        30,
+        29,
+        29,
+        30,
+        30,
+        26,
+        28,
+        26,
+        25,
+        23
+      ],
+      "avg_words": 27.7,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 25,
+      "label": "B15_consec_d14",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        23,
+        17,
+        16,
+        20,
+        26,
+        26
+      ],
+      "avg_words": 21.3,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    }
+  ]
+}

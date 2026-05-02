@@ -1,0 +1,193 @@
+{
+  "facts": {
+    "nickname": "Rohan",
+    "favorite_football_team": "Manchester United",
+    "favorite_football_player": "Bruno Fernandes",
+    "also_watches_team": "Mohun Bagan",
+    "cultural_background": "Bengali",
+    "interests": [
+      "football",
+      "football podcasts",
+      "Bengali cinema",
+      "Bengali culture"
+    ]
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "made a workplace vocabulary error (said 'market' instead of 'bank' when discussing deposits), causing embarrassment and jokes from coworkers",
+      "date": "2026-05-08",
+      "added": "2026-05-08",
+      "followed_up": false
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "felt intense shame about the work mistake; face turned red, replayed the incident for hours, flinched when hearing related words",
+      "tone": "anxious",
+      "sensitive": true,
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "gets nervous before meetings and experiences a stomach twist feeling; uses football podcasts to try to calm down but still anxious",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_38_D03_coldstart_u03_ro",
+      "date": "2026-05-08",
+      "label": "anxious",
+      "energy": 5,
+      "confidence": 0.8,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "day recap",
+        "last_session": "eval_38_D03_coldstart_u03_ro",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "work incident",
+        "last_session": "eval_38_D03_coldstart_u03_ro",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "meeting anxiety",
+        "last_session": "eval_38_D03_coldstart_u03_ro",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "football interest",
+        "last_session": "eval_38_D03_coldstart_u03_ro",
+        "last_date": "2026-05-08",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_38_D03_coldstart_u03_ro",
+        "last_date": "2026-05-08"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "event_upcoming",
+      "content": "Ask about \"made a workplace vocabulary error (said 'market' instead of 'bank' when discussing deposits), causing embarrassment and jokes from coworkers\" — today",
+      "source_id": "ev_001",
+      "priority": 10,
+      "computed_at": "2026-05-08",
+      "expires_at": "2026-05-22",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"gets nervous before meetings and experiences a stomach twist feeling; uses football podcas\" (tone: anxious)",
+      "source_id": "mo_002",
+      "priority": 7,
+      "computed_at": "2026-05-08",
+      "expires_at": "2026-05-22",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [
+      {
+        "pattern": "confuses 'market' and 'bank' in financial contexts",
+        "examples": [
+          "I will deposit the money in the market"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "status": "active"
+      }
+    ],
+    "wins": [],
+    "curriculum": [
+      {
+        "pattern": "confuses 'market' and 'bank' in financial contexts",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "I will deposit the money in the market"
+        ]
+      }
+    ]
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold",
+      "likes soft music while working",
+      "enjoys the cool post-lunch break feeling",
+      "appreciates good stories",
+      "uses chai to stay focused",
+      "finds monsoon mornings comforting",
+      "cooks as a form of relaxation",
+      "watches football"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "try using deep breathing technique before next meeting to manage nervousness",
+      "source_session": "eval_38_D03_coldstart_u03_ro",
+      "source_date": "2026-05-08",
+      "status": "active",
+      "expires_at": "2026-06-07"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

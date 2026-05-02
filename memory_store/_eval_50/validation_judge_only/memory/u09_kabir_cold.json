@@ -1,0 +1,159 @@
+{
+  "facts": {
+    "occupation": "customer-facing work",
+    "family_mother": "cooks poha and upma",
+    "digestive_sensitivity": "biryani spice can upset stomach",
+    "favorite_foods": [
+      "biryani (dish)"
+    ],
+    "comfort_foods": [
+      "poha (dish)",
+      "upma (dish)"
+    ],
+    "lifestyle_habits": [
+      "eats biryani especially on weekends with family",
+      "eats out frequently due to busy work schedule"
+    ]
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Mom makes good poha just how I like it",
+      "tone": "grateful",
+      "sensitive": false,
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-05-27",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_44_D09_coldstart_u09_ka",
+      "date": "2026-05-27",
+      "label": "content",
+      "energy": 6,
+      "confidence": 0.68,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "food preferences",
+        "last_session": "eval_44_D09_coldstart_u09_ka",
+        "last_date": "2026-05-27",
+        "uses": 1
+      },
+      {
+        "topic": "family meals",
+        "last_session": "eval_44_D09_coldstart_u09_ka",
+        "last_date": "2026-05-27",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_44_D09_coldstart_u09_ka",
+        "last_date": "2026-05-27"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Mom makes good poha just how I like it\" (tone: grateful)",
+      "source_id": "mo_001",
+      "priority": 4,
+      "computed_at": "2026-05-27",
+      "expires_at": "2026-06-10",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [
+      {
+        "pattern": "omits auxiliary verb 'do' in questions",
+        "examples": [
+          "What you eat?"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27",
+        "status": "active"
+      },
+      {
+        "pattern": "omits third-person singular '-s'",
+        "examples": [
+          "She make good poha"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-05-27",
+        "last_seen": "2026-05-27",
+        "status": "active"
+      }
+    ],
+    "wins": [],
+    "curriculum": [
+      {
+        "pattern": "omits auxiliary verb 'do' in questions",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "What you eat?"
+        ]
+      },
+      {
+        "pattern": "omits third-person singular '-s'",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "She make good poha"
+        ]
+      }
+    ]
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

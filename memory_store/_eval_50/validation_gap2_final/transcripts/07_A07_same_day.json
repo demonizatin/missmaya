@@ -1,0 +1,856 @@
+{
+  "spec": {
+    "idx": 7,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 12,
+    "emotional_state": "frustrated about a small thing today",
+    "label": "A07_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, I admire your consistent use of 'do' in questions — it's a big win! What Bollywood song are you into this week?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "I liked \"Ghungroo\" from the movie \"Brahmāstra.\" It's nice, but I also like old songs more. Why do you like Bollywood songs?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Old songs have a timeless feel — I get that. I enjoy the way they tell stories. What’s your favourite old Bollywood song?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "My favorite old song is \"Pyar Hua Ikrar Hua\" from \"Qayamat Se Qayamat Tak.\" It's very romantic. These songs make me feel nostalgic. Do you listen to Hindi music often?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "\"Got it — nostalgia is a powerful thing. I listen to Hindi music when I need a mood lift. What’s your go-to song for feeling happy?\""
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Ghoomar\" from \"Padmaavat\" is my go-to happy song. The music is so vibrant. But sometimes, I just play random oldies on YouTube. Aajkal ki songs chahiye nahi padti. 😄 Which one lifts your mood?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "\"Ghoomar is an amazing pick! Oldies do have that special charm. I agree — modern songs don’t always hit the same way. What’s your happy oldie right now?\""
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Channa Mereya\" from \"Ek Villain\" is my current happy oldie. It's catchy and makes me want to dance. But honestly, I'm stuck with old songs most of the time. Why do you prefer modern songs?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "\"I get that — old songs just feel more alive sometimes. I enjoy modern songs for the beats, but I admit, oldies still win most days. What modern song have you liked lately?\""
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "To be honest, I don't listen to many modern songs. The ones I like are usually remixes of old classics. I tried listening to some new Bollywood stuff, but it doesn’t grab me the same way. Maybe I’m just stuck in the past! 😅 What about you? Any new songs you’ve liked?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "\"I get that — remixes do feel familiar. Stuck in the past? I don’t mind it! What classic song would you remix if you could?\""
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Zingaat\" from \"Don\" — it's such a bold song. A remix could make it even more energetic. Maybe with a western beat? Not sure, but I think it could be sick! You? Any song you'd want to remix?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "\"Zingaat with a western beat — now that’s a wild idea! Imagine the energy. What song would you remix if you could?\""
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Maybe \"Mere Sapno Ki Rani\" — with an electronic vibe. It could sound totally different but still keep that classic feel. Old songs have so much potential! But I should probably stop daydreaming and get back to work. 😅"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "\"Fair enough — classic meets electronic sounds fun. Daydreaming is allowed though! What’s one thing you’ll do after work today?\""
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "I'll probably just chill at home. Maybe play some cricket on the app or watch an old movie. Aajkal ka kaam toh pani daal raha hai, toh relax karna padega. 😅 What about you?"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "\"Chilling sounds perfect — cricket apps are a good escape. What old movie are you in the mood for?\""
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "I was thinking of watching 'Bobby' — it's such a simple, heartfelt movie. The songs are iconic too. But honestly, any old film with good music works for me. You?"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "\"Bobby is a gem — simple but so touching. Old films with good music are the best. What’s one song from it you’d pick?\""
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "Ek Ladki Ko Dekha\" — it's so sweet and timeless. The way they sing it, it feels like love itself. Old songs really know how to hit the heart. I think I'll end my day with that song on loop. Thanks for the chat, Maya! Gotta run now. 😊"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "You're welcome! \"Ek Ladki Ko Dekha\" is a beautiful choice — perfect for a sweet send-off. Tell me how the movie was tomorrow!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "coding",
+        "Bollywood films",
+        "cricket"
+      ],
+      "relaxation_method": "watches Bollywood/action movies to unwind",
+      "favorite_cricket_team": "Mumbai Indians",
+      "favorite_cricket_players": [
+        "Sachin Tendulkar",
+        "Virat Kohli",
+        "Surya Kumar Yadav"
+      ],
+      "favorite_bollywood_movies": [
+        "Dil Bechara",
+        "3 Idiots"
+      ],
+      "reading_habit": "occasionally reads Hindi novels; prefers watching Bollywood movies",
+      "favorite_mi_victory": "2019 MI vs CSK final",
+      "favorite_bollywood_songs_and_scenes": [
+        "Jai Ho (Slumdog Millionaire)",
+        "Chaiyya Chaiyya (Dilwale Dulhania Le Jayenge)",
+        "Aankhen Khuli (Tum Mile)",
+        "Laila O Laila (Student of the Year)",
+        "Ghungroo (Sultan)"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "watching cricket final (MI vs CSK) with snacks at 7:00 PM",
+        "date": "2026-05-04",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_6_A06_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "mango season",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket and the final",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "sleep schedule",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation methods",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "reading habits",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "language practice",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket final snacks",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "player preferences",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "watch party logistics",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "streaming and viewing",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "celebration plans",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: consistently used correct auxiliary verb 'do' in all questions throughout session (e.g. \"Do you follow any players?\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "omits auxiliary verb 'do' in questions",
+          "examples": [
+            "What you think?"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "consistently used correct auxiliary verb 'do' in all questions throughout session",
+          "examples": [
+            "Do you follow any players?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "omits auxiliary verb 'do' in questions",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "What you think?"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "watch cricket final (MI vs CSK) on 2026-05-04 at 7:00 PM with snacks",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "report back on whether reading or music before bed helped with sleep",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "try using 'read' in a sentence and report back to Maya",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "coding",
+        "Bollywood films",
+        "cricket"
+      ],
+      "relaxation_method": "watches Bollywood/action movies to unwind",
+      "favorite_cricket_team": "Mumbai Indians",
+      "favorite_cricket_players": [
+        "Sachin Tendulkar",
+        "Virat Kohli",
+        "Surya Kumar Yadav"
+      ],
+      "favorite_bollywood_movies": [
+        "Dil Bechara",
+        "3 Idiots"
+      ],
+      "reading_habit": "occasionally reads Hindi novels; prefers watching Bollywood movies",
+      "favorite_mi_victory": "2019 MI vs CSK final",
+      "favorite_bollywood_songs_and_scenes": [
+        "Jai Ho (Slumdog Millionaire)",
+        "Chaiyya Chaiyya (Dilwale Dulhania Le Jayenge)",
+        "Aankhen Khuli (Tum Mile)",
+        "Laila O Laila (Student of the Year)",
+        "Ghungroo (Sultan)",
+        "Pyar Hua Ikrar Hua (Qayamat Se Qayamat Tak)",
+        "Ghoomar (Padmaavat)",
+        "Channa Mereya (Ek Villain)",
+        "Ek Ladki Ko Dekha (Bobby)"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "watching cricket final (MI vs CSK) with snacks at 7:00 PM",
+        "date": "2026-05-04",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Old songs have a special quality—they make me feel nostalgic and hit my heart in a way modern songs don't. The way they sing feels like love itself.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_6_A06_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_7_A07_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "mango season",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket and the final",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "sleep schedule",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation methods",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "reading habits",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "language practice",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket final snacks",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "player preferences",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "watch party logistics",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "streaming and viewing",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "celebration plans",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_7_A07_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: consistently used correct auxiliary verb 'do' in all questions throughout session (e.g. \"Do you follow any players?\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Old songs have a special quality—they make me feel nostalgic and hit my heart in a way mod\" (tone: grateful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "omits auxiliary verb 'do' in questions",
+          "examples": [
+            "What you think?"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "fixed"
+        }
+      ],
+      "wins": [
+        {
+          "what": "consistently used correct auxiliary verb 'do' in all questions throughout session",
+          "examples": [
+            "Do you follow any players?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "watch cricket final (MI vs CSK) on 2026-05-04 at 7:00 PM with snacks",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "report back on whether reading or music before bed helped with sleep",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "try using 'read' in a sentence and report back to Maya",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "tell Maya how watching 'Bobby' was",
+        "source_session": "eval_7_A07_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 147.0
+}

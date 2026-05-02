@@ -1,0 +1,2212 @@
+{
+  "session_count": 50,
+  "summary_metrics": {
+    "avg_reply_words": 31.5,
+    "replies_over_120w": 0,
+    "replies_under_8w": 0,
+    "avg_memory_ref_rate_returning_users": 0.35,
+    "opener_repetition_pairs": 1,
+    "stale_phrase_total_hits": 18,
+    "wrap_up_seen_count": 27
+  },
+  "ranked_gaps": [
+    {
+      "id": "opener_repetition",
+      "severity": 5,
+      "frequency_pct": 2.0,
+      "count": 1,
+      "layer": "guard",
+      "description": "1 pairs of openers across same-user sessions had >=0.65 structural similarity.",
+      "examples": [
+        {
+          "user": "u01_priyansh",
+          "session_a": 5,
+          "session_b": 8,
+          "ratio": 0.68,
+          "a_raw": "Hi Priyansh, I heard you're working on something exciting with cricket gloves — how are the trial plans coming along?",
+          "b_raw": "Hi Priyansh, I heard about the cricket gloves project you're working on — sounds exciting! How are the trials coming along?"
+        }
+      ],
+      "suggested_fix": "Add a deterministic first-turn similarity check that strips opener if normalized form matches one of the last 6 stored opening_phrases by SequenceMatcher >= 0.7.",
+      "score": 250
+    },
+    {
+      "id": "greeting_on_turn_2plus",
+      "severity": 4,
+      "frequency_pct": 56.0,
+      "count": 131,
+      "layer": "prompt",
+      "description": "Maya started a turn-2+ reply with a greeting ('Hi <name>,...') in 131 replies across 28 sessions.",
+      "examples": [
+        {
+          "session_idx": 1,
+          "turn": 2,
+          "snippet": "Hi Priyansh, that sounds fun! I love cricket and Bollywood — which one is your favorite, Pathaan or Tiger 3?"
+        },
+        {
+          "session_idx": 2,
+          "turn": 2,
+          "snippet": "Hi Priyansh, that sounds exciting! Trying new positions is a great way to improve. Yuvraj Singh is a legend — you're on "
+        },
+        {
+          "session_idx": 4,
+          "turn": 3,
+          "snippet": "Hi Priyansh, I'm glad you like Virat's movies — \"entertaning\" is a nice word! I watched *Pathaan* again last week; it’s "
+        }
+      ],
+      "suggested_fix": "Strengthen Rule 1 turn-2+ no-greeting clause OR add a server-side strip in pg_apply_output_guard.",
+      "score": 224.0
+    },
+    {
+      "id": "multiple_questions_per_reply",
+      "severity": 3,
+      "frequency_pct": 56.0,
+      "count": 53,
+      "layer": "prompt",
+      "description": "Maya included 2+ questions in 53 replies across 28 sessions (Rule 9 violation).",
+      "examples": [
+        {
+          "session_idx": 5,
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "You explained that clearly! Good use of \"very good.\" I agree — being a strong player helps! Me? I'd probably forget all the strategies. Do you enjoy strategizing when you play cricket?"
+        },
+        {
+          "session_idx": 6,
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "Hi Priyansh, I see you are thinking hard about the cricket gloves — simplifying is a smart idea. What about a Bollywood song to relax? I just listened to Ek Ladki Ko Dekha To Yeh Jiya. Have you heard "
+        },
+        {
+          "session_idx": 7,
+          "turn": 11,
+          "q_count": 2,
+          "snippet": "Hi Priyansh, singing off-key is the best kind! I sing along too, mostly in the kitchen while making tea. It’s a joyful kind of *dosti*, isn’t it? Do you write any songs, or just enjoy singing them?"
+        }
+      ],
+      "suggested_fix": "Sharpen Rule 9 with 'NEVER more than ONE question mark per reply'. Optionally a guard that drops trailing questions when count>1.",
+      "score": 168.0
+    },
+    {
+      "id": "stale_phrase_love_how_you_opener",
+      "severity": 3,
+      "frequency_pct": 18.0,
+      "count": 9,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'love_how_you_opener' in 9/50 sessions (18.0%).",
+      "examples": [
+        {
+          "session_idx": 8,
+          "turn": 4,
+          "snippet": "I love how you explained it — makes me think of chai too! Just the right balance of sweet and bitter. Your gloves sound like they’ll be a hit once ready. What’s your favorite part of working on it?"
+        },
+        {
+          "session_idx": 12,
+          "turn": 1,
+          "snippet": "Hi Aarti, I love how you created a clever way to remember morphine! Tell me, have you used this trick for other medicines too?"
+        },
+        {
+          "session_idx": 14,
+          "turn": 1,
+          "snippet": "Hi Aarti, exams are tough, right? I love how you make your own mnemonics — it shows how hard you work. Did you try the 'prop up your heart' one yet?"
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 54.0
+    },
+    {
+      "id": "stale_phrase_hindi_songs_persona_cycle",
+      "severity": 4,
+      "frequency_pct": 12.0,
+      "count": 6,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'hindi_songs_persona_cycle' in 6/50 sessions (12.0%).",
+      "examples": [
+        {
+          "session_idx": 3,
+          "turn": 4,
+          "snippet": "I listen to light music too when I need to focus — usually old Hindi film songs. They calm my mind. \n\nYou mentioned instrumental music helps you think — what kind of instrumental do you prefer?"
+        },
+        {
+          "session_idx": 20,
+          "turn": 3,
+          "snippet": "Hi Aarti, I take short walks or sip tea while listening to old Hindi songs. Even 5 minutes of deep breathing helps. What song do you like best for calm?"
+        },
+        {
+          "session_idx": 23,
+          "turn": 3,
+          "snippet": "Pankaj Udhas is a good choice — very calming! Chai is perfect too, especially with a break. I like to take short walks or listen to old Hindi film songs. What's your favorite song to relax with?"
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 48.0
+    },
+    {
+      "id": "stale_phrase_echo_praise",
+      "severity": 4,
+      "frequency_pct": 4.0,
+      "count": 2,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'echo_praise' in 2/50 sessions (4.0%).",
+      "examples": [
+        {
+          "session_idx": 11,
+          "turn": 3,
+          "snippet": "You said \"pharmacology\" perfectly! To remember tricky terms, I connect them to daily life. For example, \"aspirin\" sounds like \"aspirants\" — people who study hard. Can you think of a similar trick for "
+        },
+        {
+          "session_idx": 18,
+          "turn": 8,
+          "snippet": "I get that — study time can take over! You said \"prop up my heart\" perfectly. Speaking of which, what gives you the biggest energy lift during study breaks — music, snacks, or something else?"
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 16.0
+    },
+    {
+      "id": "stale_phrase_self_intro_in_reply",
+      "severity": 5,
+      "frequency_pct": 2.0,
+      "count": 1,
+      "layer": "prompt+guard",
+      "description": "Maya used the stale phrase tagged 'self_intro_in_reply' in 1/50 sessions (2.0%).",
+      "examples": [
+        {
+          "session_idx": 46,
+          "turn": 2,
+          "snippet": "Hi Neha, I'm Miss Maya. So glad you're here to practice English! How was your day today?"
+        }
+      ],
+      "suggested_fix": "Add to forbidden-phrase list in QWEN_EXTRA_RULES Rule 35b; mirror as deterministic regex guard in pg_apply_output_guard.",
+      "score": 10.0
+    }
+  ],
+  "per_session_metrics": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Priyansh, that sounds fun! I love cricket and Bollywood — which one is your favorite, Pathaan or Tiger 3?"
+        },
+        {
+          "turn": 3,
+          "snippet": "Hi Priyansh, I get that — first movies often stay special! Do you watch Bollywood songs while working on your computer?"
+        },
+        {
+          "turn": 4,
+          "snippet": "Hi Priyansh, that’s a beautiful song! I like listening to soft music while working too. Do you code in a quiet room, or "
+        },
+        {
+          "turn": 5,
+          "snippet": "Hi Priyansh, working from home can be great for focus! Do you prefer working in the morning or the evening?"
+        },
+        {
+          "turn": 6,
+          "snippet": "Hi Priyansh, mornings are perfect for thinking clearly! I like working in the afternoon — maybe because I love the cool "
+        }
+      ],
+      "multi_q": [],
+      "word_counts": [
+        19,
+        20,
+        21,
+        29,
+        20,
+        31
+      ],
+      "avg_words": 23.3,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Priyansh, that sounds exciting! Trying new positions is a great way to improve. Yuvraj Singh is a legend — you're on "
+        }
+      ],
+      "multi_q": [],
+      "word_counts": [
+        33,
+        41,
+        29,
+        36,
+        38,
+        35,
+        33,
+        29
+      ],
+      "avg_words": 34.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "stale_hits": [
+        {
+          "turn": 4,
+          "tag": "hindi_songs_persona_cycle",
+          "snippet": "I listen to light music too when I need to focus — usually old Hindi film songs. They calm my mind. \n\nYou mentioned instrumental music helps you think — what kind of instrumental do you prefer?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        24,
+        45,
+        37,
+        36,
+        25,
+        33,
+        47,
+        39,
+        46,
+        22
+      ],
+      "avg_words": 35.4,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 3,
+          "snippet": "Hi Priyansh, I'm glad you like Virat's movies — \"entertaning\" is a nice word! I watched *Pathaan* again last week; it’s "
+        },
+        {
+          "turn": 6,
+          "snippet": "Hi Priyansh, I enjoy Bollywood more — the music, the drama, the colors! But I do watch Hollywood too, especially if it’s"
+        },
+        {
+          "turn": 8,
+          "snippet": "Hi Priyansh, singing alone in the car is the best — no pressure! I hum along to old songs too, they feel familiar. Do yo"
+        },
+        {
+          "turn": 9,
+          "snippet": "Hi Priyansh, that’s a great choice — a true classic! My favorite is *Jab Tak Hai Jaan* — I feel emotional every time. Wh"
+        },
+        {
+          "turn": 10,
+          "snippet": "Hi Priyansh, *Rock On!!* is a great pick — the songs are full of energy! I try to sing along, but I can’t match the orig"
+        },
+        {
+          "turn": 11,
+          "snippet": "Hi Priyansh, singing in the car is perfect — no one judges! I am an English tutor here in India. I love helping learners"
+        },
+        {
+          "turn": 12,
+          "snippet": "Hi Priyansh, fintech sounds busy — learning guitar would be a great way to unwind! I look forward to our next chat. Tell"
+        }
+      ],
+      "multi_q": [],
+      "word_counts": [
+        51,
+        40,
+        32,
+        31,
+        37,
+        32,
+        34,
+        32,
+        30,
+        34,
+        33,
+        36
+      ],
+      "avg_words": 35.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.08,
+      "has_memory": true
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "You explained that clearly! Good use of \"very good.\" I agree — being a strong player helps! Me? I'd probably forget all the strategies. Do you enjoy strategizing when you play cricket?"
+        }
+      ],
+      "word_counts": [
+        20,
+        36,
+        30,
+        38,
+        36,
+        40,
+        36,
+        32,
+        37,
+        33,
+        40,
+        33
+      ],
+      "avg_words": 34.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Priyansh, I hope your morning is going well! I wanted to mention how clearly you explained the cricket gloves project"
+        },
+        {
+          "turn": 3,
+          "snippet": "Hi Priyansh, I see you are thinking hard about the cricket gloves — simplifying is a smart idea. What about a Bollywood "
+        },
+        {
+          "turn": 5,
+          "snippet": "Hi Priyansh, *Barbie* sounds like a good choice — I heard the music is catchy. I haven’t seen it yet, but I might watch "
+        }
+      ],
+      "multi_q": [
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "Hi Priyansh, I see you are thinking hard about the cricket gloves — simplifying is a smart idea. What about a Bollywood song to relax? I just listened to Ek Ladki Ko Dekha To Yeh Jiya. Have you heard "
+        }
+      ],
+      "word_counts": [
+        44,
+        44,
+        40,
+        29,
+        34,
+        29
+      ],
+      "avg_words": 36.7,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 8,
+          "snippet": "Hi Priyansh, I love fixing things — like when a student finally understands a tricky grammar point! But I also enjoy sim"
+        },
+        {
+          "turn": 9,
+          "snippet": "Hi Priyansh, I do watch Bollywood movies! I love the songs and stories. A good movie with chai is perfect. What’s your f"
+        },
+        {
+          "turn": 10,
+          "snippet": "Hi Priyansh, \"Chala Hawa Badaro\" sounds fun! I love when a song sticks in your head. My favorite old song is \"Ek Ladki K"
+        },
+        {
+          "turn": 11,
+          "snippet": "Hi Priyansh, singing off-key is the best kind! I sing along too, mostly in the kitchen while making tea. It’s a joyful k"
+        },
+        {
+          "turn": 12,
+          "snippet": "Hi Priyansh, no worries — your sensors and playlist can wait! I’ll be here when you need a singing partner or debugging "
+        }
+      ],
+      "multi_q": [
+        {
+          "turn": 11,
+          "q_count": 2,
+          "snippet": "Hi Priyansh, singing off-key is the best kind! I sing along too, mostly in the kitchen while making tea. It’s a joyful kind of *dosti*, isn’t it? Do you write any songs, or just enjoy singing them?"
+        }
+      ],
+      "word_counts": [
+        42,
+        27,
+        37,
+        33,
+        32,
+        31,
+        31,
+        44,
+        33,
+        40,
+        37,
+        30
+      ],
+      "avg_words": 34.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "stale_hits": [
+        {
+          "turn": 4,
+          "tag": "love_how_you_opener",
+          "snippet": "I love how you explained it — makes me think of chai too! Just the right balance of sweet and bitter. Your gloves sound like they’ll be a hit once ready. What’s your favorite part of working on it?"
+        }
+      ],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Priyansh, I heard about the cricket gloves project you're working on — sounds exciting! How are the trials coming alo"
+        }
+      ],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        21,
+        40,
+        39,
+        36,
+        35,
+        43,
+        34
+      ],
+      "avg_words": 33.6,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        17,
+        25,
+        19,
+        19,
+        21
+      ],
+      "avg_words": 20.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "Good try! We'd usually say \"What am I thinking?\" instead. Your ideas are great — colors and durability matter a lot. Did you decide which ones to include?"
+        },
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "You're doing great! Small fix: we say \"Do you think you should add something else?\" Your plan sounds good. Let me know how the players respond later. Speaking of, did you watch the Shah Rukh Khan movi"
+        },
+        {
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "Good try! We say \"Do you like that movie?\" Your idea to watch it with your sister sounds nice. I did not watch it, but I like cricket scenes in movies. Which one did you watch?"
+        },
+        {
+          "turn": 7,
+          "q_count": 2,
+          "snippet": "You said it well! Small fix: we say \"Have you watched any old movie?\" I like some old Bollywood films. A marathon sounds fun! Which ones do you like?"
+        },
+        {
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "I like \"Kuch Kuch Hota Hai\" too — the music is amazing. Small fix: we say \"What about you — any favorite old movies?\" I enjoy \"Dilwale Dulhania Le Jayega\" as well. What songs did you like from it?"
+        }
+      ],
+      "word_counts": [
+        20,
+        24,
+        28,
+        40,
+        36,
+        29,
+        29,
+        39,
+        34,
+        24
+      ],
+      "avg_words": 30.3,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 11,
+      "label": "B01_consec_d0",
+      "stale_hits": [
+        {
+          "turn": 3,
+          "tag": "echo_praise",
+          "snippet": "You said \"pharmacology\" perfectly! To remember tricky terms, I connect them to daily life. For example, \"aspirin\" sounds like \"aspirants\" — people who study hard. Can you think of a similar trick for "
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        28,
+        32,
+        34,
+        42,
+        39,
+        31
+      ],
+      "avg_words": 34.3,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 12,
+      "label": "B02_consec_d1",
+      "stale_hits": [
+        {
+          "turn": 1,
+          "tag": "love_how_you_opener",
+          "snippet": "Hi Aarti, I love how you created a clever way to remember morphine! Tell me, have you used this trick for other medicines too?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "You're doing great, just a tiny tweak — we say \"There's this one — 'under the weather.'\"  \nYes! \"Under the weather\" means feeling sick or not well. And \"spill the tea\" is to share secrets or gossip. F"
+        },
+        {
+          "turn": 9,
+          "q_count": 2,
+          "snippet": "You're doing great, just a tiny tweak — we say \"Today I studied pharmacology — those drug names are like a different language!\"  \nI get it, Marathi feels more natural! What if you try grouping similar"
+        },
+        {
+          "turn": 10,
+          "q_count": 2,
+          "snippet": "You're doing great, just a tiny tweak — we say \"Hmm, okay. Let me try.\"  \nThat’s a fun idea! How about \"Prop up your heart with propranolol\"? Clever! What’s another drug you want to make a sentence fo"
+        }
+      ],
+      "word_counts": [
+        24,
+        39,
+        38,
+        45,
+        60,
+        48,
+        41,
+        42,
+        42,
+        38
+      ],
+      "avg_words": 41.7,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.2,
+      "has_memory": true
+    },
+    {
+      "session_idx": 13,
+      "label": "B03_consec_d2",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Aarti, I get that heavy feeling — like after too much spicy biryani! Take it slow. What part of pharmacology is givin"
+        },
+        {
+          "turn": 3,
+          "snippet": "Hi Aarti, you used \"idiosyncratic\" perfectly! Tiny tweak: we often say \"pharmacokinetics\" as one word, but your meaning "
+        },
+        {
+          "turn": 4,
+          "snippet": "Hi Aarti, ready when you are! Let’s start with “idiosyncratic.” Imagine it as \"idiots have their own quirks!\" What’s nex"
+        },
+        {
+          "turn": 5,
+          "snippet": "Hi Aarti, great catch! \"Teratogenic\" (starts with \"tera\") relates to birth defects — think \"terrible for a baby.\" \"Tachy"
+        },
+        {
+          "turn": 6,
+          "snippet": "Hi Aarti, okay! Let’s try “mydriatic.” It’s for eye drops that make your pupils bigger. Think \"my\" (as in \"my eyes\") + \""
+        },
+        {
+          "turn": 7,
+          "snippet": "Hi Aarti, ginger tea is a perfect pick — it warms up the mind and body. Rest well, and take your time. I'm here for more"
+        },
+        {
+          "turn": 8,
+          "snippet": "Hi Aarti, \"Aapki baat sunke thodi roshni lagti hai\" — what a beautiful way to say that! You're doing great, just a tiny "
+        }
+      ],
+      "multi_q": [
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "Hi Aarti, ready when you are! Let’s start with “idiosyncratic.” Imagine it as \"idiots have their own quirks!\" What’s next? “Pharmacokinetics” — think \"pharma\" (drugs) + \"kinetics\" (movement). Any othe"
+        },
+        {
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "Hi Aarti, great catch! \"Teratogenic\" (starts with \"tera\") relates to birth defects — think \"terrible for a baby.\" \"Tachycardic\" (starts with \"tachy\") is fast heart rate — like \"tachometer\" in a fast c"
+        }
+      ],
+      "word_counts": [
+        28,
+        26,
+        34,
+        34,
+        45,
+        40,
+        32,
+        44
+      ],
+      "avg_words": 35.4,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 1.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 14,
+      "label": "B04_consec_d3",
+      "stale_hits": [
+        {
+          "turn": 1,
+          "tag": "love_how_you_opener",
+          "snippet": "Hi Aarti, exams are tough, right? I love how you make your own mnemonics — it shows how hard you work. Did you try the 'prop up your heart' one yet?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 1,
+          "q_count": 2,
+          "snippet": "Hi Aarti, exams are tough, right? I love how you make your own mnemonics — it shows how hard you work. Did you try the 'prop up your heart' one yet?"
+        },
+        {
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "That’s such a sweet memory — Tansen and pav bhaji together! Mixing music and cooking makes sense, just like music and studying. Maybe try a song without words next time? Or hum softly while you measur"
+        },
+        {
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "You're doing great — and the chart can wait! Just take it one step at a time. How was the music while revising? Let me know later, okay? Take care!"
+        }
+      ],
+      "word_counts": [
+        31,
+        27,
+        39,
+        40,
+        45,
+        33,
+        29,
+        30
+      ],
+      "avg_words": 34.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.38,
+      "has_memory": true
+    },
+    {
+      "session_idx": 15,
+      "label": "B05_consec_d4",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Aarti, you said \"Want a taste?\" — small fix: we say \"Would you like a taste?\"  \nYour chicken curry sounds delicious. "
+        },
+        {
+          "turn": 3,
+          "snippet": "Hi Aarti, you said \"the chicken becomes a little dry\" — small fix: we say \"the chicken becomes a bit dry.\"  \nCooking lik"
+        },
+        {
+          "turn": 4,
+          "snippet": "Hi Aarti, you said \"I enjoy music while working\" — perfect sentence!  \nGhazals are so calming. I listen to old songs whi"
+        },
+        {
+          "turn": 5,
+          "snippet": "Hi Aarti, you said \"Lata is my first choice\" — small fix: we say \"Lata is my first choice singer.\"  \nLata Mangeshkar’s v"
+        },
+        {
+          "turn": 6,
+          "snippet": "Hi Aarti, you said \"Talk to you soon, Maya!\" — small fix: we say \"Talk to you soon, Miss Maya!\"  \n\"Pyar Hua Ikrar Hua\" i"
+        }
+      ],
+      "multi_q": [
+        {
+          "turn": 1,
+          "q_count": 2,
+          "snippet": "Hi Aarti, today is a good day for cooking? I love the smell of pav bhaji. What dish are you making today?"
+        },
+        {
+          "turn": 2,
+          "q_count": 3,
+          "snippet": "Hi Aarti, you said \"Want a taste?\" — small fix: we say \"Would you like a taste?\"  \nYour chicken curry sounds delicious. Is this a family recipe?"
+        }
+      ],
+      "word_counts": [
+        22,
+        27,
+        37,
+        30,
+        37,
+        38
+      ],
+      "avg_words": 31.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 1.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 16,
+      "label": "B06_consec_d5",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 1,
+          "q_count": 2,
+          "snippet": "Hi Aarti, how was your study session today? I hope your heart stayed calm and your music helped. Did you try 'prop up your heart' for propranolol? Take your time to tell me."
+        },
+        {
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "You said \"a little steadier\" — very nice! I'm glad the trick worked a little. Chakli cookies? That sounds delicious. Yes, I like sweet snacks. What kind of chakli is it?"
+        }
+      ],
+      "word_counts": [
+        33,
+        31,
+        34,
+        25,
+        27
+      ],
+      "avg_words": 30.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.4,
+      "has_memory": true
+    },
+    {
+      "session_idx": 17,
+      "label": "B07_consec_d6",
+      "stale_hits": [
+        {
+          "turn": 1,
+          "tag": "love_how_you_opener",
+          "snippet": "Hi Aarti, yesterday’s chakli cookies celebration sounds sweet! I love how you turn study wins into small joys. How was your day today?"
+        }
+      ],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Aarti, I get it — long study days are exhausting. Did you try the 'prop up your heart' trick today? Take your time, r"
+        },
+        {
+          "turn": 3,
+          "snippet": "Hi Aarti, that sounds tough. When you feel heavy, maybe try a short music break — like Yaman or Bhairavi. Did you try th"
+        },
+        {
+          "turn": 4,
+          "snippet": "Hi Aarti, I’m sorry to hear that. Take a small break — even five minutes — and drink some water. Did you try that today?"
+        },
+        {
+          "turn": 5,
+          "snippet": "Hi Aarti, sounds like a really busy day for you. What’s one thing you studied today that felt a bit easier than before?"
+        },
+        {
+          "turn": 6,
+          "snippet": "Hi Aarti, better than others is still progress! Did you mix up any terms while studying it, or feel more confident?"
+        },
+        {
+          "turn": 7,
+          "snippet": "Hi Aarti, that’s normal — even experts mix terms at first. Try making a small chart: glomerulus is part of the nephron. "
+        },
+        {
+          "turn": 8,
+          "snippet": "Hi Aarti, finishing notes is important, but don’t forget to rest your mind too. Tell me, what’s one thing you’ll do to r"
+        }
+      ],
+      "multi_q": [],
+      "word_counts": [
+        23,
+        28,
+        28,
+        25,
+        23,
+        21,
+        26,
+        24
+      ],
+      "avg_words": 24.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 1.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 18,
+      "label": "B08_consec_d7",
+      "stale_hits": [
+        {
+          "turn": 8,
+          "tag": "echo_praise",
+          "snippet": "I get that — study time can take over! You said \"prop up my heart\" perfectly. Speaking of which, what gives you the biggest energy lift during study breaks — music, snacks, or something else?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 1,
+          "q_count": 2,
+          "snippet": "Hi Aarti, I hope your day is going well. I wanted to check in and ask—did you try using your 'prop up your heart' trick while studying heart valves and music? How did it feel?"
+        },
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "You're doing great, just a tiny tweak — we say \"how it opens and closes.\" On that note, have you tried drawing the valves or using a simple word trick to remember the differences? What helps for you?"
+        },
+        {
+          "turn": 4,
+          "q_count": 3,
+          "snippet": "Sure! Here's a quick trick: the mitral valve has two flaps (like a 'bi' — two), and the tricuspid has three (like 'tri' — three). Got it? What if we make a silly sentence for each? Want to try one tog"
+        },
+        {
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "You're doing great! Here's one: \"Mitral is by the left, just like my left hand is better at holding my chai.\" How does that feel? Want to make one for tricuspid next?"
+        },
+        {
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "Your sentence is creative and clear! We say \"like there are three spoons in my upma.\" Well done! Speaking of upma, what’s your favorite way to eat it? With sambar or something else?"
+        }
+      ],
+      "word_counts": [
+        35,
+        37,
+        38,
+        41,
+        32,
+        33,
+        28,
+        35,
+        32,
+        35,
+        36,
+        36
+      ],
+      "avg_words": 34.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.25,
+      "has_memory": true
+    },
+    {
+      "session_idx": 19,
+      "label": "B09_consec_d8",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 3,
+          "snippet": "Hi Aarti, I see you are studying antihypertensives. That can be tricky. Which drug are you trying to understand first?"
+        }
+      ],
+      "multi_q": [],
+      "word_counts": [
+        20,
+        21,
+        20,
+        35,
+        32,
+        29,
+        36,
+        26
+      ],
+      "avg_words": 27.4,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.62,
+      "has_memory": true
+    },
+    {
+      "session_idx": 20,
+      "label": "B10_consec_d9",
+      "stale_hits": [
+        {
+          "turn": 3,
+          "tag": "hindi_songs_persona_cycle",
+          "snippet": "Hi Aarti, I take short walks or sip tea while listening to old Hindi songs. Even 5 minutes of deep breathing helps. What song do you like best for calm?"
+        }
+      ],
+      "bad_greeting_t2": [
+        {
+          "turn": 3,
+          "snippet": "Hi Aarti, I take short walks or sip tea while listening to old Hindi songs. Even 5 minutes of deep breathing helps. What"
+        }
+      ],
+      "multi_q": [
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "I get that—exam stress can take over. Maybe try singing your dal song while cooking? It could calm your mind. Did you try that today?"
+        },
+        {
+          "turn": 11,
+          "q_count": 2,
+          "snippet": "You’re doing great! Small fix: we say “it’s used for high blood pressure AND arrhythmias.” You got the key points—bradycardia, fatigue, and asthma caution. How about labetalol? What do you remember ab"
+        }
+      ],
+      "word_counts": [
+        15,
+        29,
+        30,
+        25,
+        29,
+        26,
+        18,
+        28,
+        26,
+        34,
+        33,
+        44,
+        24
+      ],
+      "avg_words": 27.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.31,
+      "has_memory": true
+    },
+    {
+      "session_idx": 21,
+      "label": "B11_consec_d10",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "I think you’re being too hard on yourself—mistakes happen, even to the best of us! Take a deep breath, like before a piano piece. What if you gave your notes a quick 10-minute look, just to feel stead"
+        },
+        {
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "I understand—pharmacology and biochemistry can feel like a whirlwind. What if you broke it into smaller bits, like a few drug mechanisms at a time? And maybe sing them, like your propranolol song! Wha"
+        },
+        {
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "You’re doing great, just a tiny tweak—there’s no need to feel *chup*. Singing is a smart idea, and it’s okay to feel confused sometimes. How about we practice a sentence? You can say, “I am focusing o"
+        }
+      ],
+      "word_counts": [
+        26,
+        33,
+        48,
+        45,
+        42,
+        48,
+        36,
+        34
+      ],
+      "avg_words": 39.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.5,
+      "has_memory": true
+    },
+    {
+      "session_idx": 22,
+      "label": "B12_consec_d11",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "You're not alone in that struggle! What did you guess? And how did you feel after moving on?"
+        }
+      ],
+      "word_counts": [
+        19,
+        17,
+        19,
+        18,
+        20,
+        21,
+        31,
+        20,
+        28,
+        20,
+        21
+      ],
+      "avg_words": 21.3,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.45,
+      "has_memory": true
+    },
+    {
+      "session_idx": 23,
+      "label": "B13_consec_d12",
+      "stale_hits": [
+        {
+          "turn": 3,
+          "tag": "hindi_songs_persona_cycle",
+          "snippet": "Pankaj Udhas is a good choice — very calming! Chai is perfect too, especially with a break. I like to take short walks or listen to old Hindi film songs. What's your favorite song to relax with?"
+        }
+      ],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "That sounds fun — dancing while chopping veggies? I can picture it! Biryani is a great next step — let me know if you need help with the recipe. What’s your favorite biryani style?"
+        }
+      ],
+      "word_counts": [
+        15,
+        33,
+        37,
+        35,
+        34,
+        34,
+        40,
+        37
+      ],
+      "avg_words": 33.1,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.5,
+      "has_memory": true
+    },
+    {
+      "session_idx": 24,
+      "label": "B14_consec_d13",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        28,
+        21,
+        59,
+        29,
+        30
+      ],
+      "avg_words": 31.3,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.33,
+      "has_memory": true
+    },
+    {
+      "session_idx": 25,
+      "label": "B15_consec_d14",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "I hear you — it’s a lot to take in. What if you call beta blockers “deep blue” and link them to Bhairav raga? Steady and calm, like the drug’s effect. Could work! How are your flashcards going?"
+        }
+      ],
+      "word_counts": [
+        33,
+        25,
+        36,
+        32,
+        38,
+        29
+      ],
+      "avg_words": 32.2,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.5,
+      "has_memory": true
+    },
+    {
+      "session_idx": 26,
+      "label": "C01_sporadic_d0",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        19,
+        22,
+        36,
+        27,
+        21
+      ],
+      "avg_words": 25.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 27,
+      "label": "C02_sporadic_d9",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Rohan, I heard about Barcelona's big win! Did you watch the match?"
+        },
+        {
+          "turn": 3,
+          "snippet": "Hey Rohan, that's a great summary! I like how you said 'played like a real big team.' I support Barcelona too. Who is yo"
+        },
+        {
+          "turn": 4,
+          "snippet": "Hey Rohan, Gavi is a fantastic choice—he brings so much energy to the game. I like him too! Ansu Fati is a great player "
+        },
+        {
+          "turn": 5,
+          "snippet": "Hey Rohan, that's a thoughtful take—yes, injuries can really affect a player's time on the field. I haven’t seen the new"
+        },
+        {
+          "turn": 6,
+          "snippet": "Hey Rohan, I like \"Ek Tha Tiger\" too—it’s a classic! I enjoy both English and Bollywood movies. I think Bollywood has mo"
+        },
+        {
+          "turn": 7,
+          "snippet": "Hey Rohan, that’s a great way to describe Bollywood—very colorful! I haven’t seen the new *Mission: Impossible* yet. Was"
+        },
+        {
+          "turn": 8,
+          "snippet": "Hey Rohan, that sounds like a fun watch with your cousin! I like action movies, but I also enjoy the excitement they bri"
+        },
+        {
+          "turn": 9,
+          "snippet": "Hey Rohan, that sounds like a great way to enjoy movies—discussing and guessing twists makes it more fun! I watch a few "
+        },
+        {
+          "turn": 10,
+          "snippet": "Hey Rohan, that's a good mix—action, thriller, and comedy! I hope your exam prep goes well. Tell me how the movie discus"
+        }
+      ],
+      "multi_q": [],
+      "word_counts": [
+        13,
+        13,
+        29,
+        36,
+        29,
+        29,
+        25,
+        32,
+        34,
+        27
+      ],
+      "avg_words": 26.7,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.3,
+      "has_memory": true
+    },
+    {
+      "session_idx": 28,
+      "label": "C03_sporadic_d19",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 1,
+          "q_count": 2,
+          "snippet": "Hi Rohan, how is your bank exam prep going these days? I hope it’s going well! I love learning about people’s goals. Have you tried any new study methods lately?"
+        }
+      ],
+      "word_counts": [
+        30,
+        31,
+        39,
+        44,
+        39,
+        37
+      ],
+      "avg_words": 36.7,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.67,
+      "has_memory": true
+    },
+    {
+      "session_idx": 29,
+      "label": "C04_sporadic_d31",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Rohan, I like photography too. You said 'click some picture' — we say 'take some pictures'. Good try! What team did y"
+        },
+        {
+          "turn": 3,
+          "snippet": "Hi Rohan, that sounds fun! You said 'photo' — we say 'photos' when talking about more than one. I enjoy watching footbal"
+        },
+        {
+          "turn": 4,
+          "snippet": "Hi Rohan, 'with lot of passion' — we say 'with a lot of passion'. Small fix! I follow the Indian Super League too. Do yo"
+        },
+        {
+          "turn": 5,
+          "snippet": "Hi Rohan, 'see a match' — we say 'watch a match'. Small tweak! I enjoy live matches too. Was it a good game?"
+        },
+        {
+          "turn": 6,
+          "snippet": "Hi Rohan, 'take lot of photo' — we say 'take a lot of photos'. You did great! I once watched a Mumbai City match live — "
+        },
+        {
+          "turn": 7,
+          "snippet": "Hi Rohan, 'It make me feel' — we say 'it makes me feel'. Small fix! I love that too — the energy is amazing. Do you sing"
+        },
+        {
+          "turn": 8,
+          "snippet": "Hi Rohan, 'I think I better go' — we say 'I think I’d better go'. Take care, and good luck with your revision! Talk soon"
+        }
+      ],
+      "multi_q": [],
+      "word_counts": [
+        27,
+        24,
+        28,
+        32,
+        23,
+        34,
+        31,
+        25
+      ],
+      "avg_words": 28.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.5,
+      "has_memory": true
+    },
+    {
+      "session_idx": 30,
+      "label": "C05_sporadic_d38",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Rohan, I love that you enjoy football! I follow the Indian Super League too. Did you watch any match this week?"
+        },
+        {
+          "turn": 3,
+          "snippet": "Hi Rohan, that sounds like a thrilling match! I like watching football with such excitement. You said \"very good match\" "
+        },
+        {
+          "turn": 4,
+          "snippet": "Hi Rohan, that sounds fun! Taking photos of movie stars must feel special. You said \"is called *dibeyo*\" — we say \"it is"
+        },
+        {
+          "turn": 5,
+          "snippet": "Hi Rohan, football photos sound amazing! You said \"are also good\" — small fix: \"they are also good.\" You're improving! I"
+        },
+        {
+          "turn": 6,
+          "snippet": "Hi Rohan, that sounds like a wonderful hobby! You said \"it gives good action\" — small fix: \"it gives great action.\" You'"
+        },
+        {
+          "turn": 7,
+          "snippet": "Hi Rohan, that sounds fun! You said \"it is hard, but I enjoy it\" — we say \"it is hard, but I enjoy it.\" You said it perf"
+        },
+        {
+          "turn": 8,
+          "snippet": "Hi Rohan, using a phone to learn is a great start! You said \"it is called *dika*\" — small fix: \"it is called a *DSLR*.\" "
+        },
+        {
+          "turn": 9,
+          "snippet": "Hi Rohan, learning about lighting and angles is very smart! You said \"how to use the phone camera settings better\" — per"
+        },
+        {
+          "turn": 10,
+          "snippet": "Hi Rohan, that’s a great tip — sunlight really makes a difference! You said \"it makes everything look better\" — perfect!"
+        },
+        {
+          "turn": 11,
+          "snippet": "Hi Rohan, the rule of thirds means you imagine your screen divided into nine parts with two lines horizontally and two v"
+        },
+        {
+          "turn": 12,
+          "snippet": "Hi Rohan, I’m so glad I could help! You said \"I think I should go now\" — small fix: \"I think it’s time to go.\" You’re im"
+        }
+      ],
+      "multi_q": [],
+      "word_counts": [
+        22,
+        22,
+        42,
+        43,
+        39,
+        42,
+        45,
+        45,
+        34,
+        40,
+        65,
+        41
+      ],
+      "avg_words": 40.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.42,
+      "has_memory": true
+    },
+    {
+      "session_idx": 31,
+      "label": "C06_sporadic_d46",
+      "stale_hits": [
+        {
+          "turn": 2,
+          "tag": "love_how_you_opener",
+          "snippet": "Hi Rohan, it's great to hear you tried the rule of thirds — very cool that you connected it to football and a movie poster! I love how you put \"good\" so clearly in your sentence. Speaking of movies, I"
+        },
+        {
+          "turn": 4,
+          "tag": "love_how_you_opener",
+          "snippet": "Hi Rohan, I love how you say Messi \"plays like magic\" — that feels so visual! Small fix: we say \"like watching Ronaldo\" instead of \"like watch Ronaldo\". You're doing great, just a tiny tweak. Speaking"
+        }
+      ],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Rohan, it's great to hear you tried the rule of thirds — very cool that you connected it to football and a movie post"
+        },
+        {
+          "turn": 3,
+          "snippet": "Hi Rohan, watching Bengali movies at home sounds perfect — just like the rule of thirds, I guess! For the Indian Footbal"
+        },
+        {
+          "turn": 4,
+          "snippet": "Hi Rohan, I love how you say Messi \"plays like magic\" — that feels so visual! Small fix: we say \"like watching Ronaldo\" "
+        },
+        {
+          "turn": 5,
+          "snippet": "Hi Rohan, 3 hours of sleep? That sounds rough — take it easy today! Prosenjit Chatterjee sounds like a real multi-talent"
+        },
+        {
+          "turn": 6,
+          "snippet": "Hi Rohan, football is your main sport — got it! I hear you about the buzzing head — take that nap, rest is important. I'"
+        }
+      ],
+      "multi_q": [
+        {
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "Hi Rohan, 3 hours of sleep? That sounds rough — take it easy today! Prosenjit Chatterjee sounds like a real multi-talented person. For sports, I enjoy watching tennis on TV sometimes. Do you follow te"
+        }
+      ],
+      "word_counts": [
+        28,
+        58,
+        44,
+        48,
+        37,
+        36
+      ],
+      "avg_words": 41.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.83,
+      "has_memory": true
+    },
+    {
+      "session_idx": 32,
+      "label": "C07_sporadic_d51",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 3,
+          "snippet": "Hi, nice to hear you watched the match carefully. I agree, passes were not good. I have not seen the new Shahrukh movie,"
+        }
+      ],
+      "multi_q": [
+        {
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "You said it perfectly that time! Good try, and yes, I watched that match. I agree — their defense looked weak. What did you think about their attack? Was it better?"
+        }
+      ],
+      "word_counts": [
+        27,
+        31,
+        34,
+        38,
+        40,
+        30
+      ],
+      "avg_words": 33.3,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.33,
+      "has_memory": true
+    },
+    {
+      "session_idx": 33,
+      "label": "C08_sporadic_d60",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "I watched *Neelakashane* — the acting was so exciting! I like how you said \"giving me some trouble.\" You're doing well. For reasoning puzzles, maybe try drawing them out? Does that work for you?"
+        }
+      ],
+      "word_counts": [
+        30,
+        35,
+        50,
+        34,
+        32,
+        47,
+        35
+      ],
+      "avg_words": 37.6,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.57,
+      "has_memory": true
+    },
+    {
+      "session_idx": 34,
+      "label": "C09_sporadic_d68",
+      "stale_hits": [
+        {
+          "turn": 4,
+          "tag": "love_how_you_opener",
+          "snippet": "I love how you use \"graceful\" — it’s a beautiful word! And \"resilient\" is a great one too. You're right, it means being strong after facing problems. You're learning so well! What movie did you hear i"
+        }
+      ],
+      "bad_greeting_t2": [
+        {
+          "turn": 5,
+          "snippet": "Hi Rohan, \"Bhonsle\" sounds interesting — I will look for it! I do watch football and my favorite player is Messi too. Hi"
+        }
+      ],
+      "multi_q": [],
+      "word_counts": [
+        27,
+        35,
+        43,
+        38,
+        35,
+        38,
+        40,
+        44,
+        35,
+        37,
+        39,
+        35
+      ],
+      "avg_words": 37.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.5,
+      "has_memory": true
+    },
+    {
+      "session_idx": 35,
+      "label": "C10_sporadic_d80",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 4,
+          "snippet": "Hi, I enjoy watching Indian football too — it's growing!  \nDo you have a favorite player from the Indian Super League?"
+        }
+      ],
+      "multi_q": [],
+      "word_counts": [
+        29,
+        23,
+        18,
+        21,
+        28,
+        29,
+        28,
+        23
+      ],
+      "avg_words": 24.9,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.62,
+      "has_memory": true
+    },
+    {
+      "session_idx": 36,
+      "label": "D01_coldstart_u01_pr",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 2,
+          "q_count": 3,
+          "snippet": "You watched a movie? Which one? I just had a quiet day, grading some students' work. My chai helped me stay focused. What Bollywood movie did you watch?"
+        },
+        {
+          "turn": 5,
+          "q_count": 3,
+          "snippet": "\"Zindagi Kaisi Yeh\" is a beautiful song. I agree, it fits the story well. Sad songs touch the heart. I enjoy them, yes. What makes a song sad for you? The lyrics? The music?"
+        }
+      ],
+      "word_counts": [
+        21,
+        28,
+        39,
+        35,
+        34,
+        30,
+        38,
+        32
+      ],
+      "avg_words": 32.1,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 37,
+      "label": "D02_coldstart_u02_aa",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Aarti, I understand that stress — exams are tough! Take a break, relax. Tell me, what subject are you revising most?"
+        },
+        {
+          "turn": 3,
+          "snippet": "Hi Aarti, tea and toast — sounds simple but comforting, like monsoon mornings! I cook when I need to relax too. What do "
+        },
+        {
+          "turn": 4,
+          "snippet": "Hi Aarti, your mom is right — even small breaks matter! Vada pav is a comfort food classic. What’s one recipe you wish t"
+        },
+        {
+          "turn": 5,
+          "snippet": "Hi Aarti, a full thali sounds wonderful — I can imagine the smells and flavors! What’s your favorite part of the thali?"
+        },
+        {
+          "turn": 6,
+          "snippet": "Hi Aarti, you’ve cooked a great conversation! Don’t forget to take small breaks even during exams. See you soon — all th"
+        }
+      ],
+      "multi_q": [],
+      "word_counts": [
+        26,
+        22,
+        26,
+        26,
+        22,
+        26
+      ],
+      "avg_words": 24.7,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 38,
+      "label": "D03_coldstart_u03_ro",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Rohan, you are doing great, just a tiny tweak. We say \"deposit money in the *bank*,\" not the market. No one gets it r"
+        },
+        {
+          "turn": 3,
+          "snippet": "Hi Rohan, that sounds really awkward. But you handled it well! How did you feel after fixing it?"
+        },
+        {
+          "turn": 4,
+          "snippet": "Hi Rohan, I get it completely—happens to everyone! You did great staying calm. Did you talk about it with anyone else la"
+        },
+        {
+          "turn": 5,
+          "snippet": "Hi Rohan, yes, I have! Once I called my boss *uncle* by mistake. Very embarrassing! How did you manage to focus after lu"
+        },
+        {
+          "turn": 6,
+          "snippet": "Hi Rohan, I understand completely—*khona* is such a strong word for that feeling. What made you want to forget it most? "
+        },
+        {
+          "turn": 7,
+          "snippet": "Hi Rohan, I’m glad you see the silver lining! When I feel embarrassed, I take a deep breath and remind myself it’s just "
+        },
+        {
+          "turn": 8,
+          "snippet": "Hi Rohan, breathing really helps—try it! What football team do you follow?"
+        },
+        {
+          "turn": 9,
+          "snippet": "Hi Rohan, I like watching football too! Who is your favorite player in Manchester United?"
+        },
+        {
+          "turn": 10,
+          "snippet": "Hi Rohan, you’re very welcome! Talking about football is fine—we’re learning, after all! Tell me, what part of English w"
+        }
+      ],
+      "multi_q": [
+        {
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "Hi Rohan, I understand completely—*khona* is such a strong word for that feeling. What made you want to forget it most? The jokes, the staring, or the word mix-up?"
+        }
+      ],
+      "word_counts": [
+        18,
+        34,
+        18,
+        22,
+        23,
+        29,
+        35,
+        12,
+        15,
+        26
+      ],
+      "avg_words": 23.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 39,
+      "label": "D04_coldstart_u04_ne",
+      "stale_hits": [
+        {
+          "turn": 8,
+          "tag": "hindi_songs_persona_cycle",
+          "snippet": "Hi Neha, I love that — music makes everything better. My go-to is old Hindi film songs, but I also enjoy indie music.  \n\nDo you have a favorite singer or band?"
+        }
+      ],
+      "bad_greeting_t2": [
+        {
+          "turn": 4,
+          "snippet": "Hi Neha, I get it — we all want to connect sometimes, but it can lead to funny moments. You’re learning and growing!  \n\n"
+        },
+        {
+          "turn": 8,
+          "snippet": "Hi Neha, I love that — music makes everything better. My go-to is old Hindi film songs, but I also enjoy indie music.  \n"
+        }
+      ],
+      "multi_q": [],
+      "word_counts": [
+        17,
+        45,
+        37,
+        33,
+        20,
+        36,
+        24,
+        31,
+        27,
+        29
+      ],
+      "avg_words": 29.9,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 40,
+      "label": "D05_coldstart_u05_vi",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        15,
+        19,
+        16,
+        18,
+        25,
+        21
+      ],
+      "avg_words": 19.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 41,
+      "label": "D06_coldstart_u06_an",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Anu, I understand exams can be stressful. What subject is it? Take your time—no rush at all."
+        },
+        {
+          "turn": 9,
+          "snippet": "Hi Anu, I understand exams can be stressful. What subject is it? Take your time—no rush at all."
+        }
+      ],
+      "multi_q": [
+        {
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "Compound interest can be confusing, but you’ll get better with practice. Small fix: we say 'why can’t it be as simple as Telugu math?' What helps you remember formulas best?"
+        },
+        {
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "It’s true—self-discipline is hard! Small fix: we say “Why is self-discipline so hard?” How do you plan to stay focused tomorrow?"
+        }
+      ],
+      "word_counts": [
+        16,
+        18,
+        34,
+        28,
+        29,
+        30,
+        23,
+        21,
+        18,
+        27
+      ],
+      "avg_words": 24.4,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 42,
+      "label": "D07_coldstart_u07_am",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hey Aman, I get it — exams are tough. Did you play fooseball today to take your mind off it?"
+        }
+      ],
+      "multi_q": [
+        {
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "You said \"abhi toh kuch nahi aayega\" — very smooth mix of Hindi! I get it — maths can be tough. But small steps help. What if you study for 20 minutes and then play fooseball? Would that work?"
+        }
+      ],
+      "word_counts": [
+        19,
+        20,
+        26,
+        30,
+        39
+      ],
+      "avg_words": 26.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 43,
+      "label": "D08_coldstart_u08_di",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Diya, that's great to hear! I'm really glad you completed your task. I had a calm day too, just reading an interestin"
+        },
+        {
+          "turn": 3,
+          "snippet": "Hi Diya, I love that book! Choices are an interesting topic. I read sometimes, mostly stories about strong women. What k"
+        },
+        {
+          "turn": 4,
+          "snippet": "Hi Diya, that sounds lovely! I love stories that take me to new places in my mind. I enjoy books about Indian history an"
+        },
+        {
+          "turn": 5,
+          "snippet": "Hi Diya, that’s a wonderful book! I’ve read it too—it’s amazing how it retells an old story with fresh eyes. Do you pref"
+        },
+        {
+          "turn": 6,
+          "snippet": "Hi Diya, those are great choices! I love historical fiction too—it brings the past to life. For mysteries, I really like"
+        },
+        {
+          "turn": 7,
+          "snippet": "Hi Diya, I mix it up! Classics have such deep wisdom, but newer stories keep things exciting. Right now, I’m reading a m"
+        },
+        {
+          "turn": 8,
+          "snippet": "Hi Diya, I love that you read *Mumbai, Fictions*! It’s always special when a book feels so real. I’ll tell you about the"
+        },
+        {
+          "turn": 9,
+          "snippet": "Hi Diya, it’s called *The Rain Will Come*. It’s about a journalist solving a mystery in the city during the monsoon seas"
+        },
+        {
+          "turn": 10,
+          "snippet": "Hi Diya, thank you for chatting with me—I always enjoy our conversations. I’ll tell you more about *The Rain Will Come* "
+        }
+      ],
+      "multi_q": [],
+      "word_counts": [
+        20,
+        30,
+        26,
+        37,
+        34,
+        41,
+        33,
+        33,
+        44,
+        31
+      ],
+      "avg_words": 32.9,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 44,
+      "label": "D09_coldstart_u09_ka",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        23,
+        21,
+        19,
+        21,
+        19,
+        17
+      ],
+      "avg_words": 20.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 45,
+      "label": "D10_coldstart_u10_sh",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Shreya, case studies can be tough! Did yours go well? And F1 qualifying is so exciting — which race are you watching?"
+        },
+        {
+          "turn": 3,
+          "snippet": "Hi Shreya, Singapore GP at night sounds amazing! The lights must make it magical. For your question — in Hindi, we say \""
+        },
+        {
+          "turn": 4,
+          "snippet": "Hi Shreya, the pit lane energy sounds incredible — I can imagine the noise and excitement! I haven’t been to a live race"
+        },
+        {
+          "turn": 5,
+          "snippet": "Hi Shreya, got it — go finish that report! I hope you get some good ideas. Talk soon, and don’t forget to film those hig"
+        }
+      ],
+      "multi_q": [
+        {
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "Hi Shreya, case studies can be tough! Did yours go well? And F1 qualifying is so exciting — which race are you watching?"
+        }
+      ],
+      "word_counts": [
+        22,
+        23,
+        45,
+        37,
+        28
+      ],
+      "avg_words": 31.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "stale_hits": [
+        {
+          "turn": 2,
+          "tag": "self_intro_in_reply",
+          "snippet": "Hi Neha, I'm Miss Maya. So glad you're here to practice English! How was your day today?"
+        },
+        {
+          "turn": 5,
+          "tag": "hindi_songs_persona_cycle",
+          "snippet": "I love that! Music helps me too. I work best with soft background music. Sometimes, I listen to old Hindi songs. They make me feel calm. Did you try working without music today?"
+        },
+        {
+          "turn": 7,
+          "tag": "love_how_you_opener",
+          "snippet": "I use Spotify too! It has so many great playlists. I love how you can create your own vibe. I still have a few old CDs from college—very nostalgic! Did you make your own playlist?"
+        },
+        {
+          "turn": 8,
+          "tag": "hindi_songs_persona_cycle",
+          "snippet": "I love that you made your own—very thoughtful! Mine is a mix of old Hindi film songs and soft piano. They help me feel calm. Maybe today you just needed a break! Did you get some rest later?"
+        }
+      ],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Neha, I'm Miss Maya. So glad you're here to practice English! How was your day today?"
+        }
+      ],
+      "multi_q": [],
+      "word_counts": [
+        17,
+        17,
+        35,
+        35,
+        33,
+        33,
+        35,
+        38,
+        38,
+        30
+      ],
+      "avg_words": 31.1,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "stale_hits": [],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Neha, I hope your coffee is better today. I love your Fixer-Upper playlist—what song are you listening to right now?"
+        },
+        {
+          "turn": 3,
+          "snippet": "Hi Neha, I know that feeling well. Maybe we both need a rainy day soon! My days are usually busy with teaching, but I lo"
+        },
+        {
+          "turn": 4,
+          "snippet": "Hi Neha, a road trip to Kerala sounds amazing! I’ve traveled alone a bit—just short trips, but it’s so freeing. What par"
+        },
+        {
+          "turn": 5,
+          "snippet": "Hi Neha, that sounds absolutely peaceful! I pack light, share my plan with family, and rely on my playlist to keep me co"
+        },
+        {
+          "turn": 6,
+          "snippet": "Hi Neha, \"Ghost\" is a perfect choice—so fitting for a soulful trip. My weirdest English study spot? A crowded chai stall"
+        },
+        {
+          "turn": 7,
+          "snippet": "Hi Neha, I’m glad you like the idea—chai stalls are full of stories and laughs! Learning by singing is brilliant, by the"
+        },
+        {
+          "turn": 8,
+          "snippet": "Hi Neha, \"Ho Hey\" is such a great pick! I love how simple songs like that make learning feel like a game. Try \"The A Tea"
+        },
+        {
+          "turn": 9,
+          "snippet": "Hi Neha, I’m so happy to hear that! A playlist as a tutor sounds perfect for your trip. What’s the first song you’ll add"
+        },
+        {
+          "turn": 10,
+          "snippet": "Hi Neha, \"Weightless\" is an excellent choice—very calming for long drives. I get stuck on songs all the time, especially"
+        }
+      ],
+      "multi_q": [
+        {
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "Hi Neha, \"Ghost\" is a perfect choice—so fitting for a soulful trip. My weirdest English study spot? A crowded chai stall! I practiced with the vendor’s Hindi-English mix. It helped a lot. Do you learn"
+        }
+      ],
+      "word_counts": [
+        21,
+        21,
+        35,
+        27,
+        28,
+        39,
+        42,
+        42,
+        27,
+        32
+      ],
+      "avg_words": 31.4,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "stale_hits": [
+        {
+          "turn": 10,
+          "tag": "love_how_you_opener",
+          "snippet": "Hi Neha, that’s hilarious and brilliant! A cat barista? Genius. I love how you bring ideas to life. Do you ever think of turning your drawings into something people can buy, like prints or stickers?"
+        }
+      ],
+      "bad_greeting_t2": [
+        {
+          "turn": 2,
+          "snippet": "Hi Neha, I'm glad to hear about the café! I enjoy listening to calm music too. My favorite is soft Tamil songs. They hel"
+        },
+        {
+          "turn": 3,
+          "snippet": "Hi Neha, \"Nenjam Marappathu\" is a classic—so beautiful! I agree, old melodies have a way of staying with us. I often lis"
+        },
+        {
+          "turn": 4,
+          "snippet": "Hi Neha, that sounds peaceful! I get that feeling too—like time stops when the music flows. I often sketch while listeni"
+        },
+        {
+          "turn": 5,
+          "snippet": "Hi Neha, that’s a lovely way to escape! I don’t sketch much, but I love how music helps me feel creative. Your café draw"
+        },
+        {
+          "turn": 6,
+          "snippet": "Hi Neha, that sounds fun and creative! I wish I could mix my passions like that. Do you think you might try bringing tha"
+        },
+        {
+          "turn": 7,
+          "snippet": "Hi Neha, that sounds like a dream café! I unwind by sipping warm tea and watching the rain—simple things. Do you like ra"
+        },
+        {
+          "turn": 8,
+          "snippet": "Hi Neha, I completely get that! Rain feels like a natural calm song. I sometimes write while it rains—it helps my though"
+        },
+        {
+          "turn": 9,
+          "snippet": "Hi Neha, that sounds so creative and fun! I write small stories when it rains—like little moments from daily life. What’"
+        },
+        {
+          "turn": 10,
+          "snippet": "Hi Neha, that’s hilarious and brilliant! A cat barista? Genius. I love how you bring ideas to life. Do you ever think of"
+        },
+        {
+          "turn": 11,
+          "snippet": "Hi Neha, I love your cat-barista idea! It sounds like it could be a hit. I’ve thought about a blog too, but I’m not grea"
+        },
+        {
+          "turn": 12,
+          "snippet": "Hi Neha, I’m smiling at your “Doodle Bean” vision—it’s so creative! Let me know if you ever build it, I’ll be your first"
+        }
+      ],
+      "multi_q": [
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "Hi Neha, that sounds peaceful! I get that feeling too—like time stops when the music flows. I often sketch while listening to soft songs, just like you. Do you sketch a lot? What do you usually draw?"
+        },
+        {
+          "turn": 10,
+          "q_count": 2,
+          "snippet": "Hi Neha, that’s hilarious and brilliant! A cat barista? Genius. I love how you bring ideas to life. Do you ever think of turning your drawings into something people can buy, like prints or stickers?"
+        }
+      ],
+      "word_counts": [
+        28,
+        34,
+        46,
+        37,
+        33,
+        29,
+        24,
+        32,
+        29,
+        35,
+        43,
+        35
+      ],
+      "avg_words": 33.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 4,
+          "q_count": 3,
+          "snippet": "Chugging tea while your mind races — I get that. \"What if I fail?\" is such a common worry. Small fix: try \"What *if* I pass?\" even just for fun. Lightens the mood a bit. Do you sketch when you feel st"
+        },
+        {
+          "turn": 5,
+          "q_count": 3,
+          "snippet": "You sketch little stuff in margins — that’s smart! A mini escape right in the notes. I once doodled a tiny café with a cat barista in my notebook… but I digress. What kind of tiny sketches do you like"
+        },
+        {
+          "turn": 6,
+          "q_count": 2,
+          "snippet": "Sunflowers and Kerala scenes — what a lovely mix of hope and daydream! It’s okay to feel scattered; even I get like that during busy days. Maybe try sketching while listening to a soft Tamil song? Wou"
+        },
+        {
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "I love that combo — \"Mallika Mallika\" is a perfect calm. I’ll gladly take a \"Neha mode\" playlist! What’s one song you’d want in *my* version of it? Something that makes your brain pause?"
+        },
+        {
+          "turn": 12,
+          "q_count": 2,
+          "snippet": "I get that — it's hard when exams don't let you shine your way. But confidence in sketching? That’s a real strength. Maybe you can bring that calm with you. What’s one thing you’ll take with you to th"
+        }
+      ],
+      "word_counts": [
+        22,
+        42,
+        48,
+        45,
+        43,
+        39,
+        37,
+        34,
+        50,
+        33,
+        34,
+        43,
+        31
+      ],
+      "avg_words": 38.5,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "Old Silambarasan songs are a good choice—they have a calm vibe. I like “Chennai Express” for road trips. What about you? Any one song that makes you feel relaxed?"
+        }
+      ],
+      "word_counts": [
+        29,
+        25,
+        33,
+        29,
+        28,
+        31,
+        22,
+        28,
+        27,
+        30,
+        22,
+        23,
+        18,
+        30
+      ],
+      "avg_words": 26.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    }
+  ]
+}

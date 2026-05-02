@@ -1,0 +1,238 @@
+{
+  "facts": {
+    "nickname": "Rohan",
+    "sports": [
+      "football (sport)"
+    ],
+    "exams": [
+      "Bank PO (exam)"
+    ],
+    "interests": [
+      "photography"
+    ],
+    "favorite_films": [
+      "Kohinoor (movie)",
+      "Chokher Bali (movie)"
+    ],
+    "favorite_songs": [
+      "Jhankar Mahadev by Udit Narayan (song)",
+      "Amar Bole Maa Bolbe (song)"
+    ],
+    "comfort_foods": [
+      "momo (dish)"
+    ],
+    "comfort_activities": [
+      "listening to music",
+      "watching Bengali films",
+      "taking sunset photographs"
+    ]
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "had a football (sport) match in the morning - made a mistake that embarrassed him, but teammates were supportive",
+      "date": "2026-05-08",
+      "added": "2026-05-08",
+      "followed_up": false
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Teammates said 'Hoyeche, hoyeche' (no big deal) when he made a mistake in the football (sport) match; it helped him feel better",
+      "tone": "grateful",
+      "sensitive": false,
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "Told himself 'it's all for my goals' to push through tiredness while balancing football (sport), photography, and Bank PO (exam) prep",
+      "tone": "proud",
+      "sensitive": false,
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mentions": 1
+    },
+    {
+      "id": "mo_003",
+      "text": "Taking photos of the sunset after his football (sport) match helped him relax and recover from the embarrassment",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mentions": 1
+    },
+    {
+      "id": "mo_004",
+      "text": "Uses Kohinoor (movie) as a mini escape when getting stressed about exams",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_38_D03_coldstart_u03_ro",
+      "date": "2026-05-08",
+      "label": "content",
+      "energy": 6,
+      "confidence": 0.7,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "handling setbacks in sports",
+        "last_session": "eval_38_D03_coldstart_u03_ro",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "photography composition and style",
+        "last_session": "eval_38_D03_coldstart_u03_ro",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "balancing multiple commitments",
+        "last_session": "eval_38_D03_coldstart_u03_ro",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "comfort and unwinding strategies",
+        "last_session": "eval_38_D03_coldstart_u03_ro",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "Bengali cinema preferences",
+        "last_session": "eval_38_D03_coldstart_u03_ro",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "emotional connection to music",
+        "last_session": "eval_38_D03_coldstart_u03_ro",
+        "last_date": "2026-05-08",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_38_D03_coldstart_u03_ro",
+        "last_date": "2026-05-08"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "event_upcoming",
+      "content": "Ask about \"had a football (sport) match in the morning - made a mistake that embarrassed him, but teammates were supportive\" — today",
+      "source_id": "ev_001",
+      "priority": 10,
+      "computed_at": "2026-05-08",
+      "expires_at": "2026-05-22",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Uses Kohinoor (movie) as a mini escape when getting stressed about exams\" (tone: anxious)",
+      "source_id": "mo_004",
+      "priority": 7,
+      "computed_at": "2026-05-08",
+      "expires_at": "2026-05-22",
+      "used": false
+    },
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: natural use of complex conditional structures with emotion and specificity (e.g. \"When I'm feeling down, I love listening to Jhankar Mahadev (song)\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-05-08",
+      "expires_at": "2026-05-22",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Teammates said 'Hoyeche, hoyeche' (no big deal) when he made a mistake in the football (sp\" (tone: grateful)",
+      "source_id": "mo_001",
+      "priority": 4,
+      "computed_at": "2026-05-08",
+      "expires_at": "2026-05-22",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Told himself 'it's all for my goals' to push through tiredness while balancing football (s\" (tone: proud)",
+      "source_id": "mo_002",
+      "priority": 4,
+      "computed_at": "2026-05-08",
+      "expires_at": "2026-05-22",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [
+      {
+        "what": "natural use of complex conditional structures with emotion and specificity",
+        "examples": [
+          "When I'm feeling down, I love listening to Jhankar Mahadev (song)"
+        ],
+        "count": 1,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08"
+      }
+    ],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

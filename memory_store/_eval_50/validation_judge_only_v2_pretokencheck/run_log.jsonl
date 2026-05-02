@@ -1,0 +1,945 @@
+{"ts": "2026-05-02T16:51:59.631501", "msg": "=== eval_50: starting 50 sessions ==="}
+{"ts": "2026-05-02T16:51:59.631512", "msg": "Output: /Users/priyansh/Downloads/peerup-prototype/memory_store/_eval_50"}
+{"ts": "2026-05-02T16:51:59.631518", "msg": "Memory dir: /Users/priyansh/Downloads/peerup-prototype/memory_store/_eval_50/validation_judge_only/memory"}
+{"ts": "2026-05-02T16:51:59.631526", "msg": "Prompts: /Users/priyansh/Downloads/peerup-prototype/memory_store/_playground/_prompts_overrides.json  (playground overrides \u2014 currently QWEN-tuned)\n"}
+{"ts": "2026-05-02T16:51:59.631547", "msg": "[01/50] A01_same_day                    Priyansh    today=2026-05-01  turns=6  mood=hopeful, made some progress on a goal"}
+{"ts": "2026-05-02T16:52:05.373981", "msg": "    T1 maya: Hi Priyansh. It's lovely to meet you, I'm excited to chat and help you practice \u2026"}
+{"ts": "2026-05-02T16:52:06.014558", "msg": "    T2 user: Hi Maya, thank you. Today I watched a Bollywood movie, \"Pathaan\". It was very ac\u2026"}
+{"ts": "2026-05-02T16:52:07.447017", "msg": "    T2 maya: Pathaan was a fun watch,  what stood out for you most in the movie?"}
+{"ts": "2026-05-02T16:52:08.019629", "msg": "    T3 user: The action scenes were very thrilling, like when the main character fights with \u2026"}
+{"ts": "2026-05-02T16:52:09.801460", "msg": "    T3 maya: The action scenes in Pathaan are indeed thrilling, those fight sequences are so \u2026"}
+{"ts": "2026-05-02T16:52:10.351595", "msg": "    T4 user: The song \"Besharam Rang\" stood out for me. It was colorful and had a good mix of\u2026"}
+{"ts": "2026-05-02T16:52:11.646715", "msg": "    T4 maya: Besharam Rang is a great choice ,  it really fits the mood. I think Galliyan fro\u2026"}
+{"ts": "2026-05-02T16:52:12.303417", "msg": "    T5 user: Yes, I like songs that match the mood of a scene. It makes the story more immers\u2026"}
+{"ts": "2026-05-02T16:52:13.490389", "msg": "    T5 maya: I get that \u2014 in English we often say \"the song sets the tone\" or \"the music comp\u2026"}
+{"ts": "2026-05-02T16:52:14.001890", "msg": "    T6 user: Yes, maybe we can talk about another movie. But I think I should head off soon. \u2026"}
+{"ts": "2026-05-02T16:52:15.022886", "msg": "    T6 maya: Take your time, tell me how the work meeting went when you're ready. Have a grea\u2026"}
+{"ts": "2026-05-02T16:52:15.022941", "msg": "    \u2192 wrap-up detected at turn 6"}
+{"ts": "2026-05-02T16:52:16.209142", "msg": "    saved \u2192 01_A01_same_day.json  (16.6s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:52:16.209359", "msg": "[02/50] A02_same_day                    Priyansh    today=2026-05-01  turns=8  mood=hopeful, made some progress on a goal"}
+{"ts": "2026-05-02T16:52:17.517657", "msg": "    T1 maya: Priyansh, I'm a huge fan of old Hindi film songs \u2014 they make me nostalgic. How w\u2026"}
+{"ts": "2026-05-02T16:52:17.994402", "msg": "    T2 user: The meeting was okay, some new features discussed. I like old Hindi songs too \u2014 \u2026"}
+{"ts": "2026-05-02T16:52:19.733588", "msg": "    T2 maya: Ye Dil Maange More is such a classic! I get that \u2014 old songs have a special char\u2026"}
+{"ts": "2026-05-02T16:52:20.247388", "msg": "    T3 user: We are adding better security for user payments. It\u2019s tricky but important. Have\u2026"}
+{"ts": "2026-05-02T16:52:21.575230", "msg": "    T3 maya: Security for payments is a big deal, good to hear you\u2019re working on it! I get th\u2026"}
+{"ts": "2026-05-02T16:52:22.215894", "msg": "    T4 user: Rabba\" is catchy and has a nice old-school vibe. I like how they mix new and old\u2026"}
+{"ts": "2026-05-02T16:52:23.515303", "msg": "    T4 maya: Rabba mixing old and new is a smart move, songs like that really stand out. Bala\u2026"}
+{"ts": "2026-05-02T16:52:24.219180", "msg": "    T5 user: Not much new on the entertainment front for me \u2014 I watched a startup docu-series\u2026"}
+{"ts": "2026-05-02T16:52:27.445003", "msg": "    T5 maya: Startup series can be fascinating \u2014 good choice. Old Hindi songs while working s\u2026"}
+{"ts": "2026-05-02T16:52:30.078647", "msg": "    T6 user: I usually take a walk or watch a quick cricket match. It helps me clear my head.\u2026"}
+{"ts": "2026-05-02T16:52:31.148563", "msg": "    T6 maya: Chai and DDLJ reruns \u2014 what a perfect combo for classic vibes! Take your time, a\u2026"}
+{"ts": "2026-05-02T16:52:31.846182", "msg": "    T7 user: Walking in the evening helps me a lot, especially when it\u2019s busy at work. Someti\u2026"}
+{"ts": "2026-05-02T16:52:32.950910", "msg": "    T7 maya: Evening walks and cricket strategies \u2014 both great ways to reset. Take care of th\u2026"}
+{"ts": "2026-05-02T16:52:32.951013", "msg": "    \u2192 wrap-up detected at turn 7"}
+{"ts": "2026-05-02T16:52:34.328145", "msg": "    saved \u2192 02_A02_same_day.json  (18.1s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:52:34.328350", "msg": "[03/50] A03_same_day                    Priyansh    today=2026-05-01  turns=10  mood=tired, slept badly"}
+{"ts": "2026-05-02T16:52:35.604688", "msg": "    T1 maya: Hi Priyansh, What new movie caught your eye this week?"}
+{"ts": "2026-05-02T16:52:36.116343", "msg": "    T2 user: Not much, I was too tired this week. Was up late working on a project. But heard\u2026"}
+{"ts": "2026-05-02T16:52:37.274098", "msg": "    T2 maya: Got it, work late is tough. Dunki, right? Action, comedy, or both?"}
+{"ts": "2026-05-02T16:52:37.856702", "msg": "    T3 user: Both, I think. Shah Rukh Khan and Akshay Kumar are in it. So it's probably a mix\u2026"}
+{"ts": "2026-05-02T16:52:39.196001", "msg": "    T3 maya: \"Shah Rukh and Akshay in the same film \u2014 that\u2019s a combo. Bhai, they\u2019re legends. \u2026"}
+{"ts": "2026-05-02T16:52:39.788967", "msg": "    T4 user: Shah Rukh is my all-time fav. Still. But lately, I\u2019ve been watching more short w\u2026"}
+{"ts": "2026-05-02T16:52:40.940598", "msg": "    T4 maya: Shah Rukh stays Shah Rukh. Web series over full movies \u2014 busy life, but at least\u2026"}
+{"ts": "2026-05-02T16:52:41.507020", "msg": "    T5 user: India vs Pakistan on Sunday. Always a big one. But honestly, I\u2019m too exhausted. \u2026"}
+{"ts": "2026-05-02T16:52:42.879000", "msg": "    T5 maya: India vs Pakistan is always a big one ,  even the highlights are worth it. Exhau\u2026"}
+{"ts": "2026-05-02T16:52:43.598553", "msg": "    T6 user: Heavy workload, tight deadlines. Not the worst, but not fun. Miss sleeping in on\u2026"}
+{"ts": "2026-05-02T16:52:44.595776", "msg": "    T6 maya: India vs Pakistan is always a big one, even the highlights are worth it. Exhaust\u2026"}
+{"ts": "2026-05-02T16:52:45.010480", "msg": "    T7 user: Heavy workload, tight deadlines. Not the worst, but not fun. Miss sleeping in on\u2026"}
+{"ts": "2026-05-02T16:52:46.098199", "msg": "    T7 maya: \"Work eating into weekends is rough. That \u2018kya hua\u2019 feeling \u2014 are you catching u\u2026"}
+{"ts": "2026-05-02T16:52:46.769723", "msg": "    T8 user: Trying to catch up, but it\u2019s tough. Sleep is like... broken every night. Even sm\u2026"}
+{"ts": "2026-05-02T16:52:48.000593", "msg": "    T8 maya: \"Broken sleep is the worst. That nap might be the only win today \u2014 even a short \u2026"}
+{"ts": "2026-05-02T16:52:48.614437", "msg": "    T9 user: Work, obviously. But even the thought of the movie feels like a escape. Maybe bo\u2026"}
+{"ts": "2026-05-02T16:52:49.777962", "msg": "    T9 maya: \"Escape is still escape, even if it\u2019s just a few hours. \u2018Khalaas\u2019 mode \u2014 when do\u2026"}
+{"ts": "2026-05-02T16:52:50.458606", "msg": "    T10 user: Maybe when the project deadline is over. Or maybe never. *laughs* Who knows? For\u2026"}
+{"ts": "2026-05-02T16:52:55.530989", "msg": "    T10 maya: Surviving the week \u2014 take it one hour at a time. Rest well, and catch up on movi\u2026"}
+{"ts": "2026-05-02T16:52:55.531073", "msg": "    \u2192 wrap-up detected at turn 10"}
+{"ts": "2026-05-02T16:52:57.770483", "msg": "    saved \u2192 03_A03_same_day.json  (23.4s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:52:57.770689", "msg": "[04/50] A04_same_day                    Priyansh    today=2026-05-01  turns=12  mood=content, decent day at work"}
+{"ts": "2026-05-02T16:52:58.952883", "msg": "    T1 maya: Hi Priyansh, how was your work meeting on Monday?"}
+{"ts": "2026-05-02T16:52:59.465229", "msg": "    T2 user: It was good, thanks. We discussed some new features for our app. Nothing too str\u2026"}
+{"ts": "2026-05-02T16:53:00.607601", "msg": "    T2 maya: \"Good to hear the meeting went smoothly. New features always bring fresh energy.\u2026"}
+{"ts": "2026-05-02T16:53:01.063595", "msg": "    T3 user: We are adding a new payment gateway for international transactions. It\u2019s going t\u2026"}
+{"ts": "2026-05-02T16:53:02.436859", "msg": "    T3 maya: Adding a payment gateway for international use sounds smart, it makes the app mo\u2026"}
+{"ts": "2026-05-02T16:53:03.077648", "msg": "    T4 user: We mostly use our own app for transferring money between users, but I also use s\u2026"}
+{"ts": "2026-05-02T16:53:04.790992", "msg": "    T4 maya: You said \"convenient\" \u2014 perfect word! Our app sounds well-focused for its users.\u2026"}
+{"ts": "2026-05-02T16:53:05.319096", "msg": "    T5 user: Honestly, I use both, but Paytm more for big things like shopping or travel book\u2026"}
+{"ts": "2026-05-02T16:53:06.531839", "msg": "    T5 maya: Yes, UPI is very popular here too, quick and easy for small payments. Shopping o\u2026"}
+{"ts": "2026-05-02T16:53:07.148402", "msg": "    T6 user: The part where users can link multiple bank accounts and currencies is the most \u2026"}
+{"ts": "2026-05-02T16:53:08.452902", "msg": "    T6 maya: That\u2019s a smart feature, linking multiple accounts makes it easier for users to m\u2026"}
+{"ts": "2026-05-02T16:53:09.093862", "msg": "    T7 user: Honestly, I saw a lot of users struggling with managing different currencies and\u2026"}
+{"ts": "2026-05-02T16:53:10.254866", "msg": "    T7 maya: You're solving a real pain point \u2014 I get that. One-stop solutions are a big win.\u2026"}
+{"ts": "2026-05-02T16:53:10.955928", "msg": "    T8 user: It can get tricky with all the currency conversions and transfer fees. Sometimes\u2026"}
+{"ts": "2026-05-02T16:53:11.996069", "msg": "    T8 maya: You said it perfectly \u2014 time and money are big factors. Work talk can get heavy.\u2026"}
+{"ts": "2026-05-02T16:53:12.637558", "msg": "    T9 user: I usually watch a Bollywood movie or two. They\u2019re light and fun, even if the plo\u2026"}
+{"ts": "2026-05-02T16:53:13.880868", "msg": "    T9 maya: Got it, Bollywood is a perfect unwind. Music and emotions are always the stars. \u2026"}
+{"ts": "2026-05-02T16:53:14.604471", "msg": "    T10 user: I usually go for old classics like Dilwale Dulhania Le Jayenge or Kabhi Khushi K\u2026"}
+{"ts": "2026-05-02T16:53:15.762573", "msg": "    T10 maya: Right, old Bollywood hits are a safe and happy choice. Cricket movies mix action\u2026"}
+{"ts": "2026-05-02T16:53:16.650713", "msg": "    T11 user: M.S. Dhoni: The Untold Story is my favorite cricket movie. It\u2019s based on real li\u2026"}
+{"ts": "2026-05-02T16:53:22.099261", "msg": "    T11 maya: MS Dhoni\u2019s journey is inspiring, real life can be the best story. The final matc\u2026"}
+{"ts": "2026-05-02T16:53:22.099425", "msg": "    \u2192 wrap-up detected at turn 11"}
+{"ts": "2026-05-02T16:53:23.651426", "msg": "    saved \u2192 04_A04_same_day.json  (25.9s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:53:23.651607", "msg": "[05/50] A05_same_day                    Priyansh    today=2026-05-01  turns=12  mood=neutral, ordinary day"}
+{"ts": "2026-05-02T16:53:24.962684", "msg": "    T1 maya: Hi Priyansh, I'm a morning person and love the calm before the city wakes up. Ho\u2026"}
+{"ts": "2026-05-02T16:53:25.576279", "msg": "    T2 user: It was nice, I walked for about 30 mins. The weather is good this time of year. \u2026"}
+{"ts": "2026-05-02T16:53:26.823881", "msg": "    T2 maya: \"Nice, 30 minutes is just right for winding down. Cricket podcasts are a smart c\u2026"}
+{"ts": "2026-05-02T16:53:27.419547", "msg": "    T3 user: Virat Kohli comes to mind. His journey from Delhi to being a global cricket icon\u2026"}
+{"ts": "2026-05-02T16:53:28.650768", "msg": "    T3 maya: True \u2014 both have different styles, but both lead well. Leadership is about stayi\u2026"}
+{"ts": "2026-05-02T16:53:29.291311", "msg": "    T4 user: I think someone like Steve Jobs inspires me a bit. His vision and how he pushed \u2026"}
+{"ts": "2026-05-02T16:53:30.507533", "msg": "    T4 maya: Right, Steve Jobs had that \"think different\" energy, tough to ignore. Dhoni\u2019s ca\u2026"}
+{"ts": "2026-05-02T16:53:31.109768", "msg": "    T5 user: Handling a big project deadline at work while staying focused and calm. Sometime\u2026"}
+{"ts": "2026-05-02T16:53:32.235994", "msg": "    T5 maya: Exactly \u2014 steady steps count in pressure moments. How did your last big deadline\u2026"}
+{"ts": "2026-05-02T16:53:32.874207", "msg": "    T6 user: It went okay, but I could\u2019ve managed better. I got a bit stressed and stayed up \u2026"}
+{"ts": "2026-05-02T16:53:34.003876", "msg": "    T6 maya: Got it \u2014 breaking tasks early helps avoid last-minute rush. Does your chai-and-c\u2026"}
+{"ts": "2026-05-02T16:53:34.711892", "msg": "    T7 user: My favourite spot is a small caf\u00e9 near my office. It\u2019s quiet, has good Wi-Fi, an\u2026"}
+{"ts": "2026-05-02T16:53:35.809110", "msg": "    T7 maya: I get that \u2014 a good spot makes all the difference. I prefer a calm space with a \u2026"}
+{"ts": "2026-05-02T16:53:36.473659", "msg": "    T8 user: I\u2019d say set clear daily goals and avoid multitasking. Like in cricket, focusing \u2026"}
+{"ts": "2026-05-02T16:53:37.661951", "msg": "    T8 maya: Right \u2014 one ball at a time, one task at a time. Chai is a solid move. Do you sip\u2026"}
+{"ts": "2026-05-02T16:53:38.381903", "msg": "    T9 user: I usually sip it while working \u2014 the warmth helps me stay calm. Though I do take\u2026"}
+{"ts": "2026-05-02T16:53:39.710940", "msg": "    T9 maya: Take your time, coding needs that calm focus. Talk soon, and keep that chai clos\u2026"}
+{"ts": "2026-05-02T16:53:39.711053", "msg": "    \u2192 wrap-up detected at turn 9"}
+{"ts": "2026-05-02T16:53:41.608773", "msg": "    saved \u2192 05_A05_same_day.json  (18.0s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:53:41.608962", "msg": "[06/50] A06_same_day                    Priyansh    today=2026-05-01  turns=6  mood=neutral, ordinary day"}
+{"ts": "2026-05-02T16:53:46.879929", "msg": "    T1 maya: Hi Priyansh, the 'I had finished by 5' sentence was a smooth win, past perfect t\u2026"}
+{"ts": "2026-05-02T16:53:47.393176", "msg": "    T2 user: The deadline was tight, but I managed to finish just in time. My manager was hap\u2026"}
+{"ts": "2026-05-02T16:53:48.577478", "msg": "    T2 maya: Good to hear the deadline went well, tight ones are always a relief. The latest \u2026"}
+{"ts": "2026-05-02T16:53:49.131934", "msg": "    T3 user: It was more fun, with some good comedy and songs. The story was simple, but I en\u2026"}
+{"ts": "2026-05-02T16:53:50.359607", "msg": "    T3 maya: That sounds like,  simple stories are great when you just want to relax. Was it \u2026"}
+{"ts": "2026-05-02T16:53:50.902747", "msg": "    T4 user: It was more like a general comedy with some cricket scenes. Not a full cricket m\u2026"}
+{"ts": "2026-05-02T16:53:52.006126", "msg": "    T4 maya: I get that \u2014 catchy songs make a big difference. You mentioned cricket scenes \u2014 \u2026"}
+{"ts": "2026-05-02T16:53:52.549642", "msg": "    T5 user: There was this scene where the main character accidentally hit the ball into a c\u2026"}
+{"ts": "2026-05-02T16:53:53.740323", "msg": "    T5 maya: That sounds like a fun visual, hitting the ball into the crowd is a good laugh m\u2026"}
+{"ts": "2026-05-02T16:53:54.342553", "msg": "    T6 user: Another part was when the team tried to celebrate a win but accidentally got stu\u2026"}
+{"ts": "2026-05-02T16:53:55.400431", "msg": "    T6 maya: Got it \u2014 the locker room scene sounds like pure comedy gold. Glad it was a good \u2026"}
+{"ts": "2026-05-02T16:53:55.400553", "msg": "    \u2192 wrap-up detected at turn 6"}
+{"ts": "2026-05-02T16:53:56.513891", "msg": "    saved \u2192 06_A06_same_day.json  (14.9s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:53:56.514048", "msg": "[07/50] A07_same_day                    Priyansh    today=2026-05-01  turns=12  mood=frustrated about a small thing today"}
+{"ts": "2026-05-02T16:53:57.643591", "msg": "    T1 maya: Hi Priyansh, I heard you mentioned watching Dunki this weekend , how are you fee\u2026"}
+{"ts": "2026-05-02T16:53:58.244130", "msg": "    T2 user: Honestly, I haven't watched it yet. Was busy with work and missed the weekend. B\u2026"}
+{"ts": "2026-05-02T16:53:59.573286", "msg": "    T2 maya: Got it, work can eat into weekends. Friends' recommendations are strong for Dunk\u2026"}
+{"ts": "2026-05-02T16:54:00.094407", "msg": "    T3 user: Maybe this weekend I will watch it. Also thinking of watching Pathaan again, it'\u2026"}
+{"ts": "2026-05-02T16:54:01.223215", "msg": "    T3 maya: \"Maybe this weekend\" sounds like a good plan. Pathaan\u2019s action scenes are a trea\u2026"}
+{"ts": "2026-05-02T16:54:01.856347", "msg": "    T4 user: The action scenes are cool, but I like the emotional parts more. Like when Patha\u2026"}
+{"ts": "2026-05-02T16:54:03.058513", "msg": "    T4 maya: You're doing great. That's a clear and thoughtful way to describe a movie. What \u2026"}
+{"ts": "2026-05-02T16:54:03.672753", "msg": "    T5 user: Maybe it's because I can relate to the struggle he goes through. Life in India i\u2026"}
+{"ts": "2026-05-02T16:54:04.799492", "msg": "    T5 maya: You said it perfectly, the music and story together make a strong impact. What s\u2026"}
+{"ts": "2026-05-02T16:54:05.438801", "msg": "    T6 user: Left Right Left\" that song is super catchy. It\u2019s playing in my head even now. Bu\u2026"}
+{"ts": "2026-05-02T16:54:08.587096", "msg": "    T6 maya: Mere Dost is a good choice ,  songs that stay with you are the best kind. What m\u2026"}
+{"ts": "2026-05-02T16:54:11.322409", "msg": "    T7 user: Maybe it's the way it's sung, so calm and honest. Like, it doesn't try too hard.\u2026"}
+{"ts": "2026-05-02T16:54:12.463684", "msg": "    T7 maya: I get that \u2014 life moves fast, and the simple things feel far. What\u2019s one small m\u2026"}
+{"ts": "2026-05-02T16:54:13.228039", "msg": "    T8 user: Lunch breaks without distractions. Earlier, I used to sit outside the office, ea\u2026"}
+{"ts": "2026-05-02T16:54:14.207111", "msg": "    T8 maya: I get that \u2014 lunch should be a pause, not a race. What\u2019s one thing you\u2019d add to \u2026"}
+{"ts": "2026-05-02T16:54:14.946726", "msg": "    T9 user: Maybe just a few minutes of no phone. Like, sit down, open the lunch box, and ac\u2026"}
+{"ts": "2026-05-02T16:54:15.942467", "msg": "    T9 maya: That sounds like a gentle way to slow down. What\u2019s one small step you could take\u2026"}
+{"ts": "2026-05-02T16:54:16.502043", "msg": "    T10 user: Set the phone aside for 10 minutes during lunch. Just sit, eat, and do nothing e\u2026"}
+{"ts": "2026-05-02T16:54:17.489195", "msg": "    T10 maya: Got it \u2014 10 minutes of nothing but lunch sounds like a good start. How will you \u2026"}
+{"ts": "2026-05-02T16:54:18.175605", "msg": "    T11 user: Maybe set a phone alarm for lunch time, but put the phone down once it rings. No\u2026"}
+{"ts": "2026-05-02T16:54:19.168111", "msg": "    T11 maya: Right \u2014 a small, planned break can make a big difference. When will you try this\u2026"}
+{"ts": "2026-05-02T16:54:19.986602", "msg": "    T12 user: Yes, Monday it is. I\u2019ll try my best to switch off the phone and enjoy my lunch. \u2026"}
+{"ts": "2026-05-02T16:54:21.180605", "msg": "    T12 maya: You\u2019re welcome \u2014 enjoy every bite and that tiny moment of freedom. Talk soon, Pr\u2026"}
+{"ts": "2026-05-02T16:54:21.180686", "msg": "    \u2192 wrap-up detected at turn 12"}
+{"ts": "2026-05-02T16:54:23.205967", "msg": "    saved \u2192 07_A07_same_day.json  (26.7s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:54:23.206134", "msg": "[08/50] A08_same_day                    Priyansh    today=2026-05-01  turns=8  mood=chatty, in a good mood"}
+{"ts": "2026-05-02T16:54:24.457517", "msg": "    T1 maya: Hi Priyansh, I hope the work week is treating you better today. Had a chance to \u2026"}
+{"ts": "2026-05-02T16:54:24.968895", "msg": "    T2 user: Hi Maya, yes the week is better today. I did take a phone-free lunch, just walke\u2026"}
+{"ts": "2026-05-02T16:54:26.177732", "msg": "    T2 maya: Good to hear the week is better, fresh air and movies are perfect combos. That B\u2026"}
+{"ts": "2026-05-02T16:54:26.792934", "msg": "    T3 user: It was a drama, actually. The plot was a bit *masala* but I enjoyed it. Oh, and \u2026"}
+{"ts": "2026-05-02T16:54:28.043863", "msg": "    T3 maya: The *masala* drama sounds fun,  good music really lifts a film. India vs Pakista\u2026"}
+{"ts": "2026-05-02T16:54:28.760479", "msg": "    T4 user: India batted first and scored a big total, but Pakistan chased it in the last fe\u2026"}
+{"ts": "2026-05-02T16:54:30.322381", "msg": "    T4 maya: The tension sounds unreal,  Pakistan chasing down in the final overs, what a fin\u2026"}
+{"ts": "2026-05-02T16:54:31.032763", "msg": "    T5 user: Drama is still my favorite, but sometimes a good comedy or a *dramey* action mov\u2026"}
+{"ts": "2026-05-02T16:54:36.482276", "msg": "    T5 maya: Drama with emotional depth wins every time \u2014 you\u2019ve got great taste! A *dramey* \u2026"}
+{"ts": "2026-05-02T16:54:36.482358", "msg": "    \u2192 wrap-up detected at turn 5"}
+{"ts": "2026-05-02T16:54:38.057526", "msg": "    saved \u2192 08_A08_same_day.json  (14.8s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:54:38.057693", "msg": "[09/50] A09_same_day                    Priyansh    today=2026-05-01  turns=6  mood=hopeful, made some progress on a goal"}
+{"ts": "2026-05-02T16:54:39.621834", "msg": "    T1 maya: Hi Priyansh, the 10-minute phone-free lunch break sounds like a small but smart \u2026"}
+{"ts": "2026-05-02T16:54:40.239318", "msg": "    T2 user: It felt good, honestly. I managed to read a chapter from a book. Usually, I just\u2026"}
+{"ts": "2026-05-02T16:54:41.329522", "msg": "    T2 maya: Reading a chapter is a great start. Books have a way of pulling you in, what boo\u2026"}
+{"ts": "2026-05-02T16:54:41.864893", "msg": "    T3 user: It\u2019s a startup nonfiction book, \u201cThe Lean Startup\u201d by Eric Ries. I\u2019ve heard a lo\u2026"}
+{"ts": "2026-05-02T16:54:43.107918", "msg": "    T3 maya: I get that ,  startup jargon can feel heavy at first. The idea of testing ideas \u2026"}
+{"ts": "2026-05-02T16:54:43.771602", "msg": "    T4 user: Yeah, that part makes sense. Like, building a product and checking if people act\u2026"}
+{"ts": "2026-05-02T16:54:44.908462", "msg": "    T4 maya: Got it \u2014 \"vastu\" is a good word to hold onto. How did you first hear about \"The \u2026"}
+{"ts": "2026-05-02T16:54:45.667661", "msg": "    T5 user: A friend who runs a small tech startup recommended it. He said it changed the wa\u2026"}
+{"ts": "2026-05-02T16:54:47.203817", "msg": "    T5 maya: Reading nonfiction is helpful, especially when you meet new words in real contex\u2026"}
+{"ts": "2026-05-02T16:54:47.831226", "msg": "    T6 user: I\u2019ve been trying to speak more confidently, especially in meetings. I understand\u2026"}
+{"ts": "2026-05-02T16:54:49.072449", "msg": "    T6 maya: You're doing great, just a tiny tweak \u2014 'I will try another chapter' is a small \u2026"}
+{"ts": "2026-05-02T16:54:50.501126", "msg": "    saved \u2192 09_A09_same_day.json  (12.4s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:54:50.501296", "msg": "[10/50] A10_same_day                    Priyansh    today=2026-05-01  turns=10  mood=excited about a weekend plan"}
+{"ts": "2026-05-02T16:54:51.548515", "msg": "    T1 maya: Hi Priyansh, you mentioned wanting to watch Dunki this weekend \u2014 did you end up \u2026"}
+{"ts": "2026-05-02T16:54:52.116968", "msg": "    T2 user: No, I din't go. My friends couldn't make it. Maybe next week. I'm thinking of wa\u2026"}
+{"ts": "2026-05-02T16:54:53.253342", "msg": "    T2 maya: Right, friends plans can fall through. Staying in with a Bollywood movie sounds \u2026"}
+{"ts": "2026-05-02T16:54:53.752586", "msg": "    T3 user: Maybe action-comedy mix. I like something fun and easy. Have you seen the new He\u2026"}
+{"ts": "2026-05-02T16:54:55.091287", "msg": "    T3 maya: Right, action-comedy hits the sweet spot. Heropanti 2 is new \u2014 I haven\u2019t seen it\u2026"}
+{"ts": "2026-05-02T16:54:55.699806", "msg": "    T4 user: Laxmii sounds interesting. I like spooky themes. Let me check if it's on Netflix\u2026"}
+{"ts": "2026-05-02T16:54:59.072817", "msg": "    T4 maya: Laxmii\u2019s spooky vibe is a hit, and Raksha Bandhan has that warm, emotional pull,\u2026"}
+{"ts": "2026-05-02T16:55:01.646080", "msg": "    T5 user: Probably around 8 PM. I'll order some pav bhaji and chaat. Watching with snacks \u2026"}
+{"ts": "2026-05-02T16:55:03.988399", "msg": "    T5 maya: Pav bhaji and chaat with a movie \u2014 perfect combo! I\u2019m all about snacks and comfo\u2026"}
+{"ts": "2026-05-02T16:55:04.545091", "msg": "    T6 user: Pajamas, obviously! What else? \ud83d\ude04 Maybe a hoodie. I can\u2019t be bothered to get dres\u2026"}
+{"ts": "2026-05-02T16:55:05.829416", "msg": "    T6 maya: Pajamas and a hoodie \u2014 classic comfort! I\u2019m the same, no fuss, just relax and en\u2026"}
+{"ts": "2026-05-02T16:55:06.439132", "msg": "    T7 user: Haha, maybe a secret! \ud83d\ude04 But I\u2019ll tell you if it\u2019s good. If Laxmii is scary, I mi\u2026"}
+{"ts": "2026-05-02T16:55:07.565023", "msg": "    T7 maya: Right, Bollywood horror can be wild \u2014 and fun to watch with someone nearby to la\u2026"}
+{"ts": "2026-05-02T16:55:08.141925", "msg": "    T8 user: Definitely will! If it\u2019s silly, I\u2019ll record the best parts. If it\u2019s scary, I\u2019ll \u2026"}
+{"ts": "2026-05-02T16:55:10.230721", "msg": "    T8 maya: Popcorn and blanket forts \u2014 yes, movie night is complete! Scary or silly, I\u2019m su\u2026"}
+{"ts": "2026-05-02T16:55:11.012630", "msg": "    T9 user: I'll pick Laxmii first \u2014 the spooky stuff is more my vibe. If I get scared, my r\u2026"}
+{"ts": "2026-05-02T16:55:12.384338", "msg": "    T9 maya: Laxmii first, love that plan! Let the spooky fun begin, and yes, talk about it w\u2026"}
+{"ts": "2026-05-02T16:55:12.996269", "msg": "    T10 user: Thanks! I\u2019ll make sure to save some popcorn for you. \ud83d\ude04 Movie starts in an hour, \u2026"}
+{"ts": "2026-05-02T16:55:14.227516", "msg": "    T10 maya: Good night! Save the popcorn, and enjoy the movie, I\u2019m cheering from here. Talk \u2026"}
+{"ts": "2026-05-02T16:55:14.227639", "msg": "    \u2192 wrap-up detected at turn 10"}
+{"ts": "2026-05-02T16:55:16.413839", "msg": "    saved \u2192 10_A10_same_day.json  (25.9s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:55:16.414019", "msg": "[11/50] B01_consec_d0                   Aarti       today=2026-05-01  turns=6  mood=neutral, ordinary day"}
+{"ts": "2026-05-02T16:55:17.912345", "msg": "    T1 maya: Hi Aarti, I'm Miss Maya. It's a warm evening, I just thought of how lovely chai \u2026"}
+{"ts": "2026-05-02T16:55:18.525426", "msg": "    T2 user: Hi Maya, nice to meet you. My day was okay, busy with studies. NEET PG prep is t\u2026"}
+{"ts": "2026-05-02T16:55:19.652354", "msg": "    T2 maya: Tea is part of my evening! NEET PG prep sounds intense \u2014 what part feels most ov\u2026"}
+{"ts": "2026-05-02T16:55:20.429171", "msg": "    T3 user: The clinical subjects are the most confusing \u2014 like pharmacology and pathology. \u2026"}
+{"ts": "2026-05-02T16:55:21.636080", "msg": "    T3 maya: You're doing great, just a tiny tweak \u2014 we say \"I wonder if I can do all this.\" \u2026"}
+{"ts": "2026-05-02T16:55:22.243200", "msg": "    T4 user: I try to make flashcards and revise daily, but it\u2019s still hard. Maybe I need to \u2026"}
+{"ts": "2026-05-02T16:55:27.436977", "msg": "    T4 maya: You're doing the basics right ,  flashcards and revision. Distracting is normal,\u2026"}
+{"ts": "2026-05-02T16:55:28.135080", "msg": "    T5 user: Maybe I can try studying in shorter time slots \u2014 like 25 minutes, then a break. \u2026"}
+{"ts": "2026-05-02T16:55:29.160559", "msg": "    T5 maya: You're welcome, Aarti \u2014 small steps make a big difference. Tell me how the Pomod\u2026"}
+{"ts": "2026-05-02T16:55:29.688525", "msg": "    T6 user: Sure, Maya. I'll give it a try. I think short study times might help me focus be\u2026"}
+{"ts": "2026-05-02T16:55:31.021473", "msg": "    T6 maya: You're welcome, short bursts can really help. Tell me how it goes. Take care and\u2026"}
+{"ts": "2026-05-02T16:55:31.021603", "msg": "    \u2192 wrap-up detected at turn 6"}
+{"ts": "2026-05-02T16:55:32.300854", "msg": "    saved \u2192 11_B01_consec_d0.json  (15.9s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:55:32.301061", "msg": "[12/50] B02_consec_d1                   Aarti       today=2026-05-02  turns=10  mood=frustrated about a small thing today"}
+{"ts": "2026-05-02T16:55:33.475162", "msg": "    T1 maya: Hi Aarti, I get that feeling when you're memorizing but not understanding \u2014 it h\u2026"}
+{"ts": "2026-05-02T16:55:34.087315", "msg": "    T2 user: Honestly, I think my Pomodoro is broken. I sit for 25 mins, but my mind wander t\u2026"}
+{"ts": "2026-05-02T16:55:35.215488", "msg": "    T2 maya: Right, that sounds like a rough cycle. Guilt after a break makes it harder to st\u2026"}
+{"ts": "2026-05-02T16:55:35.964600", "msg": "    T3 user: I try to focus on one topic at a time, like just read diagrams or listen to a po\u2026"}
+{"ts": "2026-05-02T16:55:37.059195", "msg": "    T3 maya: Yes, that sounds like a tough balance, staying connected yet focused. Did you tr\u2026"}
+{"ts": "2026-05-02T16:55:37.731501", "msg": "    T4 user: No, not really. I heard of apps like Forest or Cold Turkey, but I never download\u2026"}
+{"ts": "2026-05-02T16:55:38.801696", "msg": "    T4 maya: I get that, your brain knows every loophole! What\u2019s one tiny step you could take\u2026"}
+{"ts": "2026-05-02T16:55:39.417193", "msg": "    T5 user: Maybe I can turn off my phone notifications for the next two study sessions. Jus\u2026"}
+{"ts": "2026-05-02T16:55:40.481605", "msg": "    T5 maya: Got it \u2014 silent mode is a good start. What if you pick one app to use only after\u2026"}
+{"ts": "2026-05-02T16:55:41.240228", "msg": "    T6 user: That\u2019s an interesting idea \u2014 using an app as a reward. Maybe I can say, \"If I fi\u2026"}
+{"ts": "2026-05-02T16:55:42.209159", "msg": "    T6 maya: Yes, writing it down makes it real. Who could you ask to help keep you on track?"}
+{"ts": "2026-05-02T16:55:42.945186", "msg": "    T7 user: Maybe my roommate, Neha. She's also studying for NEET. We can motivate each othe\u2026"}
+{"ts": "2026-05-02T16:55:44.119352", "msg": "    T7 maya: Right \u2014 and a little accountability can go a long way. Who do you think would ta\u2026"}
+{"ts": "2026-05-02T16:55:44.741705", "msg": "    T8 user: Neha for sure. She's serious about her studies and gets how easy it is to lose f\u2026"}
+{"ts": "2026-05-02T16:55:45.767299", "msg": "    T8 maya: Yes, small wins build big habits. What\u2019s one page or chapter you\u2019ll show Neha fi\u2026"}
+{"ts": "2026-05-02T16:55:46.450674", "msg": "    T9 user: The first chapter of physiology \u2014 the nervous system. It's a bit dry, but if I g\u2026"}
+{"ts": "2026-05-02T16:55:49.606273", "msg": "    T9 maya: You\u2019re welcome \u2014 and go finish that chapter, Aarti! What\u2019s the first thing you\u2019l\u2026"}
+{"ts": "2026-05-02T16:55:52.333588", "msg": "    T10 user: I\u2019ll probably take that 10-minute Instagram break, then maybe\u716e a quick cup of te\u2026"}
+{"ts": "2026-05-02T16:55:53.446756", "msg": "    T10 maya: You\u2019re welcome \u2014 and that Instagram break sounds well-earned. What\u2019s one thing f\u2026"}
+{"ts": "2026-05-02T16:55:54.763631", "msg": "    saved \u2192 12_B02_consec_d1.json  (22.5s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:55:54.763780", "msg": "[13/50] B03_consec_d2                   Aarti       today=2026-05-03  turns=8  mood=tired, slept badly"}
+{"ts": "2026-05-02T16:55:55.846288", "msg": "    T1 maya: Hi Aarti, I hope your morning went well. The quiet before exams feels heavy, wha\u2026"}
+{"ts": "2026-05-02T16:55:56.412575", "msg": "    T2 user: Not so good, honestly. I couldn't sleep well, and my NEET prep is piling up. I f\u2026"}
+{"ts": "2026-05-02T16:55:57.432400", "msg": "    T2 maya: \"Sleepless before exams is tough. I get that \u2014 what part feels most out of contr\u2026"}
+{"ts": "2026-05-02T16:55:58.007536", "msg": "    T3 user: Mainly the revision part. So many topics, so little time. My head is so heavy, e\u2026"}
+{"ts": "2026-05-02T16:55:59.049761", "msg": "    T3 maya: \"Revision-heavy days are heavy on the mind. Even cooking feels like work \u2014 that\u2019\u2026"}
+{"ts": "2026-05-02T16:55:59.610452", "msg": "    T4 user: Maybe a little walk or listen to some classical music? I tried yoga, but my mind\u2026"}
+{"ts": "2026-05-02T16:56:00.643028", "msg": "    T4 maya: \"Yoga with a distracted mind is still yoga. You said 'mukhyan' \u2014 and I get that.\u2026"}
+{"ts": "2026-05-02T16:56:01.160730", "msg": "    T5 user: Maybe a walk. I think moving my body might help clear my head, even just a littl\u2026"}
+{"ts": "2026-05-02T16:56:02.211966", "msg": "    T5 maya: \"You said 'moving my body might help' \u2014 and that's a great start. Even if studie\u2026"}
+{"ts": "2026-05-02T16:56:02.703246", "msg": "    T6 user: Just a short one, maybe 10-15 minutes. I don\u2019t want to feel guilty if I can\u2019t fo\u2026"}
+{"ts": "2026-05-02T16:56:03.875355", "msg": "    T6 maya: You said '10-15 minutes' ,  and that\u2019s enough. Small steps count. Did you know e\u2026"}
+{"ts": "2026-05-02T16:56:04.362613", "msg": "    T7 user: I didn\u2019t know that. Maybe I\u2019ll try it after my coffee. I think I need it more th\u2026"}
+{"ts": "2026-05-02T16:56:05.412834", "msg": "    T7 maya: You said \"I need it more than another chapter\" \u2014 and you're right. Coffee and a \u2026"}
+{"ts": "2026-05-02T16:56:05.897622", "msg": "    T8 user: Bitter, but warm. Needed it. I think I\u2019ll go now, but I\u2019ll try the walk later. T\u2026"}
+{"ts": "2026-05-02T16:56:07.058625", "msg": "    T8 maya: You said \"bitter, but warm\" \u2014 and that\u2019s the kind of coffee that stays with you.\u2026"}
+{"ts": "2026-05-02T16:56:07.997756", "msg": "    saved \u2192 13_B03_consec_d2.json  (13.2s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:56:07.997974", "msg": "[14/50] B04_consec_d3                   Aarti       today=2026-05-04  turns=8  mood=chatty, in a good mood"}
+{"ts": "2026-05-02T16:56:09.211544", "msg": "    T1 maya: Hi Aarti, I hope your walk went well. How was your head feeling after it?"}
+{"ts": "2026-05-02T16:56:09.723448", "msg": "    T2 user: It's fine, thank you! The walk helped a lot. I also cooked my favorite dal today\u2026"}
+{"ts": "2026-05-02T16:56:10.767504", "msg": "    T2 maya: Good to hear, walking and dal are both good medicine. What kind of dal did you m\u2026"}
+{"ts": "2026-05-02T16:56:11.236039", "msg": "    T3 user: It was moong dal, with a bit of garam masala. I love how simple and soothing it \u2026"}
+{"ts": "2026-05-02T16:56:14.436887", "msg": "    T3 maya: That sounds like a calm, warm combo ,  moong dal and fiction books. What kind of\u2026"}
+{"ts": "2026-05-02T16:56:16.997981", "msg": "    T4 user: I mostly read classics\u2014like Jane Austen or Tagore. They help me relax after long\u2026"}
+{"ts": "2026-05-02T16:56:17.977429", "msg": "    T4 maya: Right, classics are a perfect escape. That balance between work and books is sma\u2026"}
+{"ts": "2026-05-02T16:56:18.532580", "msg": "    T5 user: I'm reading _Ghare Baire_ right now\u2014such deep thoughts on love and duty. It make\u2026"}
+{"ts": "2026-05-02T16:56:19.764241", "msg": "    T5 maya: Got it \u2014 Ghare Baire is a heavy read. Love how you balance books and studies. Wh\u2026"}
+{"ts": "2026-05-02T16:56:20.375755", "msg": "    T6 user: Mainly physiology and pharmacology. They are so confusing sometimes! I watched a\u2026"}
+{"ts": "2026-05-02T16:56:21.605750", "msg": "    T6 maya: I get that, renal system is tricky, even for seniors. Small fix: we say \"I feel \u2026"}
+{"ts": "2026-05-02T16:56:22.231351", "msg": "    T7 user: The heaviest part is connecting the clinical aspects with the diagrams. I get co\u2026"}
+{"ts": "2026-05-02T16:56:23.450581", "msg": "    T7 maya: Right, nephrons and diuretics are dense. Diagrams are key, what helps you rememb\u2026"}
+{"ts": "2026-05-02T16:56:24.050293", "msg": "    T8 user: Hmm, I try to make small sketches in my notes, but I get distracted easily. Mayb\u2026"}
+{"ts": "2026-05-02T16:56:25.115027", "msg": "    T8 maya: You're doing great, just take it step by step. Good luck with your study session\u2026"}
+{"ts": "2026-05-02T16:56:26.184206", "msg": "    saved \u2192 14_B04_consec_d3.json  (18.2s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:56:26.184458", "msg": "[15/50] B05_consec_d4                   Aarti       today=2026-05-05  turns=6  mood=content, decent day at work"}
+{"ts": "2026-05-02T16:56:27.337707", "msg": "    T1 maya: Hi Aarti, the mango season is here, what's your go-to recipe?"}
+{"ts": "2026-05-02T16:56:27.823027", "msg": "    T2 user: Aamras is my favorite \u2014 just ripe mangoes, a splash of milk, and a touch of suga\u2026"}
+{"ts": "2026-05-02T16:56:28.959567", "msg": "    T2 maya: Aamras sounds lovely \u2014 I get that post-exam craving for something sweet. What\u2019s \u2026"}
+{"ts": "2026-05-02T16:56:29.571957", "msg": "    T3 user: Blend it long! I use a hand blender, go slow with 1-2 cups at a time. If it's gr\u2026"}
+{"ts": "2026-05-02T16:56:30.849207", "msg": "    T3 maya: Blend it long\" is a good tip \u2014 you\u2019re doing great, just a tiny tweak: we say \"us\u2026"}
+{"ts": "2026-05-02T16:56:31.438194", "msg": "    T4 user: Watermelon is my summer savior \u2014 juicy and refreshing. I usually cut it into cub\u2026"}
+{"ts": "2026-05-02T16:56:32.767705", "msg": "    T4 maya: Watermelon with mint and salt is a hit \u2014 you\u2019re doing great, just a tiny tweak: \u2026"}
+{"ts": "2026-05-02T16:56:33.314460", "msg": "    T5 user: I love mango lassi on hot days \u2014 blend mango, yogurt, a bit of sugar, and ice. S\u2026"}
+{"ts": "2026-05-02T16:56:34.507853", "msg": "    T5 maya: Mango lassi sounds perfect for study breaks, you\u2019re doing great, just a tiny twe\u2026"}
+{"ts": "2026-05-02T16:56:35.122292", "msg": "    T6 user: I check the color and smell \u2014 a good mango should be fragrant and have a nice go\u2026"}
+{"ts": "2026-05-02T16:56:36.449713", "msg": "    T6 maya: Color, smell, and a little dent \u2014 that\u2019s a smart way to pick mangoes. What part \u2026"}
+{"ts": "2026-05-02T16:56:37.431996", "msg": "    saved \u2192 15_B05_consec_d4.json  (11.2s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:56:37.432252", "msg": "[16/50] B06_consec_d5                   Aarti       today=2026-05-06  turns=6  mood=hopeful, made some progress on a goal"}
+{"ts": "2026-05-02T16:56:42.699891", "msg": "    T1 maya: Hi Aarti, I'm glad to see you again. The monsoon mornings are my favorite for st\u2026"}
+{"ts": "2026-05-02T16:56:43.357054", "msg": "    T2 user: The walk was nice, fresh air helps. But studies are getting tough\u2014NEET PG is lik\u2026"}
+{"ts": "2026-05-02T16:56:44.747587", "msg": "    T2 maya: Fresh air does help, and cracking a chapter is a win to celebrate. 'Aapke tarah \u2026"}
+{"ts": "2026-05-02T16:56:45.376870", "msg": "    T3 user: Pathophysiology\u2014renal system. I was so nervous about it, but once I started, the\u2026"}
+{"ts": "2026-05-02T16:56:46.740876", "msg": "    T3 maya: Chana masala never waits! Cooking breaks between studies are smart \u2014 they keep t\u2026"}
+{"ts": "2026-05-02T16:56:47.454662", "msg": "    T4 user: The nephron structure\u2014how it filters blood and reabsorbs stuff. It's amazing how\u2026"}
+{"ts": "2026-05-02T16:56:50.204075", "msg": "    T4 maya: The nephron\u2019s job is like a tiny superhero ,  filtering and fine-tuning. Confusi\u2026"}
+{"ts": "2026-05-02T16:56:50.933486", "msg": "    T5 user: I\u2019ll be quick\u2014just tasting the masala. Maybe rajma next, but I need to focus mor\u2026"}
+{"ts": "2026-05-02T16:56:52.196139", "msg": "    T5 maya: You're welcome, a quick taste break sounds perfect. Rajma can wait; studies firs\u2026"}
+{"ts": "2026-05-02T16:56:52.863853", "msg": "    T6 user: Endocrinology\u2014hormones and the kidney\u2019s connection. I need to link it with what \u2026"}
+{"ts": "2026-05-02T16:56:54.393737", "msg": "    T6 maya: Endocrinology and the kidney \u2014 what a deep connection! Linking concepts is key \u2014\u2026"}
+{"ts": "2026-05-02T16:56:57.516460", "msg": "    saved \u2192 16_B06_consec_d5.json  (20.1s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:56:57.516638", "msg": "[17/50] B07_consec_d6                   Aarti       today=2026-05-07  turns=8  mood=low energy, monosyllabic mood"}
+{"ts": "2026-05-02T16:56:58.902559", "msg": "    T1 maya: Hi Aarti, I\u2019ve been thinking about how you linked nephron functions with clinica\u2026"}
+{"ts": "2026-05-02T16:56:59.323407", "msg": "    T2 user: Not good. Too tired. Hormones confuse me. I\u2019ll try again."}
+{"ts": "2026-05-02T16:57:00.377862", "msg": "    T2 maya: Got it, hormones are tricky, even for experts. What part feels the heaviest righ\u2026"}
+{"ts": "2026-05-02T16:57:00.894497", "msg": "    T3 user: The insulin and glucagon part. How they balance blood sugar\u2026 it all blurs. Need \u2026"}
+{"ts": "2026-05-02T16:57:02.033740", "msg": "    T3 maya: Insulin and glucagon are tough \u2014 even small details matter. Try sketching their \u2026"}
+{"ts": "2026-05-02T16:57:04.612179", "msg": "    T4 user: The feedback loop \u2014 like how the body knows to release one or the other. Also, t\u2026"}
+{"ts": "2026-05-02T16:57:07.777870", "msg": "    T4 maya: The body\u2019s signals are subtle, and the liver adds more layers, it\u2019s a lot. Focus\u2026"}
+{"ts": "2026-05-02T16:57:08.238409", "msg": "    T5 user: The liver part. It\u2019s too many steps. Can\u2019t focus. Need tea."}
+{"ts": "2026-05-02T16:57:09.287208", "msg": "    T5 maya: The liver does have many steps, that\u2019s why diagrams help. Tea can help too. What\u2026"}
+{"ts": "2026-05-02T16:57:09.810761", "msg": "    T6 user: Green tea. Helps me stay awake. But today, even that\u2019s not working. Kahi vada pa\u2026"}
+{"ts": "2026-05-02T16:57:10.858076", "msg": "    T6 maya: Green tea is a good pick, but even that won\u2019t help if your mind\u2019s heavy. A quick\u2026"}
+{"ts": "2026-05-02T16:57:11.382684", "msg": "    T7 user: Read notes for 20 mins. Then try insulin diagram. Maybe. But coffee first. Ja ra\u2026"}
+{"ts": "2026-05-02T16:57:12.525009", "msg": "    T7 maya: You\u2019ll feel better after that coffee , and the diagram will wait for you. Tell m\u2026"}
+{"ts": "2026-05-02T16:57:13.041374", "msg": "    T8 user: Just the notes and the diagram. Also, if I\u2019ll remember anything. Coffee first, t\u2026"}
+{"ts": "2026-05-02T16:57:14.124789", "msg": "    T8 maya: Right, coffee first, then you'll tackle that hormone maze. What's the one thing \u2026"}
+{"ts": "2026-05-02T16:57:15.798884", "msg": "    saved \u2192 17_B07_consec_d6.json  (18.3s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:57:15.799062", "msg": "[18/50] B08_consec_d7                   Aarti       today=2026-05-08  turns=12  mood=hopeful, made some progress on a goal"}
+{"ts": "2026-05-02T16:57:17.097017", "msg": "    T1 maya: Hi Aarti, the insulin diagram you mentioned trying \u2014 did it help make things cle\u2026"}
+{"ts": "2026-05-02T16:57:17.633600", "msg": "    T2 user: Yes, it helped a bit, but I still get confused between the short-acting and long\u2026"}
+{"ts": "2026-05-02T16:57:18.988331", "msg": "    T2 maya: Making tables is a smart move \u2014 they break down complex ideas nicely. I get that\u2026"}
+{"ts": "2026-05-02T16:57:19.746681", "msg": "    T3 user: The part about Henrietta\u2019s family and how they felt when they learned about the \u2026"}
+{"ts": "2026-05-02T16:57:21.119223", "msg": "    T3 maya: That part of Henrietta\u2019s family must have been so heavy ,  science moves fast, b\u2026"}
+{"ts": "2026-05-02T16:57:21.753217", "msg": "    T4 user: I kept it simple \u2014 just the names, duration, and when to use each. Maybe I shoul\u2026"}
+{"ts": "2026-05-02T16:57:23.009299", "msg": "    T4 maya: Adding patient examples sounds like a great next step \u2014 it makes the theory feel\u2026"}
+{"ts": "2026-05-02T16:57:23.558976", "msg": "    T5 user: I try to take deep breaths, but it only helps a little. Sometimes I listen to a \u2026"}
+{"ts": "2026-05-02T16:57:24.889985", "msg": "    T5 maya: Deep breaths are a good start, your body knows to slow down. Classical music is \u2026"}
+{"ts": "2026-05-02T16:57:25.405743", "msg": "    T6 user: Today, I finally understood the difference between type 1 and type 2 diabetes in\u2026"}
+{"ts": "2026-05-02T16:57:26.519735", "msg": "    T6 maya: That\u2019s a real win \u2014 understanding tricky ideas is a step up, even if small. You\u2019\u2026"}
+{"ts": "2026-05-02T16:57:27.144776", "msg": "    T7 user: Tomorrow, I\u2019m going to revise the insulin table with patient examples. Then, I h\u2026"}
+{"ts": "2026-05-02T16:57:32.324868", "msg": "    T7 maya: Adding patient examples is a great step \u2014 it makes the learning stick. Pharmacol\u2026"}
+{"ts": "2026-05-02T16:57:33.000492", "msg": "    T8 user: The first one is metoprolol \u2014 beta blocker, right? I get confused between all th\u2026"}
+{"ts": "2026-05-02T16:57:34.513171", "msg": "    T8 maya: Got it \u2014 metoprolol is a beta-blocker that lowers heart rate and blood pressure.\u2026"}
+{"ts": "2026-05-02T16:57:35.279150", "msg": "    T9 user: You: Thanks! I\u2019ll start with metoprolol and add more as I go. I think I\u2019ll put t\u2026"}
+{"ts": "2026-05-02T16:57:36.668440", "msg": "    T9 maya: Right ,  tables are your new study buddy. Shukriya is such a warm word, I hope y\u2026"}
+{"ts": "2026-05-02T16:57:36.668557", "msg": "    \u2192 wrap-up detected at turn 9"}
+{"ts": "2026-05-02T16:57:38.496437", "msg": "    saved \u2192 18_B08_consec_d7.json  (22.7s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:57:38.496637", "msg": "[19/50] B09_consec_d8                   Aarti       today=2026-05-09  turns=10  mood=hopeful, made some progress on a goal"}
+{"ts": "2026-05-02T16:57:39.735979", "msg": "    T1 maya: Aarti, love mango season and old Hindi songs. What's your favourite dish to cook\u2026"}
+{"ts": "2026-05-02T16:57:40.247159", "msg": "    T2 user: I love making pav bhaji! It's my comfort food. Also been listening to a lot of L\u2026"}
+{"ts": "2026-05-02T16:57:41.482701", "msg": "    T2 maya: Pav bhaji with Lata \u2014 perfect combo. I like soft melodies while I work. What\u2019s y\u2026"}
+{"ts": "2026-05-02T16:57:42.177457", "msg": "    T3 user: Pyar Hua Ikrar Hua\" from \"Bobby\" \u2014 it's so soulful. I feel like I'm living every\u2026"}
+{"ts": "2026-05-02T16:57:43.319903", "msg": "    T3 maya: \"Pyar Hua Ikrar Hua\" is a classic \u2014 I can picture you dancing as you cook. I lis\u2026"}
+{"ts": "2026-05-02T16:57:44.115780", "msg": "    T4 user: I mostly like old Hindi film songs \u2014 they make even boring study breaks feel nic\u2026"}
+{"ts": "2026-05-02T16:57:45.272652", "msg": "    T4 maya: Old songs for comfort, English ones for practice \u2014 smart mix! I think it helps a\u2026"}
+{"ts": "2026-05-02T16:57:46.036689", "msg": "    T5 user: I\u2019ve been trying to listen to \"See You Again\" by Wiz Khalifa \u2014 the lyrics are ea\u2026"}
+{"ts": "2026-05-02T16:57:47.194187", "msg": "    T5 maya: That sounds like a good mix \u2014 easy songs for focus, heart songs for mood. I list\u2026"}
+{"ts": "2026-05-02T16:57:47.873864", "msg": "    T6 user: Kisi Yeh Pyar Na Karte\" by Lata ji always makes me smile. It's old but timeless.\u2026"}
+{"ts": "2026-05-02T16:57:49.220211", "msg": "    T6 maya: \"Kisi Yeh Pyar Na Karte\" is a gem,  Lata\u2019s voice is magic. Music lifting the min\u2026"}
+{"ts": "2026-05-02T16:57:50.081694", "msg": "    T7 user: Chal Chal Chal\" from \"Dilwale Dulhania Le Rahein\" \u2014 it never fails to make me la\u2026"}
+{"ts": "2026-05-02T16:57:51.411455", "msg": "    T7 maya: \"Chal Chal Chal\" is the mood booster! Marathi ghazals sound lovely too ,  I imag\u2026"}
+{"ts": "2026-05-02T16:57:52.255499", "msg": "    T8 user: I usually take a warm bath and play some slow songs \u2014 either Lata ji or soft Mar\u2026"}
+{"ts": "2026-05-02T16:57:57.430144", "msg": "    T8 maya: Warm bath and Lata \u2014 the perfect unwind. Reading for fun is nice, not textbooks!\u2026"}
+{"ts": "2026-05-02T16:57:58.199725", "msg": "    T9 user: I read \"The Night Diary\" by Veera Hiranandani \u2014 it's a beautiful story about fri\u2026"}
+{"ts": "2026-05-02T16:57:59.605540", "msg": "    T9 maya: That sounds powerful ,  stories that touch the heart are the best. I haven\u2019t rea\u2026"}
+{"ts": "2026-05-02T16:58:00.664141", "msg": "    T10 user: Next up is \"The House of Mango Street\" by Sandra Cisneros \u2014 I heard it's written\u2026"}
+{"ts": "2026-05-02T16:58:02.116758", "msg": "    T10 maya: You're very welcome! Poetic reads and deep thoughts \u2014 perfect for a calm mind be\u2026"}
+{"ts": "2026-05-02T16:58:07.198017", "msg": "    saved \u2192 19_B09_consec_d8.json  (28.7s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:58:07.198223", "msg": "[20/50] B10_consec_d9                   Aarti       today=2026-05-10  turns=14  mood=lonely, wanting to talk"}
+{"ts": "2026-05-02T16:58:08.613360", "msg": "    T1 maya: Hi Aarti, I've been thinking about how you linked Henrietta's story to your own \u2026"}
+{"ts": "2026-05-02T16:58:09.335164", "msg": "    T2 user: Honestly, it made me feel a bit sad, but also curious. Like, how one person\u2019s st\u2026"}
+{"ts": "2026-05-02T16:58:10.464040", "msg": "    T2 maya: \"Right \u2014 that's a deep connection you made. It's sad, but also shows how science\u2026"}
+{"ts": "2026-05-02T16:58:11.104632", "msg": "    T3 user: I try to take small breaks and cook something, even if it's just dal. It helps m\u2026"}
+{"ts": "2026-05-02T16:58:12.296313", "msg": "    T3 maya: You\u2019re doing great by finding little breaks \u2014 that matters. Feeling lost in book\u2026"}
+{"ts": "2026-05-02T16:58:12.891776", "msg": "    T4 user: Hmm, maybe I'll start with the pharmacology chapter on beta blockers. Just 10 mi\u2026"}
+{"ts": "2026-05-02T16:58:14.349888", "msg": "    T4 maya: You\u2019re not alone in this \u2014 I swear, even people who look calm are probably drown\u2026"}
+{"ts": "2026-05-02T16:58:15.041470", "msg": "    T5 user: Texting with someone who listens, like you \u2014 even for a minute, makes me feel le\u2026"}
+{"ts": "2026-05-02T16:58:16.439850", "msg": "    T5 maya: You've got such a quiet strength, Aarti \u2014 finding small anchors like music or a \u2026"}
+{"ts": "2026-05-02T16:58:17.195133", "msg": "    T6 user: Maine humne khoonya, par mil gaya ek pal jisme humne khudko samajhaya.\" It's fro\u2026"}
+{"ts": "2026-05-02T16:58:22.441035", "msg": "    T6 maya: You said it perfectly, even a single moment can light things up. That Faiz line \u2026"}
+{"ts": "2026-05-02T16:58:23.054949", "msg": "    T7 user: Maybe with a table \u2014 writing down the mechanism and uses. But I\u2019m scared I\u2019ll mi\u2026"}
+{"ts": "2026-05-02T16:58:24.178667", "msg": "    T7 maya: Sure ,  take your time. Let\u2019s start with one drug and its basic role. What\u2019s the\u2026"}
+{"ts": "2026-05-02T16:58:25.281409", "msg": "    T8 user: Maybe start with metoprolol? I remember it\u2019s a beta-1 blocker, used for hyperten\u2026"}
+{"ts": "2026-05-02T16:58:26.724369", "msg": "    T8 maya: You said metoprolol right \u2014 it is a beta-1 blocker and used for high blood press\u2026"}
+{"ts": "2026-05-02T16:58:27.354477", "msg": "    T9 user: Maybe I can make flashcards for each drug \u2014 just the basics. Like name, mechanis\u2026"}
+{"ts": "2026-05-02T16:58:28.584113", "msg": "    T9 maya: Flashcards are a smart start \u2014 small, steady wins build up. You\u2019ll get there, on\u2026"}
+{"ts": "2026-05-02T16:58:29.198476", "msg": "    T10 user: Maybe I\u2019ll treat myself to a cup of chai after the first hour of study \u2014 somethi\u2026"}
+{"ts": "2026-05-02T16:58:30.531404", "msg": "    T10 maya: You\u2019re doing great, Aarti,  that chai is a win well-earned. I\u2019m here anytime you\u2026"}
+{"ts": "2026-05-02T16:58:30.963581", "msg": "    T11 user: You\u2019re doing great, Aarti,  that chai is a win well-earned. I\u2019m here anytime you\u2026"}
+{"ts": "2026-05-02T16:58:32.372743", "msg": "    T11 maya: You\u2019ve got this, Aarti, and the chai is your little cheer after the climb. I\u2019m a\u2026"}
+{"ts": "2026-05-02T16:58:32.372862", "msg": "    \u2192 wrap-up detected at turn 11"}
+{"ts": "2026-05-02T16:58:36.100702", "msg": "    saved \u2192 20_B10_consec_d9.json  (28.9s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:58:36.100884", "msg": "[21/50] B11_consec_d10                  Aarti       today=2026-05-11  turns=8  mood=embarrassed about a recent mistake"}
+{"ts": "2026-05-02T16:58:37.286808", "msg": "    T1 maya: Hi Aarti, the ghazal lines you used to describe clarity in the dark were beautif\u2026"}
+{"ts": "2026-05-02T16:58:37.902089", "msg": "    T2 user: Thank you, Maya. It\u2019s been a bit stressful with exams coming up. I messed up a s\u2026"}
+{"ts": "2026-05-02T16:58:38.993454", "msg": "    T2 maya: \"Presentations can feel heavy, especially with exams on the mind. I\u2019m glad this \u2026"}
+{"ts": "2026-05-02T16:58:39.689242", "msg": "    T3 user: I was supposed to explain a case study, but I forgot half the details. My voice \u2026"}
+{"ts": "2026-05-02T16:58:40.828443", "msg": "    T3 maya: Blanking in front of others is tough, even when you\u2019re ready. Stress does strang\u2026"}
+{"ts": "2026-05-02T16:58:41.381631", "msg": "    T4 user: I took a few deep breaths and tried to remember my main points. But it was too l\u2026"}
+{"ts": "2026-05-02T16:58:44.453919", "msg": "    T4 maya: That part about deep breaths is a good step \u2014 the mind needs a pause. What are y\u2026"}
+{"ts": "2026-05-02T16:58:47.096913", "msg": "    T5 user: I practice a bit more now, and I try to visualize the room being quiet and kind.\u2026"}
+{"ts": "2026-05-02T16:58:48.229158", "msg": "    T5 maya: Hands sweating and a shaky start are common, even for experienced speakers. You'\u2026"}
+{"ts": "2026-05-02T16:58:48.805582", "msg": "    T6 user: The case study background is clear in my mind, but when I get nervous, I mix up \u2026"}
+{"ts": "2026-05-02T16:58:50.088188", "msg": "    T6 maya: I get that , knowing something well but missing it in the moment is a real strug\u2026"}
+{"ts": "2026-05-02T16:58:50.612553", "msg": "    T7 user: Maybe I can write down the key points before I start? It might help me stay on t\u2026"}
+{"ts": "2026-05-02T16:58:51.849047", "msg": "    T7 maya: You're welcome, a chat that helps is the best kind. Writing key points down is a\u2026"}
+{"ts": "2026-05-02T16:58:52.520847", "msg": "    T8 user: The patient\u2019s age and symptoms \u2014 that\u2019s usually where I start. If I can get that\u2026"}
+{"ts": "2026-05-02T16:58:53.682660", "msg": "    T8 maya: Starting with the patient's age and symptoms is a strong anchor \u2014 good choice. I\u2026"}
+{"ts": "2026-05-02T16:58:55.242214", "msg": "    saved \u2192 21_B11_consec_d10.json  (19.1s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:58:55.242416", "msg": "[22/50] B12_consec_d11                  Aarti       today=2026-05-12  turns=14  mood=chatty, in a good mood"}
+{"ts": "2026-05-02T16:58:56.544835", "msg": "    T1 maya: Hi Aarti, it\u2019s been a bit stressful with exams coming up. I messed up a small pr\u2026"}
+{"ts": "2026-05-02T16:58:57.051105", "msg": "    T2 user: Honestly, I\u2019m feeling pretty stressed too. My NEET PG prep is taking so much tim\u2026"}
+{"ts": "2026-05-02T16:58:58.280011", "msg": "    T2 maya: Stress eats time, and time is all we have , I get that. It\u2019s hard to feel enough\u2026"}
+{"ts": "2026-05-02T16:58:58.891765", "msg": "    T3 user: When I feel super overwhelmed, I take 10 minutes to cook chaat or make chai. It \u2026"}
+{"ts": "2026-05-02T16:59:00.329674", "msg": "    T3 maya: Chaat and chai are like tiny comfort zones \u2014 I love that you make space for them\u2026"}
+{"ts": "2026-05-02T16:59:00.969845", "msg": "    T4 user: \u201cOm Namo Bhagwat Gita\u201d is one that always brings me peace. It reminds me to brea\u2026"}
+{"ts": "2026-05-02T16:59:02.273994", "msg": "    T4 maya: That\u2019s a beautiful way to pause, a lullaby for the mind, yes. I find monsoon mor\u2026"}
+{"ts": "2026-05-02T16:59:03.114499", "msg": "    T5 user: I love monsoon mornings too! The way the rain taps on the window and the air fee\u2026"}
+{"ts": "2026-05-02T16:59:04.424574", "msg": "    T5 maya: Your poetic image of the monsoon morning is beautiful. For me, it's the way the \u2026"}
+{"ts": "2026-05-02T16:59:05.112114", "msg": "    T6 user: It was that old R.K. Narayan storybook I mentioned\u2014\u201dMalgudi Days.\u201d Such a calm r\u2026"}
+{"ts": "2026-05-02T16:59:06.185956", "msg": "    T6 maya: Yes, the quiet of Malgudi does feel like a friend to the restless mind. I read i\u2026"}
+{"ts": "2026-05-02T16:59:06.964331", "msg": "    T7 user: The old man in \u201cThe Last Lesson,\u201d you know, the one who writes all the forgotten\u2026"}
+{"ts": "2026-05-02T16:59:12.132857", "msg": "    T7 maya: Yes, that quiet act of holding on in the dust feels deeply human. It\u2019s like your\u2026"}
+{"ts": "2026-05-02T16:59:12.738798", "msg": "    T8 user: Right now, I\u2019d write \u201cBreathe\u201d in the dust. Simple, but it reminds me to slow do\u2026"}
+{"ts": "2026-05-02T16:59:13.948082", "msg": "    T8 maya: \u201cBreathe\u201d is a perfect name to hold on to \u2014 it\u2019s both a reminder and a reset. I\u2019\u2026"}
+{"ts": "2026-05-02T16:59:14.565054", "msg": "    T9 user: Still.\" Because once you breathe and pause, you need to remember it's okay to ju\u2026"}
+{"ts": "2026-05-02T16:59:15.995390", "msg": "    T9 maya: \"Still\" is a gentle but powerful word \u2014 it gives the mind a safe place to rest. \u2026"}
+{"ts": "2026-05-02T16:59:16.768633", "msg": "    T10 user: The last time I truly let myself be still was maybe two weeks ago, when I took a\u2026"}
+{"ts": "2026-05-02T16:59:18.146836", "msg": "    T10 maya: That walk sounds like a quiet rebellion, a small but necessary act of self-care.\u2026"}
+{"ts": "2026-05-02T16:59:18.855532", "msg": "    T11 user: Evenings, maybe? After the sun dips and the world feels a little slower. The lig\u2026"}
+{"ts": "2026-05-02T16:59:20.091532", "msg": "    T11 maya: Evenings with that golden light are like nature\u2019s gentle invitation to pause, an\u2026"}
+{"ts": "2026-05-02T16:59:20.796756", "msg": "    T12 user: Mornings are easier for me right now, honestly. It\u2019s like the world gives you a \u2026"}
+{"ts": "2026-05-02T16:59:22.140523", "msg": "    T12 maya: Morning silence is that rare gift, it\u2019s like the world is giving you space to ga\u2026"}
+{"ts": "2026-05-02T16:59:22.930808", "msg": "    T13 user: It was a page from \u201cThe Solitary Cyclist\u201d in Malgudi Days. The main character ju\u2026"}
+{"ts": "2026-05-02T16:59:24.290227", "msg": "    T13 maya: That\u2019s a beautiful thought, the cyclist\u2019s carefree ride becoming a quiet promise\u2026"}
+{"ts": "2026-05-02T16:59:24.953883", "msg": "    T14 user: I think I\u2019ll start my morning with chai and a chapter of Malgudi again, just to \u2026"}
+{"ts": "2026-05-02T16:59:26.132449", "msg": "    T14 maya: You\u2019re very welcome \u2014 I\u2019m here whenever you want to practice or just chat. That \u2026"}
+{"ts": "2026-05-02T16:59:28.549226", "msg": "    saved \u2192 22_B12_consec_d11.json  (33.3s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:59:28.549438", "msg": "[23/50] B13_consec_d12                  Aarti       today=2026-05-13  turns=8  mood=chatty, in a good mood"}
+{"ts": "2026-05-02T16:59:29.713983", "msg": "    T1 maya: Hi Aarti, that presentation challenge sounds tough , I get that pressure. Did yo\u2026"}
+{"ts": "2026-05-02T16:59:30.377505", "msg": "    T2 user: Thanks, Maya! This time I practiced deep breathing before the presentation. It h\u2026"}
+{"ts": "2026-05-02T16:59:31.556812", "msg": "    T2 maya: \"Deep breathing is a great start. That Marathi phrase is smart \u2014 repetition buil\u2026"}
+{"ts": "2026-05-02T16:59:32.227259", "msg": "    T3 user: Hmm, I think both help. When I prepare well, I feel more in control, but if I on\u2026"}
+{"ts": "2026-05-02T16:59:37.600771", "msg": "    T3 maya: Nice ,  mixing prep and positive talk is smart. That line about your voice, it\u2019s\u2026"}
+{"ts": "2026-05-02T16:59:38.253029", "msg": "    T4 user: Honestly, it's scary when my mind goes blank. I try to pause, take a breath, and\u2026"}
+{"ts": "2026-05-02T16:59:39.650619", "msg": "    T4 maya: I get that \u2014 it\u2019s normal to feel scared. Pausing and adding a joke is very smart\u2026"}
+{"ts": "2026-05-02T16:59:40.263325", "msg": "    T5 user: Maybe I can practice speaking in front of a small group of friends more often. I\u2026"}
+{"ts": "2026-05-02T16:59:41.435462", "msg": "    T5 maya: Practicing with friends or recording yourself is a great idea,  both help you fe\u2026"}
+{"ts": "2026-05-02T16:59:42.005195", "msg": "    T6 user: I think I'll start with recording myself. It's easier and I can do it alone. Plu\u2026"}
+{"ts": "2026-05-02T16:59:43.231555", "msg": "    T6 maya: Recording first makes sense, it\u2019s low pressure but powerful. Adding your roommat\u2026"}
+{"ts": "2026-05-02T16:59:43.796959", "msg": "    T7 user: I usually imagine my professors or classmates. Sometimes I even picture my dog, \u2026"}
+{"ts": "2026-05-02T16:59:45.180501", "msg": "    T7 maya: Picturing professors is smart \u2014 they\u2019re used to presentations! And the dog, that\u2026"}
+{"ts": "2026-05-02T16:59:46.105760", "msg": "    T8 user: I think mixing both helps. For real presentations, I try to focus on familiar fa\u2026"}
+{"ts": "2026-05-02T16:59:47.330526", "msg": "    T8 maya: You're very welcome! Recording yourself today is a great start \u2014 and plants and \u2026"}
+{"ts": "2026-05-02T16:59:47.330759", "msg": "    \u2192 wrap-up detected at turn 8"}
+{"ts": "2026-05-02T16:59:49.014569", "msg": "    saved \u2192 23_B13_consec_d12.json  (20.5s, librarian=ok)\n"}
+{"ts": "2026-05-02T16:59:49.014805", "msg": "[24/50] B14_consec_d13                  Aarti       today=2026-05-14  turns=12  mood=hopeful, made some progress on a goal"}
+{"ts": "2026-05-02T16:59:50.297866", "msg": "    T1 maya: Aarti, I love how you're trying new methods like recording yourself \u2014 that's a s\u2026"}
+{"ts": "2026-05-02T16:59:50.862410", "msg": "    T2 user: Yes, it was better. I could speak for 5 minutes straight. But I still make mista\u2026"}
+{"ts": "2026-05-02T16:59:52.023955", "msg": "    T2 maya: Five minutes straight is a win \u2014 small steps build big confidence. Cooking dal m\u2026"}
+{"ts": "2026-05-02T16:59:52.633446", "msg": "    T3 user: I added some Kashmiri red kidney beans and used home-made butter. Tasted richer!\u2026"}
+{"ts": "2026-05-02T16:59:53.781739", "msg": "    T3 maya: \"Home-made butter and Kashmiri kidney beans sound delicious \u2014 you\u2019re really maki\u2026"}
+{"ts": "2026-05-02T16:59:54.388807", "msg": "    T4 user: I keep my phone in another room, but sometimes I forget and bring it. Maybe I sh\u2026"}
+{"ts": "2026-05-02T16:59:55.528314", "msg": "    T4 maya: You\u2019re on the right track with your \"no phone\" rule \u2014 consistency is key. Exams \u2026"}
+{"ts": "2026-05-02T16:59:56.162300", "msg": "    T5 user: It\u2019s working a bit, but I still check my phone out of habit. Maybe I need a remi\u2026"}
+{"ts": "2026-05-02T16:59:59.494835", "msg": "    T5 maya: A sticky note reminder is a smart idea. Habits take time to stick. It's a balanc\u2026"}
+{"ts": "2026-05-02T17:00:02.116745", "msg": "    T6 user: I feel calmer, maybe. And I\u2019m noticing more \u2014 like the smell of spices, or the m\u2026"}
+{"ts": "2026-05-02T17:00:03.198118", "msg": "    T6 maya: You're finding peace in little things \u2014 that's a good sign. Worry about missing \u2026"}
+{"ts": "2026-05-02T17:00:03.813172", "msg": "    T7 user: A post about a new revision timetable went viral in my study group yesterday. I \u2026"}
+{"ts": "2026-05-02T17:00:05.147034", "msg": "    T7 maya: FOMO is tough, especially when everyone\u2019s sharing wins. But your wins matter too\u2026"}
+{"ts": "2026-05-02T17:00:05.774771", "msg": "    T8 user: Maybe I can check my phone once an hour for 5 minutes only. Like, set a timer so\u2026"}
+{"ts": "2026-05-02T17:00:06.892868", "msg": "    T8 maya: That sounds like a smart plan \u2014 set time, not endless scrolling. It\u2019s okay to as\u2026"}
+{"ts": "2026-05-02T17:00:07.500996", "msg": "    T9 user: I\u2019ll try to read more books \u2014 maybe that Marathi novel I bought but haven\u2019t open\u2026"}
+{"ts": "2026-05-02T17:00:08.730178", "msg": "    T9 maya: Reading that Marathi novel sounds like a treat, and quiet time is a win worth ho\u2026"}
+{"ts": "2026-05-02T17:00:09.374772", "msg": "    T10 user: It\u2019s about a young woman finding her voice in a traditional family \u2014 sounds like\u2026"}
+{"ts": "2026-05-02T17:00:10.607259", "msg": "    T10 maya: You\u2019re very welcome \u2014 that sounds like a beautiful escape. A story about finding\u2026"}
+{"ts": "2026-05-02T17:00:11.250156", "msg": "    T11 user: It\u2019s okay, some days I feel like I\u2019m getting it and others... not so much. Today\u2026"}
+{"ts": "2026-05-02T17:00:12.622897", "msg": "    T11 maya: That\u2019s completely normal, learning is a wave. Making notes can help, but so does\u2026"}
+{"ts": "2026-05-02T17:00:13.406508", "msg": "    T12 user: The part about drug interactions made sense \u2014 like how certain antibiotics mess \u2026"}
+{"ts": "2026-05-02T17:00:14.672625", "msg": "    T12 maya: You\u2019re doing great \u2014 diagrams and charts are smart tools. Half-life calculations\u2026"}
+{"ts": "2026-05-02T17:00:17.598306", "msg": "    saved \u2192 24_B14_consec_d13.json  (28.6s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:00:17.598534", "msg": "[25/50] B15_consec_d14                  Aarti       today=2026-05-15  turns=6  mood=preoccupied, half-distracted"}
+{"ts": "2026-05-02T17:00:18.967111", "msg": "    T1 maya: Hi Aarti, I'm Miss Maya. The smell of home-made butter and Kashmiri beans in the\u2026"}
+{"ts": "2026-05-02T17:00:19.625368", "msg": "    T2 user: Oh yeah, I tried it last night! The beans were so soft, but I added a bit too mu\u2026"}
+{"ts": "2026-05-02T17:00:20.901730", "msg": "    T2 maya: Right ,  beans that soft are a win. Salt happens when the mind's split. What\u2019s y\u2026"}
+{"ts": "2026-05-02T17:00:21.538016", "msg": "    T3 user: I just run through a few deep breaths, sometimes even hum a bit of classical mus\u2026"}
+{"ts": "2026-05-02T17:00:24.705721", "msg": "    T3 maya: That works ,  one question at a time is steady. Humming Shringar Kamal? A nice t\u2026"}
+{"ts": "2026-05-02T17:00:27.463979", "msg": "    T4 user: The mock\u2026 hmm. I think it went ok. Some sections I felt good about, others, well\u2026"}
+{"ts": "2026-05-02T17:00:28.707363", "msg": "    T4 maya: \"Chalne mein hi jeet hai\" \u2014 true. A mock is a run, not a finish line. Clinical c\u2026"}
+{"ts": "2026-05-02T17:00:29.313218", "msg": "    T5 user: It was a case on cardiac arrhythmias. The ECG details confused me. I read the qu\u2026"}
+{"ts": "2026-05-02T17:00:30.558513", "msg": "    T5 maya: Clinical cases freeze when stress hits ,  normal. ECGs are tricky, but you\u2019ll ge\u2026"}
+{"ts": "2026-05-02T17:00:31.344455", "msg": "    T6 user: The question mentioned a wide complex tachycardia, and I couldn\u2019t decide between\u2026"}
+{"ts": "2026-05-02T17:00:32.487471", "msg": "    T6 maya: Clinical cases freeze when stress hits ,  normal. ECGs are tricky, but you\u2019ll ge\u2026"}
+{"ts": "2026-05-02T17:00:35.639538", "msg": "    saved \u2192 25_B15_consec_d14.json  (18.0s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:00:35.639774", "msg": "[26/50] C01_sporadic_d0                 Rohan       today=2026-05-01  turns=6  mood=content, decent day at work"}
+{"ts": "2026-05-02T17:00:36.582803", "msg": "    T1 maya: Hi Rohan, I'm Miss Maya. It's great to meet you, I'm looking forward to our chat\u2026"}
+{"ts": "2026-05-02T17:00:37.152757", "msg": "    T2 user: Hey Miss Maya! Nice to meet you too. My day was good, lot of paper work at bank \u2026"}
+{"ts": "2026-05-02T17:00:38.322445", "msg": "    T2 maya: \"Nice to meet you too! Paperwork can be a grind, glad it was manageable. *Poran*\u2026"}
+{"ts": "2026-05-02T17:00:38.966700", "msg": "    T3 user: The action scene with Dev and Mithun... so intense! And the way they showed the \u2026"}
+{"ts": "2026-05-02T17:00:40.169212", "msg": "    T3 maya: You said 'maybe because my English...' \u2014 got it, that's a common hurdle! The vil\u2026"}
+{"ts": "2026-05-02T17:00:40.887559", "msg": "    T4 user: Dev! He is so versatile. From *Khoka 420* to *Bhooter Bhabishyat*, he can do eve\u2026"}
+{"ts": "2026-05-02T17:00:41.886410", "msg": "    T4 maya: Got it \u2014 Dev\u2019s range is impressive! Learning English from Hollywood is fun, but \u2026"}
+{"ts": "2026-05-02T17:00:42.590810", "msg": "    T5 user: I said \"He is a *good* actor\" but it came out \"He is a *godd* actor\". My accent,\u2026"}
+{"ts": "2026-05-02T17:00:43.771530", "msg": "    T5 maya: You said \"godd\" \u2014 small fix, we say \"good.\" Penalty kicks sound exciting! I enjo\u2026"}
+{"ts": "2026-05-02T17:00:44.440839", "msg": "    T6 user: Hmm, I like action and comedy. Maybe *Inception* for action \u2014 that movie is *min\u2026"}
+{"ts": "2026-05-02T17:00:45.613705", "msg": "    T6 maya: I get that, Inception is wild, and The Hangover is hilarious. Drama fans are alw\u2026"}
+{"ts": "2026-05-02T17:00:45.613807", "msg": "    \u2192 wrap-up detected at turn 6"}
+{"ts": "2026-05-02T17:00:46.777364", "msg": "    !! librarian error: [Errno 2] No such file or directory: '/Users/priyansh/Downloads/peerup-prototype/memory_store/_eval_50/_pending_merges/rohan_20260502T170046.json'"}
+{"ts": "2026-05-02T17:00:46.778984", "msg": "    saved \u2192 26_C01_sporadic_d0.json  (11.1s, librarian=FAIL)\n"}
+{"ts": "2026-05-02T17:00:46.779171", "msg": "[27/50] C02_sporadic_d9                 Rohan       today=2026-05-10  turns=12  mood=neutral, ordinary day"}
+{"ts": "2026-05-02T17:00:49.697849", "msg": "    T1 maya: Hi Rohan, I'm Miss Maya. I enjoy helping people practice English in a friendly w\u2026"}
+{"ts": "2026-05-02T17:00:52.253410", "msg": "    T2 user: Hi Miss Maya, nice to meet you. My day was normal, just studied for bank exam. D\u2026"}
+{"ts": "2026-05-02T17:00:53.290658", "msg": "    T2 maya: That sounds balanced. Football after study is a nice way to unwind. What part of\u2026"}
+{"ts": "2026-05-02T17:00:53.830755", "msg": "    T3 user: Mainly the English section. It\u2019s hard to improve my speed and accuracy. Also, so\u2026"}
+{"ts": "2026-05-02T17:00:54.895665", "msg": "    T3 maya: You're not alone in finding the English section tough. Speed and grammar do take\u2026"}
+{"ts": "2026-05-02T17:00:55.425629", "msg": "    T4 user: Tenses are the main problem for me. Like, when to use past perfect or present co\u2026"}
+{"ts": "2026-05-02T17:00:56.501869", "msg": "    T4 maya: Tenses and prepositions can be tricky. For tenses, focus on the time frame first\u2026"}
+{"ts": "2026-05-02T17:00:57.033758", "msg": "    T5 user: Practice with real-life examples helps me a lot. Like, when I watch Bengali movi\u2026"}
+{"ts": "2026-05-02T17:00:58.064226", "msg": "    T5 maya: Tracking progress can be simple. Keep a journal of mistakes and review it weekly\u2026"}
+{"ts": "2026-05-02T17:00:58.667680", "msg": "    T6 user: I think I\u2019m pretty good with vocabulary now. I can read comprehension fast and u\u2026"}
+{"ts": "2026-05-02T17:00:59.741047", "msg": "    T6 maya: Got it. Writing practice can really help \u2014 short, focused paragraphs are a great\u2026"}
+{"ts": "2026-05-02T17:01:00.358500", "msg": "    T7 user: My favorite football team is Mohun Bagan. They are a big club in Kolkata, and I \u2026"}
+{"ts": "2026-05-02T17:01:01.462264", "msg": "    T7 maya: Football is such a thrilling game. Mohun Bagan\u2019s passion and history must make t\u2026"}
+{"ts": "2026-05-02T17:01:02.183020", "msg": "    T8 user: The most exciting moment was when they scored a last-minute goal. The stadium we\u2026"}
+{"ts": "2026-05-02T17:01:03.196686", "msg": "    T8 maya: Yes, that\u2019s a great idea. A last-minute goal builds such a rush of energy. Go ah\u2026"}
+{"ts": "2026-05-02T17:01:03.720165", "msg": "    T9 user: Ok, I\u2019ll try to write a paragraph. Let me start with: \"Watching Mohun Bagan scor\u2026"}
+{"ts": "2026-05-02T17:01:04.949683", "msg": "    T9 maya: You're doing great \u2014 and you're right. It should be \"one of the most exciting ex\u2026"}
+{"ts": "2026-05-02T17:01:05.548344", "msg": "    T10 user: Next I want to describe the atmosphere in the stadium. Let me try: \"The whole st\u2026"}
+{"ts": "2026-05-02T17:01:06.554915", "msg": "    T10 maya: You're spot-on \u2014 it's \"on their seats.\" Here's your sentence with the tweak: \"Th\u2026"}
+{"ts": "2026-05-02T17:01:07.100073", "msg": "    T11 user: Next, I want to talk about how I felt. Let me try: \"I could feel the energy in t\u2026"}
+{"ts": "2026-05-02T17:01:08.206448", "msg": "    T11 maya: You're doing well, and \"from excitement\" is correct here. Your sentence reads na\u2026"}
+{"ts": "2026-05-02T17:01:08.839837", "msg": "    T12 user: For the last sentence, I want to say something like: \"It was a moment I will nev\u2026"}
+{"ts": "2026-05-02T17:01:09.927583", "msg": "    T12 maya: That\u2019s a strong closing. \"Moment\" works well here since it refers to a single, v\u2026"}
+{"ts": "2026-05-02T17:01:11.284795", "msg": "    saved \u2192 27_C02_sporadic_d9.json  (24.5s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:01:11.284988", "msg": "[28/50] C03_sporadic_d19                Rohan       today=2026-05-20  turns=6  mood=frustrated about a small thing today"}
+{"ts": "2026-05-02T17:01:14.573075", "msg": "    T1 maya: Hi Rohan, last-minute goals are the best kind , you were there for Mohun Bagan\u2019s\u2026"}
+{"ts": "2026-05-02T17:01:17.299496", "msg": "    T2 user: Yeah, that goal was unreal! The striker got the ball from a cross, just outside \u2026"}
+{"ts": "2026-05-02T17:01:18.511671", "msg": "    T2 maya: That goal was something else. Screaming with joy in your room \u2014 I get that. Inte\u2026"}
+{"ts": "2026-05-02T17:01:19.273850", "msg": "    T3 user: Yeah, I finally did it \u2014 about five minutes before the deadline! Stupid internet\u2026"}
+{"ts": "2026-05-02T17:01:20.411128", "msg": "    T3 maya: You barely made it \u2014 what a nail-biter! Mohun Bagan games again? That\u2019s a big de\u2026"}
+{"ts": "2026-05-02T17:01:21.069410", "msg": "    T4 user: I think I wanna see the first half \u2014 maybe they had a good build-up play. I was \u2026"}
+{"ts": "2026-05-02T17:01:22.254399", "msg": "    T4 maya: The first half, looking for the build-up play makes total sense. Photos not focu\u2026"}
+{"ts": "2026-05-02T17:01:23.084150", "msg": "    T5 user: Yeah, only a couple of blurry ones. One of the players was smiling at the camera\u2026"}
+{"ts": "2026-05-02T17:01:24.509130", "msg": "    T5 maya: Football is a thrill . I get why it\u2019s your favorite over cricket! A player smili\u2026"}
+{"ts": "2026-05-02T17:01:25.426470", "msg": "    T6 user: Honestly, it\u2019s the energy \u2014 when the crowd is going wild, and the players are gi\u2026"}
+{"ts": "2026-05-02T17:01:26.658550", "msg": "    T6 maya: The energy of a live football match is something special \u2014 it really pulls you i\u2026"}
+{"ts": "2026-05-02T17:01:26.658670", "msg": "    \u2192 wrap-up detected at turn 6"}
+{"ts": "2026-05-02T17:01:27.577050", "msg": "    saved \u2192 28_C03_sporadic_d19.json  (16.3s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:01:27.577257", "msg": "[29/50] C04_sporadic_d31                Rohan       today=2026-06-01  turns=8  mood=chatty, in a good mood"}
+{"ts": "2026-05-02T17:01:28.705722", "msg": "    T1 maya: Hi Rohan, the excitement of a last-minute goal is unmatched, isn't it? How did y\u2026"}
+{"ts": "2026-05-02T17:01:29.214691", "msg": "    T2 user: It was like a dream! My heart was beating so fast. I screamed \"Goal!\" and jumped\u2026"}
+{"ts": "2026-05-02T17:01:30.557018", "msg": "    T2 maya: \"Like a dream\" \u2014 love that phrase. That must have been a wild moment. You said \"\u2026"}
+{"ts": "2026-05-02T17:01:31.147945", "msg": "    T3 user: With my friends at a small caf\u00e9 near my office. We had ordered snacks and tea, b\u2026"}
+{"ts": "2026-05-02T17:01:32.292304", "msg": "    T3 maya: The goal dance joke \u2014 classic! I like how lively football brings people together\u2026"}
+{"ts": "2026-05-02T17:01:32.997817", "msg": "    T4 user: Yes, I watch a lot of matches. Mostly my team's games, of course! Sometimes I mi\u2026"}
+{"ts": "2026-05-02T17:01:34.132521", "msg": "    T4 maya: I get that \u2014 Messi has that kind of magic. The way he makes it look easy is some\u2026"}
+{"ts": "2026-05-02T17:01:34.853716", "msg": "    T5 user: I follow mostly the Premier League and La Liga because they have so many good te\u2026"}
+{"ts": "2026-05-02T17:01:36.079138", "msg": "    T5 maya: Barcelona and Messi \u2014 a classic combo. It\u2019s fun how a team grows with a star lik\u2026"}
+{"ts": "2026-05-02T17:01:36.777866", "msg": "    T6 user: Maybe one day, but they have a long way to go. The facilities, money, and talent\u2026"}
+{"ts": "2026-05-02T17:01:40.072231", "msg": "    T6 maya: You said 'they have a long way to go' \u2014 excellent phrasing. The fan excitement i\u2026"}
+{"ts": "2026-05-02T17:01:42.867882", "msg": "    T7 user: My go-to snack is definitely chilly paneer and samosas with tea. I like to have \u2026"}
+{"ts": "2026-05-02T17:01:44.271710", "msg": "    T7 maya: Chilly paneer and samosas \u2014 perfect game-time combo. Spicy and hot, just like th\u2026"}
+{"ts": "2026-05-02T17:01:45.079726", "msg": "    T8 user: The most exciting goal I\u2019ve seen? Hmm\u2026 Probably Messi\u2019s bicycle kick against Get\u2026"}
+{"ts": "2026-05-02T17:01:46.229788", "msg": "    T8 maya: You said \"one of those moments\" \u2014 that\u2019s a great way to put it! That Messi goal \u2026"}
+{"ts": "2026-05-02T17:01:46.229972", "msg": "    \u2192 wrap-up detected at turn 8"}
+{"ts": "2026-05-02T17:01:47.896840", "msg": "    saved \u2192 29_C04_sporadic_d31.json  (20.3s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:01:47.897065", "msg": "[30/50] C05_sporadic_d38                Rohan       today=2026-06-08  turns=12  mood=lonely, wanting to talk"}
+{"ts": "2026-05-02T17:01:48.999497", "msg": "    T1 maya: Hi Rohan, I hope your internet connection is more stable today! How is your bank\u2026"}
+{"ts": "2026-05-02T17:01:49.593995", "msg": "    T2 user: Hi Maya! Thank you, it's better now. Preps are going slowly but I try my best. B\u2026"}
+{"ts": "2026-05-02T17:01:50.679871", "msg": "    T2 maya: Hope your internet connection is more stable today! How is your bank exam prep g\u2026"}
+{"ts": "2026-05-02T17:01:51.388361", "msg": "    T3 user: Exam prep is okay, some days I study a lot, other days I get distracted. Like ye\u2026"}
+{"ts": "2026-05-02T17:01:52.566613", "msg": "    T3 maya: Got it, study and distraction is a normal mix. Prosenjit is a true *badshah* \u2014 h\u2026"}
+{"ts": "2026-05-02T17:01:53.273202", "msg": "    T4 user: I watched *Shonar Baitasha*. The story is a bit sad but the music and visuals ar\u2026"}
+{"ts": "2026-05-02T17:01:54.511373", "msg": "    T4 maya: Shonar Baitasha sounds beautiful \u2014 the music and visuals are a big part of the m\u2026"}
+{"ts": "2026-05-02T17:01:55.191125", "msg": "    T5 user: Thanks for the clarification, I get it now. I will try to use both versions. Oh,\u2026"}
+{"ts": "2026-05-02T17:01:56.435978", "msg": "    T5 maya: I get that ,  sunset photos are always worth sharing. Loneliness is heavy to car\u2026"}
+{"ts": "2026-05-02T17:01:57.194409", "msg": "    T6 user: The heaviest part is maybe the silence \u2014 when no one is around to chat. Like now\u2026"}
+{"ts": "2026-05-02T17:01:58.506395", "msg": "    T6 maya: Silence can feel heavy, I get that. You\u2019re not alone here. Both \u201cI feel lonely\u201d \u2026"}
+{"ts": "2026-05-02T17:01:59.256848", "msg": "    T7 user: Right now, \"I am feeling lonely\" sounds better \u2014 it feels like this moment is te\u2026"}
+{"ts": "2026-05-02T17:02:00.371773", "msg": "    T7 maya: \"Labkhobor\" \u2014 I like that word. Sometimes even when we talk, we just need to be \u2026"}
+{"ts": "2026-05-02T17:02:01.183536", "msg": "    T8 user: When I feel heard, it's usually when someone asks me about my photos or my footb\u2026"}
+{"ts": "2026-05-02T17:02:04.386287", "msg": "    T8 maya: Max is a good listener \u2014 better than some people! Posting photos online can help\u2026"}
+{"ts": "2026-05-02T17:02:07.076250", "msg": "    T9 user: I mostly take nature photos \u2014 sunsets, parks, rivers. Sometimes I take portraits\u2026"}
+{"ts": "2026-05-02T17:02:08.436379", "msg": "    T9 maya: You can say both \u2014 I take photos for general talk, and I take a photo for a sing\u2026"}
+{"ts": "2026-05-02T17:02:09.296107", "msg": "    T10 user: These days I\u2019m trying to take more sunset photos \u2014 I like the colors and the qui\u2026"}
+{"ts": "2026-05-02T17:02:10.702106", "msg": "    T10 maya: The park and flowers could look stunning together \u2014 soft lighting plus colors! F\u2026"}
+{"ts": "2026-05-02T17:02:11.663589", "msg": "    T11 user: What makes me take a photo is usually the feeling \u2014 like when the light is soft \u2026"}
+{"ts": "2026-05-02T17:02:12.892278", "msg": "    T11 maya: The feeling of calm and connection in a photo is powerful \u2014 you're already captu\u2026"}
+{"ts": "2026-05-02T17:02:12.892367", "msg": "    \u2192 wrap-up detected at turn 11"}
+{"ts": "2026-05-02T17:02:14.396874", "msg": "    saved \u2192 30_C05_sporadic_d38.json  (26.5s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:02:14.397065", "msg": "[31/50] C06_sporadic_d46                Rohan       today=2026-06-16  turns=8  mood=tired, slept badly"}
+{"ts": "2026-05-02T17:02:15.601471", "msg": "    T1 maya: Hi Rohan, I'm Miss Maya. I like watching football matches that are close to home\u2026"}
+{"ts": "2026-05-02T17:02:16.116057", "msg": "    T2 user: Hi Miss Maya, exams are stressful, but I try my best. I like watching football t\u2026"}
+{"ts": "2026-05-02T17:02:17.241677", "msg": "    T2 maya: I get that,  close matches and exams both keep you up. Did you stay up to see th\u2026"}
+{"ts": "2026-05-02T17:02:17.822053", "msg": "    T3 user: Yes, I stayed up late to watch the match end. It was 2-2 in the end, very exciti\u2026"}
+{"ts": "2026-05-02T17:02:19.142751", "msg": "    T3 maya: You stayed up for the full match, that\u2019s dedication! \"Kheyal tosh\" sounds like a\u2026"}
+{"ts": "2026-05-02T17:02:19.812124", "msg": "    T4 user: Actually, \"kheyal tosh\" is a Bengali phrase meaning \"without energy\" or \"tired o\u2026"}
+{"ts": "2026-05-02T17:02:21.016582", "msg": "    T4 maya: You explained it perfectly \u2014 I get that mix of happiness and sadness when a matc\u2026"}
+{"ts": "2026-05-02T17:02:21.553997", "msg": "    T5 user: Yes, there was another match yesterday, but I didn't watch it. I was too tired a\u2026"}
+{"ts": "2026-05-02T17:02:22.877001", "msg": "    T5 maya: You're doing great, and I get the priority of rest \u2014 football can wait when you'\u2026"}
+{"ts": "2026-05-02T17:02:23.679073", "msg": "    T6 user: I'm cheering for Mohun Bagan, they are my favorite team. I feel proud when they \u2026"}
+{"ts": "2026-05-02T17:02:24.809501", "msg": "    T6 maya: You said Mohun Bagan is your pride \u2014 that makes sense. I get how a draw still ho\u2026"}
+{"ts": "2026-05-02T17:02:25.398252", "msg": "    T7 user: My day was okay, but I\u2019m tired too, maybe because of work. I didn\u2019t get much don\u2026"}
+{"ts": "2026-05-02T17:02:26.766114", "msg": "    T7 maya: You didn\u2019t get much done \u2014 I get that, work and tired days don\u2019t mix well. Benga\u2026"}
+{"ts": "2026-05-02T17:02:27.484879", "msg": "    T8 user: When I feel too tired, I just lie down and watch some football highlights. It ma\u2026"}
+{"ts": "2026-05-02T17:02:32.808889", "msg": "    T8 maya: Rest is the best plan when even thinking feels heavy, take it easy, Rohan. Footb\u2026"}
+{"ts": "2026-05-02T17:02:32.808991", "msg": "    \u2192 wrap-up detected at turn 8"}
+{"ts": "2026-05-02T17:02:34.150797", "msg": "    !! librarian error: [Errno 2] No such file or directory: '/Users/priyansh/Downloads/peerup-prototype/memory_store/_eval_50/_pending_merges/rohan_20260502T170234.json'"}
+{"ts": "2026-05-02T17:02:34.154707", "msg": "    saved \u2192 31_C06_sporadic_d46.json  (19.8s, librarian=FAIL)\n"}
+{"ts": "2026-05-02T17:02:34.154868", "msg": "[32/50] C07_sporadic_d51                Rohan       today=2026-06-21  turns=6  mood=lonely, wanting to talk"}
+{"ts": "2026-05-02T17:02:35.364519", "msg": "    T1 maya: Hi Rohan, I'm your English chat partner. I like tea, by the way \u2014 what's your go\u2026"}
+{"ts": "2026-05-02T17:02:35.932169", "msg": "    T2 user: I usually drink tea too, but sometimes coffee. Tea keeps me calm, coffee gives m\u2026"}
+{"ts": "2026-05-02T17:02:37.107137", "msg": "    T2 maya: I like tea too \u2014 it just feels right in the afternoon. Football breaks sound lik\u2026"}
+{"ts": "2026-05-02T17:02:37.653227", "msg": "    T3 user: I follow Real Madrid mostly, but I also like Barcelona. In India, people love *M\u2026"}
+{"ts": "2026-05-02T17:02:38.953067", "msg": "    T3 maya: You said, \u201cReal Madrid mostly, but Barcelona\u201d \u2014 nice contrast! Football is defin\u2026"}
+{"ts": "2026-05-02T17:02:39.501994", "msg": "    T4 user: I like the teamwork the most. When players pass the ball so well, it feels like \u2026"}
+{"ts": "2026-05-02T17:02:40.687449", "msg": "    T4 maya: You said \"make my heart jump\" \u2014 that\u2019s such a vivid way to put it! Teamwork as a\u2026"}
+{"ts": "2026-05-02T17:02:41.379805", "msg": "    T5 user: I take photos mostly for their expressions, like when they smile after scoring a\u2026"}
+{"ts": "2026-05-02T17:02:42.741525", "msg": "    T5 maya: You said \"look like stars\" \u2014 that\u2019s a perfect phrase! I get that \u2014 movie actors \u2026"}
+{"ts": "2026-05-02T17:02:43.356187", "msg": "    T6 user: I go to watch Bengali movies on the big screen when they come out \u2014 it\u2019s more fu\u2026"}
+{"ts": "2026-05-02T17:02:44.473587", "msg": "    T6 maya: You said \"more fun\" \u2014 and that\u2019s exactly right. Big screens do make everything f\u2026"}
+{"ts": "2026-05-02T17:02:44.473693", "msg": "    \u2192 wrap-up detected at turn 6"}
+{"ts": "2026-05-02T17:02:46.047664", "msg": "    saved \u2192 32_C07_sporadic_d51.json  (11.9s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:02:46.047848", "msg": "[33/50] C08_sporadic_d60                Rohan       today=2026-06-30  turns=8  mood=neutral, ordinary day"}
+{"ts": "2026-05-02T17:02:47.244689", "msg": "    T1 maya: Hi Rohan, the excitement of a last-minute goal is unforgettable, did something l\u2026"}
+{"ts": "2026-05-02T17:02:47.856551", "msg": "    T2 user: Not really, but last weekend, my favorite team, Mohun Bagan, scored a last-minut\u2026"}
+{"ts": "2026-05-02T17:02:48.859284", "msg": "    T2 maya: \"Nice, Mohun Bagan pulling it off at the end is always a rush. Football moments \u2026"}
+{"ts": "2026-05-02T17:02:49.440450", "msg": "    T3 user: Yeah, sometimes I watch English Premier League matches, specially Manchester Uni\u2026"}
+{"ts": "2026-05-02T17:02:50.729801", "msg": "    T3 maya: Manchester United and Mohun Bagan \u2014 both have that same edge. Football chats wit\u2026"}
+{"ts": "2026-05-02T17:02:51.382707", "msg": "    T4 user: I recommend watching *Bhooter Bhai* or *Autograph*. They are super popular and f\u2026"}
+{"ts": "2026-05-02T17:02:52.648479", "msg": "    T4 maya: Bhooter Bhai and Autograph sound fun, I\u2019ll take your word for it! Chotoder Chobi\u2026"}
+{"ts": "2026-05-02T17:02:53.219764", "msg": "    T5 user: My favorite shot is when the player is about to score a goal. The tension in the\u2026"}
+{"ts": "2026-05-02T17:02:58.512497", "msg": "    T5 maya: The tension before a goal is electric, I'm catching emotions mid-air! Close-ups \u2026"}
+{"ts": "2026-05-02T17:02:59.400835", "msg": "    T6 user: Yeah, I sometimes share on Instagram \u2014 mostly with #MohunBagan or #ISL tags. The\u2026"}
+{"ts": "2026-05-02T17:03:00.745900", "msg": "    T6 maya: Instagram is a great space for that energy,  raw emotion and a win are hard to b\u2026"}
+{"ts": "2026-05-02T17:03:01.548470", "msg": "    T7 user: My friend loved the moment when the player made a solo run from midfield and sco\u2026"}
+{"ts": "2026-05-02T17:03:02.914747", "msg": "    T7 maya: Eita dekho moments are the best ,  they stay with you forever. That solo run mus\u2026"}
+{"ts": "2026-05-02T17:03:02.914867", "msg": "    \u2192 wrap-up detected at turn 7"}
+{"ts": "2026-05-02T17:03:04.698938", "msg": "    saved \u2192 33_C08_sporadic_d60.json  (18.6s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:03:04.699098", "msg": "[34/50] C09_sporadic_d68                Rohan       today=2026-07-08  turns=12  mood=hopeful, made some progress on a goal"}
+{"ts": "2026-05-02T17:03:05.996482", "msg": "    T1 maya: Hi Rohan, the ,comma  goal dance, comma joke still makes me smile ,comma such a \u2026"}
+{"ts": "2026-05-02T17:03:06.738069", "msg": "    T2 user: It's going well, thank you! I study mostly in the evenings. Today I even solve 3\u2026"}
+{"ts": "2026-05-02T17:03:07.930540", "msg": "    T2 maya: Yes, Prosenjit is a big star, he has so many great movies. Solving 30 more quest\u2026"}
+{"ts": "2026-05-02T17:03:08.476387", "msg": "    T3 user: Quantative aptitude, definitely. I am good with numbers, maybe because I keep tr\u2026"}
+{"ts": "2026-05-02T17:03:09.747744", "msg": "    T3 maya: You're doing great, tracking sports stats builds a strong number sense. For comp\u2026"}
+{"ts": "2026-05-02T17:03:10.286861", "msg": "    T4 user: I think reading slowly helps me understand better. But sometimes I lose interest\u2026"}
+{"ts": "2026-05-02T17:03:11.305243", "msg": "    T4 maya: Reading slowly builds understanding\u2014good choice. To improve vocabulary, try lear\u2026"}
+{"ts": "2026-05-02T17:03:11.856232", "msg": "    T5 user: Today I learned the word \"perspective.\" I saw it in a movie review. But I am not\u2026"}
+{"ts": "2026-05-02T17:03:13.155559", "msg": "    T5 maya: Perspective is a great word \u2014 here's an example: \"Watching from the stands gives\u2026"}
+{"ts": "2026-05-02T17:03:13.856135", "msg": "    T6 user: Real Madrid won 2-0. It was a great game\u2014Cristiano Ronaldo scored both goals! I \u2026"}
+{"ts": "2026-05-02T17:03:14.911814", "msg": "    T6 maya: Yes, that's correct \u2014 well done! A good strategy is key in many situations. Watc\u2026"}
+{"ts": "2026-05-02T17:03:15.461120", "msg": "    T7 user: I want to learn the word \"confident.\" I hear it a lot, but I not sure how to use\u2026"}
+{"ts": "2026-05-02T17:03:16.629491", "msg": "    T7 maya: Confident is a great word ,  here's an example: \"She spoke confidently during th\u2026"}
+{"ts": "2026-05-02T17:03:17.444020", "msg": "    T8 user: I watched \"Mission Impossible: Fallout\"\u2014very exciting! Tom Cruise does all the s\u2026"}
+{"ts": "2026-05-02T17:03:20.869034", "msg": "    T8 maya: You're right \u2014 precise means very exact, great catch! And you're doing so well \u2014\u2026"}
+{"ts": "2026-05-02T17:03:23.659789", "msg": "    T9 user: The stunts, definitely! Especially the one where he jumps off the building and c\u2026"}
+{"ts": "2026-05-02T17:03:24.931619", "msg": "    T9 maya: That sounds like a great plan,  using the words in a paragraph will help a lot. \u2026"}
+{"ts": "2026-05-02T17:03:25.790110", "msg": "    T10 user: The stunts where they do high falls or car chases are the most impressive to me.\u2026"}
+{"ts": "2026-05-02T17:03:26.975698", "msg": "    T10 maya: That\u2019s a perfect idea \u2014 writing about football strategy from a player\u2019s perspect\u2026"}
+{"ts": "2026-05-02T17:03:27.680445", "msg": "    T11 user: Okay, I will write that paragraph tonight\u2014excited to try! The high falls and pla\u2026"}
+{"ts": "2026-05-02T17:03:28.821928", "msg": "    T11 maya: You're welcome, and I'm here whenever you're ready. Safe stunts in your writing!\u2026"}
+{"ts": "2026-05-02T17:03:28.822100", "msg": "    \u2192 wrap-up detected at turn 11"}
+{"ts": "2026-05-02T17:03:30.480261", "msg": "    saved \u2192 34_C09_sporadic_d68.json  (25.8s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:03:30.480442", "msg": "[35/50] C10_sporadic_d80                Rohan       today=2026-07-20  turns=8  mood=neutral, ordinary day"}
+{"ts": "2026-05-02T17:03:31.788485", "msg": "    T1 maya: Hi Rohan, the , perspective and strategy paragraph \u2014 did you get a chance to wri\u2026"}
+{"ts": "2026-05-02T17:03:32.422810", "msg": "    T2 user: Not yet, but I\u2019ll try today. Football is best watched live, na? The energy, the \u2026"}
+{"ts": "2026-05-02T17:03:33.732980", "msg": "    T2 maya: Live matches are pure energy , I get that. The close call yesterday sounds elect\u2026"}
+{"ts": "2026-05-02T17:03:34.407506", "msg": "    T3 user: The last-minute drama is the hardest to describe. My mind is so excited I forget\u2026"}
+{"ts": "2026-05-02T17:03:35.575911", "msg": "    T3 maya: Small fix: \"the player *scored* the goal\" is past tense. You're doing great, jus\u2026"}
+{"ts": "2026-05-02T17:03:36.341676", "msg": "    T4 user: The one against Barcelona at Camp Nou in 2012, maybe? Or that hat-trick in the W\u2026"}
+{"ts": "2026-05-02T17:03:37.490394", "msg": "    T4 maya: \"he scored\" is past tense \u2014 for goals in the past. \"he scores\" is present tense \u2026"}
+{"ts": "2026-05-02T17:03:38.198886", "msg": "    T5 user: The Camp Nou goal in 2012 is my favorite! He scored with so much control, like i\u2026"}
+{"ts": "2026-05-02T17:03:39.880711", "msg": "    T5 maya: The Camp Nou goal was pure art \u2014 you\u2019ve got the tense right now! A trick to reme\u2026"}
+{"ts": "2026-05-02T17:03:40.574832", "msg": "    T6 user: The best part is the atmosphere \u2014 you feel every pass, every cheer. Even if your\u2026"}
+{"ts": "2026-05-02T17:03:41.662434", "msg": "    T6 maya: That stadium feeling is something else \u2014 you captured it well. Past tense goal s\u2026"}
+{"ts": "2026-05-02T17:03:42.234856", "msg": "    T7 user: Yeah, I'll make sure to use \"he scored\" for past goals. It\u2019s easy to mix up, but\u2026"}
+{"ts": "2026-05-02T17:03:45.419078", "msg": "    T7 maya: You're doing great, Rohan. 'He scored' is perfect for past goals. The paragraph \u2026"}
+{"ts": "2026-05-02T17:03:45.419238", "msg": "    \u2192 wrap-up detected at turn 7"}
+{"ts": "2026-05-02T17:03:49.049510", "msg": "    saved \u2192 35_C10_sporadic_d80.json  (18.6s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:03:49.049720", "msg": "[36/50] D01_coldstart_u01_pr            Priyansh    today=2026-05-24  turns=8  mood=hopeful, made some progress on a goal"}
+{"ts": "2026-05-02T17:03:49.978418", "msg": "    T1 maya: Hi Priyansh, I'm Miss Maya. Happy to chat and help you practice English. What's \u2026"}
+{"ts": "2026-05-02T17:03:50.426075", "msg": "    T2 user: Hi Maya, nice to meet you. Today was good, I worked on a project and made some p\u2026"}
+{"ts": "2026-05-02T17:03:51.257789", "msg": "    T2 maya: That sounds fun. Progress and Bollywood \u2014 what movie did you watch?"}
+{"ts": "2026-05-02T17:03:51.756222", "msg": "    T3 user: Kisi Ka Bhai Kisi Ki Jaan,\" a comedy. It was light and good for relaxation. Not \u2026"}
+{"ts": "2026-05-02T17:03:52.618088", "msg": "    T3 maya: \"Kisi Ka Bhai Kisi Ki Jaan\" is a good pick \u2014 comedies are perfect for winding do\u2026"}
+{"ts": "2026-05-02T17:03:53.081723", "msg": "    T4 user: About two or three times a month. It depends on my mood. Sometimes I prefer dram\u2026"}
+{"ts": "2026-05-02T17:03:54.017803", "msg": "    T4 maya: I enjoy Bollywood movies \u2014 they bring a nice mix of music and stories. Dramas or\u2026"}
+{"ts": "2026-05-02T17:03:54.486913", "msg": "    T5 user: Dramas, maybe. I like emotional stories, ya know? But lately, I've been into som\u2026"}
+{"ts": "2026-05-02T17:03:55.397141", "msg": "    T5 maya: Startup stories are interesting \u2014 they mirror the hustle of real life. Which one\u2026"}
+{"ts": "2026-05-02T17:03:56.013114", "msg": "    T6 user: Start-Up\" by Anand Gandhi, a small film but powerful. It\u2019s about a programmer an\u2026"}
+{"ts": "2026-05-02T17:03:56.968408", "msg": "    T6 maya: \"Start-Up\" sounds meaningful \u2014 passion and pressure are universal. I haven\u2019t see\u2026"}
+{"ts": "2026-05-02T17:03:57.580942", "msg": "    T7 user: The part about the programmer working late, alone, with so much on his mind \u2014 it\u2026"}
+{"ts": "2026-05-02T17:03:58.451018", "msg": "    T7 maya: Yes, that sounds powerful \u2014 real moments make the best stories. What goals are y\u2026"}
+{"ts": "2026-05-02T17:03:59.011444", "msg": "    T8 user: Right now, I\u2019m focusing on improving my coding skills and maybe leading a projec\u2026"}
+{"ts": "2026-05-02T17:03:59.888435", "msg": "    T8 maya: You're doing great \u2014 coding and English, both take steady effort. What part of c\u2026"}
+{"ts": "2026-05-02T17:04:01.197801", "msg": "    saved \u2192 36_D01_coldstart_u01_pr.json  (12.1s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:04:01.197972", "msg": "[37/50] D02_coldstart_u02_aa            Aarti       today=2026-05-07  turns=6  mood=anxious, exam stress"}
+{"ts": "2026-05-02T17:04:02.202920", "msg": "    T1 maya: Hi Aarti, I'm Miss Maya. The late afternoon sun feels just right for a chat. How\u2026"}
+{"ts": "2026-05-02T17:04:02.727115", "msg": "    T2 user: Hi Miss Maya! My day was... hmm, stressful. I had a long study session for NEET \u2026"}
+{"ts": "2026-05-02T17:04:03.839750", "msg": "    T2 maya: Studying for NEET PG is intense, I get that. Tea is a great way to pause. What c\u2026"}
+{"ts": "2026-05-02T17:04:04.587681", "msg": "    T3 user: I studied pharmacology all morning. It\u2019s so confusing sometimes\u2014same side effect\u2026"}
+{"ts": "2026-05-02T17:04:05.891935", "msg": "    T3 maya: Pharmacology can feel like a maze, same side effects across drugs, yes. Notes fe\u2026"}
+{"ts": "2026-05-02T17:04:06.640658", "msg": "    T4 user: Mnemonics help a bit, but I forget them quickly. And physiology... I\u2019m stuck on \u2026"}
+{"ts": "2026-05-02T17:04:08.042326", "msg": "    T4 maya: That sounds exhausting, relying on microwave meals after long study hours can de\u2026"}
+{"ts": "2026-05-02T17:04:08.949717", "msg": "    T5 user: The pressure-volume loop confuses me the most. I get the basics, but when it com\u2026"}
+{"ts": "2026-05-02T17:04:14.488805", "msg": "    T5 maya: Pressure-volume loops can be tricky even when you know the basics. It helps to b\u2026"}
+{"ts": "2026-05-02T17:04:15.298883", "msg": "    T6 user: I used to make a quick paneer stir-fry with veggies when I had 10 mins\u2014it was my\u2026"}
+{"ts": "2026-05-02T17:04:16.443805", "msg": "    T6 maya: The paneer stir-fry sounds like the perfect stress less hack \u2013 quick and comfort\u2026"}
+{"ts": "2026-05-02T17:04:16.444047", "msg": "    \u2192 wrap-up detected at turn 6"}
+{"ts": "2026-05-02T17:04:17.814683", "msg": "    saved \u2192 37_D02_coldstart_u02_aa.json  (16.6s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:04:17.814844", "msg": "[38/50] D03_coldstart_u03_ro            Rohan       today=2026-05-08  turns=10  mood=embarrassed about a recent mistake"}
+{"ts": "2026-05-02T17:04:18.806473", "msg": "    T1 maya: Hi Rohan. The light outside feels just right this evening. How was your day?"}
+{"ts": "2026-05-02T17:04:19.302520", "msg": "    T2 user: My day was okay. I had bank exam practice, then watched a football match. My tea\u2026"}
+{"ts": "2026-05-02T17:04:20.429759", "msg": "    T2 maya: That sounds tough , your team losing is a real bummer. The exam prep and the mat\u2026"}
+{"ts": "2026-05-02T17:04:20.947070", "msg": "    T3 user: I watch matches with my friends. We always gather at someone's house. But today,\u2026"}
+{"ts": "2026-05-02T17:04:22.067593", "msg": "    T3 maya: I get that, watching alone is not the same. Forgets happen, but replays are bett\u2026"}
+{"ts": "2026-05-02T17:04:22.646059", "msg": "    T4 user: Yeah, I tried something new today. I made notes on interest calculations and tri\u2026"}
+{"ts": "2026-05-02T17:04:23.801700", "msg": "    T4 maya: You're doing great. Teaching yourself is a smart move. Videos can help clear sma\u2026"}
+{"ts": "2026-05-02T17:04:24.408796", "msg": "    T5 user: The compound interest part confuses me the most. I got the simple interest part,\u2026"}
+{"ts": "2026-05-02T17:04:25.551844", "msg": "    T5 maya: I get that , compound interest can feel like a puzzle. Mixing up the base value \u2026"}
+{"ts": "2026-05-02T17:04:26.125919", "msg": "    T6 user: I used some sample questions from my study book and tried to solve them step by \u2026"}
+{"ts": "2026-05-02T17:04:27.052597", "msg": "    T6 maya: Got it \u2014 writing down the formula first can make a big difference. Friends are g\u2026"}
+{"ts": "2026-05-02T17:04:27.671302", "msg": "    T7 user: Not really, I usually study alone. I get shy asking doubts, even to friends. But\u2026"}
+{"ts": "2026-05-02T17:04:28.929286", "msg": "    T7 maya: I get that ,  studying alone is common, but having someone explain makes tricky \u2026"}
+{"ts": "2026-05-02T17:04:29.810058", "msg": "    T8 user: I added some *gheraine* and a bit of *tadka*, but still felt sad. Maybe I should\u2026"}
+{"ts": "2026-05-02T17:04:30.864750", "msg": "    T8 maya: You're doing great \u2014 talking through it is the first step. Ayan can definitely h\u2026"}
+{"ts": "2026-05-02T17:04:31.414506", "msg": "    T9 user: Maybe make a simple *paneer curry* with roti. I saw a video about it yesterday, \u2026"}
+{"ts": "2026-05-02T17:04:32.807441", "msg": "    T9 maya: Paneer curry with roti sounds delicious you\u2019ll enjoy it. Lazy is okay, but calli\u2026"}
+{"ts": "2026-05-02T17:04:33.413798", "msg": "    T10 user: I mostly use *garam masala* and *turmeric*, sometimes *cumin* too. But I still m\u2026"}
+{"ts": "2026-05-02T17:04:36.626548", "msg": "    T10 maya: Garam masala and turmeric are perfect ,  they give that warm flavor. Salt slips \u2026"}
+{"ts": "2026-05-02T17:04:39.886350", "msg": "    saved \u2192 38_D03_coldstart_u03_ro.json  (22.1s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:04:39.886502", "msg": "[39/50] D04_coldstart_u04_ne            Neha        today=2026-05-18  turns=10  mood=embarrassed about a recent mistake"}
+{"ts": "2026-05-02T17:04:40.905624", "msg": "    T1 maya: Hi Neha, I'm Miss Maya. It's nice to meet you, today feels like a perfect day fo\u2026"}
+{"ts": "2026-05-02T17:04:41.599904", "msg": "    T2 user: Hey Maya, thanks! Honestly, it\u2019s been a *chaotic* day\u2014my coffee spilled all over\u2026"}
+{"ts": "2026-05-02T17:04:42.833009", "msg": "    T2 maya: \"Chaos and cat stickers \u2014 that\u2019s a combo.\"\n\"Explaining coffee spills to a team i\u2026"}
+{"ts": "2026-05-02T17:04:43.430225", "msg": "    T3 user: They *laughed*, obviously. Who doesn\u2019t love a good coffee spill and a panicked e\u2026"}
+{"ts": "2026-05-02T17:04:44.460363", "msg": "    T3 maya: \"Laughter is the best response \u2014 you handled it with style.\"  \n\"Emails with pers\u2026"}
+{"ts": "2026-05-02T17:04:45.342324", "msg": "    T4 user: The \ud83d\udc31 is my go-to, obviously. But I also throw in \ud83e\udd2a or \ud83d\ude43 for maximum effect. My \u2026"}
+{"ts": "2026-05-02T17:04:46.646693", "msg": "    T4 maya: \"Cat and chaos emojis \u2014 you\u2019re a master of the genre.\"  \n\"Team used to it or not\u2026"}
+{"ts": "2026-05-02T17:04:47.573879", "msg": "    T5 user: Honestly? I don\u2019t know yet. The CEO just started joining our Slack channels last\u2026"}
+{"ts": "2026-05-02T17:04:49.147092", "msg": "    T5 maya: You\u2019re not alone in the emoji panic ,  CEO eyes are everywhere now.  \"Profession\u2026"}
+{"ts": "2026-05-02T17:04:50.126298", "msg": "    T6 user: \u201cProduct Designer\u201d \u2014 sounds fancy, right? I just say it and then immediately sen\u2026"}
+{"ts": "2026-05-02T17:04:51.684343", "msg": "    T6 maya: \"Product Designer, cat redemption plan \u2014 perfect balance.\"  \"Waiting for the CEO\u2026"}
+{"ts": "2026-05-02T17:04:52.719311", "msg": "    T7 user: Maybe a *discreet* emoji filter? Like, something that auto-replaces \ud83d\udc31 with \ud83d\udc31\u2b1b in\u2026"}
+{"ts": "2026-05-02T17:04:54.460057", "msg": "    T7 maya: Discreet filters and chaotic drafts \u2014 you\u2019re ahead of the curve. \"Work Life Melt\u2026"}
+{"ts": "2026-05-02T17:04:55.451265", "msg": "    T8 user: 100% in on the logo \u2014 maybe a crying cat holding a coffee cup? \ud83d\udc31\u2615\ud83d\ude2d I\u2019ll start dr\u2026"}
+{"ts": "2026-05-02T17:04:56.895599", "msg": "    T8 maya: \"Survivalist chic, crying cat with coffee is iconic.\"  Monthly or on-demand, I\u2019m\u2026"}
+{"ts": "2026-05-02T17:04:58.113530", "msg": "    T9 user: Let\u2019s say... first issue drops when I finally send that *one* email I\u2019ve been me\u2026"}
+{"ts": "2026-05-02T17:04:59.648531", "msg": "    T9 maya: \"Chaos launch when the chaos hits \u2014 classic timing.\"  Send the email, I\u2019ll be he\u2026"}
+{"ts": "2026-05-02T17:04:59.648657", "msg": "    \u2192 wrap-up detected at turn 9"}
+{"ts": "2026-05-02T17:05:02.107583", "msg": "    saved \u2192 39_D04_coldstart_u04_ne.json  (22.2s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:05:02.107765", "msg": "[40/50] D05_coldstart_u05_vi            Vikram      today=2026-05-30  turns=6  mood=preoccupied, half-distracted"}
+{"ts": "2026-05-02T17:05:07.024826", "msg": "    T1 maya: Hi Vikram. Glad you're here to practice English. How was your day?"}
+{"ts": "2026-05-02T17:05:07.402328", "msg": "    T2 user: Busy day at office. Meetings all day. No cricket time."}
+{"ts": "2026-05-02T17:05:08.200460", "msg": "    T2 maya: That sounds tough. Meetings all day is a long stretch. How are you feeling now?"}
+{"ts": "2026-05-02T17:05:08.573091", "msg": "    T3 user: Tired. Headache. Not much time for family. *sigh*"}
+{"ts": "2026-05-02T17:05:09.686122", "msg": "    T3 maya: Tired and with a headache \u2014 that\u2019s not fun. Family time feels heavy when it slip\u2026"}
+{"ts": "2026-05-02T17:05:10.198925", "msg": "    T4 user: Cricket video. Sometimes. But no time. *sigh* Maybe Gujarati food? No, too busy."}
+{"ts": "2026-05-02T17:05:11.166981", "msg": "    T4 maya: Tough to fit in even small breaks when work piles up. A quiet cricket video or a\u2026"}
+{"ts": "2026-05-02T17:05:11.547514", "msg": "    T5 user: Maybe 5 minutes tea break. *shrugs* But boss not happy. *sigh*"}
+{"ts": "2026-05-02T17:05:12.612841", "msg": "    T5 maya: A 5-minute tea break is a small win , even if the boss doesn\u2019t see it, it\u2019s for \u2026"}
+{"ts": "2026-05-02T17:05:13.057448", "msg": "    T6 user: Plain tea. No sugar. Quick. *shrugs* Boss watches. Gotta go. Talk later."}
+{"ts": "2026-05-02T17:05:14.089934", "msg": "    T6 maya: Plain tea, no sugar \u2014 simple but real. Take care of yourself, even in small ways\u2026"}
+{"ts": "2026-05-02T17:05:14.090029", "msg": "    \u2192 wrap-up detected at turn 6"}
+{"ts": "2026-05-02T17:05:14.957344", "msg": "    saved \u2192 40_D05_coldstart_u05_vi.json  (12.8s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:05:14.957491", "msg": "[41/50] D06_coldstart_u06_an            Anu         today=2026-05-22  turns=10  mood=anxious, exam stress"}
+{"ts": "2026-05-02T17:05:16.133766", "msg": "    T1 maya: Hi Anu, a recent commerce grad, how exciting! What's been your most fun task thi\u2026"}
+{"ts": "2026-05-02T17:05:16.648052", "msg": "    T2 user: Not much fun really. Applied for some jobs but waiting for replies. So stressful\u2026"}
+{"ts": "2026-05-02T17:05:17.772187", "msg": "    T2 maya: Got it, job waiting is a slow burn. K-dramas help, yes? Which one hooked you lat\u2026"}
+{"ts": "2026-05-02T17:05:18.304027", "msg": "    T3 user: I watched \"The Glory\" again. It\u2019s so intense, but I can\u2019t help rewatching. Somet\u2026"}
+{"ts": "2026-05-02T17:05:19.454388", "msg": "    T3 maya: I get that, The Glory grips you even on the second run. Lost and confused is a h\u2026"}
+{"ts": "2026-05-02T17:05:19.924361", "msg": "    T4 user: The part where the main character finds strength after so much pain. It makes me\u2026"}
+{"ts": "2026-05-02T17:05:21.473268", "msg": "    T4 maya: Right, that part is powerful ,  pain leading to strength. It\u2019s not pretending if\u2026"}
+{"ts": "2026-05-02T17:05:22.172072", "msg": "    T5 user: Hmm, not sure really. Maybe when I work out? Like, pushing through a tough worko\u2026"}
+{"ts": "2026-05-02T17:05:23.173747", "msg": "    T5 maya: You mixed Hindi there \u2014 I get it, sometimes words don\u2019t come easy. Working out b\u2026"}
+{"ts": "2026-05-02T17:05:23.714138", "msg": "    T6 user: Running on a treadmill, maybe? Or doing abs \u2014 I hate those. And sometimes I skip\u2026"}
+{"ts": "2026-05-02T17:05:24.743837", "msg": "    T6 maya: Yeah, that rhythm of skip-and-blame is all too familiar. But workouts are practi\u2026"}
+{"ts": "2026-05-02T17:05:25.379725", "msg": "    T7 user: A small win... maybe just going to the gym today instead of scrolling on Instagr\u2026"}
+{"ts": "2026-05-02T17:05:26.581456", "msg": "    T7 maya: That\u2019s the spirit small wins add up! A gym visit or one app is progress. What\u2019s \u2026"}
+{"ts": "2026-05-02T17:05:27.317190", "msg": "    T8 user: I just blast some motivational Hindi songs \u2014 the louder, the better. Or sometime\u2026"}
+{"ts": "2026-05-02T17:05:32.624602", "msg": "    T8 maya: Got it, music is the spark ,  Hindi or K-drama, both kick things off. Reels are \u2026"}
+{"ts": "2026-05-02T17:05:33.499812", "msg": "    T9 user: Hmm, the song \"Udta\" from Udta Punjab? Yeah, whenever I hear that, I just... jum\u2026"}
+{"ts": "2026-05-02T17:05:34.556244", "msg": "    T9 maya: Right, \"Udta\" and \"Laal Kaptaan\" \u2014 pure energy. Inconsistency is the norm, hones\u2026"}
+{"ts": "2026-05-02T17:05:35.158355", "msg": "    T10 user: Wake up early, go to the gym, do a full workout, then work on my resume and send\u2026"}
+{"ts": "2026-05-02T17:05:36.294419", "msg": "    T10 maya: Right, that one-day plan is a dream \u2014 but a solid blueprint. Take it slow, Anu. \u2026"}
+{"ts": "2026-05-02T17:05:36.294520", "msg": "    \u2192 wrap-up detected at turn 10"}
+{"ts": "2026-05-02T17:05:38.831612", "msg": "    saved \u2192 41_D06_coldstart_u06_an.json  (23.9s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:05:38.831820", "msg": "[42/50] D07_coldstart_u07_am            Aman        today=2026-05-01  turns=5  mood=anxious, exam stress"}
+{"ts": "2026-05-02T17:05:39.994510", "msg": "    T1 maya: Hi Aman, I'm Miss Maya. The light is just right for a chat this evening, how was\u2026"}
+{"ts": "2026-05-02T17:05:40.627021", "msg": "    T2 user: Hey Miss Maya, my day was busy like usual. My tummy is not good after lunch, I t\u2026"}
+{"ts": "2026-05-02T17:05:41.479764", "msg": "    T2 maya: \"Got it \u2014 busy, queasy, and studying. What part of the exam feels heaviest right\u2026"}
+{"ts": "2026-05-02T17:05:42.117682", "msg": "    T3 user: The essay part is my weakness. I can\u2019t write good in English \u2014 always stuck for \u2026"}
+{"ts": "2026-05-02T17:05:43.371821", "msg": "    T3 maya: I get that, exam stress plus a show-off teammate is a lot. For the essay, try st\u2026"}
+{"ts": "2026-05-02T17:05:44.115943", "msg": "    T4 user: Maybe about sports? I think. I not sure. If I write about my fooseball teammate,\u2026"}
+{"ts": "2026-05-02T17:05:45.290253", "msg": "    T4 maya: I get it. Writing about your teammate could be personal and honest, which is goo\u2026"}
+{"ts": "2026-05-02T17:05:45.955040", "msg": "    T5 user: The essay \u2014 I think I can\u2019t make full sentences. Also, if I write about my teamm\u2026"}
+{"ts": "2026-05-02T17:05:47.141224", "msg": "    T5 maya: You're doing great,  just keep going. Writing about your teammate shows you're b\u2026"}
+{"ts": "2026-05-02T17:05:47.141376", "msg": "    \u2192 wrap-up detected at turn 5"}
+{"ts": "2026-05-02T17:05:48.492284", "msg": "    saved \u2192 42_D07_coldstart_u07_am.json  (9.7s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:05:48.492409", "msg": "[43/50] D08_coldstart_u08_di            Diya        today=2026-05-28  turns=10  mood=hopeful, made some progress on a goal"}
+{"ts": "2026-05-02T17:05:49.428014", "msg": "    T1 maya: Hi Diya, I'm Miss Maya. The evening feels just right for a chat, how was your da\u2026"}
+{"ts": "2026-05-02T17:05:49.900608", "msg": "    T2 user: Hi Maya, thanks! My day was better than yesterday, actually \u2014 got some good prog\u2026"}
+{"ts": "2026-05-02T17:05:50.824423", "msg": "    T2 maya: Good to hear your day is lifting up, progress is a relief. What part of the proj\u2026"}
+{"ts": "2026-05-02T17:05:51.377562", "msg": "    T3 user: The deadline was moving, and I finally nailed the client\u2019s approval \u2014 that felt \u2026"}
+{"ts": "2026-05-02T17:05:54.322864", "msg": "    T3 maya: Aaj_bhagya shows up when you work hard for it. Last-minute changes? I go step by\u2026"}
+{"ts": "2026-05-02T17:05:56.828209", "msg": "    T4 user: Deep breaths, mostly. And reminding myself that chaos is temporary. Sometimes I \u2026"}
+{"ts": "2026-05-02T17:05:57.778714", "msg": "    T4 maya: Laughter is a real stress reset \u2014 wise move. Yes, work does creep in sometimes. \u2026"}
+{"ts": "2026-05-02T17:05:58.395710", "msg": "    T5 user: Walks help, surprisingly. Even 15 minutes outside, just looking at trees or the \u2026"}
+{"ts": "2026-05-02T17:05:59.294355", "msg": "    T5 maya: That\u2019s a smart way to calm down \u2014 your brain loves boundaries. Which podcasts ar\u2026"}
+{"ts": "2026-05-02T17:05:59.907135", "msg": "    T6 user: I love \u201cMaintenance Phase\u201d \u2014 it\u2019s about food and identity, but in a thoughtful w\u2026"}
+{"ts": "2026-05-02T17:06:00.999700", "msg": "    T6 maya: Lore sounds fascinating \u2014 I can see the mind getting lost in that. I don\u2019t liste\u2026"}
+{"ts": "2026-05-02T17:06:01.679850", "msg": "    T7 user: I started with a podcast about productivity \u2014 you know, the typical \u201cget organiz\u2026"}
+{"ts": "2026-05-02T17:06:02.832508", "msg": "    T7 maya: Podcasts truly turn time into something fun , like a secret escape. I get that. \u2026"}
+{"ts": "2026-05-02T17:06:03.458873", "msg": "    T8 user: I read \u201cThe Night Tiger\u201d by Tan Twan Voon \u2014 it\u2019s set in 1930s Malaysia, full of \u2026"}
+{"ts": "2026-05-02T17:06:04.433756", "msg": "    T8 maya: \"The Night Tiger\" sounds like a rich journey \u2014 living a thousand lives in one ni\u2026"}
+{"ts": "2026-05-02T17:06:05.116114", "msg": "    T9 user: I\u2019m halfway through \u201cThe Starless Sea\u201d by Erin Morgenstern \u2014 it\u2019s like stepping \u2026"}
+{"ts": "2026-05-02T17:06:06.158212", "msg": "    T9 maya: The Starless Sea \u2014 I can see why it feels like a dream! Work calls \u2014 take your t\u2026"}
+{"ts": "2026-05-02T17:06:06.158305", "msg": "    \u2192 wrap-up detected at turn 9"}
+{"ts": "2026-05-02T17:06:07.513156", "msg": "    saved \u2192 43_D08_coldstart_u08_di.json  (19.0s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:06:07.513280", "msg": "[44/50] D09_coldstart_u09_ka            Kabir       today=2026-05-27  turns=6  mood=chatty, in a good mood"}
+{"ts": "2026-05-02T17:06:08.562533", "msg": "    T1 maya: Hi Kabir, I'm Miss Maya. Nice to meet you, I'm excited to practice English toget\u2026"}
+{"ts": "2026-05-02T17:06:09.073223", "msg": "    T2 user: Hi Maya. Busy at work. Retail is hectic. You?"}
+{"ts": "2026-05-02T17:06:10.098535", "msg": "    T2 maya: \"Retail can be exhausting. How do you stay focused during a long shift?\""}
+{"ts": "2026-05-02T17:06:10.524103", "msg": "    T3 user: I take short breaks. Listen to music. Also, I keep thinking about my lunch \u2014 lik\u2026"}
+{"ts": "2026-05-02T17:06:11.470092", "msg": "    T3 maya: \"Short breaks and biryani \u2014 a smart combo. I stay focused by sipping tea and cha\u2026"}
+{"ts": "2026-05-02T17:06:11.938043", "msg": "    T4 user: Hyderabadi biryani. Spicy and tasty. Sometimes I add egg. \ud83d\ude0b What you like?"}
+{"ts": "2026-05-02T17:06:13.191495", "msg": "    T4 maya: Hyderabadi with egg \u2014 sounds delicious! I like tea, but biryani is a win every t\u2026"}
+{"ts": "2026-05-02T17:06:13.540992", "msg": "    T5 user: I listen to old Kannada songs. They make me happy. Sometimes I hum along. \ud83d\ude04 Do y\u2026"}
+{"ts": "2026-05-02T17:06:14.636085", "msg": "    T5 maya: Old Kannada songs are soulful, they must bring a smile. I enjoy music that lifts\u2026"}
+{"ts": "2026-05-02T17:06:15.177464", "msg": "    T6 user: Kempe Gowda\" \u2014 a classic! It makes me feel proud. Maybe you know it? I should go\u2026"}
+{"ts": "2026-05-02T17:06:16.348127", "msg": "    T6 maya: \"Kempe Gowda\" is a gem, pride and melody in one! Go handle work, we\u2019ll chat late\u2026"}
+{"ts": "2026-05-02T17:06:16.348299", "msg": "    \u2192 wrap-up detected at turn 6"}
+{"ts": "2026-05-02T17:06:17.202126", "msg": "    saved \u2192 44_D09_coldstart_u09_ka.json  (9.7s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:06:17.202305", "msg": "[45/50] D10_coldstart_u10_sh            Shreya      today=2026-05-28  turns=8  mood=excited about a weekend plan"}
+{"ts": "2026-05-02T17:06:22.288318", "msg": "    T1 maya: Hi Shreya, I'm Miss Maya. It's great to meet you, hope you had a calm afternoon.\u2026"}
+{"ts": "2026-05-02T17:06:22.797618", "msg": "    T2 user: Just finished a strategy case study for my consulting class\u2014super intense but fu\u2026"}
+{"ts": "2026-05-02T17:06:23.700911", "msg": "    T2 maya: That sounds intense but fun. I get that \u2014 case studies can be a workout for the \u2026"}
+{"ts": "2026-05-02T17:06:24.431315", "msg": "    T3 user: Hmm, maybe something with a strong female lead? Like *The Night Tiger* or *Pachi\u2026"}
+{"ts": "2026-05-02T17:06:25.432012", "msg": "    T3 maya: Strong female leads are always a great pick. I haven\u2019t read those, but they soun\u2026"}
+{"ts": "2026-05-02T17:06:26.023338", "msg": "    T4 user: Slow and emotional, please! I\u2019ve been craving a story that pulls you in with atm\u2026"}
+{"ts": "2026-05-02T17:06:27.223520", "msg": "    T4 maya: I get that \u2014 slow and emotional is perfect for unwinding. *The Shadow of the Win\u2026"}
+{"ts": "2026-05-02T17:06:27.920205", "msg": "    T5 user: Honestly? It\u2019s usually their resilience that gets to me. Like when they face imp\u2026"}
+{"ts": "2026-05-02T17:06:29.102708", "msg": "    T5 maya: Got it \u2014 resilience and deep stories are powerful. That\u2019s a good way to connect \u2026"}
+{"ts": "2026-05-02T17:06:29.722515", "msg": "    T6 user: The Aravallis, just outside Delhi \u2014 a short trek but with some nice green views.\u2026"}
+{"ts": "2026-05-02T17:06:31.465358", "msg": "    T6 maya: The Aravallis are a great escape, fresh air and green views sound perfect. Enjoy\u2026"}
+{"ts": "2026-05-02T17:06:31.465509", "msg": "    \u2192 wrap-up detected at turn 6"}
+{"ts": "2026-05-02T17:06:34.989008", "msg": "    saved \u2192 45_D10_coldstart_u10_sh.json  (17.8s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:06:34.989212", "msg": "[46/50] E01_deeprun_w0                  Neha        today=2026-05-01  turns=12  mood=frustrated about a small thing today"}
+{"ts": "2026-05-02T17:06:36.008862", "msg": "    T1 maya: Hi Neha, I'm Miss Maya. It's great to meet you, hope you're having a good day so\u2026"}
+{"ts": "2026-05-02T17:06:36.702504", "msg": "    T2 user: Hey Maya! Honestly? Today\u2019s been a bit of a *\u0b95\u0bc1\u0bb4\u0baa\u0bcd\u0baa\u0bae\u0bcd*\u2014my usual caf\u00e9 was out of \u2026"}
+{"ts": "2026-05-02T17:06:37.849947", "msg": "    T2 maya: Chai is missing, and the day feels off-kilter. That\u2019s tough \u2014 what\u2019s your backup\u2026"}
+{"ts": "2026-05-02T17:06:38.535591", "msg": "    T3 user: Honestly? I just walk around the block until I find another caf\u00e9 that *almost* g\u2026"}
+{"ts": "2026-05-02T17:06:39.543329", "msg": "    T3 maya: Walking until you find that chai \u2014 that\u2019s a real rhythm thing. Blending Tamil pa\u2026"}
+{"ts": "2026-05-02T17:06:40.253473", "msg": "    T4 user: Mostly digital tools these days \u2014 Procreate and Figma \u2014 but I sketch the initial\u2026"}
+{"ts": "2026-05-02T17:06:41.444007", "msg": "    T4 maya: It's lovely how you connect the patterns to their roots \u2014 hand sketching adds th\u2026"}
+{"ts": "2026-05-02T17:06:42.085848", "msg": "    T5 user: Yeah, totally \u2014 I show rough sketches first to get the team\u2019s vibe. Sometimes th\u2026"}
+{"ts": "2026-05-02T17:06:47.273589", "msg": "    T5 maya: Explaining the meaning while keeping things subtle is a real balance \u2014 and it ma\u2026"}
+{"ts": "2026-05-02T17:06:48.924926", "msg": "    T6 user: I used a lot of *kolam* line work in a recent login screen \u2014 super minimal, just\u2026"}
+{"ts": "2026-05-02T17:06:49.968058", "msg": "    T6 maya: Kolam lines as a background \u2014 that quiet richness is perfect. You\u2019re not overthi\u2026"}
+{"ts": "2026-05-02T17:06:50.722356", "msg": "    T7 user: Definitely the early sketching phase \u2014 that raw, unfiltered creativity feels so \u2026"}
+{"ts": "2026-05-02T17:06:51.775812", "msg": "    T7 maya: It\u2019s normal to feel that push-pull between creative freedom and being understood\u2026"}
+{"ts": "2026-05-02T17:06:52.481560", "msg": "    T8 user: There was this one time I redesigned a feature layout using Tamil color symbolis\u2026"}
+{"ts": "2026-05-02T17:06:53.550849", "msg": "    T8 maya: That moment when ,  it just feels right \u2014 that\u2019s the best kind of win. Revisions\u2026"}
+{"ts": "2026-05-02T17:06:54.141183", "msg": "    T9 user: I\u2019d probably start the cultural conversations *earlier* \u2014 like, before sketches \u2026"}
+{"ts": "2026-05-02T17:06:55.106978", "msg": "    T9 maya: Starting with the \"why\" makes the visuals speak louder \u2014 smart thought. It sound\u2026"}
+{"ts": "2026-05-02T17:06:55.852848", "msg": "    T10 user: Patience with my morning chai hunt, for sure. Like, I *could* just grab a generi\u2026"}
+{"ts": "2026-05-02T17:06:56.857346", "msg": "    T10 maya: Chai hunting as a ritual \u2014 I get that. It\u2019s those tiny routines that keep us ste\u2026"}
+{"ts": "2026-05-02T17:06:57.625900", "msg": "    T11 user: I have this habit of jotting down lyrics from songs that hit me \u2014 even if I don\u2019\u2026"}
+{"ts": "2026-05-02T17:06:58.606882", "msg": "    T11 maya: Jotting lyrics and their feelings \u2014 that\u2019s such a quiet, thoughtful habit. I get\u2026"}
+{"ts": "2026-05-02T17:06:59.224904", "msg": "    T12 user: Probably some kind of nostalgic or bittersweet vibe \u2014 like that ache of a song t\u2026"}
+{"ts": "2026-05-02T17:07:00.278460", "msg": "    T12 maya: Nostalgia through lyrics \u2014 that\u2019s a beautiful way to hold onto moods. Take your \u2026"}
+{"ts": "2026-05-02T17:07:00.278575", "msg": "    \u2192 wrap-up detected at turn 12"}
+{"ts": "2026-05-02T17:07:01.113406", "msg": "    saved \u2192 46_E01_deeprun_w0.json  (26.1s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:07:01.113584", "msg": "[47/50] E02_deeprun_w1                  Neha        today=2026-05-08  turns=10  mood=lonely, wanting to talk"}
+{"ts": "2026-05-02T17:07:02.219333", "msg": "    T1 maya: Hi Neha, I'm your English chat partner. How was your day as a product designer?"}
+{"ts": "2026-05-02T17:07:02.801781", "msg": "    T2 user: Hey! Thanks for asking. Today was kinda rough\u2014had to pitch a new app idea to the\u2026"}
+{"ts": "2026-05-02T17:07:03.758177", "msg": "    T2 maya: \"Rough pitch days happen to everyone. Startups are all about learning and bounci\u2026"}
+{"ts": "2026-05-02T17:07:04.275138", "msg": "    T3 user: Honestly, it wasn't the idea\u2014I think it's solid. But I couldn't explain the user\u2026"}
+{"ts": "2026-05-02T17:07:05.500432", "msg": "    T3 maya: Fast talking when excited is totally normal. I\u2019ve seen that in meetings too, you\u2026"}
+{"ts": "2026-05-02T17:07:06.096303", "msg": "    T4 user: The onboarding part\u2014I want them to *see* how simple it is to get started. But th\u2026"}
+{"ts": "2026-05-02T17:07:07.447331", "msg": "    T4 maya: You\u2019re not alone. Nervousness makes even clear ideas feel jumbled. Metaphors hel\u2026"}
+{"ts": "2026-05-02T17:07:08.083568", "msg": "    T5 user: I wish I'd started with the user's problem instead of the solution. Like, \"Imagi\u2026"}
+{"ts": "2026-05-02T17:07:13.115528", "msg": "    T5 maya: That makes sense\u2014you\u2019re not alone in wanting to start with the problem. It\u2019s a s\u2026"}
+{"ts": "2026-05-02T17:07:13.694702", "msg": "    T6 user: The first step is this minimalist onboarding screen\u2014just one click to import you\u2026"}
+{"ts": "2026-05-02T17:07:14.716081", "msg": "    T6 maya: Got it. Sometimes the simplest hook is the hardest to remember in the moment. Wh\u2026"}
+{"ts": "2026-05-02T17:07:15.280114", "msg": "    T7 user: Maybe start with a quick story about being overwhelmed with tabs myself? Or ask \u2026"}
+{"ts": "2026-05-02T17:07:16.355305", "msg": "    T7 maya: Exactly\u2014stories and questions make ideas stick. To practice, try recording yours\u2026"}
+{"ts": "2026-05-02T17:07:16.995821", "msg": "    T8 user: That sounds doable\u2014like a quick 30-second \u201celevator pitch\u201d for the chaos of mode\u2026"}
+{"ts": "2026-05-02T17:07:18.047838", "msg": "    T8 maya: You\u2019re welcome! A bit of drama can be a good hook if it feels natural. When you \u2026"}
+{"ts": "2026-05-02T17:07:18.684522", "msg": "    T9 user: I think the hardest part will be *not* rushing into the solution after the hook.\u2026"}
+{"ts": "2026-05-02T17:07:19.587926", "msg": "    T9 maya: It\u2019s tough to break a habit like that, but small pauses can make a big differenc\u2026"}
+{"ts": "2026-05-02T17:07:20.440741", "msg": "    T10 user: Hmm\u2026 maybe I\u2019ll just repeat a phrase like, \u201cLet that land,\u201d in my head. Like a r\u2026"}
+{"ts": "2026-05-02T17:07:21.578252", "msg": "    T10 maya: You\u2019re welcome! \u201cLet that land\u201d is a great mantra\u2014and coffee sip visuals are und\u2026"}
+{"ts": "2026-05-02T17:07:22.684646", "msg": "    saved \u2192 47_E02_deeprun_w1.json  (21.6s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:07:22.684863", "msg": "[48/50] E03_deeprun_w2                  Neha        today=2026-05-15  turns=12  mood=lonely, wanting to talk"}
+{"ts": "2026-05-02T17:07:23.623234", "msg": "    T1 maya: Hi Neha, how did your 30-second pitch go last night?"}
+{"ts": "2026-05-02T17:07:24.226960", "msg": "    T2 user: Honestly? It was a mess. I got so nervous, I forgot half the points. But hey, at\u2026"}
+{"ts": "2026-05-02T17:07:25.293868", "msg": "    T2 maya: That sounds tough \u2014 nerves can trip anyone. Binge-listening to Tamil indie is a \u2026"}
+{"ts": "2026-05-02T17:07:25.993597", "msg": "    T3 user: There\u2019s this one band called Vaanmam \u2014 they mix folk with synth, and it\u2019s just *\u2026"}
+{"ts": "2026-05-02T17:07:26.946904", "msg": "    T3 maya: \"Vaanmam and 'Kadalai Kadal' \u2014 sounds like magic. I get how music can feel like \u2026"}
+{"ts": "2026-05-02T17:07:27.828152", "msg": "    T4 user: Honestly? It\u2019s the chorus. The way they layer the vocals with the synth feels li\u2026"}
+{"ts": "2026-05-02T17:07:28.784276", "msg": "    T4 maya: Yes, that sounds like a moment that stays with you. Music that matches a memory \u2026"}
+{"ts": "2026-05-02T17:07:29.552481", "msg": "    T5 user: It was just me, a tiny homestay, and zero plans. I woke up to fog so thick it fe\u2026"}
+{"ts": "2026-05-02T17:07:30.555871", "msg": "    T5 maya: \"Waking up to fog and a song like that \u2014 it sounds like the kind of trip memorie\u2026"}
+{"ts": "2026-05-02T17:07:31.262393", "msg": "    T6 user: Hmm, I think it\u2019s that little caf\u00e9 in Hampi \u2014 you know the one, where the sun hi\u2026"}
+{"ts": "2026-05-02T17:07:32.433026", "msg": "    T6 maya: That sounds like pure magic ,  Hampi at sunset is timeless. Craving stillness in\u2026"}
+{"ts": "2026-05-02T17:07:33.273543", "msg": "    T7 user: I carry a little sketchbook with me \u2014 whenever the chaos gets too much, I\u2019ll jus\u2026"}
+{"ts": "2026-05-02T17:07:38.475009", "msg": "    T7 maya: That\u2019s a beautiful pause trick, doodling and music are perfect little escapes. W\u2026"}
+{"ts": "2026-05-02T17:07:39.283451", "msg": "    T8 user: It\u2019s called \u201cMata Rani\u201d \u2014 it\u2019s this old devotional song but sung with such softn\u2026"}
+{"ts": "2026-05-02T17:07:40.403307", "msg": "    T8 maya: \"\u2018Mata Rani\u2019 sounds like a quiet gem \u2014 I\u2019d love the link when you get a chance. \u2026"}
+{"ts": "2026-05-02T17:07:41.148356", "msg": "    T9 user: Honestly? Just feeling a little lonely, to be real. It\u2019s one of those days where\u2026"}
+{"ts": "2026-05-02T17:07:42.280874", "msg": "    T9 maya: \"Lonely days happen to all of us \u2014 it\u2019s good you reached out. I\u2019m always here fo\u2026"}
+{"ts": "2026-05-02T17:07:42.931121", "msg": "    T10 user: You know what\u2019s weird? I just walked past this little indie caf\u00e9 near my office \u2026"}
+{"ts": "2026-05-02T17:07:44.012596", "msg": "    T10 maya: That\u2019s fate\u2019s way of sending a little comfort \u2014 music in the right place at the \u2026"}
+{"ts": "2026-05-02T17:07:44.618052", "msg": "    T11 user: It\u2019s called The Whispering Bean \u2014 tiny, tucked between two buildings, but the vi\u2026"}
+{"ts": "2026-05-02T17:07:45.838811", "msg": "    T11 maya: The Whispering Bean sounds like a hidden gem,  vinyl and that vibe are perfect. \u2026"}
+{"ts": "2026-05-02T17:07:46.548181", "msg": "    T12 user: Yeah, The Whispering Bean is one of those places that just gets you, you know? L\u2026"}
+{"ts": "2026-05-02T17:07:47.804831", "msg": "    T12 maya: You\u2019re welcome \u2014 I\u2019m always happy to listen. A menu photo sounds fun, I\u2019ll look \u2026"}
+{"ts": "2026-05-02T17:07:49.058798", "msg": "    saved \u2192 48_E03_deeprun_w2.json  (26.4s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:07:49.058999", "msg": "[49/50] E04_deeprun_w3                  Neha        today=2026-05-22  turns=14  mood=anxious, exam stress"}
+{"ts": "2026-05-02T17:07:50.144123", "msg": "    T1 maya: Hi Neha, missing the quiet of Hampi at sunset is understandable \u2014 I enjoy watchi\u2026"}
+{"ts": "2026-05-02T17:07:50.839557", "msg": "    T2 user: Honestly, I've been stressin\u2019 out a lot lately. My exams are coming up, and it f\u2026"}
+{"ts": "2026-05-02T17:07:52.193997", "msg": "    T2 maya: \"Got it \u2014 exam and deadline stress is relentless.\"  \"Chai in Hampi is one soluti\u2026"}
+{"ts": "2026-05-02T17:07:52.908530", "msg": "    T3 user: It\u2019s the design project \u2014 we have to present a full prototype by next week. I\u2019m \u2026"}
+{"ts": "2026-05-02T17:07:54.243857", "msg": "    T3 maya: \"Sketching and coding deadlines are a rough combo \u2014 I get that loop.\" \"It sounds\u2026"}
+{"ts": "2026-05-02T17:07:55.044930", "msg": "    T4 user: The UI feels like it's not clickin' with the user flow \u2014 I keep redesignin' the \u2026"}
+{"ts": "2026-05-02T17:07:56.191920", "msg": "    T4 maya: \"UI loops that never land are the worst \u2014 it\u2019s like chasing a shadow.\" \"That puz\u2026"}
+{"ts": "2026-05-02T17:07:56.903785", "msg": "    T5 user: The navigation bar \u2014 it\u2019s just so clunky. Every time I think I\u2019ve got it right, \u2026"}
+{"ts": "2026-05-02T17:07:58.239972", "msg": "    T5 maya: \"Clunky navigation is the classic 'half-solved' trap, maddening!\" \"Sleep-on-it i\u2026"}
+{"ts": "2026-05-02T17:08:01.061005", "msg": "    T6 user: The biggest issue is the dropdown menu \u2014 it\u2019s causing confusion because it\u2019s too\u2026"}
+{"ts": "2026-05-02T17:08:04.024648", "msg": "    T6 maya: \"Dropdown menus that confuse \u2014 classic design gotcha!\" \"Paper sketching is a sma\u2026"}
+{"ts": "2026-05-02T17:08:04.698010", "msg": "    T7 user: I want the menu to feel *intuitive* \u2014 like, no thinking, just flow. But every fi\u2026"}
+{"ts": "2026-05-02T17:08:05.918461", "msg": "    T7 maya: \"Intuitive design is the holy grail, and the music-changing dance is exactly the\u2026"}
+{"ts": "2026-05-02T17:08:06.713581", "msg": "    T8 user: I\u2019d start with the homepage section \u2014 it\u2019s the first thing users see, so if it\u2019s\u2026"}
+{"ts": "2026-05-02T17:08:07.965699", "msg": "    T8 maya: \"Starting with the homepage is wise \u2014 the first step sets the tone, literally.\" \u2026"}
+{"ts": "2026-05-02T17:08:08.733577", "msg": "    T9 user: Yeah, totally \u2014 there was this one time I was stuck on a layout, took a walk by \u2026"}
+{"ts": "2026-05-02T17:08:09.939937", "msg": "    T9 maya: Filter kaapi + fresh air = recipe for 'boom' moments \u2014 go get it! Caf\u00e9s and walk\u2026"}
+{"ts": "2026-05-02T17:08:10.667015", "msg": "    T10 user: I\u2019ll let you know, okay? But first, I need a cup of that magic *filter kaapi* \u2014 \u2026"}
+{"ts": "2026-05-02T17:08:11.706088", "msg": "    T10 maya: Filter kaapi is the original focus fuel \u2014 you\u2019ll come back with clarity and caff\u2026"}
+{"ts": "2026-05-02T17:08:12.418277", "msg": "    T11 user: Nothing specific \u2014 just a mix of lo-fi and indie stuff, mostly. I like *Arctic M\u2026"}
+{"ts": "2026-05-02T17:08:13.440479", "msg": "    T11 maya: I go for instrumental lo-fi \u2014 the hum of a beat without lyrics keeps my mind cle\u2026"}
+{"ts": "2026-05-02T17:08:14.310679", "msg": "    T12 user: Do you know, *\"R U More\"*? The energy in that track just pushes me forward, like\u2026"}
+{"ts": "2026-05-02T17:08:15.648390", "msg": "    T12 maya: R U More has that perfect push \u2014 just the right amount of energy to keep the mom\u2026"}
+{"ts": "2026-05-02T17:08:16.386342", "msg": "    T13 user: Honestly, it\u2019s usually whatever\u2019s on shuffle \u2014 I\u2019m not too picky, as long as it\u2019\u2026"}
+{"ts": "2026-05-02T17:08:17.590233", "msg": "    T13 maya: Calling My Name is a perfect anchor for deadlines \u2014 I get that vibe. Take your k\u2026"}
+{"ts": "2026-05-02T17:08:17.590365", "msg": "    \u2192 wrap-up detected at turn 13"}
+{"ts": "2026-05-02T17:08:19.155382", "msg": "    saved \u2192 49_E04_deeprun_w3.json  (30.1s, librarian=ok)\n"}
+{"ts": "2026-05-02T17:08:19.155588", "msg": "[50/50] E05_deeprun_w4                  Neha        today=2026-05-29  turns=14  mood=low energy, monosyllabic mood"}
+{"ts": "2026-05-02T17:08:20.250133", "msg": "    T1 maya: Hi Neha, I'm a tea person \u2014 nothing beats a quiet afternoon with a good cup. How\u2026"}
+{"ts": "2026-05-02T17:08:20.566650", "msg": "    T2 user: Slow. Too many meetings. chai than tea, but I get it."}
+{"ts": "2026-05-02T17:08:21.682949", "msg": "    T2 maya: Slow and too many meetings, that\u2019s a rough combo. Chai\u2019s the better choice, hone\u2026"}
+{"ts": "2026-05-02T17:08:22.071726", "msg": "    T3 user: User: The ideation phase. Everyone has opinions, no one agrees. It\u2019s like herdin\u2026"}
+{"ts": "2026-05-02T17:08:23.050556", "msg": "    T3 maya: Ideation with too many opinions is a minefield. Herding cats \u2014 I get it. What\u2019s \u2026"}
+{"ts": "2026-05-02T17:08:25.607471", "msg": "    T4 user: The color scheme. We all vibed on the palette \u2014 soft pastels with a pop of terra\u2026"}
+{"ts": "2026-05-02T17:08:28.705995", "msg": "    T4 maya: You nailed the color part \u2014 that\u2019s a solid win. Consensus? It\u2019s a tricky beast. \u2026"}
+{"ts": "2026-05-02T17:08:29.126647", "msg": "    T5 user: Compromise, most days. But it\u2019s exhausting. Sometimes I think, why even have a g\u2026"}
+{"ts": "2026-05-02T17:08:30.289035", "msg": "    T5 maya: Compromise daily is a lot \u2014 and that sigh hits hard. Gut vs group \u2014 what\u2019s one s\u2026"}
+{"ts": "2026-05-02T17:08:30.795163", "msg": "    T6 user: I take notes and revisit them later. Sometimes my ideas get lost in the noise, b\u2026"}
+{"ts": "2026-05-02T17:08:31.722361", "msg": "    T6 maya: Notes as a silent advocate \u2014 smart move. Work in progress is still progress. Wha\u2026"}
+{"ts": "2026-05-02T17:08:32.231062", "msg": "    T7 user: A hidden micro-interaction \u2014 something subtle that guides the user without being\u2026"}
+{"ts": "2026-05-02T17:08:33.565727", "msg": "    T7 maya: Hidden micro-interactions are gold for user flow, they add soul. Shrugs don\u2019t su\u2026"}
+{"ts": "2026-05-02T17:08:34.147777", "msg": "    T8 user: Fear of failure, maybe? Or just not seeing the value in small wins. I get it. Bu\u2026"}
+{"ts": "2026-05-02T17:08:35.310472", "msg": "    T8 maya: Fear of small wins is a silent drag, but you\u2019re right, they matter. Pitch it whe\u2026"}
+{"ts": "2026-05-02T17:08:35.897766", "msg": "    T9 user: When the room feels less like a meeting and more like a conversation. You know, \u2026"}
+{"ts": "2026-05-02T17:08:36.842970", "msg": "    T9 maya: Cookies? Now that\u2019s a conversation starter. Laughter and half-coffee \u2014 perfect t\u2026"}
+{"ts": "2026-05-02T17:08:37.352105", "msg": "    T10 user: Butterscotch, with a hint of cardamom. Or maybe just a classic \u2014 chocolate chip.\u2026"}
+{"ts": "2026-05-02T17:08:38.581647", "msg": "    T10 maya: Butterscotch, cardamom \u2014 now that's a bold move. Classic or bold, what's the pla\u2026"}
+{"ts": "2026-05-02T17:08:39.124270", "msg": "    T11 user: I pivot to another project for now, or I keep pushing. It\u2019s a tightrope walk. Bu\u2026"}
+{"ts": "2026-05-02T17:08:40.180061", "msg": "    T11 maya: Pivot or push \u2014 both take courage. Baking your way to buy-in? Now that\u2019s a plan \u2026"}
+{"ts": "2026-05-02T17:08:40.766301", "msg": "    T12 user: Hmm. Maybe something with rose and pistachio next? Or just stick with what works\u2026"}
+{"ts": "2026-05-02T17:08:41.724242", "msg": "    T12 maya: Rose and pistachio \u2014 sounds like a dream. Chai and good vibes first, meetings se\u2026"}
+{"ts": "2026-05-02T17:08:41.724319", "msg": "    \u2192 wrap-up detected at turn 12"}
+{"ts": "2026-05-02T17:08:43.132204", "msg": "    saved \u2192 50_E05_deeprun_w4.json  (24.0s, librarian=ok)\n"}

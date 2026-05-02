@@ -1,0 +1,132 @@
+{
+  "facts": {
+    "nickname": "Aarti",
+    "exam_target": "NEET PG (exam)",
+    "study_subject": "pharmacology",
+    "study_methods": [
+      "makes tables to compare drugs by side effects"
+    ],
+    "learning_challenges": [
+      "confuses which adverse effects are common vs. rare",
+      "struggles with overlapping side effects between similar drugs"
+    ]
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Day was stressful. Just revised pharmacology for the NEET PG. Tired but worried.",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "I get confused about which side effects of drugs are common and which are rare. When I read about a drug, I get stuck remembering all those effects. It's so overwhelming.",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_37_D02_coldstart_u02_aa",
+      "date": "2026-05-07",
+      "label": "anxious",
+      "energy": 3,
+      "confidence": 0.7,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_37_D02_coldstart_u02_aa",
+        "last_date": "2026-05-07"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Day was stressful. Just revised pharmacology for the NEET PG. Tired but worried.\" (tone: anxious)",
+      "source_id": "mo_001",
+      "priority": 7,
+      "computed_at": "2026-05-07",
+      "expires_at": "2026-05-21",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I get confused about which side effects of drugs are common and which are rare. When I rea\" (tone: frustrated)",
+      "source_id": "mo_002",
+      "priority": 7,
+      "computed_at": "2026-05-07",
+      "expires_at": "2026-05-21",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "try grouping antihypertensives and related drugs by shared side effects; report back on effectiveness",
+      "source_session": "eval_37_D02_coldstart_u02_aa",
+      "source_date": "2026-05-07",
+      "status": "active",
+      "expires_at": "2026-06-06"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

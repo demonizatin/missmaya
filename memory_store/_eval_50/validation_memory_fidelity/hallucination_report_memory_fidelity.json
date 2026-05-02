@@ -1,0 +1,333 @@
+{
+  "summary": {
+    "session_count": 15,
+    "category_totals": {
+      "A_titles": 3,
+      "B_named_entities": 0,
+      "C_personal_claims": 1,
+      "D_fake_quotes": 0
+    },
+    "category_session_counts": {
+      "A_titles": 2,
+      "C_personal_claims": 1
+    },
+    "examples": {
+      "A_titles": [
+        {
+          "session_idx": 12,
+          "label": "B02_consec_d1",
+          "user": "Aarti",
+          "turn": 2,
+          "title": "Got it, mixing them up is really common. Aapde kahi nahi pahuche",
+          "snippet": "\"Got it, mixing them up is really common. Aapde kahi nahi pahuche\", yes, that pressure is tough. What helps you the most when you're stuck?"
+        },
+        {
+          "session_idx": 14,
+          "label": "B04_consec_d3",
+          "user": "Aarti",
+          "turn": 4,
+          "title": "Beta blocks stress, heart beats less.",
+          "snippet": "A pharmacology rap sounds creative! Let’s start with beta blockers, how about this line: “Beta blocks stress, heart beats less.” What do you think?"
+        },
+        {
+          "session_idx": 14,
+          "label": "B04_consec_d3",
+          "user": "Aarti",
+          "turn": 7,
+          "title": "Medicine, medicine, memorize it right...",
+          "snippet": "\"Medicine, medicine, memorize it right...\", a great, upbeat chorus! It adds fun and rhythm. Go ahead, build your rap, I’m all ears!"
+        }
+      ],
+      "C_personal_claims": [
+        {
+          "session_idx": 18,
+          "label": "B08_consec_d7",
+          "user": "Aarti",
+          "turn": 1,
+          "claim": "I've been thinking about your color coded drug charts, they sound like a smart way t",
+          "snippet": "Hi Aarti, I've been thinking about your color coded drug charts, they sound like a smart way to simplify all that information. Did you try the antidiabetic one yet?"
+        }
+      ]
+    }
+  },
+  "per_session": [
+    {
+      "session_idx": 11,
+      "label": "B01_consec_d0",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 12,
+      "label": "B02_consec_d1",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 2,
+            "title": "Got it, mixing them up is really common. Aapde kahi nahi pahuche",
+            "snippet": "\"Got it, mixing them up is really common. Aapde kahi nahi pahuche\", yes, that pressure is tough. What helps you the most when you're stuck?"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 13,
+      "label": "B03_consec_d2",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 14,
+      "label": "B04_consec_d3",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 4,
+            "title": "Beta blocks stress, heart beats less.",
+            "snippet": "A pharmacology rap sounds creative! Let’s start with beta blockers, how about this line: “Beta blocks stress, heart beats less.” What do you think?"
+          },
+          {
+            "turn": 7,
+            "title": "Medicine, medicine, memorize it right...",
+            "snippet": "\"Medicine, medicine, memorize it right...\", a great, upbeat chorus! It adds fun and rhythm. Go ahead, build your rap, I’m all ears!"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 2,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 15,
+      "label": "B05_consec_d4",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 16,
+      "label": "B06_consec_d5",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 17,
+      "label": "B07_consec_d6",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 18,
+      "label": "B08_consec_d7",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 1,
+            "claim": "I've been thinking about your color coded drug charts, they sound like a smart way t",
+            "snippet": "Hi Aarti, I've been thinking about your color coded drug charts, they sound like a smart way to simplify all that information. Did you try the antidiabetic one yet?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 19,
+      "label": "B09_consec_d8",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 20,
+      "label": "B10_consec_d9",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 21,
+      "label": "B11_consec_d10",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 22,
+      "label": "B12_consec_d11",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 23,
+      "label": "B13_consec_d12",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 24,
+      "label": "B14_consec_d13",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 25,
+      "label": "B15_consec_d14",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    }
+  ]
+}

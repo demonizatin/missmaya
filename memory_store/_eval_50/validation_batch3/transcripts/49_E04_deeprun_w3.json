@@ -1,0 +1,902 @@
+{
+  "spec": {
+    "idx": 49,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-22",
+    "turns_target": 14,
+    "emotional_state": "anxious, exam stress",
+    "label": "E04_deeprun_w3"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, your project deadline is tomorrow — how are you feeling about it?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Honestly, I'm a mess. Exam stress is hitting hard, and I can't focus properly. I keep second-guessing every decision for the design. How do people stay so calm before deadlines? 🙃"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Got it — exam stress is real. It's tough when everything feels fragile.\"  \n\"You're not alone in this. Many designers second-guess before a deadline.\"  \n\"Right now, what part feels the most out of control?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The colour palette, totally. I can’t decide if it’s too bold or too safe. Also, my client keeps changing their mind about the layout. It’s like walking on eggshells 🥚. What helps you stay focused?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "\"Right — clients changing their mind is so hard. It makes everything feel shaky.\"  \n\"Focus is tricky. I find writing down small wins helps — like, 'I nailed the header font.'\"  \n\"Does that sound silly, or would you try it?\""
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Not silly at all — I do something similar but call it \"progress dots.\" Like, *✓ got the client to agree on the logo placement*. It’s the only way I feel like I’m moving forward. But sometimes I just need to take a walk and breathe. Maybe I should try your version. 🙃"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "\"Same — little checks make a big difference. 'Progress dots' sound smart.\"  \n\"Walking helps me too — even five minutes can reset the headspace.\"  \n\"Got time for a quick walk now, or later?\""
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Quick walk now, definitely. My brain is a tangled mess, and I need some fresh air. Maybe I’ll listen to that indie playlist I made — it’s either calming or makes me more anxious. We’ll see! 🎧"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "\"Right — walks and music are a good combo. Indie playlists are hit or miss, but that’s half the fun.\"  \n\"What’s the first song on your list?\""
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "First track? *Midnight Sun* by The Paper Kites. It’s mellow, but I always listen to it on repeat when I’m overthinking. Sometimes it calms me, sometimes it just makes me want to fix *everything*. Ugh, so relatable, right?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "\"Same — mellow songs can be both calm and chaos, depending on the day.\"  \n\"Overthinking is part of the design process. How do you usually break the cycle?\""
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "I take short breaks to do something totally unrelated — like sketching random shapes or sipping coffee *way* too slowly. Forces my brain to switch gears. But honestly, most of the time, I just tell myself, “It’s not perfect, but it’s *done*.” Challenging, though. 🤯"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "\"Right — forcing a break with coffee or sketching is smart. Slowing down helps the mind reset.\"  \n\"‘It’s not perfect, but it’s done’ — that line is tough, but you’re doing great.\"  \n\"Ever finish and feel proud, even if it’s not perfect?\""
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Honestly? Rarely. Most times I just feel relieved it’s done. But last month, I finished a poster design and actually felt proud — the client loved it, and I didn’t have to redo it thrice. *That* was a good day. Maybe I need more of those. 🙌"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "\"Relieved is still a win — and that poster story sounds exactly like progress.\"  \n\"Small victories matter. What made that one feel different from others?\""
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "I think it was the *flow* — for once, the client and I were on the same page from the start. No back-and-forth madness. Plus, the colours just *clicked*. It felt like everything aligned, you know? Like the universe said, “*Yes, this works.*” 🌟 I wish every project had that “click” moment."
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "\"Got it — that ‘click’ moment is everything. When everything aligns, it feels like magic.\"  \n\"Does that happen often, or is it a rare treat?\""
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Rare treat, but I chase it like a sunset 🌅. It’s that spark that makes the mess worth it. I guess I just need more of those \"clicks\" to survive this deadline. But hey, maybe after this walk, I’ll fake a click and go with it. You know, *pretend* confidence till it sticks. 😅"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "\"Right — pretending confidence till it sticks is a real skill. You’re doing that already.\"  \n\"Let that walk give you some space. When you come back, how will you know you’re ready to share the palette?\""
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "I’ll know I’m ready when I can look at the palette and *not* immediately want to tweak three things. Like, if I see it and think, “Hmm… this works,” instead of “Why did I pick *this* shade again?” That’ll be progress. 🙃 Maybe I’ll even reward myself with matcha latte — *chai* if I’m being honest."
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "\"Got it — ‘not wanting to tweak three things’ is the real test. That’s the moment of peace.\"  \n\"Matcha or *chai* — either sounds perfect for a palette win. Which one’s your go-to today?\""
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "Chai, definitely. I need the sugar rush and the *ustu padai* vibe — you know, that slow, warm feeling. Matcha is too ‘zen’ for my chaotic brain right now. But hey, maybe I’ll split and get a chai latte. *Chai* with a side of ‘I’m doing my best’ energy. 🫧"
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "\"Right — chai with the *ustu padai* vibe is the move when chaos hits. Sugar rush + warmth = magic.\"  \n\"Will that ‘I’m doing my best’ energy stick with you after the walk?\""
+    },
+    {
+      "turn": 13,
+      "role": "user",
+      "content": "If it doesn’t, I’ll just repeat it like a mantra. *I’m doing my best. I’m doing my best.* You know how we do it in our heads? Over and over, till it feels real. Thanks for the pep talk, Maya — I think I’m ready to go. Walk, playlist, and all. Catch you later! 😊"
+    },
+    {
+      "turn": 13,
+      "role": "maya",
+      "content": "\"Right — mantras work best when paired with chai. You’ve got this!\"  \n\"Send me a ‘done’ message when you’re back. Safe walks!\""
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Neha",
+      "stress_relief_method": "walks",
+      "preferred_beverage": "chai",
+      "yoga_style": "gentle (child's pose, 10 min sessions)",
+      "favorite_books": [
+        "The Time Traveler's Wife",
+        "Eating Animals",
+        "The Alchemist",
+        "The Ocean at the End of the Lane"
+      ],
+      "comfort_media": [
+        "Parks and Rec"
+      ],
+      "music_preference": [
+        "lo-fi playlists",
+        "indie music",
+        "Tamil indie",
+        "old Tamil film songs"
+      ],
+      "current_work": "Designs customer preference tracking app for small businesses",
+      "favorite_songs": [
+        "Go to Sleep by The Smiths",
+        "Sigh No More by Florence + The Machine",
+        "The A Team by Ed Sheeran",
+        "Lover by Phoebe Bridgers",
+        "Ethir Padai by Sathya"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "Project design deadline",
+        "date": "2026-05-16",
+        "added": "2026-05-15",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Today was one of those days where everything tiny goes wrong.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I just want to hit pause and take a deep breath.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "I'm learning to laugh at the little mishaps.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "My train delayed, I missed a meeting, and now I'm stuck in this tiny apartment missing the rain.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "I wish I could live in that rainy café moment forever — no deadlines, no emails, just chai and a sketchbook.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "This chat is saving my rainy evening.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "It's not loneliness when you're vibing with your favorite tune, right?",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "It's weird — now I feel less alone.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_48_E03_deeprun_w2",
+        "date": "2026-05-15",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": "ev_001"
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "music",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "café vibes",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "startup ideas",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "rainy-day books",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "rainy-day songs",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "coping strategies",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "the '*chokli chokli*' term for steaming chai",
+        "context": "User's beloved onomatopoeia for hot steaming chai; makes rain + chai moments feel intimate. Both use it warmly.",
+        "first_seen": "2026-05-08",
+        "last_used": "2026-05-08",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"Project design deadline\" — tomorrow",
+        "source_id": "ev_001",
+        "priority": 9,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My train delayed, I missed a meeting, and now I'm stuck in this tiny apartment missing the\" (tone: frustrated)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Today was one of those days where everything tiny goes wrong.\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I just want to hit pause and take a deep breath.\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"It's not loneliness when you're vibing with your favorite tune, right?\" (tone: hopeful)",
+        "source_id": "mo_007",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Writes small stories and makes to-do lists when settling into a calm rhythm"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "Share the link to 'Ethir Padai' by Sathya",
+        "source_session": "eval_48_E03_deeprun_w2",
+        "source_date": "2026-05-15",
+        "status": "active",
+        "expires_at": "2026-06-14"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "Bring a full playlist next session",
+        "source_session": "eval_48_E03_deeprun_w2",
+        "source_date": "2026-05-15",
+        "status": "active",
+        "expires_at": "2026-06-14"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Neha",
+      "stress_relief_method": "walks",
+      "preferred_beverage": "chai",
+      "yoga_style": "gentle (child's pose, 10 min sessions)",
+      "favorite_books": [
+        "The Time Traveler's Wife",
+        "Eating Animals",
+        "The Alchemist",
+        "The Ocean at the End of the Lane"
+      ],
+      "comfort_media": [
+        "Parks and Rec"
+      ],
+      "music_preference": [
+        "lo-fi playlists",
+        "indie music",
+        "Tamil indie",
+        "old Tamil film songs"
+      ],
+      "current_work": "Designs customer preference tracking app for small businesses",
+      "favorite_songs": [
+        "Go to Sleep by The Smiths",
+        "Sigh No More by Florence + The Machine",
+        "The A Team by Ed Sheeran",
+        "Lover by Phoebe Bridgers",
+        "Ethir Padai by Sathya",
+        "Midnight Sun by The Paper Kites"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "Project design deadline",
+        "date": "2026-05-16",
+        "added": "2026-05-15",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Today was one of those days where everything tiny goes wrong.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I just want to hit pause and take a deep breath.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "I'm learning to laugh at the little mishaps.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "My train delayed, I missed a meeting, and now I'm stuck in this tiny apartment missing the rain.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "I wish I could live in that rainy café moment forever — no deadlines, no emails, just chai and a sketchbook.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "This chat is saving my rainy evening.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "It's not loneliness when you're vibing with your favorite tune, right?",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "It's weird — now I feel less alone.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "Rare treat, but I chase it like a sunset 🌅. It's that spark that makes the mess worth it.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "It's not perfect, but it's *done*.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "I'm doing my best. I'm doing my best.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_48_E03_deeprun_w2",
+        "date": "2026-05-15",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": "ev_001"
+      },
+      {
+        "session_id": "eval_49_E04_deeprun_w3",
+        "date": "2026-05-22",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": "ev_001"
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "small wins / progress dots",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "finishing and feeling proud",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "music",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "café vibes",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "startup ideas",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "rainy-day books",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "rainy-day songs",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "coping strategies",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "the '*chokli chokli*' term for steaming chai",
+        "context": "User's beloved onomatopoeia for hot steaming chai; makes rain + chai moments feel intimate. Both use it warmly.",
+        "first_seen": "2026-05-08",
+        "last_used": "2026-05-08",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My train delayed, I missed a meeting, and now I'm stuck in this tiny apartment missing the\" (tone: frustrated)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Rare treat, but I chase it like a sunset 🌅. It's that spark that makes the mess worth it.\" (tone: hopeful)",
+        "source_id": "mo_009",
+        "priority": 4,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"It's not perfect, but it's *done*.\" (tone: content)",
+        "source_id": "mo_010",
+        "priority": 4,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I'm doing my best. I'm doing my best.\" (tone: content)",
+        "source_id": "mo_011",
+        "priority": 4,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"It's not loneliness when you're vibing with your favorite tune, right?\" (tone: hopeful)",
+        "source_id": "mo_007",
+        "priority": 4,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Writes small stories and makes to-do lists when settling into a calm rhythm"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_003",
+        "kind": "maya_promise",
+        "content": "user to send 'done' message when back from walk and palette work",
+        "source_session": "eval_49_E04_deeprun_w3",
+        "source_date": "2026-05-22",
+        "status": "active",
+        "expires_at": "2026-06-21"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "Share the link to 'Ethir Padai' by Sathya",
+        "source_session": "eval_48_E03_deeprun_w2",
+        "source_date": "2026-05-15",
+        "status": "active",
+        "expires_at": "2026-06-14"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "Bring a full playlist next session",
+        "source_session": "eval_48_E03_deeprun_w2",
+        "source_date": "2026-05-15",
+        "status": "active",
+        "expires_at": "2026-06-14"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 168.6
+}

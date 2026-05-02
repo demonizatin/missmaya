@@ -1,0 +1,1247 @@
+{
+  "spec": {
+    "idx": 18,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-08",
+    "turns_target": 12,
+    "emotional_state": "hopeful, made some progress on a goal",
+    "label": "B08_consec_d7"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, I've been thinking about your color coded drug charts, they sound like a smart way to simplify all that information. Did you try the antidiabetic one yet?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Yes, I just made it! I used green for sulfonylureas, blue for biguanides, and so on. It helped me revise faster. But I still get confused between DPP-4 and GLP-1. Need to work on that!"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Great job on the chart, green and blue must look so clear! That makes revision so much smoother. What’s your plan to tackle DPP 4 and GLP 1 next?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "I plan to make flashcards with their mechanisms and side effects. Maybe add some Marathi mnemonics too—like \"Dil aayega phir se\" for DPP-4! But I’m still a bit stuck on the exact differences. Any tips?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "\"Marathi mnemonics are a brilliant touch, makes it personal, right? Flashcards with mechanisms and side effects will help a lot. What’s one key difference you want to focus on first?\""
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I want to focus on how they affect insulin. DPP-4 is more about incretin, GLP-1 directly increases insulin. Need to get that straight! Maybe draw a small flowchart too. Aaj ka din achhe se guzar raha hai, feeling hopeful!"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "\"Got it, the flowchart will help you map it out clearly. Focusing on insulin is a smart start. How do you feel about the flashcards now?\""
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "I feel better, thoda confident! But I still get nervous about mixing up the drugs. Maybe I can add some examples to the flashcards? Like which drugs are DPP-4 inhibitors and which are GLP-1 agonists. What do you think?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "\"That’s a solid idea, examples on flashcards will make the difference clear. Adding real drug names will sharpen your focus. What example would you start with?\""
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I'll start with sitagliptin as a DPP-4 inhibitor and liraglutide as a GLP-1 agonist. Their uses and side effects can be compared. Thank you for the ideas, I feel more prepared now!"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "\"You’re doing great, sitagliptin vs liraglutide is a perfect first comparison. Writing out uses and side effects will help your memory stick. What next on your study list today?\""
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Next, I’ll try to revise the flowchart and test myself with the flashcards. Maybe do some mock questions on antidiabetics. But I think I’ll take a short break first—some chai and a chapati! 😊"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "\"Chai and chapati, the perfect recharge! Take your break, then tackle those mock questions. What part of the flowchart feels trickiest to nail down?\""
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "The tricky part is remembering which pathway each drug affects. Like, DPP-4 inhibitors stop the breakdown of GLP-1, but I sometimes mix up the sequence. Maybe I can add arrows to the flowchart to show the action direction. Thanks for the push! 😊"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You’re welcome! Arrows on the flowchart will make the sequence visual and easy to remember. That’s exactly the kind of tweak that helps. Enjoy your break and get back to it!"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "I'll draw arrows from DPP-4 to GLP-1 to show how it works. Maybe colour-code the enzymes too. Thanks again, I feel more clear now. Have to go—chai time! 😊"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "\"Arrows and colour coding will make it crystal clear. You’re on the right track, Aarti! Enjoy your chai and come back refreshed!\""
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Chai is on! I’ll add some jalebi for extra sweetness 😊. Need to recharge before the mock questions. Talk to you later!"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "\"Jalebi with chai is the sweetest way to recharge. Go ace those mock questions and talk soon!\""
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_preparing_for": "NEET PG (exam)",
+      "struggles_with": "memorizing drug names; gets stressed when unable to recall information"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Mixing up drug names like metoprolol and atenolol is frustrating; finds pharmacology confusing",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Gets stressed when unable to memorize and recall drug names",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Developed effective study strategies (song-based mnemonics with classic film tunes, visual tables, side-by-side comparisons) to overcome drug-name confusion; finds creative approach engaging, fun, and helps material stick",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Comfortable sharing and embracing quirky study habits with family; mom finds it funny when she sings study songs—there's warmth and humor in the dynamic",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Sleep deprivation recurring; can't concentrate on studies; exam anxiety deepens",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "Anxiety feels overwhelming and dominant: 'Anxiety is louder than my brain'; sometimes questions if effort is worthwhile",
+        "tone": "anxious",
+        "sensitive": true,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Finds concrete calming rituals: cooking sabudana khichdi (dish), listening to raga music; uses these to manage anxiety and ground herself",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "Recognizes and prioritizes self-compassion: 'My mind needs rest, not pressure'; trusts her own pace over forcing productivity",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "Turned drug-name memorization anxiety into a collaborative, creative learning experience (pharmacology rap); feels confident and energized by shifting from pressure-based to play-based studying",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "Actively applying visual comparison tables to resolve complex drug pharmacology; planning color-coded charts for antidiabetic drugs; demonstrates confidence in this learning method",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "Values peer support in study group; friend's table-based comparison of antihypertensive drugs helped clarify confusion about drug choices for specific patient conditions (beta blockers contraindicated in asthma)",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "Mom shared a new cardamom and saffron milk chai recipe; planning to incorporate it into study routine",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "Successfully recalled and articulated ACE inhibitor mechanisms (angiotensin blocking) and key safety considerations (dry cough, pregnancy contraindication)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_014",
+        "text": "Identified confusion between ACE inhibitors and ARBs; committed to clarifying differences as part of ongoing hypertension drug revision",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_015",
+        "text": "Sleep deprivation continues with specific symptoms: 'mind is so slow' during early morning study; struggles with sustained focus; 'kahi nahi lagto' (nothing is sticking) captures frustration with material retention",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_016",
+        "text": "Experiencing tension between needing rest and needing to maintain rigid study schedule; fears falling behind if doesn't start immediately; prioritizing task completion despite recognizing mind is fatigued",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_017",
+        "text": "Using simple grounding practices (tea, quiet moments) to manage fatigue during exam prep; accepting what's possible when energy is low; pragmatic about self-care within constraints",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 2,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_15_B05_consec_d4",
+        "date": "2026-05-05",
+        "label": "content",
+        "energy": 5,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_16_B06_consec_d5",
+        "date": "2026-05-06",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_17_B07_consec_d6",
+        "date": "2026-05-07",
+        "label": "low",
+        "energy": 3,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "sleep quality",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "revision pacing",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "Pomodoro method",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "cardiology chapter",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "break recharge methods",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "study group",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "hypertension drugs",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "pharmacology mnemonics",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Sleep deprivation continues with specific symptoms: 'mind is so slow' during early morning\" (tone: anxious)",
+        "source_id": "mo_015",
+        "priority": 7,
+        "computed_at": "2026-05-07",
+        "expires_at": "2026-05-21",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Experiencing tension between needing rest and needing to maintain rigid study schedule; fe\" (tone: anxious)",
+        "source_id": "mo_016",
+        "priority": 7,
+        "computed_at": "2026-05-07",
+        "expires_at": "2026-05-21",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Collaborated with Maya to craft memorable drug-name rap lines using rhyme and clarity; refined suggestions autonomously  (e.g. \"beta blockers verse: 'Beta blocks stress, heart beats less / Lowers BP, keeps arteries cool' + ACE verse + chorus\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-07",
+        "expires_at": "2026-05-21",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Independently extending visual comparison method to new drug categories; demonstrates initiative and planning for broade (e.g. \"I think I'll make a table for antidiabetic drugs next. Maybe a color-coded chart will help me memorize better.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-07",
+        "expires_at": "2026-05-21",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Using simple grounding practices (tea, quiet moments) to manage fatigue during exam prep; \" (tone: content)",
+        "source_id": "mo_017",
+        "priority": 4,
+        "computed_at": "2026-05-07",
+        "expires_at": "2026-05-21",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "Collaborated with Maya to craft memorable drug-name rap lines using rhyme and clarity; refined suggestions autonomously ",
+          "examples": [
+            "beta blockers verse: 'Beta blocks stress, heart beats less / Lowers BP, keeps arteries cool' + ACE verse + chorus"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-04",
+          "last_seen": "2026-05-04"
+        },
+        {
+          "what": "Independently extending visual comparison method to new drug categories; demonstrates initiative and planning for broade",
+          "examples": [
+            "I think I'll make a table for antidiabetic drugs next. Maybe a color-coded chart will help me memorize better."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-05",
+          "last_seen": "2026-05-05"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_005",
+        "kind": "maya_promise",
+        "content": "Discuss cardiology chapter concepts (diagrams, terms) during Aarti's Pomodoro break",
+        "source_session": "eval_17_B07_consec_d6",
+        "source_date": "2026-05-07",
+        "status": "active",
+        "expires_at": "2026-06-06"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "Clarify ACE vs ARB differences and continue hypertension drug revision",
+        "source_session": "eval_16_B06_consec_d5",
+        "source_date": "2026-05-06",
+        "status": "active",
+        "expires_at": "2026-06-05"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "create color-coded comparison charts for antidiabetic drugs",
+        "source_session": "eval_15_B05_consec_d4",
+        "source_date": "2026-05-05",
+        "status": "active",
+        "expires_at": "2026-06-04"
+      },
+      {
+        "id": "ol_002",
+        "kind": "maya_promise",
+        "content": "Tell me how your study group goes",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "come back with mnemonics for metoprolol and atenolol to help remember which drug is which",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_preparing_for": "NEET PG (exam)",
+      "struggles_with": "memorizing drug names; gets stressed when unable to recall information"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Mixing up drug names like metoprolol and atenolol is frustrating; finds pharmacology confusing",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Gets stressed when unable to memorize and recall drug names",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Developed effective study strategies (song-based mnemonics with classic film tunes, visual tables, side-by-side comparisons) to overcome drug-name confusion; finds creative approach engaging, fun, and helps material stick",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Comfortable sharing and embracing quirky study habits with family; mom finds it funny when she sings study songs—there's warmth and humor in the dynamic",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Sleep deprivation recurring; can't concentrate on studies; exam anxiety deepens",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "Anxiety feels overwhelming and dominant: 'Anxiety is louder than my brain'; sometimes questions if effort is worthwhile",
+        "tone": "anxious",
+        "sensitive": true,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Finds concrete calming rituals: cooking sabudana khichdi (dish), listening to raga music; uses these to manage anxiety and ground herself",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "Recognizes and prioritizes self-compassion: 'My mind needs rest, not pressure'; trusts her own pace over forcing productivity",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "Turned drug-name memorization anxiety into a collaborative, creative learning experience (pharmacology rap); feels confident and energized by shifting from pressure-based to play-based studying",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "Actively applying visual comparison tables to resolve complex drug pharmacology; planning color-coded charts for antidiabetic drugs; demonstrates confidence in this learning method",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "Values peer support in study group; friend's table-based comparison of antihypertensive drugs helped clarify confusion about drug choices for specific patient conditions (beta blockers contraindicated in asthma)",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "Mom shared a new cardamom and saffron milk chai recipe; planning to incorporate it into study routine",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "Successfully recalled and articulated ACE inhibitor mechanisms (angiotensin blocking) and key safety considerations (dry cough, pregnancy contraindication)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_014",
+        "text": "Identified confusion between ACE inhibitors and ARBs; committed to clarifying differences as part of ongoing hypertension drug revision",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_015",
+        "text": "Sleep deprivation continues with specific symptoms: 'mind is so slow' during early morning study; struggles with sustained focus; 'kahi nahi lagto' (nothing is sticking) captures frustration with material retention",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_016",
+        "text": "Experiencing tension between needing rest and needing to maintain rigid study schedule; fears falling behind if doesn't start immediately; prioritizing task completion despite recognizing mind is fatigued",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_017",
+        "text": "Using simple grounding practices (tea, quiet moments) to manage fatigue during exam prep; accepting what's possible when energy is low; pragmatic about self-care within constraints",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_018",
+        "text": "Successfully applied visual comparison + Marathi mnemonic approach to DPP-4 vs GLP-1 pharmacology; felt confident and clear during focused study; demonstrates creative adaptation of learned strategies",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_019",
+        "text": "Taking structured breaks (chai, chapati, jalebi) as part of exam prep routine; pragmatic self-care integrated into study flow",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_020",
+        "text": "Created personal Marathi mnemonic 'Dil aayega phir se' for DPP-4 inhibitor memory; blending cultural-linguistic elements with pharmacology study",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 2,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_15_B05_consec_d4",
+        "date": "2026-05-05",
+        "label": "content",
+        "energy": 5,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_16_B06_consec_d5",
+        "date": "2026-05-06",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_17_B07_consec_d6",
+        "date": "2026-05-07",
+        "label": "low",
+        "energy": 3,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_18_B08_consec_d7",
+        "date": "2026-05-08",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.63,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "antidiabetic drug charts",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "sleep quality",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "revision pacing",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "Pomodoro method",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "cardiology chapter",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "break recharge methods",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07",
+          "uses": 1
+        },
+        {
+          "topic": "study group",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "hypertension drugs",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06",
+          "uses": 1
+        },
+        {
+          "topic": "pharmacology mnemonics",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Sleep deprivation continues with specific symptoms: 'mind is so slow' during early morning\" (tone: anxious)",
+        "source_id": "mo_015",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Experiencing tension between needing rest and needing to maintain rigid study schedule; fe\" (tone: anxious)",
+        "source_id": "mo_016",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Collaborated with Maya to craft memorable drug-name rap lines using rhyme and clarity; refined suggestions autonomously  (e.g. \"beta blockers verse: 'Beta blocks stress, heart beats less / Lowers BP, keeps arteries cool' + ACE verse + chorus\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Independently extending visual comparison method to new drug categories; demonstrates initiative and planning for broade (e.g. \"I think I'll make a table for antidiabetic drugs next. Maybe a color-coded chart will help me memorize better.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Independently extending visual-comparison method with personal linguistic elements; designing multi-layered study tools  (e.g. \"Maybe colour-code the enzymes too\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "Collaborated with Maya to craft memorable drug-name rap lines using rhyme and clarity; refined suggestions autonomously ",
+          "examples": [
+            "beta blockers verse: 'Beta blocks stress, heart beats less / Lowers BP, keeps arteries cool' + ACE verse + chorus"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-04",
+          "last_seen": "2026-05-04"
+        },
+        {
+          "what": "Independently extending visual comparison method to new drug categories; demonstrates initiative and planning for broade",
+          "examples": [
+            "I think I'll make a table for antidiabetic drugs next. Maybe a color-coded chart will help me memorize better."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-05",
+          "last_seen": "2026-05-05"
+        },
+        {
+          "what": "Independently extending visual-comparison method with personal linguistic elements; designing multi-layered study tools ",
+          "examples": [
+            "I used green for sulfonylureas, blue for biguanides",
+            "Dil aayega phir se for DPP-4!",
+            "Maybe draw a small flowchart too",
+            "I can add arrows to the flowchart to show the action direction",
+            "Maybe colour-code the enzymes too"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_005",
+        "kind": "maya_promise",
+        "content": "Discuss cardiology chapter concepts (diagrams, terms) during Aarti's Pomodoro break",
+        "source_session": "eval_17_B07_consec_d6",
+        "source_date": "2026-05-07",
+        "status": "active",
+        "expires_at": "2026-06-06"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "Clarify ACE vs ARB differences and continue hypertension drug revision",
+        "source_session": "eval_16_B06_consec_d5",
+        "source_date": "2026-05-06",
+        "status": "active",
+        "expires_at": "2026-06-05"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "create color-coded comparison charts for antidiabetic drugs",
+        "source_session": "eval_15_B05_consec_d4",
+        "source_date": "2026-05-05",
+        "status": "active",
+        "expires_at": "2026-06-04"
+      },
+      {
+        "id": "ol_002",
+        "kind": "maya_promise",
+        "content": "Tell me how your study group goes",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "come back with mnemonics for metoprolol and atenolol to help remember which drug is which",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 110.1
+}

@@ -1,0 +1,269 @@
+{
+  "spec": {
+    "idx": 45,
+    "profile_id": "u10_shreya",
+    "eval_user_key": "u10_shreya_cold",
+    "today": "2026-05-28",
+    "turns_target": 8,
+    "emotional_state": "excited about a weekend plan",
+    "label": "D10_coldstart_u10_sh"
+  },
+  "profile": {
+    "id": "u10_shreya",
+    "user_name": "Shreya",
+    "profession": "MBA student at IIM",
+    "mother_tongue": "Hindi",
+    "interests": "Strategy consulting, books, F1",
+    "engagement": "medium",
+    "english_level": "C1",
+    "personality": "fluent, articulate, occasional grammar slip; treats the chat as banter"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Shreya, I'm Miss Maya. It's a pleasure to meet you! What have you been up to today?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hey Maya! Busy with case studies but managed to read a chapitre of *Sapiens*—love Harari’s take on human strategy. Weekend plans are set: F1 race day! 🏎️ *Chill* after that, probably with a book. What's your weekend like?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Right, Sapiens is a great read. Weekend plans sound fun. Do you follow any particular F1 team?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Red Bull, no doubt. Their strategy this season is on *point*. But I still have a soft spot for Ferrari’s legacy—old school charm, you know? By the way, any good book recommendations? I’m in the mood for something strategic, maybe business-related."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Red Bull's strategy is impressive this season. Ferrari’s legacy does have that old school charm. How about *The Hard Thing About Hard Things* by Ben Horowitz. It’s about business strategy. Thoughts?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Shreya: Heard of Ben Horowitz—will check it out. I’m more into *non-fiction* that blends real-world cases with strategy, but sounds worth a read. P.S. I’m *super hyped* for the race tomorrow, even though qualifying was a bit *disappointing* for Red Bull."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Right, non fiction with real world cases is a solid pick. *The Hard Thing* does that well. F1 qualifying can be tough, how are you feeling about the race tomorrow despite the mix up?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Optimistic, honestly. Race day is all about execution—Red Bull’s pit crew is *fire*. If Verstappen keeps his cool, they’ll turn it around. And if not? Still a show. Either way, I’m *game*. Race at 4, then maybe a *dosa* run. You game for a food recommendation next?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Red Bull's pit crew is definitely on fire. Dosa after the race sounds perfect. I'm game, what kind of dosa are we talking about, classic, stuffed, or something else?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Stuffed, hands down—paneer or egg is my *fave*. But nothing beats a spicy potato dosa with *chutney* on the side. You in for a foodie deep dive, or just the basics? 😄"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Stuffed dosa is a win, paneer or egg sounds tasty. Spicy potato with chutney hits right. Let’s go deeper: are you into South Indian or North Indian flavors more?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "South Indian, for sure—*idlis*, *uttapams*, the dosas… the flavors are fresh, light, but still pack a punch. Though I’ll never say no to a good North Indian butter chicken. *Meh*, why choose? Let’s talk about both. 😄"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "South Indian flavors have that perfect balance of fresh and bold. Butter chicken is a classic for a reason. Right, why choose when you can mix. What’s your go to combo when you blend both cuisines?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Idli with a side of butter chicken—*simple but epic*. Or dosa with tangy coconut chutney and a drizzle of ghee. Either way, *masala* magic. Gotta run—race prep! 🏁 Talk later?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Idli with butter chicken is genius. Dosa with coconut chutney and ghee? Masala magic, for sure. Have a great race prep, catch you later!"
+    }
+  ],
+  "memory_before": {
+    "facts": {},
+    "events": [],
+    "moments": [],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Shreya",
+      "work_context": "case studies",
+      "primary_f1_team": "Red Bull",
+      "secondary_f1_team": "Ferrari",
+      "interests": [
+        "reading",
+        "F1 racing",
+        "business strategy"
+      ],
+      "book_preferences": "non-fiction with real-world strategy cases",
+      "cuisine_preference_primary": "South Indian",
+      "cuisine_preference_secondary": "North Indian",
+      "favorite_dosas": [
+        "stuffed with paneer or egg",
+        "spicy potato with chutney"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "F1 race day - Red Bull (Shreya optimistic about pit crew execution)",
+        "date": "2026-05-29",
+        "added": "2026-05-28",
+        "followed_up": false
+      }
+    ],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_45_D10_coldstart_u10_sh",
+        "date": "2026-05-28",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "F1 team preference",
+          "last_session": "eval_45_D10_coldstart_u10_sh",
+          "last_date": "2026-05-28",
+          "uses": 1
+        },
+        {
+          "topic": "Indian food preferences",
+          "last_session": "eval_45_D10_coldstart_u10_sh",
+          "last_date": "2026-05-28",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_45_D10_coldstart_u10_sh",
+          "last_date": "2026-05-28"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"F1 race day - Red Bull (Shreya optimistic about pit crew execution)\" — tomorrow",
+        "source_id": "ev_001",
+        "priority": 9,
+        "computed_at": "2026-05-28",
+        "expires_at": "2026-06-11",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 98.9
+}

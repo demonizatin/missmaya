@@ -1,0 +1,177 @@
+{
+  "facts": {
+    "interests": [
+      "strategy case studies (project)",
+      "hiking (sport)",
+      "fiction (book genre)",
+      "non-fiction (book genre)"
+    ]
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "hiking trip in Aravallis (trip)",
+      "date": "2026-05-28",
+      "added": "2026-05-28",
+      "followed_up": false
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Craving a story that pulls you in with atmosphere and depth — like *The Shadow of the Wind (book)* vibes.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-28",
+      "last_seen": "2026-05-28",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "Resilience in characters and well-developed backstories make me root for them harder.",
+      "tone": "hopeful",
+      "sensitive": false,
+      "first_seen": "2026-05-28",
+      "last_seen": "2026-05-28",
+      "mentions": 1
+    },
+    {
+      "id": "mo_003",
+      "text": "Going on a short hike in the Aravallis, just outside Delhi, for fresh air and green views.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-28",
+      "last_seen": "2026-05-28",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "weekend reads",
+        "last_session": "eval_45_D10_coldstart_u10_sh",
+        "last_date": "2026-05-28",
+        "uses": 1
+      },
+      {
+        "topic": "book preferences",
+        "last_session": "eval_45_D10_coldstart_u10_sh",
+        "last_date": "2026-05-28",
+        "uses": 1
+      },
+      {
+        "topic": "hiking plans",
+        "last_session": "eval_45_D10_coldstart_u10_sh",
+        "last_date": "2026-05-28",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_45_D10_coldstart_u10_sh",
+        "last_date": "2026-05-28"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "event_upcoming",
+      "content": "Ask about \"hiking trip in Aravallis (trip)\" — today",
+      "source_id": "ev_001",
+      "priority": 10,
+      "computed_at": "2026-05-28",
+      "expires_at": "2026-06-11",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Craving a story that pulls you in with atmosphere and depth — like *The Shadow of the Wind\" (tone: content)",
+      "source_id": "mo_001",
+      "priority": 4,
+      "computed_at": "2026-05-28",
+      "expires_at": "2026-06-11",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Resilience in characters and well-developed backstories make me root for them harder.\" (tone: hopeful)",
+      "source_id": "mo_002",
+      "priority": 4,
+      "computed_at": "2026-05-28",
+      "expires_at": "2026-06-11",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Going on a short hike in the Aravallis, just outside Delhi, for fresh air and green views.\" (tone: content)",
+      "source_id": "mo_003",
+      "priority": 4,
+      "computed_at": "2026-05-28",
+      "expires_at": "2026-06-11",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold",
+      "Maya mentioned she enjoys chatting with friends during breaks"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "tell Maya how the hiking trip went",
+      "source_session": "eval_45_D10_coldstart_u10_sh",
+      "source_date": "2026-05-28",
+      "status": "active",
+      "expires_at": "2026-06-27"
+    },
+    {
+      "id": "ol_002",
+      "kind": "user_promise",
+      "content": "share book recommendations after the trip",
+      "source_session": "eval_45_D10_coldstart_u10_sh",
+      "source_date": "2026-05-28",
+      "status": "active",
+      "expires_at": "2026-06-27"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": "active",
+    "reply_length": "medium",
+    "humor_level": "warm",
+    "off_limits_topics": [],
+    "asked_at": {
+      "correction_style": "2026-05-28",
+      "reply_length": "2026-05-28",
+      "humor_level": "2026-05-28"
+    }
+  }
+}

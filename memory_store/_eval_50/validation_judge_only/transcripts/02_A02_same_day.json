@@ -1,0 +1,455 @@
+{
+  "spec": {
+    "idx": 2,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 8,
+    "emotional_state": "hopeful, made some progress on a goal",
+    "label": "A02_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Priyansh, I heard you worked on a project today — how did it go?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "It went well. We fixed a bug that was causing delays in payments. My team is happy. I am proud of the work. 😊"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That’s great — fixing bugs that affect payments is no small task. What was the trickiest part of it?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The trickiest part was figuring out why the error only happened during peak hours. We had to simulate high traffic to catch it. Took us a few hours, but finally we did it. 😎"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Right — simulating high traffic sounds like the key move. What tools did you use for that?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "We used a tool called JMeter. It helps create a lot of fake requests at once. Also, we checked the logs carefully to find where the problem started. It was a good learning experience. 😊"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Nice — JMeter is a solid choice for testing under pressure. What did you learn most from this fix?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "I learned how important it is to test under real-like conditions. Small issues can become big during peak times. Also, teamwork made it easier — we all had different ideas, but working together helped. 😊"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Got it — real like testing and teamwork are both huge wins. What’s next on your project list?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Next, we are adding a new feature for faster user verification. It involves integrating with a third-party API. I need to make sure the data flows correctly and securely. Should be interesting! 😊"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Adding a new feature and integrating APIs — that sounds like a big responsibility. What’s your strategy for handling the data flow?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "We are making a detailed plan first — like, mapping each input and output. Also, we will do small tests often so we can catch issues early. I will also consult with our security team to ensure everything is safe. It's a bit challenging, but I am excited. 😊"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Right — mapping inputs and outputs is smart, and testing early keeps things smooth. How are you handling the API documentation?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "The API docs are a bit complex, so I’m going through them step by step. I also asked the API provider for a sample setup — that helps a lot. But honestly, the biggest challenge is making sure the data stays secure during the transfer. Need to be extra careful. 😊"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You're right — security during data transfer is a big deal. How are you planning to handle encryption?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Priyansh",
+      "sector": "fintech",
+      "work_values": "documentation and clear communication",
+      "favorite_movies": [
+        "Yeh Jawaani Hai Deewani (movie)"
+      ],
+      "interests": [
+        "cricket (sport)"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "worked on a project",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      },
+      {
+        "id": "ev_002",
+        "what": "met startup founder, discussed cricket and business communication",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      },
+      {
+        "id": "ev_003",
+        "what": "watched Yeh Jawaani Hai Deewani (movie)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.78,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"worked on a project\" — today",
+        "source_id": "ev_001",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"met startup founder, discussed cricket and business communication\" — today",
+        "source_id": "ev_002",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"watched Yeh Jawaani Hai Deewani (movie)\" — today",
+        "source_id": "ev_003",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Priyansh",
+      "sector": "fintech",
+      "work_values": "documentation and clear communication",
+      "favorite_movies": [
+        "Yeh Jawaani Hai Deewani (movie)"
+      ],
+      "interests": [
+        "cricket (sport)"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "worked on a project",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "met startup founder, discussed cricket and business communication",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      },
+      {
+        "id": "ev_003",
+        "what": "watched Yeh Jawaani Hai Deewani (movie)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "teamwork made it easier — we all had different ideas, but working together helped",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.78,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "payment bug fix",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "API integration",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "data security",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"met startup founder, discussed cricket and business communication\" — today",
+        "source_id": "ev_002",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"watched Yeh Jawaani Hai Deewani (movie)\" — today",
+        "source_id": "ev_003",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used complex embedded clause correctly (e.g. \"I learned how important it is to test under real-like conditions\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used contrasting compound sentences (e.g. \"we all had different ideas, but working together helped\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"teamwork made it easier — we all had different ideas, but working together helped\" (tone: grateful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "used complex embedded clause correctly",
+          "examples": [
+            "I learned how important it is to test under real-like conditions"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used contrasting compound sentences",
+          "examples": [
+            "we all had different ideas, but working together helped"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 97.9
+}

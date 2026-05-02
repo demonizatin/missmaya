@@ -1,0 +1,554 @@
+{
+  "spec": {
+    "idx": 3,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 10,
+    "emotional_state": "tired, slept badly",
+    "label": "A03_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, What new movie caught your eye this week?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Not much, I was too tired this week. Was up late working on a project. But heard \"Dunki\" is good. Maybe watch it this weekend."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Got it, work late is tough. Dunki, right? Action, comedy, or both?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Both, I think. Shah Rukh Khan and Akshay Kumar are in it. So it's probably a mix. I’m more into the Bollywood stars than the genre honestly. *laughs* But I’ll know more once I watch it."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "\"Shah Rukh and Akshay in the same film — that’s a combo. Bhai, they’re legends. What’s your go-to movie star these days?\""
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Shah Rukh is my all-time fav. Still. But lately, I’ve been watching more short web series on MX Player. Less time for full movies, you know? Busy with work and cricket matches. *sigh*"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Shah Rukh stays Shah Rukh. Web series over full movies — busy life, but at least the cricket’s fun. Any match on your mind this weekend?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "India vs Pakistan on Sunday. Always a big one. But honestly, I’m too exhausted. Maybe just watch highlights. *yawns* Work’s been taking too much energy."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "India vs Pakistan is always a big one ,  even the highlights are worth it. Exhausted lately, huh? How’s the work load shaping up for you?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Heavy workload, tight deadlines. Not the worst, but not fun. Miss sleeping in on weekends. *sigh* Kya hua, life chahiye ya kaam?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "India vs Pakistan is always a big one, even the highlights are worth it. Exhausted lately, huh? How’s the work load shaping up for you?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Heavy workload, tight deadlines. Not the worst, but not fun. Miss sleeping in on weekends. *sigh* Kya hua, life chahiye ya kaam?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "\"Work eating into weekends is rough. That ‘kya hua’ feeling — are you catching up on sleep at all, or is it all work?\""
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Trying to catch up, but it’s tough. Sleep is like... broken every night. Even small tasks feel heavy. *yawns again* Maybe a nap today. Or not."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "\"Broken sleep is the worst. That nap might be the only win today — even a short one helps. What’s on your mind more, work or the movie?\""
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Work, obviously. But even the thought of the movie feels like a escape. Maybe both will have to wait till I’m less... khalaas. *laughs weakly*"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "\"Escape is still escape, even if it’s just a few hours. ‘Khalaas’ mode — when does that happen, a weekend off or a project done?\""
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Maybe when the project deadline is over. Or maybe never. *laughs* Who knows? For now, just trying to survive the week. Talk to you later, Maya. Need some rest."
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Surviving the week — take it one hour at a time. Rest well, and catch up on movies and cricket later. Talk soon, Priyansh."
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "Bollywood (movie)",
+        "Hindi songs (song)",
+        "Ye Dil Maange More (song)",
+        "Lag Ja Gale (song)",
+        "Pyar Hua Ikrar (song)",
+        "Dilwale Dulhania Le Jayenge (movie)",
+        "Jawan (movie)",
+        "Rabba (song)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Watching Pathaan (movie) was a fun experience for Priyansh, and he especially enjoyed the action scenes and Besharam Rang (song).",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Priyansh enjoys old Hindi songs like 'Ye Dil Maange More (song)', 'Lag Ja Gale (song)', and 'Pyar Hua Ikrar (song)', and also finds songs in movies like 'Rabba (song)' from Jawan (movie) appealing due to their old-school vibe.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Priyansh balances work by taking evening walks and watching cricket matches, and sometimes enjoys a 'Dilwale Dulhania Le Jayenge (movie)' rerun with some chai.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "songs matching movie scenes",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Described a movie and its elements (action scenes, songs, mood) effectively in English (e.g. \"The action scenes were very thrilling, like when the main character fights with the bad guys. Also, the movie had some good Hindi songs...\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Described the style and appeal of a movie song, noting its blend of old and new styles. (e.g. \"'Rabba' mixing old and new is a smart move, songs like that really stand out.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Watching Pathaan (movie) was a fun experience for Priyansh, and he especially enjoyed the \" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Priyansh enjoys old Hindi songs like 'Ye Dil Maange More (song)', 'Lag Ja Gale (song)', an\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Priyansh balances work by taking evening walks and watching cricket matches, and sometimes\" (tone: content)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "Described a movie and its elements (action scenes, songs, mood) effectively in English",
+          "examples": [
+            "The action scenes were very thrilling, like when the main character fights with the bad guys. Also, the movie had some good Hindi songs..."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Described the style and appeal of a movie song, noting its blend of old and new styles.",
+          "examples": [
+            "'Rabba' mixing old and new is a smart move, songs like that really stand out."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "Tell Maya how the work meeting went",
+        "source_session": "eval_1_A01_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "Bollywood (movie)",
+        "Hindi songs (song)",
+        "Ye Dil Maange More (song)",
+        "Lag Ja Gale (song)",
+        "Pyar Hua Ikrar (song)",
+        "Dilwale Dulhania Le Jayenge (movie)",
+        "Jawan (movie)",
+        "Rabba (song)",
+        "Dunki (movie)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Watching Pathaan (movie) was a fun experience for Priyansh, and he especially enjoyed the action scenes and Besharam Rang (song).",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Priyansh enjoys old Hindi songs like 'Ye Dil Maange More (song)', 'Lag Ja Gale (song)', and 'Pyar Hua Ikrar (song)', and also finds songs in movies like 'Rabba (song)' from Jawan (movie) appealing due to their old-school vibe.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Priyansh balances work by taking evening walks and watching cricket matches, and sometimes enjoys a 'Dilwale Dulhania Le Jayenge (movie)' rerun with some chai.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Priyansh is feeling exhausted from work and is considering watching the movie Dunki (movie) this weekend as a form of escape.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Priyansh expressed a deep fatigue from work and a longing for rest and weekend relaxation, feeling drained and overwhelmed with the current workload.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "low",
+        "energy": 3,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "songs matching movie scenes",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "weekend movie plans",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "India vs Pakistan match",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work fatigue",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Priyansh is feeling exhausted from work and is considering watching the movie Dunki (movie\" (tone: frustrated)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Priyansh expressed a deep fatigue from work and a longing for rest and weekend relaxation,\" (tone: frustrated)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Described a movie and its elements (action scenes, songs, mood) effectively in English (e.g. \"The action scenes were very thrilling, like when the main character fights with the bad guys. Also, the movie had some good Hindi songs...\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Described the style and appeal of a movie song, noting its blend of old and new styles. (e.g. \"'Rabba' mixing old and new is a smart move, songs like that really stand out.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Watching Pathaan (movie) was a fun experience for Priyansh, and he especially enjoyed the \" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "Described a movie and its elements (action scenes, songs, mood) effectively in English",
+          "examples": [
+            "The action scenes were very thrilling, like when the main character fights with the bad guys. Also, the movie had some good Hindi songs..."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Described the style and appeal of a movie song, noting its blend of old and new styles.",
+          "examples": [
+            "'Rabba' mixing old and new is a smart move, songs like that really stand out."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "Tell Maya how the work meeting went",
+        "source_session": "eval_1_A01_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "Tell Maya how the work deadline goes",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": "active",
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {
+        "correction_style": "2026-05-01"
+      }
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 23.4
+}

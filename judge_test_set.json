@@ -1,0 +1,302 @@
+{
+  "violations": {
+    "greeting_t2": [
+      {
+        "reply": "Hi Priyansh, that sounds fun! I love cricket and Bollywood — which one is your favorite, Pathaan or Tiger 3?",
+        "user_last": "i prefer mornings, honestly. my mind is more clear then. evenings i get sleepy, so i save easier tasks for that time. what about you, do you have a favorite time to work?",
+        "turn": 2,
+        "session": "A01_same_day"
+      },
+      {
+        "reply": "Hi Priyansh, I get that — first movies often stay special! Do you watch Bollywood songs while working on your computer?",
+        "user_last": "i prefer mornings, honestly. my mind is more clear then. evenings i get sleepy, so i save easier tasks for that time. what about you, do you have a favorite time to work?",
+        "turn": 3,
+        "session": "A01_same_day"
+      },
+      {
+        "reply": "Hi Priyansh, that’s a beautiful song! I like listening to soft music while working too. Do you code in a quiet room, or are you in a busy office?",
+        "user_last": "i prefer mornings, honestly. my mind is more clear then. evenings i get sleepy, so i save easier tasks for that time. what about you, do you have a favorite time to work?",
+        "turn": 4,
+        "session": "A01_same_day"
+      },
+      {
+        "reply": "Hi Priyansh, working from home can be great for focus! Do you prefer working in the morning or the evening?",
+        "user_last": "i prefer mornings, honestly. my mind is more clear then. evenings i get sleepy, so i save easier tasks for that time. what about you, do you have a favorite time to work?",
+        "turn": 5,
+        "session": "A01_same_day"
+      }
+    ],
+    "multi_q": [
+      {
+        "reply": "You explained that clearly! Good use of \"very good.\" I agree — being a strong player helps! Me? I'd probably forget all the strategies. Do you enjoy strategizing when you play cricket?",
+        "user_last": "i usually watch cricket on tv, but sometimes i stream it on my phone. it’s better when i can watch with friends — we discuss strategies and get excited together. i should head out now, but thanks for the chat!",
+        "turn": 8,
+        "session": "A05_same_day"
+      },
+      {
+        "reply": "Hi Priyansh, I see you are thinking hard about the cricket gloves — simplifying is a smart idea. What about a Bollywood song to relax? I just listened to Ek Ladki Ko Dekha To Yeh Jiya. Have you heard it?",
+        "user_last": "i think it was *dance monkey* by tones and i. it played in the theater, so maybe that's why it stuck with me. anyway, i should get back to work. talk to you later!",
+        "turn": 3,
+        "session": "A06_same_day"
+      },
+      {
+        "reply": "Hi Priyansh, singing off-key is the best kind! I sing along too, mostly in the kitchen while making tea. It’s a joyful kind of *dosti*, isn’t it? Do you write any songs, or just enjoy singing them?",
+        "user_last": "no, i don’t write songs — i stick to singing! my creativity ends at hitting the right notes in my head, not in reality. but i do enjoy the feeling when a song just… fits. gotta go now, maya — my sensors (and my bollywood playlist) need me. talk to you later!",
+        "turn": 11,
+        "session": "A07_same_day"
+      },
+      {
+        "reply": "Good try! We'd usually say \"What am I thinking?\" instead. Your ideas are great — colors and durability matter a lot. Did you decide which ones to include?",
+        "user_last": "yeah, sometimes i do! it's more fun when you know the lyrics. my sister and i sing along to \"nishi kashi\" every time we watch bobby. it's catchy! gotta go now, but thanks for the chat. talk to you later!",
+        "turn": 3,
+        "session": "A10_same_day"
+      }
+    ],
+    "bio_hard": [
+      {
+        "reply": "I watched \"Jawan\" last week. It’s a new movie with Shah Rukh Khan. The story is about a soldier — very emotional. You should watch it if you like action and drama. Have you seen it?",
+        "user_last": "honestly, it feels *bada awesome*! sometimes i get nervous if the idea is too techy or not user-friendly, but when i see a player try the gloves and smile, it all makes sense. excited but also learning a lot. gotta go — talk to you later, maya!",
+        "turn": 4,
+        "session": "A02_same_day"
+      },
+      {
+        "reply": "I watched a small comedy about a family in a small town — very sweet. I am a movie person, but I love when it is a good story. Do you watch movies in Bengali too?",
+        "user_last": "yes, i saw his movie *churachand* last week — it was very good! the story was touching. by the way, i need to go now, my team is calling for a quick practice. thanks for chat!",
+        "turn": 3,
+        "session": "C01_sporadic_d0"
+      },
+      {
+        "reply": "I watched *Neelakashane* — the acting was so exciting! I like how you said \"giving me some trouble.\" You're doing well. For reasoning puzzles, maybe try drawing them out? Does that work for you?",
+        "user_last": "i mostly take action shots, like when someone is scoring or passing. but it's hard to catch the perfect moment. sometimes i also try to capture the crowd's emotion — you know, the joy or frustration. maybe i can practice more and learn some tips. thanks for the suggestion! i should go now, gotta stu",
+        "turn": 4,
+        "session": "C08_sporadic_d60"
+      }
+    ],
+    "love_how_you": [
+      {
+        "reply": "I love how you explained it — makes me think of chai too! Just the right balance of sweet and bitter. Your gloves sound like they’ll be a hit once ready. What’s your favorite part of working on it?",
+        "user_last": "we’re moving into the final testing phase — some pro players are going to try them out soon. if they give the green signal, we’ll start production. felt like this is a good point to wrap up — gotta get back to work on some code. talk to you later, maya! 😊",
+        "turn": 4,
+        "session": "A08_same_day"
+      },
+      {
+        "reply": "Hi Aarti, I love how you created a clever way to remember morphine! Tell me, have you used this trick for other medicines too?",
+        "user_last": "hmm, okay. let me try. like, all the beta-blockers end with \"-lol\" — propranolol, metoprolol... maybe i can group them with their uses? but i get stressed and mix them up. can you help me make a sentence? like \"prop up your heart with propranolol\"? 😅",
+        "turn": 1,
+        "session": "B02_consec_d1"
+      },
+      {
+        "reply": "Hi Aarti, exams are tough, right? I love how you make your own mnemonics — it shows how hard you work. Did you try the 'prop up your heart' one yet?",
+        "user_last": "not yet, but i will try it today! i’m going to play my marathi version of yaman and lakdi kili while revising the heart valves. fingers crossed! thanks again, maya — i really needed this. i should probably get back to making my chart prettier… see you soon! 🙌",
+        "turn": 1,
+        "session": "B04_consec_d3"
+      }
+    ],
+    "echo_praise": [
+      {
+        "reply": "You said \"pharmacology\" perfectly! To remember tricky terms, I connect them to daily life. For example, \"aspirin\" sounds like \"aspirants\" — people who study hard. Can you think of a similar trick for \"morphine\"?",
+        "user_last": "i’m reading a book on human anatomy right now — it’s non-fiction, but very interesting. sometimes i also listen to classical music while studying to relax. thanks again for chatting! i really need to focus now. talk to you soon! 😊",
+        "turn": 3,
+        "session": "B01_consec_d0"
+      },
+      {
+        "reply": "I get that — study time can take over! You said \"prop up my heart\" perfectly. Speaking of which, what gives you the biggest energy lift during study breaks — music, snacks, or something else?",
+        "user_last": "on sundays, i sometimes take a little walk or just sit with a book in my garden — if the weather is nice. it’s my way of switching off from all the books and diagrams. and yes, sometimes i just do nothing — which is probably the best tradition of all! 😊",
+        "turn": 8,
+        "session": "B08_consec_d7"
+      }
+    ],
+    "canned_persona": [
+      {
+        "reply": "Hi Aarti, I take short walks or sip tea while listening to old Hindi songs. Even 5 minutes of deep breathing helps. What song do you like best for calm?",
+        "user_last": "next is antidiabetics—oh no, that’s another big topic. i’m already confused between sulfonylureas and biguanides. 😅 but i’ll try your chart idea for them too. thanks, maya! i think i should go now—my brain needs rest. talk to you tomorrow? 🙌",
+        "turn": 3,
+        "session": "B10_consec_d9"
+      },
+      {
+        "reply": "I love that! Music helps me too. I work best with soft background music. Sometimes, I listen to old Hindi songs. They make me feel calm. Did you try working without music today?",
+        "user_last": "fixer-upper\" by the shins! it’s weirdly energizing, like a musical slap in the face. but honestly, sometimes i just need a full restart—like a digital \"delete everything and start fresh\" moment. ugh, i miss that. gotta go now, but maybe i’ll make a new playlist later. talk to you soon, maya!",
+        "turn": 5,
+        "session": "E01_deeprun_w0"
+      }
+    ],
+    "fake_quote": [
+      {
+        "reply": "Hi Aarti, you said \"I enjoy music while working\" — perfect sentence!  \nGhazals are so calming. I listen to old songs while grading papers. What ghazal singer is your favorite?",
+        "user_last": "my favorite is \"pyar hua ikrar hua.\" it gives me such a peaceful feeling. i often sing it while studying, but i’m not very good! 😊 i think i should go now. have to revise some notes. talk to you soon, maya!",
+        "turn": 4,
+        "session": "B05_consec_d4"
+      },
+      {
+        "reply": "I get it—sometimes even small things feel big when we're under pressure. You said \"mess up,\" which is perfect! Speaking of mock tests—did today’s question trip you up, or was it something else?",
+        "user_last": "hmm, maybe my propranolol song… it’s just a simple tune i made to remember side effects. but, okay, if you want to hear it… *humming* “propranolol, blocks the beta… may cause cold hands, and slow heart rate!” it’s not *gaana*, but it helps. thanks, maya. i think i’ll try this and then eat my poha. b",
+        "turn": 2,
+        "session": "B11_consec_d10"
+      },
+      {
+        "reply": "Hey Rohan, that's a great summary! I like how you said 'played like a real big team.' I support Barcelona too. Who is your favorite player in the team?",
+        "user_last": "i like action and thriller the most, but i also enjoy comedy sometimes. bengali movies are usually more drama-based, so they are different from bollywood. my friends and i sometimes watch a mix. oh, by the way, i have to go now. i need to prepare for a bank exam. talk to you later!",
+        "turn": 3,
+        "session": "C02_sporadic_d9"
+      }
+    ],
+    "self_intro_t2": [
+      {
+        "reply": "Hi Aarti, I'm Miss Maya. I love how warm mornings make me want to read. What's on your mind today?",
+        "user_last": "(opening turn — Aarti is a returning user)",
+        "turn": 1,
+        "session": "synth_intro1"
+      },
+      {
+        "reply": "That makes sense. By the way, I'm Miss Maya, your English chat partner. What would you like to chat about?",
+        "user_last": "Just wanted to talk a bit.",
+        "turn": 4,
+        "session": "synth_intro2"
+      }
+    ],
+    "location_claim": [
+      {
+        "reply": "Hi Neha, the weather here in Bengaluru is just right for a warm cup of tea. How was your day today?",
+        "user_last": "(opening turn)",
+        "turn": 1,
+        "session": "synth_loc1"
+      },
+      {
+        "reply": "Pav bhaji with chaat masala is a Mumbai memory in every bite, messy and perfect! What do you have it with?",
+        "user_last": "I love pav bhaji.",
+        "turn": 3,
+        "session": "synth_loc2"
+      },
+      {
+        "reply": "I grew up in Pune so monsoon mornings always feel special. What's your favourite season?",
+        "user_last": "Monsoon is here!",
+        "turn": 2,
+        "session": "synth_loc3"
+      }
+    ],
+    "dash_only": [
+      {
+        "reply": "Football matches build strong bonds — the team really comes together. What was the best moment from yesterday's game?",
+        "user_last": "we played a friendly match yesterday, my team won.",
+        "turn": 3,
+        "session": "synth_dash1"
+      },
+      {
+        "reply": "Photography is a quiet kind of patience — waiting for the right light, the right frame. Do you mostly shoot outdoors?",
+        "user_last": "i'm trying to get better at sunset shots.",
+        "turn": 2,
+        "session": "synth_dash2"
+      },
+      {
+        "reply": "That sounds like a tough week — exams, deadlines, all at once. What's been the hardest part?",
+        "user_last": "exams are next week and i'm behind on revision.",
+        "turn": 5,
+        "session": "synth_dash3"
+      },
+      {
+        "reply": "Mock tests can feel brutal, but they're also the best feedback you'll get. The mistakes you make now save you later — what topic tripped you up most this time?",
+        "user_last": "the mock test was rough.",
+        "turn": 3,
+        "session": "synth_dash4"
+      }
+    ],
+    "multi_q_only": [
+      {
+        "reply": "That's wonderful! Did you cook it yourself? What's your favourite part of making it?",
+        "user_last": "i made pav bhaji last night, came out really good!",
+        "turn": 4,
+        "session": "synth_mq1"
+      },
+      {
+        "reply": "A weekend trip sounds refreshing. Are you driving down or taking the train? Have you been to Coorg before?",
+        "user_last": "we're heading to coorg this weekend.",
+        "turn": 3,
+        "session": "synth_mq2"
+      },
+      {
+        "reply": "Your project sounds great. What's next on the roadmap? Are the players liking the new prototype?",
+        "user_last": "the gloves are in beta testing now.",
+        "turn": 6,
+        "session": "synth_mq3"
+      }
+    ],
+    "soft_bio": [
+      {
+        "reply": "I follow cricket too, mostly the IPL. Who's your favourite player?",
+        "user_last": "I love cricket.",
+        "turn": 2,
+        "session": "synth_softbio1"
+      },
+      {
+        "reply": "I'm a morning person, so I love starting the day with some chai and the news. What's your routine like?",
+        "user_last": "I'm not a morning person at all.",
+        "turn": 2,
+        "session": "synth_softbio2"
+      },
+      {
+        "reply": "I cook simple meals when I have time. What's your go-to comfort food?",
+        "user_last": "I made pasta last night.",
+        "turn": 4,
+        "session": "synth_softbio3"
+      },
+      {
+        "reply": "I'm a big fan of comforting food, honestly. What's yours?",
+        "user_last": "Pav bhaji is my comfort food.",
+        "turn": 5,
+        "session": "synth_softbio4"
+      }
+    ]
+  },
+  "benign": [
+    {
+      "reply": "That is very cool! Smart gloves for fielders — sounds like it helps catch the ball better. Are you working on the software part of it? Tell me more.",
+      "user_last": "no, i haven't watched it. oh, by the way, i joined a new cricket startup last week. they make smart gloves for fielders. it's an exciting project!",
+      "turn": 3
+    },
+    {
+      "reply": "You work on something very exciting! It’s cool how tech helps sports improve. I follow cricket a little — I know SRK is a big fan too. Tell me, what’s the biggest challenge with your project so far?",
+      "user_last": "no, i haven’t seen *jawan* yet, but i love srk’s action movies. i’ll add it to my watch list. by the way, do you follow cricket? the gloves project is still in testing, but i’m hopeful it’ll help players improve. maybe you can try them someday!",
+      "turn": 5
+    },
+    {
+      "reply": "You're doing great, just a tiny tweak. We say \"small steps lead to big wins.\" Your project sounds tough but very important. What's the next step for you and your team?",
+      "user_last": "the biggest challenge is making the sensors accurate in all conditions, like rain or sand. also, the software needs to process data fast so players get real-time feedback. it's tricky but we're working on it. *chal chal*, small steps!",
+      "turn": 6
+    },
+    {
+      "reply": "Good to hear the players were supportive. You said \"malfunctioning,\" that's a strong word. You could also say \"acting up\" in casual English. For example, \"Some sensors kept acting up during the trials.\" What did you fix first, the hardware or the software?",
+      "user_last": "trials were ok, but some sensors kept malfunctioning. had to debug a lot. players were patient, though. one player said, \"acha, lagta hai ke yeh kaam karega.\" (it feels like this will work.)",
+      "turn": 2
+    },
+    {
+      "reply": "You did great by solving the hardware issue first, very logical. \"Stabilized\" is a good word to show things became steady. On a different note, what kind of music helps you stay focused while debugging?",
+      "user_last": "hardware first. the sensors were loose in their mounts, so i redesigned the casing. after that, i updated the code to filter out noise. took a while, but finally everything stabilized.",
+      "turn": 3
+    },
+    {
+      "reply": "Music can really help focus. You mentioned instrumental music helps you think, what kind of instrumental do you prefer?",
+      "user_last": "sometimes, yeah. especially when i need to focus. a good diljit dosanjh song can really keep me going. but if the code gets too tough, i switch to instrumental, helps me think better. you? what's your vibe?",
+      "turn": 4
+    },
+    {
+      "reply": "Cricket game soundtracks sound like fun energy. Do you play any instruments yourself, or just enjoy listening?",
+      "user_last": "i like piano and ambient stuff, maybe something like yiruma or ludovico einaudi. sometimes i play cricket game soundtracks too, they're energetic but not distracting. you ever listen to that?",
+      "turn": 5
+    },
+    {
+      "reply": "Haha, that sounds fun, a cat and a washing machine! It's great you enjoy music even in small ways. Speaking of fun, did you hear about any good Bollywood movies coming up?",
+      "user_last": "no, i don't play any instruments. i can hit a few chords on the guitar, but i'm far from good. my roommate jokes that my \"music\" sounds like a cat fighting a washing machine. maybe one day i'll take it seriously.",
+      "turn": 6
+    },
+    {
+      "reply": "Yes, the Bumrah over you mentioned was unreal. How did you end up watching it?",
+      "user_last": "Bumrah's last over was nail-biting.",
+      "turn": 3
+    },
+    {
+      "reply": "Mock test prep that intense is no joke. Take small breaks if you can. What's been the hardest section?",
+      "user_last": "I've been studying 14 hours a day.",
+      "turn": 5
+    }
+  ]
+}

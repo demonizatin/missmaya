@@ -1,0 +1,790 @@
+{
+  "spec": {
+    "idx": 50,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-29",
+    "turns_target": 14,
+    "emotional_state": "low energy, monosyllabic mood",
+    "label": "E05_deeprun_w4"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, I hope your coffee tastes better today. How’s the sketching mood?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Still lukewarm, but I’m too tired to care. Sketching? Not really in the mood. Just doodling lines, to be honest."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Got it — doodling is better than nothing. What’s keeping you up this late?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Just chasing deadlines. Again. Why does every startup think 10pm is a reasonable time to send a “quick request”? *sigh*"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Startup life — never a quiet moment! What’s on your plate tonight?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Prototype for a new app feature. It’s the usual mess — too many ideas, not enough hours. And I’m stuck between “simple” and “sleek.” *insert dramatic sigh*"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Prototype work sounds intense. Sleek or simple — which one wins most for you?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Sleek, but only if it doesn’t end up looking cheap. I want it to feel premium, not plastic. But my brain’s too tired to decide. Maybe tomorrow. *yawn*"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Got it — premium feel, not plastic. Rest well, then. Need a sketch idea for tomorrow?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Maybe something with geometric patterns? I like how they look clean but still have some character. But nah, don’t bother if you’re busy. I’ll just doodle again. *shrug*"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Geometric patterns are a great pick — clean and bold. Doodling is fine, you’re doing great. What’s one shape you’d want to repeat?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Triangles. Sharp, but not too aggressive. Like, the calm kind of sharp. But I’m probably just talking nonsense now. *head nods*"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Triangles — calm sharpness, got it. That’s a solid idea, not nonsense. What color would bring that calm out?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Soft grays. Or like, a muted teal? Something that doesn’t scream, you know? Just sits there quietly. *yawns again* Thanks for not judging my braindump, Maya."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You’re welcome — soft grays or muted teal sound perfect. Quiet confidence is underrated. Sleep well, Neha!"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Mm, thanks. I’ll take that as a compliment. Night, Maya. Don’t let the quiet confidence get too boring, okay? *waves lazily*"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "You got it — quiet confidence with a little spice. Good night, Neha!"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Mm, thanks. I’ll take that as a compliment. Night, Maya. Don’t let the quiet confidence get too boring, okay? *waves lazily*"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "You got it — quiet confidence with a little spice. Good night, Neha!"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "Yeah, exactly. Spice is key, right? Otherwise everything just blends together. Night, really. Need to stop nodding off in sentences. *goes to fall asleep*"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "You’re right — spice keeps things from blending. Sleep well, Neha!"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "Mm, yeah. Spice is basically the unsung hero of everything. Even in food, you know? Can’t just be plain rice. Gotta be *spicy* rice. Or at least *meh* rice with a side of drama. *falls asleep mid-sentence*"
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "Spice in food? Absolutely — even “meh” rice needs drama! Sleep well, Neha."
+    },
+    {
+      "turn": 13,
+      "role": "user",
+      "content": "Mm, dreams about spicy rice now… night."
+    },
+    {
+      "turn": 13,
+      "role": "maya",
+      "content": "Sweet dreams of spicy rice — hope it’s a good one! Night, Neha."
+    },
+    {
+      "turn": 14,
+      "role": "user",
+      "content": "Night, Maya. Don’t make my rice too spicy in dreams, okay? *snuggles into blanket*"
+    },
+    {
+      "turn": 14,
+      "role": "maya",
+      "content": "Got it — just a little heat in your rice dreams. Sleep well, Neha!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Neha",
+      "hometown": "Kerala",
+      "profession": "product designer",
+      "interests": [
+        "sketching",
+        "drawing",
+        "lo-fi music",
+        "indie music",
+        "guitar music"
+      ],
+      "favorite_place": "riverside café with guitar musician and chai",
+      "creative_practice": "sketching"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "My morning coffee was terrible, and my laptop took forever to boot up. I had this big presentation to prep, and I'm just so not in the mood today.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I just want to travel, you know? Maybe go to Kerala again. I'm so over work stuff right now.",
+        "tone": "sad",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Everything I sketch looks... annoyed. I need to get back to Kerala, I think. Or just take a day off and draw my feelings.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I need to draw my vacation before I actually take it.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Monsoon mornings are the best, but I've been missing them this year.",
+        "tone": "sad",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "My ideal sketching mood is calm. Like, no deadlines, no notifications, just me and the page. Sometimes I light a candle too—makes it feel like I'm in one of those indie coffee ads where everyone's just… chill.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "sometimes I think the best art isn't 'meaningful'—it's just *you*, right in the moment.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_48_E03_deeprun_w2",
+        "date": "2026-05-15",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Chai",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "Sketching",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "Travel",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "Music",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "Kerala memories",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "sketching and drawing",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "creative inspiration",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "peace and calm",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Monsoon mornings are the best, but I've been missing them this year.\" (tone: sad)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My morning coffee was terrible, and my laptop took forever to boot up. I had this big pres\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I just want to travel, you know? Maybe go to Kerala again. I'm so over work stuff right no\" (tone: sad)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Everything I sketch looks... annoyed. I need to get back to Kerala, I think. Or just take \" (tone: frustrated)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My ideal sketching mood is calm. Like, no deadlines, no notifications, just me and the pag\" (tone: content)",
+        "source_id": "mo_006",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "share sketches or dreams from nap tomorrow",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Neha",
+      "hometown": "Kerala",
+      "profession": "product designer",
+      "interests": [
+        "sketching",
+        "drawing",
+        "lo-fi music",
+        "indie music",
+        "guitar music"
+      ],
+      "favorite_place": "riverside café with guitar musician and chai",
+      "creative_practice": "sketching"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "My morning coffee was terrible, and my laptop took forever to boot up. I had this big presentation to prep, and I'm just so not in the mood today.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I just want to travel, you know? Maybe go to Kerala again. I'm so over work stuff right now.",
+        "tone": "sad",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Everything I sketch looks... annoyed. I need to get back to Kerala, I think. Or just take a day off and draw my feelings.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I need to draw my vacation before I actually take it.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Monsoon mornings are the best, but I've been missing them this year.",
+        "tone": "sad",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "My ideal sketching mood is calm. Like, no deadlines, no notifications, just me and the page. Sometimes I light a candle too—makes it feel like I'm in one of those indie coffee ads where everyone's just… chill.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "sometimes I think the best art isn't 'meaningful'—it's just *you*, right in the moment.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "Sleek, but only if it doesn't end up looking cheap. I want it to feel premium, not plastic.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-29",
+        "last_seen": "2026-05-29",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "Triangles. Sharp, but not too aggressive. Like, the calm kind of sharp.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-29",
+        "last_seen": "2026-05-29",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "Something that doesn't scream, you know? Just sits there quietly.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-29",
+        "last_seen": "2026-05-29",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "Spice is basically the unsung hero of everything. Can't just be plain rice. Gotta be *spicy* rice. Or at least *meh* rice with a side of drama.",
+        "tone": "playful",
+        "sensitive": false,
+        "first_seen": "2026-05-29",
+        "last_seen": "2026-05-29",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_48_E03_deeprun_w2",
+        "date": "2026-05-15",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_50_E05_deeprun_w4",
+        "date": "2026-05-29",
+        "label": "low",
+        "energy": 3,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Sketching",
+          "last_session": "eval_50_E05_deeprun_w4",
+          "last_date": "2026-05-29",
+          "uses": 2
+        },
+        {
+          "topic": "work",
+          "last_session": "eval_50_E05_deeprun_w4",
+          "last_date": "2026-05-29",
+          "uses": 1
+        },
+        {
+          "topic": "Chai",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "Travel",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "Music",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "Kerala memories",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "sketching and drawing",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "creative inspiration",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "peace and calm",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_50_E05_deeprun_w4",
+          "last_date": "2026-05-29"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Monsoon mornings are the best, but I've been missing them this year.\" (tone: sad)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Sleek, but only if it doesn't end up looking cheap. I want it to feel premium, not plastic\" (tone: content)",
+        "source_id": "mo_008",
+        "priority": 4,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Triangles. Sharp, but not too aggressive. Like, the calm kind of sharp.\" (tone: content)",
+        "source_id": "mo_009",
+        "priority": 4,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Something that doesn't scream, you know? Just sits there quietly.\" (tone: content)",
+        "source_id": "mo_010",
+        "priority": 4,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Spice is basically the unsung hero of everything. Can't just be plain rice. Gotta be *spic\" (tone: playful)",
+        "source_id": "mo_011",
+        "priority": 4,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "event_pending",
+        "content": "share or describe the geometric pattern sketch (triangles, soft grays/muted teal) in next session",
+        "source_session": "eval_50_E05_deeprun_w4",
+        "source_date": "2026-05-29",
+        "status": "active",
+        "expires_at": "2026-06-28"
+      },
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "share sketches or dreams from nap tomorrow",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 96.8
+}

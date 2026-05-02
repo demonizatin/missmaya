@@ -1,0 +1,626 @@
+{
+  "spec": {
+    "idx": 47,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-08",
+    "turns_target": 10,
+    "emotional_state": "lonely, wanting to talk",
+    "label": "E02_deeprun_w1"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, I hope your laptop is working now. Honestly, I always carry a mug with a lid — small things can save the day. How are you feeling today?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "A little better, thanks! Still missing my old laptop, though — it was a pain to work on, but honestly, it felt like home. Oh, and I tried that new cafe near my apartment, the one with the indie playlist. Super vibey, but the coffee? Meh. What about you — any good coffee spots in your area?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Your old laptop had stories, didn’t it? That’s how things feel like home — even the annoying bits. The new cafe sounds fun, even with average coffee. I’m always curious about music-first places. What’s your go-to order there — something sweet to match the vibes?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "A classic chai latte, no sugar — just enough to feel fancy without the guilt. Their pastries are decent, but honestly, I’m there more for the music than the menu. It’s this mix of 90s indie and lo-fi beats, you know? Feels like hanging out in someone’s cozy living room. I miss that… being around people. Lately, it’s just me and my plants. *sigh* Have you been to any good places lately?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "You’re there for the music — and the cozy feeling. That makes sense. Plants are great company, but I get missing the buzz of a room full of people. I’ve been to a café with live lo-fi music once — it was like the soundtrack of a rainy afternoon. What’s your favorite song they play there?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "They play this track by The Shins called *New Slang* — every time it comes on, I’m half-distracted by the song and half-people-watching. It’s like the whole place gets a little dreamy. Honestly, sometimes I just sketch in my notebook while the music hums in the background. It helps me think. I miss that kind of quiet energy… been feeling a bit lonely lately, you know? Like, even my plants don’t reply back. 😅"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "\"New Slang\" has that dreamy vibe — it always makes me think of sunlit rooms and old letters. Sketching while the music plays sounds like the perfect escape. It’s strange how even quiet spaces can feel full of life. What have you drawn lately?\""
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Just doodles, mostly — cups of coffee with little faces, or abstract shapes that mean nothing to anyone but me. Sometimes I draw people, but not from life — more like how I wish they looked when I’m feeling creative. It’s weird, but sketching makes me feel less alone. Like, even if no one sees it, it’s a small part of the world that’s *mine*. Have you ever sketched anything? Or is that too artsy for you? 😄"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Doodling is like a secret language — just for you. That makes it powerful. I doodle when I’m thinking too much, too. Usually, just lines and shapes, but they always feel important at the time. Funny how something small can feel like a whole world. What’s your favorite thing to sketch when you’re feeling creative?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Honestly, I’ve been drawing a lot of windows lately — not like the actual kind in a house, but more like… portals to nowhere. Like, if the window could take you to another version of your day, what would you see? I guess it’s my way of dealing with feeling stuck in the same four walls. Sometimes I add little figures outside the glass, like they’re waving but I can’t reach them. It’s weird, but it helps. Do you ever draw like that — not for anyone else, just to make sense of your head? 🌿"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Windows to nowhere — that’s a beautiful way to think about them. Like glimpses of what could be. Your figures outside the glass must feel like quiet conversations. I’ve sketched things like that — not for anyone, just to untangle my thoughts. What’s the farthest they’ve taken you so far?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Once, I drew a window where the sky outside was completely purple, and the figure was holding a tiny umbrella made of light. I don’t know why — maybe I just wanted to believe there was something soft waiting for me outside. It didn’t make sense, but it felt like hope. I wish I could show it to someone, but I don’t know… some things are just for the paper, you know? Anyway, enough about my sad doodles — what about you? Any weird little drawings that mean something only to you? 🖍️"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "A purple sky and a light umbrella — that sounds like a dream you carry with you. Hope in colors, even if just on paper, is powerful. I get that — some things are just for you, quietly. I’ve sketched floating chairs and upside-down trees when I needed to feel untethered. What made you want to draw that window?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I think it started when I felt like the world outside my window was moving faster than me. The purple sky was like… a safe version of what I wanted to see but couldn’t quite reach. And the umbrella? Maybe it was a way to protect that tiny hope. Sometimes I just need to create a better version of the world, even if it’s just on paper. You ever do that? Make your own little escape? 🎨"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "I get that — making your own little escape. I sketch imaginary gardens when the real one feels stuck in winter. A safe version of what I want. You built yours in purple skies and tiny umbrellas. What’s one thing you’d add to that world if you could?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Maybe a train that just keeps going, but never leaves — like it's always in between places. Or maybe a bench where time slows down just enough to read a whole book in one afternoon. You know? Small things that make the escape feel real. I think I should stop talking about this, though… I’m getting maudlin. 😅 But hey, thanks for listening. It helps."
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "You're painting a world that feels both still and full of motion — that’s a gift. A train that keeps moving but never leaves... sounds like a perfect in-between place. Don’t stop — I’m always here to listen. What’s your go-to escape when you need a little space?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Honestly? I’ll sneak into that cafe even if I don’t order anything — just sit with my sketchbook and let the music carry me. Or I’ll scroll through old photos of places I’ve been, pretending I’m there. It’s not grand, but it works. Thanks, Maya. I think I’ll go draw another window tonight. 🖼️"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "You’re already building whole worlds — that’s more than enough. A sketchbook, old photos, a corner of a cafe — they’re all magic portals. I’ll be here if you want to talk about the ones you draw. What’s the next window looking like?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "role": "UI Designer",
+      "current_work": "brand guidelines implementation with UI tweaks (button spacing, font consistency), handling solo while team is busy",
+      "music_style": "indie, lo-fi",
+      "music_artists": [
+        "L'Rain",
+        "Unknown Mortal Orchestra",
+        "Pharrell's Neptunes",
+        "Yves Tumor",
+        "Anoushka Shankar"
+      ],
+      "music_connection": "gets lost in music while working, uses as escapism from tedious work",
+      "favorite_book": "The Midnight Library by Matt Haig (audiobook preference)",
+      "stress_response": "indie music and redesigning old app ideas"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "coffee spilled on laptop in the morning; laptop drying for ~6 hours, uncertain if it will power on",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "It's like juggling broken glass — you don't wanna drop anything, but it's all gonna cut your hands.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "My brain isn't firing on all cylinders after the coffee incident. But hey, I'll power through — or at least pretend to.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Do you ever get lost in songs like that? Where they just… take over your headspace?",
+        "tone": "vulnerable",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I'm alive and this is weird and beautiful.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "I'll survive — or at least make it look like I did.",
+        "tone": "resigned",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "work deadlines",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "team feedback",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "coping strategies",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "indie music",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "audiobooks",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"coffee spilled on laptop in the morning; laptop drying for ~6 hours, uncertain if it will power on\" — today",
+        "source_id": "ev_001",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"It's like juggling broken glass — you don't wanna drop anything, but it's all gonna cut yo\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My brain isn't firing on all cylinders after the coffee incident. But hey, I'll power thro\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Do you ever get lost in songs like that? Where they just… take over your headspace?\" (tone: vulnerable)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I'm alive and this is weird and beautiful.\" (tone: content)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "check if laptop survived the coffee spill and report back how it works",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "role": "UI Designer",
+      "current_work": "brand guidelines implementation with UI tweaks (button spacing, font consistency), handling solo while team is busy",
+      "music_style": "indie, lo-fi",
+      "music_artists": [
+        "L'Rain",
+        "Unknown Mortal Orchestra",
+        "Pharrell's Neptunes",
+        "Yves Tumor",
+        "Anoushka Shankar"
+      ],
+      "music_connection": "gets lost in music while working, uses as escapism from tedious work",
+      "favorite_book": "The Midnight Library by Matt Haig (audiobook preference)",
+      "stress_response": "indie music, sketching (especially at cafes with indie playlists), and redesigning old app ideas"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "coffee spilled on laptop in the morning; laptop drying for ~6 hours, uncertain if it will power on",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "It's like juggling broken glass — you don't wanna drop anything, but it's all gonna cut your hands.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "My brain isn't firing on all cylinders after the coffee incident. But hey, I'll power through — or at least pretend to.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Do you ever get lost in songs like that? Where they just… take over your headspace?",
+        "tone": "vulnerable",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I'm alive and this is weird and beautiful.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "I'll survive — or at least make it look like I did.",
+        "tone": "resigned",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "I miss that… being around people. Lately, it's just me and my plants.",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "sketching makes me feel less alone. Like, even if no one sees it, it's a small part of the world that's *mine*.",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "Maybe I just wanted to believe there was something soft waiting for me outside. It didn't make sense, but it felt like hope.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "work deadlines",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "team feedback",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "coping strategies",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "indie music",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "audiobooks",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I miss that… being around people. Lately, it's just me and my plants.\" (tone: lonely)",
+        "source_id": "mo_006",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"sketching makes me feel less alone. Like, even if no one sees it, it's a small part of the\" (tone: lonely)",
+        "source_id": "mo_007",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"It's like juggling broken glass — you don't wanna drop anything, but it's all gonna cut yo\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"My brain isn't firing on all cylinders after the coffee incident. But hey, I'll power thro\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Maybe I just wanted to believe there was something soft waiting for me outside. It didn't \" (tone: hopeful)",
+        "source_id": "mo_008",
+        "priority": 4,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "check if laptop survived the coffee spill and report back how it works",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 167.2
+}

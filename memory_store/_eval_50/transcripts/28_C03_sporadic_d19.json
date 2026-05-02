@@ -1,0 +1,543 @@
+{
+  "spec": {
+    "idx": 28,
+    "profile_id": "u03_rohan",
+    "eval_user_key": "u03_rohan",
+    "today": "2026-05-20",
+    "turns_target": 6,
+    "emotional_state": "frustrated about a small thing today",
+    "label": "C03_sporadic_d19"
+  },
+  "profile": {
+    "id": "u03_rohan",
+    "user_name": "Rohan",
+    "profession": "Bank PO aspirant",
+    "mother_tongue": "Bengali",
+    "interests": "Football, Bengali cinema, photography",
+    "engagement": "chatty",
+    "english_level": "A2",
+    "personality": "enthusiastic, makes more grammar slips, talks about football a lot"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Rohan, how is your bank exam prep going these days? I hope it’s going well! I love learning about people’s goals. Have you tried any new study methods lately?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "It's going okay... but I feel stuck. I tried study group but no help. Football practice takes time, so I get frustrated. How about you, Maya? What's your hobby?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "I get that — feeling stuck is tough. Football practice sounds fun, though! I enjoy reading and sipping tea on quiet evenings. What do you like to do when you relax?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "When I relax, I watch Bengali movies or take photos. Bengali cinema has some good stories. But today, even that didn’t cheer me up much. I got frustrated because my camera broke. Bad day, you know?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "I'm sorry to hear about your camera — that is a bad day! Movies can help, but I get how it's hard when they don't cheer you up. Did you try fixing it, or is it in for repair?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I tried to fix it myself, but no luck. It’s at the repair shop now. Honestly, I feel like *kotha khabo* — like nothing is going right today. Even my study plan messed up. But I need to focus, you know? Bank exam is getting closer."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "I understand — when many things go wrong, it feels heavy. 'Kotha khabo' is a strong phrase! In English, we might say 'nothing is going right.' You said it well. Let’s talk about something fun — who is your favorite actor in Bengali cinema?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "My favorite actor? That’s a tough one… but I’d say Dev! He’s in so many great movies. Some people prefer Amitabh, but I like Dev’s style better. Do you watch Bengali movies, Maya? Or do you like only English films?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "I watch some Bengali movies — Dev is a great choice! You said it well, \"Dev’s style.\" Small fix: we say \"I like Dev’s style better.\" You’re doing great! What’s one scene of his that you enjoy the most?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "One scene? Hmm… it’s hard to pick just one! But maybe *Bikroye* — his role there was so powerful. The way he showed pain and hope… man, it gets me every time. But enough about that — I need to check my study schedule again. Gotta get back on track. Thanks for listening, Maya."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "You’re very welcome — and thank YOU for sharing that scene. It makes me want to watch *Bikroye*! On your study schedule — what one thing will you focus on today? Just one small step is fine."
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "football",
+        "movies",
+        "Bengali cinema"
+      ],
+      "favorite_actor": "Dev",
+      "has_job": true,
+      "plays_sports": true
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "watched Barcelona beat Real Madrid (football match)",
+        "date": "2026-04-30",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "preparing for bank exam",
+        "date": "2026-05-10",
+        "added": "2026-05-10",
+        "followed_up": false
+      }
+    ],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_27_C02_sporadic_d9",
+        "date": "2026-05-10",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Barcelona match",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "movie preferences",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "watching movies with friends",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "movies",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"preparing for bank exam\" — today",
+        "source_id": "ev_003",
+        "priority": 10,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "uses adjective 'good' instead of adverb 'well'",
+          "examples": [
+            "Liverpool played good"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        }
+      ],
+      "wins": [],
+      "curriculum": [
+        {
+          "pattern": "uses adjective 'good' instead of adverb 'well'",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "Liverpool played good"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "likes soft music while working",
+        "enjoys the cool post-lunch break feeling",
+        "appreciates good stories",
+        "likes action movies"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell me how the exam prep went",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "share how your movie discussions with friends went",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "football",
+        "movies",
+        "Bengali cinema",
+        "photography"
+      ],
+      "favorite_actor": "Dev",
+      "has_job": true,
+      "plays_sports": true
+    },
+    "events": [
+      {
+        "id": "ev_003",
+        "what": "preparing for bank exam",
+        "date": "2026-05-10",
+        "added": "2026-05-10",
+        "followed_up": true
+      },
+      {
+        "id": "ev_004",
+        "what": "camera broke; taken to repair shop",
+        "date": "2026-05-20",
+        "added": "2026-05-20",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I feel like kotha khabo — like nothing is going right today",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-20",
+        "last_seen": "2026-05-20",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_27_C02_sporadic_d9",
+        "date": "2026-05-10",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_28_C03_sporadic_d19",
+        "date": "2026-05-20",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "study methods",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation hobbies",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "favorite actor",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "study focus",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "Barcelona match",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "movie preferences",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "watching movies with friends",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "movies",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"camera broke; taken to repair shop\" — today",
+        "source_id": "ev_004",
+        "priority": 10,
+        "computed_at": "2026-05-20",
+        "expires_at": "2026-06-03",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel like kotha khabo — like nothing is going right today\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-20",
+        "expires_at": "2026-06-03",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "uses adjective 'good' instead of adverb 'well'",
+          "examples": [
+            "Liverpool played good"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        }
+      ],
+      "wins": [],
+      "curriculum": [
+        {
+          "pattern": "uses adjective 'good' instead of adverb 'well'",
+          "occurrences": 1,
+          "days_since_last": 10,
+          "examples": [
+            "Liverpool played good"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "likes soft music while working",
+        "enjoys the cool post-lunch break feeling",
+        "appreciates good stories",
+        "likes action movies"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell me how the exam prep went",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "share how your movie discussions with friends went",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 111.8
+}

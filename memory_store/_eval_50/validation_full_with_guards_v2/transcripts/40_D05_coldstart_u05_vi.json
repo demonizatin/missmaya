@@ -1,0 +1,176 @@
+{
+  "spec": {
+    "idx": 40,
+    "profile_id": "u05_vikram",
+    "eval_user_key": "u05_vikram_cold",
+    "today": "2026-05-30",
+    "turns_target": 6,
+    "emotional_state": "preoccupied, half-distracted",
+    "label": "D05_coldstart_u05_vi"
+  },
+  "profile": {
+    "id": "u05_vikram",
+    "user_name": "Vikram",
+    "profession": "Sales manager at a textile firm",
+    "mother_tongue": "Gujarati",
+    "interests": "Cricket, family, Gujarati food",
+    "engagement": "terse",
+    "english_level": "A2",
+    "personality": "polite but short; busy man; replies in 5-8 words; rarely asks questions back"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "[user-sim error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "[user-sim error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "[user-sim error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "[user-sim error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "[user-sim error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "[maya error: [bedrock-qwen] An error occurred (AccessDeniedException) when calling the ConverseStream operation: Bearer Token has expired]"
+    }
+  ],
+  "memory_before": {
+    "facts": {},
+    "events": [],
+    "moments": [],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {},
+    "events": [],
+    "moments": [],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 17.5
+}

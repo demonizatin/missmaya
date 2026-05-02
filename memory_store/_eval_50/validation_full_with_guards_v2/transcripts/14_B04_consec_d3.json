@@ -1,0 +1,564 @@
+{
+  "spec": {
+    "idx": 14,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-04",
+    "turns_target": 8,
+    "emotional_state": "chatty, in a good mood",
+    "label": "B04_consec_d3"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, I'm Miss Maya. Honestly, I love how hopeful you sound about trying new things, even if they’re a little scary! Did you decide to bake that chocolate cake yet?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Yes, I baked the cake! It was not easy, but I managed. My sister said it was \"badi acchi\" (very good). I want to try making a new recipe with bananas next. How about you, Maya—do you enjoy cooking?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds lovely, 'badi acchi' is high praise from family! Bananas in the next recipe sounds fun. I enjoy cooking in small ways, what kind of banana recipe are you thinking of?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Hmm... maybe a banana bread? Or perhaps a banana lassi for a change. I get bored with the same things. But I’m not sure how to balance the sweetness. Do you think cardamom would work in banana bread?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "That’s a great idea! Cardamom adds warmth and fits well with bananas. I’d say give it a try, a little goes a long way. What’s your plan for the sweetness?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I think I'll use honey instead of sugar. It's healthier and gives a nice flavor. But maybe add a pinch of cardamom with it? I'll tell you how it turns out. For sweetness balance, maybe half honey and half something else?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Good idea, honey and cardamom pair well. A mix of honey and a touch of sugar could work too. I’ll look forward to hearing how it turns out!"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "I think I will try 2/3 honey and 1/3 sugar. Also, maybe add a tsp of cinnamon with the cardamom? It could give a nice twist. Need to study now, but I’ll bake it tomorrow! Talk to you later, Maya!"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Got it, 2/3 honey, 1/3 sugar, and cinnamon with cardamom. Sounds like a winning mix! Study well, and do share how it tastes tomorrow. Talk soon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "baking_background": "primarily cookies and bread; no cake experience yet",
+      "interests": [
+        "cooking",
+        "baking",
+        "trying new recipes"
+      ],
+      "academic_status": "currently focused on studies"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "scared that a chocolate cake (dish) might not turn out when she tries to bake it",
+        "tone": "scared",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "sees baking a cake as a big, challenging step forward; nervous but eager to try",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "worried about making a mess in the kitchen and having to clean up quickly before parents come home",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "believes the act of trying and learning matters more than perfect results ('it's worth it, even if not perfect')",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.68,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "recipes",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "desserts",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"worried about making a mess in the kitchen and having to clean up quickly before parents c\" (tone: anxious)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"scared that a chocolate cake (dish) might not turn out when she tries to bake it\" (tone: scared)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"sees baking a cake as a big, challenging step forward; nervous but eager to try\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"believes the act of trying and learning matters more than perfect results ('it's worth it,\" (tone: hopeful)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "will attempt to bake a simple chocolate cake (dish); will report back on the experience",
+        "source_session": "eval_13_B03_consec_d2",
+        "source_date": "2026-05-03",
+        "status": "active",
+        "expires_at": "2026-06-02"
+      },
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "user hasn't yet answered: what makes you want to try a chocolate cake (dish) now",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "baking_background": "cookies, bread, and chocolate cake; experimenting with flavor combinations and new recipes",
+      "interests": [
+        "cooking",
+        "baking",
+        "trying new recipes"
+      ],
+      "academic_status": "currently focused on studies"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "successfully baked chocolate cake (dish); sister gave positive feedback",
+        "date": "2026-05-04",
+        "added": "2026-05-04",
+        "followed_up": false
+      },
+      {
+        "id": "ev_002",
+        "what": "planning to bake banana bread (dish) with 2/3 honey, 1/3 sugar, cinnamon, and cardamom",
+        "date": "2026-05-05",
+        "added": "2026-05-04",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "scared that a chocolate cake (dish) might not turn out when she tries to bake it",
+        "tone": "scared",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "sees baking a cake as a big, challenging step forward; nervous but eager to try",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "worried about making a mess in the kitchen and having to clean up quickly before parents come home",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "believes the act of trying and learning matters more than perfect results ('it's worth it, even if not perfect')",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "successfully baked a chocolate cake despite initial uncertainty; sister said it was 'very good' (badi acchi). Proud and motivated to try more challenging recipes.",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "excited to experiment with new flavors and recipes instead of repeating the same things; willing to try novel combinations like cardamom and cinnamon in banana bread",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.68,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "content",
+        "energy": 8,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "recipes",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "desserts",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"successfully baked chocolate cake (dish); sister gave positive feedback\" — today",
+        "source_id": "ev_001",
+        "priority": 10,
+        "computed_at": "2026-05-04",
+        "expires_at": "2026-05-18",
+        "used": false
+      },
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"planning to bake banana bread (dish) with 2/3 honey, 1/3 sugar, cinnamon, and cardamom\" — tomorrow",
+        "source_id": "ev_002",
+        "priority": 9,
+        "computed_at": "2026-05-04",
+        "expires_at": "2026-05-18",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"worried about making a mess in the kitchen and having to clean up quickly before parents c\" (tone: anxious)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-04",
+        "expires_at": "2026-05-18",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"scared that a chocolate cake (dish) might not turn out when she tries to bake it\" (tone: scared)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-04",
+        "expires_at": "2026-05-18",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"sees baking a cake as a big, challenging step forward; nervous but eager to try\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-04",
+        "expires_at": "2026-05-18",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "will bake banana bread (dish) with 2/3 honey, 1/3 sugar, cinnamon and cardamom tomorrow and share how it turns out",
+        "source_session": "eval_14_B04_consec_d3",
+        "source_date": "2026-05-04",
+        "status": "active",
+        "expires_at": "2026-06-03"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "will attempt to bake a simple chocolate cake (dish); will report back on the experience",
+        "source_session": "eval_13_B03_consec_d2",
+        "source_date": "2026-05-03",
+        "status": "active",
+        "expires_at": "2026-06-02"
+      },
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "user hasn't yet answered: what makes you want to try a chocolate cake (dish) now",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 94.9
+}

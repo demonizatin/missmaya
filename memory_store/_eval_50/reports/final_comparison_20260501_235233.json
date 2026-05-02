@@ -1,0 +1,96 @@
+{
+  "baseline": {
+    "n_sessions": 50,
+    "gaps": {
+      "greet": {
+        "viol": 131,
+        "sess_count": 28,
+        "sess_pct": 56.0
+      },
+      "qmark": {
+        "viol": 53,
+        "sess_count": 28,
+        "sess_pct": 56.0
+      },
+      "love": {
+        "viol": 12,
+        "sess_count": 10,
+        "sess_pct": 20.0
+      },
+      "cann": {
+        "viol": 6,
+        "sess_count": 5,
+        "sess_pct": 10.0
+      },
+      "praise": {
+        "viol": 5,
+        "sess_count": 5,
+        "sess_pct": 10.0
+      },
+      "intro": {
+        "viol": 1,
+        "sess_count": 1,
+        "sess_pct": 2.0
+      },
+      "bio": {
+        "viol": 16,
+        "sess_count": 10,
+        "sess_pct": 20.0
+      },
+      "fake": {
+        "viol": 5,
+        "sess_count": 5,
+        "sess_pct": 10.0
+      }
+    },
+    "avg_words": 31.5,
+    "n_replies": 427
+  },
+  "with_guards": {
+    "n_sessions": 50,
+    "gaps": {
+      "greet": {
+        "viol": 0,
+        "sess_count": 0,
+        "sess_pct": 0.0
+      },
+      "qmark": {
+        "viol": 5,
+        "sess_count": 3,
+        "sess_pct": 6.0
+      },
+      "love": {
+        "viol": 0,
+        "sess_count": 0,
+        "sess_pct": 0.0
+      },
+      "cann": {
+        "viol": 0,
+        "sess_count": 0,
+        "sess_pct": 0.0
+      },
+      "praise": {
+        "viol": 0,
+        "sess_count": 0,
+        "sess_pct": 0.0
+      },
+      "intro": {
+        "viol": 0,
+        "sess_count": 0,
+        "sess_pct": 0.0
+      },
+      "bio": {
+        "viol": 0,
+        "sess_count": 0,
+        "sess_pct": 0.0
+      },
+      "fake": {
+        "viol": 0,
+        "sess_count": 0,
+        "sess_pct": 0.0
+      }
+    },
+    "avg_words": 25.7,
+    "n_replies": 432
+  }
+}

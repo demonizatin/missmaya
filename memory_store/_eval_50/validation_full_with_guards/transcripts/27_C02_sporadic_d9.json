@@ -1,0 +1,440 @@
+{
+  "spec": {
+    "idx": 27,
+    "profile_id": "u03_rohan",
+    "eval_user_key": "u03_rohan",
+    "today": "2026-05-10",
+    "turns_target": 12,
+    "emotional_state": "neutral, ordinary day",
+    "label": "C02_sporadic_d9"
+  },
+  "profile": {
+    "id": "u03_rohan",
+    "user_name": "Rohan",
+    "profession": "Bank PO aspirant",
+    "mother_tongue": "Bengali",
+    "interests": "Football, Bengali cinema, photography",
+    "engagement": "chatty",
+    "english_level": "A2",
+    "personality": "enthusiastic, makes more grammar slips, talks about football a lot"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Rohan, it’s been a while! How’s your bank exam prep going?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "It's going okay, thanks! I study some every day, but it's tough. I was watching a football match yesterday, though—so much better than reading books! How about you?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "You study every day, that’s great. Football does take the mind off. I get that. What match was it?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "It was India vs. Oman in the SAFF Championship! Our team won 2-1. The goals were so last minute—it was like *drama*! Did you see it? I was super excited, ekdum josh diya tha!"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "You said \"ekdum josh diya tha\", got it, I understand the excitement. Super late goals, right. What part of the match made you most happy?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "The second goal, when we were trailing 1-2, and we scored in the 89th minute! I was shouting at the TV like \"bhai, ye kya hua?\" It was so intense! The whole stadium went crazy. You should watch it sometime, it's on YouTube. Do you like football?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "The second goal is the best one, when everything feels impossible and then it changes. I agree, stadiums go wild. Football is fun. What team do you support?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "I support the Indian team, obviously! And also Mohun Bagan from Kolkata—my hometown. They have great fans, and their matches are full of energy. I take photos sometimes when they play, but I’m not good at it yet. You should watch a Bagan match if you come to Kolkata! Do you know any Bengali movies? They’re very colorful."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "You said \"they have great fans\", got it, that's a good phrase. Mohun Bagan sounds exciting. Do you like any specific Bengali movie?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I like the movie *Bhooter Bhabishya*—it’s about ghosts and college life, really fun and spooky! The scenes are very dramatic. You should watch it if you like thrillers. Oh, and I also like *Bhoot Police*—it’s comedy with ghosts, very cool. Do you watch a lot of movies?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "You said \"very dramatic\", got it, that's a great word. Bhooter Bhabishya sounds fun. Do you like more spooky or more funny movies?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Both, actually! I like movies that mix spooky and funny—Bengali cinema is good at that. They call it \"horror-comedy.\" But sometimes I just watch normal movies too, like romance or action. Football is my main thing, though. Today I didn’t watch any match, just studied for the bank exam. It’s boring, but I try to focus. Do you like horror movies?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "You said \"I try to focus\", got it, that’s a good way to put it. Horror comedy is fun. Do you like scary movies more than funny ones, or the other way around?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I like funny ones more, but I don't mind a little scare! Bengali horror-comedies are just right—not too scary, but lots of laughs. But honestly, I watch whatever is trending. Today I didn’t even watch a movie, only studied. Ugh, it’s hard to stay motivated. You know how it is?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You said \"it’s hard to stay motivated\", got it, that’s a real thing. What helps you feel more motivated to study?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Music helps a lot! I listen to old Bengali songs or some football anthems when I study. It keeps me alert. Also, taking short breaks after 45 minutes—like stretching or watching one goal highlight. But honestly, it’s tough. You ever struggle to focus on something you need to do but don’t really want to?"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "You said \"it’s tough\", got it, that’s totally normal. Do you usually study with music on or off?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "I usually study with music on! But only soft music or instrumental, not songs with lyrics. Sometimes I switch off the music if the chapter is very important. But most time, music helps me concentrate better. You know, it’s like a rhythm thing. Oh, and I also keep my phone on silent mode—no notifications. Otherwise, I get distracted easily. Do you study with music?"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "You said \"most time\", I’ll say \"most of the time\", small fix. Music helps a lot. Do you prefer instrumental or old songs?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "I prefer old songs, especially from the 70s and 80s—Bengali film songs, they have a nice, calm vibe. Sometimes instrumental too, like piano or flute music. But old songs with soft lyrics help me relax while studying. The newer ones are too fast or loud for that. Oh, and sometimes I listen to football anthems, that gives me a bit of energy! You? What kind of music do you like while working?"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "You said \"old songs with soft lyrics\", got it, that's a nice choice. Do you like any specific 70s or 80s Bengali song?"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "I like \"Tomar Aamar Kichu Naya\" from the movie *Chotto Jigyasa*—it’s a classic! The melody is so soothing. Also, \"Ami Tomar Kotha Bhuli Nai\" from *Abhiyatri*—very old, but beautiful. Sometimes I just play a playlist of these golden oldies while studying. It makes me feel like I'm in a different time, you know? But I should get back to books now. Thanks for chatting, Maya!"
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "You said \"it makes me feel like I'm in a different time\", got it, that's a great way to put it. Golden oldies are the best. What’s next on your study plan?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "exam_prep": "bank exam",
+      "favorite_team": "Bengaluru FC",
+      "team_support_since": 2013,
+      "home_language": "Bengali",
+      "interests": [
+        "emotional stories",
+        "Bengali films",
+        "football",
+        "photography"
+      ]
+    },
+    "events": [],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "Uses present tense for completed past events in narrative context",
+          "examples": [
+            "Last night I watch a film called *Koira Kahe Pabo*"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        },
+        {
+          "pattern": "Omits article before superlative adjectives",
+          "examples": [
+            "They are best team in India"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        },
+        {
+          "pattern": "Uses simple present instead of present perfect for ongoing states since a past date",
+          "examples": [
+            "I follow them since 2013"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [],
+      "curriculum": [
+        {
+          "pattern": "Uses present tense for completed past events in narrative context",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "Last night I watch a film called *Koira Kahe Pabo*"
+          ]
+        },
+        {
+          "pattern": "Omits article before superlative adjectives",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "They are best team in India"
+          ]
+        },
+        {
+          "pattern": "Uses simple present instead of present perfect for ongoing states since a past date",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "I follow them since 2013"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "Bank exam practice on 2026-05-02 — Rohan to report back next session",
+        "source_session": "eval_26_C01_sporadic_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "exam_prep": "bank exam",
+      "favorite_team": "Bengaluru FC",
+      "team_support_since": 2013,
+      "home_language": "Bengali",
+      "interests": [
+        "emotional stories",
+        "Bengali films",
+        "football",
+        "photography"
+      ]
+    },
+    "events": [],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "Uses present tense for completed past events in narrative context",
+          "examples": [
+            "Last night I watch a film called *Koira Kahe Pabo*"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        },
+        {
+          "pattern": "Omits article before superlative adjectives",
+          "examples": [
+            "They are best team in India"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        },
+        {
+          "pattern": "Uses simple present instead of present perfect for ongoing states since a past date",
+          "examples": [
+            "I follow them since 2013"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        }
+      ],
+      "wins": [],
+      "curriculum": [
+        {
+          "pattern": "Uses present tense for completed past events in narrative context",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "Last night I watch a film called *Koira Kahe Pabo*"
+          ]
+        },
+        {
+          "pattern": "Omits article before superlative adjectives",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "They are best team in India"
+          ]
+        },
+        {
+          "pattern": "Uses simple present instead of present perfect for ongoing states since a past date",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "I follow them since 2013"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "Bank exam practice on 2026-05-02 — Rohan to report back next session",
+        "source_session": "eval_26_C01_sporadic_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 141.7
+}

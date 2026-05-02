@@ -1,0 +1,507 @@
+{
+  "facts": {
+    "interests": [
+      "football",
+      "movies",
+      "Bengali cinema",
+      "photography"
+    ],
+    "favorite_actor": "Dev",
+    "has_job": true,
+    "plays_sports": true,
+    "favorite_player": "Messi",
+    "favorite_actress": "Tota Roy Chowdhurani",
+    "favorite_team": "Barcelona",
+    "secondary_teams": [
+      "Real Madrid",
+      "AC Milan"
+    ]
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "I feel like kotha khabo — like nothing is going right today",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-20",
+      "last_seen": "2026-05-20",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "The way Messi played was amar hawaya — literally took my breath away",
+      "tone": "excited",
+      "sensitive": false,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "mentions": 1
+    },
+    {
+      "id": "mo_003",
+      "text": "Now I can't imagine a day without football!",
+      "tone": "excited",
+      "sensitive": false,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_26_C01_sporadic_d0",
+      "date": "2026-05-01",
+      "label": "content",
+      "energy": 6,
+      "confidence": 0.65,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_27_C02_sporadic_d9",
+      "date": "2026-05-10",
+      "label": "energetic",
+      "energy": 8,
+      "confidence": 0.56,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "soft_conflict",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_28_C03_sporadic_d19",
+      "date": "2026-05-20",
+      "label": "anxious",
+      "energy": 4,
+      "confidence": 0.75,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_30_C05_sporadic_d38",
+      "date": "2026-06-08",
+      "label": "energetic",
+      "energy": 7,
+      "confidence": 0.62,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "soft_conflict",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_31_C06_sporadic_d46",
+      "date": "2026-06-16",
+      "label": "content",
+      "energy": 4,
+      "confidence": 0.7,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_34_C09_sporadic_d68",
+      "date": "2026-07-08",
+      "label": "energetic",
+      "energy": 8,
+      "confidence": 0.59,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "soft_conflict",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "movies",
+        "last_session": "eval_34_C09_sporadic_d68",
+        "last_date": "2026-07-08",
+        "uses": 4
+      },
+      {
+        "topic": "football",
+        "last_session": "eval_34_C09_sporadic_d68",
+        "last_date": "2026-07-08",
+        "uses": 3
+      },
+      {
+        "topic": "vocabulary",
+        "last_session": "eval_34_C09_sporadic_d68",
+        "last_date": "2026-07-08",
+        "uses": 1
+      },
+      {
+        "topic": "learning methods",
+        "last_session": "eval_34_C09_sporadic_d68",
+        "last_date": "2026-07-08",
+        "uses": 1
+      },
+      {
+        "topic": "public speaking nervousness",
+        "last_session": "eval_34_C09_sporadic_d68",
+        "last_date": "2026-07-08",
+        "uses": 1
+      },
+      {
+        "topic": "bank interview preparation",
+        "last_session": "eval_34_C09_sporadic_d68",
+        "last_date": "2026-07-08",
+        "uses": 1
+      },
+      {
+        "topic": "banking terminology",
+        "last_session": "eval_34_C09_sporadic_d68",
+        "last_date": "2026-07-08",
+        "uses": 1
+      },
+      {
+        "topic": "photography",
+        "last_session": "eval_33_C08_sporadic_d60",
+        "last_date": "2026-06-30",
+        "uses": 3
+      },
+      {
+        "topic": "Bengali cinema",
+        "last_session": "eval_33_C08_sporadic_d60",
+        "last_date": "2026-06-30",
+        "uses": 1
+      },
+      {
+        "topic": "exam prep",
+        "last_session": "eval_33_C08_sporadic_d60",
+        "last_date": "2026-06-30",
+        "uses": 1
+      },
+      {
+        "topic": "Indian Football League",
+        "last_session": "eval_31_C06_sporadic_d46",
+        "last_date": "2026-06-16",
+        "uses": 1
+      },
+      {
+        "topic": "tennis",
+        "last_session": "eval_31_C06_sporadic_d46",
+        "last_date": "2026-06-16",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_26_C01_sporadic_d0",
+        "last_date": "2026-05-01"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "eval_27_C02_sporadic_d9",
+        "last_date": "2026-05-10"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "eval_28_C03_sporadic_d19",
+        "last_date": "2026-05-20"
+      },
+      {
+        "kind": "general",
+        "last_session": "eval_30_C05_sporadic_d38",
+        "last_date": "2026-06-08"
+      },
+      {
+        "kind": "moment_followup",
+        "last_session": "eval_31_C06_sporadic_d46",
+        "last_date": "2026-06-16"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "eval_33_C08_sporadic_d60",
+        "last_date": "2026-06-30"
+      },
+      {
+        "kind": "skill_celebration",
+        "last_session": "eval_34_C09_sporadic_d68",
+        "last_date": "2026-07-08"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: understood and applied specialized vocabulary 'execute' in sports context (e.g. \"he executed a perfect through ball\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-07-08",
+      "expires_at": "2026-07-22",
+      "used": false
+    },
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: generalized word usage correctly across multiple contexts (e.g. \"my voice was completely shaky\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-07-08",
+      "expires_at": "2026-07-22",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"The way Messi played was amar hawaya — literally took my breath away\" (tone: excited)",
+      "source_id": "mo_002",
+      "priority": 4,
+      "computed_at": "2026-07-08",
+      "expires_at": "2026-07-22",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Now I can't imagine a day without football!\" (tone: excited)",
+      "source_id": "mo_003",
+      "priority": 4,
+      "computed_at": "2026-07-08",
+      "expires_at": "2026-07-22",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [
+      {
+        "pattern": "uses adjective 'good' instead of adverb 'well'",
+        "examples": [
+          "Liverpool played good"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "status": "active"
+      },
+      {
+        "pattern": "overuses 'good' as generic positive descriptor when more specific/vivid alternatives like 'exciting', 'great', 'thrillin",
+        "examples": [
+          "very good match"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "status": "active"
+      },
+      {
+        "pattern": "uses bare verb after 'like' instead of gerund form",
+        "examples": [
+          "I also like watch Ronaldo"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-06-16",
+        "last_seen": "2026-06-16",
+        "status": "active"
+      },
+      {
+        "pattern": "missing definite article before superlatives",
+        "examples": [
+          "my phone camera is not best"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30",
+        "status": "active"
+      }
+    ],
+    "wins": [
+      {
+        "what": "used vivid descriptor 'so exciting' instead of generic 'good'",
+        "examples": [
+          "So exciting!"
+        ],
+        "count": 1,
+        "first_seen": "2026-06-16",
+        "last_seen": "2026-06-16"
+      },
+      {
+        "what": "used vivid comparison 'plays like magic' for expressing admiration",
+        "examples": [
+          "He plays like magic"
+        ],
+        "count": 1,
+        "first_seen": "2026-06-16",
+        "last_seen": "2026-06-16"
+      },
+      {
+        "what": "used specific descriptor 'fun' instead of generic 'good'",
+        "examples": [
+          "It was fun"
+        ],
+        "count": 1,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30"
+      },
+      {
+        "what": "used vivid phrase with specific wording",
+        "examples": [
+          "it's hard to catch the perfect moment"
+        ],
+        "count": 1,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30"
+      },
+      {
+        "what": "used specific positive descriptor 'graceful' instead of generic 'good'",
+        "examples": [
+          "His playing is so graceful"
+        ],
+        "count": 1,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30"
+      },
+      {
+        "what": "expressed preference with specific emotional context",
+        "examples": [
+          "I like emotional movies"
+        ],
+        "count": 1,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30"
+      },
+      {
+        "what": "understood and applied specialized vocabulary 'execute' in sports context",
+        "examples": [
+          "he executed a perfect through ball"
+        ],
+        "count": 1,
+        "first_seen": "2026-07-08",
+        "last_seen": "2026-07-08"
+      },
+      {
+        "what": "generalized word usage correctly across multiple contexts",
+        "examples": [
+          "my voice was completely shaky"
+        ],
+        "count": 1,
+        "first_seen": "2026-07-08",
+        "last_seen": "2026-07-08"
+      }
+    ],
+    "curriculum": [
+      {
+        "pattern": "missing definite article before superlatives",
+        "occurrences": 1,
+        "days_since_last": 8,
+        "examples": [
+          "my phone camera is not best"
+        ]
+      }
+    ]
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold",
+      "likes soft music while working",
+      "enjoys the cool post-lunch break feeling",
+      "appreciates good stories",
+      "likes action movies",
+      "enjoys watching tennis on TV",
+      "likes football and admires Messi's graceful, intelligent playing style",
+      "supports Barcelona for their patient, artistic style of play",
+      "manages pre-session nervousness through deep breathing and conversation enjoyment"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_004",
+      "kind": "event_pending",
+      "content": "user to try watching Neelakashane and report back",
+      "source_session": "eval_33_C08_sporadic_d60",
+      "source_date": "2026-06-30",
+      "status": "active",
+      "expires_at": "2026-07-30"
+    },
+    {
+      "id": "ol_005",
+      "kind": "event_pending",
+      "content": "user to work on reasoning puzzles and share progress with Maya",
+      "source_session": "eval_33_C08_sporadic_d60",
+      "source_date": "2026-06-30",
+      "status": "active",
+      "expires_at": "2026-07-30"
+    },
+    {
+      "id": "ol_003",
+      "kind": "user_promise",
+      "content": "will use rule of thirds technique when photographing football matches next time",
+      "source_session": "eval_30_C05_sporadic_d38",
+      "source_date": "2026-06-08",
+      "status": "active",
+      "expires_at": "2026-07-08"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

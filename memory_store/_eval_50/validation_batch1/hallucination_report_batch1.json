@@ -1,0 +1,407 @@
+{
+  "summary": {
+    "session_count": 15,
+    "category_totals": {
+      "A_titles": 8,
+      "B_named_entities": 0,
+      "C_personal_claims": 2,
+      "D_fake_quotes": 0
+    },
+    "category_session_counts": {
+      "A_titles": 5,
+      "C_personal_claims": 2
+    },
+    "examples": {
+      "A_titles": [
+        {
+          "session_idx": 2,
+          "label": "A02_same_day",
+          "user": "Priyansh",
+          "turn": 8,
+          "title": "Thanks for chatting with you, Maya!",
+          "snippet": "You're doing great, just a tiny tweak — we say \"Thanks for the chat, Maya!\" as \"Thanks for chatting with you, Maya!\" — but I get it, time and fear are real. Let’s leave it at \"fun\" for now. What movie"
+        },
+        {
+          "session_idx": 4,
+          "label": "A04_same_day",
+          "user": "Priyansh",
+          "turn": 9,
+          "title": "PK,",
+          "snippet": "You're doing great! \"Dangal,\" \"PK,\" and \"Lagaan\" are all amazing choices — they show Aamir Khan’s hard work and talent. What made you pick those ones?"
+        },
+        {
+          "session_idx": 4,
+          "label": "A04_same_day",
+          "user": "Priyansh",
+          "turn": 10,
+          "title": "PK,",
+          "snippet": "You said that perfectly! \"Dangal,\" \"PK,\" and \"Lagaan\" each have something special — whether it’s emotion, comedy, or cricket. I’ve seen all three, and they’re all timeless. What’s your favorite part o"
+        },
+        {
+          "session_idx": 5,
+          "label": "A05_same_day",
+          "user": "Priyansh",
+          "turn": 7,
+          "title": "papa",
+          "snippet": "You're doing great, just a tiny tweak — we say \"the *papa* of coolness\" or \"the ultimate coolness\" in English. And yes, that six was legendary! I follow matches live when I can — nothing beats the ten"
+        },
+        {
+          "session_idx": 7,
+          "label": "A07_same_day",
+          "user": "Priyansh",
+          "turn": 7,
+          "title": "your",
+          "snippet": "You said it beautifully — that song really does feel raw and real. I love how music connects generations. What’s one old song from *your* childhood that still means something to you?"
+        },
+        {
+          "session_idx": 50,
+          "label": "E05_deeprun_w4",
+          "user": "Neha",
+          "turn": 3,
+          "title": "I see everything, even the chaos.",
+          "snippet": "Right, the 11-eye doodles — that’s your brain saying “I see everything, even the chaos.” People-watching is a quiet escape. I do that while sipping tea. What’s the most interesting person you saw late"
+        },
+        {
+          "session_idx": 50,
+          "label": "E05_deeprun_w4",
+          "user": "Neha",
+          "turn": 7,
+          "title": "you’re",
+          "snippet": "Right — cats *are* the quiet judges of the world. You picked a good one for the scene. I wonder what *you’re* sketching these days — something chaotic, or something with a quiet soul like that woman’s"
+        }
+      ],
+      "C_personal_claims": [
+        {
+          "session_idx": 2,
+          "label": "A02_same_day",
+          "user": "Priyansh",
+          "turn": 4,
+          "claim": "I tried. What’s one stunt you’d love to try?",
+          "snippet": "Got it, \"Bang Bang\" is a great choice! Hrithik Roshan's stunts are top-notch. I enjoy watching them, though I’d probably trip if I tried. What’s one stunt you’d love to try?"
+        },
+        {
+          "session_idx": 47,
+          "label": "E02_deeprun_w1",
+          "user": "Neha",
+          "turn": 1,
+          "claim": "I heard about your coffee spill on the sketchbook — did you turn it",
+          "snippet": "Hi Neha, I heard about your coffee spill on the sketchbook — did you turn it into one of your famous 'coffee abstracts'?"
+        }
+      ]
+    }
+  },
+  "per_session": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 8,
+            "title": "Thanks for chatting with you, Maya!",
+            "snippet": "You're doing great, just a tiny tweak — we say \"Thanks for the chat, Maya!\" as \"Thanks for chatting with you, Maya!\" — but I get it, time and fear are real. Let’s leave it at \"fun\" for now. What movie"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 4,
+            "claim": "I tried. What’s one stunt you’d love to try?",
+            "snippet": "Got it, \"Bang Bang\" is a great choice! Hrithik Roshan's stunts are top-notch. I enjoy watching them, though I’d probably trip if I tried. What’s one stunt you’d love to try?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 9,
+            "title": "PK,",
+            "snippet": "You're doing great! \"Dangal,\" \"PK,\" and \"Lagaan\" are all amazing choices — they show Aamir Khan’s hard work and talent. What made you pick those ones?"
+          },
+          {
+            "turn": 10,
+            "title": "PK,",
+            "snippet": "You said that perfectly! \"Dangal,\" \"PK,\" and \"Lagaan\" each have something special — whether it’s emotion, comedy, or cricket. I’ve seen all three, and they’re all timeless. What’s your favorite part o"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 2,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 7,
+            "title": "papa",
+            "snippet": "You're doing great, just a tiny tweak — we say \"the *papa* of coolness\" or \"the ultimate coolness\" in English. And yes, that six was legendary! I follow matches live when I can — nothing beats the ten"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 7,
+            "title": "your",
+            "snippet": "You said it beautifully — that song really does feel raw and real. I love how music connects generations. What’s one old song from *your* childhood that still means something to you?"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 1,
+            "claim": "I heard about your coffee spill on the sketchbook — did you turn it",
+            "snippet": "Hi Neha, I heard about your coffee spill on the sketchbook — did you turn it into one of your famous 'coffee abstracts'?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 3,
+            "title": "I see everything, even the chaos.",
+            "snippet": "Right, the 11-eye doodles — that’s your brain saying “I see everything, even the chaos.” People-watching is a quiet escape. I do that while sipping tea. What’s the most interesting person you saw late"
+          },
+          {
+            "turn": 7,
+            "title": "you’re",
+            "snippet": "Right — cats *are* the quiet judges of the world. You picked a good one for the scene. I wonder what *you’re* sketching these days — something chaotic, or something with a quiet soul like that woman’s"
+          },
+          {
+            "turn": 11,
+            "title": "less",
+            "snippet": "Right — cold coffee and a smug to-do list. That’s a familiar struggle. What’s one tiny thing you can cross off to make it smile *less*?"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 3,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    }
+  ]
+}

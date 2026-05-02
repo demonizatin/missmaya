@@ -1,0 +1,423 @@
+{
+  "spec": {
+    "idx": 2,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 8,
+    "emotional_state": "hopeful, made some progress on a goal",
+    "label": "A02_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, I heard you're planning to watch Dunki with English subtitles in two days — are you looking forward to it?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Yeah, I like Shah Rukh Khan movies. Maybe the subtitles will help me learn new words. But I am a bit nervous about understanding the fast parts. Have you seen it?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That’s a great plan — movies are a fun way to learn. Watching with subtitles is smart. What part of the movie are you most excited about?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The action scenes, I think. They usually have a lot of drama and emotions. I hope the subtitles make it easier to follow. Oh, and the comedy parts — I don’t want to miss the jokes! What about you, have you watched Dunki?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "I get that — action and comedy are the best parts! I haven’t watched it yet, but I’ll ask: what made you pick it?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "The trailer looked fun and it's by Rajkumar Hirani, so I thought why not. Plus, SRK's character seems interesting. I want to see how the story mixes comedy with something serious. Maybe the dialogue will help me learn how to express emotions better in English."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "That’s a smart choice — Rajkumar Hirani’s stories always mix comedy and heart. What’s one emotion you’d like to learn to express better?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Hmm... maybe \"excitement\"? I want to learn how to say when I am really excited about something, like when a movie starts or when I achieve a goal. I tend to just say \"I am happy\" but I think there are better words."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "That’s a great word to focus on — “excitement” is tricky but fun to learn. How do you usually express excitement in Hindi?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "In Hindi, I often say \"bhot khushi\" or \"dil kud kud ke roye\" for big excitement. But I want to sound more natural in English. Like when I score a big win at work, I want to say more than just \"I am happy.\" Maybe \"I am thrilled\" or \"I am pumped\"? I need to practice!"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "That sounds right — “thrilled” and “pumped” both work. “Thrilled” is a bit more formal, while “pumped” is casual and energetic. Which one fits your big win better?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "I think \"thrilled\" sounds better for work achievements — maybe \"pumped\" for a cricket win or something fun! I'll try to use both in different situations. Thanks for explaining, Maya!"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "You're welcome — and great thinking! Let me know how it goes when you use \"thrilled\" next week. What else are you excited about this month?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I'm excited about a new project at work — it's a bit challenging but feels like a good growth opportunity. Maybe I'll say I'm \"thrilled\" when I talk about it in the next meeting! I should go now — thanks for the chat, Maya!"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You're doing great! Use \"thrilled\" — it'll sound confident and natural. Tell me how the meeting goes later. Have a great day!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "cricket",
+        "Bollywood movies"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "planning to watch Dunki with English subtitles",
+        "date": "2026-05-03",
+        "added": "2026-05-01",
+        "followed_up": false
+      },
+      {
+        "id": "ev_002",
+        "what": "planning to play cricket with friends",
+        "date": "2026-05-03",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "weekend plans",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "vocabulary learning",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"planning to watch Dunki with English subtitles\" — in 2 days",
+        "source_id": "ev_001",
+        "priority": 8,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"planning to play cricket with friends\" — in 2 days",
+        "source_id": "ev_002",
+        "priority": 8,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "cricket",
+        "Bollywood movies"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "planning to watch Dunki with English subtitles",
+        "date": "2026-05-03",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "planning to play cricket with friends",
+        "date": "2026-05-03",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "weekend plans",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "vocabulary learning",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Dunki movie",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "emotion vocabulary",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "monthly excitement",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"planning to play cricket with friends\" — in 2 days",
+        "source_id": "ev_002",
+        "priority": 8,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: identified emotion vocabulary gap and engaged in targeted learning (e.g. \"I want to sound more natural in English. Like when I score a big win at work, I want to say more than just 'I am happy.'\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "identified emotion vocabulary gap and engaged in targeted learning",
+          "examples": [
+            "I want to sound more natural in English. Like when I score a big win at work, I want to say more than just 'I am happy.'"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "use 'thrilled' in work meeting next week and report back to Maya",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 124.2
+}

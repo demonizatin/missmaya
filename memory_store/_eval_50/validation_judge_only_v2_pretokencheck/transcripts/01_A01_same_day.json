@@ -1,0 +1,249 @@
+{
+  "spec": {
+    "idx": 1,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 6,
+    "emotional_state": "hopeful, made some progress on a goal",
+    "label": "A01_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh. It's lovely to meet you, I'm excited to chat and help you practice English. What's been on your mind today?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hi Maya, thank you. Today I watched a Bollywood movie, \"Pathaan\". It was very action-packed. I want to learn how to describe movies better in English. Can we talk about it a bit?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Pathaan was a fun watch,  what stood out for you most in the movie?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The action scenes were very thrilling, like when the main character fights with the bad guys. Also, the movie had some good Hindi songs, but I think they made sense even for people who don't speak Hindi. What do you think?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "The action scenes in Pathaan are indeed thrilling, those fight sequences are so intense. I agree, the songs added a nice touch even if you don’t understand the words. Which one did you like best?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "The song \"Besharam Rang\" stood out for me. It was colorful and had a good mix of action and style. I think it helped set the mood for the movie. Do you know any similar songs from other movies?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Besharam Rang is a great choice ,  it really fits the mood. I think Galliyan from Raees has a similar vibe with its visuals and emotion. Do you enjoy songs that set the mood for a scene?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Yes, I like songs that match the mood of a scene. It makes the story more immersive. I’m not sure about the exact term, but how do you describe when a song fits perfectly with the story? In Hindi we say \"song and story match\" — is there a good English phrase for that?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "I get that — in English we often say \"the song sets the tone\" or \"the music complements the scene.\" Do you have another example you'd like to discuss?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Yes, maybe we can talk about another movie. But I think I should head off soon. Thanks for the help, Maya!"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Take your time, tell me how the work meeting went when you're ready. Have a great evening!"
+    }
+  ],
+  "memory_before": {
+    "facts": {},
+    "events": [],
+    "moments": [],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "Bollywood (movie)",
+        "Hindi songs (song)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Watching Pathaan (movie) was a fun experience for Priyansh, and he especially enjoyed the action scenes and Besharam Rang (song).",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "songs matching movie scenes",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Described a movie and its elements (action scenes, songs, mood) effectively in English (e.g. \"The action scenes were very thrilling, like when the main character fights with the bad guys. Also, the movie had some good Hindi songs...\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Watching Pathaan (movie) was a fun experience for Priyansh, and he especially enjoyed the \" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "Described a movie and its elements (action scenes, songs, mood) effectively in English",
+          "examples": [
+            "The action scenes were very thrilling, like when the main character fights with the bad guys. Also, the movie had some good Hindi songs..."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "Tell Maya how the work meeting went",
+        "source_session": "eval_1_A01_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 16.6
+}

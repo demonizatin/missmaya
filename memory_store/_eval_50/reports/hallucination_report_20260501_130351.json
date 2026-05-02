@@ -1,0 +1,1406 @@
+{
+  "summary": {
+    "session_count": 50,
+    "category_totals": {
+      "A_titles": 28,
+      "B_named_entities": 5,
+      "C_personal_claims": 22,
+      "D_fake_quotes": 4
+    },
+    "category_session_counts": {
+      "B_named_entities": 3,
+      "C_personal_claims": 13,
+      "A_titles": 12,
+      "D_fake_quotes": 4
+    },
+    "examples": {
+      "B_named_entities": [
+        {
+          "session_idx": 2,
+          "label": "A02_same_day",
+          "user": "Priyansh",
+          "turn": 4,
+          "entity": "Shah Rukh Khan",
+          "snippet": "I watched \"Jawan\" last week. It’s a new movie with Shah Rukh Khan. The story is about a soldier — very emotional. You should watch it if you like action and drama. Have you seen it?"
+        },
+        {
+          "session_idx": 3,
+          "label": "A03_same_day",
+          "user": "Priyansh",
+          "turn": 9,
+          "entity": "Dilwale Dulhania Le Jayenge",
+          "snippet": "I’ve been watching some old favorites too — maybe *Dilwale Dulhania Le Jayenge* or *Lagaan*. They’re comforting when life feels busy. \n\nYou said \"not sleeping well\" — in English, we might say \"struggl"
+        },
+        {
+          "session_idx": 3,
+          "label": "A03_same_day",
+          "user": "Priyansh",
+          "turn": 9,
+          "entity": "Lagaan",
+          "snippet": "I’ve been watching some old favorites too — maybe *Dilwale Dulhania Le Jayenge* or *Lagaan*. They’re comforting when life feels busy. \n\nYou said \"not sleeping well\" — in English, we might say \"struggl"
+        },
+        {
+          "session_idx": 5,
+          "label": "A05_same_day",
+          "user": "Priyansh",
+          "turn": 11,
+          "entity": "MS Dhoni",
+          "snippet": "You said that very clearly! Small fix: we often say \"he *has chased* many targets.\" You're doing great! Yes, Virat is amazing. I also love MS Dhoni — he’s a legend at chasing. What’s your favorite way"
+        },
+        {
+          "session_idx": 5,
+          "label": "A05_same_day",
+          "user": "Priyansh",
+          "turn": 11,
+          "entity": "Dhoni",
+          "snippet": "You said that very clearly! Small fix: we often say \"he *has chased* many targets.\" You're doing great! Yes, Virat is amazing. I also love MS Dhoni — he’s a legend at chasing. What’s your favorite way"
+        }
+      ],
+      "C_personal_claims": [
+        {
+          "session_idx": 2,
+          "label": "A02_same_day",
+          "user": "Priyansh",
+          "turn": 2,
+          "claim": "I watched a movie last week, but I can't remember the name. Did you s",
+          "snippet": "Hi Priyansh, that sounds exciting! Trying new positions is a great way to improve. Yuvraj Singh is a legend — you're on the right path! I watched a movie last week, but I can't remember the name. Did "
+        },
+        {
+          "session_idx": 2,
+          "label": "A02_same_day",
+          "user": "Priyansh",
+          "turn": 4,
+          "claim": "I watched \"Jawan\" last week. It’s a new movie with Shah Rukh Khan. Th",
+          "snippet": "I watched \"Jawan\" last week. It’s a new movie with Shah Rukh Khan. The story is about a soldier — very emotional. You should watch it if you like action and drama. Have you seen it?"
+        },
+        {
+          "session_idx": 4,
+          "label": "A04_same_day",
+          "user": "Priyansh",
+          "turn": 2,
+          "claim": "I heard it is popular. Do you like Virat Kohli's movies?",
+          "snippet": "You said it perfectly that time! Testing in different weather is very smart. Improving grip for summer sounds like an important step. I did not see the movie, but I heard it is popular. Do you like Vi"
+        },
+        {
+          "session_idx": 4,
+          "label": "A04_same_day",
+          "user": "Priyansh",
+          "turn": 3,
+          "claim": "I watched *Pathaan* again last week; it’s fun and action-packed. Do y",
+          "snippet": "Hi Priyansh, I'm glad you like Virat's movies — \"entertaning\" is a nice word! I watched *Pathaan* again last week; it’s fun and action-packed. Do you prefer action movies or emotional dramas?"
+        },
+        {
+          "session_idx": 5,
+          "label": "A05_same_day",
+          "user": "Priyansh",
+          "turn": 1,
+          "claim": "I heard you're working on something exciting with cricket gloves —",
+          "snippet": "Hi Priyansh, I heard you're working on something exciting with cricket gloves — how are the trial plans coming along?"
+        },
+        {
+          "session_idx": 6,
+          "label": "A06_same_day",
+          "user": "Priyansh",
+          "turn": 3,
+          "claim": "I just listened to Ek Ladki Ko Dekha To Yeh Jiya. Have you heard it?",
+          "snippet": "Hi Priyansh, I see you are thinking hard about the cricket gloves — simplifying is a smart idea. What about a Bollywood song to relax? I just listened to Ek Ladki Ko Dekha To Yeh Jiya. Have you heard "
+        },
+        {
+          "session_idx": 6,
+          "label": "A06_same_day",
+          "user": "Priyansh",
+          "turn": 5,
+          "claim": "I heard the music is catchy. I haven’t seen it yet, but I might wat",
+          "snippet": "Hi Priyansh, *Barbie* sounds like a good choice — I heard the music is catchy. I haven’t seen it yet, but I might watch it soon. What song was playing when you watched it?"
+        },
+        {
+          "session_idx": 8,
+          "label": "A08_same_day",
+          "user": "Priyansh",
+          "turn": 1,
+          "claim": "I heard about the cricket gloves project you're working on — sounds",
+          "snippet": "Hi Priyansh, I heard about the cricket gloves project you're working on — sounds exciting! How are the trials coming along?"
+        }
+      ],
+      "A_titles": [
+        {
+          "session_idx": 3,
+          "label": "A03_same_day",
+          "user": "Priyansh",
+          "turn": 2,
+          "title": "Some sensors kept acting up during the trials.",
+          "snippet": "Good to hear the players were supportive! You said \"malfunctioning\" — that’s a strong word. You could also say \"acting up\" in casual English. For example, \"Some sensors kept acting up during the trial"
+        },
+        {
+          "session_idx": 3,
+          "label": "A03_same_day",
+          "user": "Priyansh",
+          "turn": 8,
+          "title": "It never gets old.",
+          "snippet": "I often watch movies alone too — it feels cozy. But sometimes I watch with my family. \n\nYou said \"it's a classic\" — that’s perfect! We can also say \"It never gets old.\" \n\nHave you seen anything good l"
+        },
+        {
+          "session_idx": 12,
+          "label": "B02_consec_d1",
+          "user": "Aarti",
+          "turn": 2,
+          "title": "I need tricks.",
+          "snippet": "Got it, small fix: we say \"I have trouble\" instead of \"I need tricks.\"  \nOh, metformin can be tricky! I do get it — even I have trouble with tricky English sometimes. What’s one word that really puzzl"
+        },
+        {
+          "session_idx": 12,
+          "label": "B02_consec_d1",
+          "user": "Aarti",
+          "turn": 5,
+          "title": "Oh, got it! So 'spill the tea' is like sharing juicy stuff.",
+          "snippet": "You're doing great, just a tiny tweak — we say \"Oh, got it! So 'spill the tea' is like sharing juicy stuff.\"  \nRight! \"Break a leg\" is to wish luck, especially before a performance — it's old theater "
+        },
+        {
+          "session_idx": 15,
+          "label": "B05_consec_d4",
+          "user": "Aarti",
+          "turn": 4,
+          "title": "I enjoy music while working",
+          "snippet": "Hi Aarti, you said \"I enjoy music while working\" — perfect sentence!  \nGhazals are so calming. I listen to old songs while grading papers. What ghazal singer is your favorite?"
+        },
+        {
+          "session_idx": 15,
+          "label": "B05_consec_d4",
+          "user": "Aarti",
+          "turn": 5,
+          "title": "Lata is my first choice singer.",
+          "snippet": "Hi Aarti, you said \"Lata is my first choice\" — small fix: we say \"Lata is my first choice singer.\"  \nLata Mangeshkar’s voice is timeless. I love her too! Do you have a favorite song of hers?"
+        },
+        {
+          "session_idx": 18,
+          "label": "B08_consec_d7",
+          "user": "Aarti",
+          "turn": 5,
+          "title": "Mitral is by the left, just like my left hand is better at holding my chai.",
+          "snippet": "You're doing great! Here's one: \"Mitral is by the left, just like my left hand is better at holding my chai.\" How does that feel? Want to make one for tricuspid next?"
+        },
+        {
+          "session_idx": 21,
+          "label": "B11_consec_d10",
+          "user": "Aarti",
+          "turn": 4,
+          "title": "I handled this part",
+          "snippet": "You're doing great, just a tiny tweak—say \"I handled this part\" instead of \"I messed up.\" Pressure is heavy, but you carry it bravely. Even a small win, like a beta-blocker chart, counts. Tell me, wha"
+        }
+      ],
+      "D_fake_quotes": [
+        {
+          "session_idx": 15,
+          "label": "B05_consec_d4",
+          "user": "Aarti",
+          "turn": 4,
+          "fake_quote": "I enjoy music while working",
+          "snippet": "Hi Aarti, you said \"I enjoy music while working\" — perfect sentence!  \nGhazals are so calming. I listen to old songs while grading papers. What ghazal singer is your favorite?"
+        },
+        {
+          "session_idx": 21,
+          "label": "B11_consec_d10",
+          "user": "Aarti",
+          "turn": 2,
+          "fake_quote": "mess up,",
+          "snippet": "I get it—sometimes even small things feel big when we're under pressure. You said \"mess up,\" which is perfect! Speaking of mock tests—did today’s question trip you up, or was it something else?"
+        },
+        {
+          "session_idx": 33,
+          "label": "C08_sporadic_d60",
+          "user": "Rohan",
+          "turn": 4,
+          "fake_quote": "giving me some trouble.",
+          "snippet": "I watched *Neelakashane* — the acting was so exciting! I like how you said \"giving me some trouble.\" You're doing well. For reasoning puzzles, maybe try drawing them out? Does that work for you?"
+        },
+        {
+          "session_idx": 36,
+          "label": "D01_coldstart_u01_pr",
+          "user": "Priyansh",
+          "turn": 8,
+          "fake_quote": "connect better now",
+          "snippet": "You said \"connect better now\" — very natural! I'm glad we could chat. Work calls — I understand! Talk soon, Priyansh. Tell me if you want to discuss \"Ae Watan\" more later."
+        }
+      ]
+    }
+  },
+  "per_session": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [
+          {
+            "turn": 4,
+            "entity": "Shah Rukh Khan",
+            "snippet": "I watched \"Jawan\" last week. It’s a new movie with Shah Rukh Khan. The story is about a soldier — very emotional. You should watch it if you like action and drama. Have you seen it?"
+          }
+        ],
+        "C_personal_claims": [
+          {
+            "turn": 2,
+            "claim": "I watched a movie last week, but I can't remember the name. Did you s",
+            "snippet": "Hi Priyansh, that sounds exciting! Trying new positions is a great way to improve. Yuvraj Singh is a legend — you're on the right path! I watched a movie last week, but I can't remember the name. Did "
+          },
+          {
+            "turn": 4,
+            "claim": "I watched \"Jawan\" last week. It’s a new movie with Shah Rukh Khan. Th",
+            "snippet": "I watched \"Jawan\" last week. It’s a new movie with Shah Rukh Khan. The story is about a soldier — very emotional. You should watch it if you like action and drama. Have you seen it?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 1,
+        "C_personal_claims": 2,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 2,
+            "title": "Some sensors kept acting up during the trials.",
+            "snippet": "Good to hear the players were supportive! You said \"malfunctioning\" — that’s a strong word. You could also say \"acting up\" in casual English. For example, \"Some sensors kept acting up during the trial"
+          },
+          {
+            "turn": 8,
+            "title": "It never gets old.",
+            "snippet": "I often watch movies alone too — it feels cozy. But sometimes I watch with my family. \n\nYou said \"it's a classic\" — that’s perfect! We can also say \"It never gets old.\" \n\nHave you seen anything good l"
+          },
+          {
+            "turn": 9,
+            "title": "Dilwale Dulhania Le Jayenge",
+            "snippet": "I’ve been watching some old favorites too — maybe *Dilwale Dulhania Le Jayenge* or *Lagaan*. They’re comforting when life feels busy. \n\nYou said \"not sleeping well\" — in English, we might say \"struggl"
+          },
+          {
+            "turn": 9,
+            "title": "Lagaan",
+            "snippet": "I’ve been watching some old favorites too — maybe *Dilwale Dulhania Le Jayenge* or *Lagaan*. They’re comforting when life feels busy. \n\nYou said \"not sleeping well\" — in English, we might say \"struggl"
+          }
+        ],
+        "B_named_entities": [
+          {
+            "turn": 9,
+            "entity": "Dilwale Dulhania Le Jayenge",
+            "snippet": "I’ve been watching some old favorites too — maybe *Dilwale Dulhania Le Jayenge* or *Lagaan*. They’re comforting when life feels busy. \n\nYou said \"not sleeping well\" — in English, we might say \"struggl"
+          },
+          {
+            "turn": 9,
+            "entity": "Lagaan",
+            "snippet": "I’ve been watching some old favorites too — maybe *Dilwale Dulhania Le Jayenge* or *Lagaan*. They’re comforting when life feels busy. \n\nYou said \"not sleeping well\" — in English, we might say \"struggl"
+          }
+        ],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 4,
+        "B_named_entities": 2,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 2,
+            "claim": "I heard it is popular. Do you like Virat Kohli's movies?",
+            "snippet": "You said it perfectly that time! Testing in different weather is very smart. Improving grip for summer sounds like an important step. I did not see the movie, but I heard it is popular. Do you like Vi"
+          },
+          {
+            "turn": 3,
+            "claim": "I watched *Pathaan* again last week; it’s fun and action-packed. Do y",
+            "snippet": "Hi Priyansh, I'm glad you like Virat's movies — \"entertaning\" is a nice word! I watched *Pathaan* again last week; it’s fun and action-packed. Do you prefer action movies or emotional dramas?"
+          },
+          {
+            "turn": 4,
+            "claim": "I saw *Dil Bechara* — it made me feel a lot. Do you watch movies",
+            "snippet": "You said that very well! Action movies are exciting, and emotional ones touch the heart. I saw *Dil Bechara* — it made me feel a lot. Do you watch movies often?"
+          },
+          {
+            "turn": 10,
+            "claim": "I try to sing along, but I can’t match the original. Do you play any",
+            "snippet": "Hi Priyansh, *Rock On!!* is a great pick — the songs are full of energy! I try to sing along, but I can’t match the original. Do you play any instruments or just sing?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 4,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [
+          {
+            "turn": 11,
+            "entity": "MS Dhoni",
+            "snippet": "You said that very clearly! Small fix: we often say \"he *has chased* many targets.\" You're doing great! Yes, Virat is amazing. I also love MS Dhoni — he’s a legend at chasing. What’s your favorite way"
+          },
+          {
+            "turn": 11,
+            "entity": "Dhoni",
+            "snippet": "You said that very clearly! Small fix: we often say \"he *has chased* many targets.\" You're doing great! Yes, Virat is amazing. I also love MS Dhoni — he’s a legend at chasing. What’s your favorite way"
+          }
+        ],
+        "C_personal_claims": [
+          {
+            "turn": 1,
+            "claim": "I heard you're working on something exciting with cricket gloves —",
+            "snippet": "Hi Priyansh, I heard you're working on something exciting with cricket gloves — how are the trial plans coming along?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 2,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 3,
+            "claim": "I just listened to Ek Ladki Ko Dekha To Yeh Jiya. Have you heard it?",
+            "snippet": "Hi Priyansh, I see you are thinking hard about the cricket gloves — simplifying is a smart idea. What about a Bollywood song to relax? I just listened to Ek Ladki Ko Dekha To Yeh Jiya. Have you heard "
+          },
+          {
+            "turn": 5,
+            "claim": "I heard the music is catchy. I haven’t seen it yet, but I might wat",
+            "snippet": "Hi Priyansh, *Barbie* sounds like a good choice — I heard the music is catchy. I haven’t seen it yet, but I might watch it soon. What song was playing when you watched it?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 2,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 1,
+            "claim": "I heard about the cricket gloves project you're working on — sounds",
+            "snippet": "Hi Priyansh, I heard about the cricket gloves project you're working on — sounds exciting! How are the trials coming along?"
+          },
+          {
+            "turn": 2,
+            "claim": "I heard about the cricket gloves project you're working on — sounds",
+            "snippet": "Hi Priyansh, I heard about the cricket gloves project you're working on — sounds exciting! How are the trials coming along?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 2,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 11,
+      "label": "B01_consec_d0",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 12,
+      "label": "B02_consec_d1",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 2,
+            "title": "I need tricks.",
+            "snippet": "Got it, small fix: we say \"I have trouble\" instead of \"I need tricks.\"  \nOh, metformin can be tricky! I do get it — even I have trouble with tricky English sometimes. What’s one word that really puzzl"
+          },
+          {
+            "turn": 5,
+            "title": "Oh, got it! So 'spill the tea' is like sharing juicy stuff.",
+            "snippet": "You're doing great, just a tiny tweak — we say \"Oh, got it! So 'spill the tea' is like sharing juicy stuff.\"  \nRight! \"Break a leg\" is to wish luck, especially before a performance — it's old theater "
+          },
+          {
+            "turn": 7,
+            "title": "Maybe I can try saying 'break a leg' to my friend before her music exam.",
+            "snippet": "You're doing great, just a tiny tweak — we say \"Maybe I can try saying 'break a leg' to my friend before her music exam.\"  \nThat sounds sweet! She’ll probably smile and know you’re being kind. What if"
+          },
+          {
+            "turn": 8,
+            "title": "Okay, I'll try it. But if she gets confused, I'll just say 'good luck' instead.",
+            "snippet": "You're doing great, just a tiny tweak — we say \"Okay, I'll try it. But if she gets confused, I'll just say 'good luck' instead.\"  \nI’m here whenever you want to practice, even during exam times. What’"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 4,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 13,
+      "label": "B03_consec_d2",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 14,
+      "label": "B04_consec_d3",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 15,
+      "label": "B05_consec_d4",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 4,
+            "title": "I enjoy music while working",
+            "snippet": "Hi Aarti, you said \"I enjoy music while working\" — perfect sentence!  \nGhazals are so calming. I listen to old songs while grading papers. What ghazal singer is your favorite?"
+          },
+          {
+            "turn": 5,
+            "title": "Lata is my first choice singer.",
+            "snippet": "Hi Aarti, you said \"Lata is my first choice\" — small fix: we say \"Lata is my first choice singer.\"  \nLata Mangeshkar’s voice is timeless. I love her too! Do you have a favorite song of hers?"
+          },
+          {
+            "turn": 6,
+            "title": "Talk to you soon, Miss Maya!",
+            "snippet": "Hi Aarti, you said \"Talk to you soon, Maya!\" — small fix: we say \"Talk to you soon, Miss Maya!\"  \n\"Pyar Hua Ikrar Hua\" is beautiful. Sing it proudly — I’d love to hear you again. Study well!"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": [
+          {
+            "turn": 4,
+            "fake_quote": "I enjoy music while working",
+            "snippet": "Hi Aarti, you said \"I enjoy music while working\" — perfect sentence!  \nGhazals are so calming. I listen to old songs while grading papers. What ghazal singer is your favorite?"
+          }
+        ]
+      },
+      "totals": {
+        "A_titles": 3,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 1
+      }
+    },
+    {
+      "session_idx": 16,
+      "label": "B06_consec_d5",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 17,
+      "label": "B07_consec_d6",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 18,
+      "label": "B08_consec_d7",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 5,
+            "title": "Mitral is by the left, just like my left hand is better at holding my chai.",
+            "snippet": "You're doing great! Here's one: \"Mitral is by the left, just like my left hand is better at holding my chai.\" How does that feel? Want to make one for tricuspid next?"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 19,
+      "label": "B09_consec_d8",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 20,
+      "label": "B10_consec_d9",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 21,
+      "label": "B11_consec_d10",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 4,
+            "title": "I handled this part",
+            "snippet": "You're doing great, just a tiny tweak—say \"I handled this part\" instead of \"I messed up.\" Pressure is heavy, but you carry it bravely. Even a small win, like a beta-blocker chart, counts. Tell me, wha"
+          },
+          {
+            "turn": 4,
+            "title": "I messed up.",
+            "snippet": "You're doing great, just a tiny tweak—say \"I handled this part\" instead of \"I messed up.\" Pressure is heavy, but you carry it bravely. Even a small win, like a beta-blocker chart, counts. Tell me, wha"
+          },
+          {
+            "turn": 6,
+            "title": "I am focusing on beta-blockers today,",
+            "snippet": "You’re doing great, just a tiny tweak—there’s no need to feel *chup*. Singing is a smart idea, and it’s okay to feel confused sometimes. How about we practice a sentence? You can say, “I am focusing o"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": [
+          {
+            "turn": 2,
+            "fake_quote": "mess up,",
+            "snippet": "I get it—sometimes even small things feel big when we're under pressure. You said \"mess up,\" which is perfect! Speaking of mock tests—did today’s question trip you up, or was it something else?"
+          }
+        ]
+      },
+      "totals": {
+        "A_titles": 3,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 1
+      }
+    },
+    {
+      "session_idx": 22,
+      "label": "B12_consec_d11",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 23,
+      "label": "B13_consec_d12",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 24,
+      "label": "B14_consec_d13",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 25,
+      "label": "B15_consec_d14",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 26,
+      "label": "C01_sporadic_d0",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 2,
+            "claim": "I watched a movie yesterday — very fun! Do you watch many movies?",
+            "snippet": "I am glad to hear your day was good. I watched a movie yesterday — very fun! Do you watch many movies?"
+          },
+          {
+            "turn": 3,
+            "claim": "I watched a small comedy about a family in a small town — very sweet.",
+            "snippet": "I watched a small comedy about a family in a small town — very sweet. I am a movie person, but I love when it is a good story. Do you watch movies in Bengali too?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 2,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 27,
+      "label": "C02_sporadic_d9",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 1,
+            "claim": "I heard about Barcelona's big win! Did you watch the match?",
+            "snippet": "Hi Rohan, I heard about Barcelona's big win! Did you watch the match?"
+          },
+          {
+            "turn": 2,
+            "claim": "I heard about Barcelona's big win! Did you watch the match?",
+            "snippet": "Hi Rohan, I heard about Barcelona's big win! Did you watch the match?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 2,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 28,
+      "label": "C03_sporadic_d19",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 29,
+      "label": "C04_sporadic_d31",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 30,
+      "label": "C05_sporadic_d38",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 31,
+      "label": "C06_sporadic_d46",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 32,
+      "label": "C07_sporadic_d51",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 5,
+            "title": "It passes the time.",
+            "snippet": "You said “It pass the time” — small fix: “It passes the time.” I get it, life gets busy. When I feel lonely, I call my sister or read old letters. What kinds of Bengali movies do you like best?"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 2,
+            "claim": "I watched that match. I agree — their defense looked weak. What did y",
+            "snippet": "You said it perfectly that time! Good try, and yes, I watched that match. I agree — their defense looked weak. What did you think about their attack? Was it better?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 33,
+      "label": "C08_sporadic_d60",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 3,
+            "title": "He acts in both old and new movies.",
+            "snippet": "You said \"He act old and new both type movie\" — a tiny tweak: we say \"He acts in both old and new movies.\" You're doing great! I'm not preparing for Bank PO, but I know how hard it is. Are you studyin"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 2,
+            "claim": "I watched a Bengali film last week, actually. Do you have a favorite",
+            "snippet": "You said \"it was fun\" — very nice! I like that you used \"fun\" to describe your experience. I watched a Bengali film last week, actually. Do you have a favorite Bengali actor or actress?"
+          },
+          {
+            "turn": 4,
+            "claim": "I watched *Neelakashane* — the acting was so exciting! I like how you",
+            "snippet": "I watched *Neelakashane* — the acting was so exciting! I like how you said \"giving me some trouble.\" You're doing well. For reasoning puzzles, maybe try drawing them out? Does that work for you?"
+          }
+        ],
+        "D_fake_quotes": [
+          {
+            "turn": 4,
+            "fake_quote": "giving me some trouble.",
+            "snippet": "I watched *Neelakashane* — the acting was so exciting! I like how you said \"giving me some trouble.\" You're doing well. For reasoning puzzles, maybe try drawing them out? Does that work for you?"
+          }
+        ]
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 2,
+        "D_fake_quotes": 1
+      }
+    },
+    {
+      "session_idx": 34,
+      "label": "C09_sporadic_d68",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 1,
+            "claim": "I heard you used the phrase 'His playing is so graceful' — that was",
+            "snippet": "Hey Rohan, I heard you used the phrase 'His playing is so graceful' — that was a lovely choice! Tell me, did you watch any football lately?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 35,
+      "label": "C10_sporadic_d80",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 1,
+            "claim": "I heard you love football and admire Messi — I’m a huge fan of his",
+            "snippet": "Hi Rohan, I heard you love football and admire Messi — I’m a huge fan of his graceful style too! Tell me, did you watch any exciting matches lately? "
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 36,
+      "label": "D01_coldstart_u01_pr",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 4,
+            "claim": "I watched it a few years back. The music is a big part of Bollywood f",
+            "snippet": "You said it perfectly — \"some songs are catchy.\" Good English! I watched it a few years back. The music is a big part of Bollywood for me. What’s your favorite song from the movie?"
+          }
+        ],
+        "D_fake_quotes": [
+          {
+            "turn": 8,
+            "fake_quote": "connect better now",
+            "snippet": "You said \"connect better now\" — very natural! I'm glad we could chat. Work calls — I understand! Talk soon, Priyansh. Tell me if you want to discuss \"Ae Watan\" more later."
+          }
+        ]
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 1
+      }
+    },
+    {
+      "session_idx": 37,
+      "label": "D02_coldstart_u02_aa",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 38,
+      "label": "D03_coldstart_u03_ro",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 5,
+            "title": "uncle",
+            "snippet": "Hi Rohan, yes, I have! Once I called my boss *uncle* by mistake. Very embarrassing! How did you manage to focus after lunch?"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 39,
+      "label": "D04_coldstart_u04_ne",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 40,
+      "label": "D05_coldstart_u05_vi",
+      "user_name": "Vikram",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 41,
+      "label": "D06_coldstart_u06_an",
+      "user_name": "Anu",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 3,
+            "title": "I have felt like this.",
+            "snippet": "That sounds tough, but you're doing great just by preparing. I have felt like this before—before my own exams. Small fix: we say \"I have felt like this.\" What are you studying right now?"
+          },
+          {
+            "turn": 4,
+            "title": "I am not good enough.",
+            "snippet": "You’re doing important work, Anu. Many people feel that way before exams. Small fix: we say “I am not good enough.” What part of commerce interests you most?"
+          },
+          {
+            "turn": 7,
+            "title": "I am my own problem.",
+            "snippet": "Writing and examples are great methods. Small fix: we say “I am my own problem.” What YouTube channel do you watch for help?"
+          },
+          {
+            "turn": 10,
+            "title": "I am still panicking a bit.",
+            "snippet": "A study playlist sounds like a good idea. Small fix: we say “I am still panicking a bit.” What songs do you usually add to your playlists?"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 4,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 42,
+      "label": "D07_coldstart_u07_am",
+      "user_name": "Aman",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 43,
+      "label": "D08_coldstart_u08_di",
+      "user_name": "Diya",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 6,
+            "title": "The Sherlock Holmes",
+            "snippet": "Hi Diya, those are great choices! I love historical fiction too—it brings the past to life. For mysteries, I really like *The Sherlock Holmes* stories. They’re classic but still fun. Do you read older"
+          },
+          {
+            "turn": 9,
+            "title": "The Rain Will Come",
+            "snippet": "Hi Diya, it’s called *The Rain Will Come*. It’s about a journalist solving a mystery in the city during the monsoon season. It’s thrilling and full of Mumbai life. I’ll tell you more about it later—wo"
+          },
+          {
+            "turn": 10,
+            "title": "The Rain Will Come",
+            "snippet": "Hi Diya, thank you for chatting with me—I always enjoy our conversations. I’ll tell you more about *The Rain Will Come* next time. Aapko baad mein dekhenge! Have a great evening."
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 3,
+            "claim": "I read sometimes, mostly stories about strong women. What kind of",
+            "snippet": "Hi Diya, I love that book! Choices are an interesting topic. I read sometimes, mostly stories about strong women. What kind of books do you like?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 3,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 44,
+      "label": "D09_coldstart_u09_ka",
+      "user_name": "Kabir",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 45,
+      "label": "D10_coldstart_u10_sh",
+      "user_name": "Shreya",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 3,
+            "title": "En Iniya Ponnu",
+            "snippet": "Hi Neha, \"Nenjam Marappathu\" is a classic—so beautiful! I agree, old melodies have a way of staying with us. I often listen to \"En Iniya Ponnu\" by A.R. Rahman when I need to relax. It’s gentle and pea"
+          },
+          {
+            "turn": 11,
+            "title": "The Doodle Bean",
+            "snippet": "Hi Neha, I love your cat-barista idea! It sounds like it could be a hit. I’ve thought about a blog too, but I’m not great at keeping up with one. Do you think you’d name your café something fun, like "
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 2,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 9,
+            "title": "Miss Maya mode.",
+            "snippet": "I’d love to hear \"En Iniya Ponnu\" — dreamy and soft, just what I need. Lo-fi with Tamil covers sounds perfect too. You’re very clear with your suggestions, by the way! Just call me when you need a pla"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    }
+  ]
+}

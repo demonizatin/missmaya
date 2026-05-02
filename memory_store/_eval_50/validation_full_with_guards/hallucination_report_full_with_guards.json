@@ -1,0 +1,1112 @@
+{
+  "summary": {
+    "session_count": 50,
+    "category_totals": {
+      "A_titles": 21,
+      "B_named_entities": 1,
+      "C_personal_claims": 3,
+      "D_fake_quotes": 0
+    },
+    "category_session_counts": {
+      "A_titles": 11,
+      "B_named_entities": 1,
+      "C_personal_claims": 3
+    },
+    "examples": {
+      "A_titles": [
+        {
+          "session_idx": 4,
+          "label": "A04_same_day",
+          "user": "Priyansh",
+          "turn": 4,
+          "title": "Mere Meri Pehli Baarish",
+          "snippet": "Got it, DDLJ is a true classic. The song \"Mere Meri Pehli Baarish\" always stands out. Do you prefer old Bollywood or the newer ones?"
+        },
+        {
+          "session_idx": 6,
+          "label": "A06_same_day",
+          "user": "Priyansh",
+          "turn": 4,
+          "title": "Barish.",
+          "snippet": "You said it perfectly that time, \"I have two left feet\", and I love the spirit! I’m more of a *Lag Ja Gale* slow sway person, but I get the energy of \"Barish.\" What do you and your friends end up danc"
+        },
+        {
+          "session_idx": 9,
+          "label": "A09_same_day",
+          "user": "Priyansh",
+          "turn": 4,
+          "title": "Tricky but got it working",
+          "snippet": "That’s a productive and colorful day, full of work, Bollywood, and cricket. “Tricky but got it working”, I like that phrase, it sounds confident. What kind of movie are you in the mood for now, action"
+        },
+        {
+          "session_idx": 16,
+          "label": "B06_consec_d5",
+          "user": "Aarti",
+          "turn": 3,
+          "title": "Right, ginger tea is a great pick, very grounding.",
+          "snippet": "\"Right, ginger tea is a great pick, very grounding.\" \"Turmeric and honey are perfect for focus. What kind of namkeen do you prefer?\""
+        },
+        {
+          "session_idx": 22,
+          "label": "B12_consec_d11",
+          "user": "Aarti",
+          "turn": 6,
+          "title": "Diuretics flush out potassium, like a banana losing its peel.",
+          "snippet": "Got it, low potassium with diuretics is tricky. A banana reminder is smart! Maybe add a tiny story: \"Diuretics flush out potassium, like a banana losing its peel.\" What’s another side effect you’d lik"
+        },
+        {
+          "session_idx": 22,
+          "label": "B12_consec_d11",
+          "user": "Aarti",
+          "turn": 14,
+          "title": "Stories and dinner, both important! Talk to you later, Aarti. Enjoy your meal!",
+          "snippet": "\"Stories and dinner, both important! Talk to you later, Aarti. Enjoy your meal!\""
+        },
+        {
+          "session_idx": 25,
+          "label": "B15_consec_d14",
+          "user": "Aarti",
+          "turn": 2,
+          "title": "Pharmacology is my weakest area",
+          "snippet": "\"Pharmacology is my weakest area\" is clear. A slightly smoother phrasing: \"Pharmacology is the subject I find most challenging.\" What part feels tricky?"
+        },
+        {
+          "session_idx": 25,
+          "label": "B15_consec_d14",
+          "user": "Aarti",
+          "turn": 2,
+          "title": "Pharmacology is the subject I find most challenging.",
+          "snippet": "\"Pharmacology is my weakest area\" is clear. A slightly smoother phrasing: \"Pharmacology is the subject I find most challenging.\" What part feels tricky?"
+        }
+      ],
+      "B_named_entities": [
+        {
+          "session_idx": 4,
+          "label": "A04_same_day",
+          "user": "Priyansh",
+          "turn": 4,
+          "entity": "DDLJ",
+          "snippet": "Got it, DDLJ is a true classic. The song \"Mere Meri Pehli Baarish\" always stands out. Do you prefer old Bollywood or the newer ones?"
+        }
+      ],
+      "C_personal_claims": [
+        {
+          "session_idx": 27,
+          "label": "C02_sporadic_d9",
+          "user": "Rohan",
+          "turn": 7,
+          "claim": "I try to focus\", got it, that’s a good way to put it. Horror comedy",
+          "snippet": "You said \"I try to focus\", got it, that’s a good way to put it. Horror comedy is fun. Do you like scary movies more than funny ones, or the other way around?"
+        },
+        {
+          "session_idx": 29,
+          "label": "C04_sporadic_d31",
+          "user": "Rohan",
+          "turn": 8,
+          "claim": "I try to use burst mode\", and that’s clear. That sounds like a perfe",
+          "snippet": "You said \"I try to use burst mode\", and that’s clear. That sounds like a perfect moment to freeze, fans, goals, and emotions all in one frame! Talk to you soon, and good luck with your reading. Keep c"
+        },
+        {
+          "session_idx": 30,
+          "label": "C05_sporadic_d38",
+          "user": "Rohan",
+          "turn": 1,
+          "claim": "I just saw their latest match. How was your day?",
+          "snippet": "Hi Rohan, Manchester United's doing well this season, I just saw their latest match. How was your day?"
+        }
+      ]
+    }
+  },
+  "per_session": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 4,
+            "title": "Mere Meri Pehli Baarish",
+            "snippet": "Got it, DDLJ is a true classic. The song \"Mere Meri Pehli Baarish\" always stands out. Do you prefer old Bollywood or the newer ones?"
+          }
+        ],
+        "B_named_entities": [
+          {
+            "turn": 4,
+            "entity": "DDLJ",
+            "snippet": "Got it, DDLJ is a true classic. The song \"Mere Meri Pehli Baarish\" always stands out. Do you prefer old Bollywood or the newer ones?"
+          }
+        ],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 1,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 4,
+            "title": "Barish.",
+            "snippet": "You said it perfectly that time, \"I have two left feet\", and I love the spirit! I’m more of a *Lag Ja Gale* slow sway person, but I get the energy of \"Barish.\" What do you and your friends end up danc"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 4,
+            "title": "Tricky but got it working",
+            "snippet": "That’s a productive and colorful day, full of work, Bollywood, and cricket. “Tricky but got it working”, I like that phrase, it sounds confident. What kind of movie are you in the mood for now, action"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 11,
+      "label": "B01_consec_d0",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 12,
+      "label": "B02_consec_d1",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 13,
+      "label": "B03_consec_d2",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 14,
+      "label": "B04_consec_d3",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 15,
+      "label": "B05_consec_d4",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 16,
+      "label": "B06_consec_d5",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 3,
+            "title": "Right, ginger tea is a great pick, very grounding.",
+            "snippet": "\"Right, ginger tea is a great pick, very grounding.\" \"Turmeric and honey are perfect for focus. What kind of namkeen do you prefer?\""
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 17,
+      "label": "B07_consec_d6",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 18,
+      "label": "B08_consec_d7",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 19,
+      "label": "B09_consec_d8",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 20,
+      "label": "B10_consec_d9",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 21,
+      "label": "B11_consec_d10",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 22,
+      "label": "B12_consec_d11",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 6,
+            "title": "Diuretics flush out potassium, like a banana losing its peel.",
+            "snippet": "Got it, low potassium with diuretics is tricky. A banana reminder is smart! Maybe add a tiny story: \"Diuretics flush out potassium, like a banana losing its peel.\" What’s another side effect you’d lik"
+          },
+          {
+            "turn": 14,
+            "title": "Stories and dinner, both important! Talk to you later, Aarti. Enjoy your meal!",
+            "snippet": "\"Stories and dinner, both important! Talk to you later, Aarti. Enjoy your meal!\""
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 2,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 23,
+      "label": "B13_consec_d12",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 24,
+      "label": "B14_consec_d13",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 25,
+      "label": "B15_consec_d14",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 2,
+            "title": "Pharmacology is my weakest area",
+            "snippet": "\"Pharmacology is my weakest area\" is clear. A slightly smoother phrasing: \"Pharmacology is the subject I find most challenging.\" What part feels tricky?"
+          },
+          {
+            "turn": 2,
+            "title": "Pharmacology is the subject I find most challenging.",
+            "snippet": "\"Pharmacology is my weakest area\" is clear. A slightly smoother phrasing: \"Pharmacology is the subject I find most challenging.\" What part feels tricky?"
+          },
+          {
+            "turn": 3,
+            "title": "Drug names and mechanisms feel like a foreign language",
+            "snippet": "\"Drug names and mechanisms feel like a foreign language\", that's a great way to describe it! For example, \"Metoprolol\", \"beta blocker\" makes sense if you imagine it \"blocking\" stress. What drug are yo"
+          },
+          {
+            "turn": 3,
+            "title": "Metoprolol",
+            "snippet": "\"Drug names and mechanisms feel like a foreign language\", that's a great way to describe it! For example, \"Metoprolol\", \"beta blocker\" makes sense if you imagine it \"blocking\" stress. What drug are yo"
+          },
+          {
+            "turn": 6,
+            "title": "My brain feels fried.",
+            "snippet": "You're doing great, just a tiny tweak: \"My brain is fried\" → \"My brain feels fried.\" It flows better. Take it easy, and tell me if you want to chat about something lighter tomorrow!"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 5,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 26,
+      "label": "C01_sporadic_d0",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 27,
+      "label": "C02_sporadic_d9",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 7,
+            "claim": "I try to focus\", got it, that’s a good way to put it. Horror comedy",
+            "snippet": "You said \"I try to focus\", got it, that’s a good way to put it. Horror comedy is fun. Do you like scary movies more than funny ones, or the other way around?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 28,
+      "label": "C03_sporadic_d19",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 29,
+      "label": "C04_sporadic_d31",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 6,
+            "title": "My friend teaches me",
+            "snippet": "You said \"My friend teach me\", small fix: we say \"My friend teaches me\". That’s a good setup, DSLR for details, phone for quick shots. I love photos of food and flowers, but I have no favorite, they a"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 8,
+            "claim": "I try to use burst mode\", and that’s clear. That sounds like a perfe",
+            "snippet": "You said \"I try to use burst mode\", and that’s clear. That sounds like a perfect moment to freeze, fans, goals, and emotions all in one frame! Talk to you soon, and good luck with your reading. Keep c"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 30,
+      "label": "C05_sporadic_d38",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 1,
+            "claim": "I just saw their latest match. How was your day?",
+            "snippet": "Hi Rohan, Manchester United's doing well this season, I just saw their latest match. How was your day?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 31,
+      "label": "C06_sporadic_d46",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 32,
+      "label": "C07_sporadic_d51",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 33,
+      "label": "C08_sporadic_d60",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 34,
+      "label": "C09_sporadic_d68",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 35,
+      "label": "C10_sporadic_d80",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 36,
+      "label": "D01_coldstart_u01_pr",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 37,
+      "label": "D02_coldstart_u02_aa",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 38,
+      "label": "D03_coldstart_u03_ro",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 39,
+      "label": "D04_coldstart_u04_ne",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 4,
+            "title": "I have worked on the design",
+            "snippet": "Right, past tense and present perfect are tricky. Formal emails are tough too. Let’s start with a quick drill, what do you think is correct: “I worked on the design” or “I have worked on the design” t"
+          },
+          {
+            "turn": 5,
+            "title": "I have worked on many projects this year.",
+            "snippet": "Right, you’re in the right ballpark! \"I worked on the design today\" is correct because \"today\" is a specific time. \"I have worked\" is used for actions that started in the past and are still connected "
+          },
+          {
+            "turn": 6,
+            "title": "I have finished the task",
+            "snippet": "\"I finished the task\" is correct if you’re talking about something that happened and is done. \"I have finished the task\" is also right if you want to connect it to now, like, \"I have finished the task"
+          },
+          {
+            "turn": 7,
+            "title": "I start work at 9 AM",
+            "snippet": "You’re very close! \"I sent the email by 5 PM\" is correct if you’re talking about it now and it’s already done. \"I have sent the email by 5 PM\" doesn’t sound right because \"have sent\" is used more for "
+          },
+          {
+            "turn": 8,
+            "title": "I have started work at 9 AM today.",
+            "snippet": "You’re absolutely right, \"I started work at 9 AM\" is correct because it’s a completed action. \"Have started\" would work if you’re still at work and want to say, “I have started work at 9 AM today.” Yo"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 5,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 40,
+      "label": "D05_coldstart_u05_vi",
+      "user_name": "Vikram",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 41,
+      "label": "D06_coldstart_u06_an",
+      "user_name": "Anu",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 42,
+      "label": "D07_coldstart_u07_am",
+      "user_name": "Aman",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 43,
+      "label": "D08_coldstart_u08_di",
+      "user_name": "Diya",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 44,
+      "label": "D09_coldstart_u09_ka",
+      "user_name": "Kabir",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 45,
+      "label": "D10_coldstart_u10_sh",
+      "user_name": "Shreya",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 3,
+            "title": "The Hard Thing About Hard Things",
+            "snippet": "Red Bull's strategy is impressive this season. Ferrari’s legacy does have that old school charm. How about *The Hard Thing About Hard Things* by Ben Horowitz. It’s about business strategy. Thoughts?"
+          },
+          {
+            "turn": 4,
+            "title": "The Hard Thing",
+            "snippet": "Right, non fiction with real world cases is a solid pick. *The Hard Thing* does that well. F1 qualifying can be tough, how are you feeling about the race tomorrow despite the mix up?"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 2,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 12,
+            "title": "You're welcome, Neha,",
+            "snippet": "\"You're welcome, Neha, \"Let it flow\" works for coffee, chaos, and everything in between. Go out there and make that design magic happen. Talk soon!\""
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 13,
+            "title": "Acha, bhai,",
+            "snippet": "You're very welcome, Neha, and I mean that. Small steps are still steps forward. *Acha, bhai,* and I’ll be here with the coffee vibes. See you at 8!"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,738 @@
+{
+  "spec": {
+    "idx": 30,
+    "profile_id": "u03_rohan",
+    "eval_user_key": "u03_rohan",
+    "today": "2026-06-08",
+    "turns_target": 12,
+    "emotional_state": "lonely, wanting to talk",
+    "label": "C05_sporadic_d38"
+  },
+  "profile": {
+    "id": "u03_rohan",
+    "user_name": "Rohan",
+    "profession": "Bank PO aspirant",
+    "mother_tongue": "Bengali",
+    "interests": "Football, Bengali cinema, photography",
+    "engagement": "chatty",
+    "english_level": "A2",
+    "personality": "enthusiastic, makes more grammar slips, talks about football a lot"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "The sun is out just right for good photos — how did the derby match go?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Our team lose 2-1. But the crowd was amazing! I take many photos. You know, the sunset and the fans — it was like a movie scene. We go to watch a new Bengali film tomorrow?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "A 2-1 defeat but a movie-like match — that sounds exciting. I’d love to hear what stood out in the photos you took. What film are you watching tomorrow?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The film is called \"Amar Bondhu Rashed\" — it's about friendship and some big emotions. I haven't seen it yet, but all my friends say it's super good. Do you like watching emotional movies? I think the photos I took will be good, but I have not seen them yet — my phone is full! I need to delete some."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Amar Bondhu Rashed sounds meaningful — I hope it lives up to the hype. Photos from the match can wait a day or two — what part of the game did you capture best? The sunset? The crowd? Or something else."
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I take photos of the crowd, mostly — people singing, some crying after the loss. Oh, and one of the sunset behind the goal — it looks like a painting. I also take a photo of my friend, he was so happy, \"chutiyaa\" [Bengali word for silly/foolish] smile on his face! Which one is best — I don’t know yet. Maybe the crowd? Because it was so... alive."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "The crowd photos sound full of emotion — especially with the sunset painting the background. And your friend’s “chutiyaa” smile — that’s the kind of candid moment that stays with you. What’s one thing you hope to learn from the film tomorrow?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "I hope the film teach me how to show real feelings on screen — like the way the crowd feel at the match. Also, maybe some good lines for my Bengali! I speak too much English now, my mother complain. But I like English — it help with banking exams and football chats with you! Will you watch the film if I tell you it's good?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "The crowd’s energy and the film’s emotions both sound powerful — learning to capture that in words is a great goal. And your mother’s “complain” is a small fix: we say “complains” without the “e” at the end. What part of the film do you hope will move you most — the acting, the music, or the story?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I think the story will move me the most — maybe the friendship part? I also like music in Bengali films, it always make me feel something. Oh, and maybe the way they show village life — it look real peaceful. But I don’t know yet, I’m very curious! By the way, did you see any good films this week?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "I get that — stories and music in films can stir real feelings, especially when they show simple, peaceful life. As for me, I don’t watch films these days, but I love hearing about the ones you do. What part of the village life in the film do you hope to see most? The fields? The people? Or the traditions?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "I hope they show the village fields — green and quiet, like in old songs. And maybe some simple food scenes, like cooking in a clay stove. Oh, and the way people talk to each other — it always feel real in Bengali films. I think I should go now, my phone is still full and I need to delete some photos. Talk to you later, maybe?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "I get that — village fields and simple food scenes sound like a quiet, grounded kind of beauty. And yes, real talk in Bengali films is what makes them feel close to home. Delete those photos, and I’ll be here when you’re ready. What story will you share next time — the film? The match? Or something new?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "sport": "football (plays matches with team)",
+      "music": "loves old Bengali songs; favorite songs are Chand (song) and Bijoy (song) by Arjit Singh (person)",
+      "hobby": "photography - learning low-light and sunset photography settings",
+      "currently_studying": "banking",
+      "equipment": "Canon 450D"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "won football match (sport)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "took sunset photographs (event)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      },
+      {
+        "id": "ev_003",
+        "what": "football derby match (event)",
+        "date": "2026-05-11",
+        "added": "2026-05-10",
+        "followed_up": false
+      },
+      {
+        "id": "ev_004",
+        "what": "bank exam - quantitative aptitude, data interpretation, number series (exam)",
+        "date": "2026-05-11",
+        "added": "2026-05-10",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "khele khelai - expresses joy through a cultural phrase after winning a match",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "photography success is like magic - delighted when low-light shots come out well",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "nervous but excited about trying manual camera mode for the first time - sees it as a growth step",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "friend points out they get too focused on photography during matches and miss the fun",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "local football team feels like family to them",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "shy about moving around during matches to find better shooting angles",
+        "tone": "neutral",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_27_C02_sporadic_d9",
+        "date": "2026-05-10",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Photography in sports matches",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "Football team preferences",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "Camera settings and manual mode",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "Photography composition techniques",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"football derby match (event)\" — tomorrow",
+        "source_id": "ev_003",
+        "priority": 9,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"bank exam - quantitative aptitude, data interpretation, number series (exam)\" — tomorrow",
+        "source_id": "ev_004",
+        "priority": 9,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"friend points out they get too focused on photography during matches and miss the fun\" (tone: frustrated)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"nervous but excited about trying manual camera mode for the first time - sees it as a grow\" (tone: hopeful)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"local football team feels like family to them\" (tone: content)",
+        "source_id": "mo_005",
+        "priority": 4,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "occasionally drops auxiliary verbs in conditional/future contexts",
+          "examples": [
+            "Maybe I sit near the goal to take better close-ups"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "naturally uses past tense correctly and consistently",
+          "examples": [
+            "Had a nice match, took photos, I'd love to see them"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "constructs complex sentences with subordinate clauses naturally",
+          "examples": [
+            "Sometimes the photos come out blurry, but when they don't… wow!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "occasionally drops auxiliary verbs in conditional/future contexts",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "Maybe I sit near the goal to take better close-ups"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "share photos from the derby match after the game",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_003",
+        "kind": "event_pending",
+        "content": "try manual camera mode and composition tips for the first time during the derby match",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "see Rohan's team celebration photos",
+        "source_session": "eval_26_C01_sporadic_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "sport": "football (plays matches with team)",
+      "music": "loves old Bengali songs; favorite songs are Chand (song) and Bijoy (song) by Arjit Singh (person)",
+      "hobby": "photography - learning low-light and sunset photography settings",
+      "currently_studying": "banking",
+      "equipment": "Canon 450D"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "won football match (sport)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "took sunset photographs (event)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      },
+      {
+        "id": "ev_003",
+        "what": "football derby match (event)",
+        "date": "2026-05-11",
+        "added": "2026-05-10",
+        "followed_up": false
+      },
+      {
+        "id": "ev_004",
+        "what": "bank exam - quantitative aptitude, data interpretation, number series (exam)",
+        "date": "2026-05-11",
+        "added": "2026-05-10",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "khele khelai - expresses joy through a cultural phrase after winning a match",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "photography success is like magic - delighted when low-light shots come out well",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "nervous but excited about trying manual camera mode for the first time - sees it as a growth step",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "friend points out they get too focused on photography during matches and miss the fun",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "local football team feels like family to them",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "shy about moving around during matches to find better shooting angles",
+        "tone": "neutral",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_27_C02_sporadic_d9",
+        "date": "2026-05-10",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Photography in sports matches",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "Football team preferences",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "Camera settings and manual mode",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "Photography composition techniques",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"football derby match (event)\" — tomorrow",
+        "source_id": "ev_003",
+        "priority": 9,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"bank exam - quantitative aptitude, data interpretation, number series (exam)\" — tomorrow",
+        "source_id": "ev_004",
+        "priority": 9,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"friend points out they get too focused on photography during matches and miss the fun\" (tone: frustrated)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"nervous but excited about trying manual camera mode for the first time - sees it as a grow\" (tone: hopeful)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"local football team feels like family to them\" (tone: content)",
+        "source_id": "mo_005",
+        "priority": 4,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "occasionally drops auxiliary verbs in conditional/future contexts",
+          "examples": [
+            "Maybe I sit near the goal to take better close-ups"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "naturally uses past tense correctly and consistently",
+          "examples": [
+            "Had a nice match, took photos, I'd love to see them"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "constructs complex sentences with subordinate clauses naturally",
+          "examples": [
+            "Sometimes the photos come out blurry, but when they don't… wow!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "occasionally drops auxiliary verbs in conditional/future contexts",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "Maybe I sit near the goal to take better close-ups"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "share photos from the derby match after the game",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_003",
+        "kind": "event_pending",
+        "content": "try manual camera mode and composition tips for the first time during the derby match",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "see Rohan's team celebration photos",
+        "source_session": "eval_26_C01_sporadic_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": false,
+  "duration_s": 137.7
+}

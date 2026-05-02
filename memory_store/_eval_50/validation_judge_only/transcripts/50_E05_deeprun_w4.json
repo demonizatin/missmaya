@@ -1,0 +1,794 @@
+{
+  "spec": {
+    "idx": 50,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-29",
+    "turns_target": 14,
+    "emotional_state": "low energy, monosyllabic mood",
+    "label": "E05_deeprun_w4"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, your work presentation is tomorrow - how are you feeling about it?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Nervous as hell, honestly. Still not sure about the flow."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Nervous as hell\" is a real feeling — I get it. What part of the flow feels shaky right now?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The transition between slides 3 and 4. My main point gets a bit… *meh*. Not hitting it right."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "\"Slides 3 to 4 — the energy dip spot.\" The main point needs to pop a bit more. What’s the core idea you want to land there?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I want to show how the user journey shifts from confusion to clarity — but right now it’s just a list of steps. Feels flat. *chai*"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "You said \"just a list of steps\" — and that’s the spot to fix. How can you make that shift from confusion to clarity feel more like a story than a bullet list?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Maybe add some user quotes or a before/after scenario? But not sure how to weave it in smoothly. *sigh*"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Maybe start with a short \"before\" quote — something raw, then pivot to the solution. What user voice could show that shift?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Maybe the 25-year-old teacher who first got her hands on the app — she said it felt like a maze. Now, after using it for a week, she calls it \"like a light switched on\". That contrast could work, right?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Got it — that \"maze to light switch\" shift is perfect. How do you want to frame her story in the slide? Short quote? A quick scenario?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Maybe a split-screen visual — before and after. Left side: her confused face and the maze, right side: her smiling with the light on. Keep the quote short, bold the key phrases. Let’s test it."
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "\"Split-screen with emotion + key phrases — yes.\" That contrast would grab attention. Can you sketch how the text would sit with the visuals?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Text on the left: \"Week 1: *This app feels like a maze.*\" — italic, smaller font. On the right: \"Week 2: *Like a light switched on.*\" — bold, bigger. Maybe add a simple arrow pointing from maze to light. Keep it clean."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "\"Left: vulnerability, right: clarity — that visual tells the story.\" What’s next on your flow after that shift?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "After that, I need to show the data — how many users actually had that \"light switch\" moment. But I don’t want it to feel like just numbers. Maybe tie it back to her story. Like, “If this one teacher’s journey changed… imagine what it’s doing for 10k others.” Something like that. But not sure yet."
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Got it — grounding the data in her story adds meaning. “If one teacher changed…” — what’s the best way to show the jump from 1 to 10,000? A graph? A visual climb?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Maybe a simple line graph that starts flat, then spikes after the \"light switch\" point. Or a progress bar with her quote at the midpoint. Keep it simple — don’t want to lose the emotional hook. Need to present it as *proof* of the journey, not just stats. Hmm."
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "\"Graph that tells a story — right.\" A spike after the quote would show the shift. What does the next slide need to follow this?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "Next slide? Maybe a quick “so what?” moment — like, how this shift impacts retention or user engagement. But I don’t want it to feel like a jargon slide. Maybe use the same teacher’s voice again, something like, “I didn’t think I’d stick with it… but I can’t stop using it now.” Pair that with a simple stat — 70% of users stay past week 2. Keep it human, not just numbers. But not sure how to lay it out yet. *yawn*"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "\"Human + stat — that’s the sweet spot.\" Start with the teacher’s “can’t stop using it” line, then let the 70% sit beside it as proof. What’s the visual for that?"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "Maybe a side-by-side — her quote on the left, the 70% bar on the right. Make the bar colorful, maybe green to signal growth. Or a timeline that shows the quote at the start and the stat at the end. Keep it simple, don’t want to overload. But I think that’s a start."
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "\"Quote and bar — that shows the journey.\" A green bar beside her voice makes the stat feel earned. What’s your backup if the timeline doesn’t land?"
+    },
+    {
+      "turn": 13,
+      "role": "user",
+      "content": "Maybe a simple before/after infographic — like a split circle, one side gray and one side green, with the quote and stat in the middle? Or just a single image of her using the app with “70% stick around” overlaid. But I think I’ve said enough — need to actually *build* this. Thanks, Maya."
+    },
+    {
+      "turn": 13,
+      "role": "maya",
+      "content": "You're welcome — and you've got the vision. Go build it, and tell me how the presentation lands tomorrow. I'm rooting for you!"
+    },
+    {
+      "turn": 14,
+      "role": "user",
+      "content": "Will do. Actually, better get back to sketching those slides. Cramming in some visuals before the day’s over. Thanks again — feel a bit more grounded now. *namaste* and all that."
+    },
+    {
+      "turn": 14,
+      "role": "maya",
+      "content": "You're welcome — and \"namaste\" right back. Go build those slides, and send me a quick update how it went tomorrow. I'm here, ready to celebrate!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "hometown": "Chennai",
+      "comfort_songs": [
+        "Kadhalikka Neram (song)",
+        "Enna Solluthen (song)",
+        "Raina (song)",
+        "Chikku (song)",
+        "Kurukku Kurukku (song)",
+        "Thuli Thuli (song)",
+        "Roja (song)"
+      ],
+      "family_members": [
+        "mother",
+        "aunt",
+        "cousins"
+      ],
+      "work_context": "startup employee",
+      "stress_relief_activities": [
+        "walking around the block",
+        "listening to lo-fi music",
+        "reorganizing coffee",
+        "drinking ginger tea",
+        "listening to lofi with rain sounds and indie guitar",
+        "mindfulness breathing",
+        "watching rain from window"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "work presentation (event)",
+        "date": "2026-05-23",
+        "added": "2026-05-22",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Roja (song) triggers childhood memories—running in my Chennai neighborhood, my mom played it on loop while cooking. Just the first few notes make me smell cardamom and feel like I'm 7 again.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Thuli Thuli (song) by Yuvan Shankar Raja takes me back instantly—danced to it in a hotel room during a Kerala trip; now every time I hear it, I'm instantly there.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Enna Solluthen (song) brings me back to my aunt's terrace with cousins eating vadais, the breeze, the sunset—like a whole mini-vacation in a song.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "The monsoon petrichor smell ('vazhuthu') instantly calms Neha—when work stress hits, stepping outside to breathe it in brings immediate reset.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Ginger tea + lofi track with soft rain sounds and indie guitar hum + two-minute mindfulness breathing while watching rain from the window—that's Neha's tried-and-true ritual for centering herself when everything feels chaotic.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "Even when presentation slides are shifting and deadlines loom, Neha steadies herself with tiny anchors—'the rain's still falling, the coffee's still hot.' Small truths that ground her.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_49_E04_deeprun_w3",
+        "date": "2026-05-22",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "music preferences",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 2
+        },
+        {
+          "topic": "stress-relief tactics",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "root cause analysis (unclear presentation goals)",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "backup planning",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "rehearsal preparation",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "timing and pacing per slide",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "calming techniques",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"work presentation (event)\" — tomorrow",
+        "source_id": "ev_001",
+        "priority": 9,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The monsoon petrichor smell ('vazhuthu') instantly calms Neha—when work stress hits, stepp\" (tone: grateful)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Ginger tea + lofi track with soft rain sounds and indie guitar hum + two-minute mindfulnes\" (tone: content)",
+        "source_id": "mo_005",
+        "priority": 4,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Even when presentation slides are shifting and deadlines loom, Neha steadies herself with \" (tone: hopeful)",
+        "source_id": "mo_006",
+        "priority": 4,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Roja (song) triggers childhood memories—running in my Chennai neighborhood, my mom played \" (tone: grateful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "event_pending",
+        "content": "work presentation on 2026-05-23 — follow up on how it went",
+        "source_session": "eval_49_E04_deeprun_w3",
+        "source_date": "2026-05-22",
+        "status": "active",
+        "expires_at": "2026-06-21"
+      },
+      {
+        "id": "ol_003",
+        "kind": "maya_promise",
+        "content": "ask Neha about her favorite lofi track with rain sounds and indie guitar (question cut off)",
+        "source_session": "eval_49_E04_deeprun_w3",
+        "source_date": "2026-05-22",
+        "status": "active",
+        "expires_at": "2026-06-21"
+      },
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "Maya asked to hear how the train ride went",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "hometown": "Chennai",
+      "comfort_songs": [
+        "Kadhalikka Neram (song)",
+        "Enna Solluthen (song)",
+        "Raina (song)",
+        "Chikku (song)",
+        "Kurukku Kurukku (song)",
+        "Thuli Thuli (song)",
+        "Roja (song)"
+      ],
+      "family_members": [
+        "mother",
+        "aunt",
+        "cousins"
+      ],
+      "work_context": "startup employee",
+      "stress_relief_activities": [
+        "walking around the block",
+        "listening to lo-fi music",
+        "reorganizing coffee",
+        "drinking ginger tea",
+        "listening to lofi with rain sounds and indie guitar",
+        "mindfulness breathing",
+        "watching rain from window"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "work presentation (event)",
+        "date": "2026-05-23",
+        "added": "2026-05-22",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "work presentation (event)",
+        "date": "2026-05-30",
+        "added": "2026-05-29",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Roja (song) triggers childhood memories—running in my Chennai neighborhood, my mom played it on loop while cooking. Just the first few notes make me smell cardamom and feel like I'm 7 again.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Thuli Thuli (song) by Yuvan Shankar Raja takes me back instantly—danced to it in a hotel room during a Kerala trip; now every time I hear it, I'm instantly there.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Enna Solluthen (song) brings me back to my aunt's terrace with cousins eating vadais, the breeze, the sunset—like a whole mini-vacation in a song.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "The monsoon petrichor smell ('vazhuthu') instantly calms Neha—when work stress hits, stepping outside to breathe it in brings immediate reset.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Ginger tea + lofi track with soft rain sounds and indie guitar hum + two-minute mindfulness breathing while watching rain from the window—that's Neha's tried-and-true ritual for centering herself when everything feels chaotic.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "Even when presentation slides are shifting and deadlines loom, Neha steadies herself with tiny anchors—'the rain's still falling, the coffee's still hot.' Small truths that ground her.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_49_E04_deeprun_w3",
+        "date": "2026-05-22",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_50_E05_deeprun_w4",
+        "date": "2026-05-29",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "music preferences",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 2
+        },
+        {
+          "topic": "stress-relief tactics",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "root cause analysis (unclear presentation goals)",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "backup planning",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "rehearsal preparation",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "timing and pacing per slide",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "calming techniques",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_50_E05_deeprun_w4",
+          "last_date": "2026-05-29"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"work presentation (event)\" — tomorrow",
+        "source_id": "ev_002",
+        "priority": 9,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The monsoon petrichor smell ('vazhuthu') instantly calms Neha—when work stress hits, stepp\" (tone: grateful)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Ginger tea + lofi track with soft rain sounds and indie guitar hum + two-minute mindfulnes\" (tone: content)",
+        "source_id": "mo_005",
+        "priority": 4,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Even when presentation slides are shifting and deadlines loom, Neha steadies herself with \" (tone: hopeful)",
+        "source_id": "mo_006",
+        "priority": 4,
+        "computed_at": "2026-05-29",
+        "expires_at": "2026-06-12",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_004",
+        "kind": "event_pending",
+        "content": "presentation on 2026-05-30; user to report back on outcome",
+        "source_session": "eval_50_E05_deeprun_w4",
+        "source_date": "2026-05-29",
+        "status": "active",
+        "expires_at": "2026-06-28"
+      },
+      {
+        "id": "ol_002",
+        "kind": "event_pending",
+        "content": "work presentation on 2026-05-23 — follow up on how it went",
+        "source_session": "eval_49_E04_deeprun_w3",
+        "source_date": "2026-05-22",
+        "status": "active",
+        "expires_at": "2026-06-21"
+      },
+      {
+        "id": "ol_003",
+        "kind": "maya_promise",
+        "content": "ask Neha about her favorite lofi track with rain sounds and indie guitar (question cut off)",
+        "source_session": "eval_49_E04_deeprun_w3",
+        "source_date": "2026-05-22",
+        "status": "active",
+        "expires_at": "2026-06-21"
+      },
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "Maya asked to hear how the train ride went",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 110.2
+}

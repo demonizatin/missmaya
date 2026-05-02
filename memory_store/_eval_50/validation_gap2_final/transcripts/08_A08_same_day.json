@@ -1,0 +1,895 @@
+{
+  "spec": {
+    "idx": 8,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 8,
+    "emotional_state": "chatty, in a good mood",
+    "label": "A08_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, I noticed how well you formed your questions using 'do' last time. That was a big win! What's on your mind today?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Thanks, Maya! I'm feeling more confident now. Today, I want to talk about how to describe my new startup idea in English. Also, maybe we can practice talking about future plans?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds exciting. Startup ideas are fun to discuss. What problem does your idea solve?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "My startup is about helping small businesses go digital. Many local shops still use paper records, which is slow. We’ll give them a simple app for inventory and sales. It’s like *chaat*—quick and easy for them. How would you say that in natural English?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "That’s a great idea — quick and easy for local shops. The phrasing you used is clear! If you want to sound even smoother, you could say, “We’re building a simple app to help small businesses go digital, just like *chaat* — quick and easy.” Does that sound good to you?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Yeah, that sounds good! I like the word \"smooth.\" Can I use \"just like chaat\" in a presentation? Also, how do I talk about future plans like \"we will launch\" or \"we plan to\"?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "You can definitely say \"just like chaat\" — it adds a nice, relatable touch. For future plans, \"we will launch\" is straightforward. If you want to sound a bit more natural, you could say, \"We plan to launch next month\" or \"We’re aiming to launch by the end of the year.\" Which one do you prefer?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "I think \"We plan to launch next month\" sounds better for a presentation — it feels confident but not too rigid. What if I want to mention future growth? Like, \"we want to expand to other cities\"? Is there a smoother way to say that?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Got it — \"We plan to launch next month\" sounds confident and natural. For future growth, you could say, \"We aim to expand to other cities\" or \"We’re looking to grow to other cities.\" Both sound professional. What’s your timeline for expansion?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Honestly, the timeline is still early — maybe six months after the launch. I want to make sure the app is stable first. But I can say, \"We aim to expand after the initial launch once the app is stable.\" Does that flow well?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Yes, that flows well. It shows thoughtfulness. You could also say, \"We plan to expand after the app is stable and running smoothly.\" Both versions work. How do you want to describe the app’s stability?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Stable and running smoothly\" sounds good — maybe add something about customer feedback? Like, \"once we get feedback and improve\"? Or is that too much?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Yes, that works — it shows you care about improvement. You could say, \"We plan to expand after the app is stable, running smoothly, and we’ve incorporated customer feedback.\" It’s clear and adds a professional touch. What’s your next step before the launch?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Our next step is to finish the beta testing — we’re working with five local shops to test the app. I can say, \"We’re currently in beta testing with five local businesses to ensure everything works well.\" Does that sound okay?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "That sounds good — clear and natural. You could also say, \"We’re in the final stages of beta testing with five local businesses to make sure everything runs smoothly.\" Both versions sound strong. What’s your goal for the beta testing?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "coding",
+        "Bollywood films",
+        "cricket"
+      ],
+      "relaxation_method": "watches Bollywood/action movies to unwind",
+      "favorite_cricket_team": "Mumbai Indians",
+      "favorite_cricket_players": [
+        "Sachin Tendulkar",
+        "Virat Kohli",
+        "Surya Kumar Yadav"
+      ],
+      "favorite_bollywood_movies": [
+        "Dil Bechara",
+        "3 Idiots"
+      ],
+      "reading_habit": "occasionally reads Hindi novels; prefers watching Bollywood movies",
+      "favorite_mi_victory": "2019 MI vs CSK final",
+      "favorite_bollywood_songs_and_scenes": [
+        "Jai Ho (Slumdog Millionaire)",
+        "Chaiyya Chaiyya (Dilwale Dulhania Le Jayenge)",
+        "Aankhen Khuli (Tum Mile)",
+        "Laila O Laila (Student of the Year)",
+        "Ghungroo (Sultan)",
+        "Pyar Hua Ikrar Hua (Qayamat Se Qayamat Tak)",
+        "Ghoomar (Padmaavat)",
+        "Channa Mereya (Ek Villain)",
+        "Ek Ladki Ko Dekha (Bobby)"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "watching cricket final (MI vs CSK) with snacks at 7:00 PM",
+        "date": "2026-05-04",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Old songs have a special quality—they make me feel nostalgic and hit my heart in a way modern songs don't. The way they sing feels like love itself.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_6_A06_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_7_A07_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "mango season",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket and the final",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "sleep schedule",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation methods",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "reading habits",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "language practice",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket final snacks",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "player preferences",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "watch party logistics",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "streaming and viewing",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "celebration plans",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_7_A07_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: consistently used correct auxiliary verb 'do' in all questions throughout session (e.g. \"Do you follow any players?\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Old songs have a special quality—they make me feel nostalgic and hit my heart in a way mod\" (tone: grateful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "omits auxiliary verb 'do' in questions",
+          "examples": [
+            "What you think?"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "fixed"
+        }
+      ],
+      "wins": [
+        {
+          "what": "consistently used correct auxiliary verb 'do' in all questions throughout session",
+          "examples": [
+            "Do you follow any players?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "watch cricket final (MI vs CSK) on 2026-05-04 at 7:00 PM with snacks",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "report back on whether reading or music before bed helped with sleep",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "try using 'read' in a sentence and report back to Maya",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "tell Maya how watching 'Bobby' was",
+        "source_session": "eval_7_A07_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "coding",
+        "Bollywood films",
+        "cricket"
+      ],
+      "relaxation_method": "watches Bollywood/action movies to unwind",
+      "favorite_cricket_team": "Mumbai Indians",
+      "favorite_cricket_players": [
+        "Sachin Tendulkar",
+        "Virat Kohli",
+        "Surya Kumar Yadav"
+      ],
+      "favorite_bollywood_movies": [
+        "Dil Bechara",
+        "3 Idiots"
+      ],
+      "reading_habit": "occasionally reads Hindi novels; prefers watching Bollywood movies",
+      "favorite_mi_victory": "2019 MI vs CSK final",
+      "favorite_bollywood_songs_and_scenes": [
+        "Jai Ho (Slumdog Millionaire)",
+        "Chaiyya Chaiyya (Dilwale Dulhania Le Jayenge)",
+        "Aankhen Khuli (Tum Mile)",
+        "Laila O Laila (Student of the Year)",
+        "Ghungroo (Sultan)",
+        "Pyar Hua Ikrar Hua (Qayamat Se Qayamat Tak)",
+        "Ghoomar (Padmaavat)",
+        "Channa Mereya (Ek Villain)",
+        "Ek Ladki Ko Dekha (Bobby)"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "watching cricket final (MI vs CSK) with snacks at 7:00 PM",
+        "date": "2026-05-04",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Old songs have a special quality—they make me feel nostalgic and hit my heart in a way modern songs don't. The way they sing feels like love itself.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_6_A06_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_7_A07_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_8_A08_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.49,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "mango season",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket and the final",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "sleep schedule",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation methods",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "reading habits",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "language practice",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket final snacks",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "player preferences",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "watch party logistics",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "streaming and viewing",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "celebration plans",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_7_A07_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_8_A08_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: consistently used correct auxiliary verb 'do' in all questions throughout session (e.g. \"Do you follow any players?\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Old songs have a special quality—they make me feel nostalgic and hit my heart in a way mod\" (tone: grateful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "omits auxiliary verb 'do' in questions",
+          "examples": [
+            "What you think?"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "fixed"
+        }
+      ],
+      "wins": [
+        {
+          "what": "consistently used correct auxiliary verb 'do' in all questions throughout session",
+          "examples": [
+            "Do you follow any players?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "watch cricket final (MI vs CSK) on 2026-05-04 at 7:00 PM with snacks",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "report back on whether reading or music before bed helped with sleep",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "try using 'read' in a sentence and report back to Maya",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "tell Maya how watching 'Bobby' was",
+        "source_session": "eval_7_A07_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 85.1
+}

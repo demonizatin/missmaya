@@ -1,0 +1,435 @@
+{
+  "spec": {
+    "idx": 27,
+    "profile_id": "u03_rohan",
+    "eval_user_key": "u03_rohan",
+    "today": "2026-05-10",
+    "turns_target": 12,
+    "emotional_state": "neutral, ordinary day",
+    "label": "C02_sporadic_d9"
+  },
+  "profile": {
+    "id": "u03_rohan",
+    "user_name": "Rohan",
+    "profession": "Bank PO aspirant",
+    "mother_tongue": "Bengali",
+    "interests": "Football, Bengali cinema, photography",
+    "engagement": "chatty",
+    "english_level": "A2",
+    "personality": "enthusiastic, makes more grammar slips, talks about football a lot"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Rohan, I heard about Barcelona's big win! Did you watch the match?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Yeah, I watched it! Liverpool played good but Barcelona was better. Gavi scored a great goal. I was cheering for Barcelona. By the way, did you watch the match?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Hi Rohan, I heard about Barcelona's big win! Did you watch the match?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Yes, I also watched it on TV with my friends. The second half was really exciting. Salah tried his best, but Barcelona's defense was strong. I must say, they played like a real \"big team.\" I am very happy with their win. By the way, who did you support?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Hey Rohan, that's a great summary! I like how you said 'played like a real big team.' I support Barcelona too. Who is your favorite player in the team?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "My favorite is Gavi. He is so young but plays like a pro. His energy is amazing. Do you like him too? I also like Ansu Fati, but he doesn't play much these days."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Hey Rohan, Gavi is a fantastic choice—he brings so much energy to the game. I like him too! Ansu Fati is a great player as well. Why do you think he doesn’t play much these days?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "I think he had some injuries, maybe? Or maybe the coach prefers other players. It's a bit sad because he has so much talent. I hope he gets more chances soon. Speaking of, have you seen the new movie by Kabir Khan? I heard it's good."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Hey Rohan, that's a thoughtful take—yes, injuries can really affect a player's time on the field. I haven’t seen the new Kabir Khan movie yet. Which one is it?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "It's called \"XXX: The Final Mission.\" I heard the action is top-notch! I'm a big fan of Kabir Khan's films, especially \"Ek Tha Tiger.\" Let me know if you decide to watch it. Oh, by the way, do you like English movies more or Bollywood?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Hey Rohan, I like \"Ek Tha Tiger\" too—it’s a classic! I enjoy both English and Bollywood movies. I think Bollywood has more music, which I love. What about you?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "I prefer Bollywood movies, especially the older ones. The songs, the stories, everything feels more colorful. I also like watching new Bengali movies sometimes. But yeah, I watch English movies too, especially if they're action or thriller. Have you seen the new \"Mission: Impossible\" movie? It's crazy!"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Hey Rohan, that’s a great way to describe Bollywood—very colorful! I haven’t seen the new *Mission: Impossible* yet. Was it as action-packed as the others?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Yeah, it was even crazier than the last one! There’s this one scene where he jumps from one plane to another—unbelievable! I watched it with my cousin, and we were shouting the whole time. Oh, and the music is so good. But I think the older Mission movies are still better. What about you? Do you like action movies a lot?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Hey Rohan, that sounds like a fun watch with your cousin! I like action movies, but I also enjoy the excitement they bring. Do you often watch movies with family or friends?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Mostly with friends, sometimes with family. We usually go to the theater or watch online. My friends and I love discussing the plot after the movie. Oh, and we sometimes argue who guessed the twist! Do you watch a lot of movies?"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Hey Rohan, that sounds like a great way to enjoy movies—discussing and guessing twists makes it more fun! I watch a few movies each week. Do you have a favorite genre to watch together?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "I like action and thriller the most, but I also enjoy comedy sometimes. Bengali movies are usually more drama-based, so they are different from Bollywood. My friends and I sometimes watch a mix. Oh, by the way, I have to go now. I need to prepare for a bank exam. Talk to you later!"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Hey Rohan, that's a good mix—action, thriller, and comedy! I hope your exam prep goes well. Tell me how the movie discussions go next time. Take care!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "football",
+        "movies",
+        "Bengali cinema"
+      ],
+      "favorite_actor": "Dev",
+      "has_job": true,
+      "plays_sports": true
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "watched Barcelona beat Real Madrid (football match)",
+        "date": "2026-04-30",
+        "added": "2026-05-01",
+        "followed_up": false
+      },
+      {
+        "id": "ev_002",
+        "what": "watched Dev's 'Churachand'",
+        "date": "2026-04-26",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "movies",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_followup",
+        "content": "Ask about \"watched Barcelona beat Real Madrid (football match)\" — was 1 day ago",
+        "source_id": "ev_001",
+        "priority": 9,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "likes soft music while working",
+        "enjoys the cool post-lunch break feeling",
+        "appreciates good stories"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "football",
+        "movies",
+        "Bengali cinema"
+      ],
+      "favorite_actor": "Dev",
+      "has_job": true,
+      "plays_sports": true
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "watched Barcelona beat Real Madrid (football match)",
+        "date": "2026-04-30",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "preparing for bank exam",
+        "date": "2026-05-10",
+        "added": "2026-05-10",
+        "followed_up": false
+      }
+    ],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_27_C02_sporadic_d9",
+        "date": "2026-05-10",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Barcelona match",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "movie preferences",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "watching movies with friends",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "movies",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"preparing for bank exam\" — today",
+        "source_id": "ev_003",
+        "priority": 10,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "uses adjective 'good' instead of adverb 'well'",
+          "examples": [
+            "Liverpool played good"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        }
+      ],
+      "wins": [],
+      "curriculum": [
+        {
+          "pattern": "uses adjective 'good' instead of adverb 'well'",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "Liverpool played good"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "likes soft music while working",
+        "enjoys the cool post-lunch break feeling",
+        "appreciates good stories",
+        "likes action movies"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell me how the exam prep went",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "share how your movie discussions with friends went",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 126.1
+}

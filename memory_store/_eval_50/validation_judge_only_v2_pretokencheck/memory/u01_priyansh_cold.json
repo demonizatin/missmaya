@@ -1,0 +1,149 @@
+{
+  "facts": {
+    "interests": [
+      "Bollywood movies (movie)",
+      "startup-themed movies (movie)",
+      "coding (project)"
+    ]
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Watching 'Kisi Ka Bhai Kisi Ki Jaan' (movie) for relaxation",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-24",
+      "last_seen": "2026-05-24",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "Thinking about personal goals and progress in work and English",
+      "tone": "hopeful",
+      "sensitive": false,
+      "first_seen": "2026-05-24",
+      "last_seen": "2026-05-24",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "Bollywood movies (movie)",
+        "last_session": "eval_36_D01_coldstart_u01_pr",
+        "last_date": "2026-05-24",
+        "uses": 1
+      },
+      {
+        "topic": "startup-themed movies (movie)",
+        "last_session": "eval_36_D01_coldstart_u01_pr",
+        "last_date": "2026-05-24",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_36_D01_coldstart_u01_pr",
+        "last_date": "2026-05-24"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [
+    {
+      "id": "lo_001",
+      "what": "reference to 'Start-Up' movie (movie)",
+      "context": "User shared a personal connection to the film; Maya acknowledged and asked follow-up questions.",
+      "first_seen": "2026-05-24",
+      "last_used": "2026-05-24",
+      "uses": 0
+    }
+  ],
+  "anticipation_queue": [
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: Used emotional language to reflect on stories (e.g. \"It made me think about my own goals and how far I’ve come.\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-05-24",
+      "expires_at": "2026-06-07",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Watching 'Kisi Ka Bhai Kisi Ki Jaan' (movie) for relaxation\" (tone: content)",
+      "source_id": "mo_001",
+      "priority": 4,
+      "computed_at": "2026-05-24",
+      "expires_at": "2026-06-07",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Thinking about personal goals and progress in work and English\" (tone: hopeful)",
+      "source_id": "mo_002",
+      "priority": 4,
+      "computed_at": "2026-05-24",
+      "expires_at": "2026-06-07",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [
+      {
+        "what": "Used emotional language to reflect on stories",
+        "examples": [
+          "It made me think about my own goals and how far I’ve come."
+        ],
+        "count": 1,
+        "first_seen": "2026-05-24",
+        "last_seen": "2026-05-24"
+      }
+    ],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "Tell Maya how the work meeting went",
+      "source_session": "eval_36_D01_coldstart_u01_pr",
+      "source_date": "2026-05-24",
+      "status": "active",
+      "expires_at": "2026-06-23"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

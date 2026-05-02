@@ -1,0 +1,657 @@
+{
+  "facts": {
+    "interests": [
+      "Bollywood (movie)",
+      "Hindi songs (song)",
+      "Ye Dil Maange More (song)",
+      "Lag Ja Gale (song)",
+      "Pyar Hua Ikrar (song)",
+      "Dilwale Dulhania Le Jayenge (movie)",
+      "Jawan (movie)",
+      "Rabba (song)",
+      "Dunki (movie)",
+      "M.S. Dhoni: The Untold Story (movie)",
+      "cricket (sport)",
+      "cricket podcast (podcast)",
+      "Virat Kohli (person)",
+      "MS Dhoni (person)",
+      "Steve Jobs (person)",
+      "comedy (movie)",
+      "cricket scenes (movie)",
+      "Left Right Left (song)",
+      "Mere Dost (song)",
+      "India vs Pakistan (sport)",
+      "dramey action movies (movie)",
+      "The Lean Startup (book)",
+      "Laxmii (movie)",
+      "Raksha Bandhan (movie)",
+      "pav bhaji (dish)",
+      "chaat (dish)",
+      "popcorn (dish)"
+    ]
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Watching Pathaan (movie) was a fun experience for Priyansh, and he especially enjoyed the action scenes and Besharam Rang (song).",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "Priyansh enjoys old Hindi songs like 'Ye Dil Maange More (song)', 'Lag Ja Gale (song)', and 'Pyar Hua Ikrar (song)', and also finds songs in movies like 'Rabba (song)' from Jawan (movie) appealing due to their old-school vibe.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_003",
+      "text": "Priyansh balances work by taking evening walks and watching cricket matches, and sometimes enjoys a 'Dilwale Dulhania Le Jayenge (movie)' rerun with some chai.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_004",
+      "text": "Priyansh is feeling exhausted from work and is considering watching the movie Dunki (movie) this weekend as a form of escape.",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_005",
+      "text": "Priyansh expressed a deep fatigue from work and a longing for rest and weekend relaxation, feeling drained and overwhelmed with the current workload.",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_006",
+      "text": "Priyansh finds M.S. Dhoni: The Untold Story (movie) emotionally compelling, especially the final match scene, and considers it a standout cricket-based film.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_007",
+      "text": "Priyansh balances work discussions with casual Bollywood movie watching and small pleasures like singing along to songs as a way to unwind.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_008",
+      "text": "Priyansh enjoys listening to a cricket podcast while walking, finding it a helpful way to unwind after work.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_009",
+      "text": "Priyansh admires both Virat Kohli's journey and MS Dhoni's calm under pressure, finding inspiration in their leadership styles.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_010",
+      "text": "Priyansh feels inspired by Steve Jobs' vision and perseverance in tech, alongside Dhoni's composure in sports, and wants to apply similar calmness to handling work project deadlines.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_011",
+      "text": "Priyansh shared his preferred café for brainstorming, describing it as quiet with good Wi-Fi and just-right chai, and expressed how it helps him focus and plan tasks.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_012",
+      "text": "The latest Bollywood movie Priyansh watched had a simple, fun story with comedy, catchy songs, and some cricket scenes that made it a good weekend escape.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_013",
+      "text": "Priyansh enjoys the emotional parts of Bollywood movies, particularly those that reflect the real-life struggles in India and are paired with powerful music like in Pathaan (movie)",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_014",
+      "text": "Priyansh misses simple, distraction-free moments like lunch breaks without phone checks and watching the street from outside the office",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_015",
+      "text": "Priyansh plans to take a small, focused break during lunch by setting his phone aside for 10 minutes, starting with Monday, to regain a sense of calm and freedom from routine stress",
+      "tone": "hopeful",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_016",
+      "text": "Priyansh enjoyed a phone-free lunch by walking in the park and watching a Bollywood drama with good music, which provided him a sense of calm and relaxation.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_017",
+      "text": "Priyansh found an India vs Pakistan cricket match intensely exciting, with Pakistan chasing a big score in the final overs and him shouting at his screen in excitement.",
+      "tone": "excited",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_018",
+      "text": "Priyansh enjoyed reading a chapter from 'The Lean Startup (book)' during a phone-free lunch break and found the part about testing ideas quickly interesting, even if some terms were still a bit abstract for him.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_019",
+      "text": "Priyansh plans to watch Laxmii (movie) and Raksha Bandhan (movie) for a spooky and emotional movie night at home, enjoying snacks like pav bhaji (dish), chaat (dish), and popcorn (dish), with the intention of sharing the experience with Maya and possibly a friend.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_3_A03_same_day",
+      "date": "2026-05-01",
+      "label": "low",
+      "energy": 3,
+      "confidence": 0.56,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "soft_conflict",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_5_A05_same_day",
+      "date": "2026-05-01",
+      "label": "content",
+      "energy": 7,
+      "confidence": 0.8,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_8_A08_same_day",
+      "date": "2026-05-01",
+      "label": "content",
+      "energy": 7,
+      "confidence": 0.8,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "Bollywood movies",
+        "last_session": "eval_4_A04_same_day",
+        "last_date": "2026-05-01",
+        "uses": 2
+      },
+      {
+        "topic": "songs matching movie scenes",
+        "last_session": "eval_1_A01_same_day",
+        "last_date": "2026-05-01",
+        "uses": 1
+      },
+      {
+        "topic": "weekend movie plans",
+        "last_session": "eval_10_A10_same_day",
+        "last_date": "2026-05-01",
+        "uses": 2
+      },
+      {
+        "topic": "India vs Pakistan match",
+        "last_session": "eval_3_A03_same_day",
+        "last_date": "2026-05-01",
+        "uses": 1
+      },
+      {
+        "topic": "work fatigue",
+        "last_session": "eval_3_A03_same_day",
+        "last_date": "2026-05-01",
+        "uses": 1
+      },
+      {
+        "topic": "fintech apps",
+        "last_session": "eval_4_A04_same_day",
+        "last_date": "2026-05-01",
+        "uses": 1
+      },
+      {
+        "topic": "international payments",
+        "last_session": "eval_4_A04_same_day",
+        "last_date": "2026-05-01",
+        "uses": 1
+      },
+      {
+        "topic": "cricket movies",
+        "last_session": "eval_4_A04_same_day",
+        "last_date": "2026-05-01",
+        "uses": 1
+      },
+      {
+        "topic": "leadership in sports",
+        "last_session": "eval_5_A05_same_day",
+        "last_date": "2026-05-01",
+        "uses": 1
+      },
+      {
+        "topic": "work project deadlines",
+        "last_session": "eval_5_A05_same_day",
+        "last_date": "2026-05-01",
+        "uses": 1
+      },
+      {
+        "topic": "work deadline",
+        "last_session": "eval_6_A06_same_day",
+        "last_date": "2026-05-01",
+        "uses": 1
+      },
+      {
+        "topic": "latest Bollywood movie",
+        "last_session": "eval_6_A06_same_day",
+        "last_date": "2026-05-01",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_1_A01_same_day",
+        "last_date": "2026-05-01"
+      },
+      {
+        "kind": "general",
+        "last_session": "eval_3_A03_same_day",
+        "last_date": "2026-05-01"
+      },
+      {
+        "kind": "general",
+        "last_session": "eval_4_A04_same_day",
+        "last_date": "2026-05-01"
+      },
+      {
+        "kind": "general",
+        "last_session": "eval_5_A05_same_day",
+        "last_date": "2026-05-01"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "eval_6_A06_same_day",
+        "last_date": "2026-05-01"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "eval_7_A07_same_day",
+        "last_date": "2026-05-01"
+      },
+      {
+        "kind": "general",
+        "last_session": "eval_8_A08_same_day",
+        "last_date": "2026-05-01"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "eval_9_A09_same_day",
+        "last_date": "2026-05-01"
+      },
+      {
+        "kind": "general",
+        "last_session": "eval_10_A10_same_day",
+        "last_date": "2026-05-01"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Priyansh is feeling exhausted from work and is considering watching the movie Dunki (movie\" (tone: frustrated)",
+      "source_id": "mo_004",
+      "priority": 7,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Priyansh expressed a deep fatigue from work and a longing for rest and weekend relaxation,\" (tone: frustrated)",
+      "source_id": "mo_005",
+      "priority": 7,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    },
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: Used the term 'dramey' (a blend of drama and comedy) to describe a movie genre, showing creative vocabulary use. (e.g. \"dramey action movie\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    },
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: Described a book's content and personal impression using coherent, well-structured English (e.g. \"It’s a startup nonfiction book, 'The Lean Startup' by Eric Ries. I’ve heard a lot about it, so wanted to give it a try. Not sure I get all the terms yet, but it’s interesting.\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    },
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: Used future intent clearly and correctly ('I will try another chapter') (e.g. \"I think I’ll try another chapter tomorrow.\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-05-01",
+      "expires_at": "2026-05-15",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [
+      {
+        "what": "Described a movie and its elements (action scenes, songs, mood) effectively in English",
+        "examples": [
+          "The action scenes were very thrilling, like when the main character fights with the bad guys. Also, the movie had some good Hindi songs..."
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      },
+      {
+        "what": "Described the style and appeal of a movie song, noting its blend of old and new styles.",
+        "examples": [
+          "'Rabba' mixing old and new is a smart move, songs like that really stand out."
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      },
+      {
+        "what": "Used past perfect tense to communicate a recent experience with clarity and precision.",
+        "examples": [
+          "I had finished by 5."
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      },
+      {
+        "what": "Correctly and confidently used the term 'UPI' in context of international payment systems.",
+        "examples": [
+          "Do you use UPI in your country?"
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      },
+      {
+        "what": "Used the past perfect tense correctly to describe a past work experience ('I had finished by 5')",
+        "examples": [
+          "I had finished by 5."
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      },
+      {
+        "what": "Used similes and metaphors effectively, drawing parallels between cricket and project management ('like a cricket team p",
+        "examples": [
+          "Like a cricket team planning for the long run."
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      },
+      {
+        "what": "Used a complex comparative structure to discuss leadership ('True — both have different styles, but both lead well')",
+        "examples": [
+          "True — both have different styles, but both lead well."
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      },
+      {
+        "what": "Described a movie with a clear and coherent narrative, including its genre, tone, and standout elements (comedy, songs, ",
+        "examples": [
+          "It was more fun, with some good comedy and songs. The story was simple, but I enjoyed it."
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      },
+      {
+        "what": "Used 'past perfect' correctly to describe a prior experience ('I had finished by 5') and extended the idea in a natural ",
+        "examples": [
+          "I had finished by 5."
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      },
+      {
+        "what": "Correctly used a complex metaphor to describe the need for a break ('like a cricket team planning for the long run')",
+        "examples": [
+          "Like a cricket team planning for the long run."
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      },
+      {
+        "what": "Expressed nuanced emotional connections with music and film, using rich, descriptive language to explain why a song or s",
+        "examples": [
+          "The way it's sung, so calm and honest. Like, it doesn't try too hard."
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      },
+      {
+        "what": "Used the term 'dramey' (a blend of drama and comedy) to describe a movie genre, showing creative vocabulary use.",
+        "examples": [
+          "dramey action movie"
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      },
+      {
+        "what": "Described a book's content and personal impression using coherent, well-structured English",
+        "examples": [
+          "It’s a startup nonfiction book, 'The Lean Startup' by Eric Ries. I’ve heard a lot about it, so wanted to give it a try. Not sure I get all the terms yet, but it’s interesting."
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      },
+      {
+        "what": "Used future intent clearly and correctly ('I will try another chapter')",
+        "examples": [
+          "I think I’ll try another chapter tomorrow."
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      }
+    ],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": [
+      "tea preference"
+    ]
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "Tell Maya how the work meeting went",
+      "source_session": "eval_1_A01_same_day",
+      "source_date": "2026-05-01",
+      "status": "resolved",
+      "expires_at": "2026-05-31",
+      "resolved_at": "2026-05-01"
+    },
+    {
+      "id": "ol_002",
+      "kind": "user_promise",
+      "content": "Tell Maya how the work deadline goes",
+      "source_session": "eval_3_A03_same_day",
+      "source_date": "2026-05-01",
+      "status": "active",
+      "expires_at": "2026-05-31"
+    },
+    {
+      "id": "ol_003",
+      "kind": "user_promise",
+      "content": "Priyansh will try taking a 10-minute phone-free lunch break on Monday and will report back",
+      "source_session": "eval_7_A07_same_day",
+      "source_date": "2026-05-01",
+      "status": "active",
+      "expires_at": "2026-05-31"
+    },
+    {
+      "id": "ol_004",
+      "kind": "user_promise",
+      "content": "User mentioned they should get back to work and will talk later.",
+      "source_session": "eval_8_A08_same_day",
+      "source_date": "2026-05-01",
+      "status": "active",
+      "expires_at": "2026-05-31"
+    },
+    {
+      "id": "ol_005",
+      "kind": "user_promise",
+      "content": "try another chapter tomorrow",
+      "source_session": "eval_9_A09_same_day",
+      "source_date": "2026-05-01",
+      "status": "active",
+      "expires_at": "2026-05-31"
+    },
+    {
+      "id": "ol_006",
+      "kind": "user_promise",
+      "content": "tell Maya how Laxmii (movie) is",
+      "source_session": "eval_10_A10_same_day",
+      "source_date": "2026-05-01",
+      "status": "active",
+      "expires_at": "2026-05-31"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": "active",
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {
+      "correction_style": "2026-05-01"
+    }
+  }
+}

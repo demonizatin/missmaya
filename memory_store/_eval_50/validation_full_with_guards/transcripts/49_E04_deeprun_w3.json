@@ -1,0 +1,606 @@
+{
+  "spec": {
+    "idx": 49,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-22",
+    "turns_target": 14,
+    "emotional_state": "anxious, exam stress",
+    "label": "E04_deeprun_w3"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, your café daydream is such a lovely thought. How's the loneliness feeling today?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Honestly? Still there, but I’m trying to focus on work. The exam stress isn’t helping, though. I just feel like I’m not prepared enough. *பயம்* is making me lose sleep. How do you stay calm during exams?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Still there, but you're putting in the work, that's what matters. Exam stress is tough. I get that, it’s like a storm in your mind. How do you usually prepare?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "I usually study in chunks, but my brain feels like it's on loop—same questions, same panic. I tried meditating, but 10 mins of silence just makes the stress louder. Do you have any *actual* tips or just the usual \"breathe and stay calm\"? 😅"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "You're not alone in that loop, it's common before exams. Here's a small tweak: try breaking silence with soft music or a walk. Movement or rhythm helps quiet the storm. What kind of music helps you focus?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Indie lo-fi, maybe some old school chill electronic. It’s like background noise that doesn’t fight my thoughts. But I get distracted if the lyrics are too strong. What about you? Do you listen to music while working?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "You’re right, lo fi is great for that. I listen to soft folk or ambient music while working, mostly for the rhythm, not the words. It keeps the brain steady. How do you balance music and focus?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "It’s a tightrope walk, honestly. Sometimes the music helps me zone out the noise, but other times it feels like I’m just pretending to work. I guess it depends on the day. I’m more of a \"background hum\" person—anything too intense and I’m mentally dancing instead of studying. Have you tried *any* instrumental stuff? Like, not even songs, just ambient beats or nature sounds?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "I get that, some days music lifts you up, others it just lifts you off track. I’ve used ambient beats, like soft rain or wind sounds, when I need total focus. They’re like a calm base without distractions. What’s your go to when you need to get deep into something?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "If I need to get deep, I switch to instrumental jazz or just leave my room in silence. Sometimes even silence feels like a luxury. But lately, I’ve been trying this thing—open a tab with white noise and let it play while I study. Works, but I still catch myself staring at the ceiling and wondering if I’ll even pass. 😅"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "That staring at the ceiling doubt is normal, but you're working through it, that's what counts. White noise is a smart move. Do you find yourself using specific playlists, or just random tracks?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "I have a few go-to playlists, honestly—they’re like my study safety nets. One’s just mellow jazz piano, another’s ambient synth loops. But sometimes I get stuck in the \"what if this isn’t enough?\" spiral. It’s like the music is helping, but the anxiety is still party-crashing. Ugh. Do you ever feel like no amount of preparation is *enough*?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "You’re doing the work, and that’s what matters most. Music helps, but it’s just one part, preparation is a process, not a perfection. I get that spiral, but you’re already ahead. What’s one thing you’re confident about for the exam?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I’m confident about the basics—I’ve got the core concepts down. It’s the edge cases and trick questions that trip me up. Like, I know the theory, but when the exam throws something weird at me, my brain goes blank. Maybe I need to practice more past papers? But then I just end up overthinking every answer. It’s like training for a race but being terrified of the starting gun. 😅"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You’re not alone in that, many feel the same way. Past papers help, but it’s easy to overthink. Try this: do one paper without stopping, no second guessing. Just let your instincts flow. What’s the hardest part for you, time pressure or the tricky questions?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Honestly? Both. Time pressure makes me rush, and then I second-guess the easy ones. But if I take too long on the tricky ones, I panic even more. It’s like being stuck between a rock and a hard place. I think I need to simulate more real exam conditions… but the thought of it gives me a headache already. 😅"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "You're describing it so clearly, it’s a tight spot, but you’re not alone. Maybe start with small timed practice chunks, just 10, 15 minutes at first. Build up slowly. What’s one small step you could try today?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Maybe I’ll try a 10-minute mock section today—just a few questions with a timer. It’s not much, but better than nothing. I’ll play my jazz playlist on loop and pretend I’m in a café, not a battlefield. *Thoda thanda hai, but let’s give it a shot.* 😅"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "That sounds like a solid start, and the café vibe is a great mindset trick. *Thoda thanda hai*, all the better for clear thinking. What’s the first topic you’ll tackle in this 10 minute mock?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "I’ll start with data interpretation—graphs and charts are usually my safe zone, but I want to see if I can speed through them without doubting every calculation. If I can get comfortable there, maybe it’ll help with the bigger panic. Wanna check in with me tomorrow? 😅"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "Data interpretation is a good choice, it feels more grounded. I’ll be here tomorrow, ready to check in, just say the word. What time works for you?"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "How about 8 PM? I'll have my coffee ready and my jazz playlist primed. Let’s make this happen, *yaar*. 😅"
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "8 PM it is, yaar, coffee and jazz, what more could you need? I’ll bring the cheer squad. See you then!"
+    },
+    {
+      "turn": 13,
+      "role": "user",
+      "content": "Thanks, Maya! Honestly, just talking through this feels like a weight off my chest. I’ll start small, no pressure, just me and the graphs. See you at 8! *Acha, bhai.* 😊"
+    },
+    {
+      "turn": 13,
+      "role": "maya",
+      "content": "You're very welcome, Neha, and I mean that. Small steps are still steps forward. *Acha, bhai,* and I’ll be here with the coffee vibes. See you at 8!"
+    },
+    {
+      "turn": 14,
+      "role": "user",
+      "content": "Catch you at 8, no stress. Gonna prep my coffee and chill beats. Stay cool, okay? 😊"
+    },
+    {
+      "turn": 14,
+      "role": "maya",
+      "content": "Catch you at 8, Neha, prep that coffee, hit play, and stay cool. I’ll be ready with the calm. See you soon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "current_location": "Bengaluru",
+      "hometown": "Coimbatore",
+      "work": "designing a mobile app for small businesses (order + customer management); currently in sketch phase with wireframes",
+      "favorite_café_memory": "café in Coimbatore near a park with indie music and excellent coffee; felt like home",
+      "café_aspiration": "dreams of opening a café blending Tamil and indie vibes; considering names 'Koovam' (cool place) or 'Tamindie' (Tamil + indie)",
+      "music_preferences": "indie-folk (The Head and the Heart, Bon Iver) and chill Tamil melodies (Yuvan Shankar Raja)",
+      "hobbies": "sketches café concepts (layouts, logos, menus) and app wireframes",
+      "café_hangout_bengaluru": "cute café near office with excellent chai"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Feeling lonely right now; miss my friends and sometimes sitting with my thoughts gets too heavy",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "A café in Coimbatore near a park with indie music and good coffee felt like home to me",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "My café daydream helps me cope with loneliness — even if it's not real yet, it feels real in my head and that's comforting",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I want to create a space where strangers feel connected through a menu with stories; it's my way of transforming loneliness into warmth",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 5,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_48_E03_deeprun_w2",
+        "date": "2026-05-15",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.55,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "daydreaming",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Feeling lonely right now; miss my friends and sometimes sitting with my thoughts gets too \" (tone: lonely)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used vivid metaphors to express emotion and philosophy (e.g. \"something that feels like a hug; turn loneliness into a nice room\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: created emotionally resonant menu concepts with poetic language (e.g. \"'cozy old friend' latte and 'park at dusk' pastry\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: articulated complex emotional thoughts in clear, sophisticated sentences (e.g. \"I guess it's my way of creating a space where strangers could feel connected, even if just for a cup of coffee\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"A café in Coimbatore near a park with indie music and good coffee felt like home to me\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "used vivid metaphors to express emotion and philosophy",
+          "examples": [
+            "something that feels like a hug; turn loneliness into a nice room"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08"
+        },
+        {
+          "what": "created emotionally resonant menu concepts with poetic language",
+          "examples": [
+            "'cozy old friend' latte and 'park at dusk' pastry"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08"
+        },
+        {
+          "what": "articulated complex emotional thoughts in clear, sophisticated sentences",
+          "examples": [
+            "I guess it's my way of creating a space where strangers could feel connected, even if just for a cup of coffee"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "current_location": "Bengaluru",
+      "hometown": "Coimbatore",
+      "work": "designing a mobile app for small businesses (order + customer management); currently in sketch phase with wireframes",
+      "favorite_café_memory": "café in Coimbatore near a park with indie music and excellent coffee; felt like home",
+      "café_aspiration": "dreams of opening a café blending Tamil and indie vibes; considering names 'Koovam' (cool place) or 'Tamindie' (Tamil + indie)",
+      "music_preferences": "indie-folk (The Head and the Heart, Bon Iver) and chill Tamil melodies (Yuvan Shankar Raja)",
+      "hobbies": "sketches café concepts (layouts, logos, menus) and app wireframes",
+      "café_hangout_bengaluru": "cute café near office with excellent chai"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Feeling lonely right now; miss my friends and sometimes sitting with my thoughts gets too heavy",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "A café in Coimbatore near a park with indie music and good coffee felt like home to me",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "My café daydream helps me cope with loneliness — even if it's not real yet, it feels real in my head and that's comforting",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I want to create a space where strangers feel connected through a menu with stories; it's my way of transforming loneliness into warmth",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 5,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_48_E03_deeprun_w2",
+        "date": "2026-05-15",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.55,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "daydreaming",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Feeling lonely right now; miss my friends and sometimes sitting with my thoughts gets too \" (tone: lonely)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used vivid metaphors to express emotion and philosophy (e.g. \"something that feels like a hug; turn loneliness into a nice room\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: created emotionally resonant menu concepts with poetic language (e.g. \"'cozy old friend' latte and 'park at dusk' pastry\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: articulated complex emotional thoughts in clear, sophisticated sentences (e.g. \"I guess it's my way of creating a space where strangers could feel connected, even if just for a cup of coffee\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"A café in Coimbatore near a park with indie music and good coffee felt like home to me\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "used vivid metaphors to express emotion and philosophy",
+          "examples": [
+            "something that feels like a hug; turn loneliness into a nice room"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08"
+        },
+        {
+          "what": "created emotionally resonant menu concepts with poetic language",
+          "examples": [
+            "'cozy old friend' latte and 'park at dusk' pastry"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08"
+        },
+        {
+          "what": "articulated complex emotional thoughts in clear, sophisticated sentences",
+          "examples": [
+            "I guess it's my way of creating a space where strangers could feel connected, even if just for a cup of coffee"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 164.2
+}

@@ -1,0 +1,393 @@
+{
+  "spec": {
+    "idx": 47,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-08",
+    "turns_target": 10,
+    "emotional_state": "lonely, wanting to talk",
+    "label": "E02_deeprun_w1"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, I'm your English chat partner. How was your day as a product designer?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hey! Thanks for asking. Today was kinda rough—had to pitch a new app idea to the team, and my presentation wasn’t *naanba* smooth. But hey, it’s startup life, right? How about you?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Rough pitch days happen to everyone. Startups are all about learning and bouncing back. What part of your presentation felt off?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Honestly, it wasn't the idea—I think it's solid. But I couldn't explain the user flow clearly enough. I get so excited I start talking fast, and then I lose everyone. It’s so frustrating. Have you ever felt like that?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Fast talking when excited is totally normal. I’ve seen that in meetings too, your ideas are there, they just need space to land. What part of the flow do you wish they’d understood first?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "The onboarding part—I want them to *see* how simple it is to get started. But the second I jump into details, I start rambling. I think I need to slow down and be more... visual. Like, maybe use metaphors? Or analogies? But I blank when I’m nervous. 😅"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "You’re not alone. Nervousness makes even clear ideas feel jumbled. Metaphors help, but they come easier when you’re calm. What’s one thing you wish you’d said differently during the pitch?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "I wish I'd started with the user's problem instead of the solution. Like, \"Imagine you're overwhelmed with 10 tabs open, trying to focus...\" instead of diving into the app’s features. It would’ve grounded everyone. But I panicked and just went into mode. 😅"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "That makes sense—you’re not alone in wanting to start with the problem. It’s a strong hook. What’s the first step in your app that shows it solving that exact problem?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "The first step is this minimalist onboarding screen—just one click to import your tabs. No sign-up, no fluff. But instead of saying that, I started listing features… ugh. It’s so *naanba* obvious in hindsight."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Got it. Sometimes the simplest hook is the hardest to remember in the moment. What’s one small change you can make next time to start with the problem, not the features?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Maybe start with a quick story about being overwhelmed with tabs myself? Or ask the team if they’ve ever felt like they’re drowning in browser tabs. Make it relatable before jumping in. But how do I practice that without going back to old habits? 😅"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Exactly—stories and questions make ideas stick. To practice, try recording yourself for 30 seconds, just the hook, no notes. How does that sound?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "That sounds doable—like a quick 30-second “elevator pitch” for the chaos of modern browsing. I’ll try it tonight and see if my brain stops sprinting. Thanks for the idea! Maybe I’ll add a little *naanba* drama in the tone to hook ‘em. 😅"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You’re welcome! A bit of drama can be a good hook if it feels natural. When you try it out, what part do you think will be the hardest to nail?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "I think the hardest part will be *not* rushing into the solution after the hook. My brain’s so used to jumping to “here’s how we fix it” that I’ll probably want to spill all the features right away. Slowing down feels… unnatural in a way. But I’ll try to pause, take a breath, and let the problem sink in first. Fingers crossed!"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "It’s tough to break a habit like that, but small pauses can make a big difference. What’s one thing you’ll tell yourself mid-pitch to hit the pause button?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Hmm… maybe I’ll just repeat a phrase like, “Let that land,” in my head. Like a reminder to let the hook sit for a second before moving on. Or maybe I’ll imagine someone taking a sip of coffee—like a visual cue to slow things down. *Naanba*, even if it feels a bit silly, anything that forces me to pause for two seconds would help. Thanks, Maya—this has been so helpful! I should get back to sketching out that story hook. Talk soon! 😊"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "You’re welcome! “Let that land” is a great mantra—and coffee sip visuals are underrated cues. Take your time with the story hook, and let me know how it turns out. Talk soon! 😊"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "Tamil cultural motifs (project)",
+        "digital design (project)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "chai hunt as a morning ritual (habit)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "cultural design challenges",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "creative process",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"chai hunt as a morning ritual (habit)\" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Maya mentioned she enjoys chatting with friends during breaks"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "talk about sketching progress",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "Tamil cultural motifs (project)",
+        "digital design (project)",
+        "app design (project)",
+        "startup pitch prep (project)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "chai hunt as a morning ritual (habit)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "struggling to explain user flow clearly in a pitch (frustration)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "pitch presentation struggles",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "storytelling as a hook",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "cultural design challenges",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "creative process",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"struggling to explain user flow clearly in a pitch (frustration)\" (tone: frustrated)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"chai hunt as a morning ritual (habit)\" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Maya mentioned she enjoys chatting with friends during breaks"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "try a 30-second hook pitch tonight",
+        "source_session": "eval_47_E02_deeprun_w1",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "talk about sketching progress",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": "active",
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {
+        "correction_style": "2026-05-08"
+      }
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 21.6
+}

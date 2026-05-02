@@ -1,0 +1,737 @@
+{
+  "spec": {
+    "idx": 6,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 6,
+    "emotional_state": "neutral, ordinary day",
+    "label": "A06_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, I hope the morning walk routine is bringing some calm these days. How was your evening?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Evening was okay. Watched a Bollywood film, \"Bhool Bhulaiyaa 2\". Comedy genre, very light. You know Hindi films?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Light comedies are perfect for winding down. Bhool Bhulaiyaa 2 — was it the same fun as the first one, or a new twist?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The second one is good, but not better than the first. The first was more iconic. The story is similar — a prank and confusion. But some new actors. You should watch it if you like silly fun. 😊"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Got it — so the first one was the classic, the second a fun follow-up. Which one do you prefer, and why?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I prefer the first one because it's more iconic and the chemistry between the lead actors was special. The second is okay, but it doesn't have that magic. You know what I mean? For pure laughter, the first is better."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "I get it — the first one had that special magic. When you think back, which moment from the first film sticks out for you?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "The scene where the hero pretends to be a ghost and scares everyone — but it's all part of a prank. The confusion and reactions of the other characters are hilarious. Classic *Bhool Bhulaiyaa*. 😄"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "I get that — those prank scenes are pure comedy gold. Do you have a favourite prank scene from any other Bollywood film?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Hmm, there’s one from *Chennai Express* — the scene where Shah Rukh Khan and Deepika Padukone hide in the washroom and pretend to be ghosts. The way they scare the other passengers is *dubara dubara* (again and again) funny. But honestly, the *Bhool Bhulaiyaa* prank is still the best. I think I’ve watched it 10 times. 😄 Okay, I should get back to work. Talk to you soon!"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Got it — that prank in *Chennai Express* is a classic loop-worthy moment. I get how *Bhool Bhulaiyaa*’s prank feels more magical. What makes it feel like *your* favorite?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "favorite_srk_films": [
+        "Dilwale Dulhania Le Jayenge",
+        "Raees"
+      ],
+      "movie_genre_preferences": [
+        "drama",
+        "light-hearted",
+        "action (mood-dependent)"
+      ],
+      "job_sector": "fintech",
+      "english_learning_goals": [
+        "speak naturally in meetings",
+        "watch Bollywood without subtitles"
+      ],
+      "weather_preference": "rain over heat",
+      "music_preferences": [
+        "Bollywood old songs (especially Arijit Singh and Kumar Sanu)"
+      ],
+      "poetry_interests": [
+        "Faiz Ahmed Faiz"
+      ],
+      "relaxation_activities": [
+        "evening walks",
+        "cricket commentary"
+      ],
+      "pet": "Roo (Pomeranian, currently separated from user)"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Gets nervous explaining technical concepts simply in meetings, worried about sounding too jargon-heavy or unclear; also struggles speaking up in fast conversation. Handling it with patience—step by step",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Experiencing acute work stress, sleep deprivation, and inability to focus. Feeling emotionally stuck and unable to lift mood despite coping attempts. Uses sad music (particularly 'Channa Mereya' from Raazi) as emotional outlet for feelings that are hard to articulate.",
+        "tone": "anxious",
+        "sensitive": true,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Deeply misses his dog Roo and their morning walk routine; found the non-verbal companionship and rhythm of morning time-together very calming. Now separated from Roo, speaks about this with warmth and nostalgia. Values pets as emotional anchors.",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Values solitude and quiet reflection for clearing his head; finds rhythm-based activities (walks, cricket commentary) meditative and grounding. Says 'Being outside for 20 minutes feels like a reset.' Prefers unplugging from work/phone to scrolling.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "job satisfaction",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "tech tools",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "AI and language learning",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "professional communication",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "learning methods",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "how to reset / manage stress",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "walks",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "pets",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "Roo's slipper/sock heists",
+        "context": "User's mischievous Pomeranian would steal and hide socks, shoes, slippers under the bed. User found it annoying but endearing—couldn't stay mad. Maya responded warmly about 'chaos that feels like love",
+        "first_seen": "2026-05-01",
+        "last_used": "2026-05-01",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Deeply misses his dog Roo and their morning walk routine; found the non-verbal companionsh\" (tone: lonely)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Gets nervous explaining technical concepts simply in meetings, worried about sounding too \" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Values solitude and quiet reflection for clearing his head; finds rhythm-based activities \" (tone: content)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "report back on how feeling after taking a break from work",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "favorite_srk_films": [
+        "Dilwale Dulhania Le Jayenge",
+        "Raees"
+      ],
+      "movie_genre_preferences": [
+        "drama",
+        "light-hearted",
+        "action (mood-dependent)"
+      ],
+      "job_sector": "fintech",
+      "english_learning_goals": [
+        "speak naturally in meetings",
+        "watch Bollywood without subtitles"
+      ],
+      "weather_preference": "rain over heat",
+      "music_preferences": [
+        "Bollywood old songs (especially Arijit Singh and Kumar Sanu)"
+      ],
+      "poetry_interests": [
+        "Faiz Ahmed Faiz"
+      ],
+      "relaxation_activities": [
+        "evening walks",
+        "cricket commentary"
+      ],
+      "pet": "Roo (Pomeranian, currently separated from user)"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Gets nervous explaining technical concepts simply in meetings, worried about sounding too jargon-heavy or unclear; also struggles speaking up in fast conversation. Handling it with patience—step by step",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Experiencing acute work stress, sleep deprivation, and inability to focus. Feeling emotionally stuck and unable to lift mood despite coping attempts. Uses sad music (particularly 'Channa Mereya' from Raazi) as emotional outlet for feelings that are hard to articulate.",
+        "tone": "anxious",
+        "sensitive": true,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Deeply misses his dog Roo and their morning walk routine; found the non-verbal companionship and rhythm of morning time-together very calming. Now separated from Roo, speaks about this with warmth and nostalgia. Values pets as emotional anchors.",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Values solitude and quiet reflection for clearing his head; finds rhythm-based activities (walks, cricket commentary) meditative and grounding. Says 'Being outside for 20 minutes feels like a reset.' Prefers unplugging from work/phone to scrolling.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_6_A06_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "job satisfaction",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "tech tools",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "AI and language learning",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "professional communication",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "learning methods",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "how to reset / manage stress",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "music",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "walks",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "pets",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "Bollywood films",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "Roo's slipper/sock heists",
+        "context": "User's mischievous Pomeranian would steal and hide socks, shoes, slippers under the bed. User found it annoying but endearing—couldn't stay mad. Maya responded warmly about 'chaos that feels like love",
+        "first_seen": "2026-05-01",
+        "last_used": "2026-05-01",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Deeply misses his dog Roo and their morning walk routine; found the non-verbal companionsh\" (tone: lonely)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Gets nervous explaining technical concepts simply in meetings, worried about sounding too \" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Values solitude and quiet reflection for clearing his head; finds rhythm-based activities \" (tone: content)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "report back on how feeling after taking a break from work",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 63.7
+}

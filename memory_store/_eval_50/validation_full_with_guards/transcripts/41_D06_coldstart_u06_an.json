@@ -1,0 +1,389 @@
+{
+  "spec": {
+    "idx": 41,
+    "profile_id": "u06_anu",
+    "eval_user_key": "u06_anu_cold",
+    "today": "2026-05-22",
+    "turns_target": 10,
+    "emotional_state": "anxious, exam stress",
+    "label": "D06_coldstart_u06_an"
+  },
+  "profile": {
+    "id": "u06_anu",
+    "user_name": "Anu",
+    "profession": "Recent commerce graduate looking for first job",
+    "mother_tongue": "Telugu",
+    "interests": "K-dramas, fitness, Instagram reels",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "uncertain about career direction; somewhat self-doubting; opens up gradually"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Anu, I'm Miss Maya. It's great to meet you, I'm always happy to help with English practice. How was your day?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hmm, it was okay. I had an interview today, so a bit nervous. It didn't go so well, I think. 😅"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds tough. Interviews can be stressful, what part felt hardest for you?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "I had to answer some questions about my future goals, and I just couldn't think clearly. I get super anxious, and my mind goes blank. 😣 Plus, I'm not sure what I want to do yet. Commerce grad here, but confused."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "I get that, future goals are tricky. What part of commerce interests you most?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Honestly, I like the accounting part the most. Numbers make sense to me, but I don't know if that’s “cool” enough. Everyone says marketing or finance is better. 😐 Also, I get so worried about making mistakes in front of people. That’s why I freeze during interviews."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Numbers are important in any field, you're doing great. What’s one thing you enjoy about accounting?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Well, the satisfaction of getting calculations right. Like, when I balance a sheet and everything adds up, it feels… *chill*. Plus, I don’t have to talk much in that kind of work, which is a plus for me. But I feel stuck, Maya. How do I even start? 😶"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Numbers are important in any field, you're doing great. What’s one thing you enjoy about accounting?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I guess I like that it’s predictable in a way. You know, there’s one right answer, and it don’t involve too much guesswork. Marketing feels so… chala, you know? Like you have to be super confident and loud. I just want to sit, calculate, and not worry about saying the wrong thing. But how do I tell that in an interview without sounding boring? 😅"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "You’re not boring, that’s a strength! How do you usually explain this to others?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Honestly, I just say I’m “not really sure yet” and then change the subject. It feels safer. But in interviews, that’s probably a bad idea. I want to be honest but not sound like I have no direction. It’s… frustrating. 🤷‍♀️"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "It’s normal to feel that way. What do you think sets accounting apart from other fields?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "In accounting, it’s more about being precise and detail-oriented. Like, you don’t have to \"sell\" anything or come up with creative ideas. Just… make sure the numbers are right. But I fear people think it’s not exciting. How do I make that sound good in an interview?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You're already explaining it well. What example would you give to show your strength in detail work?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Maybe I could say that in my final year project, I noticed a small error in tax calculations that my professor almost missed. It saved the hypothetical company some money. But I don’t know—should I focus more on that in interviews? Or does it sound too technical? 😕"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "That’s a good example! Would you like to practice saying it out loud?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Sure, I’d love that. Let me try… \"During my final year project, I found a small mistake in the tax calculations that even my professor almost missed. It helped the hypothetical company save some money.\" Does that sound okay? Or should I make it more simple?"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "You said it clearly! What part would you like to make simpler?"
+    }
+  ],
+  "memory_before": {
+    "facts": {},
+    "events": [],
+    "moments": [],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Anu",
+      "background": "Commerce graduate",
+      "primary_interest": "Accounting (enjoys precision, clear right answers, predictability)",
+      "key_strength": "Detail-oriented, strong with numbers, attention to detail in calculations",
+      "career_aversion": "Dislikes high-stakes social/creative work (like marketing); prefers work with minimal talking",
+      "anxiety_pattern": "Gets anxious in front of people, mind goes blank in interviews; worries about making mistakes",
+      "recent_achievement": "Found error in tax calculations during final year project that professor missed"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "Had interview; felt it went poorly due to anxiety and mind going blank when asked about future goals",
+        "date": "2026-05-22",
+        "added": "2026-05-22",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "When I balance a sheet and everything adds up, it feels… chill.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I get super anxious, and my mind goes blank. I don't know if accounting is cool enough—everyone says marketing or finance is better.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "I feel stuck, Maya. How do I even start?",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I just say I'm not really sure yet and change the subject—it feels safer. But that's probably a bad idea in interviews.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_41_D06_coldstart_u06_an",
+        "date": "2026-05-22",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": "ev_001"
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Interview anxiety",
+          "last_session": "eval_41_D06_coldstart_u06_an",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "Accounting career choice",
+          "last_session": "eval_41_D06_coldstart_u06_an",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "Interview communication",
+          "last_session": "eval_41_D06_coldstart_u06_an",
+          "last_date": "2026-05-22",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_41_D06_coldstart_u06_an",
+          "last_date": "2026-05-22"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"Had interview; felt it went poorly due to anxiety and mind going blank when asked about future goals\" — today",
+        "source_id": "ev_001",
+        "priority": 10,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I get super anxious, and my mind goes blank. I don't know if accounting is cool enough—eve\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I feel stuck, Maya. How do I even start?\" (tone: frustrated)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I just say I'm not really sure yet and change the subject—it feels safer. But that's proba\" (tone: anxious)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: articulated complex past-tense narrative with relative clauses under interview-practice pressure (e.g. \"During my final year project, I found a small mistake in the tax calculations that even my professor almost missed.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "subject-verb disagreement with singular subject ('don't' instead of 'doesn't')",
+          "examples": [
+            "it don't involve too much guesswork"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-22",
+          "last_seen": "2026-05-22",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "articulated complex past-tense narrative with relative clauses under interview-practice pressure",
+          "examples": [
+            "During my final year project, I found a small mistake in the tax calculations that even my professor almost missed."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-22",
+          "last_seen": "2026-05-22"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "subject-verb disagreement with singular subject ('don't' instead of 'doesn't')",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "it don't involve too much guesswork"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 82.7
+}

@@ -1,0 +1,456 @@
+{
+  "spec": {
+    "idx": 2,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 8,
+    "emotional_state": "hopeful, made some progress on a goal",
+    "label": "A02_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, the India vs Australia match today is on, what's your call on who wins?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "India will win, I'm sure. Australia is good but Kohli and Jasprit are in good form. You follow cricket?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"India's got a strong team, Kohli and Jasprit make a great combo. I follow cricket, but not as closely as you, what position do you like in a match?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "I like batting. If you bat well, you win 70% matches. I also play some local games. My favorite actor is Shah Rukh Khan. You watch Bollywood?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "India's got a strong team, Kohli and Jasprit make a great combo. I follow cricket, but not as closely as you, what position do you like in a match?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Batsman. I try to score fast. We also play gully cricket sometimes. You like any sport?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Gully cricket sounds fun! Batsmen who score fast are exciting to watch. I enjoy cricket most when it's close, what's your take on tight finishes?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Tight finishes are the best! You get so much adrenalin. Last ball wins, that's most thrilling. I also like underdog stories. Which one you like more?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "That sounds exciting! Underdog stories are amazing when they win against all odds. Do you have a favourite underdog match or movie?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Yes, one match and one movie. The 2004 semi-final between India and Sri Lanka, Sri Lanka won with last ball. And movie is \"Dil Chahta Hai\" — it's underdog in its own way. Both are special."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "That’s a beautiful pick, Sri Lanka’s win and *Dil Chahta Hai* both show heart. What part of the movie made it feel like an underdog to you?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "The movie didn’t follow typical Bollywood formula, more realistic and raw. It was not hyped much but became a cult classic. That made it feel underdog."
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "I get that, raw stories stand out when they don’t chase trends. What made you watch it the first time?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "A friend recommended it. He said it’s different. I watched it and really connected with the characters. It was not like other movies I was used to. From that day, it became my favorite."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "That sounds like a great recommendation. Friends are the best for finding hidden gems. Any other movies you’ve connected with like that?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "occupation": "fintech",
+      "sport_interest": "cricket (sport)",
+      "cricket_preferences": [
+        "batting for the thrill",
+        "bowling for wickets",
+        "tight finishes"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "India vs Australia cricket match (sport)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I love when a match ends with a tight finish, like a last-ball win. It gives me adrenaline.",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I remember one match where India chased 300 in the last over with friends, we were all shouting. It's moments like that.",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"India vs Australia cricket match (sport)\" — today",
+        "source_id": "ev_001",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I love when a match ends with a tight finish, like a last-ball win. It gives me adrenaline\" (tone: excited)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I remember one match where India chased 300 in the last over with friends, we were all sho\" (tone: excited)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "occupation": "fintech",
+      "sport_interest": "cricket (sport)",
+      "cricket_preferences": [
+        "batting for the thrill",
+        "bowling for wickets",
+        "tight finishes",
+        "scores fast when batting"
+      ],
+      "favorite_actor": "Shah Rukh Khan (person)",
+      "favorite_movie": "Dil Chahta Hai (movie)",
+      "interests": [
+        "underdog stories"
+      ],
+      "cricket_activities": [
+        "gully cricket (sport)"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "India vs Australia cricket match (sport)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I love when a match ends with a tight finish, like a last-ball win. It gives me adrenaline.",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I remember one match where India chased 300 in the last over with friends, we were all shouting. It's moments like that.",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "The 2004 semi-final between India and Sri Lanka (event), Sri Lanka won with last ball. Dil Chahta Hai (movie) is another special one. Both are special because they're underdog stories.",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "A friend recommended Dil Chahta Hai (movie). He said it's different. I watched it and really connected with the characters. It was not like other movies I was used to. From that day, it became my favorite.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "cricket positions",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "tight finishes",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "underdog stories",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "movies",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I love when a match ends with a tight finish, like a last-ball win. It gives me adrenaline\" (tone: excited)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I remember one match where India chased 300 in the last over with friends, we were all sho\" (tone: excited)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The 2004 semi-final between India and Sri Lanka (event), Sri Lanka won with last ball. Dil\" (tone: excited)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"A friend recommended Dil Chahta Hai (movie). He said it's different. I watched it and real\" (tone: grateful)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 143.5
+}

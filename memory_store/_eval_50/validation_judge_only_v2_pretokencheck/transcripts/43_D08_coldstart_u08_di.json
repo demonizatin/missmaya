@@ -1,0 +1,357 @@
+{
+  "spec": {
+    "idx": 43,
+    "profile_id": "u08_diya",
+    "eval_user_key": "u08_diya_cold",
+    "today": "2026-05-28",
+    "turns_target": 10,
+    "emotional_state": "hopeful, made some progress on a goal",
+    "label": "D08_coldstart_u08_di"
+  },
+  "profile": {
+    "id": "u08_diya",
+    "user_name": "Diya",
+    "profession": "Marketing manager at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Travel, books, indie podcasts",
+    "engagement": "medium",
+    "english_level": "B2",
+    "personality": "thoughtful, asks back, sometimes shares heavier feelings about work-life balance"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Diya, I'm Miss Maya. The evening feels just right for a chat, how was your day?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hi Maya, thanks! My day was better than yesterday, actually — got some good progress on a project I’ve been stressing over. Still busy, but in a good way. How about you?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Good to hear your day is lifting up, progress is a relief. What part of the project felt the most win today?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The deadline was moving, and I finally nailed the client’s approval — that felt like a big win. Aaj_bhagya was on my side, I guess. How do you handle last-minute changes at work?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Aaj_bhagya shows up when you work hard for it. Last-minute changes? I go step by step — what helps you stay calm in those moments?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Deep breaths, mostly. And reminding myself that chaos is temporary. Sometimes I just need to laugh it off — it sounds silly, but it helps. Do you ever feel like work takes over your headspace?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Laughter is a real stress reset — wise move. Yes, work does creep in sometimes. What helps you switch off when it’s too loud?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Walks help, surprisingly. Even 15 minutes outside, just looking at trees or the sky. And podcasts — something light to distract my brain. But honestly, sometimes I just write down all the thoughts and close my eyes. It’s like… \"Okay mind, here’s your to-do list. Now shut up."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "That’s a smart way to calm down — your brain loves boundaries. Which podcasts are your go-to when you need a break?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I love “Maintenance Phase” — it’s about food and identity, but in a thoughtful way. Also, “The Happiness Lab” for quick science-based resets. But lately, I’ve been into “Lore” — it’s like storytelling with a spooky twist. Distracts my brain just right. Do you listen to podcasts?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Lore sounds fascinating — I can see the mind getting lost in that. I don’t listen much, but I’m curious. What made you start exploring podcasts?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "I started with a podcast about productivity — you know, the typical “get organized” stuff. But then I got hooked on stories. They’re like mini-adventures when I’m stuck in traffic or just need to zone out. Have you seen how fast time flies when you’re listening? It’s kind of magic."
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Podcasts truly turn time into something fun , like a secret escape. I get that. What’s the last book you read that felt like an adventure?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I read “The Night Tiger” by Tan Twan Voon — it’s set in 1930s Malaysia, full of mystery and folklore. The way the story weaves between past and present felt like walking through a hidden city. Books do that, right? Make you live a thousand lives in one night."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "\"The Night Tiger\" sounds like a rich journey — living a thousand lives in one night is exactly what makes books special. What’s next on your reading list?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "I’m halfway through “The Starless Sea” by Erin Morgenstern — it’s like stepping into a dream. A bit slow for me, but the writing is so lush. If I don’t finish it soon, I’ll switch to something lighter. Have you read it? Also, I should go — work texts are pinging again. Talk later!"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "The Starless Sea — I can see why it feels like a dream! Work calls — take your time, and I’ll be here when you’re ready to chat again. Have a great one!"
+    }
+  ],
+  "memory_before": {
+    "facts": {},
+    "events": [],
+    "moments": [],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "Maintenance Phase (podcast)",
+        "The Happiness Lab (podcast)",
+        "Lore (podcast)",
+        "The Night Tiger (book)",
+        "The Starless Sea (book)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "A win in a project after a stressful deadline",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-28",
+        "last_seen": "2026-05-28",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Finding calm in chaos through laughter and deep breaths",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-28",
+        "last_seen": "2026-05-28",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Finding peace in short walks, podcasts, and writing down thoughts",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-28",
+        "last_seen": "2026-05-28",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_43_D08_coldstart_u08_di",
+        "date": "2026-05-28",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "last-minute changes at work",
+          "last_session": "eval_43_D08_coldstart_u08_di",
+          "last_date": "2026-05-28",
+          "uses": 1
+        },
+        {
+          "topic": "handling work stress",
+          "last_session": "eval_43_D08_coldstart_u08_di",
+          "last_date": "2026-05-28",
+          "uses": 1
+        },
+        {
+          "topic": "switching off from work",
+          "last_session": "eval_43_D08_coldstart_u08_di",
+          "last_date": "2026-05-28",
+          "uses": 1
+        },
+        {
+          "topic": "podcasts as a distraction",
+          "last_session": "eval_43_D08_coldstart_u08_di",
+          "last_date": "2026-05-28",
+          "uses": 1
+        },
+        {
+          "topic": "books as an escape",
+          "last_session": "eval_43_D08_coldstart_u08_di",
+          "last_date": "2026-05-28",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_43_D08_coldstart_u08_di",
+          "last_date": "2026-05-28"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Used past perfect correctly in recounting the project win (e.g. \"I had finished by 5\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-28",
+        "expires_at": "2026-06-11",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"A win in a project after a stressful deadline\" (tone: proud)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-28",
+        "expires_at": "2026-06-11",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Finding calm in chaos through laughter and deep breaths\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-28",
+        "expires_at": "2026-06-11",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Finding peace in short walks, podcasts, and writing down thoughts\" (tone: content)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-28",
+        "expires_at": "2026-06-11",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "Used past perfect correctly in recounting the project win",
+          "examples": [
+            "I had finished by 5"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-28",
+          "last_seen": "2026-05-28"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "Tell Maya how the work meeting went",
+        "source_session": "eval_43_D08_coldstart_u08_di",
+        "source_date": "2026-05-28",
+        "status": "active",
+        "expires_at": "2026-06-27"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": "warm",
+      "off_limits_topics": [],
+      "asked_at": {
+        "humor_level": "2026-05-28"
+      }
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 19.0
+}

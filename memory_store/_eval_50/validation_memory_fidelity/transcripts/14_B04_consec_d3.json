@@ -1,0 +1,678 @@
+{
+  "spec": {
+    "idx": 14,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-04",
+    "turns_target": 8,
+    "emotional_state": "chatty, in a good mood",
+    "label": "B04_consec_d3"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, I hope your morning is calm. How was the study group session?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "It was okay, but I got confused in the pharmacology part. One of my friends explained it better, though. Did you know that reading aloud helps me remember things? Hmm, maybe I should try that more."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Got it, pharmacology is tricky. Reading aloud is a good tip. Have you tried combining it with a song?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Oh, singing? Like making notes into a song? I have tried humming while studying sometimes, but not really a full song. Maybe I could make a pharmacology rap! What do you think? 🤔"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "A rap would be fun! It helps with memory. What drug names would you start with?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I was thinking about beta blockers and ACE inhibitors. They have weird names, but if I make a catchy tune... maybe I can remember their uses. Want to help me think of a line? 😊"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "A pharmacology rap sounds creative! Let’s start with beta blockers, how about this line: “Beta blocks stress, heart beats less.” What do you think?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "That’s a nice line! Maybe add something about high blood pressure? Like… “Lowers BP, keeps arteries cool.” What about the next line for ACE inhibitors? I’m thinking something like “ACE stops the renin game,” but I’m not sure. 😅"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "\"Lowers BP, keeps arteries cool\", smooth and clear! For the ACE line, how about: \"ACE blocks enzymes, BP stays serene\". It rhymes and keeps the meaning. Want to try another version?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "ACE blocks enzymes, BP stays serene\" sounds good, but a bit complicated. Maybe something simpler? Like \"ACE cuts the enzyme, pressure won't climb.\" What if we go that way? I think it's a bit easier. 😊"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "\"ACE cuts the enzyme, pressure won't climb\", simple and smart. That works! What’s next in your rap, another drug or another line for these?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Maybe I can add a chorus to make it catchy! Something like, \"Medicine, medicine, memorize it right, sing it all night, and pass that test bright!\" What do you think? I can add it after each verse. 😄"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "\"Medicine, medicine, memorize it right...\", a great, upbeat chorus! It adds fun and rhythm. Go ahead, build your rap, I’m all ears!"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Okay, let me try to put it all together! \n\n(Verse 1)  \nBeta blocks stress, heart beats less,  \nLowers BP, keeps arteries cool.  \n\n(Chorus)  \nMedicine, medicine, memorize it right,  \nSing it all night, and pass that test bright!  \n\n(Verse 2)  \nACE cuts the enzyme, pressure won’t climb,  \nBlocks the renin, keeps your blood fine.  \n\n(Chorus again)  \nMedicine, medicine, memorize it right,  \nSing it all night, and pass that test bright!  \n\nThik hai, I think I can practice this! Thanks for helping me, Maya! 🙏 I should get back to my notes now. Talk later!"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You’ve nailed it, that rap is clever and catchy! Thik hai, practice it, and I’m sure it’ll stick. Talk later, and all the best for your notes!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_preparing_for": "NEET PG (exam)",
+      "struggles_with": "memorizing drug names; gets stressed when unable to recall information"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Mixing up drug names like metoprolol and atenolol is frustrating; finds pharmacology confusing",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Gets stressed when unable to memorize and recall drug names",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Developed effective study strategies (song-based mnemonics with classic film tunes, visual tables, side-by-side comparisons) to overcome drug-name confusion; finds creative approach engaging, fun, and helps material stick",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Comfortable sharing and embracing quirky study habits with family; mom finds it funny when she sings study songs—there's warmth and humor in the dynamic",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Sleep deprivation recurring; can't concentrate on studies; exam anxiety deepens",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "Anxiety feels overwhelming and dominant: 'Anxiety is louder than my brain'; sometimes questions if effort is worthwhile",
+        "tone": "anxious",
+        "sensitive": true,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Finds concrete calming rituals: cooking sabudana khichdi (dish), listening to raga music; uses these to manage anxiety and ground herself",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "Recognizes and prioritizes self-compassion: 'My mind needs rest, not pressure'; trusts her own pace over forcing productivity",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 2,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "pharmacology mnemonics",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Sleep deprivation recurring; can't concentrate on studies; exam anxiety deepens\" (tone: anxious)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Mixing up drug names like metoprolol and atenolol is frustrating; finds pharmacology confu\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Gets stressed when unable to memorize and recall drug names\" (tone: anxious)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Finds concrete calming rituals: cooking sabudana khichdi (dish), listening to raga music; \" (tone: content)",
+        "source_id": "mo_007",
+        "priority": 4,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Recognizes and prioritizes self-compassion: 'My mind needs rest, not pressure'; trusts her\" (tone: hopeful)",
+        "source_id": "mo_008",
+        "priority": 4,
+        "computed_at": "2026-05-03",
+        "expires_at": "2026-05-17",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "maya_promise",
+        "content": "Tell me how your study group goes",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "come back with mnemonics for metoprolol and atenolol to help remember which drug is which",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Aarti",
+      "exam_preparing_for": "NEET PG (exam)",
+      "struggles_with": "memorizing drug names; gets stressed when unable to recall information"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Mixing up drug names like metoprolol and atenolol is frustrating; finds pharmacology confusing",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Gets stressed when unable to memorize and recall drug names",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Developed effective study strategies (song-based mnemonics with classic film tunes, visual tables, side-by-side comparisons) to overcome drug-name confusion; finds creative approach engaging, fun, and helps material stick",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Comfortable sharing and embracing quirky study habits with family; mom finds it funny when she sings study songs—there's warmth and humor in the dynamic",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Sleep deprivation recurring; can't concentrate on studies; exam anxiety deepens",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "Anxiety feels overwhelming and dominant: 'Anxiety is louder than my brain'; sometimes questions if effort is worthwhile",
+        "tone": "anxious",
+        "sensitive": true,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Finds concrete calming rituals: cooking sabudana khichdi (dish), listening to raga music; uses these to manage anxiety and ground herself",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "Recognizes and prioritizes self-compassion: 'My mind needs rest, not pressure'; trusts her own pace over forcing productivity",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "Turned drug-name memorization anxiety into a collaborative, creative learning experience (pharmacology rap); feels confident and energized by shifting from pressure-based to play-based studying",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 2,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "pharmacology mnemonics",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_11_B01_consec_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Sleep deprivation recurring; can't concentrate on studies; exam anxiety deepens\" (tone: anxious)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-04",
+        "expires_at": "2026-05-18",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Mixing up drug names like metoprolol and atenolol is frustrating; finds pharmacology confu\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-04",
+        "expires_at": "2026-05-18",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Collaborated with Maya to craft memorable drug-name rap lines using rhyme and clarity; refined suggestions autonomously  (e.g. \"beta blockers verse: 'Beta blocks stress, heart beats less / Lowers BP, keeps arteries cool' + ACE verse + chorus\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-04",
+        "expires_at": "2026-05-18",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Turned drug-name memorization anxiety into a collaborative, creative learning experience (\" (tone: excited)",
+        "source_id": "mo_009",
+        "priority": 4,
+        "computed_at": "2026-05-04",
+        "expires_at": "2026-05-18",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Finds concrete calming rituals: cooking sabudana khichdi (dish), listening to raga music; \" (tone: content)",
+        "source_id": "mo_007",
+        "priority": 4,
+        "computed_at": "2026-05-04",
+        "expires_at": "2026-05-18",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "Collaborated with Maya to craft memorable drug-name rap lines using rhyme and clarity; refined suggestions autonomously ",
+          "examples": [
+            "beta blockers verse: 'Beta blocks stress, heart beats less / Lowers BP, keeps arteries cool' + ACE verse + chorus"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-04",
+          "last_seen": "2026-05-04"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "maya_promise",
+        "content": "Tell me how your study group goes",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "come back with mnemonics for metoprolol and atenolol to help remember which drug is which",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 91.1
+}

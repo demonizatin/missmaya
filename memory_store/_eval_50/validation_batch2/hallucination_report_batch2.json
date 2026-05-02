@@ -1,0 +1,365 @@
+{
+  "summary": {
+    "session_count": 15,
+    "category_totals": {
+      "A_titles": 6,
+      "B_named_entities": 0,
+      "C_personal_claims": 1,
+      "D_fake_quotes": 1
+    },
+    "category_session_counts": {
+      "C_personal_claims": 1,
+      "A_titles": 2,
+      "D_fake_quotes": 1
+    },
+    "examples": {
+      "C_personal_claims": [
+        {
+          "session_idx": 47,
+          "label": "E02_deeprun_w1",
+          "user": "Neha",
+          "turn": 1,
+          "claim": "I've been thinking about your design work — it sounds creative. Did something feel o",
+          "snippet": "Hi Neha, I've been thinking about your design work — it sounds creative. Did something feel off lately that you'd like to talk through?"
+        }
+      ],
+      "A_titles": [
+        {
+          "session_idx": 48,
+          "label": "E03_deeprun_w2",
+          "user": "Neha",
+          "turn": 9,
+          "title": "Quiet corners of the brain",
+          "snippet": "\"Quiet corners of the brain\" — that's a lovely way to put it. *Holocene* is a classic for a reason — I get that. Do you often find yourself returning to old favourites when you need something to lean "
+        },
+        {
+          "session_idx": 49,
+          "label": "E04_deeprun_w3",
+          "user": "Neha",
+          "turn": 4,
+          "title": "I can't wait for this phase to pass",
+          "snippet": "You're doing great, just a tiny tweak — we say \"I can't wait for this phase to pass\" without the \"for\" after \"wait.\" Kerala sounds lovely — I'd love to hear what makes it so calming for you. What do y"
+        },
+        {
+          "session_idx": 49,
+          "label": "E04_deeprun_w3",
+          "user": "Neha",
+          "turn": 6,
+          "title": "Have you ever felt like",
+          "snippet": "I get that — staring at notes and wondering why you said yes is part of the process. You're doing great, just a tiny tweak: \"You ever feel like\" should be \"Have you ever felt like\" for tense consisten"
+        }
+      ],
+      "D_fake_quotes": [
+        {
+          "session_idx": 49,
+          "label": "E04_deeprun_w3",
+          "user": "Neha",
+          "turn": 5,
+          "fake_quote": "stress over exams now",
+          "snippet": "That sounds like a perfect escape — slow beaches and relaxed air are just what’s needed. Exams are tough, I get that. You said \"stress over exams now\" — small fix: we'd say \"stressing over exams now\" "
+        }
+      ]
+    }
+  },
+  "per_session": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 1,
+            "claim": "I've been thinking about your design work — it sounds creative. Did something feel o",
+            "snippet": "Hi Neha, I've been thinking about your design work — it sounds creative. Did something feel off lately that you'd like to talk through?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 9,
+            "title": "Quiet corners of the brain",
+            "snippet": "\"Quiet corners of the brain\" — that's a lovely way to put it. *Holocene* is a classic for a reason — I get that. Do you often find yourself returning to old favourites when you need something to lean "
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 4,
+            "title": "I can't wait for this phase to pass",
+            "snippet": "You're doing great, just a tiny tweak — we say \"I can't wait for this phase to pass\" without the \"for\" after \"wait.\" Kerala sounds lovely — I'd love to hear what makes it so calming for you. What do y"
+          },
+          {
+            "turn": 6,
+            "title": "Have you ever felt like",
+            "snippet": "I get that — staring at notes and wondering why you said yes is part of the process. You're doing great, just a tiny tweak: \"You ever feel like\" should be \"Have you ever felt like\" for tense consisten"
+          },
+          {
+            "turn": 7,
+            "title": "I feel like a mess right now",
+            "snippet": "I get that — smooth music helps a lot, and ASMR can go both ways! You're doing great, just a tiny tweak: \"I’m just a mess right now\" can be \"I feel like a mess right now\" to sound more natural. What h"
+          },
+          {
+            "turn": 8,
+            "title": "Have you ever felt like",
+            "snippet": "I get that — your brain on overdrive is no fun at all. You're doing great, just a tiny tweak: \"You ever feel like\" should be \"Have you ever felt like\" for tense consistency. What’s one small thing tha"
+          },
+          {
+            "turn": 10,
+            "title": "I miss the days when recharging meant...",
+            "snippet": "I get that — cafés with no pressure sound perfect for recharging. You're doing great, just a tiny tweak: we say \"I miss the days when recharging meant...\" without \"just\" for smoother flow. What would "
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": [
+          {
+            "turn": 5,
+            "fake_quote": "stress over exams now",
+            "snippet": "That sounds like a perfect escape — slow beaches and relaxed air are just what’s needed. Exams are tough, I get that. You said \"stress over exams now\" — small fix: we'd say \"stressing over exams now\" "
+          }
+        ]
+      },
+      "totals": {
+        "A_titles": 5,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 1
+      }
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    }
+  ]
+}

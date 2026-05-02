@@ -1,0 +1,1136 @@
+{
+  "spec": {
+    "idx": 10,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 10,
+    "emotional_state": "excited about a weekend plan",
+    "label": "A10_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, the cricket gloves trials are coming up — did you prepare any special feedback questions for the players?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Yeah, I thought about a couple. Like, how the grip feels during long matches, or if the padding is comfortable enough during fast bowling. Not sure if I should add more though. Chalta hai, right?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "You said it perfectly that time! I like those questions — they sound practical. What else did you think about adding? Tell me more."
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Hmm, maybe something about visibility? Like, are the colors bright enough for players to see clearly in daylight? Or maybe how well the gloves hold up after repeated use. But I'm not sure if that's too technical. Kya soch raha hun?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Good try! We'd usually say \"What am I thinking?\" instead. Your ideas are great — colors and durability matter a lot. Did you decide which ones to include?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I think I'll go with the grip, padding, and maybe colors. Durability is important, but maybe that's more for the manufacturers. Let me keep it simple for now. Tumhe laga kuch aur add karna chahiye?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "You're doing great! Small fix: we say \"Do you think you should add something else?\" Your plan sounds good. Let me know how the players respond later. Speaking of, did you watch the Shah Rukh Khan movie with friends yet?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Yeah, I watched it with a few friends last weekend. The movie was so much fun, especially the cricket scenes. But I think I’ll watch it again soon — maybe with my sister. She couldn’t come last time. Tumko woh movie pasand hai?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Good try! We say \"Do you like that movie?\" Your idea to watch it with your sister sounds nice. I did not watch it, but I like cricket scenes in movies. Which one did you watch?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "It was \"Dilwale\". The cricket match scene between Raj and Simran was iconic! My friends and I laughed a lot. My sister loves Shah Rukh Khan, so I think she'll enjoy it. Do you like old Bollywood movies?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "I like some old Bollywood movies. Dilwale is a good choice — Shah Rukh Khan is a big star. Did you watch it on TV or a streaming app?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "We watched it on a streaming app. It’s easier than waiting for TV schedules. My sister prefers old movies too, so maybe we’ll make a Bollywood marathon soon. Tumne kisi old movie dekhi hai?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "You said it well! Small fix: we say \"Have you watched any old movie?\" I like some old Bollywood films. A marathon sounds fun! Which ones do you like?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I like \"Kuch Kuch Hota Hai\" and \"Dilwale Dulhania Le Jayega\" the most. They’re classic! My sister also loves \"Bobby\" and \"Sholay.\" Maybe we can start with one of those. What about you — any favorite old movies?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "I like \"Kuch Kuch Hota Hai\" too — the music is amazing. Small fix: we say \"What about you — any favorite old movies?\" I enjoy \"Dilwale Dulhania Le Jayega\" as well. What songs did you like from it?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "From \"Kuch Kuch Hota Hai,\" the song \"Tujhe Pehli Baar\" is super romantic. For \"DDLJ,\" I think \"Mere Jeene Lage\" is a classic. My sister loves \"Nishi Kashi\" from \"Bobby.\" What about you? Any songs that stuck with you?"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "You said it well! I love \"Tujhe Pehli Baar\" — such a beautiful song. My favorite is \"Nishi Kashi\" too. Old songs have a special charm. Do you sing along when you watch them?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Yeah, sometimes I do! It's more fun when you know the lyrics. My sister and I sing along to \"Nishi Kashi\" every time we watch Bobby. It's catchy! Gotta go now, but thanks for the chat. Talk to you later!"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "You're doing great! Singing along is the best way to learn. I'll be here when you're ready for more practice. Talk to you soon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "work_location": "works from home mostly; sometimes uses co-working space for focus",
+      "work_schedule_preference": "prefers mornings (mind is clearer); gets sleepy evenings, saves easier tasks then",
+      "music_habits": "listens to Bollywood music while coding when stuck; sings along in car; likes Pathaan songs and old Diljit Dosanjh songs",
+      "favorite_bollywood_song": "Chala Hawa Badaro",
+      "movie_preference": "prefers action movies (especially with comedy); also enjoys sci-fi and emotional dramas; watches 1-2 movies per week",
+      "hobbies": [
+        "plays cricket"
+      ],
+      "current_work_role": "works in fintech",
+      "guitar_aspiration": "wants to learn guitar to relax and play Bollywood songs after work",
+      "favorite_cricket_team": "Delhi",
+      "favorite_cricket_chaser": "Virat Kohli",
+      "cricket_viewing_habits": "watches on TV and streams on phone; prefers watching with friends to discuss strategies",
+      "liked_music_artists": [
+        "Arijit Singh"
+      ],
+      "work_engagement": "gets deeply absorbed in work, forgets time; doesn't take many breaks",
+      "relaxation_ritual": "chai break with a Bollywood movie in the background",
+      "cooking_aspiration": "wants to learn cooking from mom before moving out",
+      "biryani_preference": "Hyderabadi style — more mint and yoghurt, less oil",
+      "mother": "great cook",
+      "favorite_bollywood_songs": [
+        "Chala Hawa Badaro",
+        "Tum Hi Ho"
+      ],
+      "movie_watch_time": "evenings, around 7 or 8 with friends"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "played cricket with friends",
+        "date": "2026-04-26",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "joined a cricket startup developing smart gloves for fielders; working on sensor data processing and real-time feedback software",
+        "date": "2026-04-24",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "watched Barbie with friends; heard Dance Monkey by Tones and I in theater",
+        "date": "2026-04-26",
+        "added": "2026-05-01",
+        "followed_up": false
+      },
+      {
+        "id": "ev_004",
+        "what": "watched Shah Rukh Khan movie with friends",
+        "date": "2026-05-02",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Gets nervous about whether product ideas are too technical or not user-friendly enough; finds reassurance and validation when seeing end-users (players) benefit and react positively",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Relates to Bollywood songs as a form of personal friendship/dosti with oneself; singing off-key is still pure joy and self-connection, even if imperfect",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_6_A06_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_7_A07_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_8_A08_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_9_A09_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.49,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "Bollywood music",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "work environment",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work schedule",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work breaks",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket fielding skills",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "project technical challenges",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "project roadmap and next steps",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "emotional engagement with creative work",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "movies",
+          "last_session": "eval_8_A08_same_day",
+          "last_date": "2026-05-01",
+          "uses": 3
+        },
+        {
+          "topic": "music and singing",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_7_A07_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_8_A08_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_9_A09_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "Yuvraj Singh comparison",
+        "context": "User tried a new fielding position during cricket; friend said they look like cricket legend Yuvraj Singh. User found the experience fun despite uncertainty about catching performance.",
+        "first_seen": "2026-05-01",
+        "last_used": "2026-05-01",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"watched Shah Rukh Khan movie with friends\" — tomorrow",
+        "source_id": "ev_004",
+        "priority": 9,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: clearly articulated complex technical project requirements and challenges with good structure and detail (e.g. \"The biggest challenge is making the sensors accurate in all conditions — like rain or sand. Also, the software needs to process data fast so players get real-time feedback.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: provided clear, well-structured explanations of abstract concepts with supporting examples (e.g. \"balancing leadership with being a player themselves can be tough; they have to lead by example but also stay calm when things go wrong\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used creative analogies to explain complex problem-solving (e.g. \"It's like trying to hit the perfect six. ... It's like putting the final piece in a puzzle.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Gets nervous about whether product ideas are too technical or not user-friendly enough; fi\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "clearly articulated complex technical project requirements and challenges with good structure and detail",
+          "examples": [
+            "The biggest challenge is making the sensors accurate in all conditions — like rain or sand. Also, the software needs to process data fast so players get real-time feedback."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "provided clear, well-structured explanations of abstract concepts with supporting examples",
+          "examples": [
+            "balancing leadership with being a player themselves can be tough; they have to lead by example but also stay calm when things go wrong"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used creative analogies to explain complex problem-solving",
+          "examples": [
+            "It's like trying to hit the perfect six. ... It's like putting the final piece in a puzzle."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "likes soft music while working",
+        "enjoys the cool post-lunch break feeling",
+        "watched 'Jawan' (Shah Rukh Khan) recently and found the emotional soldier story engaging",
+        "enjoys the moment when students understand difficult concepts",
+        "watches cricket for excitement, not technical details",
+        "limited cooking skills: can boil rice and make chai"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "cricket gloves trials with real players scheduled for a few weeks out; user will report back on results and player feedback",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "tell Maya about the next cricket match",
+        "source_session": "eval_5_A05_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "event_pending",
+        "content": "pro players testing the cricket gloves soon; user will report on feedback",
+        "source_session": "eval_8_A08_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_004",
+        "kind": "maya_promise",
+        "content": "ask how the work meeting went",
+        "source_session": "eval_9_A09_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "work_location": "works from home mostly; sometimes uses co-working space for focus",
+      "work_schedule_preference": "prefers mornings (mind is clearer); gets sleepy evenings, saves easier tasks then",
+      "music_habits": "listens to Bollywood music while coding when stuck; sings along in car; likes Pathaan songs and old Diljit Dosanjh songs",
+      "favorite_bollywood_song": "Chala Hawa Badaro",
+      "movie_preference": "prefers action movies (especially with comedy); also enjoys sci-fi and emotional dramas; watches 1-2 movies per week",
+      "hobbies": [
+        "plays cricket"
+      ],
+      "current_work_role": "works in fintech",
+      "guitar_aspiration": "wants to learn guitar to relax and play Bollywood songs after work",
+      "favorite_cricket_team": "Delhi",
+      "favorite_cricket_chaser": "Virat Kohli",
+      "cricket_viewing_habits": "watches on TV and streams on phone; prefers watching with friends to discuss strategies",
+      "liked_music_artists": [
+        "Arijit Singh"
+      ],
+      "work_engagement": "gets deeply absorbed in work, forgets time; doesn't take many breaks",
+      "relaxation_ritual": "chai break with a Bollywood movie in the background",
+      "cooking_aspiration": "wants to learn cooking from mom before moving out",
+      "biryani_preference": "Hyderabadi style — more mint and yoghurt, less oil",
+      "mother": "great cook",
+      "favorite_bollywood_songs": [
+        "Chala Hawa Badaro",
+        "Tum Hi Ho"
+      ],
+      "movie_watch_time": "evenings, around 7 or 8 with friends"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "played cricket with friends",
+        "date": "2026-04-26",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "joined a cricket startup developing smart gloves for fielders; working on sensor data processing and real-time feedback software",
+        "date": "2026-04-24",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_003",
+        "what": "watched Barbie with friends; heard Dance Monkey by Tones and I in theater",
+        "date": "2026-04-26",
+        "added": "2026-05-01",
+        "followed_up": false
+      },
+      {
+        "id": "ev_004",
+        "what": "watched Shah Rukh Khan movie with friends",
+        "date": "2026-05-02",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Gets nervous about whether product ideas are too technical or not user-friendly enough; finds reassurance and validation when seeing end-users (players) benefit and react positively",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Relates to Bollywood songs as a form of personal friendship/dosti with oneself; singing off-key is still pure joy and self-connection, even if imperfect",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_6_A06_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_7_A07_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_8_A08_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_9_A09_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.49,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "Bollywood music",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "work environment",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work schedule",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work breaks",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket fielding skills",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "project technical challenges",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "project roadmap and next steps",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "emotional engagement with creative work",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "movies",
+          "last_session": "eval_8_A08_same_day",
+          "last_date": "2026-05-01",
+          "uses": 3
+        },
+        {
+          "topic": "music and singing",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "cricket",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_7_A07_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_8_A08_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_9_A09_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "Yuvraj Singh comparison",
+        "context": "User tried a new fielding position during cricket; friend said they look like cricket legend Yuvraj Singh. User found the experience fun despite uncertainty about catching performance.",
+        "first_seen": "2026-05-01",
+        "last_used": "2026-05-01",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"watched Shah Rukh Khan movie with friends\" — tomorrow",
+        "source_id": "ev_004",
+        "priority": 9,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: clearly articulated complex technical project requirements and challenges with good structure and detail (e.g. \"The biggest challenge is making the sensors accurate in all conditions — like rain or sand. Also, the software needs to process data fast so players get real-time feedback.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: provided clear, well-structured explanations of abstract concepts with supporting examples (e.g. \"balancing leadership with being a player themselves can be tough; they have to lead by example but also stay calm when things go wrong\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used creative analogies to explain complex problem-solving (e.g. \"It's like trying to hit the perfect six. ... It's like putting the final piece in a puzzle.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Gets nervous about whether product ideas are too technical or not user-friendly enough; fi\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "clearly articulated complex technical project requirements and challenges with good structure and detail",
+          "examples": [
+            "The biggest challenge is making the sensors accurate in all conditions — like rain or sand. Also, the software needs to process data fast so players get real-time feedback."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "provided clear, well-structured explanations of abstract concepts with supporting examples",
+          "examples": [
+            "balancing leadership with being a player themselves can be tough; they have to lead by example but also stay calm when things go wrong"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "used creative analogies to explain complex problem-solving",
+          "examples": [
+            "It's like trying to hit the perfect six. ... It's like putting the final piece in a puzzle."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "likes soft music while working",
+        "enjoys the cool post-lunch break feeling",
+        "watched 'Jawan' (Shah Rukh Khan) recently and found the emotional soldier story engaging",
+        "enjoys the moment when students understand difficult concepts",
+        "watches cricket for excitement, not technical details",
+        "limited cooking skills: can boil rice and make chai"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "event_pending",
+        "content": "cricket gloves trials with real players scheduled for a few weeks out; user will report back on results and player feedback",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "tell Maya about the next cricket match",
+        "source_session": "eval_5_A05_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "event_pending",
+        "content": "pro players testing the cricket gloves soon; user will report on feedback",
+        "source_session": "eval_8_A08_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_004",
+        "kind": "maya_promise",
+        "content": "ask how the work meeting went",
+        "source_session": "eval_9_A09_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": false,
+  "duration_s": 165.1
+}

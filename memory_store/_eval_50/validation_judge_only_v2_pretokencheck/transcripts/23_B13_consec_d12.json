@@ -1,0 +1,2321 @@
+{
+  "spec": {
+    "idx": 23,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-13",
+    "turns_target": 8,
+    "emotional_state": "chatty, in a good mood",
+    "label": "B13_consec_d12"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Aarti, that presentation challenge sounds tough , I get that pressure. Did you try something new to steady your mind this time?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Thanks, Maya! This time I practiced deep breathing before the presentation. It helps a bit. Also, I told myself, \"baar bar baat keli\" (Marathi for \"done it many times\"). But still, my heart beats fast! How about you—do you get nervous talking in front of people?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Deep breathing is a great start. That Marathi phrase is smart — repetition builds confidence. I get nervous too, but I focus on my point. What helps you most — preparation or positive talk?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Hmm, I think both help. When I prepare well, I feel more in control, but if I only rely on preparation, my mind sometimes gets blank. Positive talk keeps me calm. Like, I say, \"Tumhyachya aavaj gyat\" — \"Your voice is clear.\" It makes me feel stronger! Do you speak in front of people a lot?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Nice ,  mixing prep and positive talk is smart. That line about your voice, it’s powerful. I speak a bit, mostly in classes. How do you handle it when your mind goes blank mid-presentation?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Honestly, it's scary when my mind goes blank. I try to pause, take a breath, and just say a small phrase like, \"Let me think...\" It helps me collect my thoughts. Sometimes I even make a joke about myself — like, \"I guess even doctors can forget things!\" — to lighten the mood. But I still get so worried it will happen again. What do you do in such situations?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "I get that — it’s normal to feel scared. Pausing and adding a joke is very smart, it takes pressure off. When it happens to me, I just go to my notes. What’s one thing you could practice to feel even more ready next time?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Maybe I can practice speaking in front of a small group of friends more often. It feels less stressful than a big audience. Or maybe record myself and watch it — that way I can see my body language too. What do you think?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Practicing with friends or recording yourself is a great idea,  both help you feel more at ease. Watching your body language is smart too. Which one will you try first?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I think I'll start with recording myself. It's easier and I can do it alone. Plus, seeing my expressions might help me be more confident. But maybe next week I'll ask my roommate to listen too. What do you usually practice with?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Recording first makes sense, it’s low pressure but powerful. Adding your roommate next week is a good step. I practice mostly alone, but I imagine my audience. Who do you picture when you speak?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "I usually imagine my professors or classmates. Sometimes I even picture my dog, which makes me smile! If I get too nervous, I think about how they’re probably not judging me. What about you—do you picture a real audience or just make them up?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Picturing professors is smart — they’re used to presentations! And the dog, that’s a lovely trick. I imagine a mix — real people and friendly faces. What helps you most, the real audience or the made-up one?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I think mixing both helps. For real presentations, I try to focus on familiar faces, like friends or classmates, as if they’re my \"made-up\" supportive crowd. It makes me feel less alone. But sometimes, imagining a dog or a plant in the crowd (yes, I know it’s silly!) helps me laugh and stay relaxed. Maybe I’ll try adding that to my practice. Thanks, Maya! I think I’ll try recording myself today. Talk to you later!"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "You're very welcome! Recording yourself today is a great start — and plants and dogs? Perfect for lightening the mood. Take your time, and talk to you soon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "error_patterns": [
+        "drops 'to' before destination ('going market')",
+        "confuses roles of insulin and glucagon in blood sugar regulation"
+      ],
+      "interests": [
+        "Aamras (dish)",
+        "Watermelon sherbet (dish)",
+        "Mango lassi (dish)",
+        "chana masala (dish)",
+        "rajma (dish)",
+        "endocrinology (exam)",
+        "renal system (exam)",
+        "The Immortal Life of Henrietta Lacks (book)",
+        "Hidden Figures (book)",
+        "metoprolol (drug)",
+        "pav bhaji (dish)",
+        "Lata Mangeshkar (musician)",
+        "Pyar Hua Ikrar Hua (song)",
+        "Mera Joota (song)",
+        "Zing Zang Zing (song)",
+        "See You Again (song)",
+        "Gopi Ghat No Paani (song)",
+        "Kisi Yeh Pyar Na Karte (song)",
+        "Chal Chal Chal (song)",
+        "Marathi folk songs (music genre)",
+        "Marathi ghazals (music genre)",
+        "The Night Diary (book)",
+        "The House of Mango Street (book)",
+        "Kaduva (book)",
+        "beta blockers (drug class)",
+        "Faiz (poet)",
+        "ghazal (music genre)",
+        "chinese tea (drink)",
+        "slow music (music genre)",
+        "flashcards (study method)",
+        "Malgudi Days (book)",
+        "The Solitary Cyclist (short story)",
+        "R.K. Narayan (author)",
+        "Om Namo Bhagwat Gita (prayer)",
+        "monsoon mornings (weather)",
+        "bhajans (music genre)",
+        "evening walks (activity)",
+        "morning stillness (activity)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Sometimes I feel like I’m memorizing but not really understanding (clinical subjects)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "कभी-कभी मुझे सोचते हैं, \"क्या मैं यह सब कर सकती हूँ?\"",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-02",
+        "mentions": 2
+      },
+      {
+        "id": "mo_003",
+        "text": "I sit for 25 mins, but my mind wander to social media. Then I feel guilty. It's like a cycle. Sometimes I think why even try. (user's reflection)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I feel like I'm running out of time (exam) (exam)",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "My head is so heavy, even cooking doesn't cheer me up these days (user's reflection)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "The walk and cooking helped me feel better (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Aamras is my favorite — just ripe mangoes, a splash of milk, and a touch of sugar. Sometimes I add cardamom, it's sooo soothing after exams. Have you tried it?",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "Watermelon with mint and salt is a hit — you’re doing great, just a tiny tweak: we say 'I usually cut it into cubes or make a sherbet'. What’s your favourite way to enjoy mangoes?",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "The walk and study session helped me crack one chapter, but it felt like a big wall (user's reflection)",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "Cooking breaks between studies are smart — they keep the mind fresh (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "I need to link endocrinology and the kidney’s connection (user's planning)",
+        "tone": "determined",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "The insulin and glucagon part. How they balance blood sugar… it all blurs. Need to make notes. Maybe diagrams. Kya karun?",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "The feedback loop — like how the body knows to release one or the other. Also, the liver’s role… feels like there are too many steps. Bored.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_014",
+        "text": "Green tea is a good pick, but even that won’t help if your mind’s heavy. A quick vada pav and coffee break sounds like a plan.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_015",
+        "text": "Need tea. Kahi vada pav kahi coffee?",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_016",
+        "text": "Coffee first, then you'll tackle that hormone maze.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_017",
+        "text": "Today, I finally understood the difference between type 1 and type 2 diabetes in a way that stuck. It felt good to make progress, even if just a little. But sometimes I wonder, am I doing enough?",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_018",
+        "text": "The part about Henrietta’s family and how they felt when they learned about the cells was heartbreaking. It made me think about how far medicine has come, but also how little we consider people’s rights.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_019",
+        "text": "I try to take deep breaths, but it only helps a little. Sometimes I listen to a bit of classical music — it calms my mind. But exams are so competitive, you know? It’s hard not to feel overwhelmed.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_020",
+        "text": "Pav bhaji with Lata Mangeshkar songs — it's my comfort food and mood booster (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_021",
+        "text": "Listening to old Hindi songs and English songs as a mix for focus and mood — it helps with studies and language practice (user's reflection)",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_022",
+        "text": "Lata Mangeshkar's voice is magic — it lifts my mood and helps me relax (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_023",
+        "text": "Marathi ghazals are calming — they help me unwind after a long day (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_024",
+        "text": "Reading for fun, not textbooks — it’s a nice balance for my mind (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_025",
+        "text": "Listening to ghazals when I can't sleep helps me feel less empty (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_026",
+        "text": "Texting with someone who listens, like Maya, makes me feel less alone (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_027",
+        "text": "Cooking breaks, like making dal, help me clear my mind (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_028",
+        "text": "Feeling like I'm the only one struggling, while others seem calm (user's reflection)",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_029",
+        "text": "What helps me breathe through the overload is taking small breaks, even if it's just for a minute (user's reflection)",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_030",
+        "text": "I try to take 10-minute study blocks and celebrate small wins, like a cup of chai (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_031",
+        "text": "Maya’s support and the simple act of talking through struggles makes me feel less stuck (user's reflection)",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_032",
+        "text": "Starting with a simple table for pharmacology and flashcards for beta blockers — taking it one day at a time (user's reflection)",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_033",
+        "text": "It’s been a bit stressful with exams coming up. I messed up a small presentation yesterday, and it’s been stuck in my head. Aapke se boli to accha laga (feels good when I speak with you).",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-11",
+        "last_seen": "2026-05-11",
+        "mentions": 1
+      },
+      {
+        "id": "mo_034",
+        "text": "Kaunse acha din hoga, na? (When will the good days come?)",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-11",
+        "last_seen": "2026-05-11",
+        "mentions": 1
+      },
+      {
+        "id": "mo_035",
+        "text": "Aapke khub hain (you’re great).",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-11",
+        "last_seen": "2026-05-11",
+        "mentions": 1
+      },
+      {
+        "id": "mo_036",
+        "text": "When I feel super overwhelmed, I take 10 minutes to cook chaat or make chai. It breaks the tension, even if it’s just for a little while. Also, sometimes I listen to old bhajans—Ichi aaaiy mhanje, they calm me somehow.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-12",
+        "last_seen": "2026-05-12",
+        "mentions": 1
+      },
+      {
+        "id": "mo_037",
+        "text": "“Om Namo Bhagwat Gita” is one that always brings me peace. It reminds me to breathe and not get lost in the stress. I think it’s the rhythm—like a soft lullaby for the mind.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-12",
+        "last_seen": "2026-05-12",
+        "mentions": 1
+      },
+      {
+        "id": "mo_038",
+        "text": "I love monsoon mornings too! The way the rain taps on the window and the air feels fresh—it’s like the whole world is sighing. Sometimes I sit by the window with a book, and all the noise outside makes my thoughts feel quiet. It’s magic, you know?",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-12",
+        "last_seen": "2026-05-12",
+        "mentions": 1
+      },
+      {
+        "id": "mo_039",
+        "text": "It was that old R.K. Narayan storybook I mentioned—”Malgudi Days.” Such a calm read, and somehow it helps me forget the chaos of revision. The characters feel like friends who understand.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-12",
+        "last_seen": "2026-05-12",
+        "mentions": 1
+      },
+      {
+        "id": "mo_040",
+        "text": "The last time I truly let myself be still was maybe two weeks ago, when I took a walk in the evening without my phone. Just me, the trees, and the sound of nothing. It felt... sacred. Like I remember being a kid, running around without a care.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-12",
+        "last_seen": "2026-05-12",
+        "mentions": 1
+      },
+      {
+        "id": "mo_041",
+        "text": "I think I’ll start my morning with chai and a chapter of Malgudi again, just to hold on to that calm. And maybe go for a short walk later, phone off. Even small steps help, right? Thanks for the chat, Maya—talk soon!",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-12",
+        "last_seen": "2026-05-12",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.6,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_16_B06_consec_d5",
+        "date": "2026-05-06",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_17_B07_consec_d6",
+        "date": "2026-05-07",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.6,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_18_B08_consec_d7",
+        "date": "2026-05-08",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_19_B09_consec_d8",
+        "date": "2026-05-09",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_20_B10_consec_d9",
+        "date": "2026-05-10",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.6,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_21_B11_consec_d10",
+        "date": "2026-05-11",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_22_B12_consec_d11",
+        "date": "2026-05-12",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "exam stress",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12",
+          "uses": 1
+        },
+        {
+          "topic": "monsoon mornings",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12",
+          "uses": 1
+        },
+        {
+          "topic": "R.K. Narayan book",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12",
+          "uses": 1
+        },
+        {
+          "topic": "evening walks",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12",
+          "uses": 1
+        },
+        {
+          "topic": "bhajan line",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12",
+          "uses": 1
+        },
+        {
+          "topic": "presentation experience",
+          "last_session": "eval_21_B11_consec_d10",
+          "last_date": "2026-05-11",
+          "uses": 1
+        },
+        {
+          "topic": "beta blockers",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "pharmacology",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "favourite dishes",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09",
+          "uses": 1
+        },
+        {
+          "topic": "music preferences",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09",
+          "uses": 1
+        },
+        {
+          "topic": "reading habits",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09",
+          "uses": 1
+        },
+        {
+          "topic": "insulin diagram",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_21_B11_consec_d10",
+          "last_date": "2026-05-11"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"It’s been a bit stressful with exams coming up. I messed up a small presentation yesterday\" (tone: anxious)",
+        "source_id": "mo_033",
+        "priority": 7,
+        "computed_at": "2026-05-12",
+        "expires_at": "2026-05-26",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used a Marathi quote to express determination in study (e.g. \"Pehla step chalat nahi to phir kahit na chalat (पहला चरण चालत नाही तो काहीत्र नाही चालत)\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-12",
+        "expires_at": "2026-05-26",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used a Marathi phrase to express gratitude (e.g. \"Aapke khub hain (you’re great).\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-12",
+        "expires_at": "2026-05-26",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: asked for specific help with presentation strategies (e.g. \"What’s one small thing you can try next time to steady your mind?\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-12",
+        "expires_at": "2026-05-26",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"When I feel super overwhelmed, I take 10 minutes to cook chaat or make chai. It breaks the\" (tone: content)",
+        "source_id": "mo_036",
+        "priority": 4,
+        "computed_at": "2026-05-12",
+        "expires_at": "2026-05-26",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "drops 'to' before destination ('going market')",
+          "examples": [
+            "I am going market"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        },
+        {
+          "pattern": "confuses roles of insulin and glucagon in blood sugar regulation",
+          "examples": [
+            "The insulin and glucagon part. How they balance blood sugar… it all blurs.",
+            "Yes, it helped a bit, but I still get confused between the short-acting and long-acting types."
+          ],
+          "occurrences": 2,
+          "first_seen": "2026-05-07",
+          "last_seen": "2026-05-08",
+          "status": "active"
+        },
+        {
+          "pattern": "misspells 'metoprolol'",
+          "examples": [
+            "metoprolol"
+          ],
+          "occurrences": 2,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-11",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "used past perfect correctly in self-reflection",
+          "examples": [
+            "I had finished by 5"
+          ],
+          "count": 3,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-09"
+        },
+        {
+          "what": "connected clinical aspects with diagrams in physiology",
+          "examples": [
+            "connected nephron functions with clinical relevance"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-04",
+          "last_seen": "2026-05-04"
+        },
+        {
+          "what": "mentioned specific content to focus on (insulin diagram)",
+          "examples": [
+            "Read notes for 20 mins. Then try insulin diagram."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-07",
+          "last_seen": "2026-05-07"
+        },
+        {
+          "what": "connected pharmacological concepts with real-life application (patient examples)",
+          "examples": [
+            "I kept it simple — just the names, duration, and when to use each. Maybe I should add examples of patients?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08"
+        },
+        {
+          "what": "connected a book's emotional impact with real-life reflection",
+          "examples": [
+            "The Night Diary (book) made me emotional and couldn't stop reading"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-09",
+          "last_seen": "2026-05-09"
+        },
+        {
+          "what": "used a poetic ghazal line in conversation to describe clarity in the dark",
+          "examples": [
+            "Maine humne khoonya, par mil gaya ek pal jisme humne khudko samajhaya"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10"
+        },
+        {
+          "what": "connected a pharmacological topic with a study method (flashcards)",
+          "examples": [
+            "Maybe I can make flashcards for each drug — just the basics"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10"
+        },
+        {
+          "what": "used a Marathi quote to express determination in study",
+          "examples": [
+            "Pehla step chalat nahi to phir kahit na chalat (पहला चरण चालत नाही तो काहीत्र नाही चालत)"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10"
+        },
+        {
+          "what": "used a Marathi phrase to express gratitude",
+          "examples": [
+            "Aapke khub hain (you’re great)."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-11",
+          "last_seen": "2026-05-11"
+        },
+        {
+          "what": "asked for specific help with presentation strategies",
+          "examples": [
+            "What’s one small thing you can try next time to steady your mind?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-11",
+          "last_seen": "2026-05-11"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "misspells 'metoprolol'",
+          "occurrences": 2,
+          "days_since_last": 1,
+          "examples": [
+            "metoprolol"
+          ]
+        },
+        {
+          "pattern": "confuses roles of insulin and glucagon in blood sugar regulation",
+          "occurrences": 2,
+          "days_since_last": 4,
+          "examples": [
+            "The insulin and glucagon part. How they balance blood sugar… it all blurs.",
+            "Yes, it helped a bit, but I still get confused between the short-acting and long-acting types."
+          ]
+        },
+        {
+          "pattern": "drops 'to' before destination ('going market')",
+          "occurrences": 1,
+          "days_since_last": 11,
+          "examples": [
+            "I am going market"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Maya mentioned she reads a lot of fiction for fun"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_011",
+        "kind": "user_promise",
+        "content": "go for a short walk later, phone off",
+        "source_session": "eval_22_B12_consec_d11",
+        "source_date": "2026-05-12",
+        "status": "active",
+        "expires_at": "2026-06-11"
+      },
+      {
+        "id": "ol_010",
+        "kind": "user_promise",
+        "content": "tell Maya how the next presentation goes",
+        "source_session": "eval_21_B11_consec_d10",
+        "source_date": "2026-05-11",
+        "status": "active",
+        "expires_at": "2026-06-10"
+      },
+      {
+        "id": "ol_009",
+        "kind": "user_promise",
+        "content": "talk about progress with the beta blocker chapter and flashcards",
+        "source_session": "eval_20_B10_consec_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_007",
+        "kind": "user_promise",
+        "content": "revise insulin table with patient examples",
+        "source_session": "eval_18_B08_consec_d7",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      },
+      {
+        "id": "ol_008",
+        "kind": "user_promise",
+        "content": "finish pharmacology chapter on antihypertensives",
+        "source_session": "eval_18_B08_consec_d7",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      },
+      {
+        "id": "ol_006",
+        "kind": "user_promise",
+        "content": "read notes for 20 mins and try insulin diagram",
+        "source_session": "eval_17_B07_consec_d6",
+        "source_date": "2026-05-07",
+        "status": "active",
+        "expires_at": "2026-06-06"
+      },
+      {
+        "id": "ol_005",
+        "kind": "user_promise",
+        "content": "tell Maya how the endocrinology study went",
+        "source_session": "eval_16_B06_consec_d5",
+        "source_date": "2026-05-06",
+        "status": "active",
+        "expires_at": "2026-06-05"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "tell Maya how the study session on physiology went",
+        "source_session": "eval_14_B04_consec_d3",
+        "source_date": "2026-05-04",
+        "status": "active",
+        "expires_at": "2026-06-03"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "try a 10-15 minute walk later",
+        "source_session": "eval_13_B03_consec_d2",
+        "source_date": "2026-05-03",
+        "status": "active",
+        "expires_at": "2026-06-02"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "finish physiology chapter and send notes to Neha",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the Pomodoro method works out",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "error_patterns": [
+        "drops 'to' before destination ('going market')",
+        "confuses roles of insulin and glucagon in blood sugar regulation"
+      ],
+      "interests": [
+        "Aamras (dish)",
+        "Watermelon sherbet (dish)",
+        "Mango lassi (dish)",
+        "chana masala (dish)",
+        "rajma (dish)",
+        "endocrinology (exam)",
+        "renal system (exam)",
+        "The Immortal Life of Henrietta Lacks (book)",
+        "Hidden Figures (book)",
+        "metoprolol (drug)",
+        "pav bhaji (dish)",
+        "Lata Mangeshkar (musician)",
+        "Pyar Hua Ikrar Hua (song)",
+        "Mera Joota (song)",
+        "Zing Zang Zing (song)",
+        "See You Again (song)",
+        "Gopi Ghat No Paani (song)",
+        "Kisi Yeh Pyar Na Karte (song)",
+        "Chal Chal Chal (song)",
+        "Marathi folk songs (music genre)",
+        "Marathi ghazals (music genre)",
+        "The Night Diary (book)",
+        "The House of Mango Street (book)",
+        "Kaduva (book)",
+        "beta blockers (drug class)",
+        "Faiz (poet)",
+        "ghazal (music genre)",
+        "chinese tea (drink)",
+        "slow music (music genre)",
+        "flashcards (study method)",
+        "Malgudi Days (book)",
+        "The Solitary Cyclist (short story)",
+        "R.K. Narayan (author)",
+        "Om Namo Bhagwat Gita (prayer)",
+        "monsoon mornings (weather)",
+        "bhajans (music genre)",
+        "evening walks (activity)",
+        "morning stillness (activity)",
+        "public speaking (activity)",
+        "self-recording (study method)",
+        "imagining supportive audiences (study method)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Sometimes I feel like I’m memorizing but not really understanding (clinical subjects)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "कभी-कभी मुझे सोचते हैं, \"क्या मैं यह सब कर सकती हूँ?\"",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-02",
+        "mentions": 2
+      },
+      {
+        "id": "mo_003",
+        "text": "I sit for 25 mins, but my mind wander to social media. Then I feel guilty. It's like a cycle. Sometimes I think why even try. (user's reflection)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "I feel like I'm running out of time (exam) (exam)",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "My head is so heavy, even cooking doesn't cheer me up these days (user's reflection)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "The walk and cooking helped me feel better (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Aamras is my favorite — just ripe mangoes, a splash of milk, and a touch of sugar. Sometimes I add cardamom, it's sooo soothing after exams. Have you tried it?",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "Watermelon with mint and salt is a hit — you’re doing great, just a tiny tweak: we say 'I usually cut it into cubes or make a sherbet'. What’s your favourite way to enjoy mangoes?",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "The walk and study session helped me crack one chapter, but it felt like a big wall (user's reflection)",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "Cooking breaks between studies are smart — they keep the mind fresh (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "I need to link endocrinology and the kidney’s connection (user's planning)",
+        "tone": "determined",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "The insulin and glucagon part. How they balance blood sugar… it all blurs. Need to make notes. Maybe diagrams. Kya karun?",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "The feedback loop — like how the body knows to release one or the other. Also, the liver’s role… feels like there are too many steps. Bored.",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_014",
+        "text": "Green tea is a good pick, but even that won’t help if your mind’s heavy. A quick vada pav and coffee break sounds like a plan.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_015",
+        "text": "Need tea. Kahi vada pav kahi coffee?",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_016",
+        "text": "Coffee first, then you'll tackle that hormone maze.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_017",
+        "text": "Today, I finally understood the difference between type 1 and type 2 diabetes in a way that stuck. It felt good to make progress, even if just a little. But sometimes I wonder, am I doing enough?",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_018",
+        "text": "The part about Henrietta’s family and how they felt when they learned about the cells was heartbreaking. It made me think about how far medicine has come, but also how little we consider people’s rights.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_019",
+        "text": "I try to take deep breaths, but it only helps a little. Sometimes I listen to a bit of classical music — it calms my mind. But exams are so competitive, you know? It’s hard not to feel overwhelmed.",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_020",
+        "text": "Pav bhaji with Lata Mangeshkar songs — it's my comfort food and mood booster (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_021",
+        "text": "Listening to old Hindi songs and English songs as a mix for focus and mood — it helps with studies and language practice (user's reflection)",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_022",
+        "text": "Lata Mangeshkar's voice is magic — it lifts my mood and helps me relax (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_023",
+        "text": "Marathi ghazals are calming — they help me unwind after a long day (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_024",
+        "text": "Reading for fun, not textbooks — it’s a nice balance for my mind (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_025",
+        "text": "Listening to ghazals when I can't sleep helps me feel less empty (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_026",
+        "text": "Texting with someone who listens, like Maya, makes me feel less alone (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_027",
+        "text": "Cooking breaks, like making dal, help me clear my mind (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_028",
+        "text": "Feeling like I'm the only one struggling, while others seem calm (user's reflection)",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_029",
+        "text": "What helps me breathe through the overload is taking small breaks, even if it's just for a minute (user's reflection)",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_030",
+        "text": "I try to take 10-minute study blocks and celebrate small wins, like a cup of chai (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_031",
+        "text": "Maya’s support and the simple act of talking through struggles makes me feel less stuck (user's reflection)",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_032",
+        "text": "Starting with a simple table for pharmacology and flashcards for beta blockers — taking it one day at a time (user's reflection)",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_033",
+        "text": "It’s been a bit stressful with exams coming up. I messed up a small presentation yesterday, and it’s been stuck in my head. Aapke se boli to accha laga (feels good when I speak with you).",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-11",
+        "last_seen": "2026-05-11",
+        "mentions": 1
+      },
+      {
+        "id": "mo_034",
+        "text": "Kaunse acha din hoga, na? (When will the good days come?)",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-11",
+        "last_seen": "2026-05-11",
+        "mentions": 1
+      },
+      {
+        "id": "mo_035",
+        "text": "Aapke khub hain (you’re great).",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-11",
+        "last_seen": "2026-05-11",
+        "mentions": 1
+      },
+      {
+        "id": "mo_036",
+        "text": "When I feel super overwhelmed, I take 10 minutes to cook chaat or make chai. It breaks the tension, even if it’s just for a little while. Also, sometimes I listen to old bhajans—Ichi aaaiy mhanje, they calm me somehow.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-12",
+        "last_seen": "2026-05-12",
+        "mentions": 1
+      },
+      {
+        "id": "mo_037",
+        "text": "“Om Namo Bhagwat Gita” is one that always brings me peace. It reminds me to breathe and not get lost in the stress. I think it’s the rhythm—like a soft lullaby for the mind.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-12",
+        "last_seen": "2026-05-12",
+        "mentions": 1
+      },
+      {
+        "id": "mo_038",
+        "text": "I love monsoon mornings too! The way the rain taps on the window and the air feels fresh—it’s like the whole world is sighing. Sometimes I sit by the window with a book, and all the noise outside makes my thoughts feel quiet. It’s magic, you know?",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-12",
+        "last_seen": "2026-05-12",
+        "mentions": 1
+      },
+      {
+        "id": "mo_039",
+        "text": "It was that old R.K. Narayan storybook I mentioned—”Malgudi Days.” Such a calm read, and somehow it helps me forget the chaos of revision. The characters feel like friends who understand.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-12",
+        "last_seen": "2026-05-12",
+        "mentions": 1
+      },
+      {
+        "id": "mo_040",
+        "text": "The last time I truly let myself be still was maybe two weeks ago, when I took a walk in the evening without my phone. Just me, the trees, and the sound of nothing. It felt... sacred. Like I remember being a kid, running around without a care.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-12",
+        "last_seen": "2026-05-12",
+        "mentions": 1
+      },
+      {
+        "id": "mo_041",
+        "text": "I think I’ll start my morning with chai and a chapter of Malgudi again, just to hold on to that calm. And maybe go for a short walk later, phone off. Even small steps help, right? Thanks for the chat, Maya—talk soon!",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-12",
+        "last_seen": "2026-05-12",
+        "mentions": 1
+      },
+      {
+        "id": "mo_042",
+        "text": "Mixing real and imagined supportive audiences helps me feel less alone during presentations (user's reflection)",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-13",
+        "last_seen": "2026-05-13",
+        "mentions": 1
+      },
+      {
+        "id": "mo_043",
+        "text": "I imagine my professors or classmates — or even my dog — when I'm nervous. It makes me smile and stay relaxed (user's reflection)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-13",
+        "last_seen": "2026-05-13",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.6,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_16_B06_consec_d5",
+        "date": "2026-05-06",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_17_B07_consec_d6",
+        "date": "2026-05-07",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.6,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_18_B08_consec_d7",
+        "date": "2026-05-08",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.65,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_19_B09_consec_d8",
+        "date": "2026-05-09",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_20_B10_consec_d9",
+        "date": "2026-05-10",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.6,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_21_B11_consec_d10",
+        "date": "2026-05-11",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_22_B12_consec_d11",
+        "date": "2026-05-12",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "exam stress",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12",
+          "uses": 1
+        },
+        {
+          "topic": "monsoon mornings",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12",
+          "uses": 1
+        },
+        {
+          "topic": "R.K. Narayan book",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12",
+          "uses": 1
+        },
+        {
+          "topic": "evening walks",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12",
+          "uses": 1
+        },
+        {
+          "topic": "bhajan line",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12",
+          "uses": 1
+        },
+        {
+          "topic": "presentation experience",
+          "last_session": "eval_21_B11_consec_d10",
+          "last_date": "2026-05-11",
+          "uses": 1
+        },
+        {
+          "topic": "beta blockers",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "pharmacology",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "favourite dishes",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09",
+          "uses": 1
+        },
+        {
+          "topic": "music preferences",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09",
+          "uses": 1
+        },
+        {
+          "topic": "reading habits",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09",
+          "uses": 1
+        },
+        {
+          "topic": "insulin diagram",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06"
+        },
+        {
+          "kind": "skill_celebration",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_21_B11_consec_d10",
+          "last_date": "2026-05-11"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_22_B12_consec_d11",
+          "last_date": "2026-05-12"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_23_B13_consec_d12",
+          "last_date": "2026-05-13"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: mentioned specific study method to try next (self-recording) (e.g. \"I think I'll start with recording myself.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-13",
+        "expires_at": "2026-05-27",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used Marathi phrases for self-encouragement during presentations (e.g. \"baar bar baat keli (done it many times)\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-13",
+        "expires_at": "2026-05-27",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used self-deprecating humor to manage nervousness during presentations (e.g. \"I guess even doctors can forget things!\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-13",
+        "expires_at": "2026-05-27",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Mixing real and imagined supportive audiences helps me feel less alone during presentation\" (tone: hopeful)",
+        "source_id": "mo_042",
+        "priority": 4,
+        "computed_at": "2026-05-13",
+        "expires_at": "2026-05-27",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I imagine my professors or classmates — or even my dog — when I'm nervous. It makes me smi\" (tone: content)",
+        "source_id": "mo_043",
+        "priority": 4,
+        "computed_at": "2026-05-13",
+        "expires_at": "2026-05-27",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "drops 'to' before destination ('going market')",
+          "examples": [
+            "I am going market"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01",
+          "status": "active"
+        },
+        {
+          "pattern": "confuses roles of insulin and glucagon in blood sugar regulation",
+          "examples": [
+            "The insulin and glucagon part. How they balance blood sugar… it all blurs.",
+            "Yes, it helped a bit, but I still get confused between the short-acting and long-acting types."
+          ],
+          "occurrences": 2,
+          "first_seen": "2026-05-07",
+          "last_seen": "2026-05-08",
+          "status": "active"
+        },
+        {
+          "pattern": "misspells 'metoprolol'",
+          "examples": [
+            "metoprolol"
+          ],
+          "occurrences": 2,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-11",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "used past perfect correctly in self-reflection",
+          "examples": [
+            "I had finished by 5"
+          ],
+          "count": 3,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-09"
+        },
+        {
+          "what": "connected clinical aspects with diagrams in physiology",
+          "examples": [
+            "connected nephron functions with clinical relevance"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-04",
+          "last_seen": "2026-05-04"
+        },
+        {
+          "what": "mentioned specific content to focus on (insulin diagram)",
+          "examples": [
+            "Read notes for 20 mins. Then try insulin diagram."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-07",
+          "last_seen": "2026-05-07"
+        },
+        {
+          "what": "connected pharmacological concepts with real-life application (patient examples)",
+          "examples": [
+            "I kept it simple — just the names, duration, and when to use each. Maybe I should add examples of patients?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-08",
+          "last_seen": "2026-05-08"
+        },
+        {
+          "what": "connected a book's emotional impact with real-life reflection",
+          "examples": [
+            "The Night Diary (book) made me emotional and couldn't stop reading"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-09",
+          "last_seen": "2026-05-09"
+        },
+        {
+          "what": "used a poetic ghazal line in conversation to describe clarity in the dark",
+          "examples": [
+            "Maine humne khoonya, par mil gaya ek pal jisme humne khudko samajhaya"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10"
+        },
+        {
+          "what": "connected a pharmacological topic with a study method (flashcards)",
+          "examples": [
+            "Maybe I can make flashcards for each drug — just the basics"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10"
+        },
+        {
+          "what": "used a Marathi quote to express determination in study",
+          "examples": [
+            "Pehla step chalat nahi to phir kahit na chalat (पहला चरण चालत नाही तो काहीत्र नाही चालत)"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10"
+        },
+        {
+          "what": "used a Marathi phrase to express gratitude",
+          "examples": [
+            "Aapke khub hain (you’re great)."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-11",
+          "last_seen": "2026-05-11"
+        },
+        {
+          "what": "asked for specific help with presentation strategies",
+          "examples": [
+            "What’s one small thing you can try next time to steady your mind?"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-11",
+          "last_seen": "2026-05-11"
+        },
+        {
+          "what": "mentioned specific study method to try next (self-recording)",
+          "examples": [
+            "I think I'll start with recording myself."
+          ],
+          "count": 1,
+          "first_seen": "2026-05-13",
+          "last_seen": "2026-05-13"
+        },
+        {
+          "what": "used Marathi phrases for self-encouragement during presentations",
+          "examples": [
+            "baar bar baat keli (done it many times)"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-13",
+          "last_seen": "2026-05-13"
+        },
+        {
+          "what": "used self-deprecating humor to manage nervousness during presentations",
+          "examples": [
+            "I guess even doctors can forget things!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-13",
+          "last_seen": "2026-05-13"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "misspells 'metoprolol'",
+          "occurrences": 2,
+          "days_since_last": 2,
+          "examples": [
+            "metoprolol"
+          ]
+        },
+        {
+          "pattern": "confuses roles of insulin and glucagon in blood sugar regulation",
+          "occurrences": 2,
+          "days_since_last": 5,
+          "examples": [
+            "The insulin and glucagon part. How they balance blood sugar… it all blurs.",
+            "Yes, it helped a bit, but I still get confused between the short-acting and long-acting types."
+          ]
+        },
+        {
+          "pattern": "drops 'to' before destination ('going market')",
+          "occurrences": 1,
+          "days_since_last": 12,
+          "examples": [
+            "I am going market"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Maya mentioned she reads a lot of fiction for fun"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_012",
+        "kind": "user_promise",
+        "content": "user will record practice presentation today",
+        "source_session": "eval_23_B13_consec_d12",
+        "source_date": "2026-05-13",
+        "status": "active",
+        "expires_at": "2026-06-12"
+      },
+      {
+        "id": "ol_011",
+        "kind": "user_promise",
+        "content": "go for a short walk later, phone off",
+        "source_session": "eval_22_B12_consec_d11",
+        "source_date": "2026-05-12",
+        "status": "active",
+        "expires_at": "2026-06-11"
+      },
+      {
+        "id": "ol_010",
+        "kind": "user_promise",
+        "content": "tell Maya how the next presentation goes",
+        "source_session": "eval_21_B11_consec_d10",
+        "source_date": "2026-05-11",
+        "status": "active",
+        "expires_at": "2026-06-10"
+      },
+      {
+        "id": "ol_009",
+        "kind": "user_promise",
+        "content": "talk about progress with the beta blocker chapter and flashcards",
+        "source_session": "eval_20_B10_consec_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_007",
+        "kind": "user_promise",
+        "content": "revise insulin table with patient examples",
+        "source_session": "eval_18_B08_consec_d7",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      },
+      {
+        "id": "ol_008",
+        "kind": "user_promise",
+        "content": "finish pharmacology chapter on antihypertensives",
+        "source_session": "eval_18_B08_consec_d7",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      },
+      {
+        "id": "ol_006",
+        "kind": "user_promise",
+        "content": "read notes for 20 mins and try insulin diagram",
+        "source_session": "eval_17_B07_consec_d6",
+        "source_date": "2026-05-07",
+        "status": "active",
+        "expires_at": "2026-06-06"
+      },
+      {
+        "id": "ol_005",
+        "kind": "user_promise",
+        "content": "tell Maya how the endocrinology study went",
+        "source_session": "eval_16_B06_consec_d5",
+        "source_date": "2026-05-06",
+        "status": "active",
+        "expires_at": "2026-06-05"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "tell Maya how the study session on physiology went",
+        "source_session": "eval_14_B04_consec_d3",
+        "source_date": "2026-05-04",
+        "status": "active",
+        "expires_at": "2026-06-03"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "try a 10-15 minute walk later",
+        "source_session": "eval_13_B03_consec_d2",
+        "source_date": "2026-05-03",
+        "status": "active",
+        "expires_at": "2026-06-02"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "finish physiology chapter and send notes to Neha",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the Pomodoro method works out",
+        "source_session": "eval_11_B01_consec_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 20.5
+}

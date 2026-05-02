@@ -1,0 +1,813 @@
+{
+  "spec": {
+    "idx": 49,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-22",
+    "turns_target": 14,
+    "emotional_state": "anxious, exam stress",
+    "label": "E04_deeprun_w3"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, missing the quiet of Hampi at sunset is understandable — I enjoy watching the sun dip slowly, casting golden light everywhere. How have you been feeling lately?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Honestly, I've been stressin’ out a lot lately. My exams are coming up, and it feels like I’m drownin’ in deadlines and anxiety. It’s like, *aadu* (Tamil for \"man\") — sometimes I just wanna run away and chill in a place like Hampi. But the work just won’t stop piling up. How do you stay so calm?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Got it — exam and deadline stress is relentless.\"  \"Chai in Hampi is one solution, but there's also the quiet of evenings there to calm the mind.\"  \"What’s the heaviest part of your workload right now?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "It’s the design project — we have to present a full prototype by next week. I’m trying to balance that with my studies, and it’s like, *nalla kattu* (Tamil for “big headache”). I feel like I’m stuck in a loop of sketching, coding, stressing... I just can’t catch a break. Do you ever get overwhelmed like that?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "\"Sketching and coding deadlines are a rough combo — I get that loop.\" \"It sounds like the pressure is non-stop.\" \"What part of the prototype feels most stuck right now?\""
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "The UI feels like it's not clickin' with the user flow — I keep redesignin' the same screen over and over. It’s like tryin’ to solve a puzzle where the pieces are changin’ shapes. And my brain’s just... *thud*, out of ideas. Have you ever had one of those projects that just *refuses* to come together?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "\"UI loops that never land are the worst — it’s like chasing a shadow.\" \"That puzzle with shifting pieces is maddening.\" \"What’s the one thing on that screen that just won’t sit right?\""
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "The navigation bar — it’s just so clunky. Every time I think I’ve got it right, someone points out a flaw and I’m back to square one. It’s like, why is this one part so stubborn? Meanwhile, the deadline’s ticking. I’m starting to think I need to just sleep on it and hope my brain magic happens. Have you ever forced yourself to work on something when you’re clearly not in the zone?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "\"Clunky navigation is the classic 'half-solved' trap, maddening!\" \"Sleep-on-it is a move I’ve used — the brain does work in mysterious ways.\" \"What’s the biggest flaw people keep pointing out?\""
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "The biggest issue is the dropdown menu — it’s causing confusion because it’s too nested. People can’t find what they’re looking for fast enough, and I’m like, why can’t this just *behave*? I’m tempted to scrap it and start fresh, but that’s probably not smart with the deadline… *thinks aloud* Maybe I’ll try sketching it out on paper first. Sometimes analog helps. Have you ever gone back to basics when digital just won’t cut it?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "\"Dropdown menus that confuse — classic design gotcha!\" \"Paper sketching is a smart reset when digital gets stuck.\" \"What’s the one thing you want that menu to solve?\""
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "I want the menu to feel *intuitive* — like, no thinking, just flow. But every fix I try adds another layer of confusion. It’s like asking someone to dance while the music keeps changing. I’m so over it. Maybe a walk would help? Sometimes my brain works better when my feet are moving. Have you tried that when stuck on something?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "\"Intuitive design is the holy grail, and the music-changing dance is exactly the struggle.\" \"A walk sounds like a solid plan — moving feet often stir up fresh ideas.\" \"What part of the menu would you start simplifying first?\""
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I’d start with the homepage section — it’s the first thing users see, so if it’s muddy, everything after that feels like a slog. Maybe flatten the hierarchy? But I keep second-guessing myself. Ugh. *thinks* Maybe I’ll just walk for now and let my brain marinate. You ever had that “let me just walk it out” moment turn into an actual solution?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "\"Starting with the homepage is wise — the first step sets the tone, literally.\" \"A walk to let it marinate is a smart move — sometimes the brain needs space to untangle knots.\" Did that walk ever spark a solution for you before?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Yeah, totally — there was this one time I was stuck on a layout, took a walk by this little café, and just as I was sipping *filter kaapi*, the idea hit me. Like, *boom*. So maybe my brain needs a little caffeine and fresh air combo right now. I’ll go for a walk, maybe swing by that new café downtown. Who knows, maybe my navigation bar will magically make sense. *laughs* Thanks, Maya."
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Filter kaapi + fresh air = recipe for 'boom' moments — go get it! Cafés and walks have a way of unsticking the stuck. How did the idea land when you got back?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "I’ll let you know, okay? But first, I need a cup of that magic *filter kaapi* — I haven’t had my caffeine fix yet. Coffee first, then I’ll tackle the navigation bar with a fresher head. Maybe the café will have a good playlist too; indie music always helps me think. *sighs* Here goes nothing."
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Filter kaapi is the original focus fuel — you’ll come back with clarity and caffeine. What’s your go-to playlist when you need to zone in?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "Nothing specific — just a mix of lo-fi and indie stuff, mostly. I like *Arctic Monkeys* when I need a little edge, or *Marika Hackman* for that chill vibe. But I’m a sucker for anything with a good rhythm to it. You know, something that hums in the background without stealing focus. What about you — what’s your focus soundtrack?"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "I go for instrumental lo-fi — the hum of a beat without lyrics keeps my mind clear. What track from Arctic Monkeys gets you in the zone?"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "Do you know, *\"R U More\"*? The energy in that track just pushes me forward, like a little indie fuel. It’s got this vibe that’s like, *okay, just do it*. But honestly, sometimes even that can get too much — I have to switch to Marika Hackman or some chill lo-fi. Keeps my head from exploding. You ever find music that just *gets* your work mood?"
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "R U More has that perfect push — just the right amount of energy to keep the momentum going. I get how it can get too much, though — balancing the beat with calm is key. What’s the track of yours that always hits the right mood?"
+    },
+    {
+      "turn": 13,
+      "role": "user",
+      "content": "Honestly, it’s usually whatever’s on shuffle — I’m not too picky, as long as it’s got a vibe. But *“Calling My Name”* by Marika Hackman is my go-to when I need calm focus. It’s like the song knows I’m trying to survive a deadline. Thanks for chatting, Maya — I think I’m gonna head out now. Need that *filter kaapi* and some fresh air to clear my head. Talk to you later!"
+    },
+    {
+      "turn": 13,
+      "role": "maya",
+      "content": "Calling My Name is a perfect anchor for deadlines — I get that vibe. Take your kaapi and fresh air — and let the menu magic happen. Talk soon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "interests": [
+        "Tamil cultural motifs (project)",
+        "digital design (project)",
+        "app design (project)",
+        "startup pitch prep (project)",
+        "Vaanmam (band)",
+        "Kadalai Kadal (song)",
+        "Mata Rani (song)",
+        "Tamil indie music (genre)",
+        "Marathi folk music (genre)",
+        "The Whispering Bean (restaurant)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "chai hunt as a morning ritual (habit)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "struggling to explain user flow clearly in a pitch (frustration)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "missing the quiet of Hampi at sunset (longing)",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "craving a chat when feeling lonely (vulnerability)",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_48_E03_deeprun_w2",
+        "date": "2026-05-15",
+        "label": "low",
+        "energy": 4,
+        "confidence": 0.49,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Tamil cultural motifs (project)",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "digital design (project)",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "app design (project)",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "startup pitch prep (project)",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "pitch presentation struggles",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "storytelling as a hook",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "cultural design challenges",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "creative process",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"missing the quiet of Hampi at sunset (longing)\" (tone: lonely)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"craving a chat when feeling lonely (vulnerability)\" (tone: lonely)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"struggling to explain user flow clearly in a pitch (frustration)\" (tone: frustrated)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"chai hunt as a morning ritual (habit)\" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-15",
+        "expires_at": "2026-05-29",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Maya mentioned she enjoys chatting with friends during breaks"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "send link to 'Mata Rani' song",
+        "source_session": "eval_48_E03_deeprun_w2",
+        "source_date": "2026-05-15",
+        "status": "active",
+        "expires_at": "2026-06-14"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "send photo of The Whispering Bean menu",
+        "source_session": "eval_48_E03_deeprun_w2",
+        "source_date": "2026-05-15",
+        "status": "active",
+        "expires_at": "2026-06-14"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "try a 30-second hook pitch tonight",
+        "source_session": "eval_47_E02_deeprun_w1",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "talk about sketching progress",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": "active",
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {
+        "correction_style": "2026-05-08"
+      }
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "interests": [
+        "Tamil cultural motifs (project)",
+        "digital design (project)",
+        "app design (project)",
+        "startup pitch prep (project)",
+        "Vaanmam (band)",
+        "Kadalai Kadal (song)",
+        "Mata Rani (song)",
+        "Tamil indie music (genre)",
+        "Marathi folk music (genre)",
+        "The Whispering Bean (restaurant)",
+        "filter kaapi (drink)",
+        "Arctic Monkeys (band)",
+        "Marika Hackman (band)",
+        "lo-fi music (genre)",
+        "intuitive UI design (project)",
+        "indie music playlists (habit)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "chai hunt as a morning ritual (habit)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "struggling to explain user flow clearly in a pitch (frustration)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "missing the quiet of Hampi at sunset (longing)",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "craving a chat when feeling lonely (vulnerability)",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-05-15",
+        "last_seen": "2026-05-15",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "stressed about exams and deadlines (anxiety)",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "feeling overwhelmed by design project workload (frustration)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "craving intuitive UI design solutions (focus)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "turning to music and walks to refocus (habit)",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_48_E03_deeprun_w2",
+        "date": "2026-05-15",
+        "label": "low",
+        "energy": 4,
+        "confidence": 0.49,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_49_E04_deeprun_w3",
+        "date": "2026-05-22",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "missing the quiet of Hampi at sunset",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "design project stress",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "UI design struggles",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "filter kaapi and focus",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "music and work rhythm",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "Tamil cultural motifs (project)",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "digital design (project)",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "app design (project)",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "startup pitch prep (project)",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15",
+          "uses": 1
+        },
+        {
+          "topic": "pitch presentation struggles",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "storytelling as a hook",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "cultural design challenges",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_48_E03_deeprun_w2",
+          "last_date": "2026-05-15"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_49_E04_deeprun_w3",
+          "last_date": "2026-05-22"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"stressed about exams and deadlines (anxiety)\" (tone: anxious)",
+        "source_id": "mo_005",
+        "priority": 7,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"feeling overwhelmed by design project workload (frustration)\" (tone: frustrated)",
+        "source_id": "mo_006",
+        "priority": 7,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"missing the quiet of Hampi at sunset (longing)\" (tone: lonely)",
+        "source_id": "mo_003",
+        "priority": 7,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"craving a chat when feeling lonely (vulnerability)\" (tone: lonely)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"struggling to explain user flow clearly in a pitch (frustration)\" (tone: frustrated)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Maya mentioned she enjoys chatting with friends during breaks"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_005",
+        "kind": "user_promise",
+        "content": "update Maya on navigation bar solution after walk",
+        "source_session": "eval_49_E04_deeprun_w3",
+        "source_date": "2026-05-22",
+        "status": "active",
+        "expires_at": "2026-06-21"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "send link to 'Mata Rani' song",
+        "source_session": "eval_48_E03_deeprun_w2",
+        "source_date": "2026-05-15",
+        "status": "active",
+        "expires_at": "2026-06-14"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "send photo of The Whispering Bean menu",
+        "source_session": "eval_48_E03_deeprun_w2",
+        "source_date": "2026-05-15",
+        "status": "active",
+        "expires_at": "2026-06-14"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "try a 30-second hook pitch tonight",
+        "source_session": "eval_47_E02_deeprun_w1",
+        "source_date": "2026-05-08",
+        "status": "active",
+        "expires_at": "2026-06-07"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "talk about sketching progress",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": "active",
+      "reply_length": "medium",
+      "humor_level": "playful",
+      "off_limits_topics": [],
+      "asked_at": {
+        "correction_style": "2026-05-22",
+        "reply_length": "2026-05-22",
+        "humor_level": "2026-05-22"
+      }
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 30.1
+}

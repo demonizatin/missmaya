@@ -1,0 +1,121 @@
+{
+  "facts": {
+    "interests": [
+      "tea (dish)",
+      "cricket (sport)"
+    ]
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Tired and with a headache — that’s not fun. Family time feels heavy when it slips away.",
+      "tone": "sad",
+      "sensitive": false,
+      "first_seen": "2026-05-30",
+      "last_seen": "2026-05-30",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_40_D05_coldstart_u05_vi",
+      "date": "2026-05-30",
+      "label": "low",
+      "energy": 3,
+      "confidence": 0.59,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "soft_conflict",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "tea (dish)",
+        "last_session": "eval_40_D05_coldstart_u05_vi",
+        "last_date": "2026-05-30",
+        "uses": 1
+      },
+      {
+        "topic": "cricket (sport)",
+        "last_session": "eval_40_D05_coldstart_u05_vi",
+        "last_date": "2026-05-30",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_40_D05_coldstart_u05_vi",
+        "last_date": "2026-05-30"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Tired and with a headache — that’s not fun. Family time feels heavy when it slips away.\" (tone: sad)",
+      "source_id": "mo_001",
+      "priority": 7,
+      "computed_at": "2026-05-30",
+      "expires_at": "2026-06-13",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "tell Maya how the work meeting went",
+      "source_session": "eval_40_D05_coldstart_u05_vi",
+      "source_date": "2026-05-30",
+      "status": "active",
+      "expires_at": "2026-06-29"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

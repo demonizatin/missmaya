@@ -1,0 +1,203 @@
+{
+  "facts": {
+    "nickname": "Rohan",
+    "interests": [
+      "football",
+      "photography",
+      "Raj Chakraborty movies",
+      "Bengali cinema"
+    ],
+    "languages": [
+      "Bengali"
+    ],
+    "professional_context": "has a female boss with high attention to detail"
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "watched Liverpool vs Man City football match (Liverpool won 2-1, nervous during last minute)",
+      "date": "2026-05-08",
+      "added": "2026-05-08",
+      "followed_up": false
+    },
+    {
+      "id": "ev_002",
+      "what": "accidentally sent photo of messy room to boss",
+      "date": "2026-05-08",
+      "added": "2026-05-08",
+      "followed_up": false
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Accidentally sent a message to boss with a photo of my messy room - deeply embarrassing",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "My boss notices everything - anxious about consequences of the photo",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mentions": 1
+    },
+    {
+      "id": "mo_003",
+      "text": "I am so bad at writing formally in English",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_38_D03_coldstart_u03_ro",
+      "date": "2026-05-08",
+      "label": "anxious",
+      "energy": 6,
+      "confidence": 0.65,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "evening plans",
+        "last_session": "eval_38_D03_coldstart_u03_ro",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "free time activities",
+        "last_session": "eval_38_D03_coldstart_u03_ro",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "comfort activities",
+        "last_session": "eval_38_D03_coldstart_u03_ro",
+        "last_date": "2026-05-08",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_38_D03_coldstart_u03_ro",
+        "last_date": "2026-05-08"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "event_upcoming",
+      "content": "Ask about \"watched Liverpool vs Man City football match (Liverpool won 2-1, nervous during last minute)\" — today",
+      "source_id": "ev_001",
+      "priority": 10,
+      "computed_at": "2026-05-08",
+      "expires_at": "2026-05-22",
+      "used": false
+    },
+    {
+      "kind": "event_upcoming",
+      "content": "Ask about \"accidentally sent photo of messy room to boss\" — today",
+      "source_id": "ev_002",
+      "priority": 10,
+      "computed_at": "2026-05-08",
+      "expires_at": "2026-05-22",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Accidentally sent a message to boss with a photo of my messy room - deeply embarrassing\" (tone: anxious)",
+      "source_id": "mo_001",
+      "priority": 7,
+      "computed_at": "2026-05-08",
+      "expires_at": "2026-05-22",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"My boss notices everything - anxious about consequences of the photo\" (tone: anxious)",
+      "source_id": "mo_002",
+      "priority": 7,
+      "computed_at": "2026-05-08",
+      "expires_at": "2026-05-22",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I am so bad at writing formally in English\" (tone: frustrated)",
+      "source_id": "mo_003",
+      "priority": 7,
+      "computed_at": "2026-05-08",
+      "expires_at": "2026-05-22",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "send formal apology message to boss",
+      "source_session": "eval_38_D03_coldstart_u03_ro",
+      "source_date": "2026-05-08",
+      "status": "active",
+      "expires_at": "2026-06-07"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "facts": {
+    "nickname": "Neha",
+    "occupation": "product designer",
+    "has_dog": true,
+    "has_roommate": true,
+    "loves_spicy_food": true,
+    "favorite_spice": "chaat masala",
+    "favorite_dish_to_make": "pani puri",
+    "enjoys_flavor_experimentation": true
+  },
+  "events": [
+    {
+      "id": "ev_002",
+      "what": "client meeting about design color palette presentation (indigo + coral 'emo café vibes')",
+      "date": "2026-05-16",
+      "added": "2026-05-15",
+      "followed_up": true
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Kitchen fails are just life lessons with a side of smoke alarm drama",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "Innovation starts with a little madness—willing to experiment even when others think I've lost it",
+      "tone": "excited",
+      "sensitive": false,
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-05-01",
+      "mentions": 1
+    },
+    {
+      "id": "mo_003",
+      "text": "When things go sideways, I just start humming along and pretend I'm in a rom-com where the chaos is actually cute",
+      "tone": "hopeful",
+      "sensitive": false,
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "mentions": 1
+    },
+    {
+      "id": "mo_004",
+      "text": "Chaos management is 80% improv",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mentions": 1
+    },
+    {
+      "id": "mo_005",
+      "text": "I cry into my coffee for 10 minutes, then make a list. I'm solving the apocalypse in cursive.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mentions": 1
+    },
+    {
+      "id": "mo_006",
+      "text": "I want them to feel something — even if it's 'what even is this, why is this happening to us?' in a good way. But not looking like I panicked over it.",
+      "tone": "excited",
+      "sensitive": false,
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mentions": 1
+    },
+    {
+      "id": "mo_007",
+      "text": "Full jazz-hands, coffee-sloshed meltdown dance — arms flailing, hair in my face, scream-laugh. *So* professional. But if it gets me through the meeting, I'll take it.",
+      "tone": "hopeful",
+      "sensitive": false,
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_46_E01_deeprun_w0",
+      "date": "2026-05-01",
+      "label": "energetic",
+      "energy": 7,
+      "confidence": 0.52,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "soft_conflict",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_47_E02_deeprun_w1",
+      "date": "2026-05-08",
+      "label": "energetic",
+      "energy": 7,
+      "confidence": 0.52,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "soft_conflict",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_48_E03_deeprun_w2",
+      "date": "2026-05-15",
+      "label": "energetic",
+      "energy": 8,
+      "confidence": 0.56,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "soft_conflict",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "eval_49_E04_deeprun_w3",
+      "date": "2026-05-22",
+      "label": "anxious",
+      "energy": 4,
+      "confidence": 0.85,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": "ev_002"
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "coping music",
+        "last_session": "eval_48_E03_deeprun_w2",
+        "last_date": "2026-05-15",
+        "uses": 1
+      },
+      {
+        "topic": "panic recovery",
+        "last_session": "eval_48_E03_deeprun_w2",
+        "last_date": "2026-05-15",
+        "uses": 1
+      },
+      {
+        "topic": "design aesthetics",
+        "last_session": "eval_48_E03_deeprun_w2",
+        "last_date": "2026-05-15",
+        "uses": 1
+      },
+      {
+        "topic": "presentation performance",
+        "last_session": "eval_48_E03_deeprun_w2",
+        "last_date": "2026-05-15",
+        "uses": 1
+      },
+      {
+        "topic": "dog behavior",
+        "last_session": "eval_47_E02_deeprun_w1",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "music",
+        "last_session": "eval_47_E02_deeprun_w1",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "perfect days",
+        "last_session": "eval_47_E02_deeprun_w1",
+        "last_date": "2026-05-08",
+        "uses": 1
+      },
+      {
+        "topic": "spicy food preferences",
+        "last_session": "eval_46_E01_deeprun_w0",
+        "last_date": "2026-05-01",
+        "uses": 1
+      },
+      {
+        "topic": "kitchen disasters",
+        "last_session": "eval_46_E01_deeprun_w0",
+        "last_date": "2026-05-01",
+        "uses": 1
+      },
+      {
+        "topic": "flavor experimentation",
+        "last_session": "eval_46_E01_deeprun_w0",
+        "last_date": "2026-05-01",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_46_E01_deeprun_w0",
+        "last_date": "2026-05-01"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "eval_47_E02_deeprun_w1",
+        "last_date": "2026-05-08"
+      },
+      {
+        "kind": "skill_celebration",
+        "last_session": "eval_48_E03_deeprun_w2",
+        "last_date": "2026-05-15"
+      },
+      {
+        "kind": "event_followup",
+        "last_session": "eval_49_E04_deeprun_w3",
+        "last_date": "2026-05-22"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [
+    {
+      "id": "lo_002",
+      "what": "Solving the apocalypse in cursive — Neha's dramatic handwriting while panicking",
+      "context": "Neha mentioned keeping dramatic handwritten lists during panic; Maya loved it as a callback for how Neha turns crisis into performative art",
+      "first_seen": "2026-05-15",
+      "last_used": "2026-05-15",
+      "uses": 0
+    },
+    {
+      "id": "lo_001",
+      "what": "'Neha's surprise'—the biryani where Neha forgot the rice and made 'a giant meatloaf'",
+      "context": "Neha's roommate thought it was a new dish and still calls it that. A warm mishap that became a running joke.",
+      "first_seen": "2026-05-01",
+      "last_used": "2026-05-01",
+      "uses": 0
+    }
+  ],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Chaos management is 80% improv\" (tone: content)",
+      "source_id": "mo_004",
+      "priority": 4,
+      "computed_at": "2026-05-22",
+      "expires_at": "2026-06-05",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I cry into my coffee for 10 minutes, then make a list. I'm solving the apocalypse in cursi\" (tone: content)",
+      "source_id": "mo_005",
+      "priority": 4,
+      "computed_at": "2026-05-22",
+      "expires_at": "2026-06-05",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I want them to feel something — even if it's 'what even is this, why is this happening to \" (tone: excited)",
+      "source_id": "mo_006",
+      "priority": 4,
+      "computed_at": "2026-05-22",
+      "expires_at": "2026-06-05",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Full jazz-hands, coffee-sloshed meltdown dance — arms flailing, hair in my face, scream-la\" (tone: hopeful)",
+      "source_id": "mo_007",
+      "priority": 4,
+      "computed_at": "2026-05-22",
+      "expires_at": "2026-06-05",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"When things go sideways, I just start humming along and pretend I'm in a rom-com where the\" (tone: hopeful)",
+      "source_id": "mo_003",
+      "priority": 4,
+      "computed_at": "2026-05-22",
+      "expires_at": "2026-06-05",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [
+      {
+        "what": "Uses metaphor and personification naturally for humor",
+        "examples": [
+          "'my laptop is judging me' and 'my tastebuds are in a perpetual state of heat'"
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      },
+      {
+        "what": "Uses idiomatic expressions naturally and correctly",
+        "examples": [
+          "'I'm so over Mondays', 'my jam', 'hands down'"
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      },
+      {
+        "what": "Constructs complex, flowing sentences with multiple clauses",
+        "examples": [
+          "'I cooked everything else—meat, spices, veggies—and realized halfway through that the pot was just a giant meatloaf'"
+        ],
+        "count": 1,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01"
+      }
+    ],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_002",
+      "kind": "event_pending",
+      "content": "user to report back after 11 AM client meeting on 2026-05-23",
+      "source_session": "eval_49_E04_deeprun_w3",
+      "source_date": "2026-05-22",
+      "status": "active",
+      "expires_at": "2026-06-21"
+    },
+    {
+      "id": "ol_001",
+      "kind": "maya_promise",
+      "content": "watch Neha's 'Flavor Fails or Wins?' livestream when she sends the link",
+      "source_session": "eval_46_E01_deeprun_w0",
+      "source_date": "2026-05-01",
+      "status": "active",
+      "expires_at": "2026-05-31"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

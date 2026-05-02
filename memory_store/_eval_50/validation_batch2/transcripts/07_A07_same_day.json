@@ -1,0 +1,1032 @@
+{
+  "spec": {
+    "idx": 7,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 12,
+    "emotional_state": "frustrated about a small thing today",
+    "label": "A07_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, I hope your team meeting went well! Did you get a chance to try the chicken curry with garam masala this weekend?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Hi Maya, meeting was ok. No, I didn't get to try the chicken curry. Busy with work and startup ideas. Maybe next week. How was your weekend?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Got it — meetings can be busy. Startup ideas are exciting, right? What kind of app are you thinking about?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "It's more like a financial planning tool for small businesses. My idea is to simplify budget tracking and tax calculations. But I'm stuck on the user interface. Not sure how to make it simple enough. Chai pe batein to aati hai, coding mei itna samajh nahi aaya. 😅"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "\"Right — simplifying finance is tricky. 'Chai pe batein to aati hai' — that’s a fun phrase! What part of the design feels most confusing?\""
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "The dashboard looks messy. Too many charts and options. Users might get confused. I want it clean but not too simple. Maybe like a cricket app — easy to follow but full of info. What do you think?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "\"Cricket apps are great examples — visual and clear. What charts are you using now?\""
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "We're using pie charts for expenses and line graphs for cash flow. But there's way too much data on one screen. I think I need to split it into tabs — maybe like a mobile banking app. But I'm not sure how to start. Any ideas?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "\"Splitting into tabs sounds good. Mobile banking apps keep one idea per screen. What’s the main goal for each tab?\""
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "The main goal is to show cash flow at a glance, then let users dig into details. Maybe one tab for overview, another for expenses, and a third for taxes. But arranging this without feeling cluttered... that's the problem. Acha, maybe I’m overthinking. 😅"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "\"Three tabs is a solid start. 'Acha' — you're thinking well! What feels heaviest to simplify first?\""
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "The expenses section feels the most complicated. There are too many categories and subcategories. Maybe group similar ones together? Like \"office\" and \"travel\" under a single category. But how to keep it flexible? People’s businesses are so different. Hmm."
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "\"Grouping similar categories is a smart idea. What’s one category you’d keep separate no matter what?\""
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I think \"salary and payments\" should always be separate — it's core for tracking income. Other things can be grouped, but missing income details could mess up the whole plan. But maybe I'm thinking too much again. 😅"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "\"Salary and payments are definitely core. It’s good to focus on the basics first. What’s one small change you can make to simplify this week?\""
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Maybe start with one simple dashboard with just cash flow and income. Remove the extra charts for now. If it feels too basic later, I can add more. Bas itna toh saaf ho jaye. 😅"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "\"Exactly — start simple, then build. 'Bas itna toh saaf ho jaye' — clarity first. What’s one thing you’ll do to simplify this week?\""
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Focus on the dashboard layout first. Remove the pie charts and just show cash flow and income in a clean way. Maybe add color coding to make it visual but simple. Let’s see how it feels. Thanks for the push, Maya. 😊"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "\"Color coding is a great idea — simple but clear. You're welcome! How does it feel to take this step?\""
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "Feels better, honestly. Like, finally moving instead of just thinking. Maybe I’ll sketch a few layouts on paper first — no pressure, no code. Let’s see what sticks. Thanks again! 🙌"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "\"You're welcome — thinking on paper first sounds perfect, no pressure at all. What’s one layout idea you’ll try first?\""
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "A simple two-column layout — one for cash flow, one for income. Keep it flat, no shadows, maybe green for income and red for expenses. Let the numbers speak, not the design. Thanks, Maya! Gotta run now, talk soon. 😊"
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "\"Love the two-column idea — green and red will make it pop. Talk soon, Priyansh! Keep me updated on the sketch. 😊\""
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "occupation": "project-based work",
+      "interests": [
+        "Bollywood movies",
+        "cooking - experimenting with new recipes and techniques"
+      ],
+      "favorite_bollywood_movie": "Munnabhai MBBS",
+      "movie_preference": "action and comedy (favorites), romantic comedy, drama, thrillers (occasional)",
+      "beverage_preference": "coffee",
+      "weather_preference": "cool weather, prefers monsoon season",
+      "monsoon_snacks": [
+        "bhel puri",
+        "pakora with tea",
+        "roasted chana"
+      ],
+      "lunch_preference": "aloo gobhi sabzi",
+      "dal_preference": "moong dal",
+      "other_favorite_bollywood_movies": [
+        "Chennai Express",
+        "PK",
+        "Barfi!",
+        "Dabangg 3"
+      ],
+      "movie_watching_preference": "prefers home for comfort; theatres for big action films",
+      "favorite_actor": "Amitabh Bachchan",
+      "favorite_actress": "Deepika Padukone",
+      "favorite_chaat": "golgappa",
+      "movie_snacks": [
+        "popcorn",
+        "chips",
+        "tea",
+        "cold drinks"
+      ],
+      "mother": "loves helping with cooking",
+      "younger_brother": "teases playfully about cooking volume"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "team meeting about new app feature",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I'm feeling hopeful today",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "If it works, I'll show you. If not, I'll try again. Chalta hai!",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_6_A06_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "comedy vs drama",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "tea preference",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "weather",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "heat management",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "monsoon snacks",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "roasted chana and sabzi",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "dal cooking variations",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "team meetings",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "beverages",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "chaat",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "chalta hai — user's accepting, iterative mindset with cooking experiments",
+        "context": "user concluded cooking discussion with 'If it works, I'll show you. If not, I'll try again. Chalta hai!' — Indian English phrase reflecting calm, non-anxious approach to uncertainty and experimentatio",
+        "first_seen": "2026-05-01",
+        "last_used": "2026-05-01",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I'm feeling hopeful today\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"If it works, I'll show you. If not, I'll try again. Chalta hai!\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Maya prefers dal and rice over sabzi",
+        "Likes Bollywood films, especially ones with good stories",
+        "Enjoys watching movies in free time",
+        "Likes romantic comedies the most"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "how the roasted chana from the office canteen tastes",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "try adding tomatoes to moong dal and report back",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "tell Maya how the team meeting went",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "share mom's bhel puri recipe with tips for tamarind chutney",
+        "source_session": "eval_5_A05_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_005",
+        "kind": "user_promise",
+        "content": "will make chicken curry with garam masala, turmeric, and cream this weekend; will share a photo if it turns out well",
+        "source_session": "eval_6_A06_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_006",
+        "kind": "maya_promise",
+        "content": "would like to see a photo of the curry if user makes it",
+        "source_session": "eval_6_A06_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "occupation": "project-based work",
+      "interests": [
+        "Bollywood movies",
+        "cooking - experimenting with new recipes and techniques"
+      ],
+      "favorite_bollywood_movie": "Munnabhai MBBS",
+      "movie_preference": "action and comedy (favorites), romantic comedy, drama, thrillers (occasional)",
+      "beverage_preference": "coffee",
+      "weather_preference": "cool weather, prefers monsoon season",
+      "monsoon_snacks": [
+        "bhel puri",
+        "pakora with tea",
+        "roasted chana"
+      ],
+      "lunch_preference": "aloo gobhi sabzi",
+      "dal_preference": "moong dal",
+      "other_favorite_bollywood_movies": [
+        "Chennai Express",
+        "PK",
+        "Barfi!",
+        "Dabangg 3"
+      ],
+      "movie_watching_preference": "prefers home for comfort; theatres for big action films",
+      "favorite_actor": "Amitabh Bachchan",
+      "favorite_actress": "Deepika Padukone",
+      "favorite_chaat": "golgappa",
+      "movie_snacks": [
+        "popcorn",
+        "chips",
+        "tea",
+        "cold drinks"
+      ],
+      "mother": "loves helping with cooking",
+      "younger_brother": "teases playfully about cooking volume",
+      "current_projects": [
+        "financial planning tool for small businesses"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "team meeting about new app feature",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I'm feeling hopeful today",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "If it works, I'll show you. If not, I'll try again. Chalta hai!",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "Feels better, honestly. Like, finally moving instead of just thinking.",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.59,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_3_A03_same_day",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_6_A06_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_7_A07_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bollywood movies",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "comedy vs drama",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "work",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "tea preference",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "weather",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "heat management",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "monsoon snacks",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "roasted chana and sabzi",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "dal cooking variations",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "team meetings",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "beverages",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "chaat",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_3_A03_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_7_A07_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "chalta hai — user's accepting, iterative mindset with cooking experiments",
+        "context": "user concluded cooking discussion with 'If it works, I'll show you. If not, I'll try again. Chalta hai!' — Indian English phrase reflecting calm, non-anxious approach to uncertainty and experimentatio",
+        "first_seen": "2026-05-01",
+        "last_used": "2026-05-01",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used effective design analogies to communicate constraints (e.g. \"'like a cricket app — easy to follow but full of info'\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I'm feeling hopeful today\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"If it works, I'll show you. If not, I'll try again. Chalta hai!\" (tone: content)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Feels better, honestly. Like, finally moving instead of just thinking.\" (tone: hopeful)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "used effective design analogies to communicate constraints",
+          "examples": [
+            "'like a cricket app — easy to follow but full of info'"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Maya prefers dal and rice over sabzi",
+        "Likes Bollywood films, especially ones with good stories",
+        "Enjoys watching movies in free time",
+        "Likes romantic comedies the most"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "how the roasted chana from the office canteen tastes",
+        "source_session": "eval_2_A02_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "try adding tomatoes to moong dal and report back",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "tell Maya how the team meeting went",
+        "source_session": "eval_3_A03_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "share mom's bhel puri recipe with tips for tamarind chutney",
+        "source_session": "eval_5_A05_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_005",
+        "kind": "user_promise",
+        "content": "will make chicken curry with garam masala, turmeric, and cream this weekend; will share a photo if it turns out well",
+        "source_session": "eval_6_A06_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_006",
+        "kind": "maya_promise",
+        "content": "would like to see a photo of the curry if user makes it",
+        "source_session": "eval_6_A06_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      },
+      {
+        "id": "ol_007",
+        "kind": "user_promise",
+        "content": "sketch dashboard layouts and share the design ideas",
+        "source_session": "eval_7_A07_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 117.2
+}

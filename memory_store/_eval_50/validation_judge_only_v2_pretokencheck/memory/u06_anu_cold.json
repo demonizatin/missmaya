@@ -1,0 +1,165 @@
+{
+  "facts": {
+    "nickname": "Anu",
+    "education": "commerce graduate"
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Rewatching 'The Glory (movie)' as a way to feel less lost and confused",
+      "tone": "hopeful",
+      "sensitive": false,
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "Feeling inconsistent about working out and applying for jobs — wanting to be better but struggling to maintain consistency",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_41_D06_coldstart_u06_an",
+      "date": "2026-05-22",
+      "label": "anxious",
+      "energy": 4,
+      "confidence": 0.6,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "The Glory (movie)",
+        "last_session": "eval_41_D06_coldstart_u06_an",
+        "last_date": "2026-05-22",
+        "uses": 1
+      },
+      {
+        "topic": "workouts",
+        "last_session": "eval_41_D06_coldstart_u06_an",
+        "last_date": "2026-05-22",
+        "uses": 1
+      },
+      {
+        "topic": "job applications",
+        "last_session": "eval_41_D06_coldstart_u06_an",
+        "last_date": "2026-05-22",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_41_D06_coldstart_u06_an",
+        "last_date": "2026-05-22"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Feeling inconsistent about working out and applying for jobs — wanting to be better but st\" (tone: frustrated)",
+      "source_id": "mo_002",
+      "priority": 7,
+      "computed_at": "2026-05-22",
+      "expires_at": "2026-06-05",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Rewatching 'The Glory (movie)' as a way to feel less lost and confused\" (tone: hopeful)",
+      "source_id": "mo_001",
+      "priority": 4,
+      "computed_at": "2026-05-22",
+      "expires_at": "2026-06-05",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [
+      {
+        "pattern": "code-mixing between Hindi and English in mid-sentence",
+        "examples": [
+          "Aapka vishwas kya hota? 😅"
+        ],
+        "occurrences": 1,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "status": "active"
+      }
+    ],
+    "wins": [],
+    "curriculum": [
+      {
+        "pattern": "code-mixing between Hindi and English in mid-sentence",
+        "occurrences": 1,
+        "days_since_last": 0,
+        "examples": [
+          "Aapka vishwas kya hota? 😅"
+        ]
+      }
+    ]
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "Tell Maya how the gym visit and job applications go today",
+      "source_session": "eval_41_D06_coldstart_u06_an",
+      "source_date": "2026-05-22",
+      "status": "active",
+      "expires_at": "2026-06-21"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": "playful",
+    "off_limits_topics": [],
+    "asked_at": {
+      "humor_level": "2026-05-22"
+    }
+  }
+}

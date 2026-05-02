@@ -1,0 +1,180 @@
+{
+  "facts": {
+    "typical_cafe_order": "flat white with a scone",
+    "cafe_routine": "loves spending an hour+ people-watching with coffee; trying to shift toward 'get it and go'",
+    "music_preference": "indie folk and lo-fi tunes",
+    "favorite_artist": "Arya—indie singer from Tamil Nadu mixing folk and lo-fi",
+    "favorite_arya_song": "Chennai Moon by Arya"
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "awkward coffee shop ordering moment; tried to order in English to sound 'local' and connect with barista from same city, messed up pronunciation of 'latte', barista (on break from hotel shift) was confused, user felt mortified but recovered with humor and self-correction",
+      "date": "2026-05-18",
+      "added": "2026-05-18",
+      "followed_up": false
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "I always think 'maybe I can say something fun today' and then end up sounding like a confused tourist. Classic me—I always complicate things.",
+      "tone": "frustrated",
+      "sensitive": false,
+      "first_seen": "2026-05-18",
+      "last_seen": "2026-05-18",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_39_D04_coldstart_u04_ne",
+      "date": "2026-05-18",
+      "label": "content",
+      "energy": 6,
+      "confidence": 0.75,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "cafe habits",
+        "last_session": "eval_39_D04_coldstart_u04_ne",
+        "last_date": "2026-05-18",
+        "uses": 1
+      },
+      {
+        "topic": "music preferences",
+        "last_session": "eval_39_D04_coldstart_u04_ne",
+        "last_date": "2026-05-18",
+        "uses": 1
+      },
+      {
+        "topic": "travel",
+        "last_session": "eval_39_D04_coldstart_u04_ne",
+        "last_date": "2026-05-18",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_39_D04_coldstart_u04_ne",
+        "last_date": "2026-05-18"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "event_upcoming",
+      "content": "Ask about \"awkward coffee shop ordering moment; tried to order in English to sound 'local' and connect with barista from same city, messed up pronunciation of 'latte', barista (on break from hotel shift) was confused, user felt mortified but recovered with humor and self-correction\" — today",
+      "source_id": "ev_001",
+      "priority": 10,
+      "computed_at": "2026-05-18",
+      "expires_at": "2026-06-01",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I always think 'maybe I can say something fun today' and then end up sounding like a confu\" (tone: frustrated)",
+      "source_id": "mo_001",
+      "priority": 7,
+      "computed_at": "2026-05-18",
+      "expires_at": "2026-06-01",
+      "used": false
+    },
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: used 'as red as a tomato' idiom correctly (e.g. \"my face was as red as a tomato\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-05-18",
+      "expires_at": "2026-06-01",
+      "used": false
+    },
+    {
+      "kind": "skill_celebration",
+      "content": "Celebrate concretely: self-corrected in real-time without prompting (e.g. \"Oops, I meant to say latte\")",
+      "source_id": null,
+      "priority": 5,
+      "computed_at": "2026-05-18",
+      "expires_at": "2026-06-01",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [
+      {
+        "what": "used 'as red as a tomato' idiom correctly",
+        "examples": [
+          "my face was as red as a tomato"
+        ],
+        "count": 1,
+        "first_seen": "2026-05-18",
+        "last_seen": "2026-05-18"
+      },
+      {
+        "what": "self-corrected in real-time without prompting",
+        "examples": [
+          "Oops, I meant to say latte"
+        ],
+        "count": 1,
+        "first_seen": "2026-05-18",
+        "last_seen": "2026-05-18"
+      }
+    ],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold",
+      "likes soft music while working",
+      "enjoys the cool post-lunch break feeling",
+      "appreciates good stories",
+      "uses chai to stay focused",
+      "finds monsoon mornings comforting",
+      "cooks as a form of relaxation",
+      "watches football",
+      "has not been to Chennai but would love to experience that vibe"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

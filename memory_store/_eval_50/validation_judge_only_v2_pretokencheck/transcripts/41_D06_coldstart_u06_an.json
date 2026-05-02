@@ -1,0 +1,333 @@
+{
+  "spec": {
+    "idx": 41,
+    "profile_id": "u06_anu",
+    "eval_user_key": "u06_anu_cold",
+    "today": "2026-05-22",
+    "turns_target": 10,
+    "emotional_state": "anxious, exam stress",
+    "label": "D06_coldstart_u06_an"
+  },
+  "profile": {
+    "id": "u06_anu",
+    "user_name": "Anu",
+    "profession": "Recent commerce graduate looking for first job",
+    "mother_tongue": "Telugu",
+    "interests": "K-dramas, fitness, Instagram reels",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "uncertain about career direction; somewhat self-doubting; opens up gradually"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Anu, a recent commerce grad, how exciting! What's been your most fun task this week?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Not much fun really. Applied for some jobs but waiting for replies. So stressful. Maybe watched some K-dramas to relax. You know, the usual. 😅"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Got it, job waiting is a slow burn. K-dramas help, yes? Which one hooked you lately?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "I watched \"The Glory\" again. It’s so intense, but I can’t help rewatching. Sometimes I feel like the characters — lost and confused. 😅 But yeah, helps me forget job stress for a bit."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "I get that, The Glory grips you even on the second run. Lost and confused is a heavy place to be. What part of the story ties you most?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "The part where the main character finds strength after so much pain. It makes me think — maybe I can figure things out too. But sometimes I wonder if I’m just... pretending to be strong? 🫠"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Right, that part is powerful ,  pain leading to strength. It’s not pretending if it helps you feel a little steadier. What gives you that steadiness in real life?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Hmm, not sure really. Maybe when I work out? Like, pushing through a tough workout makes me feel... I don't know, capable? But when I'm just sitting here applying for jobs and nothing happens... it's hard. Aapka vishwas kya hota? 😅"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "You mixed Hindi there — I get it, sometimes words don’t come easy. Working out builds real strength, the kind that stays. What part of your workouts push you hardest?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Running on a treadmill, maybe? Or doing abs — I hate those. And sometimes I skip, which makes me feel like a failure. Like job apps, but with exercise. 😅"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Yeah, that rhythm of skip-and-blame is all too familiar. But workouts are practice, not perfection. What’s one small step you’d call a win today?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "A small win... maybe just going to the gym today instead of scrolling on Instagram? Or getting one more job application done? I don’t know, anything really — as long as I don’t just lie on the couch all day. 😅"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "That’s the spirit small wins add up! A gym visit or one app is progress. What’s your go-to playlist to beat the couch temptation?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I just blast some motivational Hindi songs — the louder, the better. Or sometimes I put on K-drama soundtracks, like from \"The Glory.\" It gives me that edge, you know? Like, \"Okay Anu, get up, you got this.\" But most days? I just wanna lay there and watch reels. 😅"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Got it, music is the spark ,  Hindi or K-drama, both kick things off. Reels are tempting, sure. What song gets you moving fastest?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Hmm, the song \"Udta\" from Udta Punjab? Yeah, whenever I hear that, I just... jump up. It’s so aggressive, you know? Or maybe \"Laal Kaptaan\" — that one makes me feel like I can run forever. But most days I just end up dancing in my room like a fool and then go back to the couch. 😅 Life is so inconsistent."
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Right, \"Udta\" and \"Laal Kaptaan\" — pure energy. Inconsistency is the norm, honestly. What's one move you'd make if you could be consistent for just one full day?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Wake up early, go to the gym, do a full workout, then work on my resume and send out 5 job apps. And maybe not check Instagram at all. But yeah, that’s just one day, right? 😅 I should get going... talk to you later."
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Right, that one-day plan is a dream — but a solid blueprint. Take it slow, Anu. What’s the first move you’ll make today?"
+    }
+  ],
+  "memory_before": {
+    "facts": {},
+    "events": [],
+    "moments": [],
+    "mood_log": [],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Anu",
+      "education": "commerce graduate"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Rewatching 'The Glory (movie)' as a way to feel less lost and confused",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Feeling inconsistent about working out and applying for jobs — wanting to be better but struggling to maintain consistency",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-22",
+        "last_seen": "2026-05-22",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_41_D06_coldstart_u06_an",
+        "date": "2026-05-22",
+        "label": "anxious",
+        "energy": 4,
+        "confidence": 0.6,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "The Glory (movie)",
+          "last_session": "eval_41_D06_coldstart_u06_an",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "workouts",
+          "last_session": "eval_41_D06_coldstart_u06_an",
+          "last_date": "2026-05-22",
+          "uses": 1
+        },
+        {
+          "topic": "job applications",
+          "last_session": "eval_41_D06_coldstart_u06_an",
+          "last_date": "2026-05-22",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_41_D06_coldstart_u06_an",
+          "last_date": "2026-05-22"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Feeling inconsistent about working out and applying for jobs — wanting to be better but st\" (tone: frustrated)",
+        "source_id": "mo_002",
+        "priority": 7,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Rewatching 'The Glory (movie)' as a way to feel less lost and confused\" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-22",
+        "expires_at": "2026-06-05",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "code-mixing between Hindi and English in mid-sentence",
+          "examples": [
+            "Aapka vishwas kya hota? 😅"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-22",
+          "last_seen": "2026-05-22",
+          "status": "active"
+        }
+      ],
+      "wins": [],
+      "curriculum": [
+        {
+          "pattern": "code-mixing between Hindi and English in mid-sentence",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "Aapka vishwas kya hota? 😅"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "Tell Maya how the gym visit and job applications go today",
+        "source_session": "eval_41_D06_coldstart_u06_an",
+        "source_date": "2026-05-22",
+        "status": "active",
+        "expires_at": "2026-06-21"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": "playful",
+      "off_limits_topics": [],
+      "asked_at": {
+        "humor_level": "2026-05-22"
+      }
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 23.9
+}

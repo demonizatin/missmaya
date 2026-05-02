@@ -1,0 +1,508 @@
+{
+  "spec": {
+    "idx": 48,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-15",
+    "turns_target": 12,
+    "emotional_state": "lonely, wanting to talk",
+    "label": "E03_deeprun_w2"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, I hope your sketchbook is safe today. Did you try turning that coffee stain into a design yet?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Haha, still waiting for the right inspiration, but mostly it’s just scribbles and more coffee. How’s your day so far? Boring or busy?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds fun! My day is calm, just like a slow cup of tea. What about you — any sketching plans today?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Definitely gonna doodle a bit, maybe try inking over some coffee stains—naanaku, why not? But honestly, just looking for a good vibe. You ever sketch to fill silence, or does tea handle that for you?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Tea is my friend too, but silence needs a sketch or two! Do you find music helps when you sketch, or do you prefer quiet?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Music is a must for me—like, always on shuffle. Helps me zone in but also keeps it chill. I’m into that lo-fi indie stuff, you know? It’s got that vibe that makes even coffee stains feel intentional. Do you listen to anything specific when you sketch?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Got it — lo-fi is the way! I don’t sketch much, but I get how the right music can make everything feel creative. Do you ever pick a song just for a sketch?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Sometimes, yeah! Like if I’m working on something moody, I’ll queue up a sad indie track and pretend I’m a tragic artist. But mostly it’s just whatever’s on my playlist—chaotic but cozy. You ever do that? Or do you stick to, like, pure lo-fi beats?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "That sounds cozy! I’d probably just pick tea and a quiet corner. Do you ever share your playlists or keep them super private?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Mostly private, yeah—like a secret diary but with better volume. Sometimes I’ll share a song if it feels right, though. You ever vibe to music just to feel less alone? I’ve been feeling kinda lonely lately, honestly."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "I get that — music can feel like a quiet companion. What kind of songs make you feel less alone these days?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Honestly? It’s mostly old indie folk — sad, slow songs that feel like they’re in on the loneliness. Like, you know that one by The National? \"I am a man who’s built a life out of reaching for things I can’t have\"? It’s comforting in a \"I’m not the only messed-up person here\" way. Do you ever get stuck in that kind of mood loop?"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "I get that — sometimes sad songs feel like an old friend. What’s one thing you reach for when you want to feel better, besides music?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Coffee, definitely. A big mug of it. Hot, bitter, and slightly burnt — the more \"artistically flawed,\" the better. It’s like my version of a therapy session. I sip and sigh, and somehow it all feels… cathartic? Do you have your go-to comfort thing when things feel heavy?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "I get it — coffee as a comfort makes sense! For me, it’s usually tea, but I know what you mean. What’s one small thing that always makes you feel a little lighter?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Walking in the rain, even if just for five minutes. The noise of the drops, the way everything feels softer, like the world is just taking a deep breath with you. You ever walk in the rain? Or do you run like everyone else? 😅"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Hi Neha, I love that — walking in the rain sounds like a little reset. I’m more of a \"carry an umbrella\" person, but I get the charm. Do you dance in the rain too, or just walk? 😊"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Haha, dancing is a maybe—depends if anyone's watching. Otherwise, just a slow shuffle with my hair in my face and zero dignity. But yeah, it’s those little moments that feel like the whole world is just… being gentle with you for once. Makes me miss traveling, actually. You ever feel like missing something you can’t even plan for?"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "That makes sense — travel does leave a gentle ache. I find just thinking about faraway places helps. What’s one place you’d go if missing it turned into a real trip?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "Portugal, definitely. The way the light hits the cobblestones, the salt in the air, and these little cafes that feel like they’re holding their own quiet story—yeah, I’d get lost there for weeks. Maybe just sit with bad coffee and sad songs and pretend I belong. You ever want to disappear like that?"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "Portugal sounds like the perfect escape! I get that feeling of wanting to just belong somewhere new. What’s one thing you’d pack that feels like \"you\" in a new place?"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "My sketchbook, obviously. Even if I don’t draw much, flipping through the pages makes me feel like I’m building something. Like, “Hey world, look—I exist here, in these lines.” You? What would be your one must-pack thing?"
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "A sketchbook sounds like the perfect way to feel present. For me, it would be a warm cup of tea — simple but comforting. What’s one line or drawing in your sketchbook that means the most to you?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Neha",
+      "workplace": "startup",
+      "daily_work": "UX/Product Design (wireframes, user flows, app features)",
+      "primary_design_tool": "Figma",
+      "design_process": "sketches on paper first for brainstorming, then digitizes in Figma",
+      "sketches_frequency": "almost daily",
+      "preferred_beverages": [
+        "masala chai",
+        "creamy lattes",
+        "green tea"
+      ],
+      "coffee_habits": "drinks coffee most days to survive startup life"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "spilled coffee on sketchbook",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "sometimes feels like selling creativity short when digitizing sketches too quickly",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "design workflow (paper to digital)",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "doodling during calls",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "beverage preferences (tea vs coffee)",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "turns coffee stains into creative digital 'coffee abstracts' (NFT jokes)",
+        "context": "Neha spilled coffee this morning, then joked about turning it into a vintage digital aesthetic and NFTs. Shows how she finds creative angles in mishaps and turns frustration into fun.",
+        "first_seen": "2026-05-01",
+        "last_used": "2026-05-01",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"spilled coffee on sketchbook\" — today",
+        "source_id": "ev_001",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"sometimes feels like selling creativity short when digitizing sketches too quickly\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: natural, sophisticated use of complex conditional sentences (e.g. \"sometimes I feel like I'm selling my creativity short when I digitize it too quickly\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "natural, sophisticated use of complex conditional sentences",
+          "examples": [
+            "sometimes I feel like I'm selling my creativity short when I digitize it too quickly"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "identifies as a movie person",
+        "enjoys action films with strong music and visuals",
+        "doodles (squiggles) in meetings to stay focused",
+        "values quiet time"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "might sketch a tea-drinking emoji to symbolize next session",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Neha",
+      "workplace": "startup",
+      "daily_work": "UX/Product Design (wireframes, user flows, app features)",
+      "primary_design_tool": "Figma",
+      "design_process": "sketches on paper first for brainstorming, then digitizes in Figma",
+      "sketches_frequency": "almost daily",
+      "preferred_beverages": [
+        "masala chai",
+        "creamy lattes",
+        "green tea"
+      ],
+      "coffee_habits": "drinks coffee most days to survive startup life"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "spilled coffee on sketchbook",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "sometimes feels like selling creativity short when digitizing sketches too quickly",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "design workflow (paper to digital)",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "doodling during calls",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "beverage preferences (tea vs coffee)",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "turns coffee stains into creative digital 'coffee abstracts' (NFT jokes)",
+        "context": "Neha spilled coffee this morning, then joked about turning it into a vintage digital aesthetic and NFTs. Shows how she finds creative angles in mishaps and turns frustration into fun.",
+        "first_seen": "2026-05-01",
+        "last_used": "2026-05-01",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"spilled coffee on sketchbook\" — today",
+        "source_id": "ev_001",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"sometimes feels like selling creativity short when digitizing sketches too quickly\" (tone: frustrated)",
+        "source_id": "mo_001",
+        "priority": 7,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: natural, sophisticated use of complex conditional sentences (e.g. \"sometimes I feel like I'm selling my creativity short when I digitize it too quickly\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "natural, sophisticated use of complex conditional sentences",
+          "examples": [
+            "sometimes I feel like I'm selling my creativity short when I digitize it too quickly"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "identifies as a movie person",
+        "enjoys action films with strong music and visuals",
+        "doodles (squiggles) in meetings to stay focused",
+        "values quiet time"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "might sketch a tea-drinking emoji to symbolize next session",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 180.1
+}

@@ -1,0 +1,499 @@
+{
+  "session_count": 15,
+  "summary_metrics": {
+    "avg_reply_words": 29.0,
+    "replies_over_120w": 0,
+    "replies_under_8w": 0,
+    "avg_memory_ref_rate_returning_users": 0.2,
+    "opener_repetition_pairs": 0,
+    "stale_phrase_total_hits": 0,
+    "wrap_up_seen_count": 7
+  },
+  "ranked_gaps": [
+    {
+      "id": "multiple_questions_per_reply",
+      "severity": 3,
+      "frequency_pct": 53.3,
+      "count": 21,
+      "layer": "prompt",
+      "description": "Maya included 2+ questions in 21 replies across 8 sessions (Rule 9 violation).",
+      "examples": [
+        {
+          "session_idx": 1,
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "\"Jugjugg Jeeyo — I remember that one, it’s fun! Catchy songs stick around, right? AI tools can be tricky at first — what part feels confusing? Take care, and happy coding!\""
+        },
+        {
+          "session_idx": 7,
+          "turn": 1,
+          "q_count": 2,
+          "snippet": "Hi Priyansh, Sui Dhaaga’s music stuck with you, right? Your sister must know every lyric by heart. What did you hum most?"
+        },
+        {
+          "session_idx": 8,
+          "turn": 1,
+          "q_count": 2,
+          "snippet": "Hi Priyansh, you mentioned an API issue — how's the wait going? I enjoy solving tech hiccups with a hot cup of tea. What's your go-to drink?"
+        }
+      ],
+      "suggested_fix": "Sharpen Rule 9 with 'NEVER more than ONE question mark per reply'. Optionally a guard that drops trailing questions when count>1.",
+      "score": 159.89999999999998
+    }
+  ],
+  "per_session_metrics": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "\"Jugjugg Jeeyo — I remember that one, it’s fun! Catchy songs stick around, right? AI tools can be tricky at first — what part feels confusing? Take care, and happy coding!\""
+        }
+      ],
+      "word_counts": [
+        17,
+        19,
+        31,
+        28,
+        23,
+        15
+      ],
+      "avg_words": 22.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        17,
+        25,
+        16,
+        22,
+        28,
+        27,
+        31,
+        20
+      ],
+      "avg_words": 23.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        27,
+        23,
+        20,
+        21,
+        26,
+        25,
+        30,
+        25,
+        31,
+        18
+      ],
+      "avg_words": 24.6,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        39,
+        31,
+        42,
+        33,
+        46,
+        40,
+        46,
+        47,
+        33,
+        23
+      ],
+      "avg_words": 38.0,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        36,
+        31,
+        33,
+        27,
+        31,
+        31,
+        40,
+        30,
+        35,
+        30,
+        42,
+        30
+      ],
+      "avg_words": 33.0,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.25,
+      "has_memory": true
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        29,
+        28,
+        29,
+        32,
+        32,
+        23
+      ],
+      "avg_words": 28.8,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 1,
+          "q_count": 2,
+          "snippet": "Hi Priyansh, Sui Dhaaga’s music stuck with you, right? Your sister must know every lyric by heart. What did you hum most?"
+        }
+      ],
+      "word_counts": [
+        22,
+        27,
+        29,
+        22,
+        24,
+        25,
+        22,
+        19,
+        27,
+        29,
+        27,
+        21
+      ],
+      "avg_words": 24.5,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.08,
+      "has_memory": true
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 1,
+          "q_count": 2,
+          "snippet": "Hi Priyansh, you mentioned an API issue — how's the wait going? I enjoy solving tech hiccups with a hot cup of tea. What's your go-to drink?"
+        },
+        {
+          "turn": 7,
+          "q_count": 2,
+          "snippet": "You said \"the action scenes are the highlight\" — and that's clear. Salman and Amitabh’s team-up is always fun to watch. Maybe next time, a gentle story with some laughs? What’s on your list for the we"
+        }
+      ],
+      "word_counts": [
+        27,
+        32,
+        34,
+        37,
+        44,
+        42,
+        37,
+        31
+      ],
+      "avg_words": 35.5,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.62,
+      "has_memory": true
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 3,
+          "q_count": 2,
+          "snippet": "Got it — cricket and movies are great distractions. The Mumbai Indians playing well lately? Or a new Bollywood film?"
+        }
+      ],
+      "word_counts": [
+        22,
+        28,
+        20,
+        24,
+        21,
+        27
+      ],
+      "avg_words": 23.7,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        33,
+        40,
+        37,
+        26,
+        22
+      ],
+      "avg_words": 29.8,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": true
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 2,
+          "q_count": 2,
+          "snippet": "\"Ouch — that sounds rough. A spilled coffee and a notebook? Not the start anyone wants. What did you do next?\""
+        },
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "\"Same — lined pages are a lifesaver. A spill-proof notebook? Now that sounds fancy. What would you write in it?\""
+        },
+        {
+          "turn": 5,
+          "q_count": 2,
+          "snippet": "\"True — a spill-proof notebook could hold everything. Tamil poetry and doodles? That sounds fun. What’s your favorite part of writing ideas down?\""
+        },
+        {
+          "turn": 7,
+          "q_count": 2,
+          "snippet": "\"Right — coffee rage art sounds like a real thing. A frustrated face and a splatter? That's creative. What’s next for your new genre?\""
+        },
+        {
+          "turn": 8,
+          "q_count": 3,
+          "snippet": "\"Love it — a zine of coffee rage art? That’s genius. Sell it or just make it fun? What idea would you start with?\""
+        },
+        {
+          "turn": 9,
+          "q_count": 3,
+          "snippet": "\"Got it — a cover with 'I survived this'? And Tamil mantras too? That's a great mix. What's your favorite mantra to write?\""
+        },
+        {
+          "turn": 10,
+          "q_count": 2,
+          "snippet": "\"Right — a mantra to detach is smart. Spill, write, repeat? That could be a real thing. What’s your next spill-worthy idea?\""
+        },
+        {
+          "turn": 11,
+          "q_count": 3,
+          "snippet": "\"Nice — a spill journal app? That's a solid idea. A digital zine with memes? What would the first post be?\""
+        },
+        {
+          "turn": 12,
+          "q_count": 2,
+          "snippet": "\"Fair enough — a crying coffee cup and a resilient quote? That sounds perfect. What’s your go-to spill-proof cup now?\""
+        }
+      ],
+      "word_counts": [
+        25,
+        21,
+        22,
+        20,
+        23,
+        24,
+        24,
+        24,
+        23,
+        22,
+        21,
+        20
+      ],
+      "avg_words": 22.4,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.0,
+      "has_memory": false
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 2,
+          "q_count": 5,
+          "snippet": "\"Saved the sketch, yes — phew! But the laptop? *sigh* Coffee and tech don’t mix. You know what I miss most right now? A good indie café vibe. How about you? Any place you'd miss?\"  \n\n{\"message\": \"Café"
+        },
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "Thandai chai? That sounds like a creative match made in heaven. I hope your laptop drama settles soon — sketching in that spot must feel like a small victory. Any plans to work there this week?"
+        },
+        {
+          "turn": 5,
+          "q_count": 3,
+          "snippet": "I like quiet when sketching — too many voices can pull me out of the flow. But a friend who lets me be focused? Maybe. What about you? Do you need silence or company?"
+        },
+        {
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "That sounds like the kind of place people would sketch *about* — maybe even write stories. Do you think you’d name it? What kind of name would fit?"
+        }
+      ],
+      "word_counts": [
+        16,
+        64,
+        28,
+        36,
+        34,
+        32,
+        29,
+        28,
+        26,
+        23
+      ],
+      "avg_words": 31.6,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.4,
+      "has_memory": true
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [],
+      "word_counts": [
+        21,
+        28,
+        30,
+        38,
+        33,
+        38,
+        31,
+        30,
+        38,
+        37,
+        37,
+        37
+      ],
+      "avg_words": 33.2,
+      "wrap_up_seen": false,
+      "memory_ref_rate": 0.17,
+      "has_memory": true
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 4,
+          "q_count": 2,
+          "snippet": "You sketch first — that makes sense. It’s a good way to focus on ideas, not just looks. Starting digital can push you to decide, yes, but sketching is a safe space to play. Maybe both? When do you fee"
+        }
+      ],
+      "word_counts": [
+        28,
+        32,
+        32,
+        51,
+        41,
+        36,
+        29,
+        31,
+        39,
+        29,
+        28,
+        32,
+        39
+      ],
+      "avg_words": 34.4,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.38,
+      "has_memory": true
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "stale_hits": [],
+      "bad_greeting_t2": [],
+      "multi_q": [
+        {
+          "turn": 8,
+          "q_count": 2,
+          "snippet": "I get that — faceless, but still real. Sketching the feeling, not the details. What do you do with those scribbles? Keep them or let them go?"
+        },
+        {
+          "turn": 10,
+          "q_count": 2,
+          "snippet": "I get that — cloud with purpose? Sounds like the start of something. What makes a shape feel \"alive\" to you?"
+        }
+      ],
+      "word_counts": [
+        28,
+        24,
+        34,
+        21,
+        26,
+        22,
+        20,
+        27,
+        28,
+        21,
+        29,
+        34,
+        30,
+        19
+      ],
+      "avg_words": 25.9,
+      "wrap_up_seen": true,
+      "memory_ref_rate": 0.36,
+      "has_memory": true
+    }
+  ]
+}

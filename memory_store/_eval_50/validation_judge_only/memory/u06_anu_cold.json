@@ -1,0 +1,141 @@
+{
+  "facts": {
+    "nickname": "Anu",
+    "career_interests": [
+      "marketing",
+      "finance",
+      "social media management"
+    ],
+    "strengths_interests": [
+      "making Instagram reels",
+      "creative work"
+    ]
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "When I make reels, I feel alive, like I'm expressing myself",
+      "tone": "hopeful",
+      "sensitive": false,
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mentions": 1
+    },
+    {
+      "id": "mo_002",
+      "text": "I feel lost about my career future and worry about picking the wrong path",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_41_D06_coldstart_u06_an",
+      "date": "2026-05-22",
+      "label": "anxious",
+      "energy": 4,
+      "confidence": 0.75,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_41_D06_coldstart_u06_an",
+        "last_date": "2026-05-22"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"I feel lost about my career future and worry about picking the wrong path\" (tone: anxious)",
+      "source_id": "mo_002",
+      "priority": 7,
+      "computed_at": "2026-05-22",
+      "expires_at": "2026-06-05",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"When I make reels, I feel alive, like I'm expressing myself\" (tone: hopeful)",
+      "source_id": "mo_001",
+      "priority": 4,
+      "computed_at": "2026-05-22",
+      "expires_at": "2026-06-05",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "research what a social media manager does tonight",
+      "source_session": "eval_41_D06_coldstart_u06_an",
+      "source_date": "2026-05-22",
+      "status": "active",
+      "expires_at": "2026-06-21"
+    },
+    {
+      "id": "ol_002",
+      "kind": "event_pending",
+      "content": "follow-up chat tomorrow if still feeling stuck about career direction",
+      "source_session": "eval_41_D06_coldstart_u06_an",
+      "source_date": "2026-05-22",
+      "status": "active",
+      "expires_at": "2026-06-21"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

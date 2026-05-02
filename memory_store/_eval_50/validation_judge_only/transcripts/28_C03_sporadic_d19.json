@@ -1,0 +1,728 @@
+{
+  "spec": {
+    "idx": 28,
+    "profile_id": "u03_rohan",
+    "eval_user_key": "u03_rohan",
+    "today": "2026-05-20",
+    "turns_target": 6,
+    "emotional_state": "frustrated about a small thing today",
+    "label": "C03_sporadic_d19"
+  },
+  "profile": {
+    "id": "u03_rohan",
+    "user_name": "Rohan",
+    "profession": "Bank PO aspirant",
+    "mother_tongue": "Bengali",
+    "interests": "Football, Bengali cinema, photography",
+    "engagement": "chatty",
+    "english_level": "A2",
+    "personality": "enthusiastic, makes more grammar slips, talks about football a lot"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "The football derby is tomorrow — are you preparing to cheer or shoot the game?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Cheer for sure! Can't miss the derby. My camera will wait. We are playing with more passion. You know, Kolkata derby is like a war. *na?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Kolkata derby is a war for sure — you feel it in every pass, every goal. What part of the match are you most excited for?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "When they score a goal, of course! The crowd goes wild, the players run like mad — it’s amazing. But even the build-up, the way they pass the ball under pressure… it’s like art. Did you ever watch a derby? Or you prefer calm matches?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "You said 'it’s like art' — and that’s exactly right. The build-up, the pressure, the timing... it’s all poetry in motion. I’ve seen derbies on TV — loud, full of heart, electric. What’s your team’s strategy this time?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "We are trying to play more attacking. Last match we were too defensive, and we paid for it. This time, we want to control the midfield and hit fast. But you know football — plans change on the field! *chuckles* I just hope we don’t make too many mistakes. I am so frustrated with my own game lately. Keep missing simple passes. Why is it so hard?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Frustration with passing is part of the game — even pros miss. What part of your passing feels off? Timing? Accuracy?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Timing, mostly. I see the space, but when I run up, my head isn't right, or my foot slips. I feel silly. My friend says I think too much when I pass. But how else will I improve? *sigh* Also, the pressure — when I'm in a real match, my brain goes blank. Practice is fine, but the actual game? Not so much."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Pressure changes everything — that's why derbies feel like war. What's one small thing you could focus on during the match, just to steady your mind?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Maybe just focus on one pass at a time? Like, not the whole game, just the next pass. My coach said something like that once. But when I think about it, I start overthinking again. *shrugs* Maybe I need to stop thinking so much? Not sure. I’ll try. And thanks for listening — it helps. Gotta go now, my team is doing a last run through. Talk later!"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "You said \"it helps\" — and that’s what matters. One pass, one breath, one moment. Go out there and trust your instincts. Break a leg!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "sport": "football (plays matches with team)",
+      "music": "loves old Bengali songs; favorite songs are Chand (song) and Bijoy (song) by Arjit Singh (person)",
+      "hobby": "photography - learning low-light and sunset photography settings",
+      "currently_studying": "banking",
+      "equipment": "Canon 450D"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "won football match (sport)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "took sunset photographs (event)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      },
+      {
+        "id": "ev_003",
+        "what": "football derby match (event)",
+        "date": "2026-05-11",
+        "added": "2026-05-10",
+        "followed_up": false
+      },
+      {
+        "id": "ev_004",
+        "what": "bank exam - quantitative aptitude, data interpretation, number series (exam)",
+        "date": "2026-05-11",
+        "added": "2026-05-10",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "khele khelai - expresses joy through a cultural phrase after winning a match",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "photography success is like magic - delighted when low-light shots come out well",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "nervous but excited about trying manual camera mode for the first time - sees it as a growth step",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "friend points out they get too focused on photography during matches and miss the fun",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "local football team feels like family to them",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "shy about moving around during matches to find better shooting angles",
+        "tone": "neutral",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_27_C02_sporadic_d9",
+        "date": "2026-05-10",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Photography in sports matches",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "Football team preferences",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "Camera settings and manual mode",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "Photography composition techniques",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"football derby match (event)\" — tomorrow",
+        "source_id": "ev_003",
+        "priority": 9,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"bank exam - quantitative aptitude, data interpretation, number series (exam)\" — tomorrow",
+        "source_id": "ev_004",
+        "priority": 9,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"friend points out they get too focused on photography during matches and miss the fun\" (tone: frustrated)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"nervous but excited about trying manual camera mode for the first time - sees it as a grow\" (tone: hopeful)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"local football team feels like family to them\" (tone: content)",
+        "source_id": "mo_005",
+        "priority": 4,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "occasionally drops auxiliary verbs in conditional/future contexts",
+          "examples": [
+            "Maybe I sit near the goal to take better close-ups"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "naturally uses past tense correctly and consistently",
+          "examples": [
+            "Had a nice match, took photos, I'd love to see them"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "constructs complex sentences with subordinate clauses naturally",
+          "examples": [
+            "Sometimes the photos come out blurry, but when they don't… wow!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "occasionally drops auxiliary verbs in conditional/future contexts",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "Maybe I sit near the goal to take better close-ups"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "share photos from the derby match after the game",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_003",
+        "kind": "event_pending",
+        "content": "try manual camera mode and composition tips for the first time during the derby match",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "see Rohan's team celebration photos",
+        "source_session": "eval_26_C01_sporadic_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "sport": "football (plays matches with team)",
+      "music": "loves old Bengali songs; favorite songs are Chand (song) and Bijoy (song) by Arjit Singh (person)",
+      "hobby": "photography - learning low-light and sunset photography settings",
+      "currently_studying": "banking",
+      "equipment": "Canon 450D"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "won football match (sport)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "took sunset photographs (event)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      },
+      {
+        "id": "ev_003",
+        "what": "football derby match (event)",
+        "date": "2026-05-11",
+        "added": "2026-05-10",
+        "followed_up": false
+      },
+      {
+        "id": "ev_004",
+        "what": "bank exam - quantitative aptitude, data interpretation, number series (exam)",
+        "date": "2026-05-11",
+        "added": "2026-05-10",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "khele khelai - expresses joy through a cultural phrase after winning a match",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "photography success is like magic - delighted when low-light shots come out well",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "nervous but excited about trying manual camera mode for the first time - sees it as a growth step",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "friend points out they get too focused on photography during matches and miss the fun",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "local football team feels like family to them",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "shy about moving around during matches to find better shooting angles",
+        "tone": "neutral",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_26_C01_sporadic_d0",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_27_C02_sporadic_d9",
+        "date": "2026-05-10",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Photography in sports matches",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "Football team preferences",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "Camera settings and manual mode",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "Photography composition techniques",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_26_C01_sporadic_d0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"football derby match (event)\" — tomorrow",
+        "source_id": "ev_003",
+        "priority": 9,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"bank exam - quantitative aptitude, data interpretation, number series (exam)\" — tomorrow",
+        "source_id": "ev_004",
+        "priority": 9,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"friend points out they get too focused on photography during matches and miss the fun\" (tone: frustrated)",
+        "source_id": "mo_004",
+        "priority": 7,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"nervous but excited about trying manual camera mode for the first time - sees it as a grow\" (tone: hopeful)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"local football team feels like family to them\" (tone: content)",
+        "source_id": "mo_005",
+        "priority": 4,
+        "computed_at": "2026-05-10",
+        "expires_at": "2026-05-24",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "occasionally drops auxiliary verbs in conditional/future contexts",
+          "examples": [
+            "Maybe I sit near the goal to take better close-ups"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "naturally uses past tense correctly and consistently",
+          "examples": [
+            "Had a nice match, took photos, I'd love to see them"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "constructs complex sentences with subordinate clauses naturally",
+          "examples": [
+            "Sometimes the photos come out blurry, but when they don't… wow!"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": [
+        {
+          "pattern": "occasionally drops auxiliary verbs in conditional/future contexts",
+          "occurrences": 1,
+          "days_since_last": 0,
+          "examples": [
+            "Maybe I sit near the goal to take better close-ups"
+          ]
+        }
+      ]
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "share photos from the derby match after the game",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_003",
+        "kind": "event_pending",
+        "content": "try manual camera mode and composition tips for the first time during the derby match",
+        "source_session": "eval_27_C02_sporadic_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "see Rohan's team celebration photos",
+        "source_session": "eval_26_C01_sporadic_d0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": false,
+  "duration_s": 130.4
+}

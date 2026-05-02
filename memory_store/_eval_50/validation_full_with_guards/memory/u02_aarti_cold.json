@@ -1,0 +1,105 @@
+{
+  "facts": {
+    "nickname": "Aarti",
+    "exam_preparation": "NEET PG",
+    "test_anxiety_pattern": "panics under time pressure, makes mistakes when anxious"
+  },
+  "events": [
+    {
+      "id": "ev_001",
+      "what": "Mock NEET PG test - struggled with biology section, ran out of time",
+      "date": "2026-05-07",
+      "added": "2026-05-07",
+      "followed_up": false
+    }
+  ],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "During tests, my mind goes blank. I get scared, then make mistakes. It feels like a cycle I can't break.",
+      "tone": "anxious",
+      "sensitive": true,
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-05-07",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [
+    {
+      "session_id": "eval_37_D02_coldstart_u02_aa",
+      "date": "2026-05-07",
+      "label": "anxious",
+      "energy": 4,
+      "confidence": 0.85,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "match",
+      "linked_event_id": "ev_001"
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_37_D02_coldstart_u02_aa",
+        "last_date": "2026-05-07"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [
+    {
+      "kind": "event_upcoming",
+      "content": "Ask about \"Mock NEET PG test - struggled with biology section, ran out of time\" — today",
+      "source_id": "ev_001",
+      "priority": 10,
+      "computed_at": "2026-05-07",
+      "expires_at": "2026-05-21",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

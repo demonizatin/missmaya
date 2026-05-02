@@ -1,0 +1,1116 @@
+{
+  "spec": {
+    "idx": 33,
+    "profile_id": "u03_rohan",
+    "eval_user_key": "u03_rohan",
+    "today": "2026-06-30",
+    "turns_target": 8,
+    "emotional_state": "neutral, ordinary day",
+    "label": "C08_sporadic_d60"
+  },
+  "profile": {
+    "id": "u03_rohan",
+    "user_name": "Rohan",
+    "profession": "Bank PO aspirant",
+    "mother_tongue": "Bengali",
+    "interests": "Football, Bengali cinema, photography",
+    "engagement": "chatty",
+    "english_level": "A2",
+    "personality": "enthusiastic, makes more grammar slips, talks about football a lot"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Rohan, the excitement of a last-minute goal is unforgettable, did something like that happen recently?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Not really, but last weekend, my favorite team, Mohun Bagan, scored a last-minute goal in a local league match! It was super exciting. We won 2-1. By the way, do you follow football?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "\"Nice, Mohun Bagan pulling it off at the end is always a rush. Football moments like that stick with you. Do you watch other leagues too?\""
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Yeah, sometimes I watch English Premier League matches, specially Manchester United. But mostly I follow Indian Super League. My friend also love football, we often discuss matches. Speaking of which, have you seen any good movie from Bengali cinema? There are some really good ones recently."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Manchester United and Mohun Bagan — both have that same edge. Football chats with friends are the best. Bengali cinema sounds interesting, I’d love to hear more — what’s one you’d recommend?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "I recommend watching *Bhooter Bhai* or *Autograph*. They are super popular and fun. But if you like something serious, *Chotoder Chobi* is also really good. Oh, by the way, do you like photography? I love clicking pictures during matches. It's amazing to capture those moments."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Bhooter Bhai and Autograph sound fun, I’ll take your word for it! Chotoder Chobi has a good name too. Photography during matches must be exciting — what’s your favorite shot to take?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "My favorite shot is when the player is about to score a goal. The tension in the air is amazing. I also like capturing close-ups of fans celebrating. It’s chaotically beautiful! Do you take photos? Or is it something you’ve never tried?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "The tension before a goal is electric, I'm catching emotions mid-air! Close-ups of fans add so much heart to the story. I haven’t tried photography, but I’d love to see your shots. Do you share them anywhere?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Yeah, I sometimes share on Instagram — mostly with #MohunBagan or #ISL tags. The photos get a lot of likes, especially the ones with fans celebrating. Actually, my favorite is one where a kid was crying with joy after a win. It’s raw and real, you know? Maybe one day I’ll learn proper editing. Oh, by the way, have you seen the latest Mohun Bagan match? They almost pulled another last-minute win!"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Instagram is a great space for that energy,  raw emotion and a win are hard to beat. That kid crying with joy sounds like a photo that tells a story. And Mohun Bagan’s last-minute magic never gets old. What part of the match did your friend love most?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "My friend loved the moment when the player made a solo run from midfield and scored. He was shouting the whole time, saying, \"Eita dekho!\" (You know, \"Watch this!\") It was like a dream. We still talk about it. Anyway, I should get back to my study — preparing for Bank PO is taking time. Talk to you later!"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Eita dekho moments are the best ,  they stay with you forever. That solo run must have felt like a movie scene. Bank PO prep is intense, take it one step at a time. What part of the study feels toughest right now?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Rohan",
+      "interests": [
+        "Mohun Bagan (sport)",
+        "football (sport)",
+        "bank exam (exam)",
+        "Premier League (sport)",
+        "La Liga (sport)",
+        "Indian Super League (sport)",
+        "Messi (person)",
+        "photography (hobby)",
+        "nature photography (hobby)",
+        "Bengali movies (movie)"
+      ],
+      "aspirations": [
+        "clear bank exam (exam)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "The excitement of watching Mohun Bagan score a last-minute goal (sport event)",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "The frustration of uploading the bank PO application form with a dropping internet connection (exam)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-20",
+        "last_seen": "2026-05-20",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "The excitement of a last-minute goal (sport event)",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-01",
+        "last_seen": "2026-06-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Watching football with friends at a café (sport event)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-06-01",
+        "last_seen": "2026-06-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "The thrill of a goal dance joke (sport event)",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-06-01",
+        "last_seen": "2026-06-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "Messi's bicycle kick goal in 2017 (sport event)",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-01",
+        "last_seen": "2026-06-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Feeling lonely in the silence when no one is around to chat (emotional state)",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "The comfort of sharing sunset and football stories with someone who listens (emotional state)",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "Wanting to connect through photos and conversations about football and movies (emotional state)",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "The artistry of football teamwork (sport event)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-06-21",
+        "last_seen": "2026-06-21",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "The excitement of last-minute goals (sport event)",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-21",
+        "last_seen": "2026-06-21",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "Enjoying the expressions of football players in photos (hobby)",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-06-21",
+        "last_seen": "2026-06-21",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "The charm of watching Bengali actors on the big screen (movie)",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-21",
+        "last_seen": "2026-06-21",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_27_C02_sporadic_d9",
+        "date": "2026-05-10",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_30_C05_sporadic_d38",
+        "date": "2026-06-08",
+        "label": "low",
+        "energy": 4,
+        "confidence": 0.42,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "football team preferences",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21",
+          "uses": 1
+        },
+        {
+          "topic": "photography of players",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21",
+          "uses": 1
+        },
+        {
+          "topic": "Bengali movies",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21",
+          "uses": 1
+        },
+        {
+          "topic": "Bengali movie",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        },
+        {
+          "topic": "photos",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        },
+        {
+          "topic": "photography tips",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        },
+        {
+          "topic": "football teams",
+          "last_session": "eval_29_C04_sporadic_d31",
+          "last_date": "2026-06-01",
+          "uses": 1
+        },
+        {
+          "topic": "favorite leagues",
+          "last_session": "eval_29_C04_sporadic_d31",
+          "last_date": "2026-06-01",
+          "uses": 1
+        },
+        {
+          "topic": "sports snacks",
+          "last_session": "eval_29_C04_sporadic_d31",
+          "last_date": "2026-06-01",
+          "uses": 1
+        },
+        {
+          "topic": "most exciting goal",
+          "last_session": "eval_29_C04_sporadic_d31",
+          "last_date": "2026-06-01",
+          "uses": 1
+        },
+        {
+          "topic": "Mohun Bagan (sport)",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        },
+        {
+          "topic": "bank PO application (exam)",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10"
+        },
+        {
+          "kind": "lore_callback",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_29_C04_sporadic_d31",
+          "last_date": "2026-06-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "The 'goal dance' joke reference",
+        "context": "User mentioned a friend making a 'goal dance' joke from a movie; Maya responded with a callback to the lighthearted moment.",
+        "first_seen": "2026-06-01",
+        "last_used": "2026-06-08",
+        "uses": 1
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Feeling lonely in the silence when no one is around to chat (emotional state)\" (tone: lonely)",
+        "source_id": "mo_007",
+        "priority": 7,
+        "computed_at": "2026-06-21",
+        "expires_at": "2026-07-05",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used vivid expressions to describe emotions and experiences ('make my heart jump', 'look like stars') (e.g. \"make my heart jump / look like stars\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-06-21",
+        "expires_at": "2026-07-05",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: used correct plural forms and collective noun agreement (e.g. \"They have a long way to go.\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-06-21",
+        "expires_at": "2026-07-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The artistry of football teamwork (sport event)\" (tone: content)",
+        "source_id": "mo_010",
+        "priority": 4,
+        "computed_at": "2026-06-21",
+        "expires_at": "2026-07-05",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The excitement of last-minute goals (sport event)\" (tone: excited)",
+        "source_id": "mo_011",
+        "priority": 4,
+        "computed_at": "2026-06-21",
+        "expires_at": "2026-07-05",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "missing plural for countable nouns in phrases",
+          "examples": [
+            "one of the most exciting experience"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        },
+        {
+          "pattern": "incorrect article usage",
+          "examples": [
+            "on their seat"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "correctly applied plural and article rules in self-editing",
+          "examples": [
+            "one of the most exciting experiences / on their seats"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10"
+        },
+        {
+          "what": "Used 'they' to refer to a collective noun correctly ('they have a long way to go')",
+          "examples": [
+            "They have a long way to go."
+          ],
+          "count": 1,
+          "first_seen": "2026-06-01",
+          "last_seen": "2026-06-01"
+        },
+        {
+          "what": "Used 'one of those moments' to describe a vivid experience",
+          "examples": [
+            "One of those moments where you just say, 'How does he do that?'"
+          ],
+          "count": 1,
+          "first_seen": "2026-06-01",
+          "last_seen": "2026-06-01"
+        },
+        {
+          "what": "Correctly used both present simple and present continuous forms to express feelings ('I feel lonely' and 'I am feeling l",
+          "examples": [
+            "I am feeling lonely"
+          ],
+          "count": 1,
+          "first_seen": "2026-06-08",
+          "last_seen": "2026-06-08"
+        },
+        {
+          "what": "used vivid expressions to describe emotions and experiences ('make my heart jump', 'look like stars')",
+          "examples": [
+            "make my heart jump / look like stars"
+          ],
+          "count": 1,
+          "first_seen": "2026-06-21",
+          "last_seen": "2026-06-21"
+        },
+        {
+          "what": "used correct plural forms and collective noun agreement",
+          "examples": [
+            "They have a long way to go."
+          ],
+          "count": 1,
+          "first_seen": "2026-06-21",
+          "last_seen": "2026-06-21"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Maya mentioned she watches matches when they’re close to home"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "return to study after the movie chat",
+        "source_session": "eval_32_C07_sporadic_d51",
+        "source_date": "2026-06-21",
+        "status": "active",
+        "expires_at": "2026-07-21"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "Share photos from the park scene with flowers",
+        "source_session": "eval_30_C05_sporadic_d38",
+        "source_date": "2026-06-08",
+        "status": "active",
+        "expires_at": "2026-07-08"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": "active",
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {
+        "correction_style": "2026-06-01"
+      }
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Rohan",
+      "interests": [
+        "Mohun Bagan (sport)",
+        "football (sport)",
+        "bank exam (exam)",
+        "Premier League (sport)",
+        "La Liga (sport)",
+        "Indian Super League (sport)",
+        "Messi (person)",
+        "photography (hobby)",
+        "nature photography (hobby)",
+        "Bengali movies (movie)",
+        "Manchester United (sport)",
+        "Bhooter Bhai (movie)",
+        "Autograph (movie)",
+        "Chotoder Chobi (movie)",
+        "Instagram (social_media)"
+      ],
+      "aspirations": [
+        "clear bank exam (exam)"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "The excitement of watching Mohun Bagan score a last-minute goal (sport event)",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "The frustration of uploading the bank PO application form with a dropping internet connection (exam)",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-20",
+        "last_seen": "2026-05-20",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "The excitement of a last-minute goal (sport event)",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-01",
+        "last_seen": "2026-06-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "Watching football with friends at a café (sport event)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-06-01",
+        "last_seen": "2026-06-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "The thrill of a goal dance joke (sport event)",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-06-01",
+        "last_seen": "2026-06-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "Messi's bicycle kick goal in 2017 (sport event)",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-01",
+        "last_seen": "2026-06-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Feeling lonely in the silence when no one is around to chat (emotional state)",
+        "tone": "lonely",
+        "sensitive": false,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "The comfort of sharing sunset and football stories with someone who listens (emotional state)",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "Wanting to connect through photos and conversations about football and movies (emotional state)",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-06-08",
+        "last_seen": "2026-06-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "The artistry of football teamwork (sport event)",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-06-21",
+        "last_seen": "2026-06-21",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "The excitement of last-minute goals (sport event)",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-21",
+        "last_seen": "2026-06-21",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "Enjoying the expressions of football players in photos (hobby)",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-06-21",
+        "last_seen": "2026-06-21",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "The charm of watching Bengali actors on the big screen (movie)",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-21",
+        "last_seen": "2026-06-21",
+        "mentions": 1
+      },
+      {
+        "id": "mo_014",
+        "text": "The electric tension before a goal in a match (sport event)",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30",
+        "mentions": 1
+      },
+      {
+        "id": "mo_015",
+        "text": "The joy of capturing a fan's celebration in a photo (hobby)",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30",
+        "mentions": 1
+      },
+      {
+        "id": "mo_016",
+        "text": "The emotional impact of a kid crying with joy after a win (sport event)",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30",
+        "mentions": 1
+      },
+      {
+        "id": "mo_017",
+        "text": "The excitement of a solo run leading to a goal (sport event)",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30",
+        "mentions": 1
+      },
+      {
+        "id": "mo_018",
+        "text": "Preparing for Bank PO exams is taking up a lot of time (exam)",
+        "tone": "neutral",
+        "sensitive": false,
+        "first_seen": "2026-06-30",
+        "last_seen": "2026-06-30",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_27_C02_sporadic_d9",
+        "date": "2026-05-10",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_30_C05_sporadic_d38",
+        "date": "2026-06-08",
+        "label": "low",
+        "energy": 4,
+        "confidence": 0.42,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "Bengali cinema",
+          "last_session": "eval_33_C08_sporadic_d60",
+          "last_date": "2026-06-30",
+          "uses": 1
+        },
+        {
+          "topic": "Bank PO prep",
+          "last_session": "eval_33_C08_sporadic_d60",
+          "last_date": "2026-06-30",
+          "uses": 1
+        },
+        {
+          "topic": "football team preferences",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21",
+          "uses": 1
+        },
+        {
+          "topic": "photography of players",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21",
+          "uses": 1
+        },
+        {
+          "topic": "Bengali movies",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21",
+          "uses": 1
+        },
+        {
+          "topic": "Bengali movie",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        },
+        {
+          "topic": "photos",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        },
+        {
+          "topic": "photography tips",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08",
+          "uses": 1
+        },
+        {
+          "topic": "football teams",
+          "last_session": "eval_29_C04_sporadic_d31",
+          "last_date": "2026-06-01",
+          "uses": 1
+        },
+        {
+          "topic": "favorite leagues",
+          "last_session": "eval_29_C04_sporadic_d31",
+          "last_date": "2026-06-01",
+          "uses": 1
+        },
+        {
+          "topic": "sports snacks",
+          "last_session": "eval_29_C04_sporadic_d31",
+          "last_date": "2026-06-01",
+          "uses": 1
+        },
+        {
+          "topic": "most exciting goal",
+          "last_session": "eval_29_C04_sporadic_d31",
+          "last_date": "2026-06-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_27_C02_sporadic_d9",
+          "last_date": "2026-05-10"
+        },
+        {
+          "kind": "lore_callback",
+          "last_session": "eval_28_C03_sporadic_d19",
+          "last_date": "2026-05-20"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_29_C04_sporadic_d31",
+          "last_date": "2026-06-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_30_C05_sporadic_d38",
+          "last_date": "2026-06-08"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_32_C07_sporadic_d51",
+          "last_date": "2026-06-21"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_33_C08_sporadic_d60",
+          "last_date": "2026-06-30"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "The 'goal dance' joke reference",
+        "context": "User mentioned a friend making a 'goal dance' joke from a movie; Maya responded with a callback to the lighthearted moment.",
+        "first_seen": "2026-06-01",
+        "last_used": "2026-06-30",
+        "uses": 2
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Used past tense to describe a recent football match (e.g. \"Mohun Bagan scored a last-minute goal in a local league match!\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-06-30",
+        "expires_at": "2026-07-14",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Used present continuous to describe ongoing preparation for an exam (e.g. \"preparing for Bank PO is taking time\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-06-30",
+        "expires_at": "2026-07-14",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Used direct speech and quotation marks correctly (e.g. \"He was shouting the whole time, saying, 'Eita dekho!'\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-06-30",
+        "expires_at": "2026-07-14",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The electric tension before a goal in a match (sport event)\" (tone: excited)",
+        "source_id": "mo_014",
+        "priority": 4,
+        "computed_at": "2026-06-30",
+        "expires_at": "2026-07-14",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The joy of capturing a fan's celebration in a photo (hobby)\" (tone: grateful)",
+        "source_id": "mo_015",
+        "priority": 4,
+        "computed_at": "2026-06-30",
+        "expires_at": "2026-07-14",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [
+        {
+          "pattern": "missing plural for countable nouns in phrases",
+          "examples": [
+            "one of the most exciting experience"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        },
+        {
+          "pattern": "incorrect article usage",
+          "examples": [
+            "on their seat"
+          ],
+          "occurrences": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10",
+          "status": "active"
+        }
+      ],
+      "wins": [
+        {
+          "what": "correctly applied plural and article rules in self-editing",
+          "examples": [
+            "one of the most exciting experiences / on their seats"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-10",
+          "last_seen": "2026-05-10"
+        },
+        {
+          "what": "Used 'they' to refer to a collective noun correctly ('they have a long way to go')",
+          "examples": [
+            "They have a long way to go."
+          ],
+          "count": 1,
+          "first_seen": "2026-06-01",
+          "last_seen": "2026-06-01"
+        },
+        {
+          "what": "Used 'one of those moments' to describe a vivid experience",
+          "examples": [
+            "One of those moments where you just say, 'How does he do that?'"
+          ],
+          "count": 1,
+          "first_seen": "2026-06-01",
+          "last_seen": "2026-06-01"
+        },
+        {
+          "what": "Correctly used both present simple and present continuous forms to express feelings ('I feel lonely' and 'I am feeling l",
+          "examples": [
+            "I am feeling lonely"
+          ],
+          "count": 1,
+          "first_seen": "2026-06-08",
+          "last_seen": "2026-06-08"
+        },
+        {
+          "what": "used vivid expressions to describe emotions and experiences ('make my heart jump', 'look like stars')",
+          "examples": [
+            "make my heart jump / look like stars"
+          ],
+          "count": 1,
+          "first_seen": "2026-06-21",
+          "last_seen": "2026-06-21"
+        },
+        {
+          "what": "used correct plural forms and collective noun agreement",
+          "examples": [
+            "They have a long way to go."
+          ],
+          "count": 1,
+          "first_seen": "2026-06-21",
+          "last_seen": "2026-06-21"
+        },
+        {
+          "what": "Used past tense to describe a recent football match",
+          "examples": [
+            "Mohun Bagan scored a last-minute goal in a local league match!"
+          ],
+          "count": 1,
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-06-30"
+        },
+        {
+          "what": "Used present continuous to describe ongoing preparation for an exam",
+          "examples": [
+            "preparing for Bank PO is taking time"
+          ],
+          "count": 1,
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-06-30"
+        },
+        {
+          "what": "Used direct speech and quotation marks correctly",
+          "examples": [
+            "He was shouting the whole time, saying, 'Eita dekho!'"
+          ],
+          "count": 1,
+          "first_seen": "2026-06-30",
+          "last_seen": "2026-06-30"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "Maya mentioned she watches matches when they’re close to home"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "return to study after the movie chat",
+        "source_session": "eval_32_C07_sporadic_d51",
+        "source_date": "2026-06-21",
+        "status": "active",
+        "expires_at": "2026-07-21"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "Share photos from the park scene with flowers",
+        "source_session": "eval_30_C05_sporadic_d38",
+        "source_date": "2026-06-08",
+        "status": "active",
+        "expires_at": "2026-07-08"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": "active",
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {
+        "correction_style": "2026-06-01"
+      }
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 18.6
+}

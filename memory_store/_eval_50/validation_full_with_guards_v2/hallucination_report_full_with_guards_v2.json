@@ -1,0 +1,1056 @@
+{
+  "summary": {
+    "session_count": 50,
+    "category_totals": {
+      "A_titles": 13,
+      "B_named_entities": 0,
+      "C_personal_claims": 1,
+      "D_fake_quotes": 3
+    },
+    "category_session_counts": {
+      "A_titles": 5,
+      "D_fake_quotes": 1,
+      "C_personal_claims": 1
+    },
+    "examples": {
+      "A_titles": [
+        {
+          "session_idx": 21,
+          "label": "B11_consec_d10",
+          "user": "Aarti",
+          "turn": 5,
+          "title": "PP Means Prevent and Palliate",
+          "snippet": "Got it, and that sounds like a smart plan. Acronyms are fun. What if you go with *PP Means Prevent and Palliate*. What’s next on your list?"
+        },
+        {
+          "session_idx": 22,
+          "label": "B12_consec_d11",
+          "user": "Aarti",
+          "turn": 2,
+          "title": "Good to hear it's getting better, Marathi notes are clever!",
+          "snippet": "\"Good to hear it's getting better, Marathi notes are clever!\" Cooking helps me too. What kind of cookies do you bake when you're stressed?"
+        },
+        {
+          "session_idx": 22,
+          "label": "B12_consec_d11",
+          "user": "Aarti",
+          "turn": 5,
+          "title": "completes",
+          "snippet": "Cumin is such a kitchen staple for me too. What’s one dish where you feel cumin just *completes* it for you?"
+        },
+        {
+          "session_idx": 29,
+          "label": "C04_sporadic_d31",
+          "user": "Rohan",
+          "turn": 4,
+          "title": "You said 'Ekti photo dekhe jodi lagay ki",
+          "snippet": "\"You said 'Ekti photo dekhe jodi lagay ki \"wow, this is something!\"', got it. You said it almost perfectly!\" Bengali cinema sounds interesting, do you take photos of that too?"
+        },
+        {
+          "session_idx": 38,
+          "label": "D03_coldstart_u03_ro",
+          "user": "Rohan",
+          "turn": 2,
+          "title": "Right, okay first, you did great to point it out yourself!",
+          "snippet": "\"Right, okay first, you did great to point it out yourself!\" \"Second, the mistake is a tiny tweak: we say 'I can transfer' when offering help. 'I'll transfer' sounds like a promise, not an offer.\" \"Wh"
+        },
+        {
+          "session_idx": 38,
+          "label": "D03_coldstart_u03_ro",
+          "user": "Rohan",
+          "turn": 3,
+          "title": "Same, those little slips happen to everyone.",
+          "snippet": "\"Same, those little slips happen to everyone.\" \"You handled it bravely, and being better next time is what learning is.\" \"Yes, practice with me anytime. What part feels trickiest for you?\""
+        },
+        {
+          "session_idx": 39,
+          "label": "D04_coldstart_u04_ne",
+          "user": "Neha",
+          "turn": 3,
+          "title": "Foam attack latte",
+          "snippet": "\"Foam attack latte\", that sounds creative! I get that, mornings can be tricky. Do you usually have a specific song or playlist to start your day?"
+        },
+        {
+          "session_idx": 39,
+          "label": "D04_coldstart_u04_ne",
+          "user": "Neha",
+          "turn": 4,
+          "title": "actually",
+          "snippet": "Got it, cringe avoidance is real after a foam attack. Do you have a go to breakfast that makes you feel like you’ve *actually* started the day?"
+        }
+      ],
+      "D_fake_quotes": [
+        {
+          "session_idx": 31,
+          "label": "C06_sporadic_d46",
+          "user": "Rohan",
+          "turn": 6,
+          "fake_quote": "my brain is all foggy,",
+          "snippet": "You said \"my brain is all foggy,\" yes, that sounds rough. Sleep loss hits hard, doesn’t it. What part of your revision feels the heaviest right now?"
+        },
+        {
+          "session_idx": 31,
+          "label": "C06_sporadic_d46",
+          "user": "Rohan",
+          "turn": 7,
+          "fake_quote": "gur in my coffee,",
+          "snippet": "You said \"gur in my coffee,\" yes, that’s a funny way to describe it! A movie sounds like a good escape. Action, comedy, or something old school Bengali?"
+        }
+      ],
+      "C_personal_claims": [
+        {
+          "session_idx": 35,
+          "label": "C10_sporadic_d80",
+          "user": "Rohan",
+          "turn": 1,
+          "claim": "I saw you watched the East Bengal Mohun Bagan match, what stood o",
+          "snippet": "Hi Rohan, I saw you watched the East Bengal Mohun Bagan match, what stood out for you in that comeback win?"
+        }
+      ]
+    }
+  },
+  "per_session": [
+    {
+      "session_idx": 1,
+      "label": "A01_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 2,
+      "label": "A02_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 3,
+      "label": "A03_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 4,
+      "label": "A04_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 5,
+      "label": "A05_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 6,
+      "label": "A06_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 7,
+      "label": "A07_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 8,
+      "label": "A08_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 9,
+      "label": "A09_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 10,
+      "label": "A10_same_day",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 11,
+      "label": "B01_consec_d0",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 12,
+      "label": "B02_consec_d1",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 13,
+      "label": "B03_consec_d2",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 14,
+      "label": "B04_consec_d3",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 15,
+      "label": "B05_consec_d4",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 16,
+      "label": "B06_consec_d5",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 17,
+      "label": "B07_consec_d6",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 18,
+      "label": "B08_consec_d7",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 19,
+      "label": "B09_consec_d8",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 20,
+      "label": "B10_consec_d9",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 21,
+      "label": "B11_consec_d10",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 5,
+            "title": "PP Means Prevent and Palliate",
+            "snippet": "Got it, and that sounds like a smart plan. Acronyms are fun. What if you go with *PP Means Prevent and Palliate*. What’s next on your list?"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 22,
+      "label": "B12_consec_d11",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 2,
+            "title": "Good to hear it's getting better, Marathi notes are clever!",
+            "snippet": "\"Good to hear it's getting better, Marathi notes are clever!\" Cooking helps me too. What kind of cookies do you bake when you're stressed?"
+          },
+          {
+            "turn": 5,
+            "title": "completes",
+            "snippet": "Cumin is such a kitchen staple for me too. What’s one dish where you feel cumin just *completes* it for you?"
+          },
+          {
+            "turn": 10,
+            "title": "Jeera rice with zing and coriander, sounds perfect!",
+            "snippet": "\"Jeera rice with zing and coriander, sounds perfect!\" Take your time, NEET PG prep will wait. How was your mock test today?"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 3,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 23,
+      "label": "B13_consec_d12",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 24,
+      "label": "B14_consec_d13",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 25,
+      "label": "B15_consec_d14",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 26,
+      "label": "C01_sporadic_d0",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 27,
+      "label": "C02_sporadic_d9",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 28,
+      "label": "C03_sporadic_d19",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 29,
+      "label": "C04_sporadic_d31",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 4,
+            "title": "You said 'Ekti photo dekhe jodi lagay ki",
+            "snippet": "\"You said 'Ekti photo dekhe jodi lagay ki \"wow, this is something!\"', got it. You said it almost perfectly!\" Bengali cinema sounds interesting, do you take photos of that too?"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 1,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 30,
+      "label": "C05_sporadic_d38",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 31,
+      "label": "C06_sporadic_d46",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": [
+          {
+            "turn": 6,
+            "fake_quote": "my brain is all foggy,",
+            "snippet": "You said \"my brain is all foggy,\" yes, that sounds rough. Sleep loss hits hard, doesn’t it. What part of your revision feels the heaviest right now?"
+          },
+          {
+            "turn": 7,
+            "fake_quote": "gur in my coffee,",
+            "snippet": "You said \"gur in my coffee,\" yes, that’s a funny way to describe it! A movie sounds like a good escape. Action, comedy, or something old school Bengali?"
+          },
+          {
+            "turn": 8,
+            "fake_quote": "hits two birds with one stone,",
+            "snippet": "You said \"hits two birds with one stone,\" yes, clever! A light film sounds perfect. I’ll save this chat for next time, and recharge well, Rohan!"
+          }
+        ]
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 3
+      }
+    },
+    {
+      "session_idx": 32,
+      "label": "C07_sporadic_d51",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 33,
+      "label": "C08_sporadic_d60",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 34,
+      "label": "C09_sporadic_d68",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 35,
+      "label": "C10_sporadic_d80",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [
+          {
+            "turn": 1,
+            "claim": "I saw you watched the East Bengal Mohun Bagan match, what stood o",
+            "snippet": "Hi Rohan, I saw you watched the East Bengal Mohun Bagan match, what stood out for you in that comeback win?"
+          }
+        ],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 1,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 36,
+      "label": "D01_coldstart_u01_pr",
+      "user_name": "Priyansh",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 37,
+      "label": "D02_coldstart_u02_aa",
+      "user_name": "Aarti",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 38,
+      "label": "D03_coldstart_u03_ro",
+      "user_name": "Rohan",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 2,
+            "title": "Right, okay first, you did great to point it out yourself!",
+            "snippet": "\"Right, okay first, you did great to point it out yourself!\" \"Second, the mistake is a tiny tweak: we say 'I can transfer' when offering help. 'I'll transfer' sounds like a promise, not an offer.\" \"Wh"
+          },
+          {
+            "turn": 3,
+            "title": "Same, those little slips happen to everyone.",
+            "snippet": "\"Same, those little slips happen to everyone.\" \"You handled it bravely, and being better next time is what learning is.\" \"Yes, practice with me anytime. What part feels trickiest for you?\""
+          },
+          {
+            "turn": 3,
+            "title": "You handled it bravely, and being better next time is what learning is.",
+            "snippet": "\"Same, those little slips happen to everyone.\" \"You handled it bravely, and being better next time is what learning is.\" \"Yes, practice with me anytime. What part feels trickiest for you?\""
+          },
+          {
+            "turn": 4,
+            "title": "Got it, 'can' is for offering, and 'will' is for promising.",
+            "snippet": "\"Got it, 'can' is for offering, and 'will' is for promising.\" \"For example: 'Can I check your ID?' is a request. 'I'll check your ID' is a promise to do it.\" \"How about we role play a bank conversatio"
+          },
+          {
+            "turn": 7,
+            "title": "Can you tell me...",
+            "snippet": "You said it perfectly, both \"want\" and \"would like\" are okay, but \"would like\" is a bit more polite in banks. \"Can you tell me...\" is correct for asking help. Let’s keep the conversation going. As the"
+          },
+          {
+            "turn": 8,
+            "title": "You can get the form here. Let me give you one.",
+            "snippet": "\"Can I get\" is fine, but in formal situations, \"May I\" sounds more polite. You could say, \"May I get the application form here?\" or \"Would I need to download it beforehand?\" Let’s keep practicing. I’d"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 6,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 39,
+      "label": "D04_coldstart_u04_ne",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [
+          {
+            "turn": 3,
+            "title": "Foam attack latte",
+            "snippet": "\"Foam attack latte\", that sounds creative! I get that, mornings can be tricky. Do you usually have a specific song or playlist to start your day?"
+          },
+          {
+            "turn": 4,
+            "title": "actually",
+            "snippet": "Got it, cringe avoidance is real after a foam attack. Do you have a go to breakfast that makes you feel like you’ve *actually* started the day?"
+          }
+        ],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 2,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 40,
+      "label": "D05_coldstart_u05_vi",
+      "user_name": "Vikram",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 41,
+      "label": "D06_coldstart_u06_an",
+      "user_name": "Anu",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 42,
+      "label": "D07_coldstart_u07_am",
+      "user_name": "Aman",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 43,
+      "label": "D08_coldstart_u08_di",
+      "user_name": "Diya",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 44,
+      "label": "D09_coldstart_u09_ka",
+      "user_name": "Kabir",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 45,
+      "label": "D10_coldstart_u10_sh",
+      "user_name": "Shreya",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 46,
+      "label": "E01_deeprun_w0",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 47,
+      "label": "E02_deeprun_w1",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 48,
+      "label": "E03_deeprun_w2",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 49,
+      "label": "E04_deeprun_w3",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    },
+    {
+      "session_idx": 50,
+      "label": "E05_deeprun_w4",
+      "user_name": "Neha",
+      "suspect": {
+        "A_titles": [],
+        "B_named_entities": [],
+        "C_personal_claims": [],
+        "D_fake_quotes": []
+      },
+      "totals": {
+        "A_titles": 0,
+        "B_named_entities": 0,
+        "C_personal_claims": 0,
+        "D_fake_quotes": 0
+      }
+    }
+  ]
+}

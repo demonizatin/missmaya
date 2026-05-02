@@ -1,0 +1,1832 @@
+{
+  "spec": {
+    "idx": 22,
+    "profile_id": "u02_aarti",
+    "eval_user_key": "u02_aarti",
+    "today": "2026-05-12",
+    "turns_target": 14,
+    "emotional_state": "chatty, in a good mood",
+    "label": "B12_consec_d11"
+  },
+  "profile": {
+    "id": "u02_aarti",
+    "user_name": "Aarti",
+    "profession": "Medical student preparing for NEET PG",
+    "mother_tongue": "Marathi",
+    "interests": "Cooking, classical music, books",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "earnest, slightly anxious about exams, opens up about study stress"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "The biryani marination test went well, did it turn out to your liking?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Yes, the biryani turned out very tasty! The marination worked well. My family liked it a lot. I added some mint and coriander on top, like my mom does. By the way, how's your day going?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds delightful — mint and coriander on top really elevate the dish. Biryani is such a joy when it turns out right. How often do you get to cook for your family these days?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Not too often, to be honest. With NEET PG prep taking up so much time, I cook only on weekends. But I try to make it special when I do. My mom helps me sometimes. What about you? Do you cook?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "I’m glad you’re making time to cook — even on weekends, those meals sound like little celebrations. I don’t cook myself, but I love learning about what others enjoy in the kitchen. What’s your go-to quick dish for busy days?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "On busy days, I usually make roti or paratha with some sabzi. It's quick and comforting. Sometimes I'll make a simple dal and rice. Nothing fancy, but it gives me energy for study. I also like making masala chai quickly after. How about you? Do you drink tea?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "I do enjoy a good cup of tea — quick or slow, it always feels like a small reward. Sounds like you balance your days well with simple, hearty meals and a little comfort in between. What kind of sabzi do you go for on those busy days — something green, like bhindi or palak?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "On busy days, I usually make a quick palak or lauki sabzi. They’re easy with just onions, tomatoes, and spices. Sometimes I add paneer if I have it. It's simple but filling. Oh, and I sometimes call it \"exam sabzi\" when I’m in study mode! 😄"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "\"Exam sabzi\" — I love that! A tiny laugh breaks up the study tension perfectly. Palak and lauki are smart picks — easy, healthy, and ready in no time. What’s the one spice you always have on hand for these quick meals?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Turmeric, for sure. Almost every sabzi needs it. I also always have cumin and red chili powder. But the one I use the most? Hing. It’s like magic for flavor. Oh, and I keep a jar of ghee in the fridge for that rich taste. Quick, easy, and familiar."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Hing is such a game-changer — a little goes a long way! And ghee adds that warmth no one can resist. You’re clearly cooking with love even when time is tight. What’s one thing you want to try adding to your \"exam sabzi\" next time?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Maybe some roasted garlic? I’ve been seeing recipes where it adds a nice depth. Or maybe some grated ginger for extra kick. I think it would make the sabzi feel more special, even if it’s just for me and quick study breaks. 🌶️"
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Roasted garlic and ginger — both are brilliant choices for that cozy, deep flavor. Even a small touch can make your quick meal feel like a treat. Do you usually roast the garlic first, or just mix it raw?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I usually roast the garlic first — it smells so good while it's cooking and tastes mellow and sweet. I just wrap a whole bulb in foil with some ghee and roast it in the oven for 10-15 mins. Sometimes I’m in such a hurry I just use raw garlic, but roasted is better, in my opinion. 😊"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Roasting garlic sounds like a small luxury — the smell alone must make your kitchen feel warm and inviting. Ten minutes of roasted goodness is worth every second! Do you ever use that mellow garlic in anything else besides sabzi — maybe bread or rice?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Yes, I sometimes mix a little roasted garlic into my rice or add it to paratha dough. It gives that extra flavor without any fuss. I also tried spreading it on roti with a bit of butter — very tasty! My favorite is using it in garlic naan, but I don’t get to make that too often. You know, with exams and all. 😅"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "That’s such a clever way to use it — roasted garlic in paratha or rice must make every bite feel like a little celebration. Garlic naan is worth the wait, but you deserve a treat now and then, even with exams! When’s the next time you’ll let yourself make it?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "This weekend, definitely! I’ve got a study break planned after my morning revision. I’ll make garlic naan, maybe with some paneer or egg on top. It’s my way of rewarding myself after a good day of studying. 😊 I think I’ll even play some classical music while I cook — it helps me relax."
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "That sounds like the perfect way to recharge — a little music, a little cooking, and a big reward for all your hard work. Will you go with Carnatic or Hindustani this time — or let the mood decide?"
+    },
+    {
+      "turn": 11,
+      "role": "user",
+      "content": "Hindustani, definitely. I have this old CD of Ravi Shankar that my dad gave me — it’s been my study companion for years. But sometimes I switch to Carnatic if I’m in the mood for something a bit different. The ragas help me focus… or just zone out, depending on the day. 😊"
+    },
+    {
+      "turn": 11,
+      "role": "maya",
+      "content": "Ravi Shankar’s ragas are timeless — they must feel like old friends by now. There’s something grounding about letting the music flow while you cook or study. What’s your favorite raga to play when you want to truly zone out?"
+    },
+    {
+      "turn": 12,
+      "role": "user",
+      "content": "Yaman ki Todi is my go-to for zoning out. It's so calming and has that late afternoon feel. But if I'm really stressed, I'll play a lively Thumri or a Bhajan. It just depends on how I'm feeling that day. Sometimes I even sing along — badly, but it helps! 😅"
+    },
+    {
+      "turn": 12,
+      "role": "maya",
+      "content": "Yaman ki Todi for calm and Thumri for energy — you clearly know your way around moods and music! Singing along, even badly, is the best kind of therapy. Do you have a favorite Thumri that you always reach for when you need a lift?"
+    },
+    {
+      "turn": 13,
+      "role": "user",
+      "content": "Yes, \"Basant Bahar\" by Kesar Bai Kerkar is my favorite. It's so expressive and uplifting. When I feel stuck in study mode, I just put it on and it instantly lifts my mood. I even try to hum along — my neighbors probably think I'm a lost soul! 😂 But it works. Okay, I should get back to my notes. Talk to you soon, Maya!"
+    },
+    {
+      "turn": 13,
+      "role": "maya",
+      "content": "\"Basant Bahar\" is a gem — it’s no wonder it lifts your mood so well! Singing along, even if your neighbors hear it, is part of the joy. Take care, and I’ll be here when your next study break comes along. Talk soon!"
+    },
+    {
+      "turn": 14,
+      "role": "user",
+      "content": "Okay, will do! Need to revise some anatomy now… but this chat made my day 😊 Talk soon!"
+    },
+    {
+      "turn": 14,
+      "role": "maya",
+      "content": "Anatomy can wait a few minutes you’ve earned this smile! Talk soon, Aarti."
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Aarti",
+      "studying_for": "NEET PG (exam)",
+      "music_preference": "Hindustani classical and Carnatic",
+      "relaxation_methods": [
+        "cooking",
+        "listening to classical music"
+      ],
+      "sources_of_peace": [
+        "cooking for family",
+        "reading books"
+      ],
+      "stress_management_techniques": [
+        "short walks",
+        "talking to friends",
+        "tea",
+        "listening to Panchtantra (book) chapters",
+        "playing harmonium"
+      ],
+      "favorite_books": [
+        "The Alchemist (book)"
+      ],
+      "reading_interests": [
+        "Ruskin Bond (author)",
+        "Anvikraman (book)",
+        "The Immortal Life of Henrietta Lacks (book)",
+        "book about Indian classical music history and gharanas (book)",
+        "book on science of cooking (book)"
+      ],
+      "comfort_foods": [
+        "dal khichdi (dish)",
+        "paneer butter masala with roti (dish)",
+        "chole (dish)",
+        "upma (dish)",
+        "poha (dish)"
+      ],
+      "favorite_spices": [
+        "turmeric",
+        "garam masala"
+      ],
+      "go_to_practice_dish": "chole",
+      "favorite_songs": [
+        "Mohan Khaye Re Mohan (song)"
+      ],
+      "personal_aspirations": [
+        "learning to sing"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "shanti comes to mind while listening to classical music",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "cooking for family brings peace",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "listening to Panchtantra (book) chapters helps reset and soothe",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "lion and the mouse (fable) reminds that small things matter during stress",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Jaat Kahan Ho (song) is soulful and helps stress fade",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "all-nighters cause brain fog and books chase me even in dreams",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "differential diagnoses feel like solving a puzzle blindfolded",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "tiny shifts matter more than I realize",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "dal khichdi (dish) brings comfort during revision stress",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "chai with elaichi (drink) after studies marks the 'I'm done for now' ritual",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "The Alchemist (book) reminds her to stay hopeful even when NEET PG prep feels overwhelming",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "*aamhi pan kahi asa karu shakto* — we can do this (Marathi affirmation) sustains her during exam stress",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "Marathi short stories from Anvikraman (book) help her relax after long study sessions",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_014",
+        "text": "Shivaji Park (story) reminds her to pause and find small joys during stress",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_015",
+        "text": "Each time I read it, The Alchemist (book) reveals something new — it grows with me",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_016",
+        "text": "the family's struggle with consent and science in The Immortal Life of Henrietta Lacks (book) moves me and teaches me about ethics",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_017",
+        "text": "I'm seeking books like The Brothers Karamazov (book) — complex, philosophical, but finishable",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_018",
+        "text": "Aajcha din thoda achha lagala — finally understood beta-blockers vs CCBs, and it felt good",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_019",
+        "text": "I made a comparison table and explained concepts aloud like teaching myself — and that created real confidence that I actually understood",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_020",
+        "text": "Even when new topics feel like mountains, breaking into small steps makes them manageable",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_021",
+        "text": "I feel like I'll never be ready for NEET PG (exam) papers",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_022",
+        "text": "opening revision notes when exhausted feels like an impossible struggle, but 10 mins is a trick to start",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_023",
+        "text": "bed becomes a trap during revision season — getting up feels like the biggest hurdle, harder than studying itself",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_024",
+        "text": "receptors and drug mechanisms feel like trying to memorise a dance I can't see",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_025",
+        "text": "Made a funny Krebs cycle song in Marathi folk tune with hand gestures — brother laughed and choked on his tea, and it actually stuck perfectly",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_026",
+        "text": "Silly study songs and raps seem cheesy, but they actually work and make learning feel less intimidating",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_027",
+        "text": "Small affirmation stickies like 'Breathe, small steps matter' and 'Pause, you're doing well' ground me and start each day with calm and self-kindness",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_028",
+        "text": "The kitchen is where my mind wanders to study schedules but in a calm kind of chaos — cooking softens anxious thoughts",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_029",
+        "text": "In mock tests, when I manage time and stay calm even when stuck, I feel the rhythm clicking — I'm learning that progress matters more than being perfect",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_030",
+        "text": "My ritual after studying hard is chai, writing down what went well, and a star in my planner — it's self-celebration and reminds me small wins count",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_031",
+        "text": "Playing harmonium for a few minutes settles my mind and helps me stay calm — music is my anchor during stressful moments",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_032",
+        "text": "understanding cooking science matters as much as executing recipes correctly",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_033",
+        "text": "being bold in the kitchen with garam masala feels right, even if others think it's strange",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_034",
+        "text": "biryani feels like a kitchen exam — big, exciting, and worth documenting to learn",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_035",
+        "text": "small steps and testing (marination first, small taste before commitment) make big scary projects feel manageable",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_036",
+        "text": "learning through nani's recipes and aunt's techniques connects cooking to family and culture",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_037",
+        "text": "scrolling on my phone during study breaks makes me feel guilty and worse",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-11",
+        "last_seen": "2026-05-11",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_15_B05_consec_d4",
+        "date": "2026-05-05",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_16_B06_consec_d5",
+        "date": "2026-05-06",
+        "label": "hopeful",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "n/a",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_17_B07_consec_d6",
+        "date": "2026-05-07",
+        "label": "anxious",
+        "energy": 2,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_18_B08_consec_d7",
+        "date": "2026-05-08",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_19_B09_consec_d8",
+        "date": "2026-05-09",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.72,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_20_B10_consec_d9",
+        "date": "2026-05-10",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_21_B11_consec_d10",
+        "date": "2026-05-11",
+        "label": "neutral",
+        "energy": 5,
+        "confidence": 0.6,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "cooking techniques",
+          "last_session": "eval_21_B11_consec_d10",
+          "last_date": "2026-05-11",
+          "uses": 1
+        },
+        {
+          "topic": "comfort foods",
+          "last_session": "eval_21_B11_consec_d10",
+          "last_date": "2026-05-11",
+          "uses": 1
+        },
+        {
+          "topic": "study breaks",
+          "last_session": "eval_21_B11_consec_d10",
+          "last_date": "2026-05-11",
+          "uses": 1
+        },
+        {
+          "topic": "music preferences",
+          "last_session": "eval_21_B11_consec_d10",
+          "last_date": "2026-05-11",
+          "uses": 1
+        },
+        {
+          "topic": "reading interests and cultural connection",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "cooking as learning and practice",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "spice experimentation",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "family recipes",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "biryani project",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "marination techniques",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "cooking",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09",
+          "uses": 1
+        },
+        {
+          "topic": "test performance",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_21_B11_consec_d10",
+          "last_date": "2026-05-11"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"scrolling on my phone during study breaks makes me feel guilty and worse\" (tone: anxious)",
+        "source_id": "mo_037",
+        "priority": 7,
+        "computed_at": "2026-05-11",
+        "expires_at": "2026-05-25",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"understanding cooking science matters as much as executing recipes correctly\" (tone: hopeful)",
+        "source_id": "mo_032",
+        "priority": 4,
+        "computed_at": "2026-05-11",
+        "expires_at": "2026-05-25",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"being bold in the kitchen with garam masala feels right, even if others think it's strange\" (tone: proud)",
+        "source_id": "mo_033",
+        "priority": 4,
+        "computed_at": "2026-05-11",
+        "expires_at": "2026-05-25",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"biryani feels like a kitchen exam — big, exciting, and worth documenting to learn\" (tone: excited)",
+        "source_id": "mo_034",
+        "priority": 4,
+        "computed_at": "2026-05-11",
+        "expires_at": "2026-05-25",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"small steps and testing (marination first, small taste before commitment) make big scary p\" (tone: hopeful)",
+        "source_id": "mo_035",
+        "priority": 4,
+        "computed_at": "2026-05-11",
+        "expires_at": "2026-05-25",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "nostalgic about rain on tin roofs during monsoon"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "test biryani marination tomorrow (2026-05-11) with small piece",
+        "source_session": "eval_20_B10_consec_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "apply comparison table method to diuretics, starting with loop diuretics (mechanism, uses, side effects)",
+        "source_session": "eval_16_B06_consec_d5",
+        "source_date": "2026-05-06",
+        "status": "active",
+        "expires_at": "2026-06-05"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "try color-coding one differential diagnosis case with red for neurology, blue for cardiology",
+        "source_session": "eval_13_B03_consec_d2",
+        "source_date": "2026-05-03",
+        "status": "active",
+        "expires_at": "2026-06-02"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the sticky note 'Breathe, small steps matter' helps during exam prep",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Aarti",
+      "studying_for": "NEET PG (exam)",
+      "music_preference": "Hindustani classical and Carnatic",
+      "relaxation_methods": [
+        "cooking",
+        "listening to classical music"
+      ],
+      "sources_of_peace": [
+        "cooking for family",
+        "reading books"
+      ],
+      "stress_management_techniques": [
+        "short walks",
+        "talking to friends",
+        "tea",
+        "listening to Panchtantra (book) chapters",
+        "playing harmonium"
+      ],
+      "favorite_books": [
+        "The Alchemist (book)"
+      ],
+      "reading_interests": [
+        "Ruskin Bond (author)",
+        "Anvikraman (book)",
+        "The Immortal Life of Henrietta Lacks (book)",
+        "book about Indian classical music history and gharanas (book)",
+        "book on science of cooking (book)"
+      ],
+      "comfort_foods": [
+        "dal khichdi (dish)",
+        "paneer butter masala with roti (dish)",
+        "chole (dish)",
+        "upma (dish)",
+        "poha (dish)"
+      ],
+      "favorite_spices": [
+        "turmeric",
+        "garam masala"
+      ],
+      "go_to_practice_dish": "chole",
+      "favorite_songs": [
+        "Mohan Khaye Re Mohan (song)"
+      ],
+      "personal_aspirations": [
+        "learning to sing"
+      ]
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "shanti comes to mind while listening to classical music",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "cooking for family brings peace",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "listening to Panchtantra (book) chapters helps reset and soothe",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "lion and the mouse (fable) reminds that small things matter during stress",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "Jaat Kahan Ho (song) is soulful and helps stress fade",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-02",
+        "last_seen": "2026-05-02",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "all-nighters cause brain fog and books chase me even in dreams",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "differential diagnoses feel like solving a puzzle blindfolded",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "tiny shifts matter more than I realize",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-03",
+        "last_seen": "2026-05-03",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "dal khichdi (dish) brings comfort during revision stress",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_010",
+        "text": "chai with elaichi (drink) after studies marks the 'I'm done for now' ritual",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_011",
+        "text": "The Alchemist (book) reminds her to stay hopeful even when NEET PG prep feels overwhelming",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_012",
+        "text": "*aamhi pan kahi asa karu shakto* — we can do this (Marathi affirmation) sustains her during exam stress",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_013",
+        "text": "Marathi short stories from Anvikraman (book) help her relax after long study sessions",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_014",
+        "text": "Shivaji Park (story) reminds her to pause and find small joys during stress",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-04",
+        "last_seen": "2026-05-04",
+        "mentions": 1
+      },
+      {
+        "id": "mo_015",
+        "text": "Each time I read it, The Alchemist (book) reveals something new — it grows with me",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_016",
+        "text": "the family's struggle with consent and science in The Immortal Life of Henrietta Lacks (book) moves me and teaches me about ethics",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_017",
+        "text": "I'm seeking books like The Brothers Karamazov (book) — complex, philosophical, but finishable",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-05",
+        "last_seen": "2026-05-05",
+        "mentions": 1
+      },
+      {
+        "id": "mo_018",
+        "text": "Aajcha din thoda achha lagala — finally understood beta-blockers vs CCBs, and it felt good",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_019",
+        "text": "I made a comparison table and explained concepts aloud like teaching myself — and that created real confidence that I actually understood",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_020",
+        "text": "Even when new topics feel like mountains, breaking into small steps makes them manageable",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-06",
+        "last_seen": "2026-05-06",
+        "mentions": 1
+      },
+      {
+        "id": "mo_021",
+        "text": "I feel like I'll never be ready for NEET PG (exam) papers",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_022",
+        "text": "opening revision notes when exhausted feels like an impossible struggle, but 10 mins is a trick to start",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_023",
+        "text": "bed becomes a trap during revision season — getting up feels like the biggest hurdle, harder than studying itself",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-07",
+        "last_seen": "2026-05-07",
+        "mentions": 1
+      },
+      {
+        "id": "mo_024",
+        "text": "receptors and drug mechanisms feel like trying to memorise a dance I can't see",
+        "tone": "frustrated",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_025",
+        "text": "Made a funny Krebs cycle song in Marathi folk tune with hand gestures — brother laughed and choked on his tea, and it actually stuck perfectly",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_026",
+        "text": "Silly study songs and raps seem cheesy, but they actually work and make learning feel less intimidating",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      },
+      {
+        "id": "mo_027",
+        "text": "Small affirmation stickies like 'Breathe, small steps matter' and 'Pause, you're doing well' ground me and start each day with calm and self-kindness",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_028",
+        "text": "The kitchen is where my mind wanders to study schedules but in a calm kind of chaos — cooking softens anxious thoughts",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_029",
+        "text": "In mock tests, when I manage time and stay calm even when stuck, I feel the rhythm clicking — I'm learning that progress matters more than being perfect",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_030",
+        "text": "My ritual after studying hard is chai, writing down what went well, and a star in my planner — it's self-celebration and reminds me small wins count",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_031",
+        "text": "Playing harmonium for a few minutes settles my mind and helps me stay calm — music is my anchor during stressful moments",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-09",
+        "last_seen": "2026-05-09",
+        "mentions": 1
+      },
+      {
+        "id": "mo_032",
+        "text": "understanding cooking science matters as much as executing recipes correctly",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_033",
+        "text": "being bold in the kitchen with garam masala feels right, even if others think it's strange",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_034",
+        "text": "biryani feels like a kitchen exam — big, exciting, and worth documenting to learn",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_035",
+        "text": "small steps and testing (marination first, small taste before commitment) make big scary projects feel manageable",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_036",
+        "text": "learning through nani's recipes and aunt's techniques connects cooking to family and culture",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-10",
+        "last_seen": "2026-05-10",
+        "mentions": 1
+      },
+      {
+        "id": "mo_037",
+        "text": "scrolling on my phone during study breaks makes me feel guilty and worse",
+        "tone": "anxious",
+        "sensitive": false,
+        "first_seen": "2026-05-11",
+        "last_seen": "2026-05-11",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_11_B01_consec_d0",
+        "date": "2026-05-01",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_12_B02_consec_d1",
+        "date": "2026-05-02",
+        "label": "anxious",
+        "energy": 5,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_13_B03_consec_d2",
+        "date": "2026-05-03",
+        "label": "anxious",
+        "energy": 3,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_14_B04_consec_d3",
+        "date": "2026-05-04",
+        "label": "anxious",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_15_B05_consec_d4",
+        "date": "2026-05-05",
+        "label": "content",
+        "energy": 7,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_16_B06_consec_d5",
+        "date": "2026-05-06",
+        "label": "hopeful",
+        "energy": 7,
+        "confidence": 0.8,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "n/a",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_17_B07_consec_d6",
+        "date": "2026-05-07",
+        "label": "anxious",
+        "energy": 2,
+        "confidence": 0.85,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_18_B08_consec_d7",
+        "date": "2026-05-08",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_19_B09_consec_d8",
+        "date": "2026-05-09",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.72,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_20_B10_consec_d9",
+        "date": "2026-05-10",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_21_B11_consec_d10",
+        "date": "2026-05-11",
+        "label": "neutral",
+        "energy": 5,
+        "confidence": 0.6,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "cooking techniques",
+          "last_session": "eval_21_B11_consec_d10",
+          "last_date": "2026-05-11",
+          "uses": 1
+        },
+        {
+          "topic": "comfort foods",
+          "last_session": "eval_21_B11_consec_d10",
+          "last_date": "2026-05-11",
+          "uses": 1
+        },
+        {
+          "topic": "study breaks",
+          "last_session": "eval_21_B11_consec_d10",
+          "last_date": "2026-05-11",
+          "uses": 1
+        },
+        {
+          "topic": "music preferences",
+          "last_session": "eval_21_B11_consec_d10",
+          "last_date": "2026-05-11",
+          "uses": 1
+        },
+        {
+          "topic": "reading interests and cultural connection",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "cooking as learning and practice",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "spice experimentation",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "family recipes",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "biryani project",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "marination techniques",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10",
+          "uses": 1
+        },
+        {
+          "topic": "cooking",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09",
+          "uses": 1
+        },
+        {
+          "topic": "test performance",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_12_B02_consec_d1",
+          "last_date": "2026-05-02"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_13_B03_consec_d2",
+          "last_date": "2026-05-03"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_14_B04_consec_d3",
+          "last_date": "2026-05-04"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_15_B05_consec_d4",
+          "last_date": "2026-05-05"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_16_B06_consec_d5",
+          "last_date": "2026-05-06"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_17_B07_consec_d6",
+          "last_date": "2026-05-07"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_18_B08_consec_d7",
+          "last_date": "2026-05-08"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_19_B09_consec_d8",
+          "last_date": "2026-05-09"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_20_B10_consec_d9",
+          "last_date": "2026-05-10"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_21_B11_consec_d10",
+          "last_date": "2026-05-11"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"scrolling on my phone during study breaks makes me feel guilty and worse\" (tone: anxious)",
+        "source_id": "mo_037",
+        "priority": 7,
+        "computed_at": "2026-05-11",
+        "expires_at": "2026-05-25",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"understanding cooking science matters as much as executing recipes correctly\" (tone: hopeful)",
+        "source_id": "mo_032",
+        "priority": 4,
+        "computed_at": "2026-05-11",
+        "expires_at": "2026-05-25",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"being bold in the kitchen with garam masala feels right, even if others think it's strange\" (tone: proud)",
+        "source_id": "mo_033",
+        "priority": 4,
+        "computed_at": "2026-05-11",
+        "expires_at": "2026-05-25",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"biryani feels like a kitchen exam — big, exciting, and worth documenting to learn\" (tone: excited)",
+        "source_id": "mo_034",
+        "priority": 4,
+        "computed_at": "2026-05-11",
+        "expires_at": "2026-05-25",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"small steps and testing (marination first, small taste before commitment) make big scary p\" (tone: hopeful)",
+        "source_id": "mo_035",
+        "priority": 4,
+        "computed_at": "2026-05-11",
+        "expires_at": "2026-05-25",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold",
+        "nostalgic about rain on tin roofs during monsoon"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_004",
+        "kind": "user_promise",
+        "content": "test biryani marination tomorrow (2026-05-11) with small piece",
+        "source_session": "eval_20_B10_consec_d9",
+        "source_date": "2026-05-10",
+        "status": "active",
+        "expires_at": "2026-06-09"
+      },
+      {
+        "id": "ol_003",
+        "kind": "user_promise",
+        "content": "apply comparison table method to diuretics, starting with loop diuretics (mechanism, uses, side effects)",
+        "source_session": "eval_16_B06_consec_d5",
+        "source_date": "2026-05-06",
+        "status": "active",
+        "expires_at": "2026-06-05"
+      },
+      {
+        "id": "ol_002",
+        "kind": "user_promise",
+        "content": "try color-coding one differential diagnosis case with red for neurology, blue for cardiology",
+        "source_session": "eval_13_B03_consec_d2",
+        "source_date": "2026-05-03",
+        "status": "active",
+        "expires_at": "2026-06-02"
+      },
+      {
+        "id": "ol_001",
+        "kind": "user_promise",
+        "content": "tell Maya how the sticky note 'Breathe, small steps matter' helps during exam prep",
+        "source_session": "eval_12_B02_consec_d1",
+        "source_date": "2026-05-02",
+        "status": "active",
+        "expires_at": "2026-06-01"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": false,
+  "duration_s": 155.2
+}

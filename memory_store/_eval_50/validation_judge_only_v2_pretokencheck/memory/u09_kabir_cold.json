@@ -1,0 +1,83 @@
+{
+  "facts": {
+    "interests": [
+      "biryani (dish)",
+      "old Kannada songs (song)"
+    ]
+  },
+  "events": [],
+  "moments": [],
+  "mood_log": [
+    {
+      "session_id": "eval_44_D09_coldstart_u09_ka",
+      "date": "2026-05-27",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.5,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    }
+  ],
+  "cooldown": {
+    "recent_topics": [],
+    "recent_openers": [],
+    "recent_opening_phrases": []
+  },
+  "lore": [],
+  "anticipation_queue": [],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold",
+      "Maya mentioned she enjoys chatting with friends during breaks"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "user said 'I should go, work calls. Talk later!'",
+      "source_session": "eval_44_D09_coldstart_u09_ka",
+      "source_date": "2026-05-27",
+      "status": "active",
+      "expires_at": "2026-06-26"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": null,
+    "off_limits_topics": [],
+    "asked_at": {}
+  }
+}

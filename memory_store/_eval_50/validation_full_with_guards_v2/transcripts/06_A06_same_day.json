@@ -1,0 +1,870 @@
+{
+  "spec": {
+    "idx": 6,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 6,
+    "emotional_state": "neutral, ordinary day",
+    "label": "A06_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, cricket moments with friends are the best, the shouting, the joy. Any recent games that brought back those feelings?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Last weekend, me and my friends played a small match. We were all in our 30s but still had so much fun. One ball hit the stumps — super exciting! It felt like old times."
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "That sounds fun. Playing with friends always brings back good memories. What made that ball so exciting?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "The bowler ran in fast, I focused on the ball — *whiz* — and just as he released, I saw the spin. I waited, waited... then *thwack*! I hit it straight, and it crashed into the stumps. The guy on strike didn't even move. All of us jumped up — priceless moment."
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "That was a great play. Seeing the spin and timing the shot perfectly takes skill. Did you all celebrate with something special after the match?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "We went to a small diner nearby and ordered a lot of chaat and cold drinks. It’s our usual post-match routine. We laughed a lot, replayed the moments — especially my \"stump crasher\" — and even ordered a few shots of *tamarind soda* to toast. Simple, but perfect."
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "That sounds like a perfect way to wind down. Tamarind soda with chaat, such a fun combo. What’s your go to chaat in a situation like that?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "My favorite is *dahi puri*. The mix of tangy tamarind water, spicy chaat masala, and the cool yogurt — it just hits right after a hot game. Sometimes we add some sev and onions on top. Simple, but so satisfying."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "That sounds delicious. The tangy and spicy mix must balance the excitement of the game. Do you try new chaat recipes often, or stick to the classics?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "Mostly stick to classics — they’re reliable after a game. But once in a while, we try something new, like *pani puri with guava pani* or *aloo tikki with mint chutney*. Keeps things interesting, but not too much! I should head off now — gotta prep for a meeting. Talk to you later!"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Right, dahi puri is a classic for a reason. Those new twists sound fun to try. Let me know how your meeting goes, talk to you soon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "occupation": "fintech",
+      "sport_interest": "cricket (sport)",
+      "cricket_preferences": [
+        "batting for the thrill",
+        "bowling for wickets",
+        "tight finishes",
+        "scores fast when batting"
+      ],
+      "favorite_actor": "Shah Rukh Khan (person)",
+      "favorite_movie": "Dil Chahta Hai (movie)",
+      "interests": [
+        "underdog stories"
+      ],
+      "cricket_activities": [
+        "gully cricket (sport)"
+      ],
+      "t20_favorite_teams": [
+        "Mumbai Indians",
+        "Chennai Super Kings"
+      ],
+      "favorite_cricket_players": [
+        "Jasprit Bumrah (person)",
+        "Suryakumar Yadav (person)",
+        "Shubman Gill (person)",
+        "Ravindra Jadeja (person)"
+      ]
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "India vs Australia cricket match (sport)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I love when a match ends with a tight finish, like a last-ball win. It gives me adrenaline.",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I remember one match where India chased 300 in the last over with friends, we were all shouting. It's moments like that.",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "The 2004 semi-final between India and Sri Lanka (event), Sri Lanka won with last ball. Dil Chahta Hai (movie) is another special one. Both are special because they're underdog stories.",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "A friend recommended Dil Chahta Hai (movie). He said it's different. I watched it and really connected with the characters. It was not like other movies I was used to. From that day, it became my favorite.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "The 2018 IPL final between Chennai Super Kings and Mumbai Indians (event) was epic. Rain, a tie, and a super over — still gives me chills. The final moments of the super over, Jadhav running between the wickets, that catch by Krunal, it was *dhamaal*. I still remember the tension.",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "The 2017 Champions Trophy semi-final (event) against Pakistan was memorable because of the teamwork and belief. Even when the target looked big, no one gave up. MS Dhoni (person)'s calm and the way the lower order batted showed India could win under pressure. It felt like a turning point for the team and made me want to follow cricket even more.",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": "ev_001"
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "cricket positions",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "tight finishes",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "underdog stories",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "movies",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "India vs Australia match",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "T20 teams",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "T20 finals",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "T20 vs Tests",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "watching format",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "match length",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "favorite players",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I love when a match ends with a tight finish, like a last-ball win. It gives me adrenaline\" (tone: excited)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I remember one match where India chased 300 in the last over with friends, we were all sho\" (tone: excited)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The 2004 semi-final between India and Sri Lanka (event), Sri Lanka won with last ball. Dil\" (tone: excited)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"A friend recommended Dil Chahta Hai (movie). He said it's different. I watched it and real\" (tone: grateful)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The 2018 IPL final between Chennai Super Kings and Mumbai Indians (event) was epic. Rain, \" (tone: excited)",
+        "source_id": "mo_005",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "ask about recent memorable cricket games with similar tension and belief",
+        "source_session": "eval_5_A05_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "occupation": "fintech",
+      "sport_interest": "cricket (sport)",
+      "cricket_preferences": [
+        "batting for the thrill",
+        "bowling for wickets",
+        "tight finishes",
+        "scores fast when batting"
+      ],
+      "favorite_actor": "Shah Rukh Khan (person)",
+      "favorite_movie": "Dil Chahta Hai (movie)",
+      "interests": [
+        "underdog stories"
+      ],
+      "cricket_activities": [
+        "gully cricket (sport)"
+      ],
+      "t20_favorite_teams": [
+        "Mumbai Indians",
+        "Chennai Super Kings"
+      ],
+      "favorite_cricket_players": [
+        "Jasprit Bumrah (person)",
+        "Suryakumar Yadav (person)",
+        "Shubman Gill (person)",
+        "Ravindra Jadeja (person)"
+      ],
+      "favorite_chaat": "dahi puri (dish)",
+      "post_match_ritual": "chaat and cold drinks at a diner with friends; occasionally tamarind soda shots"
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "India vs Australia cricket match (sport)",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      },
+      {
+        "id": "ev_002",
+        "what": "gully cricket match with friends (event)",
+        "date": "2026-04-26",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "I love when a match ends with a tight finish, like a last-ball win. It gives me adrenaline.",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "I remember one match where India chased 300 in the last over with friends, we were all shouting. It's moments like that.",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "The 2004 semi-final between India and Sri Lanka (event), Sri Lanka won with last ball. Dil Chahta Hai (movie) is another special one. Both are special because they're underdog stories.",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_004",
+        "text": "A friend recommended Dil Chahta Hai (movie). He said it's different. I watched it and really connected with the characters. It was not like other movies I was used to. From that day, it became my favorite.",
+        "tone": "grateful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_005",
+        "text": "The 2018 IPL final between Chennai Super Kings and Mumbai Indians (event) was epic. Rain, a tie, and a super over — still gives me chills. The final moments of the super over, Jadhav running between the wickets, that catch by Krunal, it was *dhamaal*. I still remember the tension.",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_006",
+        "text": "The 2017 Champions Trophy semi-final (event) against Pakistan was memorable because of the teamwork and belief. Even when the target looked big, no one gave up. MS Dhoni (person)'s calm and the way the lower order batted showed India could win under pressure. It felt like a turning point for the team and made me want to follow cricket even more.",
+        "tone": "proud",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_007",
+        "text": "Last weekend, I played gully cricket with friends. I hit the ball straight and it crashed into the stumps. We all jumped up — priceless moment. Even though we're all in our 30s, it felt like old times.",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_008",
+        "text": "We went to a small diner after the match and ordered chaat and cold drinks. It's our usual post-match routine. We laughed a lot, replayed the moments — especially my 'stump crasher'. Simple, but perfect.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_009",
+        "text": "The mix of tangy tamarind water, spicy chaat masala, and cool yogurt — dahi puri just hits right after a hot game. Simple, but so satisfying.",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_4_A04_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_5_A05_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": "ev_001"
+      },
+      {
+        "session_id": "eval_6_A06_same_day",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 8,
+        "confidence": 0.56,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "cricket positions",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "tight finishes",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "underdog stories",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "movies",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "India vs Australia match",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01",
+          "uses": 2
+        },
+        {
+          "topic": "T20 teams",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "T20 finals",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "T20 vs Tests",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "watching format",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "match length",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "favorite players",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "relaxation",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_4_A04_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_5_A05_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "moment_followup",
+          "last_session": "eval_6_A06_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "the 'stump crasher'",
+        "context": "user hit a cricket ball straight that crashed into the stumps; friends have started calling this his signature shot",
+        "first_seen": "2026-05-01",
+        "last_used": "2026-05-01",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I love when a match ends with a tight finish, like a last-ball win. It gives me adrenaline\" (tone: excited)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"I remember one match where India chased 300 in the last over with friends, we were all sho\" (tone: excited)",
+        "source_id": "mo_002",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The 2004 semi-final between India and Sri Lanka (event), Sri Lanka won with last ball. Dil\" (tone: excited)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"A friend recommended Dil Chahta Hai (movie). He said it's different. I watched it and real\" (tone: grateful)",
+        "source_id": "mo_004",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"The 2018 IPL final between Chennai Super Kings and Mumbai Indians (event) was epic. Rain, \" (tone: excited)",
+        "source_id": "mo_005",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "ask about recent memorable cricket games with similar tension and belief",
+        "source_session": "eval_5_A05_same_day",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 137.1
+}

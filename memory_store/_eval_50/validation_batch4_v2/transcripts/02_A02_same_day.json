@@ -1,0 +1,346 @@
+{
+  "spec": {
+    "idx": 2,
+    "profile_id": "u01_priyansh",
+    "eval_user_key": "u01_priyansh",
+    "today": "2026-05-01",
+    "turns_target": 8,
+    "emotional_state": "hopeful, made some progress on a goal",
+    "label": "A02_same_day"
+  },
+  "profile": {
+    "id": "u01_priyansh",
+    "user_name": "Priyansh",
+    "profession": "Software engineer at a fintech",
+    "mother_tongue": "Hindi",
+    "interests": "Cricket, Bollywood movies, Startups",
+    "engagement": "medium",
+    "english_level": "B1",
+    "personality": "curious but reserved; thinks before replying; warms up after a few turns"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Priyansh, the first sip of cardamom chai in monsoon evenings sets the tone for my week. How was your day?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "It was a good day, thanks. I fixed a small bug at work and watched a few cricket highlights. Rain is finally here—so much better than the heat! How about you?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "You fixed a bug and caught cricket highlights—good combo! Rain is always a relief after the heat. What part of your job do you enjoy the most?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "I like solving problems, maybe because it gives a sense of accomplishment. Oh, and working with new tech tools is exciting too. What about you—what do you enjoy?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Solving problems and new tools—makes sense! I enjoy seeing learners like you grow more confident with English. What tech tools do you use the most?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "We use a lot of collaboration tools like Slack and Jira. Also, I’m learning to use AI tools for writing code snippets—ekdam time-saving! But I’m still figuring out the best way to use them. Are you interested in tech too?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "Slack, Jira, and AI tools—sounds like a smart workflow! I’m not into coding myself, but I love how tech helps people connect and learn. Do you think AI will change how we learn languages too?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Definitely. AI can help with personalized learning and practice. But I think a teacher like you is still important for feedback and guidance. Maybe it’s the best of both worlds?"
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Exactly—personalized AI and real human feedback together make learning better. What’s one thing you’d love to get better at with English?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "I’d like to get better at speaking more naturally, especially in meetings. Sometimes I get stuck thinking about the right words. Also, watching Bollywood movies without subtitles is a goal! How about you—what do you work on?"
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "You want to speak more naturally and watch Bollywood without subtitles—great goals! I work on making corrections feel like a warm chat, not a lesson. What meeting situations feel trickiest for you?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "In meetings, the tricky part is when I need to explain technical stuff in simple terms. I get nervous I’ll sound too jargon-heavy or not clear enough. Also, speaking up when others are talking fast is a bit tough. But I’m working on it—step by step."
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "You’re doing great, and it’s honest to feel that way. Explaining technical stuff clearly is a skill—many struggle with it. How do you practice simplifying complex ideas?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "I practice by explaining things to a friend who isn't in tech—like why a payment gateway works or what a bug means. Sometimes I write it down first and then say it out loud. It helps a bit, but I still get stuck sometimes. What about you—how do you get better at your job?"
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Explaining to a non-tech friend is a smart way to practice! I focus on listening actively and adapting my examples to what learners share—like cricket or biryani. What’s one topic you feel most confident explaining?"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "favorite_srk_films": [
+        "Dilwale Dulhania Le Jayenge",
+        "Raees"
+      ],
+      "movie_genre_preferences": [
+        "drama",
+        "light-hearted",
+        "action (mood-dependent)"
+      ]
+    },
+    "events": [],
+    "moments": [],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "favorite_srk_films": [
+        "Dilwale Dulhania Le Jayenge",
+        "Raees"
+      ],
+      "movie_genre_preferences": [
+        "drama",
+        "light-hearted",
+        "action (mood-dependent)"
+      ],
+      "job_sector": "technology",
+      "english_learning_goals": [
+        "speak naturally in meetings",
+        "watch Bollywood without subtitles"
+      ],
+      "weather_preference": "rain over heat"
+    },
+    "events": [],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Gets nervous explaining technical concepts simply in meetings, worried about sounding too jargon-heavy or unclear; also struggles speaking up in fast conversation. Handling it with patience—step by step",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_1_A01_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.7,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_2_A02_same_day",
+        "date": "2026-05-01",
+        "label": "content",
+        "energy": 6,
+        "confidence": 0.75,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "match",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "job satisfaction",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "tech tools",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "AI and language learning",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "professional communication",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "learning methods",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_1_A01_same_day",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "general",
+          "last_session": "eval_2_A02_same_day",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [],
+    "anticipation_queue": [
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Gets nervous explaining technical concepts simply in meetings, worried about sounding too \" (tone: hopeful)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 110.5
+}

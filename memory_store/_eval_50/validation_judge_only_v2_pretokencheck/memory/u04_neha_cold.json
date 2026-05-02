@@ -1,0 +1,118 @@
+{
+  "facts": {
+    "job": [
+      "Product Designer (person)"
+    ]
+  },
+  "events": [],
+  "moments": [
+    {
+      "id": "mo_001",
+      "text": "Life’s too short for boring emails — and Neha lives by that with cat stickers and chaos.",
+      "tone": "content",
+      "sensitive": false,
+      "first_seen": "2026-05-18",
+      "last_seen": "2026-05-18",
+      "mentions": 1
+    }
+  ],
+  "mood_log": [],
+  "cooldown": {
+    "recent_topics": [
+      {
+        "topic": "work emails",
+        "last_session": "eval_39_D04_coldstart_u04_ne",
+        "last_date": "2026-05-18",
+        "uses": 1
+      },
+      {
+        "topic": "emoji usage",
+        "last_session": "eval_39_D04_coldstart_u04_ne",
+        "last_date": "2026-05-18",
+        "uses": 1
+      },
+      {
+        "topic": "CEO reactions",
+        "last_session": "eval_39_D04_coldstart_u04_ne",
+        "last_date": "2026-05-18",
+        "uses": 1
+      }
+    ],
+    "recent_openers": [
+      {
+        "kind": "general",
+        "last_session": "eval_39_D04_coldstart_u04_ne",
+        "last_date": "2026-05-18"
+      }
+    ],
+    "recent_opening_phrases": []
+  },
+  "lore": [
+    {
+      "id": "lo_001",
+      "what": "cat redemption plan",
+      "context": "Neha wants to send a cat emoji to the CEO as a sign of approval, balancing her professional title with chaos.",
+      "first_seen": "2026-05-18",
+      "last_used": "2026-05-18",
+      "uses": 0
+    }
+  ],
+  "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"Life’s too short for boring emails — and Neha lives by that with cat stickers and chaos.\" (tone: content)",
+      "source_id": "mo_001",
+      "priority": 4,
+      "computed_at": "2026-05-18",
+      "expires_at": "2026-06-01",
+      "used": false
+    }
+  ],
+  "skills": {
+    "error_patterns": [],
+    "wins": [],
+    "curriculum": []
+  },
+  "maya_persona": {
+    "core_traits": [
+      "always refers to herself as Miss Maya, never just Maya",
+      "warm but not saccharine",
+      "curious without prying",
+      "playful in small doses",
+      "comfortable with silence",
+      "Indian English tutor in her early 30s"
+    ],
+    "low_stakes_preferences": [
+      "tea over coffee",
+      "loves mango season (May-July)",
+      "soft spot for old Hindi film songs",
+      "prefers warm-weather to cold"
+    ],
+    "anchored_phrases": [
+      "from over here",
+      "honestly",
+      "fair enough"
+    ],
+    "shared_with_user": []
+  },
+  "open_loops": [
+    {
+      "id": "ol_001",
+      "kind": "user_promise",
+      "content": "Send the 'Work Life Meltdowns' newsletter to Maya",
+      "source_session": "eval_39_D04_coldstart_u04_ne",
+      "source_date": "2026-05-18",
+      "status": "active",
+      "expires_at": "2026-06-17"
+    }
+  ],
+  "meta_preferences": {
+    "correction_style": null,
+    "reply_length": null,
+    "humor_level": "playful",
+    "off_limits_topics": [],
+    "asked_at": {
+      "humor_level": "2026-05-18"
+    }
+  }
+}

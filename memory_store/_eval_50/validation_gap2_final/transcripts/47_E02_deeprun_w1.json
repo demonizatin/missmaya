@@ -1,0 +1,612 @@
+{
+  "spec": {
+    "idx": 47,
+    "profile_id": "u04_neha",
+    "eval_user_key": "u04_neha",
+    "today": "2026-05-08",
+    "turns_target": 10,
+    "emotional_state": "lonely, wanting to talk",
+    "label": "E02_deeprun_w1"
+  },
+  "profile": {
+    "id": "u04_neha",
+    "user_name": "Neha",
+    "profession": "Product designer at a startup",
+    "mother_tongue": "Tamil",
+    "interests": "Indie music, travel, cafes",
+    "engagement": "chatty",
+    "english_level": "B2",
+    "personality": "expressive, witty, fluent — uses contractions and casual idioms"
+  },
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "maya",
+      "content": "Hi Neha, your laptop sounds like it's judging you — but is the coconut chutney keyboard still sticky or has it moved on to a new dish?"
+    },
+    {
+      "turn": 2,
+      "role": "user",
+      "content": "Oh, don’t get me started on that keyboard — it's practically a museum of my snack habits. But hey, at least it’s authentic, right? So, what’s new with you, Maya?"
+    },
+    {
+      "turn": 2,
+      "role": "maya",
+      "content": "Right, that sounds like a snack-scented keyboard for life. Speaking of life updates — how’s your dog reacting to the chaos in your kitchen these days?"
+    },
+    {
+      "turn": 3,
+      "role": "user",
+      "content": "Buddy... well, let's see, the dog's a pro now. She’s got this whole \"ignore the mess, but bark at the vacuum\" thing down. It’s a vibe. But I miss the old days when she’d jump just because I opened a bag of chips. Maya, I’m not sure I could survive another week of solo cooking — any recommendations for non-kitchen chaos? Or maybe just a good playlist to drown out my... *chef skills*?"
+    },
+    {
+      "turn": 3,
+      "role": "maya",
+      "content": "Right, a pro at selective focus — she’s got good taste in ignoring the mess. Jumping at chips was way more fun. For solo cooking survival, maybe a playlist with chill indie beats to match your vibe? Something upbeat to drown out the chaos?"
+    },
+    {
+      "turn": 4,
+      "role": "user",
+      "content": "Yeah, chill indie is the way to go — I’ve been stuck on this Tame Impala phase lately. Feels like I’m at a beach bonfire even when I’m just burning rice. But Maya, are you into music? Or is your vibe more... spreadsheet symphony?"
+    },
+    {
+      "turn": 4,
+      "role": "maya",
+      "content": "I get that — Tame Impala is perfect for pretend bonfires and real kitchen disasters. Me? I’m more into the quiet hum of a well-organized day. But I’ll admit, a little indie music makes even spreadsheets feel like a party. What’s your go-to song when things start to go sideways?"
+    },
+    {
+      "turn": 5,
+      "role": "user",
+      "content": "Oh, definitely \"Boredom\" by The Black Keys on loop. It’s like the soundtrack to my kitchen meltdown — equal parts sad and cool. But honestly, when things go sideways, I just start humming along and pretend I’m in a rom-com where the chaos is actually cute. Have you ever had one of those days where everything just *clicks*? Like the rice doesn’t burn, the dog doesn’t bark, and your playlist feels like it was made just for you? I need that day."
+    },
+    {
+      "turn": 5,
+      "role": "maya",
+      "content": "Right, \"Boredom\" as the kitchen anthem — that’s a rom-com twist no one would believe. Days where everything *clicks* — yes, I imagine a morning where the rice is perfect, the playlist is golden, and even the dog naps through the chaos. What would you do differently on a day like that?"
+    },
+    {
+      "turn": 6,
+      "role": "user",
+      "content": "On a clicky day, I’d probably just sit back with a chai and feel *so* accomplished — like, \"Neha, you’re basically a homemaker MVP!\" But seriously, I’d try to savor it. Maybe even take a photo of the unburnt rice for my \"I Did It\" folder. But let’s be real, the second I hit \"save,\" the dog would probably spill the chai. Classic."
+    },
+    {
+      "turn": 6,
+      "role": "maya",
+      "content": "Right, MVP status and unburnt rice — that’s the dream. A photo for the \"I Did It\" folder sounds like a victory. And yes, the second you hit \"save,\" the dog would spill the chai. What’s the funniest way your dog has messed with you lately?"
+    },
+    {
+      "turn": 7,
+      "role": "user",
+      "content": "Oh, Buddy’s antics? Let me think… The other day, I left a plate of chapati on the counter (big mistake) and when I came back, she had this *perfect* bite taken out of it. Like she’s some fancy dog chef tasting the dough. I swear, she looked up at me with that \"I’m in charge of quality control\" face. Total dog sass. But hey, at least she’s got standards — even if they’re made of flour."
+    },
+    {
+      "turn": 7,
+      "role": "maya",
+      "content": "Right, a quality-control dog with a taste for chapati — that’s a level of sass only Buddy could reach. Flour-coated and in charge — what’s next? A Michelin star for sniffing?"
+    },
+    {
+      "turn": 8,
+      "role": "user",
+      "content": "Michelin star? Please, she’s already got \"Best in Sit and Stare\" at the neighborhood dog awards. But seriously, I think I need to start calling her my *co-chef* — she’s got a nose for trouble and a taste for carbs. Maybe next time I’ll just let her taste-test the idli batter… and then blame her if it turns out soggy. Classic Neha move."
+    },
+    {
+      "turn": 8,
+      "role": "maya",
+      "content": "Right, a co-chef with a carb obsession — let the tastings begin. Blame her for soggy idli? Now you’re speaking my language. What’s the weirdest recipe hack she’s inspired you to try?"
+    },
+    {
+      "turn": 9,
+      "role": "user",
+      "content": "Okay, fair — the weirdest hack? I tried mixing her dry kibble into a dosa batter because I was like, “Why not? It’s got protein!” The dosa was weirdly crispy and she stared at me like, “You’re the problem, Neha.” I think I’ve peaked as a co-chef. But hey, at least we’re on the same wavelength now — chaos and carbs, right?"
+    },
+    {
+      "turn": 9,
+      "role": "maya",
+      "content": "Right, kibble dosa — that’s a recipe for chaos and curiosity. “You’re the problem, Neha” is a look I’d frame. So, what’s next on the co-chef menu — kibble paratha or kibble pakora?"
+    },
+    {
+      "turn": 10,
+      "role": "user",
+      "content": "Kibble paratha? Let’s just say Buddy’s approval rating is based purely on how much butter I add. But I’m not above bribing her with ghee — if she sits still for five minutes, I might actually make it to the end of a cooking session without a disaster. But Maya, I think I’ve taken up enough of your time with my kitchen dramas… gotta get back to my spreadsheet symphony or whatever vibe you’re into. Talk soon!"
+    },
+    {
+      "turn": 10,
+      "role": "maya",
+      "content": "Right, butter is the universal language — even for co-chefs. Your kitchen dramas are far from a waste of time; they’re the best kind of chaos. Take your time, and keep the spreadsheet symphony going — I’ll be here for the next round. Talk soon!"
+    }
+  ],
+  "memory_before": {
+    "facts": {
+      "nickname": "Neha",
+      "occupation": "product designer",
+      "has_dog": true,
+      "has_roommate": true,
+      "loves_spicy_food": true,
+      "favorite_spice": "chaat masala",
+      "favorite_dish_to_make": "pani puri",
+      "enjoys_flavor_experimentation": true
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "spilled idli appalam on laptop in morning; keyboard now sticks and smells like coconut chutney",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": false
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Kitchen fails are just life lessons with a side of smoke alarm drama",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Innovation starts with a little madness—willing to experiment even when others think I've lost it",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "spicy food preferences",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "kitchen disasters",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "flavor experimentation",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "'Neha's surprise'—the biryani where Neha forgot the rice and made 'a giant meatloaf'",
+        "context": "Neha's roommate thought it was a new dish and still calls it that. A warm mishap that became a running joke.",
+        "first_seen": "2026-05-01",
+        "last_used": "2026-05-01",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "event_upcoming",
+        "content": "Ask about \"spilled idli appalam on laptop in morning; keyboard now sticks and smells like coconut chutney\" — today",
+        "source_id": "ev_001",
+        "priority": 10,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Uses metaphor and personification naturally for humor (e.g. \"'my laptop is judging me' and 'my tastebuds are in a perpetual state of heat'\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Uses idiomatic expressions naturally and correctly (e.g. \"'I'm so over Mondays', 'my jam', 'hands down'\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Constructs complex, flowing sentences with multiple clauses (e.g. \"'I cooked everything else—meat, spices, veggies—and realized halfway through that the pot was just a giant meatloaf'\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Kitchen fails are just life lessons with a side of smoke alarm drama\" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-01",
+        "expires_at": "2026-05-15",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "Uses metaphor and personification naturally for humor",
+          "examples": [
+            "'my laptop is judging me' and 'my tastebuds are in a perpetual state of heat'"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Uses idiomatic expressions naturally and correctly",
+          "examples": [
+            "'I'm so over Mondays', 'my jam', 'hands down'"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Constructs complex, flowing sentences with multiple clauses",
+          "examples": [
+            "'I cooked everything else—meat, spices, veggies—and realized halfway through that the pot was just a giant meatloaf'"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "watch Neha's 'Flavor Fails or Wins?' livestream when she sends the link",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "memory_after": {
+    "facts": {
+      "nickname": "Neha",
+      "occupation": "product designer",
+      "has_dog": true,
+      "has_roommate": true,
+      "loves_spicy_food": true,
+      "favorite_spice": "chaat masala",
+      "favorite_dish_to_make": "pani puri",
+      "enjoys_flavor_experimentation": true
+    },
+    "events": [
+      {
+        "id": "ev_001",
+        "what": "spilled idli appalam on laptop in morning; keyboard now sticks and smells like coconut chutney",
+        "date": "2026-05-01",
+        "added": "2026-05-01",
+        "followed_up": true
+      }
+    ],
+    "moments": [
+      {
+        "id": "mo_001",
+        "text": "Kitchen fails are just life lessons with a side of smoke alarm drama",
+        "tone": "content",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_002",
+        "text": "Innovation starts with a little madness—willing to experiment even when others think I've lost it",
+        "tone": "excited",
+        "sensitive": false,
+        "first_seen": "2026-05-01",
+        "last_seen": "2026-05-01",
+        "mentions": 1
+      },
+      {
+        "id": "mo_003",
+        "text": "When things go sideways, I just start humming along and pretend I'm in a rom-com where the chaos is actually cute",
+        "tone": "hopeful",
+        "sensitive": false,
+        "first_seen": "2026-05-08",
+        "last_seen": "2026-05-08",
+        "mentions": 1
+      }
+    ],
+    "mood_log": [
+      {
+        "session_id": "eval_46_E01_deeprun_w0",
+        "date": "2026-05-01",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      },
+      {
+        "session_id": "eval_47_E02_deeprun_w1",
+        "date": "2026-05-08",
+        "label": "energetic",
+        "energy": 7,
+        "confidence": 0.52,
+        "behavioral": {
+          "msg_count": 0,
+          "total_chars": 0,
+          "avg_words": 0.0,
+          "questions_back": 0,
+          "exclamations": 0,
+          "negation_density": 0.0,
+          "engagement_score": 0.5
+        },
+        "agreement": "soft_conflict",
+        "linked_event_id": null
+      }
+    ],
+    "cooldown": {
+      "recent_topics": [
+        {
+          "topic": "dog behavior",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "music",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "perfect days",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08",
+          "uses": 1
+        },
+        {
+          "topic": "spicy food preferences",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "kitchen disasters",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        },
+        {
+          "topic": "flavor experimentation",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01",
+          "uses": 1
+        }
+      ],
+      "recent_openers": [
+        {
+          "kind": "general",
+          "last_session": "eval_46_E01_deeprun_w0",
+          "last_date": "2026-05-01"
+        },
+        {
+          "kind": "event_followup",
+          "last_session": "eval_47_E02_deeprun_w1",
+          "last_date": "2026-05-08"
+        }
+      ],
+      "recent_opening_phrases": []
+    },
+    "lore": [
+      {
+        "id": "lo_001",
+        "what": "'Neha's surprise'—the biryani where Neha forgot the rice and made 'a giant meatloaf'",
+        "context": "Neha's roommate thought it was a new dish and still calls it that. A warm mishap that became a running joke.",
+        "first_seen": "2026-05-01",
+        "last_used": "2026-05-01",
+        "uses": 0
+      }
+    ],
+    "anticipation_queue": [
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Uses metaphor and personification naturally for humor (e.g. \"'my laptop is judging me' and 'my tastebuds are in a perpetual state of heat'\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Uses idiomatic expressions naturally and correctly (e.g. \"'I'm so over Mondays', 'my jam', 'hands down'\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "skill_celebration",
+        "content": "Celebrate concretely: Constructs complex, flowing sentences with multiple clauses (e.g. \"'I cooked everything else—meat, spices, veggies—and realized halfway through that the pot was just a giant meatloaf'\")",
+        "source_id": null,
+        "priority": 5,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"When things go sideways, I just start humming along and pretend I'm in a rom-com where the\" (tone: hopeful)",
+        "source_id": "mo_003",
+        "priority": 4,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      },
+      {
+        "kind": "moment_followup",
+        "content": "Gently check in: \"Kitchen fails are just life lessons with a side of smoke alarm drama\" (tone: content)",
+        "source_id": "mo_001",
+        "priority": 4,
+        "computed_at": "2026-05-08",
+        "expires_at": "2026-05-22",
+        "used": false
+      }
+    ],
+    "skills": {
+      "error_patterns": [],
+      "wins": [
+        {
+          "what": "Uses metaphor and personification naturally for humor",
+          "examples": [
+            "'my laptop is judging me' and 'my tastebuds are in a perpetual state of heat'"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Uses idiomatic expressions naturally and correctly",
+          "examples": [
+            "'I'm so over Mondays', 'my jam', 'hands down'"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        },
+        {
+          "what": "Constructs complex, flowing sentences with multiple clauses",
+          "examples": [
+            "'I cooked everything else—meat, spices, veggies—and realized halfway through that the pot was just a giant meatloaf'"
+          ],
+          "count": 1,
+          "first_seen": "2026-05-01",
+          "last_seen": "2026-05-01"
+        }
+      ],
+      "curriculum": []
+    },
+    "maya_persona": {
+      "core_traits": [
+        "always refers to herself as Miss Maya, never just Maya",
+        "warm but not saccharine",
+        "curious without prying",
+        "playful in small doses",
+        "comfortable with silence",
+        "Indian English tutor in her early 30s"
+      ],
+      "low_stakes_preferences": [
+        "tea over coffee",
+        "loves mango season (May-July)",
+        "soft spot for old Hindi film songs",
+        "prefers warm-weather to cold"
+      ],
+      "anchored_phrases": [
+        "from over here",
+        "honestly",
+        "fair enough"
+      ],
+      "shared_with_user": []
+    },
+    "open_loops": [
+      {
+        "id": "ol_001",
+        "kind": "maya_promise",
+        "content": "watch Neha's 'Flavor Fails or Wins?' livestream when she sends the link",
+        "source_session": "eval_46_E01_deeprun_w0",
+        "source_date": "2026-05-01",
+        "status": "active",
+        "expires_at": "2026-05-31"
+      }
+    ],
+    "meta_preferences": {
+      "correction_style": null,
+      "reply_length": null,
+      "humor_level": null,
+      "off_limits_topics": [],
+      "asked_at": {}
+    }
+  },
+  "librarian_ok": true,
+  "duration_s": 154.0
+}
