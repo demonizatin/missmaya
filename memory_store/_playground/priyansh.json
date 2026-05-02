@@ -3,7 +3,10 @@
     "interests": [
       "F1 (sport)",
       "Ferrari",
-      "swimming (sport)"
+      "swimming (sport)",
+      "BMW M340i (car)",
+      "Virtus GT (car)",
+      "performance cars"
     ],
     "favorite_beverages": [
       "Red Bull",
@@ -72,6 +75,24 @@
       "sensitive": false,
       "first_seen": "2026-05-06",
       "last_seen": "2026-05-06",
+      "mentions": 1
+    },
+    {
+      "id": "mo_004",
+      "text": "she told me to fuck off",
+      "tone": "sad",
+      "sensitive": false,
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "mentions": 1
+    },
+    {
+      "id": "mo_005",
+      "text": "everybody will reject me",
+      "tone": "anxious",
+      "sensitive": false,
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
       "mentions": 1
     }
   ],
@@ -169,19 +190,73 @@
     {
       "session_id": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
       "date": "2026-05-10",
-      "label": "neutral",
-      "energy": 4,
-      "confidence": 0.28,
+      "label": "low",
+      "energy": 3,
+      "confidence": 0.65,
       "behavioral": {
-        "msg_count": 4,
-        "total_chars": 59,
-        "avg_words": 3.2,
+        "msg_count": 11,
+        "total_chars": 144,
+        "avg_words": 2.5,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.074,
+        "engagement_score": 0.33
+      },
+      "agreement": "match",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "779afeaa-9fc0-41ea-8f93-31545303b8e4",
+      "date": "2026-05-10",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.15,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
         "questions_back": 0,
         "exclamations": 0,
         "negation_density": 0.0,
-        "engagement_score": 0.28
+        "engagement_score": 0.5
       },
-      "agreement": "soft_conflict",
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "651b5ea8-e018-42a3-b949-a7e0732d708c",
+      "date": "2026-05-10",
+      "label": "no_read",
+      "energy": null,
+      "confidence": 0.5,
+      "behavioral": {
+        "msg_count": 0,
+        "total_chars": 0,
+        "avg_words": 0.0,
+        "questions_back": 0,
+        "exclamations": 0,
+        "negation_density": 0.0,
+        "engagement_score": 0.5
+      },
+      "agreement": "n/a",
+      "linked_event_id": null
+    },
+    {
+      "session_id": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
+      "date": "2026-05-10",
+      "label": "anxious",
+      "energy": 5,
+      "confidence": 0.3,
+      "behavioral": {
+        "msg_count": 22,
+        "total_chars": 675,
+        "avg_words": 6.8,
+        "questions_back": 4,
+        "exclamations": 0,
+        "negation_density": 0.034,
+        "engagement_score": 0.72
+      },
+      "agreement": "hard_conflict",
       "linked_event_id": null
     }
   ],
@@ -191,112 +266,77 @@
         "topic": "movies",
         "last_session": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
         "last_date": "2026-05-10",
+        "uses": 3
+      },
+      {
+        "topic": "politics",
+        "last_session": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
+        "last_date": "2026-05-10",
+        "uses": 1
+      },
+      {
+        "topic": "motivation",
+        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
+        "last_date": "2026-05-10",
+        "uses": 4
+      },
+      {
+        "topic": "car interests",
+        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
+        "last_date": "2026-05-10",
+        "uses": 1
+      },
+      {
+        "topic": "spending plans",
+        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
+        "last_date": "2026-05-10",
+        "uses": 1
+      },
+      {
+        "topic": "cars",
+        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
+        "last_date": "2026-05-10",
+        "uses": 1
+      },
+      {
+        "topic": "self-care",
+        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
+        "last_date": "2026-05-10",
         "uses": 2
+      },
+      {
+        "topic": "performance cars",
+        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
+        "last_date": "2026-05-10",
+        "uses": 1
+      },
+      {
+        "topic": "romantic rejection",
+        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
+        "last_date": "2026-05-10",
+        "uses": 1
+      },
+      {
+        "topic": "rejection processing",
+        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
+        "last_date": "2026-05-10",
+        "uses": 1
+      },
+      {
+        "topic": "self-improvement",
+        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
+        "last_date": "2026-05-10",
+        "uses": 1
       },
       {
         "topic": "passive voice practice",
         "last_session": "ce566403-1412-44d9-8069-6dff131fb65e",
         "last_date": "2026-05-09",
         "uses": 1
-      },
-      {
-        "topic": "product manager role",
-        "last_session": "ce566403-1412-44d9-8069-6dff131fb65e",
-        "last_date": "2026-05-09",
-        "uses": 1
-      },
-      {
-        "topic": "passive voice",
-        "last_session": "ce566403-1412-44d9-8069-6dff131fb65e",
-        "last_date": "2026-05-09",
-        "uses": 1
-      },
-      {
-        "topic": "product management",
-        "last_session": "ce566403-1412-44d9-8069-6dff131fb65e",
-        "last_date": "2026-05-09",
-        "uses": 1
-      },
-      {
-        "topic": "weekend plans",
-        "last_session": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
-        "last_date": "2026-05-07",
-        "uses": 4
-      },
-      {
-        "topic": "relaxation methods",
-        "last_session": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
-        "last_date": "2026-05-07",
-        "uses": 1
-      },
-      {
-        "topic": "swimming timing",
-        "last_session": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
-        "last_date": "2026-05-07",
-        "uses": 1
-      },
-      {
-        "topic": "swimming technique",
-        "last_session": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
-        "last_date": "2026-05-07",
-        "uses": 1
-      },
-      {
-        "topic": "memory review",
-        "last_session": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
-        "last_date": "2026-05-07",
-        "uses": 1
-      },
-      {
-        "topic": "movies and music",
-        "last_session": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
-        "last_date": "2026-05-07",
-        "uses": 2
-      },
-      {
-        "topic": "birthday celebration",
-        "last_session": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
-        "last_date": "2026-05-07",
-        "uses": 1
       }
     ],
     "recent_openers": [
       {
-        "kind": "general",
-        "last_session": "9977ee36-ba5e-484a-8cec-6b2c7c25d72f",
-        "last_date": "2026-05-06"
-      },
-      {
-        "kind": "general",
-        "last_session": "9977ee36-ba5e-484a-8cec-6b2c7c25d72f",
-        "last_date": "2026-05-06"
-      },
-      {
-        "kind": "general",
-        "last_session": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
-        "last_date": "2026-05-07"
-      },
-      {
-        "kind": "general",
-        "last_session": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
-        "last_date": "2026-05-07"
-      },
-      {
-        "kind": "general",
-        "last_session": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
-        "last_date": "2026-05-07"
-      },
-      {
-        "kind": "general",
-        "last_session": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
-        "last_date": "2026-05-07"
-      },
-      {
-        "kind": "skill_celebration",
-        "last_session": "ce566403-1412-44d9-8069-6dff131fb65e",
-        "last_date": "2026-05-09"
-      },
-      {
         "kind": "skill_celebration",
         "last_session": "ce566403-1412-44d9-8069-6dff131fb65e",
         "last_date": "2026-05-09"
@@ -309,25 +349,45 @@
       {
         "kind": "general",
         "last_session": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
+        "last_date": "2026-05-10"
+      },
+      {
+        "kind": "general",
+        "last_session": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
+        "last_date": "2026-05-10"
+      },
+      {
+        "kind": "general",
+        "last_session": "779afeaa-9fc0-41ea-8f93-31545303b8e4",
+        "last_date": "2026-05-10"
+      },
+      {
+        "kind": "skill_celebration",
+        "last_session": "651b5ea8-e018-42a3-b949-a7e0732d708c",
+        "last_date": "2026-05-10"
+      },
+      {
+        "kind": "general",
+        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
+        "last_date": "2026-05-10"
+      },
+      {
+        "kind": "general",
+        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
+        "last_date": "2026-05-10"
+      },
+      {
+        "kind": "general",
+        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
+        "last_date": "2026-05-10"
+      },
+      {
+        "kind": "general",
+        "last_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
         "last_date": "2026-05-10"
       }
     ],
     "recent_opening_phrases": [
-      {
-        "phrase": "{\"message\": \"Hi Priyansh, you mentioned wanting to chat about lighter things like Avengers, what kind of hero twist woul",
-        "session_id": "",
-        "date": "2026-05-02"
-      },
-      {
-        "phrase": "{\"message\": \"Hi Priyansh, I'm Miss Maya.",
-        "session_id": "1de197ca-ae48-49fa-a794-5e27068adc60",
-        "date": "2026-05-06"
-      },
-      {
-        "phrase": "{\"message\": \"Hi Priyansh, you're into F1, what's your go to team for race day thrills?",
-        "session_id": "9977ee36-ba5e-484a-8cec-6b2c7c25d72f",
-        "date": "2026-05-06"
-      },
       {
         "phrase": "{\"message\": \"Hi Priyansh, I love how light weekends feel, no matter the plan.",
         "session_id": "ff32d6dd-794d-4dca-933c-f91ba68caddc",
@@ -342,11 +402,44 @@
         "phrase": "{\"message\": \"The light in the evening makes me think of old movies, what's one you'd watch on repeat?",
         "session_id": "1ebed283-1520-4aa7-af90-b5d6ca60424e",
         "date": "2026-05-10"
+      },
+      {
+        "phrase": "{\"message\": \"Right — let's keep going.",
+        "session_id": "779afeaa-9fc0-41ea-8f93-31545303b8e4",
+        "date": "2026-05-10"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Priyansh, I'm impressed with how you handled that passive voice conversion!",
+        "session_id": "651b5ea8-e018-42a3-b949-a7e0732d708c",
+        "date": "2026-05-10"
+      },
+      {
+        "phrase": "{\"message\": \"Hi Priyansh, I admire your drive, what's on your mind today?",
+        "session_id": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
+        "date": "2026-05-10"
       }
     ]
   },
   "lore": [],
   "anticipation_queue": [
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"she told me to fuck off\" (tone: sad)",
+      "source_id": "mo_004",
+      "priority": 7,
+      "computed_at": "2026-05-10",
+      "expires_at": "2026-05-24",
+      "used": false
+    },
+    {
+      "kind": "moment_followup",
+      "content": "Gently check in: \"everybody will reject me\" (tone: anxious)",
+      "source_id": "mo_005",
+      "priority": 7,
+      "computed_at": "2026-05-10",
+      "expires_at": "2026-05-24",
+      "used": false
+    },
     {
       "kind": "skill_celebration",
       "content": "Celebrate concretely: correctly converted 'He eats biryani every weekend' to passive voice (e.g. \"biryani is eaten by him every weekend\")",
@@ -436,6 +529,24 @@
   },
   "open_loops": [
     {
+      "id": "ol_004",
+      "kind": "maya_promise",
+      "content": "practice conversation starters for talking to girls at a club",
+      "source_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
+      "source_date": "2026-05-10",
+      "status": "active",
+      "expires_at": "2026-06-09"
+    },
+    {
+      "id": "ol_005",
+      "kind": "user_promise",
+      "content": "practice conversation skills with girls at clubs",
+      "source_session": "a98b394c-855d-4199-9f97-9ff1c2b4df9f",
+      "source_date": "2026-05-10",
+      "status": "active",
+      "expires_at": "2026-06-09"
+    },
+    {
       "id": "ol_001",
       "kind": "event_pending",
       "content": "what the user is doing to celebrate their birthday",
@@ -467,7 +578,9 @@
     "correction_style": null,
     "reply_length": null,
     "humor_level": null,
-    "off_limits_topics": [],
+    "off_limits_topics": [
+      "movies"
+    ],
     "asked_at": {}
   }
 }
