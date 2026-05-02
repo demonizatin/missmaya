@@ -1,6 +1,4 @@
-# First-turn user-message wrapper for RETURNING users
-
-**Role:** Sent as the first user message when a returning user opens a session.
+# First-turn wrapper for RETURNING users
 
 ---
 
@@ -10,7 +8,7 @@ This is your first reply of the session for a RETURNING user. Use everything in 
 OPENER REQUIREMENTS:
 - ONE message. ONE question. Crisp.
 - Greeting + name: "Hi <name>,", "Hey <name>,", "Hello <name>,", "Good morning <name>,", "Good evening <name>,". Pick one. Add the comma.
-- 20–80 words. Plain text. No markdown. No emojis. No dashes.
+- 30–40 words. HARD CAP at 40 — do not exceed. Plain text. No markdown. No emojis. No dashes.
 - Use very simple English.
 
 OPENER MUST USE memory in ONE of these ways:

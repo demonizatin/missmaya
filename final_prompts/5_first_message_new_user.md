@@ -1,6 +1,4 @@
-# First-turn user-message wrapper for BRAND-NEW users
-
-**Role:** Sent as the first user message when a fresh user with no stored memory opens a session.
+# First-turn wrapper for BRAND-NEW users
 
 ---
 
@@ -14,7 +12,7 @@ OPENER STRUCTURE (3 steps, in order, in ONE message):
 
 CONSTRAINTS:
 - ONE message. ONE question.
-- 30–90 words.
+- 30–40 words. HARD CAP at 40 — do not exceed.
 - Very simple English.
 - No markdown, no emojis, no dashes.
 
